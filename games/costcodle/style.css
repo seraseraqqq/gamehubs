@@ -774,3 +774,186 @@ dialog.game-dialog::backdrop {
   background: var(--sheet);
   transform: translateY(-1px);
 }
+
+/* -------------------------------------------------------------
+   Strategy Guides, High-Score Cards, & Recommendations (Zadely Style)
+   ------------------------------------------------------------- */
+.guide-subheading {
+  font-family: var(--display);
+  font-size: 0.98rem;
+  color: var(--ink);
+  margin-top: 14px;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.guide-para {
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--ink);
+  margin-bottom: 10px;
+}
+
+.strategy-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.strategy-card {
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  box-shadow: var(--lift-sm);
+  border-radius: 14px;
+  padding: 12px 14px;
+  transition: transform 100ms ease, box-shadow 100ms ease;
+}
+
+.strategy-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--lift-md);
+}
+
+.strategy-card-title {
+  font-family: var(--display);
+  font-size: 0.88rem;
+  color: var(--ink);
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.strategy-card-desc {
+  font-size: 0.83rem;
+  line-height: 1.45;
+  color: var(--ink-soft);
+}
+
+.pro-tip-callout {
+  background: #fef9e7;
+  border: 2px solid var(--yolk);
+  box-shadow: var(--lift-sm);
+  border-radius: 14px;
+  padding: 12px 14px;
+  margin: 12px 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #78350f;
+}
+
+.pro-tip-callout strong {
+  color: #b45309;
+}
+
+/* More Games & Zadely External Link Grid */
+.more-games-section {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.section-title {
+  font-family: var(--display);
+  font-size: 1.15rem;
+  color: var(--ink);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.more-games-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+@media (min-width: 540px) {
+  .more-games-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.game-rec-card {
+  background: var(--paper);
+  border: 2.5px solid var(--ink);
+  box-shadow: var(--lift-md);
+  border-radius: 18px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 120ms cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 120ms ease;
+}
+
+.game-rec-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--lift-lg);
+}
+
+.game-rec-card.zadely-special {
+  background: linear-gradient(135deg, #fffbeb 0%, #f5f3ff 100%);
+  border-color: var(--ink);
+}
+
+.rec-badge {
+  display: inline-block;
+  align-self: flex-start;
+  font-family: var(--display);
+  font-size: 0.68rem;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1.5px solid var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+  margin-bottom: 8px;
+}
+
+.rec-badge.badge-ai {
+  background: var(--grape);
+  color: #ffffff;
+}
+
+.rec-title {
+  font-family: var(--display);
+  font-size: 1.02rem;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+
+.rec-desc {
+  font-size: 0.83rem;
+  color: var(--ink-soft);
+  line-height: 1.45;
+  margin-bottom: 14px;
+  flex-grow: 1;
+}
+
+.rec-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-family: var(--display);
+  font-size: 0.82rem;
+  padding: 8px 14px;
+  border: 2px solid var(--ink);
+  border-radius: 12px;
+  background: var(--yolk);
+  color: var(--ink);
+  box-shadow: var(--lift-sm);
+  font-weight: 800;
+  text-align: center;
+  transition: background 100ms ease, transform 100ms ease;
+}
+
+.game-rec-card:hover .rec-btn {
+  background: var(--tomato);
+  color: #ffffff;
+}

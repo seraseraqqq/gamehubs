@@ -103,6 +103,38 @@
               "@type": "Answer",
               "text": "No downloads or accounts are needed. Costcodle runs natively inside your web browser on mobile phones, tablets, Chromebooks, and PCs."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "How is the 5% winning tolerance calculated in Costcodle?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your guess is accepted as a win whenever the difference between your guess and the real warehouse price is within 5% of the true price. For example, for a $50 item, any guess between $47.50 and $52.50 results in a green win!"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "When does the Daily Costcodle challenge reset?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The Daily Costcodle resets every midnight in your local timezone. Every player worldwide gets the exact same daily item on the same calendar day."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are Costco's secret price tag endings (.97, .99, .88)?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Prices ending in .99 indicate regular full-price stock. Endings in .97 mean manager clearance markdowns. Endings in .49, .79, or .89 represent manufacturer deals, and an asterisk (*) signifies discontinued inventory."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best strategy or opening guess in Costcodle?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use a binary search strategy. Open grocery items around $15 to $20 and electronics around $100. Follow the higher/lower arrow and color signals (Yellow = within 25%) to quickly bracket the answer within 3 to 4 guesses."
+            }
           }
         ]
       }
@@ -196,39 +228,143 @@
       <span class="tag-pill">📈 Streak Tracking</span>
     </div>
 
-    <!-- Content & Rules Section -->
+    <!-- Detailed Guides, Strategies, & FAQs -->
     <section class="content-section">
+      <!-- Section 1: Core Rules -->
       <article class="guide-block">
         <h2 class="guide-heading">How to Play Costcodle Unlimited</h2>
         <ul class="guide-list">
-          <li><strong>Study:</strong> Look at the product name, packaging specs, and size details.</li>
-          <li><strong>Guess:</strong> Enter your estimate of the product's actual warehouse dollar price.</li>
-          <li><strong>Feedback:</strong> Arrows indicate if the price is higher (↑) or lower (↓).</li>
-          <li><strong>Colors:</strong> <strong style="color:var(--tomato);">Red</strong> is off by &gt;25%, <strong style="color:var(--orange);">Yellow</strong> is within 25%, and <strong style="color:var(--leaf);">Green</strong> is within 5% (Win!).</li>
-          <li><strong>Unlimited:</strong> Switch to Unlimited Mode anytime to practice with dozens of real warehouse items.</li>
+          <li><strong>Examine the Product:</strong> Check out the official warehouse photo and item title.</li>
+          <li><strong>Enter Dollar Estimate:</strong> Type your best guess for the authentic warehouse price.</li>
+          <li><strong>Interpret Direction:</strong> Arrows signal if the real price is higher (↑) or lower (↓).</li>
+          <li><strong>Color Signals:</strong> <strong style="color:var(--tomato);">Red</strong> is &gt;25% away (cold), <strong style="color:var(--orange);">Yellow</strong> is within 25% (warm), and <strong style="color:var(--leaf);">Green</strong> is within 5% (Win!).</li>
+          <li><strong>Unlimited Practice:</strong> Toggle Unlimited Mode anytime for infinite items, streak tracking, and stat stats.</li>
         </ul>
       </article>
 
-      <!-- Expandable FAQ Accordion for SERP Rich Snippets -->
-      <details class="faq-item">
-        <summary>What is Costcodle Unlimited?</summary>
-        <p>Costcodle Unlimited is a free price-guessing trivia game. While the classic daily mode gives you one puzzle per day, Unlimited Mode allows endless continuous play with full streak and score tracking.</p>
-      </details>
+      <!-- Section 2: Pricing Psychology & Tag Decoders -->
+      <article class="guide-block">
+        <h2 class="guide-heading">Costco Pricing Secrets &amp; Tag Decoders</h2>
+        <p class="guide-para">Experienced Costco shoppers rarely pay full price because warehouse tag endings reveal secret inventory tiers. Use these price patterns to refine your guesses:</p>
 
-      <details class="faq-item">
-        <summary>How do the temperature colors and arrows work?</summary>
-        <p>After each guess, an arrow tells you whether the true price is higher (↑) or lower (↓). Red means cold (over 25% away), yellow means warm (within 25%), and green means you are within 5%—scoring a win!</p>
-      </details>
+        <div class="strategy-grid">
+          <div class="strategy-card">
+            <div class="strategy-card-title">🏷️ The .99 Full-Price Baseline</div>
+            <div class="strategy-card-desc">Standard wholesale items that haven't been discounted end in <strong>.99</strong>. If you are guessing everyday Kirkland paper products, nuts, olive oil, or pantry essentials, default your cents to .99.</div>
+          </div>
+          <div class="strategy-card">
+            <div class="strategy-card-title">⚡ The .97 Manager Markdown</div>
+            <div class="strategy-card-desc">When a price ends in <strong>.97</strong>, the local warehouse manager has manually slashed the price to clear floor inventory. Great seasonal apparel and patio furniture deals cluster around .97.</div>
+          </div>
+          <div class="strategy-card">
+            <div class="strategy-card-title">🌭 Sacred Anchors: $1.50 &amp; $4.99</div>
+            <div class="strategy-card-desc">Costco's legendary food court Hot Dog combo (<strong>$1.50</strong>) and freshly roasted Rotisserie Chicken (<strong>$4.99</strong>) are historic price anchors that never change. Always memorize these iconic staples!</div>
+          </div>
+        </div>
 
-      <details class="faq-item">
-        <summary>Are the product prices based on real Costco stores?</summary>
-        <p>Yes. Prices are curated from real US Costco warehouse price tags across food court classics, Kirkland Signature groceries, electronics, and seasonal items.</p>
-      </details>
+        <div class="pro-tip-callout">
+          <strong>💡 Price Tag Secret:</strong> Endings like <strong>.49</strong>, <strong>.79</strong>, or <strong>.89</strong> usually signify special manufacturer volume promotions where brands subsidized trial pricing.
+        </div>
+      </article>
 
-      <details class="faq-item">
-        <summary>Can I share my score with friends?</summary>
-        <p>Yes! When you complete a round, click the Share button to copy a spoiler-free emoji grid (just like Wordle) to paste into group chats or social media.</p>
-      </details>
+      <!-- Section 3: High-Streak Binary Search Strategy -->
+      <article class="guide-block">
+        <h2 class="guide-heading">High-Streak Blueprint: The Binary Search Strategy</h2>
+        <p class="guide-para">Consistently winning within 3 to 4 guesses is pure mathematics. Use binary search brackets rather than emotional intuition:</p>
+
+        <div class="strategy-grid">
+          <div class="strategy-card">
+            <div class="strategy-card-title">🎯 Step 1: Anchor the Opening Bracket</div>
+            <div class="strategy-card-desc">Never guess wildly. For grocery staples, open at <strong>$15.00 to $20.00</strong>. For electronics or outdoor gear, open at <strong>$150.00</strong>. The first arrow immediately eliminates 50% of possible values.</div>
+          </div>
+          <div class="strategy-card">
+            <div class="strategy-card-title">🌡️ Step 2: Read Red vs. Yellow Tiers</div>
+            <div class="strategy-card-desc">If red (&gt;25% away), jump boldly by 35% to 50%. Once yellow appears, you are within 25% of the real tag! You have entered the strike zone—avoid huge leaps now.</div>
+          </div>
+          <div class="strategy-card">
+            <div class="strategy-card-title">🟢 Step 3: Chip into the 5% Green Window</div>
+            <div class="strategy-card-desc">You do not need to guess the exact penny. On a $30.00 item, any guess between $28.50 and $31.50 wins. Use the quick adjustment chips (+$1, +$5) to quickly dial in your win.</div>
+          </div>
+        </div>
+
+        <div class="pro-tip-callout">
+          <strong>🏆 Streak Mastery:</strong> In Unlimited Mode, your current streak and max streak are permanently recorded. Sticking rigorously to the binary search split keeps win rates above 90%.
+        </div>
+      </article>
+
+      <!-- Section 4: Expandable FAQ Accordion for Rich Search Snippets -->
+      <article class="guide-block">
+        <h2 class="guide-heading">Frequently Asked Questions</h2>
+        
+        <details class="faq-item">
+          <summary>What is Costcodle Unlimited?</summary>
+          <p>Costcodle Unlimited is a free price-guessing trivia game. While the classic daily mode gives you one puzzle per day, Unlimited Mode allows endless continuous play with full streak and score tracking across 150+ authentic items.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do the temperature colors and arrows work?</summary>
+          <p>After each guess, an arrow tells you whether the true price is higher (↑) or lower (↓). Red means cold (over 25% away), yellow means warm (within 25%), and green means you are within 5%—scoring an instant win!</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>How is the 5% winning tolerance calculated?</summary>
+          <p>Your guess wins whenever the percentage difference between your estimate and the actual retail price is within 5%. For instance, on a $50.00 item, any guess between $47.50 and $52.50 is scored as a bullseye.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>When does the Daily Costcodle challenge reset?</summary>
+          <p>The Daily Challenge resets every midnight in your local timezone. Every player across the world gets the exact same daily item on that calendar date so you can compare scores fairly.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Are the product prices based on real Costco stores?</summary>
+          <p>Yes. Prices are curated from real US Costco warehouse price tags across food court classics, Kirkland Signature groceries, electronics, and seasonal home goods.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>What are Costco's secret price tag endings (.97, .99, .88)?</summary>
+          <p>Prices ending in .99 indicate regular full-price stock. Endings in .97 mean manager clearance markdowns. Endings in .49, .79, or .89 represent manufacturer deals, and an asterisk (*) signifies discontinued inventory.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Can I share my score with friends?</summary>
+          <p>Yes! When you complete a round, click the Share button to copy a spoiler-free emoji grid (just like Wordle) to paste into group chats or social media.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Do I need a Costco membership or account to play?</summary>
+          <p>No memberships, credit cards, or logins are required. Costcodle Unlimited is a completely free, fan-made trivia game that runs right in your browser on phones, Chromebooks, and desktops.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Is Costcodle affiliated with Costco Wholesale Corporation?</summary>
+          <p>No. Costcodle is an independent, non-commercial fan-made trivia game created for fun. It is not affiliated with, authorized, or endorsed by Costco Wholesale Corporation.</p>
+        </details>
+      </article>
+
+      <!-- Section 5: Related Games & Discover More -->
+      <section class="more-games-section" aria-label="Recommended Games and Links">
+        <h2 class="section-title">🕹️ Recommended Games &amp; Experiments</h2>
+        <div class="more-games-grid">
+          <a href="https://block-blast-unblocked-three.vercel.app/" class="game-rec-card" title="Play Block Blast Unblocked">
+            <div>
+              <span class="rec-badge">⚡ 8x8 Block Puzzle</span>
+              <h3 class="rec-title">Block Blast Unblocked</h3>
+              <p class="rec-desc">Train your spatial logic! Drag polyomino blocks into an 8x8 grid, trigger explosive line clears, and build massive combo streaks with zero network blocks.</p>
+            </div>
+            <span class="rec-btn">Play Block Blast Free ➔</span>
+          </a>
+
+          <a href="https://zadely.com/" target="_blank" rel="noopener noreferrer" class="game-rec-card zadely-special" title="Visit Zadely for more AI games">
+            <div>
+              <span class="rec-badge badge-ai">✨ Want More AI Games?</span>
+              <h3 class="rec-title">Visit zadely.com</h3>
+              <p class="rec-desc">Looking for more AI games and creative browser puzzles? Discover modern interactive playgrounds, prompt toys, and web experiences crafted with zero clutter.</p>
+            </div>
+            <span class="rec-btn">Explore Zadely.com ➔</span>
+          </a>
+        </div>
+      </section>
     </section>
 
     <!-- Footer & Trademark Disclaimer -->
