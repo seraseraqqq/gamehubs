@@ -1,18 +1,23 @@
 /**
- * Gulper.io - Advanced Neon Cyber Snake Engine
- * Authentic Slither & Gulper physics: True Thickness/Volume Scaling,
- * Continuous Glowing Spline Rendering, High-Intelligence AI, 60FPS.
+ * Gulper.io - Balanced Neon Cyber Snake Engine
+ * Authentic Slither & Gulper mechanics:
+ * 1. 3s Spawn Shield (Invulnerability on respawn)
+ * 2. Mass Decay Balancing (Passive weight loss for giant snakes)
+ * 3. Inertia & Weight Penalty (Bigger snakes turn slower & move slower)
+ * 4. Calibrated Gradual Growth (No sudden uncontrollable blowup)
+ * 5. Safe Spawning & Reduced Density (Expanded arena, 14 strategic bots)
  */
 
 (function () {
   'use strict';
 
-  const WORLD_RADIUS = 2000; // Large arena
+  const WORLD_RADIUS = 2600; // Expanded arena for optimal breathing room
   const BASE_SPEED = 3.6;
-  const BOOST_SPEED = 7.2;
-  const BASE_RADIUS = 13; // Starting snake thickness
-  const MAX_RADIUS = 65;  // Colossal boss thickness
-  const MIN_BOOST_LENGTH = 16;
+  const BOOST_SPEED = 7.0;
+  const BASE_RADIUS = 12.5; // Agile starter thickness
+  const MAX_RADIUS = 54;    // Leviathan maximum thickness
+  const SPAWN_SHIELD_FRAMES = 180; // 3 seconds at 60fps
+  const TARGET_BOTS = 14;   // Ideal balanced density (no wall-to-wall clutter)
 
   const BOT_NAMES = [
     'NeonStriker', 'CyberViper', 'GlowWorm', 'QuantumPulse', 'ByteCrusher',
@@ -38,12 +43,12 @@
       this.y = y;
       this.color = color;
       const ang = Math.random() * Math.PI * 2;
-      const spd = (0.8 + Math.random() * 3.0) * speedMul;
+      const spd = (0.7 + Math.random() * 2.5) * speedMul;
       this.vx = Math.cos(ang) * spd;
       this.vy = Math.sin(ang) * spd;
       this.alpha = 1.0;
-      this.size = 2.5 + Math.random() * 3.5;
-      this.decay = 0.02 + Math.random() * 0.03;
+      this.size = 2.2 + Math.random() * 3.0;
+      this.decay = 0.022 + Math.random() * 0.03;
     }
 
     update() {
@@ -71,17 +76,17 @@
       this.x = x;
       this.y = y;
       this.mass = mass;
-      // Visual size scales with mass
-      this.radius = Math.min(3.5 + Math.sqrt(mass) * 2.2, 16);
+      // Visual size calibrated to mass
+      this.radius = Math.min(3.2 + Math.sqrt(mass) * 1.8, 14);
       this.color = color || SKINS[Math.floor(Math.random() * SKINS.length)].glow;
       this.pulse = Math.random() * Math.PI * 2;
       this.isDrifting = mass >= 3;
-      this.vx = (Math.random() - 0.5) * (this.isDrifting ? 0.8 : 0.15);
-      this.vy = (Math.random() - 0.5) * (this.isDrifting ? 0.8 : 0.15);
+      this.vx = (Math.random() - 0.5) * (this.isDrifting ? 0.6 : 0.1);
+      this.vy = (Math.random() - 0.5) * (this.isDrifting ? 0.6 : 0.1);
     }
 
     update() {
-      this.pulse += 0.05;
+      this.pulse += 0.045;
       if (this.isDrifting) {
         this.x += this.vx;
         this.y += this.vy;
@@ -97,22 +102,21 @@
     }
 
     draw(ctx) {
-      const p = Math.sin(this.pulse) * (this.mass >= 3 ? 2.5 : 1.2);
-      const r = Math.max(2.5, this.radius + p);
+      const p = Math.sin(this.pulse) * (this.mass >= 3 ? 2.0 : 1.0);
+      const r = Math.max(2.2, this.radius + p);
 
       ctx.save();
-      // Outer ambient neon aura
       ctx.shadowColor = this.color;
-      ctx.shadowBlur = this.mass >= 3 ? 14 : 7;
+      ctx.shadowBlur = this.mass >= 3 ? 12 : 6;
       ctx.fillStyle = this.color;
       ctx.beginPath();
       ctx.arc(this.x, this.y, r, 0, Math.PI * 2);
       ctx.fill();
 
-      // Bright incandescent center
+      // White core sparkle
       ctx.fillStyle = '#ffffff';
       ctx.beginPath();
-      ctx.arc(this.x, this.y, r * 0.45, 0, Math.PI * 2);
+      ctx.arc(this.x, this.y, r * 0.42, 0, Math.PI * 2);
       ctx.fill();
       ctx.restore();
     }
@@ -129,24 +133,25 @@
       this.y = y;
       this.angle = Math.random() * Math.PI * 2;
       this.targetAngle = this.angle;
-      this.turnRate = 0.095;
 
       this.speed = BASE_SPEED;
       this.isBoosting = false;
       this.boostCooldown = 0;
 
-      // Score and Length tracking
-      this.score = isPlayer ? 100 : 100 + Math.floor(Math.random() * 450);
-      this.length = Math.max(20, Math.floor(this.score / 6));
+      // Invulnerability shield timer (180 frames = 3 seconds)
+      this.shieldTimer = SPAWN_SHIELD_FRAMES;
+
+      // Balanced score & length scaling
+      this.score = isPlayer ? 100 : 100 + Math.floor(Math.random() * 300);
+      this.length = Math.max(18, Math.floor(this.score / 7.5));
       this.radius = BASE_RADIUS;
       this.kills = 0;
       this.isDead = false;
 
-      // Energy pulse wave along spine
       this.waveOffset = 0;
+      this.decayCounter = 0;
 
-      // Recalculate physical thickness based on score
-      this.updateThickness();
+      this.updatePhysics();
 
       // Initialize segments
       this.segments = [];
@@ -160,73 +165,98 @@
 
       // AI specific parameters
       this.aiTimer = 0;
-      this.aiState = 'forage';
     }
 
-    // Noticeable, tactile growth formula:
-    // score 100 -> radius 13
-    // score 400 -> radius 18
-    // score 1,000 -> radius 24
-    // score 3,000 -> radius 34
-    // score 10,000 -> radius 52
-    updateThickness() {
-      const growth = Math.pow(Math.max(0, this.score - 80), 0.44) * 0.85;
+    // Dynamic Physics & Balance Engine:
+    // 1. Thickness: scales smoothly with square root curve
+    // 2. Base Speed: larger snakes have more inertia and move slightly slower
+    // 3. Turn Rate: larger snakes have wider turning arcs
+    updatePhysics() {
+      // Gentle, satisfying thickness curve
+      const growth = Math.pow(Math.max(0, this.score - 100), 0.38) * 0.9;
       this.radius = Math.min(BASE_RADIUS + growth, MAX_RADIUS);
-      // Turn rate slightly slows down as snake becomes a leviathan
-      this.turnRate = Math.max(0.048, 0.095 - (this.radius - BASE_RADIUS) * 0.001);
+
+      // Inertia & Weight Penalty (越大约慢，转向越重)
+      const weightFactor = (this.radius - BASE_RADIUS);
+      this.baseSpeed = Math.max(2.5, BASE_SPEED - weightFactor * 0.035);
+      this.boostSpeed = Math.max(5.0, BOOST_SPEED - weightFactor * 0.045);
+      this.turnRate = Math.max(0.042, 0.095 - weightFactor * 0.0016);
     }
 
     getSpacing() {
-      // Dynamic spacing keeps segments seamlessly overlapping without clumping
-      return Math.max(6.5, this.radius * 0.58);
+      return Math.max(6.0, this.radius * 0.56);
     }
 
     update(foods, snakes, particles, soundEngine) {
       if (this.isDead) return;
 
       this.waveOffset += 0.15;
-      this.updateThickness();
+      this.updatePhysics();
 
-      // 1. Boost mechanics
-      if (this.isBoosting && this.score > 60) {
-        this.speed = BOOST_SPEED;
+      // Countdown invulnerability shield
+      if (this.shieldTimer > 0) {
+        this.shieldTimer--;
+      }
+
+      // -------------------------------------------------------------
+      // Balance Rule 1: Passive Mass Decay / 自动掉秤机制
+      // When a snake becomes giant (> 450 score), it slowly burns mass.
+      // The bigger it is, the faster it decays, forcing active hunting.
+      // -------------------------------------------------------------
+      this.decayCounter++;
+      if (this.score > 450 && this.decayCounter % 20 === 0) {
+        // High mass decay rate
+        const decayAmt = Math.max(1, Math.floor((this.score - 400) * 0.0018));
+        this.score = Math.max(400, this.score - decayAmt);
+        this.length = Math.max(18, Math.floor(this.score / 7.5));
+      }
+
+      // -------------------------------------------------------------
+      // Balance Rule 2: Boost Speed & Mass Consumption
+      // Bigger snakes burn more mass when boosting.
+      // -------------------------------------------------------------
+      if (this.isBoosting && this.score > 50) {
+        this.speed = this.boostSpeed;
         this.boostCooldown++;
 
-        // Burn mass every 4 frames
+        // Burn mass every 4 frames (scales with size)
         if (this.boostCooldown % 4 === 0) {
-          this.score = Math.max(50, Math.floor(this.score - 2));
-          this.length = Math.max(16, Math.floor(this.score / 6));
+          const burnCost = 1 + Math.floor((this.radius - BASE_RADIUS) * 0.06);
+          this.score = Math.max(45, Math.floor(this.score - burnCost));
+          this.length = Math.max(16, Math.floor(this.score / 7.5));
 
           // Drop glowing mass pellet from tail
           const tail = this.segments[this.segments.length - 1];
-          if (tail && Math.random() < 0.4) {
+          if (tail && Math.random() < 0.35) {
             foods.push(new Food(tail.x, tail.y, 1, this.skin.glow));
           }
 
-          // Emit vibrant neon thruster sparks
+          // Emit sparks
           if (tail) {
-            particles.push(new Particle(tail.x, tail.y, this.skin.glow, 1.3));
+            particles.push(new Particle(tail.x, tail.y, this.skin.glow, 1.2));
           }
         }
       } else {
-        this.speed = BASE_SPEED;
+        this.speed = this.baseSpeed;
         this.boostCooldown = 0;
         this.isBoosting = false;
       }
 
-      // 2. Smooth turning
+      // -------------------------------------------------------------
+      // 3. Smooth Turning
+      // -------------------------------------------------------------
       let diff = this.targetAngle - this.angle;
       while (diff < -Math.PI) diff += Math.PI * 2;
       while (diff > Math.PI) diff -= Math.PI * 2;
       this.angle += Math.sign(diff) * Math.min(Math.abs(diff), this.turnRate);
 
-      // 3. Move Head
+      // 4. Move Head
       this.x += Math.cos(this.angle) * this.speed;
       this.y += Math.sin(this.angle) * this.speed;
       this.segments[0].x = this.x;
       this.segments[0].y = this.y;
 
-      // 4. Update body segments with dynamic spacing
+      // 5. Update body segments via inverse kinematics
       const spacing = this.getSpacing();
       for (let i = 1; i < this.segments.length; i++) {
         const prev = this.segments[i - 1];
@@ -242,7 +272,7 @@
         }
       }
 
-      // Add or remove segments smoothly
+      // Add or remove segments to match desired length
       const targetCount = Math.max(16, Math.floor(this.length));
       while (this.segments.length < targetCount) {
         const last = this.segments[this.segments.length - 1];
@@ -252,14 +282,14 @@
         this.segments.pop();
       }
 
-      // 5. Arena Wall Collision
+      // 6. Arena Wall Collision
       const distFromCenter = Math.hypot(this.x, this.y);
       if (distFromCenter > WORLD_RADIUS) {
         this.die(foods, particles, soundEngine);
         return;
       }
 
-      // 6. AI Logic
+      // 7. AI Logic
       if (!this.isPlayer) {
         this.updateAI(foods, snakes);
       }
@@ -270,14 +300,14 @@
 
       // Turn inward when nearing arena border
       const distFromCenter = Math.hypot(this.x, this.y);
-      if (distFromCenter > WORLD_RADIUS * 0.84) {
+      if (distFromCenter > WORLD_RADIUS * 0.85) {
         this.targetAngle = Math.atan2(-this.y, -this.x);
         return;
       }
 
-      // Obstacle avoidance (Raycasting ahead)
+      // Raycast obstacle avoidance
       let obstacleAhead = false;
-      const lookAheadDist = 120 + this.speed * 9;
+      const lookAheadDist = 110 + this.speed * 8;
       const checkAngles = [0, -0.45, 0.45, -0.85, 0.85];
 
       for (const angOffset of checkAngles) {
@@ -288,10 +318,9 @@
           const other = snakes[j];
           if (other === this || other.isDead) continue;
 
-          // Check every 3rd segment
           for (let s = 0; s < other.segments.length; s += 3) {
             const seg = other.segments[s];
-            if (Math.hypot(probeX - seg.x, probeY - seg.y) < other.radius + this.radius * 0.7) {
+            if (Math.hypot(probeX - seg.x, probeY - seg.y) < other.radius + this.radius * 0.75) {
               obstacleAhead = true;
               this.targetAngle = this.angle + (angOffset >= 0 ? -1.3 : 1.3);
               this.isBoosting = false;
@@ -305,7 +334,7 @@
 
       if (obstacleAhead) return;
 
-      // Periodic foraging & target seeking
+      // Periodic foraging
       if (this.aiTimer % 14 === 0) {
         let nearestFood = null;
         let minDist = 480;
@@ -321,14 +350,12 @@
 
         if (nearestFood) {
           this.targetAngle = Math.atan2(nearestFood.y - this.y, nearestFood.x - this.x);
-          // Boost if food is a high-value cluster
-          if (nearestFood.mass >= 3 && minDist < 220 && this.score > 250) {
+          if (nearestFood.mass >= 3 && minDist < 200 && this.score > 220) {
             this.isBoosting = true;
           } else {
             this.isBoosting = false;
           }
         } else {
-          // Wander smoothly
           this.targetAngle += (Math.random() - 0.5) * 0.35;
           this.isBoosting = false;
         }
@@ -339,22 +366,22 @@
       if (this.isDead) return;
       this.isDead = true;
 
-      // Shatter body segments into high-value glowing energy orbs!
-      const step = Math.max(1, Math.floor(this.segments.length / 32));
+      // Drop food along body path
+      const step = Math.max(1, Math.floor(this.segments.length / 28));
       for (let i = 0; i < this.segments.length; i += step) {
         const seg = this.segments[i];
-        const mass = 3 + Math.floor(Math.random() * 5);
+        const mass = 2 + Math.floor(Math.random() * 3);
         foods.push(new Food(
-          seg.x + (Math.random() - 0.5) * 20,
-          seg.y + (Math.random() - 0.5) * 20,
+          seg.x + (Math.random() - 0.5) * 18,
+          seg.y + (Math.random() - 0.5) * 18,
           mass,
           this.skin.glow
         ));
       }
 
-      // Explosion sparks
-      for (let i = 0; i < 28; i++) {
-        particles.push(new Particle(this.x, this.y, this.skin.glow, 1.8));
+      // Death explosion particles
+      for (let i = 0; i < 24; i++) {
+        particles.push(new Particle(this.x, this.y, this.skin.glow, 1.6));
       }
 
       if (this.isPlayer) {
@@ -379,23 +406,27 @@
       ctx.save();
 
       const segCount = this.segments.length;
+      const isShielded = this.shieldTimer > 0;
+
+      // If invulnerable, pulse alpha gently
+      if (isShielded) {
+        ctx.globalAlpha = 0.55 + Math.sin(Date.now() * 0.015) * 0.4;
+      }
 
       // -------------------------------------------------------------
       // Pass 1: Neon Aura Glow Layer
       // -------------------------------------------------------------
       ctx.shadowColor = this.skin.glow;
-      ctx.shadowBlur = this.isBoosting ? 22 : 12;
+      ctx.shadowBlur = this.isBoosting ? 20 : 10;
 
-      // Draw continuous glowing tubular body from tail to head
       for (let i = segCount - 1; i >= 0; i -= 2) {
         const seg = this.segments[i];
-        // Tail tapers down smoothly over the last 15 segments
         const taper = i > segCount - 15 ? 0.4 + 0.6 * ((segCount - i) / 15) : 1.0;
         const r = this.radius * taper;
 
         ctx.fillStyle = this.skin.glow;
         ctx.beginPath();
-        ctx.arc(seg.x, seg.y, r * 1.08, 0, Math.PI * 2);
+        ctx.arc(seg.x, seg.y, r * 1.06, 0, Math.PI * 2);
         ctx.fill();
       }
 
@@ -414,7 +445,7 @@
           ctx.arc(seg.x, seg.y, r, 0, Math.PI * 2);
           ctx.fill();
 
-          // Top cylindrical highlight
+          // Cylindrical highlight
           ctx.fillStyle = this.skin.light;
           ctx.beginPath();
           ctx.arc(seg.x, seg.y, r * 0.65, 0, Math.PI * 2);
@@ -444,14 +475,35 @@
       this.drawHead(ctx);
 
       // -------------------------------------------------------------
-      // Pass 5: Nickname Tag
+      // Pass 5: Invulnerability Shield Halo & Floating Tag
+      // -------------------------------------------------------------
+      if (isShielded) {
+        ctx.save();
+        ctx.strokeStyle = '#00f7ff';
+        ctx.shadowColor = '#00f7ff';
+        ctx.shadowBlur = 14;
+        ctx.lineWidth = 2.5;
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.radius * 1.55, 0, Math.PI * 2);
+        ctx.stroke();
+
+        ctx.fillStyle = '#00f7ff';
+        ctx.font = '800 11px "Figtree", sans-serif';
+        ctx.textAlign = 'center';
+        const shieldSecs = (this.shieldTimer / 60).toFixed(1);
+        ctx.fillText(`🛡️ SHIELD ${shieldSecs}s`, this.x, this.y - this.radius - 24);
+        ctx.restore();
+      }
+
+      // -------------------------------------------------------------
+      // Pass 6: Nickname Tag
       // -------------------------------------------------------------
       ctx.shadowBlur = 4;
       ctx.shadowColor = '#000000';
       ctx.fillStyle = '#ffffff';
       ctx.font = '700 12px "Figtree", sans-serif';
       ctx.textAlign = 'center';
-      ctx.fillText(this.name, this.x, this.y - this.radius - 10);
+      ctx.fillText(this.name, this.x, this.y - this.radius - 9);
 
       ctx.restore();
     }
@@ -459,14 +511,14 @@
     drawHead(ctx) {
       const hx = this.x;
       const hy = this.y;
-      const headR = this.radius * 1.18;
+      const headR = this.radius * 1.16;
 
       ctx.save();
 
       // Head Glowing Disc
       ctx.fillStyle = this.skin.glow;
       ctx.shadowColor = this.skin.glow;
-      ctx.shadowBlur = this.isBoosting ? 24 : 14;
+      ctx.shadowBlur = this.isBoosting ? 22 : 12;
       ctx.beginPath();
       ctx.arc(hx, hy, headR, 0, Math.PI * 2);
       ctx.fill();
@@ -478,16 +530,16 @@
       ctx.arc(hx, hy, headR - 3, 0, Math.PI * 2);
       ctx.fill();
 
-      // Cyber Visor / Brow Plate
+      // Cyber Visor
       ctx.fillStyle = this.skin.light;
       ctx.beginPath();
-      ctx.arc(hx, hy, headR * 0.6, 0, Math.PI * 2);
+      ctx.arc(hx, hy, headR * 0.58, 0, Math.PI * 2);
       ctx.fill();
 
       // Expressive Cyber Eyes
       const eyeOffsetForward = headR * 0.45;
       const eyeOffsetSide = headR * 0.62;
-      const eyeR = Math.max(4, headR * 0.38);
+      const eyeR = Math.max(3.8, headR * 0.38);
 
       const lx = hx + Math.cos(this.angle) * eyeOffsetForward + Math.cos(this.angle - Math.PI / 2) * eyeOffsetSide;
       const ly = hy + Math.sin(this.angle) * eyeOffsetForward + Math.sin(this.angle - Math.PI / 2) * eyeOffsetSide;
@@ -538,7 +590,7 @@
       this.isPlaying = false;
       this.selectedSkinIndex = 0;
 
-      // Clean up any historical float strings from localStorage
+      // Clean up local storage
       const rawBest = localStorage.getItem('gulper_best') || '0';
       this.bestScore = Math.floor(parseFloat(rawBest)) || 0;
       localStorage.setItem('gulper_best', this.bestScore.toString());
@@ -694,6 +746,27 @@
       });
     }
 
+    // Safe spawn finder: finds an arena location away from all other living snakes
+    findSafeSpawn(minDist = 450) {
+      for (let attempt = 0; attempt < 20; attempt++) {
+        const ang = Math.random() * Math.PI * 2;
+        const dist = Math.sqrt(Math.random()) * (WORLD_RADIUS - 500);
+        const x = Math.cos(ang) * dist;
+        const y = Math.sin(ang) * dist;
+
+        let safe = true;
+        for (let i = 0; i < this.snakes.length; i++) {
+          const s = this.snakes[i];
+          if (!s.isDead && Math.hypot(x - s.x, y - s.y) < minDist) {
+            safe = false;
+            break;
+          }
+        }
+        if (safe) return { x, y };
+      }
+      return { x: 0, y: 0 };
+    }
+
     startGame() {
       this.soundEngine.init();
       const nameInput = document.getElementById('playerNameInput');
@@ -708,33 +781,34 @@
       this.particles = [];
       this.snakes = [];
 
-      // Spawn 650 ambient pellets
-      for (let i = 0; i < 650; i++) {
+      // Spawn 700 ambient pellets throughout the expanded arena
+      for (let i = 0; i < 700; i++) {
         const ang = Math.random() * Math.PI * 2;
         const dist = Math.sqrt(Math.random()) * (WORLD_RADIUS - 60);
         this.foods.push(new Food(Math.cos(ang) * dist, Math.sin(ang) * dist, 1));
       }
 
-      // Spawn 45 drifting high-energy spheres
-      for (let i = 0; i < 45; i++) {
+      // Spawn 40 drifting high-energy spheres
+      for (let i = 0; i < 40; i++) {
         const ang = Math.random() * Math.PI * 2;
-        const dist = Math.sqrt(Math.random()) * (WORLD_RADIUS - 120);
-        this.foods.push(new Food(Math.cos(ang) * dist, Math.sin(ang) * dist, 3 + Math.floor(Math.random() * 4)));
+        const dist = Math.sqrt(Math.random()) * (WORLD_RADIUS - 150);
+        this.foods.push(new Food(Math.cos(ang) * dist, Math.sin(ang) * dist, 2 + Math.floor(Math.random() * 3)));
       }
 
-      // Create Player
+      // Create Player in a safe spot with 3-second spawn shield
       const playerSkin = SKINS[this.selectedSkinIndex];
-      this.player = new Snake('player', nickname, playerSkin, true, 0, 0);
+      const spawn = this.findSafeSpawn(500);
+      this.player = new Snake('player', nickname, playerSkin, true, spawn.x, spawn.y);
       this.snakes.push(this.player);
 
-      // Spawn 22 AI Bots
-      for (let i = 0; i < 22; i++) {
+      // Spawn calibrated 14 AI bots (perfect balanced density)
+      for (let i = 0; i < TARGET_BOTS; i++) {
         this.spawnBot(i);
       }
 
       this.isPlaying = true;
-      this.camera.x = 0;
-      this.camera.y = 0;
+      this.camera.x = spawn.x;
+      this.camera.y = spawn.y;
       this.camera.zoom = 1.0;
 
       if (!this.rafId) {
@@ -746,18 +820,15 @@
     spawnBot(idx) {
       const name = BOT_NAMES[idx % BOT_NAMES.length] || `Snake${idx}`;
       const skin = SKINS[idx % SKINS.length];
-      const ang = Math.random() * Math.PI * 2;
-      const dist = 350 + Math.random() * (WORLD_RADIUS - 500);
-      const bx = Math.cos(ang) * dist;
-      const by = Math.sin(ang) * dist;
+      const spawn = this.findSafeSpawn(400);
 
-      const bot = new Snake(`bot_${Date.now()}_${idx}`, name, skin, false, bx, by);
+      const bot = new Snake(`bot_${Date.now()}_${idx}`, name, skin, false, spawn.x, spawn.y);
       this.snakes.push(bot);
     }
 
     update() {
       // Replenish food
-      if (this.foods.length < 580) {
+      if (this.foods.length < 620) {
         const ang = Math.random() * Math.PI * 2;
         const dist = Math.sqrt(Math.random()) * (WORLD_RADIUS - 60);
         this.foods.push(new Food(Math.cos(ang) * dist, Math.sin(ang) * dist, 1));
@@ -780,7 +851,9 @@
         this.snakes[i].update(this.foods, this.snakes, this.particles, this.soundEngine);
       }
 
-      // Head-to-Food collisions (Significant growth when eating!)
+      // -------------------------------------------------------------
+      // Head-to-Food Collisions (Calibrated Gradual Growth)
+      // -------------------------------------------------------------
       for (let s = 0; s < this.snakes.length; s++) {
         const snake = this.snakes[s];
         if (snake.isDead) continue;
@@ -788,10 +861,10 @@
         for (let f = this.foods.length - 1; f >= 0; f--) {
           const food = this.foods[f];
           const dist = Math.hypot(snake.x - food.x, snake.y - food.y);
-          if (dist < snake.radius + food.radius + 8) {
-            // Volume and score scaling
-            snake.score = Math.floor(snake.score + food.mass * 12);
-            snake.length = Math.max(16, Math.floor(snake.score / 6));
+          if (dist < snake.radius + food.radius + 6) {
+            // Calibrated growth: each pellet adds modest, steady score
+            snake.score = Math.floor(snake.score + food.mass * 2.8);
+            snake.length = Math.max(18, Math.floor(snake.score / 7.5));
             this.foods.splice(f, 1);
 
             if (snake.isPlayer) {
@@ -802,14 +875,22 @@
         }
       }
 
-      // Snake-to-Snake collisions (Head vs Other Body)
+      // -------------------------------------------------------------
+      // Snake-to-Snake Collisions with Invulnerability Shield
+      // -------------------------------------------------------------
       for (let i = 0; i < this.snakes.length; i++) {
         const s1 = this.snakes[i];
         if (s1.isDead) continue;
 
+        // If s1 is currently shielded, it CANNOT die from colliding with others!
+        if (s1.shieldTimer > 0) continue;
+
         for (let j = 0; j < this.snakes.length; j++) {
           const s2 = this.snakes[j];
           if (s1 === s2 || s2.isDead) continue;
+
+          // If s2 is shielded, s1 passes through harmlessly
+          if (s2.shieldTimer > 0) continue;
 
           // Check if s1 head hit any body segment of s2
           for (let k = 0; k < s2.segments.length; k += 2) {
@@ -821,9 +902,8 @@
 
               if (s2.isPlayer) {
                 this.soundEngine.playKill();
-                // Rewarding bonus score for kills
-                s2.score = Math.floor(s2.score + 250);
-                s2.length = Math.max(16, Math.floor(s2.score / 6));
+                s2.score = Math.floor(s2.score + 180);
+                s2.length = Math.max(18, Math.floor(s2.score / 7.5));
                 this.updateScoresUI();
               }
               if (s1.isPlayer) {
@@ -836,24 +916,26 @@
         }
       }
 
-      // Clean up dead bots and respawn
+      // Respawn bots to maintain TARGET_BOTS density
       for (let i = this.snakes.length - 1; i >= 0; i--) {
         const s = this.snakes[i];
         if (s.isDead && !s.isPlayer) {
           this.snakes.splice(i, 1);
           setTimeout(() => {
-            if (this.isPlaying) this.spawnBot(Math.floor(Math.random() * BOT_NAMES.length));
-          }, 1800 + Math.random() * 2000);
+            if (this.isPlaying && this.snakes.filter(sn => !sn.isPlayer && !sn.isDead).length < TARGET_BOTS) {
+              this.spawnBot(Math.floor(Math.random() * BOT_NAMES.length));
+            }
+          }, 2400 + Math.random() * 2000);
         }
       }
 
-      // Camera smooth Lerp & dynamic zoom based on size
+      // Camera smooth Lerp & dynamic zoom
       if (this.player && !this.player.isDead) {
         this.camera.x += (this.player.x - this.camera.x) * 0.08;
         this.camera.y += (this.player.y - this.camera.y) * 0.08;
 
-        // Camera zooms out smoothly as player grows larger
-        const targetZoom = Math.max(0.42, 1.0 / (1.0 + Math.pow(this.player.score / 350, 0.4) * 0.4));
+        // Dynamic Zoom out as player grows larger
+        const targetZoom = Math.max(0.48, 1.0 / (1.0 + Math.pow(this.player.score / 500, 0.38) * 0.38));
         this.camera.zoom += (targetZoom - this.camera.zoom) * 0.04;
       }
     }
@@ -869,7 +951,6 @@
         localStorage.setItem('gulper_best', this.bestScore.toString());
       }
 
-      // Always format as pure integers with commas
       document.getElementById('modalScore').textContent = finalScore.toLocaleString();
       document.getElementById('modalLength').textContent = finalLength.toLocaleString();
       document.getElementById('modalKills').textContent = this.player.kills;
@@ -890,6 +971,18 @@
       document.getElementById('hudLength').textContent = curLength.toLocaleString();
       document.getElementById('hudKills').textContent = this.player.kills;
       document.getElementById('hudBest').textContent = best.toLocaleString();
+
+      // Update Shield Indicator in HUD
+      const shieldTile = document.getElementById('hudShieldTile');
+      const shieldVal = document.getElementById('hudShieldVal');
+      if (shieldTile && shieldVal) {
+        if (this.player.shieldTimer > 0) {
+          shieldTile.style.display = 'flex';
+          shieldVal.textContent = (this.player.shieldTimer / 60).toFixed(1) + 's';
+        } else {
+          shieldTile.style.display = 'none';
+        }
+      }
     }
 
     draw() {
@@ -909,13 +1002,13 @@
       const viewX = this.camera.x - viewW / 2;
       const viewY = this.camera.y - viewH / 2;
 
-      // 1. Draw High-Tech Cyber Grid
+      // 1. Cyber Grid
       this.drawGrid(ctx, viewX, viewY, viewW, viewH);
 
-      // 2. Draw Pulsing Neon Perimeter
+      // 2. Pulsing Neon Perimeter
       this.drawPerimeter(ctx);
 
-      // 3. Draw Foods
+      // 3. Foods
       for (let i = 0; i < this.foods.length; i++) {
         const f = this.foods[i];
         if (
@@ -926,19 +1019,19 @@
         }
       }
 
-      // 4. Draw Particles
+      // 4. Particles
       for (let i = 0; i < this.particles.length; i++) {
         this.particles[i].draw(ctx);
       }
 
-      // 5. Draw Other Snakes first
+      // 5. Draw Other Snakes
       for (let i = 0; i < this.snakes.length; i++) {
         if (!this.snakes[i].isPlayer) {
           this.snakes[i].draw(ctx, viewX, viewY, viewW, viewH);
         }
       }
 
-      // 6. Draw Player Snake last so it renders on top
+      // 6. Draw Player Snake
       if (this.player && !this.player.isDead) {
         this.player.draw(ctx, viewX, viewY, viewW, viewH);
       }
@@ -948,10 +1041,11 @@
       // Screen-space UI Overlays
       this.drawLeaderboard(ctx);
       this.drawMinimap(ctx);
+      this.updateScoresUI();
     }
 
     drawGrid(ctx, vx, vy, vw, vh) {
-      const gridSize = 70;
+      const gridSize = 75;
       const startX = Math.floor(vx / gridSize) * gridSize;
       const startY = Math.floor(vy / gridSize) * gridSize;
 
@@ -969,7 +1063,7 @@
       }
       ctx.stroke();
 
-      // Grid node crosshairs
+      // Crosshairs
       ctx.fillStyle = '#182b45';
       for (let x = startX; x <= vx + vw + gridSize; x += gridSize) {
         for (let y = startY; y <= vy + vh + gridSize; y += gridSize) {
@@ -980,7 +1074,6 @@
 
     drawPerimeter(ctx) {
       ctx.save();
-      // Outer electric neon cyan circle
       ctx.strokeStyle = '#00f7ff';
       ctx.shadowColor = '#00f7ff';
       ctx.shadowBlur = 24;
@@ -989,7 +1082,6 @@
       ctx.arc(0, 0, WORLD_RADIUS, 0, Math.PI * 2);
       ctx.stroke();
 
-      // Inner danger warning dashed line
       ctx.strokeStyle = 'rgba(255, 40, 90, 0.5)';
       ctx.lineWidth = 2.5;
       ctx.setLineDash([14, 14]);
@@ -1009,7 +1101,6 @@
       const py = 14;
 
       ctx.save();
-      // Frosted Glass Panel
       ctx.fillStyle = 'rgba(7, 12, 22, 0.82)';
       ctx.strokeStyle = 'rgba(0, 247, 255, 0.4)';
       ctx.lineWidth = 2;
@@ -1018,13 +1109,11 @@
       ctx.fill();
       ctx.stroke();
 
-      // Title
       ctx.fillStyle = '#00f7ff';
       ctx.font = '800 11px "Dela Gothic One", sans-serif';
       ctx.textAlign = 'center';
       ctx.fillText('⚡ LEADERBOARD', px + boxW / 2, py + 20);
 
-      // Rows
       ctx.font = '600 11.5px "Figtree", sans-serif';
       top8.forEach((s, idx) => {
         const rowY = py + 40 + idx * 20;
@@ -1038,7 +1127,6 @@
         ctx.fillText(Math.floor(s.score).toLocaleString(), px + boxW - 10, rowY);
       });
 
-      // Show player position if outside top 7
       if (this.player && !this.player.isDead) {
         const rank = sorted.findIndex(s => s === this.player) + 1;
         if (rank > 7) {
@@ -1059,7 +1147,6 @@
       const centerY = my + mapRadius;
 
       ctx.save();
-      // Radar disc
       ctx.fillStyle = 'rgba(7, 12, 22, 0.85)';
       ctx.strokeStyle = 'rgba(0, 247, 255, 0.45)';
       ctx.lineWidth = 2;
@@ -1083,7 +1170,7 @@
         ctx.fill();
       }
 
-      // Player Blip (Large pulsing cyan)
+      // Player blip
       if (this.player && !this.player.isDead) {
         const px = centerX + this.player.x * scale;
         const py = centerY + this.player.y * scale;

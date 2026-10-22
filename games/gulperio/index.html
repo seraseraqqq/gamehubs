@@ -182,7 +182,7 @@
     <section id="gameContainer" class="game-stage-wrapper" aria-label="Gulper.io Cyber Arena">
       <canvas id="gameCanvas"></canvas>
 
-      <!-- In-Game HUD overlay (Score, Length, Kills, Best) -->
+      <!-- In-Game HUD overlay (Score, Length, Kills, Best, Shield) -->
       <div class="hud-bar" aria-live="polite">
         <div class="hud-tile">
           <span class="hud-label">Score</span>
@@ -199,6 +199,10 @@
         <div class="hud-tile">
           <span class="hud-label">Best</span>
           <span id="hudBest" class="hud-val">0</span>
+        </div>
+        <div id="hudShieldTile" class="hud-tile" style="display:none; border-color:#00f7ff; background:rgba(0, 247, 255, 0.15);">
+          <span class="hud-label" style="color:#00f7ff;">Shield</span>
+          <span id="hudShieldVal" class="hud-val" style="color:#00f7ff;">3.0s</span>
         </div>
       </div>
 
