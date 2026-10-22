@@ -110,12 +110,9 @@
       this.btnMute = document.getElementById('btnMute');
 
       // Product Card
-      this.categoryEl = document.getElementById('productCategory');
+      this.productImage = document.getElementById('productImage');
       this.attemptBadgeEl = document.getElementById('attemptBadge');
-      this.avatarEl = document.getElementById('productAvatar');
       this.nameEl = document.getElementById('productName');
-      this.specsEl = document.getElementById('productSpecs');
-      this.hintBoxEl = document.getElementById('productHint');
 
       // Input Section
       this.priceInput = document.getElementById('priceInput');
@@ -277,11 +274,12 @@
 
     renderProductCard() {
       if (!this.currentItem) return;
-      this.categoryEl.textContent = this.currentItem.category;
-      this.avatarEl.textContent = this.currentItem.icon || '🛒';
+      this.productImage.src = this.currentItem.image || '';
+      this.productImage.alt = this.currentItem.name;
+      this.productImage.onerror = () => {
+        this.productImage.src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"><rect width="200" height="200" rx="20" fill="%23f1f4fd"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="60" fill="%2394a3b8">📦</text></svg>';
+      };
       this.nameEl.textContent = this.currentItem.name;
-      this.specsEl.textContent = this.currentItem.specs;
-      this.hintBoxEl.textContent = `💡 Hint: ${this.currentItem.hint}`;
     }
 
     updateAttemptBadge() {
