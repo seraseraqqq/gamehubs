@@ -11,13 +11,14 @@
 (function () {
   'use strict';
 
-  const WORLD_RADIUS = 2600; // Expanded arena for optimal breathing room
+  const WORLD_RADIUS = 1600; // Calibrated arena radius: active, intense, high encounter frequency
   const BASE_SPEED = 3.6;
   const BOOST_SPEED = 7.0;
   const BASE_RADIUS = 12.5; // Agile starter thickness
   const MAX_RADIUS = 54;    // Leviathan maximum thickness
   const SPAWN_SHIELD_FRAMES = 180; // 3 seconds at 60fps
-  const TARGET_BOTS = 14;   // Ideal balanced density (no wall-to-wall clutter)
+  const TARGET_BOTS = 18;   // 18 AI snakes simulating an active room
+  const FIXED_MAGNET_RADIUS = 105; // Fixed magnetic suction range for easy early-stage eating!
 
   const BOT_NAMES = [
     'NeonStriker', 'CyberViper', 'GlowWorm', 'QuantumPulse', 'ByteCrusher',
@@ -25,6 +26,28 @@
     'ShadowFang', 'NebulaSnake', 'PixelGhost', 'LaserTail', 'ElectroEel',
     'ChronoShift', 'Vortex99', 'CosmicSlither', 'TurboWorm', 'Specter',
     'PhantomGlow', 'AlphaWorm', 'Synthetix', 'VectorRider', 'BioHazard'
+  ];
+
+  // Tiered presets for game start so the room feels actively in progress!
+  const INITIAL_BOT_TIERS = [
+    { name: 'ApexPredator', score: 2850, kills: 8 },
+    { name: 'CyberViper', score: 2150, kills: 6 },
+    { name: 'NeonStriker', score: 1620, kills: 5 },
+    { name: 'VoltRunner', score: 1240, kills: 4 },
+    { name: 'HyperLoop', score: 980, kills: 3 },
+    { name: 'ShadowFang', score: 790, kills: 2 },
+    { name: 'QuantumPulse', score: 660, kills: 2 },
+    { name: 'ByteCrusher', score: 530, kills: 1 },
+    { name: 'SolarDrifter', score: 440, kills: 1 },
+    { name: 'ZeroLag', score: 370, kills: 1 },
+    { name: 'NebulaSnake', score: 310, kills: 1 },
+    { name: 'PixelGhost', score: 260, kills: 0 },
+    { name: 'LaserTail', score: 220, kills: 0 },
+    { name: 'ElectroEel', score: 190, kills: 0 },
+    { name: 'ChronoShift', score: 160, kills: 0 },
+    { name: 'Vortex99', score: 130, kills: 0 },
+    { name: 'Specter', score: 110, kills: 0 },
+    { name: 'CosmicSlither', score: 100, kills: 0 }
   ];
 
   const SKINS = [
@@ -83,6 +106,9 @@
       this.isDrifting = mass >= 3;
       this.vx = (Math.random() - 0.5) * (this.isDrifting ? 0.6 : 0.1);
       this.vy = (Math.random() - 0.5) * (this.isDrifting ? 0.6 : 0.1);
+      this.isAttracted = false;
+      this.attractorX = null;
+      this.attractorY = null;
     }
 
     update() {
@@ -99,31 +125,47 @@
           this.vy *= -1;
         }
       }
+      this.isAttracted = false;
+      this.attractorX = null;
+      this.attractorY = null;
     }
 
     draw(ctx) {
+      // If magnetically attracted, draw a neon tractor suction stream to the snake mouth
+      if (this.isAttracted && this.attractorX !== null) {
+        ctx.save();
+        ctx.strokeStyle = this.color;
+        ctx.globalAlpha = 0.32;
+        ctx.lineWidth = 1.6;
+        ctx.beginPath();
+        ctx.moveTo(this.x, this.y);
+        ctx.lineTo(this.attractorX, this.attractorY);
+        ctx.stroke();
+        ctx.restore();
+      }
+
       const p = Math.sin(this.pulse) * (this.mass >= 3 ? 2.0 : 1.0);
-      const r = Math.max(2.2, this.radius + p);
+      const r = Math.max(2.2, this.radius + p + (this.isAttracted ? 1.5 : 0));
 
       ctx.save();
-      ctx.shadowColor = this.color;
-      ctx.shadowBlur = this.mass >= 3 ? 12 : 6;
+      ctx.shadowColor = this.isAttracted ? '#ffffff' : this.color;
+      ctx.shadowBlur = this.isAttracted ? 16 : (this.mass >= 3 ? 12 : 6);
       ctx.fillStyle = this.color;
       ctx.beginPath();
       ctx.arc(this.x, this.y, r, 0, Math.PI * 2);
       ctx.fill();
 
-      // White core sparkle
+      // White core sparkle (radiates brighter when attracted)
       ctx.fillStyle = '#ffffff';
       ctx.beginPath();
-      ctx.arc(this.x, this.y, r * 0.42, 0, Math.PI * 2);
+      ctx.arc(this.x, this.y, r * (this.isAttracted ? 0.65 : 0.42), 0, Math.PI * 2);
       ctx.fill();
       ctx.restore();
     }
   }
 
   class Snake {
-    constructor(id, name, skin, isPlayer = false, x = 0, y = 0) {
+    constructor(id, name, skin, isPlayer = false, x = 0, y = 0, initialScore = 100, initialKills = 0) {
       this.id = id;
       this.name = name;
       this.skin = skin;
@@ -132,20 +174,24 @@
       this.x = x;
       this.y = y;
       this.angle = Math.random() * Math.PI * 2;
+      if (!isPlayer && Math.hypot(x, y) > 250) {
+        // AI snakes face inward toward the arena center with a natural slant
+        this.angle = Math.atan2(-y, -x) + (Math.random() - 0.5) * 0.8;
+      }
       this.targetAngle = this.angle;
 
       this.speed = BASE_SPEED;
       this.isBoosting = false;
       this.boostCooldown = 0;
 
-      // Invulnerability shield timer (180 frames = 3 seconds)
-      this.shieldTimer = SPAWN_SHIELD_FRAMES;
+      // Invulnerability shield timer (180 frames = 3 seconds for new/player spawns)
+      this.shieldTimer = isPlayer ? SPAWN_SHIELD_FRAMES : (initialScore > 150 ? 0 : SPAWN_SHIELD_FRAMES);
 
-      // Balanced score & length scaling - EVERY newborn snake starts small!
-      this.score = 100;
-      this.length = 18;
+      // Score and length initialization
+      this.score = Math.max(100, Math.floor(initialScore));
+      this.length = Math.max(18, Math.floor(this.score / 7.5));
       this.radius = BASE_RADIUS;
-      this.kills = 0;
+      this.kills = initialKills;
       this.isDead = false;
 
       this.waveOffset = 0;
@@ -153,18 +199,23 @@
 
       this.updatePhysics();
 
-      // Initialize segments
+      // Initialize segments with natural winding curve so long snakes don't stick out straight
       this.segments = [];
       const spacing = this.getSpacing();
+      let segX = this.x;
+      let segY = this.y;
+      let segAngle = this.angle;
+      const turnWiggle = (Math.random() - 0.5) * 0.05;
+
       for (let i = 0; i < this.length; i++) {
-        this.segments.push({
-          x: this.x - Math.cos(this.angle) * i * spacing,
-          y: this.y - Math.sin(this.angle) * i * spacing
-        });
+        this.segments.push({ x: segX, y: segY });
+        segAngle += Math.sin(i * 0.09) * 0.06 + turnWiggle;
+        segX -= Math.cos(segAngle) * spacing;
+        segY -= Math.sin(segAngle) * spacing;
       }
 
       // AI specific parameters
-      this.aiTimer = 0;
+      this.aiTimer = Math.floor(Math.random() * 20);
     }
 
     // Dynamic Physics & Balance Engine:
@@ -762,15 +813,15 @@
     }
 
     // Safe spawn finder: finds an arena location away from all other living snakes and off-screen from player
-    findSafeSpawn(minDist = 450, mustBeOffscreen = false) {
+    findSafeSpawn(minDist = 380, mustBeOffscreen = false) {
       const zoom = (this.camera && this.camera.zoom) ? this.camera.zoom : 1.0;
       const viewW = (this.displayWidth || 1200) / zoom;
       const viewH = (this.displayHeight || 700) / zoom;
-      const viewRadius = Math.hypot(viewW / 2, viewH / 2) + 240;
+      const viewRadius = Math.hypot(viewW / 2, viewH / 2) + 200;
 
       for (let attempt = 0; attempt < 40; attempt++) {
         const ang = Math.random() * Math.PI * 2;
-        const dist = Math.sqrt(Math.random()) * (WORLD_RADIUS - 450);
+        const dist = Math.sqrt(Math.random()) * (WORLD_RADIUS - 220);
         const x = Math.cos(ang) * dist;
         const y = Math.sin(ang) * dist;
 
@@ -799,7 +850,7 @@
           if (s.segments) {
             for (let k = 0; k < s.segments.length; k += 3) {
               const seg = s.segments[k];
-              if (Math.hypot(x - seg.x, y - seg.y) < s.radius + 90) {
+              if (Math.hypot(x - seg.x, y - seg.y) < s.radius + 80) {
                 safe = false;
                 break;
               }
@@ -814,7 +865,7 @@
       // Safe fallback: pick coordinate far on opposite side of player or arena perimeter
       if (this.player && !this.player.isDead) {
         const oppAng = Math.atan2(this.player.y, this.player.x) + Math.PI + (Math.random() - 0.5) * 0.8;
-        const oppDist = Math.min(WORLD_RADIUS - 400, 1600);
+        const oppDist = Math.min(WORLD_RADIUS - 220, 1200);
         return {
           x: Math.cos(oppAng) * oppDist,
           y: Math.sin(oppAng) * oppDist
@@ -823,8 +874,8 @@
 
       const fallbackAng = Math.random() * Math.PI * 2;
       return {
-        x: Math.cos(fallbackAng) * 1200,
-        y: Math.sin(fallbackAng) * 1200
+        x: Math.cos(fallbackAng) * (WORLD_RADIUS * 0.65),
+        y: Math.sin(fallbackAng) * (WORLD_RADIUS * 0.65)
       };
     }
 
@@ -842,29 +893,33 @@
       this.particles = [];
       this.snakes = [];
 
-      // Spawn 700 ambient pellets throughout the expanded arena
-      for (let i = 0; i < 700; i++) {
+      // Spawn 550 ambient pellets throughout calibrated 1600 radius arena
+      for (let i = 0; i < 550; i++) {
         const ang = Math.random() * Math.PI * 2;
         const dist = Math.sqrt(Math.random()) * (WORLD_RADIUS - 60);
         this.foods.push(new Food(Math.cos(ang) * dist, Math.sin(ang) * dist, 1));
       }
 
-      // Spawn 40 drifting high-energy spheres
-      for (let i = 0; i < 40; i++) {
+      // Spawn 35 drifting high-energy spheres
+      for (let i = 0; i < 35; i++) {
         const ang = Math.random() * Math.PI * 2;
-        const dist = Math.sqrt(Math.random()) * (WORLD_RADIUS - 150);
+        const dist = Math.sqrt(Math.random()) * (WORLD_RADIUS - 120);
         this.foods.push(new Food(Math.cos(ang) * dist, Math.sin(ang) * dist, 2 + Math.floor(Math.random() * 3)));
       }
 
       // Create Player in a safe spot with 3-second spawn shield
       const playerSkin = SKINS[this.selectedSkinIndex];
-      const spawn = this.findSafeSpawn(500, false);
-      this.player = new Snake('player', nickname, playerSkin, true, spawn.x, spawn.y);
+      const spawn = this.findSafeSpawn(400, false);
+      this.player = new Snake('player', nickname, playerSkin, true, spawn.x, spawn.y, 100, 0);
       this.snakes.push(this.player);
 
-      // Spawn calibrated 14 AI bots (safely off-screen from player)
+      // Pre-warm the room with pre-set varied bot sizes (Apex predators down to novices)
+      // Player feels like joining an active, thriving, ongoing match!
       for (let i = 0; i < TARGET_BOTS; i++) {
-        this.spawnBot(i, true);
+        const tier = INITIAL_BOT_TIERS[i] || { name: BOT_NAMES[i % BOT_NAMES.length], score: 100, kills: 0 };
+        const scoreVariation = tier.score > 200 ? Math.floor((Math.random() - 0.5) * 120) : 0;
+        const initialScore = Math.max(100, tier.score + scoreVariation);
+        this.spawnBot(i, true, initialScore, tier.kills, tier.name);
       }
 
       this.isPlaying = true;
@@ -878,18 +933,18 @@
       }
     }
 
-    spawnBot(idx, mustBeOffscreen = true) {
-      const name = BOT_NAMES[idx % BOT_NAMES.length] || `Snake${idx}`;
+    spawnBot(idx, mustBeOffscreen = true, initialScore = 100, initialKills = 0, customName = null) {
+      const name = customName || BOT_NAMES[idx % BOT_NAMES.length] || `Snake${idx}`;
       const skin = SKINS[idx % SKINS.length];
-      const spawn = this.findSafeSpawn(450, mustBeOffscreen);
+      const spawn = this.findSafeSpawn(380, mustBeOffscreen);
 
-      const bot = new Snake(`bot_${Date.now()}_${idx}`, name, skin, false, spawn.x, spawn.y);
+      const bot = new Snake(`bot_${Date.now()}_${idx}`, name, skin, false, spawn.x, spawn.y, initialScore, initialKills);
       this.snakes.push(bot);
     }
 
     update() {
       // Replenish food
-      if (this.foods.length < 620) {
+      if (this.foods.length < 520) {
         const ang = Math.random() * Math.PI * 2;
         const dist = Math.sqrt(Math.random()) * (WORLD_RADIUS - 60);
         this.foods.push(new Food(Math.cos(ang) * dist, Math.sin(ang) * dist, 1));
@@ -913,17 +968,30 @@
       }
 
       // -------------------------------------------------------------
-      // Head-to-Food Collisions (Calibrated Gradual Growth)
+      // Head-to-Food Magnetic Suction & Consumption
+      // Fixed attraction radius (105px) ensures early-stage players eat effortlessly!
       // -------------------------------------------------------------
+      const magnetRadius = FIXED_MAGNET_RADIUS;
+
       for (let s = 0; s < this.snakes.length; s++) {
         const snake = this.snakes[s];
         if (snake.isDead) continue;
 
+        // Effective eating contact radius
+        const eatDist = snake.radius + 14;
+
         for (let f = this.foods.length - 1; f >= 0; f--) {
           const food = this.foods[f];
-          const dist = Math.hypot(snake.x - food.x, snake.y - food.y);
-          if (dist < snake.radius + food.radius + 6) {
-            // Calibrated growth: each pellet adds modest, steady score
+          const dx = snake.x - food.x;
+          const dy = snake.y - food.y;
+
+          // Quick bounding box check for high performance
+          if (Math.abs(dx) > magnetRadius || Math.abs(dy) > magnetRadius) continue;
+
+          const dist = Math.hypot(dx, dy);
+
+          // 1. Direct consumption: reached mouth
+          if (dist < eatDist + food.radius) {
             snake.score = Math.floor(snake.score + food.mass * 2.8);
             snake.length = Math.max(18, Math.floor(snake.score / 7.5));
             this.foods.splice(f, 1);
@@ -932,6 +1000,18 @@
               this.soundEngine.playEat(food.mass);
               this.updateScoresUI();
             }
+            continue;
+          }
+
+          // 2. Fixed Magnetic Suction: smoothly pulls food toward snake mouth
+          if (dist < magnetRadius) {
+            // Suction accelerates as food gets closer to snake mouth
+            const suctionStrength = Math.min(16, 5.0 + (magnetRadius - dist) * 0.18);
+            food.x += (dx / dist) * suctionStrength;
+            food.y += (dy / dist) * suctionStrength;
+            food.isAttracted = true;
+            food.attractorX = snake.x;
+            food.attractorY = snake.y;
           }
         }
       }
@@ -984,9 +1064,10 @@
           this.snakes.splice(i, 1);
           setTimeout(() => {
             if (this.isPlaying && this.snakes.filter(sn => !sn.isPlayer && !sn.isDead).length < TARGET_BOTS) {
-              this.spawnBot(Math.floor(Math.random() * BOT_NAMES.length));
+              const freshScore = 100 + Math.floor(Math.random() * 30);
+              this.spawnBot(Math.floor(Math.random() * BOT_NAMES.length), true, freshScore, 0);
             }
-          }, 2400 + Math.random() * 2000);
+          }, 2200 + Math.random() * 1800);
         }
       }
 
@@ -1154,15 +1235,17 @@
 
     drawLeaderboard(ctx) {
       const sorted = [...this.snakes].filter(s => !s.isDead).sort((a, b) => b.score - a.score);
-      const top8 = sorted.slice(0, 7);
+      const top7 = sorted.slice(0, 7);
+      const isPlayerInTop7 = this.player && !this.player.isDead && sorted.findIndex(s => s === this.player) < 7;
+      const showPlayerRank = this.player && !this.player.isDead && !isPlayerInTop7;
 
-      const boxW = 180;
-      const boxH = 38 + top8.length * 20 + 8;
+      const boxW = 186;
+      const boxH = 44 + top7.length * 20 + (showPlayerRank ? 26 : 8);
       const px = this.displayWidth - boxW - 14;
       const py = 14;
 
       ctx.save();
-      ctx.fillStyle = 'rgba(7, 12, 22, 0.82)';
+      ctx.fillStyle = 'rgba(7, 12, 22, 0.85)';
       ctx.strokeStyle = 'rgba(0, 247, 255, 0.4)';
       ctx.lineWidth = 2;
       ctx.beginPath();
@@ -1176,7 +1259,7 @@
       ctx.fillText('⚡ LEADERBOARD', px + boxW / 2, py + 20);
 
       ctx.font = '600 11.5px "Figtree", sans-serif';
-      top8.forEach((s, idx) => {
+      top7.forEach((s, idx) => {
         const rowY = py + 40 + idx * 20;
         const medal = idx === 0 ? '🥇 ' : idx === 1 ? '🥈 ' : idx === 2 ? '🥉 ' : `${idx + 1}. `;
 
@@ -1188,13 +1271,24 @@
         ctx.fillText(Math.floor(s.score).toLocaleString(), px + boxW - 10, rowY);
       });
 
-      if (this.player && !this.player.isDead) {
+      if (showPlayerRank) {
         const rank = sorted.findIndex(s => s === this.player) + 1;
-        if (rank > 7) {
-          ctx.fillStyle = '#ffd200';
-          ctx.textAlign = 'left';
-          ctx.fillText(`Your Rank: #${rank} / ${sorted.length}`, px + 10, py + boxH - 10);
-        }
+        const rankY = py + 40 + top7.length * 20 + 16;
+
+        // Faint divider line
+        ctx.strokeStyle = 'rgba(0, 247, 255, 0.25)';
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.moveTo(px + 10, rankY - 12);
+        ctx.lineTo(px + boxW - 10, rankY - 12);
+        ctx.stroke();
+
+        ctx.fillStyle = '#ffd200';
+        ctx.font = '700 11.5px "Figtree", sans-serif';
+        ctx.textAlign = 'left';
+        ctx.fillText(`⚡ #${rank} ${this.player.name}`, px + 10, rankY);
+        ctx.textAlign = 'right';
+        ctx.fillText(Math.floor(this.player.score).toLocaleString(), px + boxW - 10, rankY);
       }
       ctx.restore();
     }
