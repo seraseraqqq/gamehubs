@@ -8,3 +8,4 @@ node_modules/
 .system_generated/
 __pycache__/
 *.pyc
+.vercel

@@ -25,6 +25,29 @@
       "techStack": "HTML5 / CSS3 / Vanilla JS / Web Audio API / Zadely Sticker Theme",
       "createdAt": "2026-10-22",
       "updatedAt": "2026-10-22"
+    },
+    {
+      "siteId": "costcodle",
+      "primaryKeyword": "costcodle",
+      "volume": 18100,
+      "kd": 0,
+      "secondaryKeywords": [
+        "costcodle unlimited",
+        "costcodle game",
+        "costcodle today",
+        "guess costco price game",
+        "play costcodle free",
+        "costcodle archive",
+        "costcodle daily"
+      ],
+      "path": "games/costcodle",
+      "url": "https://costcodle-unlimited.vercel.app",
+      "repo": "https://github.com/seraseraqqq/gamehubs",
+      "status": "built-qa-passed",
+      "targetIntent": "Daily and unlimited Costco price-guessing Wordle variant with 5% winning tolerance",
+      "techStack": "HTML5 / CSS3 / Vanilla JS / Web Audio API / Zadely Sticker Theme",
+      "createdAt": "2026-10-22",
+      "updatedAt": "2026-10-22"
     }
   ]
 }
