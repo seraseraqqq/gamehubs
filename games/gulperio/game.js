@@ -1,18 +1,18 @@
 /**
- * Gulper.io - High-Performance Canvas 2D Neon Snake Engine
- * Inspired by Slither.io and Gulper.io mechanics.
- * Pure Vanilla JS, 60fps, 25 autonomous AI bots, procedural neon aesthetics.
+ * Gulper.io - Advanced Neon Cyber Snake Engine
+ * Authentic Slither & Gulper physics: True Thickness/Volume Scaling,
+ * Continuous Glowing Spline Rendering, High-Intelligence AI, 60FPS.
  */
 
 (function () {
   'use strict';
 
-  const WORLD_RADIUS = 1800; // Arena radius
-  const BASE_SPEED = 3.4;
-  const BOOST_SPEED = 6.6;
-  const BASE_SEGMENT_RADIUS = 11;
-  const SEGMENT_SPACING = 8;
-  const MIN_BOOST_LENGTH = 15;
+  const WORLD_RADIUS = 2000; // Large arena
+  const BASE_SPEED = 3.6;
+  const BOOST_SPEED = 7.2;
+  const BASE_RADIUS = 13; // Starting snake thickness
+  const MAX_RADIUS = 65;  // Colossal boss thickness
+  const MIN_BOOST_LENGTH = 16;
 
   const BOT_NAMES = [
     'NeonStriker', 'CyberViper', 'GlowWorm', 'QuantumPulse', 'ByteCrusher',
@@ -23,26 +23,26 @@
   ];
 
   const SKINS = [
-    { name: 'Cyan Neon', glow: '#00ffcc', core: '#e6ffff', body: '#00c8a0' },
-    { name: 'Plasma Pink', glow: '#ff00aa', core: '#ffe6f7', body: '#c70085' },
-    { name: 'Solar Gold', glow: '#ffd200', core: '#fffde6', body: '#d4aa00' },
-    { name: 'Toxic Lime', glow: '#39ff14', core: '#eefde6', body: '#2bb80f' },
-    { name: 'Electric Violet', glow: '#9d00ff', core: '#f5e6ff', body: '#7300bd' },
-    { name: 'Ice Blue', glow: '#00bfff', core: '#e6f7ff', body: '#008ecc' },
-    { name: 'Cyber Tangerine', glow: '#ff5500', core: '#ffece6', body: '#cc4400' }
+    { name: 'Cyber Cyan', glow: '#00f7ff', core: '#ffffff', body: '#00adb5', light: '#70fbff' },
+    { name: 'Plasma Pink', glow: '#ff00aa', core: '#ffffff', body: '#cf0088', light: '#ff66cb' },
+    { name: 'Solar Gold', glow: '#ffd200', core: '#ffffff', body: '#d4aa00', light: '#ffe875' },
+    { name: 'Toxic Lime', glow: '#00ff66', core: '#ffffff', body: '#00b846', light: '#73ffab' },
+    { name: 'Electric Violet', glow: '#b026ff', core: '#ffffff', body: '#7b00cc', light: '#d380ff' },
+    { name: 'Inferno Orange', glow: '#ff5500', core: '#ffffff', body: '#cc4400', light: '#ff945c' },
+    { name: 'Ice Blue', glow: '#0099ff', core: '#ffffff', body: '#0066cc', light: '#80c8ff' }
   ];
 
   class Particle {
-    constructor(x, y, color) {
+    constructor(x, y, color, speedMul = 1.0) {
       this.x = x;
       this.y = y;
       this.color = color;
       const ang = Math.random() * Math.PI * 2;
-      const spd = 0.5 + Math.random() * 2.5;
+      const spd = (0.8 + Math.random() * 3.0) * speedMul;
       this.vx = Math.cos(ang) * spd;
       this.vy = Math.sin(ang) * spd;
       this.alpha = 1.0;
-      this.size = 2 + Math.random() * 3;
+      this.size = 2.5 + Math.random() * 3.5;
       this.decay = 0.02 + Math.random() * 0.03;
     }
 
@@ -58,7 +58,7 @@
       ctx.globalAlpha = Math.max(0, this.alpha);
       ctx.fillStyle = this.color;
       ctx.shadowColor = this.color;
-      ctx.shadowBlur = 6;
+      ctx.shadowBlur = 8;
       ctx.beginPath();
       ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
       ctx.fill();
@@ -71,25 +71,25 @@
       this.x = x;
       this.y = y;
       this.mass = mass;
-      this.radius = Math.min(3 + mass * 0.8, 10);
+      // Visual size scales with mass
+      this.radius = Math.min(3.5 + Math.sqrt(mass) * 2.2, 16);
       this.color = color || SKINS[Math.floor(Math.random() * SKINS.length)].glow;
       this.pulse = Math.random() * Math.PI * 2;
-      this.isDrifting = mass > 2;
-      this.vx = (Math.random() - 0.5) * (this.isDrifting ? 0.6 : 0.1);
-      this.vy = (Math.random() - 0.5) * (this.isDrifting ? 0.6 : 0.1);
+      this.isDrifting = mass >= 3;
+      this.vx = (Math.random() - 0.5) * (this.isDrifting ? 0.8 : 0.15);
+      this.vy = (Math.random() - 0.5) * (this.isDrifting ? 0.8 : 0.15);
     }
 
     update() {
-      this.pulse += 0.04;
+      this.pulse += 0.05;
       if (this.isDrifting) {
         this.x += this.vx;
         this.y += this.vy;
-        // Bounce off arena boundary
         const dist = Math.hypot(this.x, this.y);
         if (dist > WORLD_RADIUS - 30) {
           const angle = Math.atan2(this.y, this.x);
-          this.x = Math.cos(angle) * (WORLD_RADIUS - 32);
-          this.y = Math.sin(angle) * (WORLD_RADIUS - 32);
+          this.x = Math.cos(angle) * (WORLD_RADIUS - 35);
+          this.y = Math.sin(angle) * (WORLD_RADIUS - 35);
           this.vx *= -1;
           this.vy *= -1;
         }
@@ -97,21 +97,22 @@
     }
 
     draw(ctx) {
-      const p = Math.sin(this.pulse) * 1.2;
-      const r = Math.max(2, this.radius + p);
+      const p = Math.sin(this.pulse) * (this.mass >= 3 ? 2.5 : 1.2);
+      const r = Math.max(2.5, this.radius + p);
 
       ctx.save();
+      // Outer ambient neon aura
       ctx.shadowColor = this.color;
-      ctx.shadowBlur = 8;
+      ctx.shadowBlur = this.mass >= 3 ? 14 : 7;
       ctx.fillStyle = this.color;
       ctx.beginPath();
       ctx.arc(this.x, this.y, r, 0, Math.PI * 2);
       ctx.fill();
 
-      // Bright white central spark
+      // Bright incandescent center
       ctx.fillStyle = '#ffffff';
       ctx.beginPath();
-      ctx.arc(this.x, this.y, r * 0.38, 0, Math.PI * 2);
+      ctx.arc(this.x, this.y, r * 0.45, 0, Math.PI * 2);
       ctx.fill();
       ctx.restore();
     }
@@ -128,55 +129,83 @@
       this.y = y;
       this.angle = Math.random() * Math.PI * 2;
       this.targetAngle = this.angle;
-      this.turnRate = 0.09;
+      this.turnRate = 0.095;
 
       this.speed = BASE_SPEED;
       this.isBoosting = false;
       this.boostCooldown = 0;
 
-      this.length = isPlayer ? 24 : 18 + Math.floor(Math.random() * 30);
-      this.radius = BASE_SEGMENT_RADIUS;
-      this.score = this.length * 10;
+      // Score and Length tracking
+      this.score = isPlayer ? 100 : 100 + Math.floor(Math.random() * 450);
+      this.length = Math.max(20, Math.floor(this.score / 6));
+      this.radius = BASE_RADIUS;
       this.kills = 0;
       this.isDead = false;
 
-      // Initialize segments backwards
+      // Energy pulse wave along spine
+      this.waveOffset = 0;
+
+      // Recalculate physical thickness based on score
+      this.updateThickness();
+
+      // Initialize segments
       this.segments = [];
+      const spacing = this.getSpacing();
       for (let i = 0; i < this.length; i++) {
         this.segments.push({
-          x: this.x - Math.cos(this.angle) * i * SEGMENT_SPACING,
-          y: this.y - Math.sin(this.angle) * i * SEGMENT_SPACING
+          x: this.x - Math.cos(this.angle) * i * spacing,
+          y: this.y - Math.sin(this.angle) * i * spacing
         });
       }
 
       // AI specific parameters
       this.aiTimer = 0;
-      this.aiState = 'forage'; // 'forage', 'hunt', 'avoid'
-      this.targetFood = null;
+      this.aiState = 'forage';
+    }
+
+    // Noticeable, tactile growth formula:
+    // score 100 -> radius 13
+    // score 400 -> radius 18
+    // score 1,000 -> radius 24
+    // score 3,000 -> radius 34
+    // score 10,000 -> radius 52
+    updateThickness() {
+      const growth = Math.pow(Math.max(0, this.score - 80), 0.44) * 0.85;
+      this.radius = Math.min(BASE_RADIUS + growth, MAX_RADIUS);
+      // Turn rate slightly slows down as snake becomes a leviathan
+      this.turnRate = Math.max(0.048, 0.095 - (this.radius - BASE_RADIUS) * 0.001);
+    }
+
+    getSpacing() {
+      // Dynamic spacing keeps segments seamlessly overlapping without clumping
+      return Math.max(6.5, this.radius * 0.58);
     }
 
     update(foods, snakes, particles, soundEngine) {
       if (this.isDead) return;
 
-      // 1. Calculate boost
-      if (this.isBoosting && this.length > MIN_BOOST_LENGTH) {
+      this.waveOffset += 0.15;
+      this.updateThickness();
+
+      // 1. Boost mechanics
+      if (this.isBoosting && this.score > 60) {
         this.speed = BOOST_SPEED;
         this.boostCooldown++;
 
-        // Burn mass every 5 frames
-        if (this.boostCooldown % 5 === 0) {
-          this.length -= 0.15;
-          this.score = Math.floor(this.length * 10);
+        // Burn mass every 4 frames
+        if (this.boostCooldown % 4 === 0) {
+          this.score = Math.max(50, Math.floor(this.score - 2));
+          this.length = Math.max(16, Math.floor(this.score / 6));
 
-          // Drop glowing pellet from tail
+          // Drop glowing mass pellet from tail
           const tail = this.segments[this.segments.length - 1];
-          if (tail && Math.random() < 0.35) {
+          if (tail && Math.random() < 0.4) {
             foods.push(new Food(tail.x, tail.y, 1, this.skin.glow));
           }
 
-          // Emit sparks
+          // Emit vibrant neon thruster sparks
           if (tail) {
-            particles.push(new Particle(tail.x, tail.y, this.skin.glow));
+            particles.push(new Particle(tail.x, tail.y, this.skin.glow, 1.3));
           }
         }
       } else {
@@ -184,9 +213,6 @@
         this.boostCooldown = 0;
         this.isBoosting = false;
       }
-
-      // Dynamic radius scaling slightly with length
-      this.radius = Math.min(BASE_SEGMENT_RADIUS + Math.floor(this.length / 80), 22);
 
       // 2. Smooth turning
       let diff = this.targetAngle - this.angle;
@@ -200,7 +226,8 @@
       this.segments[0].x = this.x;
       this.segments[0].y = this.y;
 
-      // 4. Update body segments via inverse kinematics
+      // 4. Update body segments with dynamic spacing
+      const spacing = this.getSpacing();
       for (let i = 1; i < this.segments.length; i++) {
         const prev = this.segments[i - 1];
         const curr = this.segments[i];
@@ -208,20 +235,20 @@
         const dy = prev.y - curr.y;
         const dist = Math.hypot(dx, dy);
 
-        if (dist > SEGMENT_SPACING) {
+        if (dist > spacing) {
           const segAngle = Math.atan2(dy, dx);
-          curr.x = prev.x - Math.cos(segAngle) * SEGMENT_SPACING;
-          curr.y = prev.y - Math.sin(segAngle) * SEGMENT_SPACING;
+          curr.x = prev.x - Math.cos(segAngle) * spacing;
+          curr.y = prev.y - Math.sin(segAngle) * spacing;
         }
       }
 
-      // Add or remove segments to match desired length
-      const targetCount = Math.floor(this.length);
+      // Add or remove segments smoothly
+      const targetCount = Math.max(16, Math.floor(this.length));
       while (this.segments.length < targetCount) {
         const last = this.segments[this.segments.length - 1];
         this.segments.push({ x: last.x, y: last.y });
       }
-      while (this.segments.length > targetCount && this.segments.length > 5) {
+      while (this.segments.length > targetCount && this.segments.length > 16) {
         this.segments.pop();
       }
 
@@ -232,7 +259,7 @@
         return;
       }
 
-      // 6. AI Logic update
+      // 6. AI Logic
       if (!this.isPlayer) {
         this.updateAI(foods, snakes);
       }
@@ -241,31 +268,32 @@
     updateAI(foods, snakes) {
       this.aiTimer++;
 
-      // Check arena boundary - turn back inward
+      // Turn inward when nearing arena border
       const distFromCenter = Math.hypot(this.x, this.y);
-      if (distFromCenter > WORLD_RADIUS * 0.82) {
+      if (distFromCenter > WORLD_RADIUS * 0.84) {
         this.targetAngle = Math.atan2(-this.y, -this.x);
         return;
       }
 
       // Obstacle avoidance (Raycasting ahead)
       let obstacleAhead = false;
-      const lookAheadDist = 110 + this.speed * 8;
-      const checkAngles = [0, -0.5, 0.5, -0.9, 0.9];
+      const lookAheadDist = 120 + this.speed * 9;
+      const checkAngles = [0, -0.45, 0.45, -0.85, 0.85];
 
       for (const angOffset of checkAngles) {
         const probeX = this.x + Math.cos(this.angle + angOffset) * lookAheadDist;
         const probeY = this.y + Math.sin(this.angle + angOffset) * lookAheadDist;
 
-        for (const other of snakes) {
+        for (let j = 0; j < snakes.length; j++) {
+          const other = snakes[j];
           if (other === this || other.isDead) continue;
-          // Sample every 3rd segment
+
+          // Check every 3rd segment
           for (let s = 0; s < other.segments.length; s += 3) {
             const seg = other.segments[s];
-            if (Math.hypot(probeX - seg.x, probeY - seg.y) < other.radius + 18) {
+            if (Math.hypot(probeX - seg.x, probeY - seg.y) < other.radius + this.radius * 0.7) {
               obstacleAhead = true;
-              // Steer hard away from obstacle
-              this.targetAngle = this.angle + (angOffset >= 0 ? -1.2 : 1.2);
+              this.targetAngle = this.angle + (angOffset >= 0 ? -1.3 : 1.3);
               this.isBoosting = false;
               break;
             }
@@ -277,11 +305,10 @@
 
       if (obstacleAhead) return;
 
-      // Normal state update every 15 frames
-      if (this.aiTimer % 15 === 0) {
-        // Seek nearby large food
+      // Periodic foraging & target seeking
+      if (this.aiTimer % 14 === 0) {
         let nearestFood = null;
-        let minDist = 400;
+        let minDist = 480;
 
         for (let i = 0; i < foods.length; i += 2) {
           const f = foods[i];
@@ -294,15 +321,15 @@
 
         if (nearestFood) {
           this.targetAngle = Math.atan2(nearestFood.y - this.y, nearestFood.x - this.x);
-          // Boost if food is large cluster
-          if (nearestFood.mass >= 3 && minDist < 200 && this.length > 25) {
+          // Boost if food is a high-value cluster
+          if (nearestFood.mass >= 3 && minDist < 220 && this.score > 250) {
             this.isBoosting = true;
           } else {
             this.isBoosting = false;
           }
         } else {
-          // Wander with gentle sine noise
-          this.targetAngle += (Math.random() - 0.5) * 0.4;
+          // Wander smoothly
+          this.targetAngle += (Math.random() - 0.5) * 0.35;
           this.isBoosting = false;
         }
       }
@@ -312,23 +339,22 @@
       if (this.isDead) return;
       this.isDead = true;
 
-      // Shatter body segments into glowing energy orbs
-      const step = Math.max(1, Math.floor(this.segments.length / 40));
+      // Shatter body segments into high-value glowing energy orbs!
+      const step = Math.max(1, Math.floor(this.segments.length / 32));
       for (let i = 0; i < this.segments.length; i += step) {
         const seg = this.segments[i];
-        const mass = 2 + Math.floor(Math.random() * 3);
-        const food = new Food(
-          seg.x + (Math.random() - 0.5) * 16,
-          seg.y + (Math.random() - 0.5) * 16,
+        const mass = 3 + Math.floor(Math.random() * 5);
+        foods.push(new Food(
+          seg.x + (Math.random() - 0.5) * 20,
+          seg.y + (Math.random() - 0.5) * 20,
           mass,
           this.skin.glow
-        );
-        foods.push(food);
+        ));
       }
 
-      // Death explosion particles
-      for (let i = 0; i < 20; i++) {
-        particles.push(new Particle(this.x, this.y, this.skin.glow));
+      // Explosion sparks
+      for (let i = 0; i < 28; i++) {
+        particles.push(new Particle(this.x, this.y, this.skin.glow, 1.8));
       }
 
       if (this.isPlayer) {
@@ -337,11 +363,10 @@
     }
 
     draw(ctx, viewX, viewY, viewW, viewH) {
-      if (this.isDead || this.segments.length === 0) return;
+      if (this.isDead || this.segments.length < 2) return;
 
-      // Culling: check if snake is anywhere in view
       const head = this.segments[0];
-      const boundMargin = 300;
+      const boundMargin = 350;
       if (
         head.x < viewX - boundMargin ||
         head.x > viewX + viewW + boundMargin ||
@@ -353,51 +378,80 @@
 
       ctx.save();
 
-      // Pass 1: Neon Outer Glow Aura
-      ctx.shadowColor = this.skin.glow;
-      ctx.shadowBlur = this.isBoosting ? 16 : 9;
-      ctx.fillStyle = this.skin.glow;
+      const segCount = this.segments.length;
 
-      // Draw segments from tail to head
-      for (let i = this.segments.length - 1; i >= 0; i -= 2) {
+      // -------------------------------------------------------------
+      // Pass 1: Neon Aura Glow Layer
+      // -------------------------------------------------------------
+      ctx.shadowColor = this.skin.glow;
+      ctx.shadowBlur = this.isBoosting ? 22 : 12;
+
+      // Draw continuous glowing tubular body from tail to head
+      for (let i = segCount - 1; i >= 0; i -= 2) {
         const seg = this.segments[i];
-        const r = this.radius * (i === 0 ? 1.15 : (0.7 + 0.3 * (1 - i / this.segments.length)));
+        // Tail tapers down smoothly over the last 15 segments
+        const taper = i > segCount - 15 ? 0.4 + 0.6 * ((segCount - i) / 15) : 1.0;
+        const r = this.radius * taper;
+
+        ctx.fillStyle = this.skin.glow;
         ctx.beginPath();
-        ctx.arc(seg.x, seg.y, r, 0, Math.PI * 2);
+        ctx.arc(seg.x, seg.y, r * 1.08, 0, Math.PI * 2);
         ctx.fill();
       }
 
-      // Pass 2: Inner Core Color
+      // -------------------------------------------------------------
+      // Pass 2: High-Saturation Cylindrical Body Core with 3D Depth
+      // -------------------------------------------------------------
       ctx.shadowBlur = 0;
-      ctx.fillStyle = this.skin.body;
-      for (let i = this.segments.length - 1; i >= 0; i -= 2) {
+      for (let i = segCount - 1; i >= 0; i -= 2) {
         const seg = this.segments[i];
-        const r = (this.radius - 2.5) * (i === 0 ? 1.15 : (0.7 + 0.3 * (1 - i / this.segments.length)));
-        if (r > 1) {
+        const taper = i > segCount - 15 ? 0.4 + 0.6 * ((segCount - i) / 15) : 1.0;
+        const r = (this.radius - 2.5) * taper;
+
+        if (r > 1.5) {
+          ctx.fillStyle = this.skin.body;
           ctx.beginPath();
           ctx.arc(seg.x, seg.y, r, 0, Math.PI * 2);
+          ctx.fill();
+
+          // Top cylindrical highlight
+          ctx.fillStyle = this.skin.light;
+          ctx.beginPath();
+          ctx.arc(seg.x, seg.y, r * 0.65, 0, Math.PI * 2);
           ctx.fill();
         }
       }
 
-      // Pass 3: Fiber-optic central spine wire
-      ctx.strokeStyle = this.skin.core;
-      ctx.lineWidth = 2.5;
+      // -------------------------------------------------------------
+      // Pass 3: Central Fiber-Optic Laser Spine
+      // -------------------------------------------------------------
+      ctx.strokeStyle = '#ffffff';
+      ctx.shadowColor = '#ffffff';
+      ctx.shadowBlur = 6;
+      ctx.lineWidth = Math.max(2, this.radius * 0.28);
+      ctx.lineCap = 'round';
+      ctx.lineJoin = 'round';
       ctx.beginPath();
       ctx.moveTo(this.segments[0].x, this.segments[0].y);
-      for (let i = 1; i < this.segments.length; i += 2) {
+      for (let i = 1; i < segCount; i += 2) {
         ctx.lineTo(this.segments[i].x, this.segments[i].y);
       }
       ctx.stroke();
 
+      // -------------------------------------------------------------
       // Pass 4: Head & Cyber Eyes
+      // -------------------------------------------------------------
       this.drawHead(ctx);
 
-      // Pass 5: Nickname tag
+      // -------------------------------------------------------------
+      // Pass 5: Nickname Tag
+      // -------------------------------------------------------------
+      ctx.shadowBlur = 4;
+      ctx.shadowColor = '#000000';
       ctx.fillStyle = '#ffffff';
-      ctx.font = '600 11px "Figtree", sans-serif';
+      ctx.font = '700 12px "Figtree", sans-serif';
       ctx.textAlign = 'center';
-      ctx.fillText(this.name, this.x, this.y - this.radius - 8);
+      ctx.fillText(this.name, this.x, this.y - this.radius - 10);
 
       ctx.restore();
     }
@@ -405,37 +459,66 @@
     drawHead(ctx) {
       const hx = this.x;
       const hy = this.y;
-      const eyeDist = this.radius * 0.65;
-      const eyeFwd = this.radius * 0.45;
-      const eyeR = this.radius * 0.4;
+      const headR = this.radius * 1.18;
 
-      // Left eye pos
-      const lx = hx + Math.cos(this.angle) * eyeFwd + Math.cos(this.angle - Math.PI / 2) * eyeDist;
-      const ly = hy + Math.sin(this.angle) * eyeFwd + Math.sin(this.angle - Math.PI / 2) * eyeDist;
+      ctx.save();
 
-      // Right eye pos
-      const rx = hx + Math.cos(this.angle) * eyeFwd + Math.cos(this.angle + Math.PI / 2) * eyeDist;
-      const ry = hy + Math.sin(this.angle) * eyeFwd + Math.sin(this.angle + Math.PI / 2) * eyeDist;
+      // Head Glowing Disc
+      ctx.fillStyle = this.skin.glow;
+      ctx.shadowColor = this.skin.glow;
+      ctx.shadowBlur = this.isBoosting ? 24 : 14;
+      ctx.beginPath();
+      ctx.arc(hx, hy, headR, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Head Core
+      ctx.shadowBlur = 0;
+      ctx.fillStyle = this.skin.body;
+      ctx.beginPath();
+      ctx.arc(hx, hy, headR - 3, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Cyber Visor / Brow Plate
+      ctx.fillStyle = this.skin.light;
+      ctx.beginPath();
+      ctx.arc(hx, hy, headR * 0.6, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Expressive Cyber Eyes
+      const eyeOffsetForward = headR * 0.45;
+      const eyeOffsetSide = headR * 0.62;
+      const eyeR = Math.max(4, headR * 0.38);
+
+      const lx = hx + Math.cos(this.angle) * eyeOffsetForward + Math.cos(this.angle - Math.PI / 2) * eyeOffsetSide;
+      const ly = hy + Math.sin(this.angle) * eyeOffsetForward + Math.sin(this.angle - Math.PI / 2) * eyeOffsetSide;
+
+      const rx = hx + Math.cos(this.angle) * eyeOffsetForward + Math.cos(this.angle + Math.PI / 2) * eyeOffsetSide;
+      const ry = hy + Math.sin(this.angle) * eyeOffsetForward + Math.sin(this.angle + Math.PI / 2) * eyeOffsetSide;
 
       // Eye Whites
       ctx.fillStyle = '#ffffff';
+      ctx.shadowColor = '#ffffff';
+      ctx.shadowBlur = 5;
       ctx.beginPath();
       ctx.arc(lx, ly, eyeR, 0, Math.PI * 2);
       ctx.arc(rx, ry, eyeR, 0, Math.PI * 2);
       ctx.fill();
 
-      // Pupil looking towards angle
-      ctx.fillStyle = '#111827';
-      const pupilOffset = eyeR * 0.4;
-      const plx = lx + Math.cos(this.angle) * pupilOffset;
-      const ply = ly + Math.sin(this.angle) * pupilOffset;
-      const prx = rx + Math.cos(this.angle) * pupilOffset;
-      const pry = ry + Math.sin(this.angle) * pupilOffset;
+      // Pupils looking in heading direction
+      ctx.shadowBlur = 0;
+      ctx.fillStyle = '#060a12';
+      const pupilShift = eyeR * 0.42;
+      const plx = lx + Math.cos(this.angle) * pupilShift;
+      const ply = ly + Math.sin(this.angle) * pupilShift;
+      const prx = rx + Math.cos(this.angle) * pupilShift;
+      const pry = ry + Math.sin(this.angle) * pupilShift;
 
       ctx.beginPath();
-      ctx.arc(plx, ply, eyeR * 0.55, 0, Math.PI * 2);
-      ctx.arc(prx, pry, eyeR * 0.55, 0, Math.PI * 2);
+      ctx.arc(plx, ply, eyeR * 0.58, 0, Math.PI * 2);
+      ctx.arc(prx, pry, eyeR * 0.58, 0, Math.PI * 2);
       ctx.fill();
+
+      ctx.restore();
     }
   }
 
@@ -454,7 +537,11 @@
       this.mouse = { x: 0, y: 0, isDown: false };
       this.isPlaying = false;
       this.selectedSkinIndex = 0;
-      this.bestScore = parseInt(localStorage.getItem('gulper_best') || '0', 10);
+
+      // Clean up any historical float strings from localStorage
+      const rawBest = localStorage.getItem('gulper_best') || '0';
+      this.bestScore = Math.floor(parseFloat(rawBest)) || 0;
+      localStorage.setItem('gulper_best', this.bestScore.toString());
 
       this.initDPI();
       this.bindEvents();
@@ -465,7 +552,7 @@
     initDPI() {
       const container = this.canvas.parentElement;
       const w = container.clientWidth;
-      const h = container.clientHeight || 560;
+      const h = container.clientHeight || 620;
 
       const dpr = Math.min(window.devicePixelRatio || 1, 2);
       this.canvas.width = w * dpr;
@@ -480,7 +567,7 @@
     bindEvents() {
       window.addEventListener('resize', () => this.initDPI());
 
-      // Mouse movements
+      // Mouse controls
       this.canvas.addEventListener('mousemove', (e) => {
         const rect = this.canvas.getBoundingClientRect();
         this.mouse.x = e.clientX - rect.left;
@@ -493,7 +580,6 @@
         }
       });
 
-      // Mouse down for Boost
       this.canvas.addEventListener('mousedown', (e) => {
         if (e.button === 0) {
           this.mouse.isDown = true;
@@ -512,13 +598,19 @@
         }
       });
 
-      // Spacebar for Boost
+      // Spacebar boost
       window.addEventListener('keydown', (e) => {
         if (e.code === 'Space' && !e.repeat) {
           e.preventDefault();
           if (this.player && !this.player.isDead) {
             this.player.isBoosting = true;
             this.soundEngine.startBoost();
+          }
+        }
+        if (e.code === 'Enter') {
+          const startModal = document.getElementById('startModal');
+          if (startModal && startModal.style.display !== 'none') {
+            this.startGame();
           }
         }
       });
@@ -549,7 +641,6 @@
 
       this.canvas.addEventListener('touchstart', (e) => {
         if (e.touches.length > 1) {
-          // Double finger touch boosts
           if (this.player && !this.player.isDead) {
             this.player.isBoosting = true;
             this.soundEngine.startBoost();
@@ -564,7 +655,7 @@
         }
       });
 
-      // UI Buttons
+      // Buttons
       document.getElementById('btnStartGame').addEventListener('click', () => this.startGame());
       document.getElementById('btnPlayAgain').addEventListener('click', () => this.startGame());
 
@@ -592,7 +683,7 @@
         const chip = document.createElement('button');
         chip.className = `skin-chip ${idx === this.selectedSkinIndex ? 'selected' : ''}`;
         chip.style.borderColor = skin.glow;
-        chip.style.background = skin.glow;
+        chip.style.background = `radial-gradient(circle, ${skin.light} 30%, ${skin.glow} 100%)`;
         chip.title = skin.name;
         chip.addEventListener('click', () => {
           this.selectedSkinIndex = idx;
@@ -617,18 +708,18 @@
       this.particles = [];
       this.snakes = [];
 
-      // Spawn ambient food pellets
+      // Spawn 650 ambient pellets
       for (let i = 0; i < 650; i++) {
         const ang = Math.random() * Math.PI * 2;
         const dist = Math.sqrt(Math.random()) * (WORLD_RADIUS - 60);
         this.foods.push(new Food(Math.cos(ang) * dist, Math.sin(ang) * dist, 1));
       }
 
-      // Spawn larger drifting energy spheres
-      for (let i = 0; i < 35; i++) {
+      // Spawn 45 drifting high-energy spheres
+      for (let i = 0; i < 45; i++) {
         const ang = Math.random() * Math.PI * 2;
-        const dist = Math.sqrt(Math.random()) * (WORLD_RADIUS - 100);
-        this.foods.push(new Food(Math.cos(ang) * dist, Math.sin(ang) * dist, 3 + Math.random() * 3));
+        const dist = Math.sqrt(Math.random()) * (WORLD_RADIUS - 120);
+        this.foods.push(new Food(Math.cos(ang) * dist, Math.sin(ang) * dist, 3 + Math.floor(Math.random() * 4)));
       }
 
       // Create Player
@@ -656,7 +747,7 @@
       const name = BOT_NAMES[idx % BOT_NAMES.length] || `Snake${idx}`;
       const skin = SKINS[idx % SKINS.length];
       const ang = Math.random() * Math.PI * 2;
-      const dist = 300 + Math.random() * (WORLD_RADIUS - 450);
+      const dist = 350 + Math.random() * (WORLD_RADIUS - 500);
       const bx = Math.cos(ang) * dist;
       const by = Math.sin(ang) * dist;
 
@@ -665,8 +756,8 @@
     }
 
     update() {
-      // Replenish food if depleted
-      if (this.foods.length < 550) {
+      // Replenish food
+      if (this.foods.length < 580) {
         const ang = Math.random() * Math.PI * 2;
         const dist = Math.sqrt(Math.random()) * (WORLD_RADIUS - 60);
         this.foods.push(new Food(Math.cos(ang) * dist, Math.sin(ang) * dist, 1));
@@ -689,7 +780,7 @@
         this.snakes[i].update(this.foods, this.snakes, this.particles, this.soundEngine);
       }
 
-      // Handle Head-to-Food collisions
+      // Head-to-Food collisions (Significant growth when eating!)
       for (let s = 0; s < this.snakes.length; s++) {
         const snake = this.snakes[s];
         if (snake.isDead) continue;
@@ -697,9 +788,10 @@
         for (let f = this.foods.length - 1; f >= 0; f--) {
           const food = this.foods[f];
           const dist = Math.hypot(snake.x - food.x, snake.y - food.y);
-          if (dist < snake.radius + food.radius + 6) {
-            snake.length += food.mass * 0.28;
-            snake.score += food.mass * 10;
+          if (dist < snake.radius + food.radius + 8) {
+            // Volume and score scaling
+            snake.score = Math.floor(snake.score + food.mass * 12);
+            snake.length = Math.max(16, Math.floor(snake.score / 6));
             this.foods.splice(f, 1);
 
             if (snake.isPlayer) {
@@ -710,7 +802,7 @@
         }
       }
 
-      // Handle Snake-to-Snake collisions (Head vs Other Body)
+      // Snake-to-Snake collisions (Head vs Other Body)
       for (let i = 0; i < this.snakes.length; i++) {
         const s1 = this.snakes[i];
         if (s1.isDead) continue;
@@ -719,17 +811,20 @@
           const s2 = this.snakes[j];
           if (s1 === s2 || s2.isDead) continue;
 
-          // Check if s1's head collided with any segment of s2
+          // Check if s1 head hit any body segment of s2
           for (let k = 0; k < s2.segments.length; k += 2) {
             const seg = s2.segments[k];
             const dist = Math.hypot(s1.x - seg.x, s1.y - seg.y);
-            if (dist < s1.radius + s2.radius * 0.75) {
-              // s1 crashes into s2 and dies!
+            if (dist < s1.radius + s2.radius * 0.72) {
               s1.die(this.foods, this.particles, this.soundEngine);
               s2.kills++;
 
               if (s2.isPlayer) {
                 this.soundEngine.playKill();
+                // Rewarding bonus score for kills
+                s2.score = Math.floor(s2.score + 250);
+                s2.length = Math.max(16, Math.floor(s2.score / 6));
+                this.updateScoresUI();
               }
               if (s1.isPlayer) {
                 this.onPlayerDeath();
@@ -748,32 +843,37 @@
           this.snakes.splice(i, 1);
           setTimeout(() => {
             if (this.isPlaying) this.spawnBot(Math.floor(Math.random() * BOT_NAMES.length));
-          }, 2000 + Math.random() * 2000);
+          }, 1800 + Math.random() * 2000);
         }
       }
 
-      // Camera smooth Lerp
+      // Camera smooth Lerp & dynamic zoom based on size
       if (this.player && !this.player.isDead) {
         this.camera.x += (this.player.x - this.camera.x) * 0.08;
         this.camera.y += (this.player.y - this.camera.y) * 0.08;
 
-        // Dynamic Zoom out as snake grows
-        this.camera.targetZoom = Math.max(0.65, 1.0 - (this.player.length / 450) * 0.35);
-        this.camera.zoom += (this.camera.targetZoom - this.camera.zoom) * 0.05;
+        // Camera zooms out smoothly as player grows larger
+        const targetZoom = Math.max(0.42, 1.0 / (1.0 + Math.pow(this.player.score / 350, 0.4) * 0.4));
+        this.camera.zoom += (targetZoom - this.camera.zoom) * 0.04;
       }
     }
 
     onPlayerDeath() {
       this.soundEngine.stopBoost();
-      if (this.player.score > this.bestScore) {
-        this.bestScore = this.player.score;
-        localStorage.setItem('gulper_best', this.bestScore);
+
+      const finalScore = Math.floor(this.player.score);
+      const finalLength = Math.floor(this.player.length);
+
+      if (finalScore > this.bestScore) {
+        this.bestScore = finalScore;
+        localStorage.setItem('gulper_best', this.bestScore.toString());
       }
 
-      document.getElementById('modalScore').textContent = this.player.score;
-      document.getElementById('modalLength').textContent = Math.floor(this.player.length);
+      // Always format as pure integers with commas
+      document.getElementById('modalScore').textContent = finalScore.toLocaleString();
+      document.getElementById('modalLength').textContent = finalLength.toLocaleString();
       document.getElementById('modalKills').textContent = this.player.kills;
-      document.getElementById('modalBest').textContent = this.bestScore;
+      document.getElementById('modalBest').textContent = this.bestScore.toLocaleString();
 
       setTimeout(() => {
         document.getElementById('gameOverModal').showModal();
@@ -782,10 +882,14 @@
 
     updateScoresUI() {
       if (!this.player) return;
-      document.getElementById('hudScore').textContent = this.player.score;
-      document.getElementById('hudLength').textContent = Math.floor(this.player.length);
+      const curScore = Math.floor(this.player.score);
+      const curLength = Math.floor(this.player.length);
+      const best = Math.floor(this.bestScore);
+
+      document.getElementById('hudScore').textContent = curScore.toLocaleString();
+      document.getElementById('hudLength').textContent = curLength.toLocaleString();
       document.getElementById('hudKills').textContent = this.player.kills;
-      document.getElementById('hudBest').textContent = this.bestScore;
+      document.getElementById('hudBest').textContent = best.toLocaleString();
     }
 
     draw() {
@@ -796,7 +900,6 @@
       ctx.clearRect(0, 0, w, h);
 
       ctx.save();
-      // Center view
       ctx.translate(w / 2, h / 2);
       ctx.scale(this.camera.zoom, this.camera.zoom);
       ctx.translate(-this.camera.x, -this.camera.y);
@@ -806,18 +909,18 @@
       const viewX = this.camera.x - viewW / 2;
       const viewY = this.camera.y - viewH / 2;
 
-      // 1. Draw Cyber Dark Background & Grid
+      // 1. Draw High-Tech Cyber Grid
       this.drawGrid(ctx, viewX, viewY, viewW, viewH);
 
-      // 2. Draw Pulsing Electric Arena Perimeter Wall
+      // 2. Draw Pulsing Neon Perimeter
       this.drawPerimeter(ctx);
 
       // 3. Draw Foods
       for (let i = 0; i < this.foods.length; i++) {
         const f = this.foods[i];
         if (
-          f.x >= viewX - 20 && f.x <= viewX + viewW + 20 &&
-          f.y >= viewY - 20 && f.y <= viewY + viewH + 20
+          f.x >= viewX - 25 && f.x <= viewX + viewW + 25 &&
+          f.y >= viewY - 25 && f.y <= viewY + viewH + 25
         ) {
           f.draw(ctx);
         }
@@ -828,29 +931,31 @@
         this.particles[i].draw(ctx);
       }
 
-      // 5. Draw Snakes (Draw player last so it's on top)
+      // 5. Draw Other Snakes first
       for (let i = 0; i < this.snakes.length; i++) {
         if (!this.snakes[i].isPlayer) {
           this.snakes[i].draw(ctx, viewX, viewY, viewW, viewH);
         }
       }
+
+      // 6. Draw Player Snake last so it renders on top
       if (this.player && !this.player.isDead) {
         this.player.draw(ctx, viewX, viewY, viewW, viewH);
       }
 
       ctx.restore();
 
-      // Screen-Space UI Overlays
+      // Screen-space UI Overlays
       this.drawLeaderboard(ctx);
       this.drawMinimap(ctx);
     }
 
     drawGrid(ctx, vx, vy, vw, vh) {
-      const gridSize = 60;
+      const gridSize = 70;
       const startX = Math.floor(vx / gridSize) * gridSize;
       const startY = Math.floor(vy / gridSize) * gridSize;
 
-      ctx.strokeStyle = '#0e1826';
+      ctx.strokeStyle = '#0e1828';
       ctx.lineWidth = 1;
       ctx.beginPath();
 
@@ -863,75 +968,90 @@
         ctx.lineTo(vx + vw + gridSize, y);
       }
       ctx.stroke();
+
+      // Grid node crosshairs
+      ctx.fillStyle = '#182b45';
+      for (let x = startX; x <= vx + vw + gridSize; x += gridSize) {
+        for (let y = startY; y <= vy + vh + gridSize; y += gridSize) {
+          ctx.fillRect(x - 2, y - 2, 4, 4);
+        }
+      }
     }
 
     drawPerimeter(ctx) {
       ctx.save();
-      ctx.strokeStyle = '#00ffcc';
-      ctx.shadowColor = '#00ffcc';
-      ctx.shadowBlur = 18;
-      ctx.lineWidth = 6;
+      // Outer electric neon cyan circle
+      ctx.strokeStyle = '#00f7ff';
+      ctx.shadowColor = '#00f7ff';
+      ctx.shadowBlur = 24;
+      ctx.lineWidth = 8;
       ctx.beginPath();
       ctx.arc(0, 0, WORLD_RADIUS, 0, Math.PI * 2);
       ctx.stroke();
 
-      // Danger border zone dashed outer warning
-      ctx.strokeStyle = 'rgba(255, 0, 85, 0.4)';
-      ctx.lineWidth = 2;
-      ctx.setLineDash([12, 12]);
+      // Inner danger warning dashed line
+      ctx.strokeStyle = 'rgba(255, 40, 90, 0.5)';
+      ctx.lineWidth = 2.5;
+      ctx.setLineDash([14, 14]);
       ctx.beginPath();
-      ctx.arc(0, 0, WORLD_RADIUS - 18, 0, Math.PI * 2);
+      ctx.arc(0, 0, WORLD_RADIUS - 22, 0, Math.PI * 2);
       ctx.stroke();
       ctx.restore();
     }
 
     drawLeaderboard(ctx) {
       const sorted = [...this.snakes].filter(s => !s.isDead).sort((a, b) => b.score - a.score);
-      const top10 = sorted.slice(0, 8);
+      const top8 = sorted.slice(0, 7);
 
-      const boxW = 160;
-      const boxH = 34 + top10.length * 18;
+      const boxW = 180;
+      const boxH = 38 + top8.length * 20 + 8;
       const px = this.displayWidth - boxW - 14;
       const py = 14;
 
       ctx.save();
-      ctx.fillStyle = 'rgba(10, 15, 26, 0.75)';
-      ctx.strokeStyle = 'rgba(0, 255, 204, 0.35)';
-      ctx.lineWidth = 1.5;
+      // Frosted Glass Panel
+      ctx.fillStyle = 'rgba(7, 12, 22, 0.82)';
+      ctx.strokeStyle = 'rgba(0, 247, 255, 0.4)';
+      ctx.lineWidth = 2;
       ctx.beginPath();
-      ctx.roundRect(px, py, boxW, boxH, 10);
+      ctx.roundRect(px, py, boxW, boxH, 12);
       ctx.fill();
       ctx.stroke();
 
-      ctx.fillStyle = '#00ffcc';
-      ctx.font = '700 11px "Dela Gothic One", sans-serif';
+      // Title
+      ctx.fillStyle = '#00f7ff';
+      ctx.font = '800 11px "Dela Gothic One", sans-serif';
       ctx.textAlign = 'center';
-      ctx.fillText('LEADERBOARD', px + boxW / 2, py + 18);
+      ctx.fillText('⚡ LEADERBOARD', px + boxW / 2, py + 20);
 
-      ctx.font = '600 11px "Figtree", sans-serif';
-      top10.forEach((s, idx) => {
-        const rowY = py + 36 + idx * 18;
-        ctx.fillStyle = s.isPlayer ? '#ffd200' : 'rgba(255, 255, 255, 0.85)';
+      // Rows
+      ctx.font = '600 11.5px "Figtree", sans-serif';
+      top8.forEach((s, idx) => {
+        const rowY = py + 40 + idx * 20;
+        const medal = idx === 0 ? '🥇 ' : idx === 1 ? '🥈 ' : idx === 2 ? '🥉 ' : `${idx + 1}. `;
+
+        ctx.fillStyle = s.isPlayer ? '#ffd200' : 'rgba(255, 255, 255, 0.88)';
         ctx.textAlign = 'left';
-        ctx.fillText(`${idx + 1}. ${s.name}`, px + 10, rowY);
+        ctx.fillText(`${medal}${s.name}`, px + 10, rowY);
+
         ctx.textAlign = 'right';
-        ctx.fillText(`${s.score}`, px + boxW - 10, rowY);
+        ctx.fillText(Math.floor(s.score).toLocaleString(), px + boxW - 10, rowY);
       });
 
-      // Show player rank if outside top 8
+      // Show player position if outside top 7
       if (this.player && !this.player.isDead) {
-        const playerRank = sorted.findIndex(s => s === this.player) + 1;
-        if (playerRank > 8) {
+        const rank = sorted.findIndex(s => s === this.player) + 1;
+        if (rank > 7) {
           ctx.fillStyle = '#ffd200';
           ctx.textAlign = 'left';
-          ctx.fillText(`Your Rank: #${playerRank} / ${sorted.length}`, px + 10, py + boxH - 6);
+          ctx.fillText(`Your Rank: #${rank} / ${sorted.length}`, px + 10, py + boxH - 10);
         }
       }
       ctx.restore();
     }
 
     drawMinimap(ctx) {
-      const mapSize = 110;
+      const mapSize = 120;
       const mx = this.displayWidth - mapSize - 14;
       const my = this.displayHeight - mapSize - 14;
       const mapRadius = mapSize / 2;
@@ -939,18 +1059,18 @@
       const centerY = my + mapRadius;
 
       ctx.save();
-      // Minimap Disc
-      ctx.fillStyle = 'rgba(10, 15, 26, 0.8)';
-      ctx.strokeStyle = 'rgba(0, 255, 204, 0.4)';
-      ctx.lineWidth = 1.5;
+      // Radar disc
+      ctx.fillStyle = 'rgba(7, 12, 22, 0.85)';
+      ctx.strokeStyle = 'rgba(0, 247, 255, 0.45)';
+      ctx.lineWidth = 2;
       ctx.beginPath();
       ctx.arc(centerX, centerY, mapRadius, 0, Math.PI * 2);
       ctx.fill();
       ctx.stroke();
 
-      const scale = (mapRadius - 4) / WORLD_RADIUS;
+      const scale = (mapRadius - 5) / WORLD_RADIUS;
 
-      // Draw bot blips
+      // Bot blips
       for (let i = 0; i < this.snakes.length; i++) {
         const s = this.snakes[i];
         if (s.isDead || s.isPlayer) continue;
@@ -959,20 +1079,20 @@
 
         ctx.fillStyle = 'rgba(255, 255, 255, 0.45)';
         ctx.beginPath();
-        ctx.arc(blipX, blipY, 1.8, 0, Math.PI * 2);
+        ctx.arc(blipX, blipY, 2.0, 0, Math.PI * 2);
         ctx.fill();
       }
 
-      // Draw Player blip (pulsing white/cyan)
+      // Player Blip (Large pulsing cyan)
       if (this.player && !this.player.isDead) {
         const px = centerX + this.player.x * scale;
         const py = centerY + this.player.y * scale;
 
-        ctx.fillStyle = '#00ffcc';
-        ctx.shadowColor = '#00ffcc';
-        ctx.shadowBlur = 6;
+        ctx.fillStyle = '#00f7ff';
+        ctx.shadowColor = '#00f7ff';
+        ctx.shadowBlur = 8;
         ctx.beginPath();
-        ctx.arc(px, py, 3.5, 0, Math.PI * 2);
+        ctx.arc(px, py, 4.0, 0, Math.PI * 2);
         ctx.fill();
       }
       ctx.restore();

@@ -403,24 +403,27 @@
 
   <!-- Game Over Dialog (closedby="any") -->
   <dialog id="gameOverModal" class="game-dialog" closedby="any" aria-labelledby="modalTitle">
+    <div class="modal-badge-row">
+      <span class="modal-badge">💥 ELIMINATED!</span>
+    </div>
     <h2 id="modalTitle" class="modal-title">GAME OVER!</h2>
     <p class="modal-desc">Your cyber worm shattered in the arena!</p>
 
     <div class="modal-stats-grid">
-      <div class="modal-stat-card">
-        <div class="stat-label">Final Score</div>
+      <div class="modal-stat-card card-score">
+        <div class="stat-label">🏆 Final Score</div>
         <div id="modalScore" class="stat-value">0</div>
       </div>
-      <div class="modal-stat-card">
-        <div class="stat-label">Length</div>
+      <div class="modal-stat-card card-length">
+        <div class="stat-label">📏 Max Length</div>
         <div id="modalLength" class="stat-value">0</div>
       </div>
-      <div class="modal-stat-card">
-        <div class="stat-label">Kills</div>
+      <div class="modal-stat-card card-kills">
+        <div class="stat-label">⚔️ Rivals Slain</div>
         <div id="modalKills" class="stat-value">0</div>
       </div>
-      <div class="modal-stat-card">
-        <div class="stat-label">Best Record</div>
+      <div class="modal-stat-card card-best">
+        <div class="stat-label">👑 Best Record</div>
         <div id="modalBest" class="stat-value">0</div>
       </div>
     </div>

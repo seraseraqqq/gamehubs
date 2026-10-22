@@ -1,27 +1,26 @@
 /* -------------------------------------------------------------
-   Gulper.io - Zadely Neo-Brutalist Sticker Style Sheet
+   Gulper.io - Premium Zadely Neo-Brutalist Sticker Style Sheet
    ------------------------------------------------------------- */
 
 :root {
   color-scheme: light;
-  --sheet: #e6ecff;
-  --sheet-line: #d3dcfb;
-  --ink: #1b1f3b;
-  --ink-soft: #4a5078;
+  --sheet: #e8eeff;
+  --sheet-line: #d2dcfa;
+  --ink: #141832;
+  --ink-soft: #4b5278;
   --paper: #ffffff;
 
   /* Zadely Core Pop Palette */
-  --tomato: #ff5a4e;
-  --yolk: #ffd23f;
-  --pool: #3fa7ff;
-  --leaf: #2ec27e;
-  --grape: #8b6cff;
-  --pink: #ff8fc7;
-  --orange: #ff7a32;
-  --teal: #18c4c7;
-  --neon-cyan: #00ffcc;
+  --tomato: #ff4747;
+  --yolk: #ffd026;
+  --pool: #38a5ff;
+  --leaf: #10b981;
+  --grape: #845ef7;
+  --pink: #ff6b9d;
+  --orange: #ff7024;
+  --neon-cyan: #00f7ff;
 
-  /* Typography matching zadely.com */
+  /* Typography */
   --display: "Dela Gothic One", "Arial Black", Impact, sans-serif;
   --body: "Figtree", system-ui, -apple-system, sans-serif;
 
@@ -53,7 +52,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px 12px 48px;
+  padding: 16px 14px 56px;
 }
 
 /* Accessibility Skip Link */
@@ -76,7 +75,7 @@ body {
 
 .page-wrapper {
   width: 100%;
-  max-width: 860px;
+  max-width: 940px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -92,7 +91,7 @@ body {
   gap: 12px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 640px) {
   .game-header {
     flex-direction: row;
     justify-content: space-between;
@@ -107,7 +106,7 @@ body {
   align-items: center;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 640px) {
   .brand-group {
     align-items: flex-start;
   }
@@ -123,11 +122,11 @@ body {
 .sticker-tag {
   display: inline-block;
   font-family: var(--display);
-  font-size: 1.15rem;
-  padding: 4px 10px;
-  border: 2.5px solid var(--ink);
+  font-size: 1.25rem;
+  padding: 5px 12px;
+  border: 3px solid var(--ink);
   box-shadow: var(--lift-sm);
-  border-radius: 8px;
+  border-radius: 10px;
   letter-spacing: 0.5px;
 }
 
@@ -140,23 +139,23 @@ body {
 .tag-io {
   background: var(--grape);
   color: #ffffff;
-  transform: rotate(1deg);
+  transform: rotate(1.2deg);
 }
 
 .tag-unblocked {
   background: var(--yolk);
   color: var(--ink);
   transform: rotate(-0.5deg);
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 .site-tagline {
-  font-size: 0.82rem;
+  font-size: 0.85rem;
   font-weight: 700;
   color: var(--ink-soft);
 }
 
-/* Header Stats & Controls */
+/* Header Action Buttons */
 .header-actions {
   display: flex;
   align-items: center;
@@ -165,19 +164,20 @@ body {
 
 .btn-icon {
   background: var(--paper);
-  border: 2px solid var(--ink);
+  border: 2.5px solid var(--ink);
   box-shadow: var(--lift-sm);
   border-radius: 12px;
-  padding: 8px 12px;
+  padding: 8px 14px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 6px;
   font-family: var(--display);
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   font-weight: 700;
-  transition: transform 80ms, box-shadow 80ms;
+  color: var(--ink);
+  transition: transform 80ms, box-shadow 80ms, background 80ms;
 }
 
 .btn-icon:hover {
@@ -200,19 +200,19 @@ body {
 .game-stage-wrapper {
   width: 100%;
   position: relative;
-  background: #080c14;
-  border: 3px solid var(--ink);
+  background: #050811;
+  border: 3.5px solid var(--ink);
   box-shadow: var(--lift-xl);
-  border-radius: 20px;
+  border-radius: 24px;
   overflow: hidden;
-  height: 580px;
+  height: 620px;
   display: flex;
   flex-direction: column;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
   .game-stage-wrapper {
-    height: 480px;
+    height: 500px;
   }
 }
 
@@ -221,6 +221,7 @@ body {
   height: 100vh;
   border-radius: 0;
   border: none;
+  box-shadow: none;
 }
 
 #gameCanvas {
@@ -230,36 +231,40 @@ body {
   cursor: crosshair;
 }
 
-/* In-Game HUD overlay at bottom left */
+/* In-Game Modern HUD Overlay Bar */
 .hud-bar {
   position: absolute;
-  bottom: 12px;
-  left: 12px;
+  top: 14px;
+  left: 14px;
   display: flex;
   gap: 8px;
   pointer-events: none;
+  z-index: 5;
 }
 
 .hud-tile {
-  background: rgba(10, 15, 26, 0.75);
-  border: 1.5px solid rgba(0, 255, 204, 0.4);
-  border-radius: 8px;
-  padding: 5px 10px;
+  background: rgba(7, 12, 22, 0.82);
+  border: 2px solid rgba(0, 247, 255, 0.4);
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  padding: 6px 12px;
   color: #ffffff;
   display: flex;
   flex-direction: column;
+  min-width: 72px;
 }
 
 .hud-label {
   font-size: 0.62rem;
-  color: #00ffcc;
+  color: var(--neon-cyan);
   text-transform: uppercase;
   font-weight: 800;
+  letter-spacing: 0.5px;
 }
 
 .hud-val {
   font-family: var(--display);
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   color: #ffffff;
 }
 
@@ -267,8 +272,8 @@ body {
 .start-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(8, 12, 20, 0.88);
-  backdrop-filter: blur(4px);
+  background: rgba(5, 8, 17, 0.88);
+  backdrop-filter: blur(6px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -279,23 +284,24 @@ body {
 
 .start-card {
   background: var(--paper);
-  border: 3px solid var(--ink);
+  border: 3.5px solid var(--ink);
   box-shadow: var(--lift-xl);
-  border-radius: 20px;
-  padding: 24px;
+  border-radius: 24px;
+  padding: 28px 24px;
   width: 100%;
-  max-width: 360px;
+  max-width: 380px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 18px;
   text-align: center;
 }
 
 .start-title {
   font-family: var(--display);
-  font-size: 1.35rem;
+  font-size: 1.45rem;
   color: var(--ink);
+  letter-spacing: 0.5px;
 }
 
 .input-group {
@@ -307,23 +313,25 @@ body {
 }
 
 .input-label {
-  font-size: 0.75rem;
+  font-size: 0.78rem;
   font-weight: 800;
   color: var(--ink-soft);
   text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .player-input {
   width: 100%;
-  padding: 10px 14px;
+  padding: 12px 14px;
   font-family: var(--body);
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 700;
-  border: 2px solid var(--ink);
-  border-radius: 12px;
+  border: 2.5px solid var(--ink);
+  border-radius: 14px;
   background: #f8faff;
   color: var(--ink);
   outline: none;
+  transition: border-color 0.15s, background 0.15s;
 }
 
 .player-input:focus {
@@ -333,19 +341,19 @@ body {
 
 .skin-chips-bar {
   display: flex;
-  gap: 8px;
+  gap: 10px;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
 }
 
 .skin-chip {
-  width: 28px;
-  height: 28px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   border: 2.5px solid var(--ink);
   cursor: pointer;
-  transition: transform 80ms, box-shadow 80ms;
+  transition: transform 100ms, box-shadow 100ms;
 }
 
 .skin-chip:hover {
@@ -354,54 +362,54 @@ body {
 
 .skin-chip.selected {
   outline: 3px solid var(--ink);
-  outline-offset: 2px;
-  transform: scale(1.2);
+  outline-offset: 3px;
+  transform: scale(1.22);
 }
 
 .btn-play {
   width: 100%;
   background: var(--neon-cyan);
   color: var(--ink);
-  border: 2.5px solid var(--ink);
+  border: 3px solid var(--ink);
   box-shadow: var(--lift-md);
   font-family: var(--display);
-  font-size: 1.15rem;
-  padding: 12px 20px;
+  font-size: 1.25rem;
+  padding: 14px 20px;
   border-radius: 999px;
   cursor: pointer;
-  transition: transform 80ms, box-shadow 80ms;
+  transition: transform 80ms, box-shadow 80ms, background 80ms;
 }
 
 .btn-play:hover {
   transform: translateY(-2px);
   box-shadow: var(--lift-lg);
-  background: #26ffd5;
+  background: #38ffff;
 }
 
 .btn-play:active {
-  transform: translateY(3px);
+  transform: translateY(4px);
   box-shadow: 0 0 0 var(--ink);
 }
 
-/* Keyword Badge Cloud (Zadely sticker pill style) */
+/* Feature Tag Cloud (Zadely sticker pill style) */
 .tag-cloud {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   justify-content: center;
-  margin-top: 2px;
+  margin-top: 4px;
 }
 
 .tag-pill {
   font-family: var(--display);
   font-weight: 800;
-  font-size: 0.76rem;
+  font-size: 0.78rem;
   background: var(--paper);
   color: var(--ink);
   border: 2px solid var(--ink);
   box-shadow: 0 2px 0 var(--ink);
-  padding: 4px 10px;
+  padding: 5px 12px;
   border-radius: 999px;
   cursor: default;
   transition: transform 80ms, background 80ms;
@@ -415,7 +423,7 @@ body {
 /* Content Sections (Guides, Strategy, FAQs) */
 .content-section {
   width: 100%;
-  margin-top: 4px;
+  margin-top: 6px;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -426,22 +434,22 @@ body {
   border: 2.5px solid var(--ink);
   box-shadow: var(--lift-md);
   border-radius: 20px;
-  padding: 16px 20px;
+  padding: 18px 22px;
 }
 
 .guide-heading {
   font-family: var(--display);
-  font-size: 1.15rem;
+  font-size: 1.18rem;
   color: var(--ink);
   margin-bottom: 8px;
   font-weight: 400;
 }
 
 .guide-para {
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   line-height: 1.55;
   color: var(--ink);
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .guide-list {
@@ -449,7 +457,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   color: var(--ink);
 }
 
@@ -461,12 +469,12 @@ body {
 .strategy-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
+  gap: 12px;
   margin-top: 10px;
   margin-bottom: 12px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 640px) {
   .strategy-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -477,7 +485,7 @@ body {
   border: 2px solid var(--ink);
   box-shadow: var(--lift-sm);
   border-radius: 14px;
-  padding: 12px 14px;
+  padding: 14px;
   transition: transform 100ms ease, box-shadow 100ms ease;
 }
 
@@ -488,17 +496,17 @@ body {
 
 .strategy-card-title {
   font-family: var(--display);
-  font-size: 0.88rem;
+  font-size: 0.92rem;
   color: var(--ink);
-  margin-bottom: 4px;
+  margin-bottom: 6px;
   display: flex;
   align-items: center;
   gap: 6px;
 }
 
 .strategy-card-desc {
-  font-size: 0.83rem;
-  line-height: 1.45;
+  font-size: 0.84rem;
+  line-height: 1.48;
   color: var(--ink-soft);
 }
 
@@ -507,9 +515,9 @@ body {
   border: 2px solid var(--yolk);
   box-shadow: var(--lift-sm);
   border-radius: 14px;
-  padding: 12px 14px;
+  padding: 12px 16px;
   margin: 12px 0;
-  font-size: 0.85rem;
+  font-size: 0.86rem;
   line-height: 1.5;
   color: #78350f;
 }
@@ -518,15 +526,15 @@ body {
   color: #b45309;
 }
 
-/* Details / FAQ Accordion in Zadely style */
+/* FAQ Accordion */
 details.faq-item {
   background: var(--paper);
   border: 2.5px solid var(--ink);
   box-shadow: var(--lift-sm);
   border-radius: 16px;
-  padding: 12px 16px;
+  padding: 14px 18px;
   cursor: pointer;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   transition: box-shadow 80ms, transform 80ms;
 }
 
@@ -538,7 +546,7 @@ details.faq-item:hover {
 details.faq-item summary {
   font-weight: 800;
   color: var(--ink);
-  font-size: 0.95rem;
+  font-size: 0.96rem;
   outline: none;
   list-style: none;
   display: flex;
@@ -553,7 +561,7 @@ details.faq-item summary::-webkit-details-marker {
 details.faq-item summary::after {
   content: "+";
   font-family: var(--display);
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   color: var(--ink);
 }
 
@@ -562,23 +570,23 @@ details.faq-item[open] summary::after {
 }
 
 details.faq-item p {
-  margin-top: 8px;
-  font-size: 0.86rem;
+  margin-top: 10px;
+  font-size: 0.88rem;
   color: var(--ink-soft);
-  line-height: 1.45;
+  line-height: 1.5;
 }
 
-/* More Games & Zadely External Link Grid */
+/* More Games & Recommendations */
 .more-games-section {
   width: 100%;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 .section-title {
   font-family: var(--display);
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   color: var(--ink);
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -590,7 +598,7 @@ details.faq-item p {
   gap: 12px;
 }
 
-@media (min-width: 540px) {
+@media (min-width: 580px) {
   .more-games-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -601,7 +609,7 @@ details.faq-item p {
   border: 2.5px solid var(--ink);
   box-shadow: var(--lift-md);
   border-radius: 18px;
-  padding: 16px;
+  padding: 18px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -624,8 +632,8 @@ details.faq-item p {
   display: inline-block;
   align-self: flex-start;
   font-family: var(--display);
-  font-size: 0.68rem;
-  padding: 3px 8px;
+  font-size: 0.7rem;
+  padding: 4px 10px;
   border-radius: 999px;
   border: 1.5px solid var(--ink);
   background: var(--paper);
@@ -640,13 +648,13 @@ details.faq-item p {
 
 .rec-title {
   font-family: var(--display);
-  font-size: 1.02rem;
+  font-size: 1.05rem;
   color: var(--ink);
   margin-bottom: 6px;
 }
 
 .rec-desc {
-  font-size: 0.83rem;
+  font-size: 0.85rem;
   color: var(--ink-soft);
   line-height: 1.45;
   margin-bottom: 14px;
@@ -659,8 +667,8 @@ details.faq-item p {
   justify-content: center;
   gap: 6px;
   font-family: var(--display);
-  font-size: 0.82rem;
-  padding: 8px 14px;
+  font-size: 0.84rem;
+  padding: 9px 16px;
   border: 2px solid var(--ink);
   border-radius: 12px;
   background: var(--yolk);
@@ -678,8 +686,8 @@ details.faq-item p {
 
 /* Footer */
 .site-footer {
-  margin-top: 14px;
-  font-size: 0.78rem;
+  margin-top: 16px;
+  font-size: 0.8rem;
   font-weight: 600;
   color: var(--ink-soft);
   text-align: center;
@@ -689,55 +697,100 @@ details.faq-item p {
 }
 
 .disclaimer-text {
-  font-size: 0.7rem;
+  font-size: 0.72rem;
   color: #64748b;
-  max-width: 600px;
+  max-width: 620px;
   line-height: 1.4;
+  margin: 0 auto;
 }
 
-/* Game Over Dialog (HTML5 Dialog) */
+/* -------------------------------------------------------------
+   Redesigned Symmetrical Game Over Dialog (HTML5 Dialog)
+   ------------------------------------------------------------- */
 .game-dialog {
-  border: 3px solid var(--ink);
-  box-shadow: var(--lift-xl);
-  border-radius: 24px;
-  padding: 24px;
-  max-width: 380px;
-  width: 90%;
+  border: 3.5px solid var(--ink);
+  box-shadow: 0 12px 0 var(--ink);
+  border-radius: 26px;
+  padding: 26px;
+  max-width: 420px;
+  width: 92%;
   margin: auto;
   background: var(--paper);
   text-align: center;
 }
 
 .game-dialog::backdrop {
-  background: rgba(27, 31, 59, 0.65);
-  backdrop-filter: blur(4px);
+  background: rgba(20, 24, 50, 0.75);
+  backdrop-filter: blur(5px);
+}
+
+.modal-badge-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.modal-badge {
+  display: inline-block;
+  font-family: var(--display);
+  font-size: 0.78rem;
+  padding: 4px 12px;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: var(--tomato);
+  color: #ffffff;
+  letter-spacing: 0.5px;
 }
 
 .modal-title {
   font-family: var(--display);
-  font-size: 1.6rem;
-  color: var(--tomato);
+  font-size: 1.75rem;
+  color: var(--ink);
   margin-bottom: 4px;
 }
 
 .modal-desc {
   font-size: 0.88rem;
+  font-weight: 600;
   color: var(--ink-soft);
-  margin-bottom: 16px;
-}
-
-.modal-stats-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
   margin-bottom: 18px;
 }
 
+/* Perfectly balanced 2x2 symmetrical grid */
+.modal-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 22px;
+  width: 100%;
+}
+
 .modal-stat-card {
-  background: var(--sheet);
-  border: 2px solid var(--ink);
-  border-radius: 12px;
-  padding: 10px;
+  border: 2.5px solid var(--ink);
+  box-shadow: var(--lift-sm);
+  border-radius: 14px;
+  padding: 12px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.modal-stat-card.card-score {
+  background: #fffbeb;
+}
+
+.modal-stat-card.card-length {
+  background: #ecfeff;
+}
+
+.modal-stat-card.card-kills {
+  background: #fff1f2;
+}
+
+.modal-stat-card.card-best {
+  background: #faf5ff;
 }
 
 .modal-stat-card .stat-label {
@@ -745,34 +798,41 @@ details.faq-item p {
   color: var(--ink-soft);
   font-weight: 800;
   text-transform: uppercase;
+  margin-bottom: 4px;
+  letter-spacing: 0.5px;
 }
 
 .modal-stat-card .stat-value {
   font-family: var(--display);
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
 }
 
 .btn-primary {
   background: var(--leaf);
   color: #ffffff;
-  border: 2.5px solid var(--ink);
+  border: 3px solid var(--ink);
   box-shadow: var(--lift-md);
   font-family: var(--display);
-  font-size: 1.15rem;
-  padding: 12px 28px;
+  font-size: 1.25rem;
+  padding: 14px 28px;
   border-radius: 999px;
   cursor: pointer;
-  transition: transform 80ms, box-shadow 80ms;
+  transition: transform 80ms, box-shadow 80ms, background 80ms;
   width: 100%;
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
   box-shadow: var(--lift-lg);
+  background: #059669;
 }
 
 .btn-primary:active {
-  transform: translateY(3px);
+  transform: translateY(4px);
   box-shadow: 0 0 0 var(--ink);
 }
