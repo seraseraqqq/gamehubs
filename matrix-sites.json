@@ -43,7 +43,7 @@
       "path": "games/costcodle",
       "url": "https://costcodle-unlimited.vercel.app",
       "repo": "https://github.com/seraseraqqq/gamehubs",
-      "status": "built-qa-passed",
+      "status": "deployed",
       "targetIntent": "Daily and unlimited Costco price-guessing Wordle variant with 5% winning tolerance",
       "techStack": "HTML5 / CSS3 / Vanilla JS / Web Audio API / Zadely Sticker Theme",
       "createdAt": "2026-10-22",
