@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2026-10-22",
+  "sites": [
+    {
+      "siteId": "block-blast-unblocked",
+      "primaryKeyword": "block blast unblocked",
+      "volume": 22200,
+      "kd": 7,
+      "secondaryKeywords": [
+        "blockblast unblocked",
+        "block blast unblocked 76",
+        "block blast unblocked 66",
+        "bloc blast unblocked",
+        "block blast online free",
+        "block blast no download",
+        "8x8 block puzzle",
+        "block blast unblock",
+        "block blast chromebook"
+      ],
+      "path": "games/block-blast-unblocked",
+      "url": "https://gamehubs-blockblast.vercel.app",
+      "repo": "https://github.com/seraseraqqq/gamehubs",
+      "status": "ready-to-deploy",
+      "targetIntent": "Instant play 8x8 block puzzle game with no downloads or network barriers",
+      "techStack": "HTML5 / CSS3 / Vanilla JS / Web Audio API / Zadely Sticker Theme",
+      "createdAt": "2026-10-22",
+      "updatedAt": "2026-10-22"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+/block-blast-unblocked
+.DS_Store
+*.log
+node_modules/
+.vercel/
+*.tar.gz
+.env*
+.system_generated/
+__pycache__/
+*.pyc

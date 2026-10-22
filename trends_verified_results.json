@@ -1,0 +1,930 @@
+{
+  "total_cost": 0.11208,
+  "rows": [
+    {
+      "kw": "coolmathgames",
+      "trends_pct": 50,
+      "vol": 11100000,
+      "kd": 51,
+      "cpc": 2.7,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "geometry dash",
+      "trends_pct": 60,
+      "vol": 4090000,
+      "kd": 76,
+      "cpc": 1.11,
+      "comp": "LOW",
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "pacman",
+      "trends_pct": 50,
+      "vol": 2240000,
+      "kd": 66,
+      "cpc": 0.43,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "geoguessr",
+      "trends_pct": 80,
+      "vol": 1220000,
+      "kd": 66,
+      "cpc": 0.29,
+      "comp": "LOW",
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "retro bowl",
+      "trends_pct": 80,
+      "vol": 1000000,
+      "kd": 71,
+      "cpc": 0.12,
+      "comp": "LOW",
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "msn games",
+      "trends_pct": 60,
+      "vol": 550000,
+      "kd": 18,
+      "cpc": 6.06,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "run 3",
+      "trends_pct": 40,
+      "vol": 550000,
+      "kd": 32,
+      "cpc": 0.49,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "eaglercraft",
+      "trends_pct": 120,
+      "vol": 368000,
+      "kd": 16,
+      "cpc": 7.13,
+      "comp": "LOW",
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "popcorn game",
+      "trends_pct": 100,
+      "vol": 368000,
+      "kd": 3,
+      "cpc": 1.73,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "fern",
+      "trends_pct": 300,
+      "vol": 201000,
+      "kd": 23,
+      "cpc": 0.44,
+      "comp": "MEDIUM",
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "krillion",
+      "trends_pct": 80,
+      "vol": 165000,
+      "kd": 0,
+      "cpc": 12.3,
+      "comp": "LOW",
+      "roots": [
+        "browser game",
+        "unblocked game"
+      ]
+    },
+    {
+      "kw": "cardgames io",
+      "trends_pct": 70,
+      "vol": 110000,
+      "kd": 20,
+      "cpc": 3.88,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "pacman game",
+      "trends_pct": 50,
+      "vol": 60500,
+      "kd": 66,
+      "cpc": 0.39,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "retro bowl game",
+      "trends_pct": 80,
+      "vol": 49500,
+      "kd": 59,
+      "cpc": 0.24,
+      "comp": "LOW",
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "geometry dash online",
+      "trends_pct": 60,
+      "vol": 33100,
+      "kd": 70,
+      "cpc": 0.48,
+      "comp": "LOW",
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "geometry dash game",
+      "trends_pct": 60,
+      "vol": 27100,
+      "kd": 72,
+      "cpc": 0.62,
+      "comp": "LOW",
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "duck duck goose",
+      "trends_pct": 17300,
+      "vol": 22200,
+      "kd": 35,
+      "cpc": 2.35,
+      "comp": "LOW",
+      "roots": [
+        "web game"
+      ]
+    },
+    {
+      "kw": "costcodle",
+      "trends_pct": 200,
+      "vol": 18100,
+      "kd": 0,
+      "cpc": null,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "geoguessr game",
+      "trends_pct": 80,
+      "vol": 18100,
+      "kd": 61,
+      "cpc": 2.26,
+      "comp": "LOW",
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "run 3 game",
+      "trends_pct": 40,
+      "vol": 14800,
+      "kd": 42,
+      "cpc": 0.2,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "gulper io",
+      "trends_pct": 70,
+      "vol": 12100,
+      "kd": 7,
+      "cpc": 7.2,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "cherri",
+      "trends_pct": 50,
+      "vol": 12100,
+      "kd": 0,
+      "cpc": 3.99,
+      "comp": "LOW",
+      "roots": [
+        "unblocked game"
+      ]
+    },
+    {
+      "kw": "pacman online",
+      "trends_pct": 50,
+      "vol": 12100,
+      "kd": 47,
+      "cpc": 1.71,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "aquapark io",
+      "trends_pct": 80,
+      "vol": 8100,
+      "kd": 16,
+      "cpc": 0.13,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "duck duck goose game",
+      "trends_pct": 17300,
+      "vol": 6600,
+      "kd": 26,
+      "cpc": 0.35,
+      "comp": "LOW",
+      "roots": [
+        "web game"
+      ]
+    },
+    {
+      "kw": "hot potato game",
+      "trends_pct": 14750,
+      "vol": 6600,
+      "kd": 5,
+      "cpc": 0.32,
+      "comp": "LOW",
+      "roots": [
+        "web game"
+      ]
+    },
+    {
+      "kw": "game of telephone",
+      "trends_pct": 2700,
+      "vol": 6600,
+      "kd": 41,
+      "cpc": 3.1,
+      "comp": "LOW",
+      "roots": [
+        "web game"
+      ]
+    },
+    {
+      "kw": "telephone game",
+      "trends_pct": 2150,
+      "vol": 6600,
+      "kd": 41,
+      "cpc": 3.1,
+      "comp": "LOW",
+      "roots": [
+        "web game"
+      ]
+    },
+    {
+      "kw": "rec game",
+      "trends_pct": 400,
+      "vol": 4400,
+      "kd": 11,
+      "cpc": 2.19,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "retro bowl online",
+      "trends_pct": 80,
+      "vol": 4400,
+      "kd": 46,
+      "cpc": 0.41,
+      "comp": "LOW",
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "fern game",
+      "trends_pct": 300,
+      "vol": 3600,
+      "kd": 0,
+      "cpc": 2.85,
+      "comp": "LOW",
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "game of telephone phrases",
+      "trends_pct": 18750,
+      "vol": 1900,
+      "kd": 0,
+      "cpc": null,
+      "comp": "LOW",
+      "roots": [
+        "web game"
+      ]
+    },
+    {
+      "kw": "street fighter arcade",
+      "trends_pct": 90,
+      "vol": 1600,
+      "kd": 6,
+      "cpc": 0.31,
+      "comp": "HIGH",
+      "roots": [
+        "arcade game"
+      ]
+    },
+    {
+      "kw": "run 3 online",
+      "trends_pct": 40,
+      "vol": 1600,
+      "kd": 27,
+      "cpc": 0.32,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "originale",
+      "trends_pct": 110,
+      "vol": 1300,
+      "kd": 0,
+      "cpc": null,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "street fighter arcade game",
+      "trends_pct": 90,
+      "vol": 1300,
+      "kd": 14,
+      "cpc": 0.27,
+      "comp": "HIGH",
+      "roots": [
+        "arcade game"
+      ]
+    },
+    {
+      "kw": "eaglercraft online",
+      "trends_pct": 120,
+      "vol": 1000,
+      "kd": 5,
+      "cpc": null,
+      "comp": "LOW",
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "costcodle game",
+      "trends_pct": 200,
+      "vol": 880,
+      "kd": 0,
+      "cpc": null,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "arcade game with ball",
+      "trends_pct": 80,
+      "vol": 880,
+      "kd": 6,
+      "cpc": 0.41,
+      "comp": "HIGH",
+      "roots": [
+        "arcade game"
+      ]
+    },
+    {
+      "kw": "ball arcade game",
+      "trends_pct": 80,
+      "vol": 880,
+      "kd": 3,
+      "cpc": 0.41,
+      "comp": "HIGH",
+      "roots": [
+        "arcade game"
+      ]
+    },
+    {
+      "kw": "geoguessr online",
+      "trends_pct": 80,
+      "vol": 880,
+      "kd": 61,
+      "cpc": 8.92,
+      "comp": "LOW",
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "eaglercraft game",
+      "trends_pct": 120,
+      "vol": 390,
+      "kd": 22,
+      "cpc": null,
+      "comp": "LOW",
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "cricket 07 game",
+      "trends_pct": 15050,
+      "vol": 320,
+      "kd": 14,
+      "cpc": null,
+      "comp": "LOW",
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "cherri game",
+      "trends_pct": 50,
+      "vol": 320,
+      "kd": null,
+      "cpc": 4.23,
+      "comp": "LOW",
+      "roots": [
+        "unblocked game"
+      ]
+    },
+    {
+      "kw": "duck duck goose online",
+      "trends_pct": 17300,
+      "vol": 260,
+      "kd": 29,
+      "cpc": null,
+      "comp": "LOW",
+      "roots": [
+        "web game"
+      ]
+    },
+    {
+      "kw": "cork7",
+      "trends_pct": 100,
+      "vol": 260,
+      "kd": null,
+      "cpc": null,
+      "comp": "LOW",
+      "roots": [
+        "unblocked game"
+      ]
+    },
+    {
+      "kw": "killion io",
+      "trends_pct": 50,
+      "vol": 110,
+      "kd": null,
+      "cpc": null,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "noillirk",
+      "trends_pct": 300,
+      "vol": 90,
+      "kd": null,
+      "cpc": null,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "crillion io",
+      "trends_pct": 60,
+      "vol": 90,
+      "kd": null,
+      "cpc": null,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "ubghyper",
+      "trends_pct": 60,
+      "vol": 70,
+      "kd": null,
+      "cpc": null,
+      "comp": "LOW",
+      "roots": [
+        "unblocked game"
+      ]
+    },
+    {
+      "kw": "zeldamon",
+      "trends_pct": 111600,
+      "vol": 40,
+      "kd": 0,
+      "cpc": null,
+      "comp": "LOW",
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "fern online",
+      "trends_pct": 300,
+      "vol": 30,
+      "kd": 0,
+      "cpc": null,
+      "comp": "MEDIUM",
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "street fighter arcade online",
+      "trends_pct": 90,
+      "vol": 30,
+      "kd": 0,
+      "cpc": null,
+      "comp": "LOW",
+      "roots": [
+        "arcade game"
+      ]
+    },
+    {
+      "kw": "wow browser game",
+      "trends_pct": 70,
+      "vol": 20,
+      "kd": 29,
+      "cpc": 4.38,
+      "comp": "LOW",
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "pokebonk",
+      "trends_pct": 42650,
+      "vol": 10,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "cork 7 game",
+      "trends_pct": 120,
+      "vol": 10,
+      "kd": null,
+      "cpc": null,
+      "comp": "LOW",
+      "roots": [
+        "unblocked game"
+      ]
+    },
+    {
+      "kw": "originale game",
+      "trends_pct": 110,
+      "vol": 10,
+      "kd": null,
+      "cpc": null,
+      "comp": "LOW",
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "pokesurvivor",
+      "trends_pct": 110,
+      "vol": 10,
+      "kd": null,
+      "cpc": null,
+      "comp": "LOW",
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "zeldamon game",
+      "trends_pct": 111600,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "zeldamon online",
+      "trends_pct": 111600,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "words whispered in a game of telephone",
+      "trends_pct": 86350,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "web game"
+      ]
+    },
+    {
+      "kw": "pokebonk browser game",
+      "trends_pct": 42650,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "pokebonk game",
+      "trends_pct": 42650,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "pokebonk online",
+      "trends_pct": 42650,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "moonshot daily game",
+      "trends_pct": 36250,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "suffix with novel or capital online",
+      "trends_pct": 18800,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "web game"
+      ]
+    },
+    {
+      "kw": "suffix with novel or capital game",
+      "trends_pct": 18800,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "web game"
+      ]
+    },
+    {
+      "kw": "suffix with novel or capital",
+      "trends_pct": 18800,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "web game"
+      ]
+    },
+    {
+      "kw": "trey2k23 itch io",
+      "trends_pct": 400,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "cricket 07 browser game",
+      "trends_pct": 350,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "noillirk online",
+      "trends_pct": 300,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "noillirk game",
+      "trends_pct": 300,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "azeroth survivors game",
+      "trends_pct": 250,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "azeroth survivors",
+      "trends_pct": 250,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "azeroth survivors online",
+      "trends_pct": 250,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "costcodle online",
+      "trends_pct": 200,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "pokesurvivor online",
+      "trends_pct": 110,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "pokesurvivor game",
+      "trends_pct": 110,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "browser game"
+      ]
+    },
+    {
+      "kw": "originale online",
+      "trends_pct": 110,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "io game"
+      ]
+    },
+    {
+      "kw": "cork7 game",
+      "trends_pct": 100,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "unblocked game"
+      ]
+    },
+    {
+      "kw": "cork7 online",
+      "trends_pct": 100,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "unblocked game"
+      ]
+    },
+    {
+      "kw": "ubghyper game",
+      "trends_pct": 60,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "unblocked game"
+      ]
+    },
+    {
+      "kw": "ubghyper online",
+      "trends_pct": 60,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "unblocked game"
+      ]
+    },
+    {
+      "kw": "cherri online",
+      "trends_pct": 50,
+      "vol": null,
+      "kd": null,
+      "cpc": null,
+      "comp": null,
+      "roots": [
+        "unblocked game"
+      ]
+    }
+  ]
+}

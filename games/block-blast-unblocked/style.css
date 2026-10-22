@@ -1,0 +1,705 @@
+/* -------------------------------------------------------------
+   Zadely.com Flat Pop / Neo-Brutalist Sticker Style Sheet
+   ------------------------------------------------------------- */
+
+:root {
+  color-scheme: light;
+  --sheet: #e6ecff;
+  --sheet-line: #d3dcfb;
+  --ink: #1b1f3b;
+  --ink-soft: #4a5078;
+  --paper: #ffffff;
+
+  /* Zadely Core Pop Palette */
+  --tomato: #ff5a4e;
+  --yolk: #ffd23f;
+  --pool: #3fa7ff;
+  --leaf: #2ec27e;
+  --grape: #8b6cff;
+  --pink: #ff8fc7;
+  --orange: #ff7a32;
+  --teal: #18c4c7;
+
+  /* Typography matching zadely.com */
+  --display: "Dela Gothic One", "Arial Black", Impact, sans-serif;
+  --body: "Figtree", system-ui, -apple-system, sans-serif;
+
+  /* Hard offset ink drop shadows */
+  --lift-xl: 0 8px 0 var(--ink);
+  --lift-lg: 0 6px 0 var(--ink);
+  --lift-md: 0 4px 0 var(--ink);
+  --lift-sm: 0 3px 0 var(--ink);
+  --lift-xs: 0 2px 0 var(--ink);
+
+  --cell-size: min(48px, calc((100vw - 44px) / 8.5));
+}
+
+@media (min-height: 800px) and (min-width: 600px) {
+  :root {
+    --cell-size: 54px;
+  }
+}
+
+@media (max-width: 420px) {
+  :root {
+    --cell-size: calc((100vw - 40px) / 8.6);
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: var(--body);
+  color: var(--ink);
+  background-color: var(--sheet);
+  /* Zadely graph paper texture */
+  background-image:
+    linear-gradient(var(--sheet-line) 1.5px, transparent 1.5px),
+    linear-gradient(90deg, var(--sheet-line) 1.5px, transparent 1.5px);
+  background-size: 36px 36px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+  line-height: 1.5;
+}
+
+/* Accessibility skip link */
+.skip-link {
+  position: absolute;
+  top: -60px;
+  left: 12px;
+  background: var(--yolk);
+  color: var(--ink);
+  border: 2.5px solid var(--ink);
+  box-shadow: var(--lift-sm);
+  padding: 8px 16px;
+  font-weight: 800;
+  z-index: 1000;
+  text-decoration: none;
+  border-radius: 999px;
+  transition: top 0.15s ease;
+}
+.skip-link:focus {
+  top: 12px;
+}
+
+/* Page Wrapper (Level 1) */
+.page-wrapper {
+  width: 100%;
+  max-width: 580px;
+  padding: 14px 16px 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Header & Brand in Zadely Sticker Style */
+.game-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.brand-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.site-title {
+  font-family: var(--display);
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1.1;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+/* Tilted sticker badges replicating zadely.com header */
+.sticker-tag {
+  display: inline-block;
+  padding: 0.15em 0.45em 0.18em;
+  border: 2.5px solid var(--ink);
+  box-shadow: var(--lift-xs);
+  border-radius: 8px;
+  font-family: var(--display);
+  letter-spacing: 0.02em;
+  transition: transform 0.15s ease;
+}
+
+.tag-block {
+  background: var(--yolk);
+  color: var(--ink);
+  transform: rotate(-2deg);
+}
+.tag-block:hover {
+  transform: rotate(-3.5deg) scale(1.06);
+}
+
+.tag-blast {
+  background: var(--tomato);
+  color: #ffffff;
+  transform: rotate(2deg);
+}
+.tag-blast:hover {
+  transform: rotate(3.5deg) scale(1.06);
+}
+
+.tag-unblocked {
+  background: var(--leaf);
+  color: #ffffff;
+  font-size: 0.58em;
+  padding: 0.25em 0.6em;
+  border-radius: 999px;
+  transform: rotate(-1deg);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.site-tagline {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--ink-soft);
+  margin-top: 2px;
+}
+
+/* Stats Score Badges */
+.stats-group {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.stat-box {
+  background: var(--paper);
+  border: 2.5px solid var(--ink);
+  box-shadow: var(--lift-sm);
+  border-radius: 14px;
+  padding: 4px 12px;
+  text-align: center;
+  min-width: 70px;
+  transition: transform 0.1s ease;
+}
+
+.stat-label {
+  font-size: 0.65rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+}
+
+.stat-value {
+  font-family: var(--display);
+  font-size: 1.25rem;
+  color: var(--ink);
+  line-height: 1.15;
+}
+
+.stat-value.score-flash {
+  animation: score-bounce 0.25s ease;
+}
+
+@keyframes score-bounce {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.25); color: var(--tomato); }
+  100% { transform: scale(1); }
+}
+
+/* Action Controls (Pill & Circle buttons) */
+.controls-group {
+  display: flex;
+  gap: 6px;
+}
+
+.btn-icon {
+  background: var(--paper);
+  border: 2.5px solid var(--ink);
+  box-shadow: var(--lift-sm);
+  color: var(--ink);
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 80ms, box-shadow 80ms, background-color 80ms;
+}
+
+.btn-icon:hover {
+  background: var(--yolk);
+  transform: translateY(-1px);
+  box-shadow: var(--lift-md);
+}
+
+.btn-icon:active {
+  transform: translateY(3px);
+  box-shadow: 0 0 0 var(--ink);
+}
+
+.btn-icon svg {
+  width: 19px;
+  height: 19px;
+  fill: currentColor;
+}
+
+/* Main Game Stage (Level 2) */
+.game-stage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Tilted Pop Combo Sticker */
+.combo-banner {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-4deg) scale(0.6);
+  background: var(--yolk);
+  color: var(--ink);
+  font-family: var(--display);
+  font-size: 1.45rem;
+  letter-spacing: 0.02em;
+  padding: 8px 24px;
+  border-radius: 999px;
+  border: 3px solid var(--ink);
+  box-shadow: var(--lift-lg);
+  pointer-events: none;
+  opacity: 0;
+  z-index: 50;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.combo-banner.show {
+  opacity: 1;
+  transform: translate(-50%, -50%) rotate(-2deg) scale(1.12);
+}
+
+/* 8x8 Board Container Sticker */
+.board-container {
+  background: var(--paper);
+  padding: 10px;
+  border-radius: 24px;
+  border: 3px solid var(--ink);
+  box-shadow: var(--lift-lg);
+  position: relative;
+}
+
+.board-grid {
+  display: grid;
+  grid-template-columns: repeat(8, var(--cell-size));
+  grid-template-rows: repeat(8, var(--cell-size));
+  gap: 4px;
+}
+
+/* Cell Styling (Flat sticker grid) */
+.cell {
+  width: var(--cell-size);
+  height: var(--cell-size);
+  background-color: #f1f4fd;
+  border: 1.5px solid #d5defa;
+  border-radius: 8px;
+  position: relative;
+  transition: transform 0.12s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.cell.filled {
+  border: 2px solid var(--ink);
+  box-shadow: 0 3px 0 var(--ink);
+  transform: translateY(-1px);
+}
+
+/* Flat cartoon highlight dot */
+.cell.filled::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 5px;
+  height: 5px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.7);
+  pointer-events: none;
+}
+
+.cell.preview-valid {
+  background-color: #d1fae5 !important;
+  border: 2px solid var(--leaf) !important;
+  box-shadow: 0 2px 0 var(--ink);
+  transform: scale(0.96);
+}
+
+.cell.preview-invalid {
+  background-color: #ffe4e6 !important;
+  border: 2px solid var(--tomato) !important;
+}
+
+.cell.blasting {
+  animation: blast-pop 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+@keyframes blast-pop {
+  0% {
+    transform: scale(1) translateY(-1px);
+  }
+  50% {
+    transform: scale(1.18) translateY(-3px);
+    filter: brightness(1.25);
+  }
+  100% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+}
+
+/* Dock / Tray for 3 Pieces */
+.tray-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 125px;
+  margin-top: 14px;
+  padding: 10px 8px;
+  background: var(--paper);
+  border: 2.5px solid var(--ink);
+  box-shadow: var(--lift-md);
+  border-radius: 22px;
+}
+
+.tray-slot {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 110px;
+  position: relative;
+}
+
+.piece-item {
+  cursor: grab;
+  touch-action: none;
+  display: inline-grid;
+  gap: 3px;
+  transition: transform 0.12s cubic-bezier(0.34, 1.56, 0.64, 1);
+  padding: 6px;
+  border-radius: 12px;
+}
+
+.piece-item:hover {
+  transform: scale(1.1) translateY(-2px);
+}
+
+.piece-item.selected {
+  outline: 3px solid var(--grape);
+  outline-offset: 3px;
+  background: #f4f6ff;
+  transform: scale(1.12);
+}
+
+.piece-item.disabled {
+  opacity: 0.32;
+  cursor: not-allowed;
+  filter: grayscale(0.5);
+}
+
+.piece-item.dragging {
+  opacity: 0.25;
+}
+
+.piece-cell {
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  border: 2px solid var(--ink);
+  box-shadow: 0 2px 0 var(--ink);
+  position: relative;
+}
+
+.piece-cell::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 3px;
+  height: 3px;
+  border-radius: 1px;
+  background: rgba(255, 255, 255, 0.75);
+}
+
+/* Floating Drag Element */
+.drag-ghost {
+  position: fixed;
+  pointer-events: none;
+  z-index: 1000;
+  display: grid;
+  gap: 4px;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 8px 0 var(--ink));
+}
+
+.drag-ghost .ghost-cell {
+  width: var(--cell-size);
+  height: var(--cell-size);
+  border-radius: 8px;
+  border: 2.5px solid var(--ink);
+  box-shadow: 0 3px 0 var(--ink);
+  position: relative;
+}
+
+.drag-ghost .ghost-cell::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 5px;
+  height: 5px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/* Zadely Flat Texture Colors */
+.bg-yolk { background-color: var(--yolk); }
+.bg-tomato { background-color: var(--tomato); }
+.bg-pool { background-color: var(--pool); }
+.bg-leaf { background-color: var(--leaf); }
+.bg-grape { background-color: var(--grape); }
+.bg-pink { background-color: var(--pink); }
+.bg-orange { background-color: var(--orange); }
+.bg-teal { background-color: var(--teal); }
+
+/* Keyword Badge Cloud (Zadely Sticker Pill Style) */
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7px;
+  width: 100%;
+  margin-top: 2px;
+}
+
+.tag-pill {
+  font-family: var(--body);
+  font-weight: 800;
+  font-size: 0.76rem;
+  background: var(--paper);
+  color: var(--ink);
+  border: 2px solid var(--ink);
+  box-shadow: 0 2px 0 var(--ink);
+  padding: 4px 10px;
+  border-radius: 999px;
+  cursor: default;
+  transition: transform 80ms, background-color 80ms;
+}
+
+.tag-pill:hover {
+  transform: translateY(-1px);
+  background: var(--yolk);
+}
+
+/* Content Section (Zadely sticker cards, strictly <= 180 words) */
+.content-section {
+  width: 100%;
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.guide-block {
+  background: var(--paper);
+  border: 2.5px solid var(--ink);
+  box-shadow: var(--lift-md);
+  border-radius: 20px;
+  padding: 14px 18px;
+}
+
+.guide-heading {
+  font-family: var(--display);
+  font-size: 1.15rem;
+  color: var(--ink);
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.guide-list {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 0.88rem;
+  color: var(--ink);
+}
+
+.guide-list strong {
+  color: var(--ink);
+  font-weight: 800;
+}
+
+/* Details / FAQ Accordion in Zadely style */
+details.faq-item {
+  background: var(--paper);
+  border: 2.5px solid var(--ink);
+  box-shadow: var(--lift-sm);
+  border-radius: 16px;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: box-shadow 80ms, transform 80ms;
+}
+
+details.faq-item:hover {
+  box-shadow: var(--lift-md);
+  transform: translateY(-1px);
+}
+
+details.faq-item[open] {
+  box-shadow: var(--lift-md);
+}
+
+details.faq-item summary {
+  font-weight: 800;
+  color: var(--ink);
+  font-size: 0.95rem;
+  outline: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+details.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+details.faq-item summary::after {
+  content: "+";
+  font-family: var(--display);
+  font-size: 1.2rem;
+  color: var(--ink);
+}
+
+details.faq-item[open] summary::after {
+  content: "−";
+}
+
+details.faq-item p {
+  margin-top: 8px;
+  font-size: 0.86rem;
+  color: var(--ink-soft);
+  line-height: 1.45;
+}
+
+/* Footer in Zadely clean style */
+.site-footer {
+  margin-top: 14px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* Game Over Dialog (Zadely Neo-Brutalist Pop Modal) */
+dialog.game-dialog {
+  margin: auto;
+  background: var(--paper);
+  border: 3.5px solid var(--ink);
+  box-shadow: var(--lift-xl);
+  border-radius: 26px;
+  padding: 30px 24px;
+  color: var(--ink);
+  max-width: 360px;
+  width: 90%;
+  text-align: center;
+}
+
+dialog.game-dialog::backdrop {
+  background-color: rgba(27, 31, 59, 0.6);
+  backdrop-filter: blur(4px);
+}
+
+.modal-title {
+  font-family: var(--display);
+  font-size: 2.1rem;
+  color: var(--tomato);
+  margin-bottom: 6px;
+  line-height: 1.1;
+  text-shadow: 0 2px 0 var(--ink);
+}
+
+.modal-desc {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--ink-soft);
+  margin-bottom: 20px;
+}
+
+.modal-stats {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.modal-stat-card {
+  background: #f1f4fd;
+  border: 2.5px solid var(--ink);
+  box-shadow: var(--lift-sm);
+  padding: 10px 18px;
+  border-radius: 16px;
+  min-width: 96px;
+}
+
+.modal-stat-card .stat-label {
+  font-size: 0.68rem;
+  color: var(--ink-soft);
+}
+
+.modal-stat-card .stat-value {
+  font-size: 1.4rem;
+}
+
+.btn-primary {
+  background: var(--leaf);
+  color: #ffffff;
+  border: 2.5px solid var(--ink);
+  box-shadow: var(--lift-md);
+  font-family: var(--display);
+  font-size: 1.2rem;
+  padding: 12px 28px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 80ms, box-shadow 80ms;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--lift-lg);
+}
+
+.btn-primary:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 var(--ink);
+}

@@ -1,0 +1,34 @@
+{
+  "skill": "seo-minigame-site-sop",
+  "test_cases": [
+    {
+      "name": "build_simple_puzzle_site",
+      "input": "Build a clean SEO site for a simple 2048-style puzzle game targeting 'free tile merge game online'",
+      "assertions": [
+        "Produces a complete static site",
+        "Game occupies majority of viewport",
+        "Text volume is minimal",
+        "References aesthetic rules from skill"
+      ]
+    },
+    {
+      "name": "keyword_to_domain_flow",
+      "input": "Research keywords for a snake-like game and propose domains, then build the site",
+      "assertions": [
+        "Performs Trends-style keyword analysis",
+        "Suggests domain candidates",
+        "Selects and modifies an open-source game",
+        "Applies clean design standards"
+      ]
+    },
+    {
+      "name": "aesthetic_compliance_check",
+      "input": "Create a single-game site and verify it avoids nested boxes and excessive text",
+      "assertions": [
+        "Explicitly checks against aesthetic hard rules",
+        "Design is restrained and game-focused",
+        "No over-nesting of containers"
+      ]
+    }
+  ]
+}

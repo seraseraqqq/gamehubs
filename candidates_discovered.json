@@ -1,0 +1,1341 @@
+{
+  "total_cost_usd": 0.13308,
+  "candidates": [
+    {
+      "kw": "gaems",
+      "vol": 7480000,
+      "kd": 9,
+      "cpc": 0.3400000035762787,
+      "intent": "informational",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "gamess",
+      "vol": 7480000,
+      "kd": 25,
+      "cpc": 0.3400000035762787,
+      "intent": "informational",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "games unblocked",
+      "vol": 5000000,
+      "kd": 28,
+      "cpc": 2.930000066757202,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "drift boss",
+      "vol": 2240000,
+      "kd": 35,
+      "cpc": 0.09000000357627869,
+      "intent": "transactional",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "bear game",
+      "vol": 1500000,
+      "kd": 18,
+      "cpc": 1.2400000095367432,
+      "intent": "informational",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "cowboy game",
+      "vol": 1500000,
+      "kd": 28,
+      "cpc": 1.4500000476837158,
+      "intent": "informational",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "math is cool",
+      "vol": 1500000,
+      "kd": 9,
+      "cpc": 5.720000267028809,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "hooda m",
+      "vol": 1000000,
+      "kd": 19,
+      "cpc": 10.880000114440918,
+      "intent": "transactional",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "hooda m a t h",
+      "vol": 1000000,
+      "kd": 10,
+      "cpc": 10.880000114440918,
+      "intent": "transactional",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "subway runner",
+      "vol": 823000,
+      "kd": 26,
+      "cpc": 0.07999999821186066,
+      "intent": "informational",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "zen bound",
+      "vol": 823000,
+      "kd": 28,
+      "cpc": 24.649999618530273,
+      "intent": "informational",
+      "source": "poki.com"
+    },
+    {
+      "kw": "zen bound game",
+      "vol": 823000,
+      "kd": 19,
+      "cpc": 24.649999618530273,
+      "intent": "informational",
+      "source": "poki.com"
+    },
+    {
+      "kw": "akinator",
+      "vol": 673000,
+      "kd": 31,
+      "cpc": null,
+      "intent": "informational",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "atoz games",
+      "vol": 673000,
+      "kd": 30,
+      "cpc": 1.0499999523162842,
+      "intent": "navigational",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "run 3",
+      "vol": 673000,
+      "kd": 32,
+      "cpc": 0.07000000029802322,
+      "intent": "informational",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "run 3 run 3",
+      "vol": 673000,
+      "kd": 30,
+      "cpc": 0.07000000029802322,
+      "intent": "informational",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "run3",
+      "vol": 673000,
+      "kd": 30,
+      "cpc": 0.07000000029802322,
+      "intent": "informational",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "runner 3",
+      "vol": 673000,
+      "kd": 30,
+      "cpc": 0.07000000029802322,
+      "intent": "transactional",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "tickets tac toe",
+      "vol": 673000,
+      "kd": 35,
+      "cpc": 4.260000228881836,
+      "intent": "transactional",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "escape room",
+      "vol": 673000,
+      "kd": 34,
+      "cpc": 2.2799999713897705,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "escape rooms",
+      "vol": 673000,
+      "kd": 34,
+      "cpc": 2.2799999713897705,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "runb3",
+      "vol": 673000,
+      "kd": 18,
+      "cpc": 0.07000000029802322,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "9 online game",
+      "vol": 550000,
+      "kd": 0,
+      "cpc": 0.5,
+      "intent": "informational",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "poly track",
+      "vol": 550000,
+      "kd": 26,
+      "cpc": 0.2199999988079071,
+      "intent": "informational",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "polytrack",
+      "vol": 550000,
+      "kd": 26,
+      "cpc": 0.2199999988079071,
+      "intent": "transactional",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "mathcraft game",
+      "vol": 450000,
+      "kd": 14,
+      "cpc": 1.3799999952316284,
+      "intent": "informational",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "now.gg",
+      "vol": 450000,
+      "kd": 16,
+      "cpc": 3.190000057220459,
+      "intent": "navigational",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "quickdraw game",
+      "vol": 450000,
+      "kd": 20,
+      "cpc": 0.17000000178813934,
+      "intent": "transactional",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "space wave",
+      "vol": 450000,
+      "kd": 27,
+      "cpc": 1.409999966621399,
+      "intent": "informational",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "space waves",
+      "vol": 450000,
+      "kd": 35,
+      "cpc": 1.409999966621399,
+      "intent": "informational",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "spacewave",
+      "vol": 450000,
+      "kd": 35,
+      "cpc": 1.409999966621399,
+      "intent": "informational",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "pogo clown",
+      "vol": 450000,
+      "kd": 20,
+      "cpc": null,
+      "intent": "transactional",
+      "source": "poki.com"
+    },
+    {
+      "kw": "pogo the clown",
+      "vol": 450000,
+      "kd": 17,
+      "cpc": null,
+      "intent": "informational",
+      "source": "poki.com"
+    },
+    {
+      "kw": "l a times crossword",
+      "vol": 450000,
+      "kd": 20,
+      "cpc": 0.019999999552965164,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "la times crossword",
+      "vol": 450000,
+      "kd": 19,
+      "cpc": 0.019999999552965164,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "math gs",
+      "vol": 450000,
+      "kd": 20,
+      "cpc": 1.3799999952316284,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "math.ge",
+      "vol": 450000,
+      "kd": 0,
+      "cpc": 1.3799999952316284,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "acceleration city",
+      "vol": 368000,
+      "kd": 0,
+      "cpc": 2.1600000858306885,
+      "intent": "informational",
+      "source": "crazygames.com"
+    },
+    {
+      "kw": "slope unblocked",
+      "vol": 368000,
+      "kd": 23,
+      "cpc": 2.309999942779541,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "po ke",
+      "vol": 368000,
+      "kd": 29,
+      "cpc": 0.4000000059604645,
+      "intent": "informational",
+      "source": "poki.com"
+    },
+    {
+      "kw": "world solitaire game",
+      "vol": 368000,
+      "kd": 13,
+      "cpc": 2.6600000858306885,
+      "intent": "informational",
+      "source": "poki.com"
+    },
+    {
+      "kw": "rhythm-based platformer",
+      "vol": 368000,
+      "kd": 10,
+      "cpc": null,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "games unblocked 76",
+      "vol": 301000,
+      "kd": 31,
+      "cpc": 2.700000047683716,
+      "intent": "informational",
+      "source": "unblocked-games76.com"
+    },
+    {
+      "kw": "flappy bird",
+      "vol": 301000,
+      "kd": 13,
+      "cpc": 2.5299999713897705,
+      "intent": "informational",
+      "source": "poki.com"
+    },
+    {
+      "kw": "bloxd i o",
+      "vol": 301000,
+      "kd": 30,
+      "cpc": 0.20999999344348907,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "bloxd io",
+      "vol": 301000,
+      "kd": 29,
+      "cpc": 0.20999999344348907,
+      "intent": "navigational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "yahtzee",
+      "vol": 301000,
+      "kd": 33,
+      "cpc": 2.109999895095825,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "click the spacebar",
+      "vol": 246000,
+      "kd": 19,
+      "cpc": 0.4000000059604645,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "duckmath",
+      "vol": 246000,
+      "kd": 0,
+      "cpc": 4.860000133514404,
+      "intent": "navigational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "math games run 3",
+      "vol": 246000,
+      "kd": 31,
+      "cpc": 1.149999976158142,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "maths games run 3",
+      "vol": 246000,
+      "kd": 31,
+      "cpc": 1.149999976158142,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "o v o game",
+      "vol": 246000,
+      "kd": 14,
+      "cpc": 0.14000000059604645,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "ovo game",
+      "vol": 246000,
+      "kd": 14,
+      "cpc": 0.14000000059604645,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "ovo games",
+      "vol": 246000,
+      "kd": 14,
+      "cpc": 0.14000000059604645,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "run 3 math games",
+      "vol": 246000,
+      "kd": 30,
+      "cpc": 1.149999976158142,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "slope unblocked game",
+      "vol": 246000,
+      "kd": 31,
+      "cpc": 2.9700000286102295,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "spacebar clicker",
+      "vol": 246000,
+      "kd": 12,
+      "cpc": 0.4000000059604645,
+      "intent": "transactional",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "2 multiplayer games",
+      "vol": 246000,
+      "kd": 32,
+      "cpc": 0.15000000596046448,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "2player games",
+      "vol": 246000,
+      "kd": 29,
+      "cpc": 0.15000000596046448,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "snake the classic game",
+      "vol": 246000,
+      "kd": 21,
+      "cpc": 0.75,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "20 48 cupcakes",
+      "vol": 201000,
+      "kd": 1,
+      "cpc": 1.2000000476837158,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "20 48 cupcakes game",
+      "vol": 201000,
+      "kd": 6,
+      "cpc": 1.2000000476837158,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "20/48 cupcakes",
+      "vol": 201000,
+      "kd": 0,
+      "cpc": 1.2000000476837158,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "2048 cupcake game",
+      "vol": 201000,
+      "kd": 0,
+      "cpc": 1.2000000476837158,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "2048 cupcakes",
+      "vol": 201000,
+      "kd": 0,
+      "cpc": 1.2000000476837158,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "2048 cupcakes game",
+      "vol": 201000,
+      "kd": 2,
+      "cpc": 1.2000000476837158,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "2048 game cupcakes",
+      "vol": 201000,
+      "kd": 2,
+      "cpc": 1.2000000476837158,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "cupcake 2048",
+      "vol": 201000,
+      "kd": 1,
+      "cpc": 1.2000000476837158,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "cupcake game 2048",
+      "vol": 201000,
+      "kd": 4,
+      "cpc": 1.2000000476837158,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "cupcakes 2048",
+      "vol": 201000,
+      "kd": 0,
+      "cpc": 1.2000000476837158,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "geo dash unblocked",
+      "vol": 201000,
+      "kd": 25,
+      "cpc": 2.4200000762939453,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "geometry dash unblocked",
+      "vol": 201000,
+      "kd": 27,
+      "cpc": 2.4200000762939453,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "geometry dash unblocked game",
+      "vol": 201000,
+      "kd": 25,
+      "cpc": 2.4200000762939453,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "geometry dash unblocked games",
+      "vol": 201000,
+      "kd": 10,
+      "cpc": 2.4200000762939453,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "linkedin game",
+      "vol": 201000,
+      "kd": 12,
+      "cpc": 13.029999732971191,
+      "intent": "navigational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "linkedin games",
+      "vol": 201000,
+      "kd": 10,
+      "cpc": 13.029999732971191,
+      "intent": "navigational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "linkedin gaming",
+      "vol": 201000,
+      "kd": 13,
+      "cpc": 13.029999732971191,
+      "intent": "navigational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "core ball",
+      "vol": 165000,
+      "kd": 8,
+      "cpc": 1.2699999809265137,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "coreball",
+      "vol": 165000,
+      "kd": 9,
+      "cpc": 1.2699999809265137,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "duck math",
+      "vol": 165000,
+      "kd": 0,
+      "cpc": 6.960000038146973,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "eggy car",
+      "vol": 165000,
+      "kd": 33,
+      "cpc": 0.15000000596046448,
+      "intent": "transactional",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "math duck",
+      "vol": 165000,
+      "kd": 20,
+      "cpc": 6.960000038146973,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "math playground drift boss",
+      "vol": 165000,
+      "kd": 1,
+      "cpc": 0.27000001072883606,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "2games online",
+      "vol": 165000,
+      "kd": 24,
+      "cpc": 0.5099999904632568,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "billiards",
+      "vol": 165000,
+      "kd": 21,
+      "cpc": 1.4500000476837158,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "cards gin rummy",
+      "vol": 165000,
+      "kd": 26,
+      "cpc": 2.4200000762939453,
+      "intent": "transactional",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "dolphin game",
+      "vol": 165000,
+      "kd": 18,
+      "cpc": 1.0099999904632568,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "gin card game",
+      "vol": 165000,
+      "kd": 26,
+      "cpc": 2.4200000762939453,
+      "intent": "transactional",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "gin rummy game",
+      "vol": 165000,
+      "kd": 32,
+      "cpc": 2.4200000762939453,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "la times crossword mini",
+      "vol": 165000,
+      "kd": 11,
+      "cpc": 0.019999999552965164,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "mini crossword la times",
+      "vol": 165000,
+      "kd": 18,
+      "cpc": 0.019999999552965164,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "papa's",
+      "vol": 165000,
+      "kd": 15,
+      "cpc": 0.5799999833106995,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "papas",
+      "vol": 165000,
+      "kd": 19,
+      "cpc": 0.5799999833106995,
+      "intent": "informational",
+      "source": "coolmathgames.com"
+    },
+    {
+      "kw": "papa games",
+      "vol": 135000,
+      "kd": 24,
+      "cpc": 0.10999999940395355,
+      "intent": "transactional",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "papa's game",
+      "vol": 135000,
+      "kd": 26,
+      "cpc": 0.10999999940395355,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "papa's games",
+      "vol": 135000,
+      "kd": 24,
+      "cpc": 0.10999999940395355,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "planet clicker",
+      "vol": 135000,
+      "kd": 17,
+      "cpc": 0.25999999046325684,
+      "intent": "transactional",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "drift boss math playground",
+      "vol": 110000,
+      "kd": 4,
+      "cpc": 0.15000000596046448,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "electron dash",
+      "vol": 110000,
+      "kd": 10,
+      "cpc": 2.509999990463257,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "rodha",
+      "vol": 110000,
+      "kd": 6,
+      "cpc": null,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "67 games unblocked",
+      "vol": 90500,
+      "kd": 3,
+      "cpc": 2.009999990463257,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "67 unblocked games",
+      "vol": 90500,
+      "kd": 13,
+      "cpc": 2.009999990463257,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "cookie clicker game unblocked",
+      "vol": 90500,
+      "kd": 34,
+      "cpc": 4.510000228881836,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "ducky games",
+      "vol": 90500,
+      "kd": 14,
+      "cpc": 0.75,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "hockey puppet",
+      "vol": 90500,
+      "kd": 0,
+      "cpc": null,
+      "intent": "transactional",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "hockey puppets",
+      "vol": 90500,
+      "kd": 0,
+      "cpc": null,
+      "intent": "transactional",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "puppet hockey",
+      "vol": 90500,
+      "kd": 0,
+      "cpc": null,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "puppet ice hockey",
+      "vol": 90500,
+      "kd": 7,
+      "cpc": null,
+      "intent": "transactional",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "snow rider 3d unblocked",
+      "vol": 90500,
+      "kd": 8,
+      "cpc": 5.489999771118164,
+      "intent": "transactional",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "snow rider unblocked",
+      "vol": 90500,
+      "kd": 18,
+      "cpc": 3.049999952316284,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "unblocked g a m e s 67",
+      "vol": 90500,
+      "kd": 4,
+      "cpc": 2.009999990463257,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "unblocked games 67",
+      "vol": 90500,
+      "kd": 8,
+      "cpc": 2.009999990463257,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "6 7 clicker",
+      "vol": 74000,
+      "kd": 5,
+      "cpc": 0.4099999964237213,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "67 clicker",
+      "vol": 74000,
+      "kd": 6,
+      "cpc": 0.4099999964237213,
+      "intent": "navigational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "77 unblocked games",
+      "vol": 74000,
+      "kd": 7,
+      "cpc": 2.880000114440918,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "bloxorz math games",
+      "vol": 74000,
+      "kd": 33,
+      "cpc": 0.10999999940395355,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "head soccer",
+      "vol": 74000,
+      "kd": 18,
+      "cpc": 0.23000000417232513,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "low adventure 3",
+      "vol": 74000,
+      "kd": 0,
+      "cpc": null,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "low adventures 3",
+      "vol": 74000,
+      "kd": 0,
+      "cpc": null,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "low's adventure 3",
+      "vol": 74000,
+      "kd": 0,
+      "cpc": null,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "low's adventures 3",
+      "vol": 74000,
+      "kd": 0,
+      "cpc": null,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "math game bloxorz",
+      "vol": 74000,
+      "kd": 35,
+      "cpc": 0.10999999940395355,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "math games bloxorz",
+      "vol": 74000,
+      "kd": 34,
+      "cpc": 0.10999999940395355,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "unblocked games cookie clicker",
+      "vol": 74000,
+      "kd": 33,
+      "cpc": 2.4100000858306885,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "0v0",
+      "vol": 60500,
+      "kd": 14,
+      "cpc": 0.14000000059604645,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "3 run unblocked",
+      "vol": 60500,
+      "kd": 4,
+      "cpc": null,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "bloxorz",
+      "vol": 60500,
+      "kd": 31,
+      "cpc": 0.12999999523162842,
+      "intent": "navigational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "idle breakout",
+      "vol": 60500,
+      "kd": 31,
+      "cpc": 0.15000000596046448,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "o v o unblocked",
+      "vol": 60500,
+      "kd": 0,
+      "cpc": 0.5299999713897705,
+      "intent": "navigational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "ovo u n b l o c k e d",
+      "vol": 60500,
+      "kd": 0,
+      "cpc": 0.5299999713897705,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "ovo unblocked",
+      "vol": 60500,
+      "kd": 0,
+      "cpc": 0.5299999713897705,
+      "intent": "navigational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "r u n 3 unblocked",
+      "vol": 60500,
+      "kd": 1,
+      "cpc": null,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "run 3 on unblocked",
+      "vol": 60500,
+      "kd": 0,
+      "cpc": null,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "run 3 unb",
+      "vol": 60500,
+      "kd": 26,
+      "cpc": null,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "run 3 unblocked",
+      "vol": 60500,
+      "kd": 0,
+      "cpc": null,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "run 3 unblocked unblocked",
+      "vol": 60500,
+      "kd": 4,
+      "cpc": null,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "run run 3 unblocked",
+      "vol": 60500,
+      "kd": 8,
+      "cpc": null,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "run three unblocked",
+      "vol": 60500,
+      "kd": 12,
+      "cpc": null,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "run unblocked 3",
+      "vol": 60500,
+      "kd": 1,
+      "cpc": null,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "run3 unblocked",
+      "vol": 60500,
+      "kd": 28,
+      "cpc": null,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "running 3 unblocked",
+      "vol": 60500,
+      "kd": 4,
+      "cpc": null,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "schools unblocked games",
+      "vol": 60500,
+      "kd": 5,
+      "cpc": 3.0999999046325684,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "brainrot clicker",
+      "vol": 49500,
+      "kd": 10,
+      "cpc": 0.33000001311302185,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "santa tracker snow rider",
+      "vol": 49500,
+      "kd": 27,
+      "cpc": null,
+      "intent": "transactional",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "sled rider 3d",
+      "vol": 49500,
+      "kd": 23,
+      "cpc": 0.15000000596046448,
+      "intent": "transactional",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "candy clicker",
+      "vol": 40500,
+      "kd": 7,
+      "cpc": 0.029999999329447746,
+      "intent": "transactional",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "car games unblocked",
+      "vol": 40500,
+      "kd": 10,
+      "cpc": 2.25,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "free game unblocked",
+      "vol": 40500,
+      "kd": 28,
+      "cpc": 2.2200000286102295,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "hooda",
+      "vol": 40500,
+      "kd": 9,
+      "cpc": 7.639999866485596,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "lows adventure 2",
+      "vol": 40500,
+      "kd": 0,
+      "cpc": null,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "math playground electron dash",
+      "vol": 40500,
+      "kd": 10,
+      "cpc": 13.970000267028809,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "maths playground electron dash",
+      "vol": 40500,
+      "kd": 12,
+      "cpc": 13.970000267028809,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "mountain bike racer",
+      "vol": 40500,
+      "kd": 15,
+      "cpc": 3.5399999618530273,
+      "intent": "transactional",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "not blocked games",
+      "vol": 40500,
+      "kd": 23,
+      "cpc": 4.449999809265137,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "thorn and balloons",
+      "vol": 40500,
+      "kd": 12,
+      "cpc": 0.18000000715255737,
+      "intent": "transactional",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "thorns and balloons",
+      "vol": 40500,
+      "kd": 11,
+      "cpc": 0.18000000715255737,
+      "intent": "transactional",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "unblocked car games",
+      "vol": 40500,
+      "kd": 11,
+      "cpc": 2.25,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "watermelon game",
+      "vol": 40500,
+      "kd": 29,
+      "cpc": 0.20000000298023224,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "drift boss game",
+      "vol": 33100,
+      "kd": 35,
+      "cpc": 0.14000000059604645,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "drift hunters unblocked",
+      "vol": 33100,
+      "kd": 7,
+      "cpc": 1.8199999332427979,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "drifting hunters unblocked",
+      "vol": 33100,
+      "kd": 0,
+      "cpc": 1.8199999332427979,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "duck life 4",
+      "vol": 33100,
+      "kd": 13,
+      "cpc": 0.38999998569488525,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "duck life four",
+      "vol": 33100,
+      "kd": 19,
+      "cpc": 0.38999998569488525,
+      "intent": "transactional",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "head soccer 2026",
+      "vol": 33100,
+      "kd": 0,
+      "cpc": 0.10999999940395355,
+      "intent": "informational",
+      "source": "hoodamath.com"
+    },
+    {
+      "kw": "76 unblocked games",
+      "vol": 6600,
+      "kd": 20,
+      "cpc": null,
+      "intent": "informational",
+      "source": "unblocked-games76.com"
+    },
+    {
+      "kw": "games 76",
+      "vol": 3600,
+      "kd": 15,
+      "cpc": 0.17000000178813934,
+      "intent": "informational",
+      "source": "unblocked-games76.com"
+    },
+    {
+      "kw": "clash royale unblocked 76",
+      "vol": 2900,
+      "kd": 27,
+      "cpc": null,
+      "intent": "informational",
+      "source": "unblocked-games76.com"
+    }
+  ]
+}
