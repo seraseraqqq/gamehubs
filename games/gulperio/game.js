@@ -141,9 +141,9 @@
       // Invulnerability shield timer (180 frames = 3 seconds)
       this.shieldTimer = SPAWN_SHIELD_FRAMES;
 
-      // Balanced score & length scaling
-      this.score = isPlayer ? 100 : 100 + Math.floor(Math.random() * 300);
-      this.length = Math.max(18, Math.floor(this.score / 7.5));
+      // Balanced score & length scaling - EVERY newborn snake starts small!
+      this.score = 100;
+      this.length = 18;
       this.radius = BASE_RADIUS;
       this.kills = 0;
       this.isDead = false;
@@ -392,15 +392,30 @@
     draw(ctx, viewX, viewY, viewW, viewH) {
       if (this.isDead || this.segments.length < 2) return;
 
-      const head = this.segments[0];
-      const boundMargin = 350;
-      if (
-        head.x < viewX - boundMargin ||
-        head.x > viewX + viewW + boundMargin ||
-        head.y < viewY - boundMargin ||
-        head.y > viewY + viewH + boundMargin
-      ) {
-        return;
+      // Robust viewport culling: check if any part of the snake body is on screen
+      if (!this.isPlayer) {
+        const margin = 120;
+        const minX = viewX - margin;
+        const maxX = viewX + viewW + margin;
+        const minY = viewY - margin;
+        const maxY = viewY + viewH + margin;
+
+        let inView = false;
+        // Sample head, body segments every 3 steps, and tail
+        for (let i = 0; i < this.segments.length; i += 3) {
+          const seg = this.segments[i];
+          if (seg.x >= minX && seg.x <= maxX && seg.y >= minY && seg.y <= maxY) {
+            inView = true;
+            break;
+          }
+        }
+        if (!inView) {
+          const tail = this.segments[this.segments.length - 1];
+          if (tail && tail.x >= minX && tail.x <= maxX && tail.y >= minY && tail.y <= maxY) {
+            inView = true;
+          }
+        }
+        if (!inView) return;
       }
 
       ctx.save();
@@ -746,25 +761,71 @@
       });
     }
 
-    // Safe spawn finder: finds an arena location away from all other living snakes
-    findSafeSpawn(minDist = 450) {
-      for (let attempt = 0; attempt < 20; attempt++) {
+    // Safe spawn finder: finds an arena location away from all other living snakes and off-screen from player
+    findSafeSpawn(minDist = 450, mustBeOffscreen = false) {
+      const zoom = (this.camera && this.camera.zoom) ? this.camera.zoom : 1.0;
+      const viewW = (this.displayWidth || 1200) / zoom;
+      const viewH = (this.displayHeight || 700) / zoom;
+      const viewRadius = Math.hypot(viewW / 2, viewH / 2) + 240;
+
+      for (let attempt = 0; attempt < 40; attempt++) {
         const ang = Math.random() * Math.PI * 2;
-        const dist = Math.sqrt(Math.random()) * (WORLD_RADIUS - 500);
+        const dist = Math.sqrt(Math.random()) * (WORLD_RADIUS - 450);
         const x = Math.cos(ang) * dist;
         const y = Math.sin(ang) * dist;
 
+        // 1. Offscreen check: Bot must NOT spawn inside or immediately on edge of player view
+        if (mustBeOffscreen && this.player && !this.player.isDead) {
+          const camX = this.camera ? this.camera.x : this.player.x;
+          const camY = this.camera ? this.camera.y : this.player.y;
+          if (Math.hypot(x - camX, y - camY) < viewRadius) {
+            continue;
+          }
+        }
+
+        // 2. Proximity check against all living snakes (heads AND body segments)
         let safe = true;
         for (let i = 0; i < this.snakes.length; i++) {
           const s = this.snakes[i];
-          if (!s.isDead && Math.hypot(x - s.x, y - s.y) < minDist) {
+          if (s.isDead) continue;
+
+          // Head distance
+          if (Math.hypot(x - s.x, y - s.y) < minDist) {
             safe = false;
             break;
           }
+
+          // Body segments distance (sample every 3 segments)
+          if (s.segments) {
+            for (let k = 0; k < s.segments.length; k += 3) {
+              const seg = s.segments[k];
+              if (Math.hypot(x - seg.x, y - seg.y) < s.radius + 90) {
+                safe = false;
+                break;
+              }
+            }
+          }
+          if (!safe) break;
         }
+
         if (safe) return { x, y };
       }
-      return { x: 0, y: 0 };
+
+      // Safe fallback: pick coordinate far on opposite side of player or arena perimeter
+      if (this.player && !this.player.isDead) {
+        const oppAng = Math.atan2(this.player.y, this.player.x) + Math.PI + (Math.random() - 0.5) * 0.8;
+        const oppDist = Math.min(WORLD_RADIUS - 400, 1600);
+        return {
+          x: Math.cos(oppAng) * oppDist,
+          y: Math.sin(oppAng) * oppDist
+        };
+      }
+
+      const fallbackAng = Math.random() * Math.PI * 2;
+      return {
+        x: Math.cos(fallbackAng) * 1200,
+        y: Math.sin(fallbackAng) * 1200
+      };
     }
 
     startGame() {
@@ -797,13 +858,13 @@
 
       // Create Player in a safe spot with 3-second spawn shield
       const playerSkin = SKINS[this.selectedSkinIndex];
-      const spawn = this.findSafeSpawn(500);
+      const spawn = this.findSafeSpawn(500, false);
       this.player = new Snake('player', nickname, playerSkin, true, spawn.x, spawn.y);
       this.snakes.push(this.player);
 
-      // Spawn calibrated 14 AI bots (perfect balanced density)
+      // Spawn calibrated 14 AI bots (safely off-screen from player)
       for (let i = 0; i < TARGET_BOTS; i++) {
-        this.spawnBot(i);
+        this.spawnBot(i, true);
       }
 
       this.isPlaying = true;
@@ -817,10 +878,10 @@
       }
     }
 
-    spawnBot(idx) {
+    spawnBot(idx, mustBeOffscreen = true) {
       const name = BOT_NAMES[idx % BOT_NAMES.length] || `Snake${idx}`;
       const skin = SKINS[idx % SKINS.length];
-      const spawn = this.findSafeSpawn(400);
+      const spawn = this.findSafeSpawn(450, mustBeOffscreen);
 
       const bot = new Snake(`bot_${Date.now()}_${idx}`, name, skin, false, spawn.x, spawn.y);
       this.snakes.push(bot);
