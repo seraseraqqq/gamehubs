@@ -1,0 +1,778 @@
+/* -------------------------------------------------------------
+   Gulper.io - Zadely Neo-Brutalist Sticker Style Sheet
+   ------------------------------------------------------------- */
+
+:root {
+  color-scheme: light;
+  --sheet: #e6ecff;
+  --sheet-line: #d3dcfb;
+  --ink: #1b1f3b;
+  --ink-soft: #4a5078;
+  --paper: #ffffff;
+
+  /* Zadely Core Pop Palette */
+  --tomato: #ff5a4e;
+  --yolk: #ffd23f;
+  --pool: #3fa7ff;
+  --leaf: #2ec27e;
+  --grape: #8b6cff;
+  --pink: #ff8fc7;
+  --orange: #ff7a32;
+  --teal: #18c4c7;
+  --neon-cyan: #00ffcc;
+
+  /* Typography matching zadely.com */
+  --display: "Dela Gothic One", "Arial Black", Impact, sans-serif;
+  --body: "Figtree", system-ui, -apple-system, sans-serif;
+
+  /* Hard offset ink drop shadows */
+  --lift-xl: 0 8px 0 var(--ink);
+  --lift-lg: 0 6px 0 var(--ink);
+  --lift-md: 0 4px 0 var(--ink);
+  --lift-sm: 0 3px 0 var(--ink);
+  --lift-xs: 0 2px 0 var(--ink);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: var(--body);
+  background-color: var(--sheet);
+  background-image:
+    linear-gradient(var(--sheet-line) 1.5px, transparent 1.5px),
+    linear-gradient(90deg, var(--sheet-line) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+  background-position: -1px -1px;
+  color: var(--ink);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px 48px;
+}
+
+/* Accessibility Skip Link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  background: var(--yolk);
+  color: var(--ink);
+  padding: 8px 14px;
+  font-weight: 800;
+  border: 2px solid var(--ink);
+  border-radius: 8px;
+  z-index: 1000;
+  transition: top 0.2s ease;
+}
+.skip-link:focus {
+  top: 10px;
+}
+
+.page-wrapper {
+  width: 100%;
+  max-width: 860px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Header & Brand Tags */
+.game-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+@media (min-width: 600px) {
+  .game-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.brand-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+
+@media (min-width: 600px) {
+  .brand-group {
+    align-items: flex-start;
+  }
+}
+
+.site-title {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-family: var(--display);
+}
+
+.sticker-tag {
+  display: inline-block;
+  font-family: var(--display);
+  font-size: 1.15rem;
+  padding: 4px 10px;
+  border: 2.5px solid var(--ink);
+  box-shadow: var(--lift-sm);
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+}
+
+.tag-gulper {
+  background: var(--neon-cyan);
+  color: var(--ink);
+  transform: rotate(-1.5deg);
+}
+
+.tag-io {
+  background: var(--grape);
+  color: #ffffff;
+  transform: rotate(1deg);
+}
+
+.tag-unblocked {
+  background: var(--yolk);
+  color: var(--ink);
+  transform: rotate(-0.5deg);
+  font-size: 0.95rem;
+}
+
+.site-tagline {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--ink-soft);
+}
+
+/* Header Stats & Controls */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-icon {
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  box-shadow: var(--lift-sm);
+  border-radius: 12px;
+  padding: 8px 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-family: var(--display);
+  font-size: 0.78rem;
+  font-weight: 700;
+  transition: transform 80ms, box-shadow 80ms;
+}
+
+.btn-icon:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--lift-md);
+  background: var(--sheet);
+}
+
+.btn-icon:active {
+  transform: translateY(2px);
+  box-shadow: var(--lift-xs);
+}
+
+.btn-icon.active {
+  background: var(--tomato);
+  color: #ffffff;
+}
+
+/* Game Stage Card */
+.game-stage-wrapper {
+  width: 100%;
+  position: relative;
+  background: #080c14;
+  border: 3px solid var(--ink);
+  box-shadow: var(--lift-xl);
+  border-radius: 20px;
+  overflow: hidden;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .game-stage-wrapper {
+    height: 480px;
+  }
+}
+
+#gameContainer:fullscreen {
+  width: 100vw;
+  height: 100vh;
+  border-radius: 0;
+  border: none;
+}
+
+#gameCanvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: crosshair;
+}
+
+/* In-Game HUD overlay at bottom left */
+.hud-bar {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  display: flex;
+  gap: 8px;
+  pointer-events: none;
+}
+
+.hud-tile {
+  background: rgba(10, 15, 26, 0.75);
+  border: 1.5px solid rgba(0, 255, 204, 0.4);
+  border-radius: 8px;
+  padding: 5px 10px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.hud-label {
+  font-size: 0.62rem;
+  color: #00ffcc;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.hud-val {
+  font-family: var(--display);
+  font-size: 0.95rem;
+  color: #ffffff;
+}
+
+/* Start Game Overlay Card */
+.start-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 12, 20, 0.88);
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 10;
+}
+
+.start-card {
+  background: var(--paper);
+  border: 3px solid var(--ink);
+  box-shadow: var(--lift-xl);
+  border-radius: 20px;
+  padding: 24px;
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+}
+
+.start-title {
+  font-family: var(--display);
+  font-size: 1.35rem;
+  color: var(--ink);
+}
+
+.input-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.input-label {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+}
+
+.player-input {
+  width: 100%;
+  padding: 10px 14px;
+  font-family: var(--body);
+  font-size: 1rem;
+  font-weight: 700;
+  border: 2px solid var(--ink);
+  border-radius: 12px;
+  background: #f8faff;
+  color: var(--ink);
+  outline: none;
+}
+
+.player-input:focus {
+  border-color: var(--neon-cyan);
+  background: #ffffff;
+}
+
+.skin-chips-bar {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.skin-chip {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2.5px solid var(--ink);
+  cursor: pointer;
+  transition: transform 80ms, box-shadow 80ms;
+}
+
+.skin-chip:hover {
+  transform: scale(1.15);
+}
+
+.skin-chip.selected {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+  transform: scale(1.2);
+}
+
+.btn-play {
+  width: 100%;
+  background: var(--neon-cyan);
+  color: var(--ink);
+  border: 2.5px solid var(--ink);
+  box-shadow: var(--lift-md);
+  font-family: var(--display);
+  font-size: 1.15rem;
+  padding: 12px 20px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 80ms, box-shadow 80ms;
+}
+
+.btn-play:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--lift-lg);
+  background: #26ffd5;
+}
+
+.btn-play:active {
+  transform: translateY(3px);
+  box-shadow: 0 0 0 var(--ink);
+}
+
+/* Keyword Badge Cloud (Zadely sticker pill style) */
+.tag-cloud {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+.tag-pill {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 0.76rem;
+  background: var(--paper);
+  color: var(--ink);
+  border: 2px solid var(--ink);
+  box-shadow: 0 2px 0 var(--ink);
+  padding: 4px 10px;
+  border-radius: 999px;
+  cursor: default;
+  transition: transform 80ms, background 80ms;
+}
+
+.tag-pill:hover {
+  transform: translateY(-1px);
+  background: var(--yolk);
+}
+
+/* Content Sections (Guides, Strategy, FAQs) */
+.content-section {
+  width: 100%;
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.guide-block {
+  background: var(--paper);
+  border: 2.5px solid var(--ink);
+  box-shadow: var(--lift-md);
+  border-radius: 20px;
+  padding: 16px 20px;
+}
+
+.guide-heading {
+  font-family: var(--display);
+  font-size: 1.15rem;
+  color: var(--ink);
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.guide-para {
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--ink);
+  margin-bottom: 10px;
+}
+
+.guide-list {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.88rem;
+  color: var(--ink);
+}
+
+.guide-list strong {
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.strategy-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+@media (min-width: 600px) {
+  .strategy-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.strategy-card {
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  box-shadow: var(--lift-sm);
+  border-radius: 14px;
+  padding: 12px 14px;
+  transition: transform 100ms ease, box-shadow 100ms ease;
+}
+
+.strategy-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--lift-md);
+}
+
+.strategy-card-title {
+  font-family: var(--display);
+  font-size: 0.88rem;
+  color: var(--ink);
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.strategy-card-desc {
+  font-size: 0.83rem;
+  line-height: 1.45;
+  color: var(--ink-soft);
+}
+
+.pro-tip-callout {
+  background: #fef9e7;
+  border: 2px solid var(--yolk);
+  box-shadow: var(--lift-sm);
+  border-radius: 14px;
+  padding: 12px 14px;
+  margin: 12px 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #78350f;
+}
+
+.pro-tip-callout strong {
+  color: #b45309;
+}
+
+/* Details / FAQ Accordion in Zadely style */
+details.faq-item {
+  background: var(--paper);
+  border: 2.5px solid var(--ink);
+  box-shadow: var(--lift-sm);
+  border-radius: 16px;
+  padding: 12px 16px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  transition: box-shadow 80ms, transform 80ms;
+}
+
+details.faq-item:hover {
+  box-shadow: var(--lift-md);
+  transform: translateY(-1px);
+}
+
+details.faq-item summary {
+  font-weight: 800;
+  color: var(--ink);
+  font-size: 0.95rem;
+  outline: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+details.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+details.faq-item summary::after {
+  content: "+";
+  font-family: var(--display);
+  font-size: 1.2rem;
+  color: var(--ink);
+}
+
+details.faq-item[open] summary::after {
+  content: "−";
+}
+
+details.faq-item p {
+  margin-top: 8px;
+  font-size: 0.86rem;
+  color: var(--ink-soft);
+  line-height: 1.45;
+}
+
+/* More Games & Zadely External Link Grid */
+.more-games-section {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.section-title {
+  font-family: var(--display);
+  font-size: 1.15rem;
+  color: var(--ink);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.more-games-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+@media (min-width: 540px) {
+  .more-games-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.game-rec-card {
+  background: var(--paper);
+  border: 2.5px solid var(--ink);
+  box-shadow: var(--lift-md);
+  border-radius: 18px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 120ms cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 120ms ease;
+}
+
+.game-rec-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--lift-lg);
+}
+
+.game-rec-card.zadely-special {
+  background: linear-gradient(135deg, #fffbeb 0%, #f5f3ff 100%);
+  border-color: var(--ink);
+}
+
+.rec-badge {
+  display: inline-block;
+  align-self: flex-start;
+  font-family: var(--display);
+  font-size: 0.68rem;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1.5px solid var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+  margin-bottom: 8px;
+}
+
+.rec-badge.badge-ai {
+  background: var(--grape);
+  color: #ffffff;
+}
+
+.rec-title {
+  font-family: var(--display);
+  font-size: 1.02rem;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+
+.rec-desc {
+  font-size: 0.83rem;
+  color: var(--ink-soft);
+  line-height: 1.45;
+  margin-bottom: 14px;
+  flex-grow: 1;
+}
+
+.rec-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-family: var(--display);
+  font-size: 0.82rem;
+  padding: 8px 14px;
+  border: 2px solid var(--ink);
+  border-radius: 12px;
+  background: var(--yolk);
+  color: var(--ink);
+  box-shadow: var(--lift-sm);
+  font-weight: 800;
+  text-align: center;
+  transition: background 100ms ease;
+}
+
+.game-rec-card:hover .rec-btn {
+  background: var(--tomato);
+  color: #ffffff;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 14px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.disclaimer-text {
+  font-size: 0.7rem;
+  color: #64748b;
+  max-width: 600px;
+  line-height: 1.4;
+}
+
+/* Game Over Dialog (HTML5 Dialog) */
+.game-dialog {
+  border: 3px solid var(--ink);
+  box-shadow: var(--lift-xl);
+  border-radius: 24px;
+  padding: 24px;
+  max-width: 380px;
+  width: 90%;
+  margin: auto;
+  background: var(--paper);
+  text-align: center;
+}
+
+.game-dialog::backdrop {
+  background: rgba(27, 31, 59, 0.65);
+  backdrop-filter: blur(4px);
+}
+
+.modal-title {
+  font-family: var(--display);
+  font-size: 1.6rem;
+  color: var(--tomato);
+  margin-bottom: 4px;
+}
+
+.modal-desc {
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  margin-bottom: 16px;
+}
+
+.modal-stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.modal-stat-card {
+  background: var(--sheet);
+  border: 2px solid var(--ink);
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.modal-stat-card .stat-label {
+  font-size: 0.68rem;
+  color: var(--ink-soft);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.modal-stat-card .stat-value {
+  font-family: var(--display);
+  font-size: 1.25rem;
+  color: var(--ink);
+}
+
+.btn-primary {
+  background: var(--leaf);
+  color: #ffffff;
+  border: 2.5px solid var(--ink);
+  box-shadow: var(--lift-md);
+  font-family: var(--display);
+  font-size: 1.15rem;
+  padding: 12px 28px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 80ms, box-shadow 80ms;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--lift-lg);
+}
+
+.btn-primary:active {
+  transform: translateY(3px);
+  box-shadow: 0 0 0 var(--ink);
+}

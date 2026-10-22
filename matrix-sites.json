@@ -48,6 +48,30 @@
       "techStack": "HTML5 / CSS3 / Vanilla JS / Web Audio API / Zadely Sticker Theme",
       "createdAt": "2026-10-22",
       "updatedAt": "2026-10-22"
+    },
+    {
+      "siteId": "gulper-io",
+      "primaryKeyword": "gulper.io game",
+      "volume": 12100,
+      "kd": 7,
+      "secondaryKeywords": [
+        "gulper io",
+        "gulper io unblocked",
+        "gulperio",
+        "slither io unblocked",
+        "gulper.io online",
+        "gulper io chromebook",
+        "neon snake game"
+      ],
+      "path": "games/gulperio",
+      "domain": "https://gulperio.com",
+      "url": "https://gulperio.vercel.app",
+      "repo": "https://github.com/seraseraqqq/gamehubs",
+      "status": "built-qa-passed",
+      "targetIntent": "Instant neon cyber slither snake game with autonomous AI bots, zero lag, and school unblocked access",
+      "techStack": "HTML5 Canvas 2D / Vanilla JS / Web Audio API / Zadely Neo-Brutalist Theme",
+      "createdAt": "2026-10-22",
+      "updatedAt": "2026-10-22"
     }
   ]
 }
