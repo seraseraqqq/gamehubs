@@ -18,9 +18,9 @@
         "block blast chromebook"
       ],
       "path": "games/block-blast-unblocked",
-      "url": "https://gamehubs-blockblast.vercel.app",
+      "url": "https://block-blast-unblocked-three.vercel.app",
       "repo": "https://github.com/seraseraqqq/gamehubs",
-      "status": "ready-to-deploy",
+      "status": "deployed",
       "targetIntent": "Instant play 8x8 block puzzle game with no downloads or network barriers",
       "techStack": "HTML5 / CSS3 / Vanilla JS / Web Audio API / Zadely Sticker Theme",
       "createdAt": "2026-10-22",
