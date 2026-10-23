@@ -49,10 +49,12 @@ The static single-player word-game loop is low-to-medium difficulty. Consistent 
 
 The page includes a crawlable flight manual, truthful feature FAQ, social preview image and game structured data. See [SEO.md](SEO.md) for implementation details and verification.
 
-A production build requires the actual public HTTPS origin. Run from this directory, replacing the URL with the real domain:
+Production origin is configured as `https://krilliononline.com/` with canonical tags, absolute social image URLs, JSON-LD structured data, `robots.txt` and `sitemap.xml`.
+
+To build a standalone production bundle into `dist/` or verify SEO compliance:
 
 ```sh
-python3 scripts/build_site.py --site-url https://YOUR-REAL-DOMAIN
+python3 scripts/build_site.py --site-url https://krilliononline.com
 python3 scripts/check_seo.py dist
 ```
 

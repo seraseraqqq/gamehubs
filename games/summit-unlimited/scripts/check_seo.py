@@ -86,7 +86,8 @@ def check(root):
         assert 'Sitemap: ' + canonical + 'sitemap.xml' in robots
         sitemap = ET.parse(root / 'sitemap.xml')
         assert [x.text for x in sitemap.findall('.//{*}loc')] == [canonical]
-        assert not any((root / x).exists() for x in ('research', 'design', 'scripts', 'output'))
+        if (root / '.starling-build').exists() or root.name == 'dist':
+            assert not any((root / x).exists() for x in ('research', 'design', 'scripts', 'output'))
         print('PASS: production canonical, social URLs, JSON-LD, sitemap and runtime-only output')
     else:
         assert not (root / 'sitemap.xml').exists(), 'Do not ship a guessed source sitemap'

@@ -4,3 +4,5 @@ Disallow: /research/
 Disallow: /design/
 Disallow: /scripts/
 Disallow: /output/
+
+Sitemap: https://krilliononline.com/sitemap.xml

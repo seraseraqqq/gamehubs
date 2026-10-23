@@ -18,7 +18,8 @@
         "block blast chromebook"
       ],
       "path": "games/block-blast-unblocked",
-      "url": "https://block-blast-unblocked-three.vercel.app",
+      "domain": "https://playblockblastunblocked.com",
+      "url": "https://playblockblastunblocked.com",
       "repo": "https://github.com/seraseraqqq/gamehubs",
       "status": "deployed",
       "targetIntent": "Instant play 8x8 block puzzle game with no downloads or network barriers",
@@ -72,6 +73,31 @@
       "techStack": "HTML5 Canvas 2D / Vanilla JS / Web Audio API / Zadely Neo-Brutalist Theme",
       "createdAt": "2026-10-22",
       "updatedAt": "2026-10-22"
+    },
+    {
+      "siteId": "krillion-unlimited",
+      "primaryKeyword": "krillion unlimited",
+      "volume": 4400,
+      "kd": 0,
+      "secondaryKeywords": [
+        "krillion",
+        "krillion game",
+        "krillion io",
+        "one in a krillion",
+        "krillion online free",
+        "play krillion unlimited",
+        "deep sea rarity trivia",
+        "reverse trivia game"
+      ],
+      "path": "games/summit-unlimited",
+      "domain": "https://krilliononline.com",
+      "url": "https://krilliononline.com",
+      "repo": "https://github.com/seraseraqqq/gamehubs",
+      "status": "deployed",
+      "targetIntent": "Play unlimited 7-dive rounds of the viral reverse rarity trivia game Krillion without daily lock",
+      "techStack": "HTML5 / CSS3 / Vanilla JS / Web Audio API / Deep-Sea Research Submersible Theme",
+      "createdAt": "2026-10-23",
+      "updatedAt": "2026-10-23"
     }
   ]
 }

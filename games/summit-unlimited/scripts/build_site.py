@@ -37,10 +37,14 @@ def build(site_url, output):
     marker.write_text('Generated STARLING public site.\n')
     page = (ROOT / 'index.html').read_text()
     canonical = html.escape(site_url, quote=True)
-    page = page.replace('  <!-- Production canonical and absolute social URLs are inserted by scripts/build_site.py. -->',
-                        f'  <link rel="canonical" href="{canonical}">\n  <meta property="og:url" content="{canonical}">')
-    page = page.replace('content="./assets/starling-social.png"',
-                        f'content="{canonical}assets/starling-social.png"')
+    if '  <!-- Production canonical and absolute social URLs are inserted by scripts/build_site.py. -->' in page:
+        page = page.replace('  <!-- Production canonical and absolute social URLs are inserted by scripts/build_site.py. -->',
+                            f'  <link rel="canonical" href="{canonical}">\n  <meta property="og:url" content="{canonical}">')
+    else:
+        page = re.sub(r'<link rel="canonical" href="[^"]*">', f'<link rel="canonical" href="{canonical}">', page)
+        page = re.sub(r'<meta property="og:url" content="[^"]*">', f'<meta property="og:url" content="{canonical}">', page)
+    page = re.sub(r'content="(?:\./assets/starling-social\.png|https?://[^"]+/assets/starling-social\.png)"',
+                  f'content="{canonical}assets/starling-social.png"', page)
     pattern = r'(<script type="application/ld\+json" id="game-schema">)(.*?)(</script>)'
     match = re.search(pattern, page, re.S)
     schema = json.loads(match.group(2))

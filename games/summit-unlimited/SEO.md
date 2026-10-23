@@ -20,9 +20,11 @@ The page identifies STARLING as an independent game. The visible FAQ explains it
 
 ## Production configuration
 
-A real production domain has not been specified for this game. Source HTML deliberately contains no guessed canonical or sitemap. Run from the game directory, replacing the URL with the actual public origin:
+The production domain is configured as `https://krilliononline.com/`. Working source and generated builds contain canonical tags, Open Graph / Twitter image URLs, Schema.org JSON-LD identities, robots.txt, and a sitemap.xml.
 
-    python3 scripts/build_site.py --site-url https://YOUR-REAL-DOMAIN
+To generate a standalone distribution bundle:
+
+    python3 scripts/build_site.py --site-url https://krilliononline.com
     python3 scripts/check_seo.py dist
 
 Deploy the contents of dist/ as the site's root. The builder supports a root-hosted site, not a subdirectory installation. Its output marker permits subsequent builds into the same generated directory; it refuses unrelated non-empty output directories and output containing the source tree. Runtime and build commands use only the Python standard library. Recreating the social image optionally requires Pillow.
