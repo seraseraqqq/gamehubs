@@ -17,6 +17,11 @@
     },
     {
       "game": "orbit-pins",
+      "check": "source: approved Coreball target in inventory and prominent page copy",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
       "check": "source: structured FAQ matches visible content",
       "pass": true
     },
@@ -58,6 +63,11 @@
     {
       "game": "orbit-pins",
       "check": "production: truthful game schema",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "production: approved Coreball target in inventory and prominent page copy",
       "pass": true
     },
     {
@@ -271,6 +281,6 @@
       "pass": true
     }
   ],
-  "passed": 54,
-  "total": 54
+  "passed": 56,
+  "total": 56
 }

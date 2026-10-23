@@ -325,7 +325,7 @@
       "siteId": "orbit-pins",
       "brandName": "Pinlark",
       "unitType": "game",
-      "primaryKeyword": "rotating pin puzzle",
+      "primaryKeyword": "coreball",
       "researchSeedKeyword": "coreball",
       "path": "games/orbit-pins",
       "domain": null,
@@ -337,7 +337,7 @@
         "country": "US",
         "language": "en"
       },
-      "targetIntent": "Independent original rotating-pin timing puzzle: 30 replayable levels, separate 70% Practice and full-speed Challenge. Not the original Coreball game.",
+      "targetIntent": "Play an independent Coreball-style pin game online: 30 original levels, separate 70% Practice and full-speed Challenge. Pinlark is the secondary brand; this is not the original Coreball game.",
       "gameSource": {
         "type": "original",
         "record": "games/orbit-pins/PROVENANCE.md"
@@ -352,7 +352,11 @@
       "localPreview": "http://127.0.0.1:4195/",
       "verificationRecord": "research/2026-10-23-two-new-games/README.md",
       "domainResearch": "research/2026-10-23-two-new-games/domain-final-check.json",
-      "nextDecision": "Owner chooses and purchases a domain; configure approved SITE_ORIGIN and verify production before indexing. Trends evidence remains incomplete."
+      "nextDecision": "Owner chooses and purchases a domain; configure approved SITE_ORIGIN and verify production before indexing. Trends evidence remains incomplete.",
+      "secondaryKeywords": [
+        "coreball game",
+        "coreball online"
+      ]
     },
     {
       "siteId": "cryptic-practice",

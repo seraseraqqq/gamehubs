@@ -4,7 +4,7 @@ The owner authorized building both proposed games and requested purchasable doma
 
 ## Delivered games
 
-- **Pinlark** (`games/orbit-pins`): 30 original rotating-pin levels; full-speed Challenge and 70% Practice with separate local records; elapsed-time rotation, one in-flight pin, pause/resume, keyboard/pointer/touch, optional synthesized sound and safe local persistence. Preview: http://127.0.0.1:4195/.
+- **Coreball-style game / Pinlark** (`games/orbit-pins`): 30 original rotating-pin levels; full-speed Challenge and 70% Practice with separate local records; elapsed-time rotation, one in-flight pin, pause/resume, keyboard/pointer/touch, optional synthesized sound and safe local persistence. Preview: http://127.0.0.1:4195/.
 - **Clue Garden** (`games/cryptic-practice`): 20 original clue phrasings across five cryptic constructions; three hints, definition highlighting, full explanation, category filters, no-repeat rounds and separate solved/revealed records. Unlimited replay of a clearly disclosed finite bank. Preview: http://127.0.0.1:4196/.
 
 Original native SVG/HTML/CSS artwork, locally licensed Figtree and dependency-free runtime code. No backend, ads, analytics or external runtime services. See each game's PROVENANCE.md and LICENSE. Neither is an official Coreball or Minute Cryptic release; no third-party game package, level table or subscription clue feed was imported.
@@ -13,7 +13,7 @@ Original native SVG/HTML/CSS artwork, locally licensed Figtree and dependency-fr
 
 - **12/12** Node tests: all 30 original Challenge levels and all 30 Practice variants have an executable safe solution; in-flight gating, pause, collision, frame-step consistency, end states and invalid input. Every clue has a validated letter recipe, unique answer/ID, definition and indicator in the text.
 - **26/26** actual browser scenarios: real timed Practice and Challenge wins, separated progression, reload, keyboard, pause, restart, malformed records, sound and keyboard focus after pause/restart; correct/wrong/empty clues, all hints, reveal distinction, all filters, local persistence, and solving a complete 20-clue non-repeating round.
-- **54/54** static SEO/export checks: single H1, unique IDs, valid visible-content JSON-LD, real 1200 × 630 social cards, local licensed assets, explicit-origin canonical/robots/sitemap, development files excluded, source/default/preview noindex, invalid origins rejected.
+- **56/56** static SEO/export checks: single H1, unique IDs, valid visible-content JSON-LD, real 1200 × 630 social cards, local licensed assets, explicit-origin canonical/robots/sitemap, development files excluded, source/default/preview noindex, invalid origins rejected.
 - Layout: each game at 320/390/768/1440px, no horizontal document overflow, external runtime asset requests or observed JS errors. Storage-disabled gameplay checks passed for both apps.
 - Screenshots manually inspected at desktop and mobile. New Pinlark brand screenshots/social card were recaptured after the naming update.
 
@@ -39,3 +39,9 @@ python3 research/2026-10-23-two-new-games/storage-qa.py
 ```
 
 Browser checks require `agent-browser` and game-root servers on 4195/4196. Run browser scripts sequentially, since creating another foreground browser can correctly auto-pause Pinlark.
+
+## Coreball keyword correction — 2026-10-23
+
+The owner identified that the shipped brand-led page omitted the approved Coreball target from its title and H1, and inventory incorrectly used `rotating pin puzzle` as the primary keyword. Corrected the primary keyword to `coreball`, mapped `coreball game` / `coreball online` to this one page, and aligned title, H1, lead, instructions, social metadata/card and game schema. Pinlark remains a secondary brand; the visible FAQ continues to disclose original levels and independent implementation. No claim of official status or network-policy bypass. No additional keyword data was purchased. Domain candidates above remain brand candidates, not an instruction to buy before choosing positioning.
+
+Correction validation: 56/56 static SEO/export checks passed after the copy update. `keyword-alignment-qa.json` records the actual title/H1/description and overflow/external-request checks at 320/390/768/1440px, a successful launch smoke check and no observed browser errors. Desktop/mobile game captures and the social PNG were refreshed and visually inspected. The earlier full gameplay suite remains the prior engine validation; gameplay code was unchanged in this correction.

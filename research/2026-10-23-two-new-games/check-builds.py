@@ -27,6 +27,13 @@ for slug in ['orbit-pins','cryptic-practice']:
   schema=json.loads(re.search(r'<script type="application/ld\+json" id="game-schema">(.*?)</script>',text,re.S)[1])
   check(slug,mode+': truthful game schema',schema['@graph'][0]['playMode']=='SinglePlayer' and 'aggregateRating'not in str(schema))
   visible=re.sub(r'<script.*?</script>','',text,flags=re.S)
+  if slug=='orbit-pins':
+   title=html.unescape(re.search(r'<title>(.*?)</title>',text,re.S)[1]).lower()
+   h1=html.unescape(re.sub('<[^>]+>','',re.search(r'<h1>(.*?)</h1>',visible,re.S)[1])).lower()
+   inventory=json.loads((R/'matrix-sites.json').read_text())
+   entries=inventory if isinstance(inventory,list)else next(v for v in inventory.values()if isinstance(v,list))
+   site=next(v for v in entries if v['siteId']==slug)
+   check(slug,mode+': approved Coreball target in inventory and prominent page copy',site['primaryKeyword']=='coreball' and all('coreball' in value for value in [title,h1,meta['description'].lower(),schema['@graph'][0]['description'].lower()]) and 'independent' in meta['description'].lower())
   check(slug,mode+': structured FAQ matches visible content',all(q['name']in html.unescape(visible)and q['acceptedAnswer']['text']in html.unescape(visible)for q in schema['@graph'][1]['mainEntity']))
   check(slug,mode+': 1200x630 social PNG',struct.unpack('>II',(p/'assets/social-card.png').read_bytes()[16:24])==(1200,630))
   refs=[a.get('src')or a.get('href')for tag,a in d.nodes if tag in ['script','link','img']and(a.get('src')or a.get('href'))]

@@ -1,0 +1,49 @@
+{
+  "keyword": "coreball",
+  "layouts": [
+    {
+      "description": "Play a free Coreball-style game online with Pinlark: 30 original pin puzzles, touch and keyboard controls, and slower practice. An independent version.",
+      "external": [],
+      "gameTop": 343.734375,
+      "h1": "Coreball-style game.",
+      "scroll": 1440,
+      "title": "Coreball-Style Game \u2014 Play Pinlark Online",
+      "width": 1440
+    },
+    {
+      "description": "Play a free Coreball-style game online with Pinlark: 30 original pin puzzles, touch and keyboard controls, and slower practice. An independent version.",
+      "external": [],
+      "gameTop": 257.5625,
+      "h1": "Coreball-style game.",
+      "scroll": 390,
+      "title": "Coreball-Style Game \u2014 Play Pinlark Online",
+      "width": 390
+    },
+    {
+      "description": "Play a free Coreball-style game online with Pinlark: 30 original pin puzzles, touch and keyboard controls, and slower practice. An independent version.",
+      "external": [],
+      "gameTop": 298.5,
+      "h1": "Coreball-style game.",
+      "scroll": 320,
+      "title": "Coreball-Style Game \u2014 Play Pinlark Online",
+      "width": 320
+    },
+    {
+      "description": "Play a free Coreball-style game online with Pinlark: 30 original pin puzzles, touch and keyboard controls, and slower practice. An independent version.",
+      "external": [],
+      "gameTop": 317.484375,
+      "h1": "Coreball-style game.",
+      "scroll": 768,
+      "title": "Coreball-Style Game \u2014 Play Pinlark Online",
+      "width": 768
+    }
+  ],
+  "launchSmokePassed": true,
+  "errors": {
+    "success": true,
+    "data": {
+      "errors": []
+    },
+    "error": null
+  }
+}

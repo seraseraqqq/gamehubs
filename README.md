@@ -79,7 +79,7 @@ See [existing-game release record](deployments/2026-10-23-existing-games.md).
 
 | Game | Repository directory | Local preview |
 | --- | --- | --- |
-| Pinlark — original rotating-pin timing puzzle, 30 levels | games/orbit-pins | http://127.0.0.1:4195/ |
+| Coreball-style game — Pinlark, 30 original levels | games/orbit-pins | http://127.0.0.1:4195/ |
 | Clue Garden — 20 original cryptic clues, hints and explanations | games/cryptic-practice | http://127.0.0.1:4196/ |
 
 Both are dependency-free static apps with local assets and safe browser-local progress. Default/source and Vercel preview builds are noindex; `SITE_ORIGIN` or an explicit approved `--origin` enables canonical/robots/sitemap only after the owner chooses an owned domain. No new Vercel project or domain purchase is performed in this batch. The Pinlark directory retains its original working-name slug; the public name changed after a same-name Orbit Pins mobile game was found.

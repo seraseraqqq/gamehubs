@@ -1,5 +1,7 @@
 # Pinlark
 
+SEO target: **coreball**, with **coreball game** and **coreball online** on the same page. Pinlark is the secondary product brand. The title, H1, introduction, social metadata and game description identify it as an independent Coreball-style game; it does not claim to be the original game.
+
 Original rotating-pin timing game. 30 authored, replayable levels, full-speed Challenge and separate 70% Practice mode. Keyboard, pointer and touch controls; local completions, attempts and best successful times. No backend.
 
 ## Local preview
