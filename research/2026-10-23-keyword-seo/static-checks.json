@@ -1,0 +1,38 @@
+[
+  {
+    "site": "coreball",
+    "mode": "production",
+    "pages": 2,
+    "passed": true
+  },
+  {
+    "site": "coreball",
+    "mode": "preview",
+    "pages": 2,
+    "passed": true
+  },
+  {
+    "site": "coreball",
+    "mode": "default",
+    "pages": 2,
+    "passed": true
+  },
+  {
+    "site": "minute-cryptic-unlimited",
+    "mode": "production",
+    "pages": 2,
+    "passed": true
+  },
+  {
+    "site": "minute-cryptic-unlimited",
+    "mode": "preview",
+    "pages": 2,
+    "passed": true
+  },
+  {
+    "site": "minute-cryptic-unlimited",
+    "mode": "default",
+    "pages": 2,
+    "passed": true
+  }
+]

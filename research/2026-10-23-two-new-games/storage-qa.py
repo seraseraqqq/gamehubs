@@ -10,10 +10,10 @@ def run(*args):
  if not d.get('success'):raise RuntimeError(str(d))
  return d['data']
 results={}
-for slug,port in [('orbit-pins',4195),('cryptic-practice',4196)]:
+for slug,port in [('coreball',4195),('minute-cryptic-unlimited',4196)]:
  p=subprocess.run(['agent-browser','--session',session,'--init-script',str(OUT/'storage-disabled-init.js'),'open',f'http://127.0.0.1:{port}/'],cwd=ROOT,capture_output=True,text=True,check=True)
  blocked=run('eval',"(()=>{try{localStorage.getItem('x');return false}catch{return true}})()")['result']
- if slug=='orbit-pins':
+ if slug=='coreball':
   run('eval',"document.querySelector('#shoot').scrollIntoView({behavior:'instant',block:'center'})");run('click','#shoot');boot=run('eval',"document.querySelectorAll('[data-level]').length===30 && document.querySelector('#attempts').textContent==='1 attempt'")['result']
  else:
   run('eval',"document.querySelector('#hint').scrollIntoView({behavior:'instant',block:'center'})");run('click','#hint');boot=run('eval',"ClueGarden.clues.length===20 && document.querySelectorAll('#hintList li').length===1")['result']

@@ -1,11 +1,13 @@
+> Current naming/SEO supersedes this build record: [keyword SEO update](../2026-10-23-keyword-seo/README.md). Public brands removed by owner decision; original QA snapshots remain historical evidence.
+
 # Pinlark + Clue Garden — 2026-10-23 build
 
 The owner authorized building both proposed games and requested purchasable domain candidates after completion. The existing repository workflow authorizes committing and pushing validated work directly to GitHub.
 
 ## Delivered games
 
-- **Coreball-style game / Pinlark** (`games/orbit-pins`): 30 original rotating-pin levels; full-speed Challenge and 70% Practice with separate local records; elapsed-time rotation, one in-flight pin, pause/resume, keyboard/pointer/touch, optional synthesized sound and safe local persistence. Preview: http://127.0.0.1:4195/.
-- **Clue Garden** (`games/cryptic-practice`): 20 original clue phrasings across five cryptic constructions; three hints, definition highlighting, full explanation, category filters, no-repeat rounds and separate solved/revealed records. Unlimited replay of a clearly disclosed finite bank. Preview: http://127.0.0.1:4196/.
+- **Coreball-style game / Pinlark** (`games/coreball`): 30 original rotating-pin levels; full-speed Challenge and 70% Practice with separate local records; elapsed-time rotation, one in-flight pin, pause/resume, keyboard/pointer/touch, optional synthesized sound and safe local persistence. Preview: http://127.0.0.1:4195/.
+- **Clue Garden** (`games/minute-cryptic-unlimited`): 20 original clue phrasings across five cryptic constructions; three hints, definition highlighting, full explanation, category filters, no-repeat rounds and separate solved/revealed records. Unlimited replay of a clearly disclosed finite bank. Preview: http://127.0.0.1:4196/.
 
 Original native SVG/HTML/CSS artwork, locally licensed Figtree and dependency-free runtime code. No backend, ads, analytics or external runtime services. See each game's PROVENANCE.md and LICENSE. Neither is an official Coreball or Minute Cryptic release; no third-party game package, level table or subscription clue feed was imported.
 
@@ -32,7 +34,7 @@ No domain purchase, registration, nameserver/DNS mutation, new Vercel project, S
 ## Reproduce
 
 ```sh
-node --test games/orbit-pins/tests/*.test.cjs games/cryptic-practice/tests/*.test.cjs
+node --test games/coreball/tests/*.test.cjs games/minute-cryptic-unlimited/tests/*.test.cjs
 python3 research/2026-10-23-two-new-games/check-builds.py
 python3 research/2026-10-23-two-new-games/browser-qa.py
 python3 research/2026-10-23-two-new-games/storage-qa.py

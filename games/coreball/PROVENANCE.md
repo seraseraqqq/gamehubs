@@ -1,4 +1,4 @@
-# Pinlark: sources and scope
+# Coreball-style game: sources and scope
 
 Original project code, artwork and 30 level configurations were authored for this GameHubs implementation. No third-party game bundle, original game's level table or official clue archive was imported. The original code/content are MIT licensed; that does not grant third-party trademark rights.
 

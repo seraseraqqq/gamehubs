@@ -1,6 +1,6 @@
-# Pinlark
+# Coreball-style game
 
-SEO target: **coreball**, with **coreball game** and **coreball online** on the same page. Pinlark is the secondary product brand. The title, H1, introduction, social metadata and game description identify it as an independent Coreball-style game; it does not claim to be the original game.
+SEO target: **coreball**, with **coreball game** and **coreball online** on the same page. No separate consumer brand is used. The title, H1, introduction, social metadata and game description identify it as an independent Coreball-style game; it does not claim to be the original game.
 
 Original rotating-pin timing game. 30 authored, replayable levels, full-speed Challenge and separate 70% Practice mode. Keyboard, pointer and touch controls; local completions, attempts and best successful times. No backend.
 
@@ -10,7 +10,7 @@ Original rotating-pin timing game. 30 authored, replayable levels, full-speed Ch
 python3 -m http.server 4195
 ```
 
-Open http://127.0.0.1:4195/. The current session already serves this game on that port.
+Open http://127.0.0.1:4195/. Start a local server before opening this address.
 
 ## Build and verify
 
@@ -33,3 +33,9 @@ Records are browser-local and not competitive/anti-cheat scores. Storage restric
 ## Delivery evidence
 
 [Build / browser evidence and domain research](../../research/2026-10-23-two-new-games/README.md). This batch is intended for the owner-authorized GitHub push after verification; custom-domain launch awaits the owner's domain choice/purchase.
+
+## Keyword SEO update — 2026-10-23
+
+No separate public brand. Main query: **coreball**. Supporting guide: [coreball-tips.html](coreball-tips.html). Source and preview builds stay noindex. Configure SITE_ORIGIN to an owned domain in production to enable both pages, self-canonicals, absolute share images and the two-URL sitemap. cleanUrls is disabled deliberately so .html guide URLs are served without redirect/canonical disagreement.
+
+Vercel Root Directory: `games/coreball`. Local-storage keys remain unchanged. See [current SEO validation](../../research/2026-10-23-keyword-seo/README.md).

@@ -322,12 +322,12 @@
       "registeredDomain": "2048cupcakes.xyz"
     },
     {
-      "siteId": "orbit-pins",
-      "brandName": "Pinlark",
+      "siteId": "coreball",
+      "brandName": null,
       "unitType": "game",
       "primaryKeyword": "coreball",
       "researchSeedKeyword": "coreball",
-      "path": "games/orbit-pins",
+      "path": "games/coreball",
       "domain": null,
       "url": null,
       "repo": "https://github.com/seraseraqqq/gamehubs",
@@ -337,10 +337,10 @@
         "country": "US",
         "language": "en"
       },
-      "targetIntent": "Play an independent Coreball-style pin game online: 30 original levels, separate 70% Practice and full-speed Challenge. Pinlark is the secondary brand; this is not the original Coreball game.",
+      "targetIntent": "Play a free independent Coreball-style timing game: 30 original levels, unlimited retries and separate slower Practice.",
       "gameSource": {
         "type": "original",
-        "record": "games/orbit-pins/PROVENANCE.md"
+        "record": "games/coreball/PROVENANCE.md"
       },
       "canonical": null,
       "indexingState": "noindex-awaiting-owned-origin",
@@ -356,15 +356,31 @@
       "secondaryKeywords": [
         "coreball game",
         "coreball online"
+      ],
+      "seoReview": {
+        "date": "2026-10-23",
+        "record": "research/2026-10-23-keyword-seo/README.md",
+        "state": "local-validation-passed",
+        "productionVerified": false
+      },
+      "keywordPages": [
+        {
+          "path": "/",
+          "primaryKeyword": "coreball"
+        },
+        {
+          "path": "/coreball-tips.html",
+          "primaryKeyword": "coreball tips"
+        }
       ]
     },
     {
-      "siteId": "cryptic-practice",
-      "brandName": "Clue Garden",
+      "siteId": "minute-cryptic-unlimited",
+      "brandName": null,
       "unitType": "game",
-      "primaryKeyword": "cryptic clue practice",
+      "primaryKeyword": "minute cryptic unlimited",
       "researchSeedKeyword": "minute cryptic unlimited",
-      "path": "games/cryptic-practice",
+      "path": "games/minute-cryptic-unlimited",
       "domain": null,
       "url": null,
       "repo": "https://github.com/seraseraqqq/gamehubs",
@@ -374,10 +390,10 @@
         "country": "US",
         "language": "en"
       },
-      "targetIntent": "Independent cryptic clue practice: 20 original clue phrasings with three hints and full parses, five wordplay filters, unlimited replay of a finite bank. Not the official Minute Cryptic archive.",
+      "targetIntent": "Minute Cryptic Unlimited practice: play 20 original cryptic clues with hints and answers, unlimited replay of a finite bank; independent of the official game.",
       "gameSource": {
         "type": "original",
-        "record": "games/cryptic-practice/PROVENANCE.md"
+        "record": "games/minute-cryptic-unlimited/PROVENANCE.md"
       },
       "canonical": null,
       "indexingState": "noindex-awaiting-owned-origin",
@@ -389,7 +405,28 @@
       "localPreview": "http://127.0.0.1:4196/",
       "verificationRecord": "research/2026-10-23-two-new-games/README.md",
       "domainResearch": "research/2026-10-23-two-new-games/domain-final-check.json",
-      "nextDecision": "Owner chooses and purchases a domain; configure approved SITE_ORIGIN and verify production before indexing. Trends evidence remains incomplete."
+      "nextDecision": "Owner chooses and purchases a domain; configure approved SITE_ORIGIN and verify production before indexing. Trends evidence remains incomplete.",
+      "secondaryKeywords": [
+        "cryptic clue practice",
+        "cryptic crossword practice",
+        "cryptic clues with answers"
+      ],
+      "seoReview": {
+        "date": "2026-10-23",
+        "record": "research/2026-10-23-keyword-seo/README.md",
+        "state": "local-validation-passed",
+        "productionVerified": false
+      },
+      "keywordPages": [
+        {
+          "path": "/",
+          "primaryKeyword": "minute cryptic unlimited"
+        },
+        {
+          "path": "/how-to-solve-cryptic-clues.html",
+          "primaryKeyword": "how to solve cryptic clues"
+        }
+      ]
     }
   ]
 }

@@ -79,9 +79,15 @@ See [existing-game release record](deployments/2026-10-23-existing-games.md).
 
 | Game | Repository directory | Local preview |
 | --- | --- | --- |
-| Coreball-style game — Pinlark, 30 original levels | games/orbit-pins | http://127.0.0.1:4195/ |
-| Clue Garden — 20 original cryptic clues, hints and explanations | games/cryptic-practice | http://127.0.0.1:4196/ |
+| Coreball-style game, 30 original levels | games/coreball | http://127.0.0.1:4195/ |
+| Minute Cryptic Unlimited practice — 20 original clues | games/minute-cryptic-unlimited | http://127.0.0.1:4196/ |
 
-Both are dependency-free static apps with local assets and safe browser-local progress. Default/source and Vercel preview builds are noindex; `SITE_ORIGIN` or an explicit approved `--origin` enables canonical/robots/sitemap only after the owner chooses an owned domain. No new Vercel project or domain purchase is performed in this batch. The Pinlark directory retains its original working-name slug; the public name changed after a same-name Orbit Pins mobile game was found.
+Both are dependency-free static apps with local assets and safe browser-local progress. Default/source and Vercel preview builds are noindex; `SITE_ORIGIN` or an explicit approved `--origin` enables canonical/robots/sitemap only after the owner chooses an owned domain. No new Vercel project or domain purchase is performed in this batch. The game directories and public copy now use their SEO target keywords; no separate consumer brands are maintained.
 
 [Second-build evidence and domain candidates](research/2026-10-23-two-new-games/README.md).
+
+## Keyword-focused SEO update — 2026-10-23
+
+`games/orbit-pins` moved to `games/coreball`; `games/cryptic-practice` moved to `games/minute-cryptic-unlimited`. Each homepage targets its main query and links to one static supporting guide. Update any external Vercel Root Directory to the new path before the next build. Runtime storage keys remain compatible. No owned production origin is configured for either site.
+
+[SEO rationale, sources and validation](research/2026-10-23-keyword-seo/README.md).

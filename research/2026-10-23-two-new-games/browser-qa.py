@@ -22,7 +22,7 @@ def check(name,js):
  value=ev(js);checks.append({'check':name,'pass':value is True,'value':value});print(name,value,flush=True)
  if value is not True:raise AssertionError(name+': '+str(value))
 layout={}
-for slug,port in [('orbit-pins',4195),('cryptic-practice',4196)]:
+for slug,port in [('coreball',4195),('minute-cryptic-unlimited',4196)]:
  cmd('open',f'http://127.0.0.1:{port}/');cmd('tab','t1');ev('document.fonts.ready.then(()=>true)');layout[slug]={}
  for w,h in [(1440,1080),(390,844),(320,812),(768,1024)]:
   cmd('set','viewport',str(w),str(h));ev('window.scrollTo(0,0)')

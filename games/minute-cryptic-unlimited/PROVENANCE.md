@@ -1,4 +1,4 @@
-# Clue Garden: sources and scope
+# Minute Cryptic Unlimited practice: sources and scope
 
 Original project code, artwork and 20 clue phrasings, hint sequences and explanations were authored for this GameHubs implementation. No third-party game bundle, original game's level table or official clue archive was imported. The original code/content are MIT licensed; that does not grant third-party trademark rights.
 

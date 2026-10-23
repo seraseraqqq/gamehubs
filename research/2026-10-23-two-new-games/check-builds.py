@@ -15,7 +15,7 @@ def check(slug,name,value):
 def build(slug,origin=None,environment='production'):
  args=['node',str(R/'games'/slug/'scripts/build.mjs')]+(['--origin',origin]if origin else [])
  subprocess.run(args,check=True,capture_output=True,env={**os.environ,'VERCEL_ENV':environment,'SITE_ORIGIN':''})
-for slug in ['orbit-pins','cryptic-practice']:
+for slug in ['coreball','minute-cryptic-unlimited']:
  root=R/'games'/slug;origin='https://'+slug+'.example'
  build(slug,origin)
  for mode,p in [('source',root),('production',root/'dist')]:
@@ -27,7 +27,7 @@ for slug in ['orbit-pins','cryptic-practice']:
   schema=json.loads(re.search(r'<script type="application/ld\+json" id="game-schema">(.*?)</script>',text,re.S)[1])
   check(slug,mode+': truthful game schema',schema['@graph'][0]['playMode']=='SinglePlayer' and 'aggregateRating'not in str(schema))
   visible=re.sub(r'<script.*?</script>','',text,flags=re.S)
-  if slug=='orbit-pins':
+  if slug=='coreball':
    title=html.unescape(re.search(r'<title>(.*?)</title>',text,re.S)[1]).lower()
    h1=html.unescape(re.sub('<[^>]+>','',re.search(r'<h1>(.*?)</h1>',visible,re.S)[1])).lower()
    inventory=json.loads((R/'matrix-sites.json').read_text())

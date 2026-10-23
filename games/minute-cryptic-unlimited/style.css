@@ -6,3 +6,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 
 .types-card button>span{width:40px;flex-basis:40px;white-space:nowrap;font-size:16px}
+
+/* Static supporting guides share the game typography without loading game scripts. */
+.article{max-width:820px;margin:36px auto 60px;overflow-wrap:anywhere}.article h1{font-size:clamp(30px,5vw,46px)}.article h2{font-size:26px;margin:36px 0 14px}.article h3{margin:28px 0 8px}.article p,.article li{line-height:1.8}.article .breadcrumbs{font-size:13px;margin-bottom:28px}.article .guide-table{overflow-x:auto}.article table{width:100%;border-collapse:collapse;font-size:14px}.article th,.article td{text-align:left;padding:10px;border-bottom:1px solid currentColor}.article .return-link{display:inline-block;margin:16px 0;font-weight:700}.article details{padding:16px 0}.article summary{font-weight:700}.article nav ul{padding-left:22px}.site-header nav{flex-wrap:wrap}.brand{max-width:55%}

@@ -3,5 +3,5 @@
   "buildCommand": "node scripts/build.mjs",
   "installCommand": "",
   "outputDirectory": "dist",
-  "cleanUrls": true
+  "cleanUrls": false
 }
