@@ -1,0 +1,33 @@
+# Pinlark
+
+Original rotating-pin timing game. 30 authored, replayable levels, full-speed Challenge and separate 70% Practice mode. Keyboard, pointer and touch controls; local completions, attempts and best successful times. No backend.
+
+## Local preview
+
+```sh
+python3 -m http.server 4195
+```
+
+Open http://127.0.0.1:4195/. The current session already serves this game on that port.
+
+## Build and verify
+
+```sh
+node --test tests/*.test.cjs
+node scripts/build.mjs
+node scripts/build.mjs --origin https://your-approved-domain.example
+```
+
+`dist/` contains only runtime files, local assets and licensing. Default/source and Vercel preview builds remain noindex. An explicitly approved HTTPS origin (via `--origin` or `SITE_ORIGIN`) enables indexable production metadata, canonical, absolute social URLs, robots and sitemap. The example is an interpolation fixture, not a domain recommendation. No production domain is configured or purchased by this change. Vercel configuration builds this directory independently; no new Vercel project is created in this task.
+
+## Sources and boundaries
+
+See [PROVENANCE.md](PROVENANCE.md). Original code, level definitions and vector artwork are authored for this project. Figtree is bundled with SIL OFL. No copied original-game code, levels, graphics, membership puzzles, external feed, ads or analytics.
+
+The engine uses elapsed seconds and analytically defined rotation. Only one pin may be in flight. Pausing freezes rotation and flight; tab/window loss automatically pauses. Successful final shots end the timer at landing. Practice never writes Challenge progress. The automated solver demonstrates one safe solution for each of the 30 levels in both modes; it does not imply every sequence of shots is recoverable.
+
+Records are browser-local and not competitive/anti-cheat scores. Storage restrictions fall back to in-memory play. Simulated responsive Chromium checks do not replace real-device Safari testing or field Core Web Vitals.
+
+## Delivery evidence
+
+[Build / browser evidence and domain research](../../research/2026-10-23-two-new-games/README.md). This batch is intended for the owner-authorized GitHub push after verification; custom-domain launch awaits the owner's domain choice/purchase.

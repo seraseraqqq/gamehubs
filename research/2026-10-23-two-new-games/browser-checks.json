@@ -1,0 +1,132 @@
+[
+  {
+    "check": "Pinlark: 30 accessible level choices and no autofocus",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Pinlark: Practice selected and disclosed",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Pinlark: Practice win leaves Challenge progress untouched",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Pinlark: actual timed Challenge play wins and saves",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Pinlark: completion persists after reload",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Pinlark: pause stops the world and launch input",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Pinlark: keyboard launch starts an attempt",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Pinlark: restart restores full pin count",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Pinlark: keyboard pause keeps focus on a usable resume control",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Pinlark: keyboard restart restores playable focus",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Pinlark: corrupt storage recovers",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Pinlark: sound is explicitly opt-in and toggleable",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Cryptic: 20-clue bank and initial input is not focused",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Cryptic: empty submission stays unsolved",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Cryptic: wrong answer permits retry",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Cryptic: three progressive hints, including definition highlight",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Cryptic: correct answer explains construction and counts once",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Cryptic: reveal has its own outcome and count",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Cryptic: both outcome types persist",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Cryptic: anagram filter selects the matching bank",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Cryptic: hidden filter selects the matching bank",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Cryptic: reversal filter selects the matching bank",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Cryptic: charade filter selects the matching bank",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Cryptic: container filter selects the matching bank",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Cryptic: complete real 20-clue practice round without duplicates",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Cryptic: next round honestly discloses clue repetition",
+    "pass": true,
+    "value": true
+  }
+]

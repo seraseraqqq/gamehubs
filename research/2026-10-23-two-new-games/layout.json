@@ -1,0 +1,76 @@
+{
+  "orbit-pins": {
+    "1440": {
+      "width": 1440,
+      "scroll": 1440,
+      "h1": 1,
+      "external": [],
+      "broken": [],
+      "active": "BODY"
+    },
+    "390": {
+      "width": 390,
+      "scroll": 390,
+      "h1": 1,
+      "external": [],
+      "broken": [],
+      "active": "BODY"
+    },
+    "320": {
+      "width": 320,
+      "scroll": 320,
+      "h1": 1,
+      "external": [],
+      "broken": [],
+      "active": "BODY"
+    },
+    "768": {
+      "width": 768,
+      "scroll": 768,
+      "h1": 1,
+      "external": [],
+      "broken": [],
+      "active": "BODY"
+    },
+    "errors": {
+      "errors": []
+    }
+  },
+  "cryptic-practice": {
+    "1440": {
+      "width": 1440,
+      "scroll": 1440,
+      "h1": 1,
+      "external": [],
+      "broken": [],
+      "active": "BODY"
+    },
+    "390": {
+      "width": 390,
+      "scroll": 390,
+      "h1": 1,
+      "external": [],
+      "broken": [],
+      "active": "BODY"
+    },
+    "320": {
+      "width": 320,
+      "scroll": 320,
+      "h1": 1,
+      "external": [],
+      "broken": [],
+      "active": "BODY"
+    },
+    "768": {
+      "width": 768,
+      "scroll": 768,
+      "h1": 1,
+      "external": [],
+      "broken": [],
+      "active": "BODY"
+    },
+    "errors": {
+      "errors": []
+    }
+  }
+}

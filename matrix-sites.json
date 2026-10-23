@@ -320,6 +320,72 @@
       },
       "dnsState": "verified",
       "registeredDomain": "2048cupcakes.xyz"
+    },
+    {
+      "siteId": "orbit-pins",
+      "brandName": "Pinlark",
+      "unitType": "game",
+      "primaryKeyword": "rotating pin puzzle",
+      "researchSeedKeyword": "coreball",
+      "path": "games/orbit-pins",
+      "domain": null,
+      "url": null,
+      "repo": "https://github.com/seraseraqqq/gamehubs",
+      "status": "built-qa-passed-awaiting-domain",
+      "releaseState": "github-delivery-batch",
+      "targetMarket": {
+        "country": "US",
+        "language": "en"
+      },
+      "targetIntent": "Independent original rotating-pin timing puzzle: 30 replayable levels, separate 70% Practice and full-speed Challenge. Not the original Coreball game.",
+      "gameSource": {
+        "type": "original",
+        "record": "games/orbit-pins/PROVENANCE.md"
+      },
+      "canonical": null,
+      "indexingState": "noindex-awaiting-owned-origin",
+      "adsEnabled": false,
+      "analyticsState": "not-connected",
+      "searchConsoleState": "not-connected",
+      "createdAt": "2026-10-23",
+      "updatedAt": "2026-10-23",
+      "localPreview": "http://127.0.0.1:4195/",
+      "verificationRecord": "research/2026-10-23-two-new-games/README.md",
+      "domainResearch": "research/2026-10-23-two-new-games/domain-final-check.json",
+      "nextDecision": "Owner chooses and purchases a domain; configure approved SITE_ORIGIN and verify production before indexing. Trends evidence remains incomplete."
+    },
+    {
+      "siteId": "cryptic-practice",
+      "brandName": "Clue Garden",
+      "unitType": "game",
+      "primaryKeyword": "cryptic clue practice",
+      "researchSeedKeyword": "minute cryptic unlimited",
+      "path": "games/cryptic-practice",
+      "domain": null,
+      "url": null,
+      "repo": "https://github.com/seraseraqqq/gamehubs",
+      "status": "built-qa-passed-awaiting-domain",
+      "releaseState": "github-delivery-batch",
+      "targetMarket": {
+        "country": "US",
+        "language": "en"
+      },
+      "targetIntent": "Independent cryptic clue practice: 20 original clue phrasings with three hints and full parses, five wordplay filters, unlimited replay of a finite bank. Not the official Minute Cryptic archive.",
+      "gameSource": {
+        "type": "original",
+        "record": "games/cryptic-practice/PROVENANCE.md"
+      },
+      "canonical": null,
+      "indexingState": "noindex-awaiting-owned-origin",
+      "adsEnabled": false,
+      "analyticsState": "not-connected",
+      "searchConsoleState": "not-connected",
+      "createdAt": "2026-10-23",
+      "updatedAt": "2026-10-23",
+      "localPreview": "http://127.0.0.1:4196/",
+      "verificationRecord": "research/2026-10-23-two-new-games/README.md",
+      "domainResearch": "research/2026-10-23-two-new-games/domain-final-check.json",
+      "nextDecision": "Owner chooses and purchases a domain; configure approved SITE_ORIGIN and verify production before indexing. Trends evidence remains incomplete."
     }
   ]
 }

@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-10-23T14:15:18.101702+00:00",
+  "source": "Vercel public registrar search; USD; not a Spaceship quote",
+  "result": {
+    "results": [
+      {
+        "domain": "playpinlark.com",
+        "available": true,
+        "years": 1,
+        "price": 11.25,
+        "renewalPrice": 11.25,
+        "premium": false
+      },
+      {
+        "domain": "pinlarkgame.com",
+        "available": true,
+        "years": 1,
+        "price": 11.25,
+        "renewalPrice": 11.25,
+        "premium": false
+      },
+      {
+        "domain": "pinlark.xyz",
+        "available": true,
+        "years": 1,
+        "price": 1.99,
+        "renewalPrice": 13,
+        "premium": false
+      },
+      {
+        "domain": "crypticpractice.com",
+        "available": true,
+        "years": 1,
+        "price": 11.25,
+        "renewalPrice": 11.25,
+        "premium": false
+      },
+      {
+        "domain": "crypticpractice.xyz",
+        "available": true,
+        "years": 1,
+        "price": 1.99,
+        "renewalPrice": 13,
+        "premium": false
+      },
+      {
+        "domain": "cluegarden.xyz",
+        "available": true,
+        "years": 1,
+        "price": 1.99,
+        "renewalPrice": 13,
+        "premium": false
+      }
+    ]
+  }
+}

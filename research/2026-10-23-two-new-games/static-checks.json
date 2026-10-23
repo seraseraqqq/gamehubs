@@ -1,0 +1,276 @@
+{
+  "checks": [
+    {
+      "game": "orbit-pins",
+      "check": "source: single H1 and unique IDs",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "source: title and description present",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "source: truthful game schema",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "source: structured FAQ matches visible content",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "source: 1200x630 social PNG",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "source: runtime asset references exist",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "source: fonts local and licensed",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "source: no zoom lock, no-JS notice",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "Source is noindex with no unowned canonical",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "production: single H1 and unique IDs",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "production: title and description present",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "production: truthful game schema",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "production: structured FAQ matches visible content",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "production: 1200x630 social PNG",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "production: runtime asset references exist",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "production: fonts local and licensed",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "production: no zoom lock, no-JS notice",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "Production origin interpolation",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "Production robots and sitemap match",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "Development files excluded",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "Vercel preview stays noindex",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "Default build stays noindex",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "Rejects invalid origin http://example.com",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "Rejects invalid origin https://localhost",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "Rejects invalid origin https://example.com/path",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "Rejects invalid origin https://user:pass@example.com",
+      "pass": true
+    },
+    {
+      "game": "orbit-pins",
+      "check": "Rejects invalid origin https://example.com:444",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "source: single H1 and unique IDs",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "source: title and description present",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "source: truthful game schema",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "source: structured FAQ matches visible content",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "source: 1200x630 social PNG",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "source: runtime asset references exist",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "source: fonts local and licensed",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "source: no zoom lock, no-JS notice",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "Source is noindex with no unowned canonical",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "production: single H1 and unique IDs",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "production: title and description present",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "production: truthful game schema",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "production: structured FAQ matches visible content",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "production: 1200x630 social PNG",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "production: runtime asset references exist",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "production: fonts local and licensed",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "production: no zoom lock, no-JS notice",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "Production origin interpolation",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "Production robots and sitemap match",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "Development files excluded",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "Vercel preview stays noindex",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "Default build stays noindex",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "Rejects invalid origin http://example.com",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "Rejects invalid origin https://localhost",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "Rejects invalid origin https://example.com/path",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "Rejects invalid origin https://user:pass@example.com",
+      "pass": true
+    },
+    {
+      "game": "cryptic-practice",
+      "check": "Rejects invalid origin https://example.com:444",
+      "pass": true
+    }
+  ],
+  "passed": 54,
+  "total": 54
+}

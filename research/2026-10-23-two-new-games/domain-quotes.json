@@ -1,0 +1,152 @@
+{
+  "checked_at": "2026-10-23T14:01:56.622627+00:00",
+  "source": "Vercel public registrar search; USD, not a Spaceship quote",
+  "result": {
+    "results": [
+      {
+        "domain": "orbitpins.com",
+        "available": true,
+        "years": 1,
+        "price": 11.25,
+        "renewalPrice": 11.25,
+        "premium": false
+      },
+      {
+        "domain": "orbitpins.xyz",
+        "available": true,
+        "years": 1,
+        "price": 1.99,
+        "renewalPrice": 13,
+        "premium": false
+      },
+      {
+        "domain": "orbitpins.site",
+        "available": true,
+        "years": 1,
+        "price": 1.99,
+        "renewalPrice": 27,
+        "premium": false
+      },
+      {
+        "domain": "orbitpins.space",
+        "available": true,
+        "years": 1,
+        "price": 1.99,
+        "renewalPrice": 22,
+        "premium": false
+      },
+      {
+        "domain": "playorbitpins.com",
+        "available": true,
+        "years": 1,
+        "price": 11.25,
+        "renewalPrice": 11.25,
+        "premium": false
+      },
+      {
+        "domain": "playorbitpins.xyz",
+        "available": true,
+        "years": 1,
+        "price": 1.99,
+        "renewalPrice": 13,
+        "premium": false
+      },
+      {
+        "domain": "orbitpin.com",
+        "available": false
+      },
+      {
+        "domain": "orbitpin.xyz",
+        "available": true,
+        "years": 1,
+        "price": 1.99,
+        "renewalPrice": 13,
+        "premium": false
+      },
+      {
+        "domain": "cluegarden.com",
+        "available": false
+      },
+      {
+        "domain": "cluegarden.xyz",
+        "available": true,
+        "years": 1,
+        "price": 1.99,
+        "renewalPrice": 13,
+        "premium": false
+      },
+      {
+        "domain": "cluegarden.site",
+        "available": true,
+        "years": 1,
+        "price": 1.99,
+        "renewalPrice": 27,
+        "premium": false
+      },
+      {
+        "domain": "cluegarden.space",
+        "available": true,
+        "years": 1,
+        "price": 1.99,
+        "renewalPrice": 22,
+        "premium": false
+      },
+      {
+        "domain": "playcluegarden.com",
+        "available": true,
+        "years": 1,
+        "price": 11.25,
+        "renewalPrice": 11.25,
+        "premium": false
+      },
+      {
+        "domain": "playcluegarden.xyz",
+        "available": true,
+        "years": 1,
+        "price": 1.99,
+        "renewalPrice": 13,
+        "premium": false
+      },
+      {
+        "domain": "crypticgarden.com",
+        "available": false
+      },
+      {
+        "domain": "crypticgarden.xyz",
+        "available": true,
+        "years": 1,
+        "price": 1.99,
+        "renewalPrice": 13,
+        "premium": false
+      },
+      {
+        "domain": "crypticpractice.com",
+        "available": true,
+        "years": 1,
+        "price": 11.25,
+        "renewalPrice": 11.25,
+        "premium": false
+      },
+      {
+        "domain": "crypticpractice.xyz",
+        "available": true,
+        "years": 1,
+        "price": 1.99,
+        "renewalPrice": 13,
+        "premium": false
+      },
+      {
+        "domain": "pinorbit.com",
+        "available": false
+      },
+      {
+        "domain": "pinorbit.xyz",
+        "available": true,
+        "years": 1,
+        "price": 1.99,
+        "renewalPrice": 13,
+        "premium": false
+      }
+    ]
+  }
+}

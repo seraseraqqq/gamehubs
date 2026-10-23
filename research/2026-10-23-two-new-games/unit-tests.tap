@@ -1,0 +1,82 @@
+TAP version 13
+# Subtest: 20 distinct original practice entries have unique identifiers, answers and five types
+ok 1 - 20 distinct original practice entries have unique identifiers, answers and five types
+  ---
+  duration_ms: 0.423375
+  type: 'test'
+  ...
+# Subtest: every explanation has an exact, reconstructable letter recipe
+ok 2 - every explanation has an exact, reconstructable letter recipe
+  ---
+  duration_ms: 0.5485
+  type: 'test'
+  ...
+# Subtest: definitions and indicators are actually present in the visible clue
+ok 3 - definitions and indicators are actually present in the visible clue
+  ---
+  duration_ms: 0.108875
+  type: 'test'
+  ...
+# Subtest: answer normalization handles case, spacing and punctuation without accepting other words
+ok 4 - answer normalization handles case, spacing and punctuation without accepting other words
+  ---
+  duration_ms: 0.049667
+  type: 'test'
+  ...
+# Subtest: all 30 original challenges have a playable, collision-free solution
+ok 5 - all 30 original challenges have a playable, collision-free solution
+  ---
+  duration_ms: 2.92775
+  type: 'test'
+  ...
+# Subtest: practice also solves all levels while keeping challenge inputs unchanged
+ok 6 - practice also solves all levels while keeping challenge inputs unchanged
+  ---
+  duration_ms: 1.144709
+  type: 'test'
+  ...
+# Subtest: one pin at a time: held/rapid launch cannot bypass the flight
+ok 7 - one pin at a time: held/rapid launch cannot bypass the flight
+  ---
+  duration_ms: 0.082834
+  type: 'test'
+  ...
+# Subtest: pausing preserves clock and shot position and refuses new input
+ok 8 - pausing preserves clock and shot position and refuses new input
+  ---
+  duration_ms: 0.049041
+  type: 'test'
+  ...
+# Subtest: known collisions fail without attaching a pin or decrementing remaining
+ok 9 - known collisions fail without attaching a pin or decrementing remaining
+  ---
+  duration_ms: 0.04725
+  type: 'test'
+  ...
+# Subtest: large frame and subdivided time produce the same shot outcome
+ok 10 - large frame and subdivided time produce the same shot outcome
+  ---
+  duration_ms: 0.05275
+  type: 'test'
+  ...
+# Subtest: completed and failed rounds do not change after additional time
+ok 11 - completed and failed rounds do not change after additional time
+  ---
+  duration_ms: 0.085791
+  type: 'test'
+  ...
+# Subtest: fresh levels restart clean and invalid IDs/times are rejected
+ok 12 - fresh levels restart clean and invalid IDs/times are rejected
+  ---
+  duration_ms: 0.118458
+  type: 'test'
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 39.0785
