@@ -58,7 +58,9 @@ Local Cupcakes preview: http://127.0.0.1:4180/.
 
 See each game's README and [deployment record](deployments/2026-10-23-games.md)
 for deployment and domain verification status. DNS is managed by the owner at
-Spaceship. Ads, analytics and Search Console are not connected.
+Spaceship. Ads and Search Console are not connected. Vercel Web Analytics scripts are
+installed across all six deployed games; the owner manages the dashboard switches.
+See [Analytics release record](deployments/2026-10-23-analytics.md).
 
 
 ## Existing-game review — 2026-10-23

@@ -56,8 +56,8 @@ was blocked/incomplete in the earlier research; current local development was
 explicitly authorized. The owner subsequently bought 2048cupcakes.xyz and authorized production deployment on 2026-10-23.
 
 License and asset provenance: THIRD_PARTY_NOTICES.md. No source code, assets or
-branding from existing Cupcakes sites was copied. No ads, analytics, embeds,
-external fonts or backend are installed. The production origin is https://www.2048cupcakes.xyz. Vercel builds from this
+branding from existing Cupcakes sites was copied. No ads, embeds, external fonts or gameplay backend are installed. Vercel Web
+Analytics is integrated for hosted page views. The production origin is https://www.2048cupcakes.xyz. Vercel builds from this
 subdirectory using vercel.json and publishes only dist/. Preview deployments
 remain noindex. Search Console, ad approval and real-device performance remain
 separate work. Deployment and DNS verification status is tracked in
@@ -65,3 +65,14 @@ separate work. Deployment and DNS verification status is tracked in
 
 The verification record is QA.md. Local QA is not a production browser/device or
 Core Web Vitals guarantee.
+
+
+## Vercel Web Analytics — 2026-10-23
+
+The HTML initializes `window.va` and loads Vercel's same-origin
+`/_vercel/insights/script.js` on hosted HTTPS pages. Local HTTP/file previews
+skip the script. No npm dependency or framework is needed for this static HTML
+integration. Gameplay records remain in local storage; no custom game events
+are sent. The owner will enable Web Analytics in the Vercel dashboard.
+After enabling it, redeploy if needed and verify a page-view request.
+See [Analytics release record](../../deployments/2026-10-23-analytics.md).

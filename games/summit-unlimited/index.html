@@ -66,6 +66,16 @@
     }
   ]
 }</script>
+  <!-- Vercel Web Analytics; the owner enables collection in the Vercel dashboard. -->
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    if (location.protocol === 'https:' && !['localhost', '127.0.0.1', '[::1]'].includes(location.hostname)) {
+      const script = document.createElement('script');
+      script.defer = true;
+      script.src = '/_vercel/insights/script.js';
+      document.head.append(script);
+    }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#how-to-play">Skip to game instructions</a>
@@ -111,7 +121,7 @@
       <details><summary>Will my best score appear on another device?</summary><p>No. Your best score and flight count stay in local browser storage. They do not sync between devices, and clearing site data removes them.</p></details>
       <details><summary>Do I need to download the game or enable sound?</summary><p>No download is required. The game runs on this page, and sound stays off until you enable it with the SND button.</p></details>
     </section>
-    <section id="privacy" class="journey-guide"><h2>Privacy &amp; storage</h2><p>Your best flight score and flight count are saved in this browser when storage is available. They do not sync across devices. Clearing site data removes them. This version has no advertising, analytics or external font requests. Hosting providers may keep standard request logs.</p></section><footer class="site-footer"><a href="#privacy">Privacy &amp; storage</a><a href="#game">Back to the launch pad ↑</a><span>STARLING · Signal to the Stars</span></footer>
+    <section id="privacy" class="journey-guide"><h2>Privacy &amp; storage</h2><p>Your best flight score and flight count are saved in this browser when storage is available. They do not sync across devices. Clearing site data removes them. The hosted site uses cookie-free Vercel Web Analytics for aggregate visits and page views. Your answers and saved game records stay on this device. There are no ads or external font requests. Hosting providers may keep standard request logs.</p></section><footer class="site-footer"><a href="#privacy">Privacy &amp; storage</a><a href="#game">Back to the launch pad ↑</a><span>STARLING · Signal to the Stars</span></footer>
   </article>
   </main>
   <dialog id="helpDialog"><form method="dialog"><button class="dialog-close" aria-label="Close">×</button></form><div class="eyebrow">FLIGHT MANUAL</div><h2>FOLLOW THE SIGNAL.</h2><p>Answer seven prompts, each within 25 seconds. Correct answers take you through: Earth, atmosphere, Moon, Mars, Jupiter, solar system, Milky Way, cosmic horizon.</p><p>Rare answers earn more flight points. The route is a story with compressed travel time; points and distance are separate. Passing or timing out earns zero points and leaves the rocket in place. The next prompt starts at the same location. All seven answers must be correct to reach the cosmic horizon.</p><p>Answers are checked against a separate list for each prompt, including accepted aliases. Unrecognized answers do not score or advance the round; retry before the timer expires. Rarity values are preset, not live player frequency. Your record stays on this device.</p><p>Original generated pixel sprites. Locally hosted Silkscreen font (OFL). Synthesized sound starts when enabled.</p></dialog>

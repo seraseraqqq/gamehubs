@@ -83,3 +83,14 @@ Timeout/pass record a missed round, show NO BOOST, and switch to the next prompt
 ## Workspace review — 2026-10-23
 
 The HUD brand is now the single H1 with stronger light-on-sky contrast. The original pixel scene and word-game mechanics remain. Added a readable privacy/local-storage section, wired the runtime-only exporter into Vercel configuration, and corrected project inventory that still described an ocean trivia game. See [review evidence](../../research/2026-10-23-existing-games/report.html). See [release status](../../deployments/2026-10-23-existing-games.md) for this batch’s GitHub and production verification.
+
+
+## Vercel Web Analytics — 2026-10-23
+
+The HTML initializes `window.va` and loads Vercel's same-origin
+`/_vercel/insights/script.js` on hosted HTTPS pages. Local HTTP/file previews
+skip the script. No npm dependency or framework is needed for this static HTML
+integration. Gameplay records remain in local storage; no custom game events
+are sent. The owner will enable Web Analytics in the Vercel dashboard.
+After enabling it, redeploy if needed and verify a page-view request.
+See [Analytics release record](../../deployments/2026-10-23-analytics.md).

@@ -10,6 +10,16 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
   <script src="game.js" defer></script>
+  <!-- Vercel Web Analytics; the owner enables collection in the Vercel dashboard. -->
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    if (location.protocol === 'https:' && !['localhost', '127.0.0.1', '[::1]'].includes(location.hostname)) {
+      const script = document.createElement('script');
+      script.defer = true;
+      script.src = '/_vercel/insights/script.js';
+      document.head.append(script);
+    }
+  </script>
 </head>
 <body>
   <a class="skip" href="#test">Skip to counter</a>
@@ -29,6 +39,6 @@
     <section class="guide" id="how"><div><p class="eyebrow">SMALL DETAILS, FAIRER RESULTS</p><h2>Make every press count.</h2></div><div class="guide-copy"><h3>Pick a length. Focus the key. Go.</h3><p>Click or Tab to the large key, then press Space. The first accepted press starts the timer. Your rate is the number of presses divided by the full test length. In Free count, the rate uses elapsed time.</p><h3>A held key is one press.</h3><p>Operating systems repeat keys when you hold them down. This counter ignores those repeats and waits for you to release Space. Clicks on the large key only count in Tap / click mode, which keeps its own result history.</p><h3>Compare like with like.</h3><p>Use the same duration, device and input mode when comparing rounds. Leaving the page, switching tabs or moving focus away from the key cancels an active test. This is a personal practice tool; it does not certify scores or detect every kind of automation.</p><h3>Using a phone?</h3><p>Connect a physical keyboard for a spacebar test, or choose Tap / click for a touchscreen test. Touch results measure tapping and are kept separate from spacebar results.</p></div></section>
   </main>
   <footer><span>SPACE / BAR · An independent counter</span><a href="#privacy">Privacy &amp; storage</a></footer>
-  <section id="privacy" class="privacy"><h2>Privacy &amp; storage</h2><p>The counter runs in your browser. It stores up to 12 completed rounds on this device using local storage. Clearing this site's browser data deletes them. This version has no analytics, ads, accounts or external services. Your hosting provider may keep standard request logs after deployment.</p><button id="clear-history" class="text-button" type="button">Clear local round history</button></section>
+  <section id="privacy" class="privacy"><h2>Privacy &amp; storage</h2><p>The counter runs in your browser. It stores up to 12 completed rounds on this device using local storage. Clearing this site's browser data deletes them. The hosted site uses cookie-free Vercel Web Analytics for aggregate visits and page views. Your individual key presses and saved rounds stay on this device. There are no ads or accounts. Your hosting provider may keep standard request logs after deployment.</p><button id="clear-history" class="text-button" type="button">Clear local round history</button></section>
 </body>
 </html>

@@ -35,6 +35,14 @@
         "releaseRecord": "deployments/2026-10-23-existing-games.md",
         "releaseBranch": "main",
         "productionVerification": "not-performed"
+      },
+      "analyticsState": "vercel-web-analytics-script-installed",
+      "analytics": {
+        "provider": "Vercel Web Analytics",
+        "integration": "static-html-script",
+        "dashboardEnablement": "owner-managed",
+        "collectionVerified": false,
+        "record": "deployments/2026-10-23-analytics.md"
       }
     },
     {
@@ -68,6 +76,14 @@
         "releaseRecord": "deployments/2026-10-23-existing-games.md",
         "releaseBranch": "main",
         "productionVerification": "not-performed"
+      },
+      "analyticsState": "vercel-web-analytics-script-installed",
+      "analytics": {
+        "provider": "Vercel Web Analytics",
+        "integration": "static-html-script",
+        "dashboardEnablement": "owner-managed",
+        "collectionVerified": false,
+        "record": "deployments/2026-10-23-analytics.md"
       }
     },
     {
@@ -111,6 +127,14 @@
         "implementation": "games/gulperio/bot-brain.js",
         "record": "research/2026-10-23-existing-games/gulper-personality.md",
         "productionChanged": null
+      },
+      "analyticsState": "vercel-web-analytics-script-installed",
+      "analytics": {
+        "provider": "Vercel Web Analytics",
+        "integration": "static-html-script",
+        "dashboardEnablement": "owner-managed",
+        "collectionVerified": false,
+        "record": "deployments/2026-10-23-analytics.md"
       }
     },
     {
@@ -146,6 +170,14 @@
         "releaseRecord": "deployments/2026-10-23-existing-games.md",
         "releaseBranch": "main",
         "productionVerification": "not-performed"
+      },
+      "analyticsState": "vercel-web-analytics-script-installed",
+      "analytics": {
+        "provider": "Vercel Web Analytics",
+        "integration": "static-html-script",
+        "dashboardEnablement": "owner-managed",
+        "collectionVerified": false,
+        "record": "deployments/2026-10-23-analytics.md"
       }
     },
     {
@@ -176,7 +208,7 @@
       "indexingState": "indexable-gsc-not-connected",
       "adApprovalState": "not-requested",
       "adsEnabled": false,
-      "analyticsState": "not-connected",
+      "analyticsState": "vercel-web-analytics-script-installed",
       "searchConsoleState": "not-connected",
       "keywordEvidence": {
         "path": "research/2026-10-23-game-keywords/normalized-evidence.json",
@@ -203,7 +235,7 @@
       "deployedAt": "2026-10-23T10:25:18.314000+00:00",
       "buildHours": null,
       "recurringCostUsd": null,
-      "nextDecision": "Connect Search Console and submit the www sitemap; add explicitly chosen analytics and gameplay events; finish real-device/performance checks; retain the Google Trends evidence gap and keep ads disabled pending approval.",
+      "nextDecision": "Connect Search Console and submit the www sitemap; enable Vercel Web Analytics in the dashboard and verify page views; consider gameplay events separately; finish real-device/performance checks; retain the Google Trends evidence gap and keep ads disabled pending approval.",
       "registrar": "Spaceship",
       "domainOwnership": "owner-confirmed-purchased-2026-10-23",
       "deployment": {
@@ -229,7 +261,14 @@
         "productionHttpChecks": 5,
         "customDomainChecks": 5
       },
-      "registeredDomain": "spacebarcounter.xyz"
+      "registeredDomain": "spacebarcounter.xyz",
+      "analytics": {
+        "provider": "Vercel Web Analytics",
+        "integration": "static-html-script",
+        "dashboardEnablement": "owner-managed",
+        "collectionVerified": false,
+        "record": "deployments/2026-10-23-analytics.md"
+      }
     },
     {
       "siteId": "2048-cupcakes",
@@ -264,7 +303,7 @@
       "indexingState": "indexable-gsc-not-connected",
       "adApprovalState": "not-requested",
       "adsEnabled": false,
-      "analyticsState": "not-connected",
+      "analyticsState": "vercel-web-analytics-script-installed",
       "searchConsoleState": "not-connected",
       "keywordEvidence": {
         "path": "research/2026-10-23-game-keywords/normalized-evidence.json",
@@ -300,7 +339,7 @@
       "deployedAt": "2026-10-23T10:25:13.491000+00:00",
       "buildHours": null,
       "recurringCostUsd": null,
-      "nextDecision": "Connect Search Console and submit the www sitemap; add explicitly chosen analytics and gameplay events; finish real-device/performance checks; retain the Google Trends evidence gap and keep ads disabled pending approval.",
+      "nextDecision": "Connect Search Console and submit the www sitemap; enable Vercel Web Analytics in the dashboard and verify page views; consider gameplay events separately; finish real-device/performance checks; retain the Google Trends evidence gap and keep ads disabled pending approval.",
       "registrar": "Spaceship",
       "domainOwnership": "owner-confirmed-purchased-2026-10-23",
       "deployment": {
@@ -319,7 +358,14 @@
         "productionOrigin": "https://www.2048cupcakes.xyz"
       },
       "dnsState": "verified",
-      "registeredDomain": "2048cupcakes.xyz"
+      "registeredDomain": "2048cupcakes.xyz",
+      "analytics": {
+        "provider": "Vercel Web Analytics",
+        "integration": "static-html-script",
+        "dashboardEnablement": "owner-managed",
+        "collectionVerified": false,
+        "record": "deployments/2026-10-23-analytics.md"
+      }
     },
     {
       "siteId": "coreball",
