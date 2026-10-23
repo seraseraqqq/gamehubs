@@ -90,7 +90,8 @@ The owner purchased 2048cupcakes.xyz and authorized GitHub upload and production
 Vercel deployment. The initial source release 4ff570e reached READY. Seven hosted
 HTTP checks matched local build hashes and seven hosted Chromium browser checks
 passed (startup, keyboard merge, undo, saved state, canonical, mobile layout and
-no page errors). The Vercel custom-domain binding is verified, while Spaceship
-DNS and final public HTTPS remain pending the owner's changes.
+no page errors). The owner subsequently completed Spaceship DNS. Final www HTTPS, apex/HTTP
+redirects, canonical, robots and sitemap passed public verification. The origin
+configuration follows the current apex-to-www routing; see the release record.
 
 Full release and exact DNS records: ../../deployments/2026-10-23-games.md.

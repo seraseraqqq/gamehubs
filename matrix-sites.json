@@ -108,11 +108,11 @@
         "spacebar test"
       ],
       "path": "games/spacebar-counter",
-      "domain": "https://spacebarcounter.xyz",
-      "url": "https://gamehubs-spacebar-counter.vercel.app",
+      "domain": "https://www.spacebarcounter.xyz",
+      "url": "https://www.spacebarcounter.xyz/",
       "repo": "https://github.com/seraseraqqq/gamehubs",
       "status": "deployed",
-      "releaseState": "vercel-ready-dns-pending",
+      "releaseState": "public-domain-verified",
       "targetMarket": {
         "country": "US",
         "language": "en"
@@ -123,8 +123,8 @@
         "thirdPartyAssets": false,
         "rightsNotes": "Original HTML/CSS/JavaScript/SVG created for this repository. No third-party game package or branding."
       },
-      "canonical": "https://spacebarcounter.xyz/",
-      "indexingState": "production-enabled-awaiting-dns",
+      "canonical": "https://www.spacebarcounter.xyz/",
+      "indexingState": "indexable-gsc-not-connected",
       "adApprovalState": "not-requested",
       "adsEnabled": false,
       "analyticsState": "not-connected",
@@ -154,7 +154,7 @@
       "deployedAt": "2026-10-23T10:25:18.314000+00:00",
       "buildHours": null,
       "recurringCostUsd": null,
-      "nextDecision": "Owner applies the recorded Spaceship DNS records; verify custom-domain public HTTPS, redirects and SEO after propagation. Search Console and measurement remain separate work.",
+      "nextDecision": "Connect Search Console and submit the www sitemap; add explicitly chosen analytics and gameplay events; finish real-device/performance checks; retain the Google Trends evidence gap and keep ads disabled pending approval.",
       "registrar": "Spaceship",
       "domainOwnership": "owner-confirmed-purchased-2026-10-23",
       "deployment": {
@@ -166,16 +166,21 @@
         "target": "production",
         "state": "READY",
         "initialDeploymentId": "dpl_Et7b5BJ6YDJpnhxEDpncfXp93vge",
-        "verifiedGameSourceCommit": "4ff570e706a943945a4fc4ca2de374267bbe3de5",
-        "record": "deployments/2026-10-23-games.md"
+        "verifiedGameSourceCommit": "d39bd84dd5605abf2aa3249b8d171bddd9927a13",
+        "record": "deployments/2026-10-23-games.md",
+        "latestVerifiedDeploymentId": "dpl_7JGo3tWaZQqqzRf5ottv1NvE7Bi7",
+        "verifiedPublicAt": "2026-10-23T10:55:52.225380+00:00",
+        "productionOrigin": "https://www.spacebarcounter.xyz"
       },
-      "dnsState": "spaceship-change-pending",
+      "dnsState": "verified",
       "qa": {
         "date": "2026-10-23",
         "record": "deployments/2026-10-23-games.md",
         "productionBrowserChecks": 6,
-        "productionHttpChecks": 5
-      }
+        "productionHttpChecks": 5,
+        "customDomainChecks": 5
+      },
+      "registeredDomain": "spacebarcounter.xyz"
     },
     {
       "siteId": "2048-cupcakes",
@@ -187,12 +192,12 @@
         "2048 cupcake game"
       ],
       "path": "games/2048-cupcakes",
-      "domain": "https://2048cupcakes.xyz",
-      "url": "https://gamehubs-2048-cupcakes.vercel.app",
+      "domain": "https://www.2048cupcakes.xyz",
+      "url": "https://www.2048cupcakes.xyz/",
       "localPreview": "http://127.0.0.1:4180/",
       "repo": "https://github.com/seraseraqqq/gamehubs",
       "status": "deployed",
-      "releaseState": "vercel-ready-dns-pending",
+      "releaseState": "public-domain-verified",
       "targetMarket": {
         "country": "US",
         "language": "en"
@@ -206,8 +211,8 @@
         "thirdPartyNotices": "games/2048-cupcakes/THIRD_PARTY_NOTICES.md",
         "assets": "Original built-in imagegen atlas; original SVG icons"
       },
-      "canonical": "https://2048cupcakes.xyz/",
-      "indexingState": "production-enabled-awaiting-dns",
+      "canonical": "https://www.2048cupcakes.xyz/",
+      "indexingState": "indexable-gsc-not-connected",
       "adApprovalState": "not-requested",
       "adsEnabled": false,
       "analyticsState": "not-connected",
@@ -237,7 +242,8 @@
         "browserChecks": 22,
         "record": "games/2048-cupcakes/QA.md",
         "productionBrowserChecks": 7,
-        "productionHttpChecks": 7
+        "productionHttpChecks": 7,
+        "customDomainChecks": 5
       },
       "owner": "workspace-owner",
       "createdAt": "2026-10-23",
@@ -245,7 +251,7 @@
       "deployedAt": "2026-10-23T10:25:13.491000+00:00",
       "buildHours": null,
       "recurringCostUsd": null,
-      "nextDecision": "Owner applies the recorded Spaceship DNS records; verify custom-domain public HTTPS, redirects and SEO after propagation. Search Console and measurement remain separate work.",
+      "nextDecision": "Connect Search Console and submit the www sitemap; add explicitly chosen analytics and gameplay events; finish real-device/performance checks; retain the Google Trends evidence gap and keep ads disabled pending approval.",
       "registrar": "Spaceship",
       "domainOwnership": "owner-confirmed-purchased-2026-10-23",
       "deployment": {
@@ -257,10 +263,14 @@
         "target": "production",
         "state": "READY",
         "initialDeploymentId": "dpl_5G4DXDWenxdSmR9VygeDNtN4VcEi",
-        "verifiedGameSourceCommit": "4ff570e706a943945a4fc4ca2de374267bbe3de5",
-        "record": "deployments/2026-10-23-games.md"
+        "verifiedGameSourceCommit": "d39bd84dd5605abf2aa3249b8d171bddd9927a13",
+        "record": "deployments/2026-10-23-games.md",
+        "latestVerifiedDeploymentId": "dpl_6bRGt62NCFEQja3QF6S2F4yboLBA",
+        "verifiedPublicAt": "2026-10-23T10:55:52.225380+00:00",
+        "productionOrigin": "https://www.2048cupcakes.xyz"
       },
-      "dnsState": "spaceship-change-pending"
+      "dnsState": "verified",
+      "registeredDomain": "2048cupcakes.xyz"
     }
   ]
 }
