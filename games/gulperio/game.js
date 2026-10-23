@@ -5,11 +5,17 @@
  * 2. Mass Decay Balancing (Passive weight loss for giant snakes)
  * 3. Inertia & Weight Penalty (Bigger snakes turn slower & move slower)
  * 4. Calibrated Gradual Growth (No sudden uncontrollable blowup)
- * 5. Safe Spawning & Reduced Density (Expanded arena, 14 strategic bots)
+ * 5. Safe Spawning & Reduced Density (Expanded arena, varied local opponents)
  */
 
 (function () {
   'use strict';
+  // Storage can be unavailable in private/restricted browsers; gameplay remains usable.
+  const gameStorage = {
+    getItem(key) { try { return window.localStorage.getItem(key); } catch { return null; } },
+    setItem(key, value) { try { window.localStorage.setItem(key, value); } catch {} }
+  };
+
 
   const WORLD_RADIUS = 1600; // Calibrated arena radius: active, intense, high encounter frequency
   const BASE_SPEED = 3.6;
@@ -21,33 +27,33 @@
   const FIXED_MAGNET_RADIUS = 105; // Fixed magnetic suction range for easy early-stage eating!
 
   const BOT_NAMES = [
-    'NeonStriker', 'CyberViper', 'GlowWorm', 'QuantumPulse', 'ByteCrusher',
-    'SolarDrifter', 'ApexPredator', 'VoltRunner', 'ZeroLag', 'HyperLoop',
-    'ShadowFang', 'NebulaSnake', 'PixelGhost', 'LaserTail', 'ElectroEel',
-    'ChronoShift', 'Vortex99', 'CosmicSlither', 'TurboWorm', 'Specter',
-    'PhantomGlow', 'AlphaWorm', 'Synthetix', 'VectorRider', 'BioHazard'
+    'mango', 'noodle_7', 'lefty', 'toast.exe', 'oneMore',
+    'tiny chaos', 'Mochi', 'oops', 'driftwood', 'kiwi_99',
+    'slowpoke', 'moonbeam', 'zigzag', 'pocketfrog', 'beans',
+    'orbit', 'peachy', 'notAgain', 'socks', 'coco',
+    'daydream', 'minty', 'toast2', 'almost', 'small fry'
   ];
 
-  // Tiered presets for game start so the room feels actively in progress!
+  // Varied starting sizes provide local opponents of several experience levels.
   const INITIAL_BOT_TIERS = [
-    { name: 'ApexPredator', score: 2850, kills: 8 },
-    { name: 'CyberViper', score: 2150, kills: 6 },
-    { name: 'NeonStriker', score: 1620, kills: 5 },
-    { name: 'VoltRunner', score: 1240, kills: 4 },
-    { name: 'HyperLoop', score: 980, kills: 3 },
-    { name: 'ShadowFang', score: 790, kills: 2 },
-    { name: 'QuantumPulse', score: 660, kills: 2 },
-    { name: 'ByteCrusher', score: 530, kills: 1 },
-    { name: 'SolarDrifter', score: 440, kills: 1 },
-    { name: 'ZeroLag', score: 370, kills: 1 },
-    { name: 'NebulaSnake', score: 310, kills: 1 },
-    { name: 'PixelGhost', score: 260, kills: 0 },
-    { name: 'LaserTail', score: 220, kills: 0 },
-    { name: 'ElectroEel', score: 190, kills: 0 },
-    { name: 'ChronoShift', score: 160, kills: 0 },
-    { name: 'Vortex99', score: 130, kills: 0 },
-    { name: 'Specter', score: 110, kills: 0 },
-    { name: 'CosmicSlither', score: 100, kills: 0 }
+    { score: 2850, kills: 8 },
+    { score: 2150, kills: 6 },
+    { score: 1620, kills: 5 },
+    { score: 1240, kills: 4 },
+    { score: 980, kills: 3 },
+    { score: 790, kills: 2 },
+    { score: 660, kills: 2 },
+    { score: 530, kills: 1 },
+    { score: 440, kills: 1 },
+    { score: 370, kills: 1 },
+    { score: 310, kills: 1 },
+    { score: 260, kills: 0 },
+    { score: 220, kills: 0 },
+    { score: 190, kills: 0 },
+    { score: 160, kills: 0 },
+    { score: 130, kills: 0 },
+    { score: 110, kills: 0 },
+    { score: 100, kills: 0 }
   ];
 
   const SKINS = [
@@ -165,7 +171,7 @@
   }
 
   class Snake {
-    constructor(id, name, skin, isPlayer = false, x = 0, y = 0, initialScore = 100, initialKills = 0) {
+    constructor(id, name, skin, isPlayer = false, x = 0, y = 0, initialScore = 100, initialKills = 0, botStyle = null) {
       this.id = id;
       this.name = name;
       this.skin = skin;
@@ -214,8 +220,8 @@
         segY -= Math.sin(segAngle) * spacing;
       }
 
-      // AI specific parameters
-      this.aiTimer = Math.floor(Math.random() * 20);
+      // Each local rival keeps a play style, but has its own reactions and decisions.
+      this.brain = isPlayer ? null : window.GulperBots.createBrain({style:botStyle || 'collector'});
     }
 
     // Dynamic Physics & Balance Engine:
@@ -347,70 +353,7 @@
     }
 
     updateAI(foods, snakes) {
-      this.aiTimer++;
-
-      // Turn inward when nearing arena border
-      const distFromCenter = Math.hypot(this.x, this.y);
-      if (distFromCenter > WORLD_RADIUS * 0.85) {
-        this.targetAngle = Math.atan2(-this.y, -this.x);
-        return;
-      }
-
-      // Raycast obstacle avoidance
-      let obstacleAhead = false;
-      const lookAheadDist = 110 + this.speed * 8;
-      const checkAngles = [0, -0.45, 0.45, -0.85, 0.85];
-
-      for (const angOffset of checkAngles) {
-        const probeX = this.x + Math.cos(this.angle + angOffset) * lookAheadDist;
-        const probeY = this.y + Math.sin(this.angle + angOffset) * lookAheadDist;
-
-        for (let j = 0; j < snakes.length; j++) {
-          const other = snakes[j];
-          if (other === this || other.isDead) continue;
-
-          for (let s = 0; s < other.segments.length; s += 3) {
-            const seg = other.segments[s];
-            if (Math.hypot(probeX - seg.x, probeY - seg.y) < other.radius + this.radius * 0.75) {
-              obstacleAhead = true;
-              this.targetAngle = this.angle + (angOffset >= 0 ? -1.3 : 1.3);
-              this.isBoosting = false;
-              break;
-            }
-          }
-          if (obstacleAhead) break;
-        }
-        if (obstacleAhead) break;
-      }
-
-      if (obstacleAhead) return;
-
-      // Periodic foraging
-      if (this.aiTimer % 14 === 0) {
-        let nearestFood = null;
-        let minDist = 480;
-
-        for (let i = 0; i < foods.length; i += 2) {
-          const f = foods[i];
-          const d = Math.hypot(this.x - f.x, this.y - f.y);
-          if (d < minDist) {
-            minDist = d;
-            nearestFood = f;
-          }
-        }
-
-        if (nearestFood) {
-          this.targetAngle = Math.atan2(nearestFood.y - this.y, nearestFood.x - this.x);
-          if (nearestFood.mass >= 3 && minDist < 200 && this.score > 220) {
-            this.isBoosting = true;
-          } else {
-            this.isBoosting = false;
-          }
-        } else {
-          this.targetAngle += (Math.random() - 0.5) * 0.35;
-          this.isBoosting = false;
-        }
-      }
+      window.GulperBots.step(this.brain, this, foods, snakes, WORLD_RADIUS);
     }
 
     die(foods, particles, soundEngine) {
@@ -657,9 +600,9 @@
       this.selectedSkinIndex = 0;
 
       // Clean up local storage
-      const rawBest = localStorage.getItem('gulper_best') || '0';
-      this.bestScore = Math.floor(parseFloat(rawBest)) || 0;
-      localStorage.setItem('gulper_best', this.bestScore.toString());
+      const rawBest = gameStorage.getItem('gulper_best') || '0';
+      this.bestScore = Number.isFinite(Number(rawBest)) ? Math.max(0, Math.floor(Number(rawBest))) : 0;
+      gameStorage.setItem('gulper_best', this.bestScore.toString());
 
       this.initDPI();
       this.bindEvents();
@@ -718,14 +661,14 @@
 
       // Spacebar boost
       window.addEventListener('keydown', (e) => {
-        if (e.code === 'Space' && !e.repeat) {
+        if (e.code === 'Space' && !e.repeat && this.isPlaying && document.activeElement===this.canvas) {
           e.preventDefault();
           if (this.player && !this.player.isDead) {
             this.player.isBoosting = true;
             this.soundEngine.startBoost();
           }
         }
-        if (e.code === 'Enter') {
+        if (e.code === 'Enter' && e.target.id === 'playerNameInput') {
           const startModal = document.getElementById('startModal');
           if (startModal && startModal.style.display !== 'none') {
             this.startGame();
@@ -766,6 +709,9 @@
         }
       }, { passive: true });
 
+      this.canvas.addEventListener('touchcancel', () => this.releaseBoost());
+      window.addEventListener('blur',()=>this.releaseBoost());
+      document.addEventListener('visibilitychange',()=>{if(document.hidden)this.releaseBoost();});
       this.canvas.addEventListener('touchend', (e) => {
         if (e.touches.length <= 1 && this.player) {
           this.player.isBoosting = false;
@@ -774,12 +720,17 @@
       });
 
       // Buttons
+      document.getElementById('btnNewRun').addEventListener('click',()=>this.startGame());
+      document.getElementById('btnMute').setAttribute('aria-pressed',String(!this.soundEngine.isMuted));
+      document.getElementById('btnMute').textContent=this.soundEngine.isMuted?'Sound off':'Sound on';
       document.getElementById('btnStartGame').addEventListener('click', () => this.startGame());
       document.getElementById('btnPlayAgain').addEventListener('click', () => this.startGame());
 
       document.getElementById('btnMute').addEventListener('click', () => {
         const isMuted = this.soundEngine.toggleMute();
         document.getElementById('btnMute').classList.toggle('active', isMuted);
+        document.getElementById('btnMute').setAttribute('aria-pressed',String(!isMuted));
+        document.getElementById('btnMute').textContent=isMuted?'Sound off':'Sound on';
       });
 
       document.getElementById('btnFullscreen').addEventListener('click', () => {
@@ -790,6 +741,12 @@
           document.exitFullscreen().catch(() => {});
         }
       });
+    }
+
+    releaseBoost() {
+      this.mouse.isDown=false;
+      if (this.player) this.player.isBoosting=false;
+      this.soundEngine.stopBoost();
     }
 
     renderSkinSelector() {
@@ -803,9 +760,12 @@
         chip.style.borderColor = skin.glow;
         chip.style.background = `radial-gradient(circle, ${skin.light} 30%, ${skin.glow} 100%)`;
         chip.title = skin.name;
+        chip.type='button';chip.setAttribute('aria-label',skin.name+' skin');
+        chip.setAttribute('aria-pressed',String(idx===this.selectedSkinIndex));
         chip.addEventListener('click', () => {
           this.selectedSkinIndex = idx;
-          document.querySelectorAll('.skin-chip').forEach(c => c.classList.remove('selected'));
+          document.querySelectorAll('.skin-chip').forEach(c => {c.classList.remove('selected');c.setAttribute('aria-pressed','false');});
+          chip.setAttribute('aria-pressed','true');
           chip.classList.add('selected');
         });
         container.appendChild(chip);
@@ -880,13 +840,27 @@
     }
 
     startGame() {
+      clearTimeout(this.resultTimeout);
+      this.resultForPlayer = null;
       this.soundEngine.init();
       const nameInput = document.getElementById('playerNameInput');
       const nickname = (nameInput.value.trim() || 'NeonGlow').substring(0, 14);
 
       // Hide Modals
       document.getElementById('startModal').style.display = 'none';
+      document.getElementById('gameContainer').classList.add('is-playing');
       document.getElementById('gameOverModal').close();
+
+      // A new run owns its own respawn queue; old runs cannot add delayed opponents.
+      this.runFrame = 0;
+      this.botRespawns = [];
+      this.spawnSerial = 0;
+      const names = [...BOT_NAMES];
+      for (let i=names.length-1;i>0;i--) {
+        const j=Math.floor(Math.random()*(i+1)); [names[i],names[j]]=[names[j],names[i]];
+      }
+      const styles=['collector','hunter','drifter','rookie'];
+      this.botRoster=names.slice(0,TARGET_BOTS).map((name,i)=>({name,style:styles[i%styles.length],skin:SKINS[(i+Math.floor(Math.random()*SKINS.length))%SKINS.length]}));
 
       // Reset entities
       this.foods = [];
@@ -913,16 +887,16 @@
       this.player = new Snake('player', nickname, playerSkin, true, spawn.x, spawn.y, 100, 0);
       this.snakes.push(this.player);
 
-      // Pre-warm the room with pre-set varied bot sizes (Apex predators down to novices)
-      // Player feels like joining an active, thriving, ongoing match!
+      // Start a varied local arena, from large established rivals to small newcomers.
       for (let i = 0; i < TARGET_BOTS; i++) {
-        const tier = INITIAL_BOT_TIERS[i] || { name: BOT_NAMES[i % BOT_NAMES.length], score: 100, kills: 0 };
+        const tier = INITIAL_BOT_TIERS[i] || { score: 100, kills: 0 };
         const scoreVariation = tier.score > 200 ? Math.floor((Math.random() - 0.5) * 120) : 0;
         const initialScore = Math.max(100, tier.score + scoreVariation);
-        this.spawnBot(i, true, initialScore, tier.kills, tier.name);
+        this.spawnBot(i, true, initialScore, tier.kills);
       }
 
       this.isPlaying = true;
+      this.canvas.focus({preventScroll:true});
       this.camera.x = spawn.x;
       this.camera.y = spawn.y;
       this.camera.zoom = 1.0;
@@ -933,16 +907,18 @@
       }
     }
 
-    spawnBot(idx, mustBeOffscreen = true, initialScore = 100, initialKills = 0, customName = null) {
-      const name = customName || BOT_NAMES[idx % BOT_NAMES.length] || `Snake${idx}`;
-      const skin = SKINS[idx % SKINS.length];
+    spawnBot(idx, mustBeOffscreen = true, initialScore = 100, initialKills = 0) {
+      const identity = this.botRoster[idx];
+      if (!identity) return;
       const spawn = this.findSafeSpawn(380, mustBeOffscreen);
-
-      const bot = new Snake(`bot_${Date.now()}_${idx}`, name, skin, false, spawn.x, spawn.y, initialScore, initialKills);
+      const bot = new Snake(`bot_${this.spawnSerial++}_${idx}`, identity.name, identity.skin, false,
+        spawn.x, spawn.y, initialScore, initialKills, identity.style);
+      bot.rosterIndex = idx;
       this.snakes.push(bot);
     }
 
     update() {
+      this.runFrame++;
       // Replenish food
       if (this.foods.length < 520) {
         const ang = Math.random() * Math.PI * 2;
@@ -1057,17 +1033,23 @@
         }
       }
 
-      // Respawn bots to maintain TARGET_BOTS density
-      for (let i = this.snakes.length - 1; i >= 0; i--) {
-        const s = this.snakes[i];
-        if (s.isDead && !s.isPlayer) {
-          this.snakes.splice(i, 1);
-          setTimeout(() => {
-            if (this.isPlaying && this.snakes.filter(sn => !sn.isPlayer && !sn.isDead).length < TARGET_BOTS) {
-              const freshScore = 100 + Math.floor(Math.random() * 30);
-              this.spawnBot(Math.floor(Math.random() * BOT_NAMES.length), true, freshScore, 0);
-            }
-          }, 2200 + Math.random() * 1800);
+      // Boundary deaths are reported too, and the result is only scheduled once.
+      if (this.player?.isDead) this.onPlayerDeath();
+
+      // Rivals return with the same handle, skin and style after a varied pause.
+      for (let i=this.snakes.length-1;i>=0;i--) {
+        const snake=this.snakes[i];
+        if(snake.isDead&&!snake.isPlayer) {
+          this.snakes.splice(i,1);
+          this.botRespawns.push({idx:snake.rosterIndex,at:this.runFrame+150+Math.floor(Math.random()*180)});
+        }
+      }
+      for(let i=this.botRespawns.length-1;i>=0;i--) {
+        const pending=this.botRespawns[i];
+        if(this.runFrame<pending.at) continue;
+        this.botRespawns.splice(i,1);
+        if(!this.snakes.some(s=>!s.isDead&&s.rosterIndex===pending.idx)) {
+          this.spawnBot(pending.idx,true,100+Math.floor(Math.random()*30),0);
         }
       }
 
@@ -1083,14 +1065,16 @@
     }
 
     onPlayerDeath() {
-      this.soundEngine.stopBoost();
+      if (this.resultForPlayer === this.player) return;
+      this.resultForPlayer = this.player;
+      this.releaseBoost();
 
       const finalScore = Math.floor(this.player.score);
       const finalLength = Math.floor(this.player.length);
 
       if (finalScore > this.bestScore) {
         this.bestScore = finalScore;
-        localStorage.setItem('gulper_best', this.bestScore.toString());
+        gameStorage.setItem('gulper_best', this.bestScore.toString());
       }
 
       document.getElementById('modalScore').textContent = finalScore.toLocaleString();
@@ -1098,7 +1082,7 @@
       document.getElementById('modalKills').textContent = this.player.kills;
       document.getElementById('modalBest').textContent = this.bestScore.toLocaleString();
 
-      setTimeout(() => {
+      this.resultTimeout = setTimeout(() => {
         document.getElementById('gameOverModal').showModal();
       }, 700);
     }
@@ -1235,14 +1219,16 @@
 
     drawLeaderboard(ctx) {
       const sorted = [...this.snakes].filter(s => !s.isDead).sort((a, b) => b.score - a.score);
-      const top7 = sorted.slice(0, 7);
-      const isPlayerInTop7 = this.player && !this.player.isDead && sorted.findIndex(s => s === this.player) < 7;
+      const compact = this.displayWidth < 600;
+      const visibleCount = compact ? 3 : 7;
+      const top7 = sorted.slice(0, visibleCount);
+      const isPlayerInTop7 = this.player && !this.player.isDead && sorted.findIndex(s => s === this.player) < visibleCount;
       const showPlayerRank = this.player && !this.player.isDead && !isPlayerInTop7;
 
-      const boxW = 186;
+      const boxW = compact ? 164 : 186;
       const boxH = 44 + top7.length * 20 + (showPlayerRank ? 26 : 8);
       const px = this.displayWidth - boxW - 14;
-      const py = 14;
+      const py = compact ? 84 : 14;
 
       ctx.save();
       ctx.fillStyle = 'rgba(7, 12, 22, 0.85)';
@@ -1256,7 +1242,7 @@
       ctx.fillStyle = '#00f7ff';
       ctx.font = '800 11px "Dela Gothic One", sans-serif';
       ctx.textAlign = 'center';
-      ctx.fillText('⚡ LEADERBOARD', px + boxW / 2, py + 20);
+      ctx.fillText('LOCAL BOT ARENA', px + boxW / 2, py + 20);
 
       ctx.font = '600 11.5px "Figtree", sans-serif';
       top7.forEach((s, idx) => {

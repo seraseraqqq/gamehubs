@@ -2,6 +2,8 @@
 
 Use this process to discover emerging game concepts. A rising query is a research lead, not proof of durable demand, monthly volume, ranking opportunity, or a viable standalone site.
 
+Provider order is Google Trends → current Google SERPs → supplementary DataForSEO metrics. Do not use OpenSEO. DataForSEO volume/KD may be optimistic and must not promote a weak trend or crowded intent into a build recommendation. If a material disagreement remains, request a same-market, same-period Ahrefs/Semrush check from the user.
+
 ## 1. Collect Signals
 
 The current helper is `scripts/trends_pull.py`:

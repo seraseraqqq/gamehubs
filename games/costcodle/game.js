@@ -5,12 +5,18 @@
 
 (() => {
   'use strict';
+  // Storage can be unavailable in private/restricted browsers; gameplay remains usable.
+  const gameStorage = {
+    getItem(key) { try { return window.localStorage.getItem(key); } catch { return null; } },
+    setItem(key, value) { try { window.localStorage.setItem(key, value); } catch {} }
+  };
+
 
   // --- Web Audio API Synthesizer ---
   class SoundManager {
     constructor() {
       this.ctx = null;
-      this.muted = localStorage.getItem('costcodle_muted') === 'true';
+      this.muted = gameStorage.getItem('costcodle_muted') !== 'false';
     }
 
     init() {
@@ -25,7 +31,7 @@
 
     toggleMute() {
       this.muted = !this.muted;
-      localStorage.setItem('costcodle_muted', this.muted);
+      gameStorage.setItem('costcodle_muted', this.muted);
       return this.muted;
     }
 
@@ -88,8 +94,14 @@
         dist: { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0 }
       };
       try {
-        const saved = localStorage.getItem('costcodle_stats');
-        return saved ? { ...defaultStats, ...JSON.parse(saved) } : defaultStats;
+        const saved = gameStorage.getItem('costcodle_stats');
+        if (!saved) return defaultStats;
+        const data=JSON.parse(saved); if (!data || typeof data!=='object') return defaultStats;
+        const count=value=>Number.isSafeInteger(value)&&value>=0?value:0;
+        for (const key of ['played','wins','currentStreak','maxStreak']) defaultStats[key]=count(data[key]);
+        defaultStats.wins=Math.min(defaultStats.wins,defaultStats.played);
+        for (let i=1;i<=6;i++) defaultStats.dist[i]=count(data.dist?.[i]);
+        return defaultStats;
       } catch (e) {
         return defaultStats;
       }
@@ -97,7 +109,7 @@
 
     saveStats() {
       try {
-        localStorage.setItem('costcodle_stats', JSON.stringify(this.stats));
+        gameStorage.setItem('costcodle_stats', JSON.stringify(this.stats));
       } catch (e) {}
     }
 
@@ -210,6 +222,7 @@
 
     updateMuteIcon() {
       const isMuted = this.sound.muted;
+      this.btnMute.setAttribute('aria-pressed', String(!isMuted));
       this.btnMute.setAttribute('aria-label', isMuted ? 'Unmute Sound' : 'Mute Sound');
       this.btnMute.innerHTML = isMuted
         ? `<svg viewBox="0 0 24 24"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>`
@@ -220,12 +233,14 @@
       this.mode = mode;
       this.btnDaily.classList.toggle('active', mode === 'daily');
       this.btnUnlimited.classList.toggle('active', mode === 'unlimited');
+      this.btnDaily.setAttribute('aria-pressed',String(mode==='daily'));
+      this.btnUnlimited.setAttribute('aria-pressed',String(mode==='unlimited'));
       this.startRound();
     }
 
     getTodayDateString() {
       const now = new Date();
-      return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+      return now.toISOString().slice(0,10);
     }
 
     getDailyItem() {
@@ -249,10 +264,11 @@
       if (this.mode === 'daily') {
         this.currentItem = this.getDailyItem();
         // Check if daily round was already completed
-        const savedDaily = localStorage.getItem(`costcodle_daily_${this.getTodayDateString()}`);
+        const savedDaily = gameStorage.getItem(`costcodle_daily_${this.getTodayDateString()}`);
         if (savedDaily) {
           try {
             const data = JSON.parse(savedDaily);
+            if (!data || !Array.isArray(data.guesses) || !data.guesses.length || data.guesses.length>6 || typeof data.isWin!=='boolean' || !data.guesses.every(g=>g && Number.isFinite(g.amount) && g.amount>0 && ['fb-win','fb-warm','fb-cold'].includes(g.feedbackClass) && typeof g.text==='string')) throw new Error('Invalid daily save');
             this.guesses = data.guesses;
             this.isGameOver = true;
             this.priceInput.disabled = true;
@@ -269,15 +285,16 @@
       this.renderProductCard();
       this.renderHistory();
       this.updateAttemptBadge();
-      this.priceInput.focus();
+      document.getElementById('guessFeedback').hidden=true;
     }
 
     renderProductCard() {
       if (!this.currentItem) return;
       this.productImage.src = this.currentItem.image || '';
-      this.productImage.alt = this.currentItem.name;
+      this.productImage.alt = 'Category illustration for ' + this.currentItem.name;
       this.productImage.onerror = () => {
-        this.productImage.src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"><rect width="200" height="200" rx="20" fill="%23f1f4fd"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="60" fill="%2394a3b8">📦</text></svg>';
+        this.productImage.onerror = null;
+        this.productImage.src = '/assets/illustrations/pantry.svg';
       };
       this.nameEl.textContent = this.currentItem.name;
     }
@@ -319,12 +336,16 @@
     submitGuess() {
       if (this.isGameOver) return;
       const val = parseFloat(this.priceInput.value);
-      if (isNaN(val) || val <= 0) {
-        alert('Please enter a valid price guess in dollars (e.g. 14.99)');
+      if (!Number.isFinite(val) || val <= 0) {
+        const feedback=document.getElementById('guessFeedback');
+        feedback.hidden=false;feedback.textContent='Enter a positive dollar amount, for example 14.99.';
+        this.priceInput.setAttribute('aria-invalid','true');
         this.priceInput.focus();
         return;
       }
 
+      document.getElementById('guessFeedback').hidden=true;
+      this.priceInput.removeAttribute('aria-invalid');
       const target = this.currentItem.price;
       const diffPercent = Math.abs(val - target) / target;
       const isWin = diffPercent <= 0.05; // Win if within 5%
@@ -397,7 +418,7 @@
           guesses: this.guesses,
           itemId: this.currentItem.id
         };
-        localStorage.setItem(`costcodle_daily_${this.getTodayDateString()}`, JSON.stringify(dailyRecord));
+        gameStorage.setItem(`costcodle_daily_${this.getTodayDateString()}`, JSON.stringify(dailyRecord));
       }
 
       setTimeout(() => this.showResultModal(isWin), 450);
@@ -408,7 +429,8 @@
       this.modalTitle.style.color = isWin ? 'var(--leaf)' : 'var(--tomato)';
       this.modalDesc.textContent = isWin
         ? `Nailed it in ${this.guesses.length} of ${this.MAX_GUESSES} attempts!`
-        : `Better luck next time! Here was the warehouse price:`;
+        : `Better luck next time! Here was the puzzle reference price:`;
+      this.modalDesc.textContent = this.modalDesc.textContent.replace('warehouse price','puzzle reference price');
       this.modalActualPrice.textContent = `$${this.currentItem.price.toFixed(2)}`;
 
       this.btnNextItem.textContent = this.mode === 'unlimited' ? 'Play Next Item ➔' : 'Play Unlimited Mode ➔';
@@ -442,7 +464,7 @@
           setTimeout(() => {
             this.btnShare.textContent = original;
           }, 2000);
-        });
+        }).catch(()=>{this.btnShare.textContent='Clipboard unavailable in this browser';});
       } else {
         alert(text);
       }

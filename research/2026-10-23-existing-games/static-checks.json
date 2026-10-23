@@ -1,0 +1,536 @@
+{
+  "checks": [
+    {
+      "game": "block-blast-unblocked",
+      "check": "Vercel previews are noindex",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "Preview robots disallows and has no sitemap",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "source: exactly one static H1",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "source: unique element IDs",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "source: title and description present",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "source: canonical and social URL match",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "source: no zoom lock or keyword dump",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "source: structured data parses and no fake ratings",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "source: structured FAQ matches visible copy",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "source: real 1200x630 social PNG",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "source: crawlable guide and JavaScript notice",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "source: static asset references exist",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "source: CSS assets local and present",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "export: exactly one static H1",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "export: unique element IDs",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "export: title and description present",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "export: canonical and social URL match",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "export: no zoom lock or keyword dump",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "export: structured data parses and no fake ratings",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "export: structured FAQ matches visible copy",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "export: real 1200x630 social PNG",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "export: crawlable guide and JavaScript notice",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "export: static asset references exist",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "export: CSS assets local and present",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "Production robots/sitemap match origin",
+      "pass": true
+    },
+    {
+      "game": "block-blast-unblocked",
+      "check": "Runtime export excludes development sources",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "Vercel previews are noindex",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "Preview robots disallows and has no sitemap",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "source: exactly one static H1",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "source: unique element IDs",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "source: title and description present",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "source: canonical and social URL match",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "source: no zoom lock or keyword dump",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "source: structured data parses and no fake ratings",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "source: structured FAQ matches visible copy",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "source: real 1200x630 social PNG",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "source: crawlable guide and JavaScript notice",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "source: static asset references exist",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "source: CSS assets local and present",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "export: exactly one static H1",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "export: unique element IDs",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "export: title and description present",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "export: canonical and social URL match",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "export: no zoom lock or keyword dump",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "export: structured data parses and no fake ratings",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "export: structured FAQ matches visible copy",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "export: real 1200x630 social PNG",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "export: crawlable guide and JavaScript notice",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "export: static asset references exist",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "export: CSS assets local and present",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "Production robots/sitemap match origin",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "Runtime export excludes development sources",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "All 152 catalog images are local and exist",
+      "pass": true
+    },
+    {
+      "game": "costcodle",
+      "check": "Daily calendar uses UTC",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "Vercel previews are noindex",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "Preview robots disallows and has no sitemap",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "source: exactly one static H1",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "source: unique element IDs",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "source: title and description present",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "source: canonical and social URL match",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "source: no zoom lock or keyword dump",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "source: structured data parses and no fake ratings",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "source: structured FAQ matches visible copy",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "source: real 1200x630 social PNG",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "source: crawlable guide and JavaScript notice",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "source: static asset references exist",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "source: CSS assets local and present",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "export: exactly one static H1",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "export: unique element IDs",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "export: title and description present",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "export: canonical and social URL match",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "export: no zoom lock or keyword dump",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "export: structured data parses and no fake ratings",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "export: structured FAQ matches visible copy",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "export: real 1200x630 social PNG",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "export: crawlable guide and JavaScript notice",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "export: static asset references exist",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "export: CSS assets local and present",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "Production robots/sitemap match origin",
+      "pass": true
+    },
+    {
+      "game": "gulperio",
+      "check": "Runtime export excludes development sources",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "Vercel previews are noindex",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "Preview robots disallows and has no sitemap",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "source: exactly one static H1",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "source: unique element IDs",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "source: title and description present",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "source: canonical and social URL match",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "source: no zoom lock or keyword dump",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "source: structured data parses and no fake ratings",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "source: structured FAQ matches visible copy",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "source: real 1200x630 social PNG",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "source: crawlable guide and JavaScript notice",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "source: static asset references exist",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "source: CSS assets local and present",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "export: exactly one static H1",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "export: unique element IDs",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "export: title and description present",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "export: canonical and social URL match",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "export: no zoom lock or keyword dump",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "export: structured data parses and no fake ratings",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "export: structured FAQ matches visible copy",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "export: real 1200x630 social PNG",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "export: crawlable guide and JavaScript notice",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "export: static asset references exist",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "export: CSS assets local and present",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "Production robots/sitemap match origin",
+      "pass": true
+    },
+    {
+      "game": "summit-unlimited",
+      "check": "Runtime export excludes development sources",
+      "pass": true
+    }
+  ],
+  "passed": 106,
+  "total": 106
+}

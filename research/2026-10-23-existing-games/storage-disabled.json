@@ -1,0 +1,54 @@
+{
+  "block-blast-unblocked": {
+    "boot": {
+      "origin": "http://127.0.0.1:4191/",
+      "result": true
+    },
+    "errors": {
+      "errors": []
+    },
+    "storageBlocked": {
+      "origin": "http://127.0.0.1:4191/",
+      "result": true
+    }
+  },
+  "costcodle": {
+    "boot": {
+      "origin": "http://127.0.0.1:4192/",
+      "result": true
+    },
+    "errors": {
+      "errors": []
+    },
+    "storageBlocked": {
+      "origin": "http://127.0.0.1:4192/",
+      "result": true
+    }
+  },
+  "gulperio": {
+    "boot": {
+      "origin": "http://127.0.0.1:4193/",
+      "result": true
+    },
+    "errors": {
+      "errors": []
+    },
+    "storageBlocked": {
+      "origin": "http://127.0.0.1:4193/",
+      "result": true
+    }
+  },
+  "summit-unlimited": {
+    "boot": {
+      "origin": "http://127.0.0.1:4194/",
+      "result": true
+    },
+    "errors": {
+      "errors": []
+    },
+    "storageBlocked": {
+      "origin": "http://127.0.0.1:4194/",
+      "result": true
+    }
+  }
+}

@@ -1,3 +1,5 @@
+@font-face{font-family:"Dela Gothic One";src:url("/assets/fonts/DelaGothicOne-Latin.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Figtree";src:url("/assets/fonts/Figtree-Latin.woff2") format("woff2");font-weight:400 900;font-display:swap}
 /* -------------------------------------------------------------
    Costcodle - Zadely Neo-Brutalist Sticker Style Sheet
    ------------------------------------------------------------- */
@@ -957,3 +959,27 @@ dialog.game-dialog::backdrop {
   background: var(--tomato);
   color: #ffffff;
 }
+
+/* 2026-10-23 usability and visual pass */
+:root{--sheet:#f7f5ee;--sheet-line:#ece9df}
+body{background-size:36px 36px;line-height:1.6}
+button,input,summary,a{touch-action:manipulation}
+button:focus-visible,[role="button"]:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible{outline:3px solid #286baf;outline-offset:4px}
+.btn-icon{min-width:44px;min-height:44px}.site-tagline{line-height:1.55;font-weight:600}
+.guide-block{border-width:2px}.guide-para,.guide-list{font-size:15px;line-height:1.8}
+.content-section{user-select:text}.content-section a,.site-footer a{color:#245790;text-underline-offset:4px}
+.faq-item summary{min-height:48px;display:flex;align-items:center;padding-right:24px}
+.game-dialog,dialog{max-height:88dvh;overflow:auto}
+.play-help,.product-note{font:500 12px/1.6 var(--body);color:var(--ink-soft);text-align:center;margin:0;max-width:440px}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+.product-image-container{width:220px;height:185px;background:#faf7ef;border:1px solid #e5dece;box-shadow:none;padding:0}
+.product-image{width:100%;height:100%;border-radius:18px}.product-image:hover{transform:none}
+.product-name{line-height:1.5}.product-card{gap:12px}.product-note{font-size:12px}
+.input-row{flex-wrap:wrap}.input-feedback{flex-basis:100%;font-size:13px;color:#a12f31;margin-top:4px}.input-feedback[hidden]{display:none}
+.price-input[aria-invalid="true"]{outline:2px solid #a12f31;outline-offset:2px}
+.history-row.empty{opacity:.65;min-height:46px}.currency-symbol{display:block!important}.guess-input-section{scroll-margin-top:12px}
+@media(max-width:600px){.game-header{display:grid;grid-template-columns:1fr;gap:10px}.brand-group{align-items:center;text-align:center}.site-title{flex-direction:row;flex-wrap:nowrap;justify-content:center;gap:5px}.sticker-tag{font-size:clamp(12px,3.3vw,16px);padding:4px 8px;border-width:2px}.controls-group{justify-content:center}.site-tagline{font-size:12px}.product-image-container{width:190px;height:158px}.product-name{font-size:15px}.product-card{padding:16px 14px;gap:10px}.mode-btn{font-size:12px;min-height:44px;padding:9px 10px}.chips-bar{flex-wrap:wrap;gap:8px}.chip-btn{min-height:36px}.history-row{min-height:48px}.history-row.empty{min-height:42px}.page-wrapper{gap:14px}}
+
+/* Keep quick price adjustments comfortable for mouse and touch. */
+.chip-btn{min-height:44px;min-width:44px}

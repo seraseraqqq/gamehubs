@@ -1,0 +1,1 @@
+{"success":true,"data":{"origin":"http://127.0.0.1:4193/","result":"{\"frames\":121,\"states\":{\"forage\":1095,\"wander\":9,\"hunt\":148,\"contest\":109,\"avoid\":285,\"flee\":123,\"return\":139},\"boost\":38,\"huntBot\":259,\"huntPlayer\":0,\"styles\":[\"collector\",\"hunter\",\"rookie\",\"drifter\"],\"start\":356,\"elapsed\":12164.199999928474}"},"error":null}

@@ -5,12 +5,18 @@
 
 (() => {
   'use strict';
+  // Storage can be unavailable in private/restricted browsers; gameplay remains usable.
+  const gameStorage = {
+    getItem(key) { try { return window.localStorage.getItem(key); } catch { return null; } },
+    setItem(key, value) { try { window.localStorage.setItem(key, value); } catch {} }
+  };
+
 
   // --- Sound Synthesizer (Web Audio API) ---
   class SoundManager {
     constructor() {
       this.ctx = null;
-      this.muted = localStorage.getItem('bbu_sound_muted') === 'true';
+      this.muted = gameStorage.getItem('bbu_sound_muted') !== 'false';
     }
 
     init() {
@@ -27,7 +33,7 @@
 
     toggleMute() {
       this.muted = !this.muted;
-      localStorage.setItem('bbu_sound_muted', this.muted);
+      gameStorage.setItem('bbu_sound_muted', this.muted);
       return this.muted;
     }
 
@@ -193,7 +199,7 @@
       this.GRID_SIZE = 8;
       this.board = Array(8).fill(null).map(() => Array(8).fill(0));
       this.score = 0;
-      this.bestScore = parseInt(localStorage.getItem('bbu_best_score') || '0', 10);
+      this.bestScore = Math.max(0, Number.parseInt(gameStorage.getItem('bbu_best_score'), 10) || 0);
       this.comboCount = 0;
       this.sound = new SoundManager();
 
@@ -236,6 +242,8 @@
           cell.className = 'cell';
           cell.dataset.row = r;
           cell.dataset.col = c;
+          cell.setAttribute('role', 'button');
+          cell.tabIndex = r === 0 && c === 0 ? 0 : -1;
           this.boardEl.appendChild(cell);
         }
       }
@@ -285,10 +293,41 @@
 
       // Tap-to-place on board click
       this.boardEl.addEventListener('click', (e) => this.onBoardClick(e));
+      this.boardEl.addEventListener('keydown', (event) => {
+        const cell = event.target.closest('.cell');
+        if (!cell || this.gameOverModal.open) return;
+        const r = Number(cell.dataset.row), c = Number(cell.dataset.col);
+        const moves = {ArrowLeft:[0,-1], ArrowRight:[0,1], ArrowUp:[-1,0], ArrowDown:[1,0]};
+        if (moves[event.key]) {
+          event.preventDefault();
+          const [dr,dc] = moves[event.key];
+          this.focusBoardCell(Math.max(0,Math.min(7,r+dr)), Math.max(0,Math.min(7,c+dc)));
+        } else if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault(); this.onBoardClick({target:cell});
+        } else if (event.key === 'Escape') {
+          this.selectedPieceIndex = null; this.clearPreviews(); this.renderTray();
+          this.announce('Selection cleared. Choose another tray piece.');
+        }
+      });
+    }
+
+    announce(message) {
+      const status = document.getElementById('boardStatus');
+      if (status) status.textContent = message;
+    }
+
+    focusBoardCell(row, col) {
+      const next = this.boardEl.children[row * 8 + col];
+      for (const cell of this.boardEl.children) cell.tabIndex = cell === next ? 0 : -1;
+      next.focus({preventScroll:true});
+      this.clearPreviews();
+      const piece = this.trayPieces[this.selectedPieceIndex];
+      if (piece && !piece.used) this.highlightPreview(piece.matrix,row,col,this.canFitAt(piece.matrix,row,col));
     }
 
     updateMuteIcon() {
       const isMuted = this.sound.muted;
+      this.muteBtn.setAttribute('aria-pressed', String(!isMuted));
       this.muteBtn.setAttribute('aria-label', isMuted ? 'Unmute Sound' : 'Mute Sound');
       this.muteBtn.innerHTML = isMuted
         ? `<svg viewBox="0 0 24 24"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>`
@@ -309,7 +348,7 @@
       this.scoreEl.textContent = this.score;
       if (this.score > this.bestScore) {
         this.bestScore = this.score;
-        localStorage.setItem('bbu_best_score', this.bestScore);
+        gameStorage.setItem('bbu_best_score', this.bestScore);
       }
       this.bestScoreEl.textContent = this.bestScore;
     }
@@ -321,6 +360,7 @@
           const cellEl = this.boardEl.children[idx];
           cellEl.className = 'cell';
           const val = this.board[r][c];
+          cellEl.setAttribute('aria-label', `Row ${r + 1}, column ${c + 1}, ${val ? 'occupied' : 'empty'}`);
           if (val !== 0) {
             cellEl.classList.add('filled', val);
           }
@@ -402,6 +442,15 @@
 
           // Drag & Click initiation
           pieceEl.addEventListener('pointerdown', (e) => this.onPiecePointerDown(e, index));
+          pieceEl.setAttribute('role','button'); pieceEl.tabIndex = 0;
+          pieceEl.setAttribute('aria-label', `Select piece ${index+1}: ${rows} rows by ${cols} columns`);
+          pieceEl.setAttribute('aria-pressed',String(this.selectedPieceIndex===index));
+          pieceEl.addEventListener('keydown', event => {
+            if (event.key !== 'Enter' && event.key !== ' ') return;
+            event.preventDefault();
+            this.selectedPieceIndex=index; this.renderTray(); this.focusBoardCell(0,0);
+            this.announce(`Piece ${index+1} selected. Use arrows to choose the top-left cell and Enter to place.`);
+          });
 
           slot.appendChild(pieceEl);
         }
@@ -570,19 +619,23 @@
     }
 
     onBoardClick(e) {
-      if (this.selectedPieceIndex === null) return;
+      if (this.selectedPieceIndex === null) { this.announce('Select a tray piece first.'); return; }
       const cellEl = e.target.closest('.cell');
       if (!cellEl) return;
 
       const r = parseInt(cellEl.dataset.row, 10);
       const c = parseInt(cellEl.dataset.col, 10);
       const piece = this.trayPieces[this.selectedPieceIndex];
+      if (!piece || piece.used) return;
 
       if (this.canFitAt(piece.matrix, r, c)) {
         this.placePiece(piece, this.selectedPieceIndex, r, c);
+        this.announce(`Piece placed. Score ${this.score}. Choose your next shape.`);
         this.selectedPieceIndex = null;
         this.clearPreviews();
         this.renderTray();
+      } else {
+        this.announce('That shape does not fit here. Move to another cell or choose another piece.');
       }
     }
 

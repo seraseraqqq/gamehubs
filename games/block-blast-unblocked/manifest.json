@@ -4,8 +4,8 @@
   "description": "Play Block Blast Unblocked online for free in your browser. Addictive 8x8 block puzzle game with no downloads.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#e6ecff",
-  "theme_color": "#e6ecff",
+  "background_color": "#f7f5ee",
+  "theme_color": "#f7f5ee",
   "icons": [
     {
       "src": "/assets/icon-192.svg",

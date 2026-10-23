@@ -1,3 +1,7 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "framework": null,
+  "buildCommand": "python3 scripts/build_site.py --site-url https://krilliononline.com",
+  "installCommand": "",
+  "outputDirectory": "dist"
 }

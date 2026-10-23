@@ -22,10 +22,20 @@
       "url": "https://playblockblastunblocked.com",
       "repo": "https://github.com/seraseraqqq/gamehubs",
       "status": "deployed",
-      "targetIntent": "Instant play 8x8 block puzzle game with no downloads or network barriers",
+      "targetIntent": "Instant-play independent 8x8 block puzzle, with pointer/touch/keyboard controls and browser-local best; network access is not guaranteed.",
       "techStack": "HTML5 / CSS3 / Vanilla JS / Web Audio API / Zadely Sticker Theme",
       "createdAt": "2026-10-22",
-      "updatedAt": "2026-10-22"
+      "updatedAt": "2026-10-23",
+      "workspaceReview": {
+        "date": "2026-10-23",
+        "state": "validated-for-github-release",
+        "record": "research/2026-10-23-existing-games/report.html",
+        "productionChanged": null,
+        "keywordMetrics": "Historical volume/KD retained; not revalidated in this workspace SEO/UI review.",
+        "releaseRecord": "deployments/2026-10-23-existing-games.md",
+        "releaseBranch": "main",
+        "productionVerification": "not-performed"
+      }
     },
     {
       "siteId": "costcodle",
@@ -45,10 +55,20 @@
       "url": "https://costcodle-unlimited.vercel.app",
       "repo": "https://github.com/seraseraqqq/gamehubs",
       "status": "deployed",
-      "targetIntent": "Daily and unlimited Costco price-guessing Wordle variant with 5% winning tolerance",
+      "targetIntent": "Independent daily UTC and unlimited reference-price puzzle with a 5% winning window; 152 fixed catalog entries and local category art, not live prices.",
       "techStack": "HTML5 / CSS3 / Vanilla JS / Web Audio API / Zadely Sticker Theme",
       "createdAt": "2026-10-22",
-      "updatedAt": "2026-10-22"
+      "updatedAt": "2026-10-23",
+      "workspaceReview": {
+        "date": "2026-10-23",
+        "state": "validated-for-github-release",
+        "record": "research/2026-10-23-existing-games/report.html",
+        "productionChanged": null,
+        "keywordMetrics": "Historical volume/KD retained; not revalidated in this workspace SEO/UI review.",
+        "releaseRecord": "deployments/2026-10-23-existing-games.md",
+        "releaseBranch": "main",
+        "productionVerification": "not-performed"
+      }
     },
     {
       "siteId": "gulper-io",
@@ -66,13 +86,32 @@
       ],
       "path": "games/gulperio",
       "domain": "https://gulperio.com",
-      "url": "https://gulperio.vercel.app",
+      "url": "https://gulperio.com/",
       "repo": "https://github.com/seraseraqqq/gamehubs",
-      "status": "built-qa-passed",
-      "targetIntent": "Instant neon cyber slither snake game with autonomous AI bots, zero lag, and school unblocked access",
-      "techStack": "HTML5 Canvas 2D / Vanilla JS / Web Audio API / Zadely Neo-Brutalist Theme",
+      "status": "deployed",
+      "targetIntent": "Independent single-player neon snake practice against computer-controlled rivals, with local arena rankings and personal best.",
+      "techStack": "HTML5 Canvas 2D / Vanilla JS / Web Audio API / local fonts and original neon vector art",
       "createdAt": "2026-10-22",
-      "updatedAt": "2026-10-22"
+      "updatedAt": "2026-10-23",
+      "workspaceReview": {
+        "date": "2026-10-23",
+        "state": "validated-for-github-release",
+        "record": "research/2026-10-23-existing-games/report.html",
+        "productionChanged": null,
+        "keywordMetrics": "Historical volume/KD retained; not revalidated in this workspace SEO/UI review.",
+        "releaseRecord": "deployments/2026-10-23-existing-games.md",
+        "releaseBranch": "main",
+        "productionVerification": "not-performed"
+      },
+      "productDecision": {
+        "date": "2026-10-23",
+        "mode": "single-player-computer-rivals",
+        "multiplayerPlanned": false,
+        "opponentDirection": "Human-like local rivals: distinct play styles, bounded perception, reactions and mistakes, bot-vs-bot competition, persistent identities on respawn.",
+        "implementation": "games/gulperio/bot-brain.js",
+        "record": "research/2026-10-23-existing-games/gulper-personality.md",
+        "productionChanged": null
+      }
     },
     {
       "siteId": "krillion-unlimited",
@@ -94,10 +133,20 @@
       "url": "https://krilliononline.com",
       "repo": "https://github.com/seraseraqqq/gamehubs",
       "status": "deployed",
-      "targetIntent": "Play unlimited 7-dive rounds of the viral reverse rarity trivia game Krillion without daily lock",
-      "techStack": "HTML5 / CSS3 / Vanilla JS / Web Audio API / Deep-Sea Research Submersible Theme",
+      "targetIntent": "Play STARLING, an independent fixed seven-prompt space word game with authored rarity scores; not the official Krillion game.",
+      "techStack": "Static HTML/CSS / JavaScript / local Canvas pixel art and font / localStorage / optional synthesized audio",
       "createdAt": "2026-10-23",
-      "updatedAt": "2026-10-23"
+      "updatedAt": "2026-10-23",
+      "workspaceReview": {
+        "date": "2026-10-23",
+        "state": "validated-for-github-release",
+        "record": "research/2026-10-23-existing-games/report.html",
+        "productionChanged": null,
+        "keywordMetrics": "Historical volume/KD retained; not revalidated in this workspace SEO/UI review.",
+        "releaseRecord": "deployments/2026-10-23-existing-games.md",
+        "releaseBranch": "main",
+        "productionVerification": "not-performed"
+      }
     },
     {
       "siteId": "spacebar-counter",

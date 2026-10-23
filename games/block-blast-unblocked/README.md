@@ -1,46 +1,38 @@
 # Block Blast Unblocked
 
-A high-performance, responsive, zero-dependency implementation of the classic 8x8 block puzzle game optimized for organic search discovery under the primary keyword **"block blast unblocked"** and styled after the flat sticker aesthetic of **zadely.com**.
+An independent 8×8 browser block puzzle. Drag, tap, or use the keyboard to place the three tray shapes, clear complete rows/columns and chase a browser-local best. This is not an official Block Blast product; network access depends on the user’s network.
 
-## Comprehensive Keyword Matrix & SEO Strategy
+## Local preview
 
-### 1. Primary Target Query
-* `block blast unblocked` (Volume: 22,200/mo, KD: 7)
+No runtime dependencies. From this game directory:
 
-### 2. High-Intent Derivatives & Long-Tail Extensions (衍生词 / 拓展词)
-* `block blast unblocked 76` & `block blast unblocked 66` (Proxy portal replacement intent)
-* `block blast online free`
-* `block blast no download`
-* `block blast chromebook` / `school chromebook block blast`
-* `play block blast in browser`
-* `8x8 block puzzle unblocked` / `8x8 block puzzle online`
+```sh
+python3 -m http.server 4191
+```
 
-### 3. Semantic Variants & Synonyms (变义词 / 同义词)
-* `blockblast unblocked` (Merged word spelling)
-* `block blast game`
-* `block puzzle blast`
-* `wood block blast online`
-* `classic block puzzle unblocked`
+Open http://127.0.0.1:4191/. The repository review server uses this port during the current session.
 
-### 4. Common Misspellings & Typos (拼错词)
-* `bloc blast unblocked` (Dropped 'k')
-* `block blast unblock` (Dropped 'ed')
-* `blockblast`
+## Gameplay
 
-## Technical & On-Page SEO Architecture
+- Keyboard: focus a tray piece, press Enter/Space, move with arrows, Enter/Space to place, Escape to clear selection.
+- Pointer: drag a shape onto the board, or select it and tap a board cell.
+- Restart clears the current board. Sound is optional and initially off. Best score and sound preference persist when browser storage is available.
 
-* **Dual Schema.org Graph**:
-  * `VideoGame`: includes complete `alternateName` array, platform tags (`Chromebook`, `Web Browser`, `Mobile Browser`), and keyword descriptors.
-  * `FAQPage`: 5 structured Q&A rich snippets enabling expandable accordions directly on Google SERPs.
-* **Semantic Tag Cloud**: Zadely-styled sticker pills (`tag-pill`) providing natural contextual anchor points without keyword stuffing.
-* **Natural FAQ Accordion**: Answers real player intent (unblocked network behavior, zero downloads, game mechanics, and spelling variations).
-* **Meta Tags**: Optimized `<title>`, `<meta description>`, and `<meta keywords>` hitting high-click SERP triggers.
+## Assets and SEO
 
-## Visual Design & Polish
+Fonts are hosted locally with their OFL license files; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Native HTML/CSS/vector artwork supplies the page and social card. Social-card source is in `design/social-card.html`; the published PNG is 1200 × 630. No remote font or product-image request is needed to play.
 
-* Fully modeled after **zadely.com**:
-  * **Display Font**: `Dela Gothic One`
-  * **Body Font**: `Figtree`
-  * **Background**: Grid notebook texture (`linear-gradient` paper texture with `#d3dcfb` lines on `#e6ecff`)
-  * **Neo-Brutalist Pop Stickers**: Hard `3px solid #1b1f3b` ink outlines, hard offset drop shadows (`0 3px 0 #1b1f3b`, `0 6px 0 #1b1f3b`)
-  * **Tactile Buttons & Combos**: Q-bounce hover and depress physics.
+The HTML contains one H1, readable instructions, matching visible FAQ/JSON-LD, a canonical URL, and Open Graph/Twitter metadata. FAQ schema is descriptive and does not guarantee a Google rich result. No ratings or ranking promises are supplied. Existing Vercel analytics/performance script hooks are retained for hosted pages and skipped on localhost; page privacy text discloses them.
+
+## Static export
+
+```sh
+node scripts/build.mjs                         # noindex local export
+node scripts/build.mjs --origin https://playblockblastunblocked.com        # production export
+```
+
+`vercel.json` builds `dist/`. The allowlist publishes runtime files, asset/license notices, robots and sitemap; it excludes scripts, design sources, raw datasets, research, README and test evidence. Non-production Vercel environments are noindex even if the origin argument is present. An export does not deploy anything.
+
+## Workspace review — 2026-10-23
+
+SEO accuracy, original/local assets, mobile spacing, control accessibility and storage failure handling were reviewed locally. See [review evidence](../../research/2026-10-23-existing-games/report.html). The reviewed changes are included in the owner-authorized GitHub release batch; see [release status](../../deployments/2026-10-23-existing-games.md) for production verification. Previous keyword numbers in project history were not revalidated in this task and are not a current forecast. No OpenSEO or paid keyword calls were used.

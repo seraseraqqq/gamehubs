@@ -1,0 +1,112 @@
+[
+  {
+    "check": "Block: keyboard selects a piece and focuses board",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Block: keyboard placement scores and fills cells",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Block: restart clears board",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Block: pointer selection and placement still score",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Block: best score survives reload",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Costcodle: page does not autofocus input",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Costcodle: empty amount gets inline error",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Costcodle: exact daily reference wins",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Costcodle: daily completion restores",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Costcodle: switches to unlimited and resets attempts",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Costcodle: unlimited next item playable",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Costcodle: malformed saved records recover",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Gulper: nickname accepts spaces",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Gulper: skin choices named and selected",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Gulper: starts solo arena with bots",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Gulper: real game loop moves player",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Gulper: focus loss releases boost",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Gulper: dismissed result can restart from header",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "Gulper: quick restart cancels old result timer",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "STARLING: invalid answer stays on same prompt",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "STARLING: seven accepted answers reach horizon",
+    "pass": true,
+    "value": true
+  },
+  {
+    "check": "STARLING: passing advances prompt without flight",
+    "pass": true,
+    "value": true
+  }
+]

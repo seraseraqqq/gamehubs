@@ -58,7 +58,7 @@ python3 scripts/build_site.py --site-url https://krilliononline.com
 python3 scripts/check_seo.py dist
 ```
 
-Publish the contents of `dist/` as the website root. The build generates canonical/social URLs, `robots.txt` and `sitemap.xml`, and copies only runtime assets. It omits development research, source atlases, screenshots and unused artwork. Source HTML intentionally has no canonical until a real domain is configured. No production deployment or Search Console submission has been performed.
+Publish the contents of `dist/` as the website root. The build generates canonical/social URLs, `robots.txt` and `sitemap.xml`, and copies only runtime assets. It omits development research, source atlases, screenshots and unused artwork. The source already declares the confirmed production origin. The public site at that origin returned HTTP 200 during the 2026-10-23 workspace review. This review’s edits are included in the authorized GitHub release batch; production verification is tracked separately. Search Console indexing has not been verified. Vercel preview builds emit noindex and disallow crawling.
 
 To validate the working source or regenerate the sharing image:
 
@@ -78,3 +78,8 @@ New accepted answers and wording variants belong in the relevant prompt in `answ
 ## Timeout and missed-round behavior
 
 Timeout/pass record a missed round, show NO BOOST, and switch to the next prompt without invoking the flight animation. Progress pips distinguish missed rounds from correct answers. After a miss, the next accepted answer advances from the current sector rather than jumping to the question number. All seven correct answers are required to reach the cosmic horizon; partial and zero-answer runs have accurate result text.
+
+
+## Workspace review — 2026-10-23
+
+The HUD brand is now the single H1 with stronger light-on-sky contrast. The original pixel scene and word-game mechanics remain. Added a readable privacy/local-storage section, wired the runtime-only exporter into Vercel configuration, and corrected project inventory that still described an ocean trivia game. See [review evidence](../../research/2026-10-23-existing-games/report.html). See [release status](../../deployments/2026-10-23-existing-games.md) for this batch’s GitHub and production verification.

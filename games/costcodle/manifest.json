@@ -1,11 +1,11 @@
 {
   "name": "Costcodle Unlimited - Guess the Price Game",
   "short_name": "Costcodle",
-  "description": "Play Costcodle Unlimited online for free! Guess the actual price of famous Costco products in 6 tries with daily and unlimited practice modes.",
+  "description": "An independent six-guess reference-price puzzle with UTC daily and unlimited practice modes.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#e6ecff",
-  "theme_color": "#e6ecff",
+  "background_color": "#f7f5ee",
+  "theme_color": "#f7f5ee",
   "icons": [
     {
       "src": "/assets/icon-192.svg",

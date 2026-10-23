@@ -1,3 +1,4 @@
+const audioStorage={getItem(key){try{return window.localStorage.getItem(key);}catch{return null;}},setItem(key,value){try{window.localStorage.setItem(key,value);}catch{}}};
 /**
  * Gulper.io - Web Audio API Procedural Sound Engine
  * Zero external audio files, ultra-low latency, pure synthesized SFX.
@@ -5,7 +6,7 @@
 class SoundEngine {
   constructor() {
     this.ctx = null;
-    this.isMuted = localStorage.getItem('gulper_muted') === 'true';
+    this.isMuted = audioStorage.getItem('gulper_muted') !== 'false';
     this.boostOsc = null;
     this.boostGain = null;
     this.isBoosting = false;
@@ -25,7 +26,7 @@ class SoundEngine {
 
   toggleMute() {
     this.isMuted = !this.isMuted;
-    localStorage.setItem('gulper_muted', this.isMuted);
+    audioStorage.setItem('gulper_muted', this.isMuted);
     if (this.isMuted && this.boostGain) {
       this.stopBoost();
     }

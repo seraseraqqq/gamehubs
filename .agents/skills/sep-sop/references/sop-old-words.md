@@ -1,8 +1,10 @@
 # Track A: Established Query and Competitor Research
 
-Use this process for queries with an established history or for competitor-based discovery. The script can collect metrics and SERP evidence; the model can classify evidence and identify uncertainty. Neither replaces product judgment.
+Use this process for queries with an established history or for competitor-based discovery. Start with Google Trends and current Google SERPs; use DataForSEO volume/KD only for supplementary validation because those estimates can be optimistic. Do not call OpenSEO. The script can collect metrics and SERP evidence; the model can classify evidence and identify uncertainty. Neither replaces product judgment.
 
 ## 1. Discover Candidates
+
+For an explicit user-supplied list, validate those exact terms before expanding. Save target-country Trends series over 12 months; add five years for durability/seasonality and 90 days for recent movement when useful. Exclude incomplete periods from comparisons, retain sampling/normalization caveats, and record collection errors as unknown. Then inspect a fresh Google SERP and representative games. A keyword script's metric filters must not decide which user-supplied terms receive this review.
 
 Seed workflow:
 
@@ -56,6 +58,8 @@ Allowed `verdict`: `立项`, `观察`, `砍掉`.
 Use `工具缺口` only when evidence indicates users want a tool/game and existing results do not provide it; absence of a dedicated result alone is insufficient. For `质量缺口`, cite a specific shortcoming visible in the results or reproducible by testing. If evidence is thin, conflicting, or based only on a metric, choose `观察` and state what must be checked.
 
 KD thresholds may filter a large list for review but must never auto-approve or auto-reject a project. A model may make an initial classification, but a human/business owner makes the final decision when rights, domain purchase, material cost, production deployment, or strategic commitment is involved.
+
+When DataForSEO suggests high demand/low KD but Trends or live results do not support a useful opening, put the candidate on hold and explain the disagreement. Do not manufacture a volume correction factor. Request the user's Ahrefs/Semrush figures for the same market and period when that cross-check would change the build decision; missing access remains missing.
 
 The script accepts the result through:
 

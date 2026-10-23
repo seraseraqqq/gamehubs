@@ -3,6 +3,7 @@
 import argparse
 import html
 import json
+import os
 from pathlib import Path
 import re
 import shutil
@@ -54,6 +55,9 @@ def build(site_url, output):
     webpage['mainEntity'].update({'@id': site_url + '#game', 'url': site_url,
                                  'image': site_url + 'assets/starling-social.png'})
     page = page[:match.start(2)] + json.dumps(schema, ensure_ascii=False, indent=2) + page[match.end(2):]
+    preview = bool(os.environ.get('VERCEL_ENV') and os.environ['VERCEL_ENV'] != 'production')
+    if preview:
+        page = re.sub(r'<meta name="robots"[^>]*>', '<meta name="robots" content="noindex,nofollow">', page)
     (output / 'index.html').write_text(page)
     for filename in ('style.css', 'answer-bank.js', 'scene.js', 'game.js'):
         shutil.copy2(ROOT / filename, output / filename)
@@ -63,12 +67,15 @@ def build(site_url, output):
         target = output / 'assets' / filename
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(ROOT / 'assets' / filename, target)
-    (output / 'robots.txt').write_text('User-agent: *\nAllow: /\n\nSitemap: ' + site_url + 'sitemap.xml\n')
+    (output / 'robots.txt').write_text('User-agent: *\nDisallow: /\n' if preview else
+                                     'User-agent: *\nAllow: /\n\nSitemap: ' + site_url + 'sitemap.xml\n')
     ET.register_namespace('', 'http://www.sitemaps.org/schemas/sitemap/0.9')
     ns = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
     sitemap = ET.Element(ns + 'urlset')
     ET.SubElement(ET.SubElement(sitemap, ns + 'url'), ns + 'loc').text = site_url
     ET.ElementTree(sitemap).write(output / 'sitemap.xml', encoding='utf-8', xml_declaration=True)
+    if preview:
+        (output / 'sitemap.xml').unlink(missing_ok=True)
     print(f'Built {output}\nCanonical: {site_url}\nSitemap: {site_url}sitemap.xml')
 
 

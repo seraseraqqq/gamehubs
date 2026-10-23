@@ -29,7 +29,7 @@ To generate a standalone distribution bundle:
 
 Deploy the contents of dist/ as the site's root. The builder supports a root-hosted site, not a subdirectory installation. Its output marker permits subsequent builds into the same generated directory; it refuses unrelated non-empty output directories and output containing the source tree. Runtime and build commands use only the Python standard library. Recreating the social image optionally requires Pillow.
 
-Do not deploy the temporary verification origin. The example origin https://starling.example was used exclusively in /tmp/starling-seo-verification to verify interpolation. No deployment, domain purchase, Search Console submission, or analytics configuration was performed.
+Do not deploy the temporary verification origin. The example origin https://starling.example was used exclusively in /tmp/starling-seo-verification to verify interpolation. The original SEO pass did not deploy, buy domains, submit Search Console, or configure analytics. A later deployment is already public at the confirmed origin (HTTP 200 in the 2026-10-23 workspace review); the owner authorized pushing this review’s changes to GitHub; production rollout is tracked separately.
 
 Once the real domain is deployed, verify its canonical and HTTP status/redirect behavior, then submit that domain's sitemap in Search Console. Indexing and rankings have not been verified. No Lighthouse, Core Web Vitals, keyword-volume or traffic claims are made.
 
@@ -53,3 +53,8 @@ The estimated fallback was removed. The scoring guide and help dialog now descri
 ## Timeout-progress follow-up — 2026-10-23
 
 The visible flight manual now explains that timeout/pass consume a prompt without moving the rocket. Only correct answers advance a sector; end-of-run text reflects the actual reached location. Evidence and repeatable checks are in output/playwright/TIMEOUT-PROGRESS.md.
+
+
+## Workspace review follow-up — 2026-10-23
+
+The brand in the initial HUD is the single H1; the flight-manual title is H2. Light text/shadow improves brand contrast against the sky. Visible privacy copy describes browser-local scores/settings. Vercel now invokes the existing runtime-only exporter; preview environments are noindex and have disallow robots rules. Source remains associated with the confirmed production origin. Four-width browser checks and the 11-test answer suite are recorded in `../../research/2026-10-23-existing-games/`. New edits belong to the authorized GitHub release batch; see `../../deployments/2026-10-23-existing-games.md`. The Krillion domain versus STARLING product identity remains an SEO positioning issue, not a metadata defect resolved by this pass.

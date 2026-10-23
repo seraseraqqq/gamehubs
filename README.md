@@ -59,3 +59,17 @@ Local Cupcakes preview: http://127.0.0.1:4180/.
 See each game's README and [deployment record](deployments/2026-10-23-games.md)
 for deployment and domain verification status. DNS is managed by the owner at
 Spaceship. Ads, analytics and Search Console are not connected.
+
+
+## Existing-game review — 2026-10-23
+
+Reviewed Block Blast, Costcodle, Gulper.io-inspired solo arena and STARLING (`summit-unlimited`). Changes cover SEO accuracy, social cards, mobile layout, original category illustrations, controls, storage fallback and runtime-only exports. The owner authorized this validated batch to be committed and pushed to `origin/main`; production rollout is recorded separately. The older headline keyword estimates above are historical, not newly verified SEO evidence.
+
+[Inspection report and before/after evidence](research/2026-10-23-existing-games/report.html). Local review previews: Block Blast `4191`, Costcodle `4192`, Gulper `4193`, STARLING `4194`. Preview servers need to be running.
+
+
+## Repository delivery workflow
+
+The owner has authorized completed, validated GameHubs optimization changes to be committed and pushed directly to the existing GitHub repository without asking again. Keep commits scoped, exclude secrets/generated exports, and report the commit and push result. A push may trigger connected Vercel projects; verify deployment separately before claiming the production site changed. Domain purchases and paid services still require their own authorization.
+
+See [existing-game release record](deployments/2026-10-23-existing-games.md).
