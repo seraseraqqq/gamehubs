@@ -43,3 +43,7 @@ Once the real domain is deployed, verify its canonical and HTTP status/redirect 
 - These were focused SEO and gameplay smoke checks, not a fresh full seven-round regression or validation at a production URL.
 
 Screenshots: output/playwright/seo-guide-desktop.png and output/playwright/seo-guide-mobile-nojs.png.
+
+## Answer-validation follow-up — 2026-10-23
+
+The estimated fallback was removed. The scoring guide and help dialog now describe strict per-prompt answer/alias matching, retries on the existing deadline, and the possibility of unlisted valid answers. The publisher now includes answer-bank.js. See output/playwright/ANSWER-VALIDATION.md for regression evidence.

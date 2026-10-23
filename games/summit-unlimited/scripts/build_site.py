@@ -51,7 +51,7 @@ def build(site_url, output):
                                  'image': site_url + 'assets/starling-social.png'})
     page = page[:match.start(2)] + json.dumps(schema, ensure_ascii=False, indent=2) + page[match.end(2):]
     (output / 'index.html').write_text(page)
-    for filename in ('style.css', 'scene.js', 'game.js'):
+    for filename in ('style.css', 'answer-bank.js', 'scene.js', 'game.js'):
         shutil.copy2(ROOT / filename, output / filename)
     public_assets = ['icon.svg', 'starling-social.png', 'fonts/Silkscreen-Regular.ttf', 'fonts/OFL.txt']
     public_assets += [f'pixel/{name}.png' for name in SPRITES]

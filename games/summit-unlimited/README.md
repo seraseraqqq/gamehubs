@@ -15,6 +15,7 @@ Open `http://127.0.0.1:4173/`. All runtime sprites and fonts are local. Sound is
 ## Pixel scene architecture
 
 - `scene.js`: low-resolution Canvas world with independent sprite layers, cloud drift, star twinkle, orbiting objects, rocket movement, animated exhaust and three transition treatments: liftoff, flyby and scale pullback.
+- `answer-bank.js`: per-prompt accepted answers, explicit aliases and strict matching.
 - `game.js`: seven rounds, 25-second deadlines, input locking during travel, local score records, restart and synthesized ambience/effects. Points and narrative distance are separate.
 - `index.html` and `style.css`: crisp HTML text, solid prompt card, bottom answer dock, route ruler, pixel instruments, responsive portrait layout and reduced-motion support.
 - `assets/pixel/`: original generated source atlases and prepared transparent sprites. The old painterly JPEG files are retained from the previous direction but are not loaded by this version.
@@ -36,7 +37,7 @@ Browser coverage includes the full seven-answer route and result, restarting, sk
 
 ## Remaining product scope
 
-Rarity currently uses a curated local table and a simple fallback for novel answers; it is not live player frequency or semantic answer validation. Prompts are fixed. There is no account system, shared daily seed, archive, global leaderboard or multiplayer. The route compresses astronomical distances for a story and is not a simulation.
+Answers must match the current prompt’s curated list or an explicit alias in `answer-bank.js`. Case, whitespace, full-width characters and common apostrophe/hyphen variants are normalized; unknown answers never receive estimated credit. Unknown or wrong-category inputs allow retries without resetting the timer. The lists are not exhaustive, and rarity values are manually assigned rather than live player statistics. Validated records use a new storage key so scores from the old permissive prototype do not remain as the best score. Prompts are fixed. There is no account system, shared daily seed, archive, global leaderboard or multiplayer. The route compresses astronomical distances for a story and is not a simulation.
 
 Audio is a procedural ambient arrangement with chimes and a synthesized engine sweep, rather than a professionally composed soundtrack or recorded sound library. Further polish would benefit from bespoke ship animation, celestial surface animation and layered sound design.
 
@@ -63,3 +64,11 @@ To validate the working source or regenerate the sharing image:
 python3 scripts/check_seo.py
 python3 scripts/create_social_card.py  # optional; requires Pillow
 ```
+
+## Answer validation tests
+
+```sh
+node --test tests/answer-validation.test.cjs
+```
+
+New accepted answers and wording variants belong in the relevant prompt in `answer-bank.js`. Every new alias must resolve to its canonical answer's authored score. Unknown strings never earn fallback points. See `output/playwright/ANSWER-VALIDATION.md` for the full route, timeout, retry and record-migration checks.
