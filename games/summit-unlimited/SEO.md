@@ -47,3 +47,7 @@ Screenshots: output/playwright/seo-guide-desktop.png and output/playwright/seo-g
 ## Answer-validation follow-up — 2026-10-23
 
 The estimated fallback was removed. The scoring guide and help dialog now describe strict per-prompt answer/alias matching, retries on the existing deadline, and the possibility of unlisted valid answers. The publisher now includes answer-bank.js. See output/playwright/ANSWER-VALIDATION.md for regression evidence.
+
+## Timeout-progress follow-up — 2026-10-23
+
+The visible flight manual now explains that timeout/pass consume a prompt without moving the rocket. Only correct answers advance a sector; end-of-run text reflects the actual reached location. Evidence and repeatable checks are in output/playwright/TIMEOUT-PROGRESS.md.

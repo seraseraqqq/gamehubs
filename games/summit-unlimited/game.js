@@ -24,7 +24,7 @@ function setScene(index){
   document.querySelectorAll('#routeList li').forEach((el,i)=>{el.classList.toggle('reached',i<index);el.classList.toggle('current',i===index);if(i===index)el.setAttribute('aria-current','step');else el.removeAttribute('aria-current');});
 }
 function updateScore(){ $('altitude').textContent=state.altitude.toLocaleString(); }
-function updatePips(){document.querySelectorAll('#roundPips i').forEach((el,i)=>{el.classList.toggle('done',i<state.round);el.classList.toggle('current',state.running&&i===state.round);});}
+function updatePips(){document.querySelectorAll('#roundPips i').forEach((el,i)=>{const outcome=state.answers[i];el.classList.toggle('done',outcome?.outcome==='correct');el.classList.toggle('missed',Boolean(outcome&&outcome.outcome!=='correct'));el.classList.toggle('current',state.running&&i===state.round&&!outcome);});}
 async function begin(){
   if(state.running)return;
   state.round=0;state.altitude=0;state.answers=[];state.running=true;state.transitioning=true;
@@ -36,12 +36,12 @@ async function begin(){
   for(let count=3;count>0;count--){$('transitTitle').textContent=`T−0${count}`;tone(320+count*40,.12);await wait(reduced.matches?120:700);}
   $('transit').classList.add('is-hidden');state.transitioning=false;showPrompt();
 }
-function showPrompt(){
+function showPrompt(notice){
   if(state.round>=prompts.length)return finish();
   const p=prompts[state.round];$('playPanel').classList.remove('is-hidden');$('category').textContent=`SIGNAL 0${state.round+1} / ${p.category}`;$('prompt').textContent=p.text;
   $('roundLabel').textContent=`PROMPT ${state.round+1} OF 7`;updatePips();
   $('answer').value='';$('answer').removeAttribute('aria-invalid');$('answer').disabled=false;document.querySelector('.submit-button').disabled=false;$('skipButton').disabled=false;
-  $('feedback').textContent='CHANNEL OPEN. TRUST YOUR INSTINCTS.';$('timer').textContent='25';$('timeBar').style.width='100%';
+  $('feedback').textContent=notice||'CHANNEL OPEN. TRUST YOUR INSTINCTS.';$('timer').textContent='25';$('timeBar').style.width='100%';
   if(matchMedia('(min-width:751px)').matches)$('answer').focus({preventScroll:true});
   state.deadline=performance.now()+25000;clearInterval(state.timer);
   state.timer=setInterval(()=>{const remaining=Math.max(0,state.deadline-performance.now());$('timer').textContent=Math.ceil(remaining/1000);$('timeBar').style.width=`${remaining/250}%`;if(!remaining)resolveAnswer('',true,'timeout');},200);
@@ -60,23 +60,38 @@ async function resolveAnswer(value,skipped=false,reason='pass'){
   state.transitioning=true;clearInterval(state.timer);state.deadline=0;
   $('answer').removeAttribute('aria-invalid');$('answer').disabled=true;document.querySelector('.submit-button').disabled=true;$('skipButton').disabled=true;
   const score=skipped?0:result.score,gain=score*10;
-  state.altitude+=gain;state.answers.push({answer:skipped?'—':result.answer,score});updateScore();
-  $('feedback').textContent=skipped?(reason==='timeout'?'TIME UP / +0 PTS. COASTING TO THE NEXT SECTOR.':'PASSED / +0 PTS. COASTING TO THE NEXT SECTOR.'):`${score>75?'RARE SIGNAL':score>45?'CURIOUS FIND':'SIGNAL RECEIVED'} / +${gain} PTS`;
-  tone(skipped?180:score>75?690:440,.2);
+  state.altitude+=gain;state.answers.push({answer:skipped?'—':result.answer,score,outcome:skipped?reason:'correct'});updateScore();updatePips();
+  if(skipped){
+    // A consumed question is not a successful flight leg. Keep the world in place.
+    const notice=reason==='timeout'?'TIME UP / +0 PTS. NO BOOST.':'PASSED / +0 PTS. NO BOOST.';
+    $('feedback').textContent=notice;
+    if(reason==='timeout'){$('timer').textContent='0';$('timeBar').style.width='0%';}
+    tone(180,.2);
+    await wait(reduced.matches?300:1400);
+    state.round++;state.transitioning=false;showPrompt(notice);
+    return;
+  }
+  $('feedback').textContent=`${score>75?'RARE SIGNAL':score>45?'CURIOUS FIND':'SIGNAL RECEIVED'} / +${gain} PTS`;
+  tone(score>75?690:440,.2);
   await wait(reduced.matches?100:700);
-  const destination=state.round+1;
+  const destination=Math.min(state.stage+1,scenes.length-1);
   $('game').classList.add('is-launching');$('transitCode').textContent=`TRANSIT 0${destination} / 07`;$('transitTitle').textContent=scenes[destination].transit;$('transitNote').textContent=`DESTINATION / ${scenes[destination].name}`;$('transit').classList.remove('is-hidden');
-  if(!skipped)launchWhoosh();
+  launchWhoosh();
   await window.flightScene.travel(destination);setScene(destination);
   $('transit').classList.add('is-hidden');$('game').classList.remove('is-launching');state.round++;state.transitioning=false;showPrompt();
 }
 function finish(){
-  state.running=false;clearInterval(state.timer);state.climbs++;store('starling-climbs',state.climbs);
+  state.running=false;clearInterval(state.timer);state.deadline=0;state.climbs++;store('starling-climbs',state.climbs);
   const newBest=state.altitude>state.peak;if(newBest){state.peak=state.altitude;store('starling-validated-v1-best',state.peak);}
-  $('playPanel').classList.add('is-hidden');$('resultPanel').classList.remove('is-hidden');$('roundLabel').textContent='MISSION COMPLETE';updatePips();
-  $('resultEyebrow').textContent='COSMIC HORIZON / CHANNEL OPEN';$('resultTitle').textContent='BEYOND THE KNOWN.';$('resultText').textContent=newBest?'A new flight record. Your signal crossed the universe.':'Your signal crossed the universe. The next flight awaits.';
-  $('finalAltitude').textContent=`${state.altitude.toLocaleString()} PTS`;$('bestAnswer').textContent=[...state.answers].sort((a,b)=>b.score-a.score)[0]?.answer||'—';
-  $('bestScore').textContent=`${state.peak.toLocaleString()} PTS`;$('runCount').textContent=`FLIGHTS ${state.climbs}`;tone(790,.28);
+  const correct=state.answers.filter(a=>a.outcome==='correct').length;
+  const arrived=state.stage===scenes.length-1,grounded=state.stage===0;
+  $('playPanel').classList.add('is-hidden');$('resultPanel').classList.remove('is-hidden');$('roundLabel').textContent=arrived?'MISSION COMPLETE':'FLIGHT ENDED';updatePips();
+  $('resultEyebrow').textContent=`${scenes[state.stage].name} / ${correct} OF ${prompts.length} CORRECT`;
+  $('resultTitle').textContent=arrived?'BEYOND THE KNOWN.':grounded?'STILL ON THE LAUNCH PAD.':'JOURNEY INCOMPLETE.';
+  const location=grounded?'Your rocket stayed on the launch pad.':arrived?'Your signal reached the cosmic horizon.':`Your flight reached ${scenes[state.stage].name}.`;
+  $('resultText').textContent=`${location} ${correct} of ${prompts.length} answers correct. ${newBest?'A new flight record. ':''}${arrived?'Fly again to beat your score.':'Answer all seven to reach the cosmic horizon.'}`;
+  $('finalAltitude').textContent=`${state.altitude.toLocaleString()} PTS`;$('bestAnswer').textContent=state.answers.filter(a=>a.outcome==='correct').sort((a,b)=>b.score-a.score)[0]?.answer||'—';
+  $('bestScore').textContent=`${state.peak.toLocaleString()} PTS`;$('runCount').textContent=`FLIGHTS ${state.climbs}`;tone(arrived?790:180,.28);
 }
 function audio() { if (!state.audio) state.audio = new (window.AudioContext || window.webkitAudioContext)(); if (state.audio.state === 'suspended') state.audio.resume(); return state.audio; }
 function tone(freq, duration) {

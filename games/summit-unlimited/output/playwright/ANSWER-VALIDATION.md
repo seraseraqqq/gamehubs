@@ -8,7 +8,7 @@ The original `rarity()` function assigned an estimated score to every string mis
 
 The authored lists contain 137 canonical entries across seven prompts. Lists are deliberately finite and can reject reasonable answers that have not been added. They are not semantic AI validation or a copy of the complete Krillion database. Unsupported examples in the old prototype's space-orbit/night-sky tables were removed during curation.
 
-Rejected submissions keep the existing deadline, round, scene and score; feedback and aria-invalid indicate rejection. Typing clears the error indicator. Submit checks the absolute deadline as well as the timer callback, so late answers earn zero. Timeout/pass continue to move the narrative route forward at zero points.
+Rejected submissions keep the existing deadline, round, scene and score; feedback and aria-invalid indicate rejection. Typing clears the error indicator. Submit checks the absolute deadline as well as the timer callback, so late answers earn zero. The initial validation patch still moved the route on timeout/pass. This behavior was corrected by the subsequent timeout fix: missed rounds consume a question at zero points while the rocket and distance stay in place. See TIMEOUT-PROGRESS.md.
 
 Validated best scores use `starling-validated-v1-best`, keeping inflated prototype records out of the current scoreboard. Old stored data is left untouched.
 

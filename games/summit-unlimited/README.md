@@ -16,7 +16,7 @@ Open `http://127.0.0.1:4173/`. All runtime sprites and fonts are local. Sound is
 
 - `scene.js`: low-resolution Canvas world with independent sprite layers, cloud drift, star twinkle, orbiting objects, rocket movement, animated exhaust and three transition treatments: liftoff, flyby and scale pullback.
 - `answer-bank.js`: per-prompt accepted answers, explicit aliases and strict matching.
-- `game.js`: seven rounds, 25-second deadlines, input locking during travel, local score records, restart and synthesized ambience/effects. Points and narrative distance are separate.
+- `game.js`: seven rounds, 25-second deadlines, input locking during travel, local score records, restart and synthesized ambience/effects. Only accepted answers advance a sector. Timeout/pass consume a question at zero points and leave the rocket and distance in place. Results reflect the location actually reached.
 - `index.html` and `style.css`: crisp HTML text, solid prompt card, bottom answer dock, route ruler, pixel instruments, responsive portrait layout and reduced-motion support.
 - `assets/pixel/`: original generated source atlases and prepared transparent sprites. The old painterly JPEG files are retained from the previous direction but are not loaded by this version.
 - `assets/fonts/`: locally hosted Silkscreen Regular and its OFL license.
@@ -68,7 +68,11 @@ python3 scripts/create_social_card.py  # optional; requires Pillow
 ## Answer validation tests
 
 ```sh
-node --test tests/answer-validation.test.cjs
+node --test tests/*.test.cjs
 ```
 
 New accepted answers and wording variants belong in the relevant prompt in `answer-bank.js`. Every new alias must resolve to its canonical answer's authored score. Unknown strings never earn fallback points. See `output/playwright/ANSWER-VALIDATION.md` for the full route, timeout, retry and record-migration checks.
+
+## Timeout and missed-round behavior
+
+Timeout/pass record a missed round, show NO BOOST, and switch to the next prompt without invoking the flight animation. Progress pips distinguish missed rounds from correct answers. After a miss, the next accepted answer advances from the current sector rather than jumping to the question number. All seven correct answers are required to reach the cosmic horizon; partial and zero-answer runs have accurate result text.
