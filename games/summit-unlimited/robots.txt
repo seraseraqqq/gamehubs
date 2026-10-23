@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /research/
+Disallow: /design/
+Disallow: /scripts/
+Disallow: /output/
