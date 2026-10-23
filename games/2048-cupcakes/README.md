@@ -57,7 +57,7 @@ explicitly authorized. The owner subsequently bought 2048cupcakes.xyz and author
 
 License and asset provenance: THIRD_PARTY_NOTICES.md. No source code, assets or
 branding from existing Cupcakes sites was copied. No ads, analytics, embeds,
-external fonts or backend are installed. The production origin is https://2048cupcakes.xyz. Vercel builds from this
+external fonts or backend are installed. The production origin is https://www.2048cupcakes.xyz. Vercel builds from this
 subdirectory using vercel.json and publishes only dist/. Preview deployments
 remain noindex. Search Console, ad approval and real-device performance remain
 separate work. Deployment and DNS verification status is tracked in

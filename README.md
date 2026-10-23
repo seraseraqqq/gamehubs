@@ -48,8 +48,8 @@ as one of these games.
 
 | Game | Vercel root directory | Production origin |
 | --- | --- | --- |
-| 2048 Cupcakes / Crumb | games/2048-cupcakes | https://2048cupcakes.xyz |
-| Spacebar Counter | games/spacebar-counter | https://spacebarcounter.xyz |
+| 2048 Cupcakes / Crumb | games/2048-cupcakes | https://www.2048cupcakes.xyz |
+| Spacebar Counter | games/spacebar-counter | https://www.spacebarcounter.xyz |
 
 Both games are dependency-free static applications. Their vercel.json files
 build a whitelisted dist/ export with domain-specific canonical, robots and

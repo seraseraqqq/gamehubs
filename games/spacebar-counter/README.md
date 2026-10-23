@@ -19,7 +19,7 @@ Up to 12 completed rounds are saved locally; unavailable storage is tolerated.
 ```sh
 node --check game.js
 node scripts/build.mjs
-node scripts/build.mjs --origin https://spacebarcounter.xyz
+node scripts/build.mjs --origin https://www.spacebarcounter.xyz
 ```
 
 The dependency-free exporter publishes only HTML, CSS, JavaScript, the icon,

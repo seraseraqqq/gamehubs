@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "buildCommand": "node scripts/build.mjs --origin https://2048cupcakes.xyz",
+  "buildCommand": "node scripts/build.mjs --origin https://www.2048cupcakes.xyz",
   "installCommand": "",
   "outputDirectory": "dist"
 }
