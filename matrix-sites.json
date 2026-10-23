@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22",
+  "updatedAt": "2026-10-23",
   "sites": [
     {
       "siteId": "block-blast-unblocked",
@@ -98,6 +98,135 @@
       "techStack": "HTML5 / CSS3 / Vanilla JS / Web Audio API / Deep-Sea Research Submersible Theme",
       "createdAt": "2026-10-23",
       "updatedAt": "2026-10-23"
+    },
+    {
+      "siteId": "spacebar-counter",
+      "unitType": "game",
+      "primaryKeyword": "spacebar counter",
+      "secondaryKeywords": [
+        "space bar counter",
+        "spacebar test"
+      ],
+      "path": "games/spacebar-counter",
+      "domain": "https://spacebarcounter.xyz",
+      "url": null,
+      "repo": "https://github.com/seraseraqqq/gamehubs",
+      "status": "deployment-prepared",
+      "releaseState": "authorized-production-pending-deployment",
+      "targetMarket": {
+        "country": "US",
+        "language": "en"
+      },
+      "targetIntent": "Count distinct focused Space presses and compare timed local rounds; tap/button input is separately labeled.",
+      "gameSource": {
+        "type": "original",
+        "thirdPartyAssets": false,
+        "rightsNotes": "Original HTML/CSS/JavaScript/SVG created for this repository. No third-party game package or branding."
+      },
+      "canonical": "https://spacebarcounter.xyz/",
+      "indexingState": "production-build-enabled-unverified",
+      "adApprovalState": "not-requested",
+      "adsEnabled": false,
+      "analyticsState": "not-connected",
+      "searchConsoleState": "not-connected",
+      "keywordEvidence": {
+        "path": "research/2026-10-23-game-keywords/normalized-evidence.json",
+        "asOf": "2026-10-23",
+        "trends": "not-yet-verified",
+        "semrushUserSupplied": {
+          "volume": 5400,
+          "kd": 28,
+          "snapshotDate": null
+        },
+        "ahrefsUserSupplied": {
+          "volumeLowerBoundExclusive": 10000,
+          "kd": 5,
+          "snapshotDate": null
+        },
+        "dataforseoSupplementary": {
+          "volume": 8100,
+          "kd": 11
+        }
+      },
+      "owner": "workspace-owner",
+      "createdAt": "2026-10-23",
+      "updatedAt": "2026-10-23",
+      "deployedAt": null,
+      "buildHours": null,
+      "recurringCostUsd": null,
+      "nextDecision": "Deploy the authorized production build, bind the purchased domain, and supply exact Spaceship DNS records. Owner will apply DNS. Verify HTTPS and final-domain SEO after propagation.",
+      "registrar": "Spaceship",
+      "domainOwnership": "owner-confirmed-purchased-2026-10-23"
+    },
+    {
+      "siteId": "2048-cupcakes",
+      "unitType": "game",
+      "primaryKeyword": "2048 cupcakes",
+      "secondaryKeywords": [
+        "cupcake 2048",
+        "cupcakes 2048",
+        "2048 cupcake game"
+      ],
+      "path": "games/2048-cupcakes",
+      "domain": "https://2048cupcakes.xyz",
+      "url": null,
+      "localPreview": "http://127.0.0.1:4180/",
+      "repo": "https://github.com/seraseraqqq/gamehubs",
+      "status": "deployment-prepared",
+      "releaseState": "authorized-production-pending-deployment",
+      "targetMarket": {
+        "country": "US",
+        "language": "en"
+      },
+      "targetIntent": "Play a cupcake-themed 2048 sliding puzzle with original artwork, keyboard/swipe controls, undo and local continuation.",
+      "techStack": "Static HTML/CSS / original JavaScript ES-module engine / localStorage / optional Web Audio",
+      "gameSource": {
+        "type": "original",
+        "inspiration": "2048 by Gabriele Cirulli",
+        "license": "MIT",
+        "thirdPartyNotices": "games/2048-cupcakes/THIRD_PARTY_NOTICES.md",
+        "assets": "Original built-in imagegen atlas; original SVG icons"
+      },
+      "canonical": "https://2048cupcakes.xyz/",
+      "indexingState": "production-build-enabled-unverified",
+      "adApprovalState": "not-requested",
+      "adsEnabled": false,
+      "analyticsState": "not-connected",
+      "searchConsoleState": "not-connected",
+      "keywordEvidence": {
+        "path": "research/2026-10-23-game-keywords/normalized-evidence.json",
+        "asOf": "2026-10-23",
+        "trends": "not-yet-verified",
+        "semrushUserSupplied": {
+          "volume": 110000,
+          "kd": 28,
+          "snapshotDate": null
+        },
+        "ahrefsUserSupplied": {
+          "volumeLowerBoundExclusive": 10000,
+          "kd": 1,
+          "snapshotDate": null
+        },
+        "dataforseoSupplementary": {
+          "volume": 201000,
+          "kd": 0
+        }
+      },
+      "qa": {
+        "date": "2026-10-23",
+        "engineTests": 7,
+        "browserChecks": 22,
+        "record": "games/2048-cupcakes/QA.md"
+      },
+      "owner": "workspace-owner",
+      "createdAt": "2026-10-23",
+      "updatedAt": "2026-10-23",
+      "deployedAt": null,
+      "buildHours": null,
+      "recurringCostUsd": null,
+      "nextDecision": "Deploy the authorized production build, bind the purchased domain, and supply exact Spaceship DNS records. Owner will apply DNS. Verify HTTPS and final-domain SEO after propagation.",
+      "registrar": "Spaceship",
+      "domainOwnership": "owner-confirmed-purchased-2026-10-23"
     }
   ]
 }

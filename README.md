@@ -9,7 +9,6 @@ All game implementations are organized in secondary directories under `games/`:
 ```
 gamehubs/
 ├── README.md
-├── vercel.json
 ├── matrix-sites.json
 └── games/
     └── block-blast-unblocked/
@@ -21,8 +20,7 @@ gamehubs/
         ├── manifest.json
         ├── robots.txt
         ├── sitemap.xml
-        ├── vercel.json
-        └── README.md
+                └── README.md
 ```
 
 ## Games Directory
@@ -42,5 +40,22 @@ Set the **Root Directory** in Vercel project settings to:
 games/block-blast-unblocked
 ```
 
-### Monorepo Fallback
-The root `vercel.json` includes URL rewrites directing all traffic directly to `games/block-blast-unblocked/`, allowing root deployments to seamlessly serve the game.
+Each game is a separate Vercel project pointing at its own subdirectory. There
+is no shared root deployment configuration; do not deploy the repository root
+as one of these games.
+
+## New independent game sites
+
+| Game | Vercel root directory | Production origin |
+| --- | --- | --- |
+| 2048 Cupcakes / Crumb | games/2048-cupcakes | https://2048cupcakes.xyz |
+| Spacebar Counter | games/spacebar-counter | https://spacebarcounter.xyz |
+
+Both games are dependency-free static applications. Their vercel.json files
+build a whitelisted dist/ export with domain-specific canonical, robots and
+sitemap files. Source/local previews and Vercel preview builds remain noindex.
+Local Cupcakes preview: http://127.0.0.1:4180/.
+
+See each game's README and [deployment record](deployments/2026-10-23-games.md)
+for deployment and domain verification status. DNS is managed by the owner at
+Spaceship. Ads, analytics and Search Console are not connected.
