@@ -39,3 +39,11 @@ Records are browser-local and not competitive/anti-cheat scores. Storage restric
 No separate public brand. Main query: **coreball**. Supporting guide: [coreball-tips.html](coreball-tips.html). Source and preview builds stay noindex. Configure SITE_ORIGIN to an owned domain in production to enable both pages, self-canonicals, absolute share images and the two-URL sitemap. cleanUrls is disabled deliberately so .html guide URLs are served without redirect/canonical disagreement.
 
 Vercel Root Directory: `games/coreball`. Local-storage keys remain unchanged. See [current SEO validation](../../research/2026-10-23-keyword-seo/README.md).
+
+## Cat-playroom redesign — 2026-10-24
+
+The game now uses a centered peach WebGL fur ball, smooth flat overhead cat paws, coordinated ivory toy pins and local hit/miss effects. Every launch alternates a vertical 500ms paw gesture; three clean placements strengthen the particle feedback. The original 30 levels and collision rules are unchanged, as is the local-storage key. Optional sound remains opt-in. Reduced motion disables paw animation and particles; unavailable WebGL leaves the SVG ball visible.
+
+`fur.js` is dependency-free procedural geometry/shading. `paws.js` draws original 2D paw art and emits event-driven effects; it also exports drawPaw for native social-card rendering. No generated cat raster ships.
+
+[Design and browser validation](../../research/2026-10-23-coreball-cats/README.md). Current workspace preview: http://127.0.0.1:4205/coreball/ when the games-directory server is running.

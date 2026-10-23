@@ -7,3 +7,7 @@ Figtree Latin is copied from the already documented Google Fonts subset in this 
 The rotating-pin concept is shared with games such as Coreball, but this is not the original Coreball product.
 
 Brand/domain availability research is not trademark clearance. No domain is purchased or used as a production canonical until the owner confirms it. Preview builds remain noindex.
+
+## Current art — 2026-10-24
+
+The peach sphere is an original WebGL mesh with seeded short fibers; it uses no model or image texture. Smooth overhead paws are original Canvas paths in paws.js, also used by the native social-card renderer. Toy pins and hit effects are original SVG geometry. Generated kitten/paw trials were evaluated and discarded after the owner changed direction; none are referenced or exported by the game. Both shipping PNG cards embed their code-rendered origin metadata.

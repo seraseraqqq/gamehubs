@@ -10,7 +10,7 @@ let origin=args[1]||process.env.SITE_ORIGIN||null;
 if(origin){const u=new URL(origin);if(u.protocol!=='https:'||u.username||u.password||u.port||u.pathname!=='/'||u.search||u.hash||['localhost','127.0.0.1','[::1]'].includes(u.hostname)||u.hostname.endsWith('.local'))throw Error('Use a public bare HTTPS origin');origin=u.origin;}
 if(process.env.VERCEL_ENV&&process.env.VERCEL_ENV!=='production')origin=null;
 await rm(out,{recursive:true,force:true});await mkdir(out,{recursive:true});
-for(const name of ["style.css","favicon.svg","LICENSE","engine.js","game.js"])await cp(path.join(root,name),path.join(out,name));
+for(const name of ["style.css","favicon.svg","LICENSE","engine.js","fur.js","paws.js","game.js"])await cp(path.join(root,name),path.join(out,name));
 await cp(path.join(root,'assets'),path.join(out,'assets'),{recursive:true});
 const pages=['index.html','coreball-tips.html'];
 for(const name of pages){

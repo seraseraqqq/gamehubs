@@ -11,22 +11,40 @@
   }return data;
  }
  let records=load(),state=E.create(records.level,records.practice),audio=null,lastFrame=0,recorded=false;
+ const motion=matchMedia('(prefers-reduced-motion: reduce)');
+ const fur=window.CoreballFur?.create($('furCanvas'));
+ if(fur)$('arena').classList.add('fur-ready');
+ let streak=0,reactionTimer=0,impactAt=-10000;
+ const incomingPin=svg('g',{});incomingPin.append(svg('line',{class:'pin-outline',x1:250,y1:375,x2:250,y2:435}),svg('line',{class:'pin-shaft',x1:250,y1:375,x2:250,y2:435}),svg('circle',{cx:250,cy:435,r:8.5}));
+ function react(mood,text,duration=0){
+  clearTimeout(reactionTimer);$('catCorner').dataset.mood=mood;if($('catMessage'))$('catMessage').textContent=text;
+  if(duration)reactionTimer=setTimeout(()=>{if(!['won','lost'].includes(state.status))react('watch',streak>=3?'That’s a lovely streak.':'I’m watching your next move.');},duration);
+ }
+ function celebrate(){
+  $('celebration').replaceChildren();if(motion.matches)return;
+  for(let i=0;i<12;i++){const p=document.createElement('i'),a=i/12*Math.PI*2;p.style.setProperty('--tx',Math.cos(a)*95+'px');p.style.setProperty('--ty',(Math.sin(a)*75-25)+'px');p.style.setProperty('--turn',(i*61)+'deg');$('celebration').append(p);}
+ }
+ function updateStreak(){$('streakNumber').textContent=streak;}
+
  const save=()=>storage.set(KEY,records), modeKey=()=>state.practice?'practiceRecords':'challenge';
  const item=()=>records[modeKey()][state.level.id] ||= {attempts:0,clear:false,best:null};
- function tone(win=false){if(!records.sound)return;try{audio ||= new (window.AudioContext||window.webkitAudioContext)();audio.resume().catch(()=>{});const t=audio.currentTime;
-  for(const [i,hz] of (win?[440,554,659]:[300]).entries()){const o=audio.createOscillator(),g=audio.createGain();o.type='sine';o.frequency.value=hz;o.connect(g);g.connect(audio.destination);g.gain.setValueAtTime(.035,t+i*.07);g.gain.exponentialRampToValueAtTime(.001,t+.18+i*.07);o.start(t+i*.07);o.stop(t+.2+i*.07);}
+ function tone(win=false,hit=false){if(!records.sound)return;try{audio ||= new (window.AudioContext||window.webkitAudioContext)();audio.resume().catch(()=>{});const t=audio.currentTime;
+  for(const [i,hz] of (win?[440,554,659]:hit?[650]:[260]).entries()){const o=audio.createOscillator(),g=audio.createGain();o.type='sine';o.frequency.value=hz;o.connect(g);g.connect(audio.destination);g.gain.setValueAtTime(.035,t+i*.07);g.gain.exponentialRampToValueAtTime(.001,t+.18+i*.07);o.start(t+i*.07);o.stop(t+.2+i*.07);}
  }catch{}}
  function svg(tag,attrs){const n=document.createElementNS(NS,tag);for(const [k,v]of Object.entries(attrs))n.setAttribute(k,v);return n;}
  function draw(){const angle=E.rotationAt(state.level,state.time,state.scale);$('pins').setAttribute('transform',`translate(250 223) rotate(${angle*180/Math.PI})`);
-  if($('pins').childElementCount!==state.pins.length){$('pins').replaceChildren();state.pins.forEach((a,i)=>{const g=svg('g',{class:i>=state.level.initial?'new-pin':''}),x=Math.cos(a),y=Math.sin(a);g.append(svg('line',{x1:x*63,y1:y*63,x2:x*140,y2:y*140}),svg('circle',{cx:x*140,cy:y*140,r:8}));$('pins').append(g);});}
-  $('remaining').textContent=state.remaining;$('projectile').style.display=state.flight||state.remaining===0||state.status==='lost'?'none':'';
-  $('incoming').replaceChildren();if(state.flight){const p=Math.max(0,Math.min(1,(state.time-state.flight.start)/E.FLIGHT));$('incoming').append(svg('circle',{cx:250,cy:435-p*72,r:8}));}
+  if($('pins').childElementCount!==state.pins.length){$('pins').replaceChildren();state.pins.forEach((a,i)=>{const g=svg('g',{class:i>=state.level.initial?'new-pin':''}),x=Math.cos(a),y=Math.sin(a);g.append(svg('line',{class:'pin-outline',x1:x*76,y1:y*76,x2:x*140,y2:y*140}),svg('line',{class:'pin-shaft',x1:x*76,y1:y*76,x2:x*140,y2:y*140}),svg('circle',{cx:x*140,cy:y*140,r:8.5}));$('pins').append(g);});}
+  if($('remaining').textContent!==String(state.remaining))$('remaining').textContent=state.remaining;
+  if(fur)fur.draw(angle,Math.max(0,1-(performance.now()-impactAt)/340),motion.matches);
+$('projectile').style.display=state.flight||state.remaining===0||state.status==='lost'?'none':'';
+  if(state.flight){if(!incomingPin.isConnected)$('incoming').append(incomingPin);const p=Math.max(0,Math.min(1,(state.time-state.flight.start)/E.FLIGHT));incomingPin.setAttribute('transform',`translate(0 ${-p*72})`);}else if(incomingPin.isConnected)incomingPin.remove();
  }
  function updateUI(){const entry=item(),completed=Object.values(records.challenge).filter(r=>r.clear).length;
-  $('levelLabel').textContent=`Level ${String(state.level.id).padStart(2,'0')}`;$('cleared').textContent=String(completed).padStart(2,'0');$('progressBar').style.width=`${completed/30*100}%`;
+  $('chapterLabel').textContent=state.level.name;$('completionProgress').setAttribute('aria-valuenow',completed);
+  $('levelLabel').textContent=`Level ${String(state.level.id).padStart(2,'0')}`;$('cleared').textContent=String(completed).padStart(2,'0');$('progressBar').style.transform=`scaleX(${completed/30})`;
   $('attempts').textContent=`${entry.attempts} ${entry.attempts===1?'attempt':'attempts'}`;$('best').textContent=entry.best?`${entry.best.toFixed(1)} sec`:'—';
   $('practiceNote').hidden=!state.practice;$('practice').setAttribute('aria-pressed',String(state.practice));$('challenge').setAttribute('aria-pressed',String(!state.practice));
-  $('pause').setAttribute('aria-pressed',String(state.paused));$('pause').setAttribute('aria-label',state.paused?'Resume game':'Pause game');$('pause').textContent=state.paused?'▷':'Ⅱ';
+  $('pause').setAttribute('aria-pressed',String(state.paused));$('pause').setAttribute('aria-label',state.paused?'Resume game':'Pause game');const pauseIcon=svg('svg',{viewBox:'0 0 24 24','aria-hidden':'true'});pauseIcon.append(svg('path',{d:state.paused?'M8 5l11 7-11 7Z':'M6 5h4v14H6ZM14 5h4v14h-4Z',fill:'currentColor'}));$('pause').replaceChildren(pauseIcon);
   $('pause').disabled=['won','lost'].includes(state.status);$('shoot').disabled=state.paused||['won','lost'].includes(state.status);
   $('sound').textContent=records.sound?'Sound on':'Sound off';$('sound').setAttribute('aria-pressed',String(records.sound));
   $('play').classList.toggle('paused',state.paused);
@@ -34,19 +52,19 @@
  }
  function showOverlay(){const won=state.status==='won',lost=state.status==='lost';$('overlay').hidden=!(won||lost||state.paused);
   if($('overlay').hidden)return;
-  $('outcomeKicker').textContent=state.paused?'A MOMENT TO RESET':won?'NICELY IN ORBIT':'SO CLOSE. GO AGAIN.';
-  $('outcomeTitle').textContent=state.paused?'Take a breath.':won?state.level.id===30?'All the way around.':'That’s your rhythm.':'One more try?';
-  $('outcomeText').textContent=state.paused?'Your orbit is paused. Pick up exactly where you left off.':won?`${state.practice?'Practice':'Challenge'} clear · ${state.activeTime.toFixed(1)} seconds. ${state.level.id===30?'Replay any orbit and try a cleaner run.':'A new orbit is waiting.'}`:'A pin touched another pin. Watch the opening, then try a new rhythm.';
-  $('continue').textContent=state.paused?'Back to the orbit →':won&&state.level.id<30?'Next orbit →':'Try this orbit again ↺';
+
+  $('outcomeTitle').textContent=state.paused?'A little paws.':won?state.level.id===30?'All 30. Purrfect.':'Nicely played!':'One more try?';
+  $('outcomeText').textContent=state.paused?'Your game is paused. Continue from exactly where you left off.':won?`${state.practice?'Practice':'Challenge'} clear · ${state.activeTime.toFixed(1)} seconds. ${state.level.id===30?'Your kitten approves. Replay any level for a cleaner run.':'Your kitten approves. The next level is waiting.'}`:'Two pins touched. No rush: watch the gap and try again.';
+  $('continue').textContent=state.paused?'Resume game':won&&state.level.id<30?'Next level →':'Retry level';
  }
- function selectLevel(id,practice=state.practice){const returnFocus=$('play').contains(document.activeElement);state=E.create(id,practice);records.level=id;records.practice=practice;recorded=false;lastFrame=performance.now();$('pins').replaceChildren();$('status').textContent=practice?'Practice · slower rotation, separate records.':'Watch the orbit. Launch when there’s room.';save();updateUI();showOverlay();draw();if(returnFocus)$('arena').focus({preventScroll:true});}
- function launch(){if(E.launch(state)){if(!recorded){item().attempts++;recorded=true;save();}tone();$('status').textContent='Pin on its way…';updateUI();}}
- function togglePause(force){if(['won','lost'].includes(state.status))return;const returnFocus=$('play').contains(document.activeElement)&&document.hasFocus();E.setPaused(state,typeof force==='boolean'?force:!state.paused);$('status').textContent=state.paused?'Paused. Your next opening can wait.':`${state.remaining} pins left. Find the opening.`;updateUI();showOverlay();if(returnFocus)(state.paused?$('continue'):$('arena')).focus({preventScroll:true});}
+ function selectLevel(id,practice=state.practice){const returnFocus=$('play').contains(document.activeElement);state=E.create(id,practice);records.level=id;records.practice=practice;recorded=false;streak=0;updateStreak();$('celebration').replaceChildren();react('watch','You aim. I supervise.');lastFrame=performance.now();$('pins').replaceChildren();$('status').textContent=practice?'Practice · slower rotation, separate records.':'Watch the ball. Launch when there’s room.';save();updateUI();showOverlay();draw();if(returnFocus)$('arena').focus({preventScroll:true});}
+ function launch(){if(E.launch(state)){$('catCorner').dataset.side=streak%2===0?'right':'left';react('swat','A little paw power!',500);window.CoreballPaws?.launch($('catCorner').dataset.side);if(!recorded){item().attempts++;recorded=true;save();}tone();$('status').textContent='Pin on its way…';updateUI();}}
+ function togglePause(force){if(['won','lost'].includes(state.status))return;const returnFocus=$('play').contains(document.activeElement)&&document.hasFocus();E.setPaused(state,typeof force==='boolean'?force:!state.paused);react('watch',state.paused?'We can take a little break.':'Back to the ball.');$('status').textContent=state.paused?'Paused. Your next opening can wait.':`${state.remaining} pins left. Find the opening.`;updateUI();showOverlay();if(returnFocus)(state.paused?$('continue'):$('arena')).focus({preventScroll:true});}
  function frame(now){const delta=Math.min(.05,Math.max(0,(now-lastFrame)/1000));lastFrame=now;const oldCount=state.remaining,oldStatus=state.status;E.advance(state,delta);
-  if(state.remaining!==oldCount){$('status').textContent=`Nice. ${state.remaining} ${state.remaining===1?'pin':'pins'} left.`;}
+  if(state.remaining!==oldCount){streak++;window.CoreballPaws?.impact('hit',streak);updateStreak();impactAt=performance.now();tone(false,true);react(streak>=3?'happy':'swat',streak>=3?streak+' in a row. Keep it fluffy!':'Nice catch. Another one?',650);$('status').textContent=`Nice. ${state.remaining} ${state.remaining===1?'pin':'pins'} left.`;}
   if(state.status!==oldStatus&&['won','lost'].includes(state.status)){
-   if(state.status==='won'){const r=item();r.clear=true;r.best=r.best?Math.min(r.best,state.activeTime):state.activeTime;save();tone(true);$('status').textContent=`Level ${state.level.id} complete.`;}
-   else $('status').textContent='Collision. Restart to find a fresh opening.';
+   if(state.status==='won'){const r=item();r.clear=true;r.best=r.best?Math.min(r.best,state.activeTime):state.activeTime;save();tone(true);react('happy','You did it. Paws up!');celebrate();$('status').textContent=`Level ${state.level.id} complete.`;}
+   else {window.CoreballPaws?.impact('miss');streak=0;updateStreak();react('surprise','Oops. Let’s untangle that.');$('status').textContent='Two pins touched. Retry for a fresh start.';}
    const returnFocus=$('play').contains(document.activeElement)&&document.hasFocus();updateUI();showOverlay();if(returnFocus)$('continue').focus({preventScroll:true});
   }draw();requestAnimationFrame(frame);
  }

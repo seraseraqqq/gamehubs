@@ -394,7 +394,7 @@
       "analyticsState": "not-connected",
       "searchConsoleState": "not-connected",
       "createdAt": "2026-10-23",
-      "updatedAt": "2026-10-23",
+      "updatedAt": "2026-10-24",
       "localPreview": "http://127.0.0.1:4195/",
       "verificationRecord": "research/2026-10-23-two-new-games/README.md",
       "domainResearch": "research/2026-10-23-two-new-games/domain-final-check.json",
@@ -418,7 +418,13 @@
           "path": "/coreball-tips.html",
           "primaryKeyword": "coreball tips"
         }
-      ]
+      ],
+      "visualReview": {
+        "date": "2026-10-24",
+        "record": "research/2026-10-23-coreball-cats/README.md",
+        "theme": "Smooth 3D peach fur ball, flat overhead cat paws, filled ivory toy pins, local impact feedback",
+        "productionVerified": false
+      }
     },
     {
       "siteId": "minute-cryptic-unlimited",

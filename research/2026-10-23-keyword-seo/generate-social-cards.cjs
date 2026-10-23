@@ -3,7 +3,8 @@ const fs=require('fs'),path=require('path');
 const {createCanvas,GlobalFonts}=require('@napi-rs/canvas');
 const root=path.resolve(__dirname,'../..');
 GlobalFonts.registerFromPath(path.join(root,'games/coreball/assets/fonts/Figtree-Latin.woff2'),'Figtree');
-for(const slug of ['coreball','minute-cryptic-unlimited'])for(const guide of [false,true]){
+// Coreball art superseded by ../2026-10-23-coreball-cats/make-social.cjs.
+for(const slug of ['minute-cryptic-unlimited'])for(const guide of [false,true]){
  const cryptic=slug!=='coreball',c=createCanvas(1200,630),x=c.getContext('2d');
  const bg=cryptic?'#f7f4eb':'#101c2c',ink=cryptic?'#29392e':'#f7f4eb',accent=cryptic?'#496650':'#95c9bd';
  x.fillStyle=bg;x.fillRect(0,0,1200,630);x.fillStyle=accent;x.fillRect(72,72,64,6);

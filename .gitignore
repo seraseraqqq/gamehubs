@@ -9,3 +9,6 @@ node_modules/
 __pycache__/
 *.pyc
 .vercel
+
+# Local Impeccable screenshots; final review evidence lives in research.
+.impeccable/review/
