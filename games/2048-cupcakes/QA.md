@@ -81,5 +81,16 @@ verified. Pointer swiping was exercised in a narrow viewport; it is not a claim
 of a real-device test. Local timing is not a field performance score.
 
 The earlier Google Trends gap remains a research limitation. The user explicitly
-authorized this local development/preview; no domain purchase, public repository,
-production deployment, Search Console connection or monetization has occurred.
+authorized the initial local development/preview. At that stage no production
+release had occurred. The later release is recorded below.
+
+## Production release follow-up — 2026-10-23
+
+The owner purchased 2048cupcakes.xyz and authorized GitHub upload and production
+Vercel deployment. The initial source release 4ff570e reached READY. Seven hosted
+HTTP checks matched local build hashes and seven hosted Chromium browser checks
+passed (startup, keyboard merge, undo, saved state, canonical, mobile layout and
+no page errors). The Vercel custom-domain binding is verified, while Spaceship
+DNS and final public HTTPS remain pending the owner's changes.
+
+Full release and exact DNS records: ../../deployments/2026-10-23-games.md.
