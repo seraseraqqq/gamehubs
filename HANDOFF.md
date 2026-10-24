@@ -1,5 +1,7 @@
 # GameHubs handoff
 
+Current task — Gulperio copy (2026-10-24): domain binding and build/canonical/sitemap verified against gulperio.com. Direct game/SEO copy now replaces inspired/independent/official-comparison framing in public metadata, supporting copy and social card; actual computer-rival/local-ranking descriptions remain.21 metadata/export checks pass. [Release record](deployments/2026-10-24-gulper-copy.md). Next: push scoped paths and check GitHub/Vercel status; prior pushes are blocked by the platform's24-hour deployment rate limit, so do not claim this copy is live without a new READY deployment and public-title verification. Owner copy preference is recorded in AGENTS.md.
+
 Repository refactor (2026-10-24): [REPOSITORIES.md](REPOSITORIES.md) and [REPOSITORY_REFACTOR.md](REPOSITORY_REFACTOR.md). Cluster Rush / Acceleration City canonical sources are now their independent private repositories in `E:/Projects/game-sites/`; do not continue editing their GameHubs snapshots. Ten deployed projects remain linked to this repository with per-game Ignored Build Step filtering. Release holds remain in force.
 
 Live selective-build verification at 772f407: Snow Rider READY, 8 unrelated projects canceled by the ignore command; Gulper.io was rate-limited before deployment creation (platform says retry in24 hours), so its live ignore execution remains pending. All10 public URLs still return200. Remaining10 repository migrations are a subsequent phase; canceled attempts do not replace the existing production deployment.

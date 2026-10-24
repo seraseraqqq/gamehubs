@@ -1,11 +1,11 @@
 {
-  "name": "Neon Snake Arena — Solo Practice",
-  "short_name": "Solo Arena",
+  "name": "Gulper.io Snake Game",
+  "short_name": "Gulper.io",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0d1727",
   "theme_color": "#0d1727",
-  "description": "An independent neon snake arena against computer-controlled rivals, with browser-local best scores.",
+  "description": "Collect glowing orbs, dodge computer rivals and chase a new high score in this free neon snake arena.",
   "icons": [
     {
       "src": "/favicon.svg",

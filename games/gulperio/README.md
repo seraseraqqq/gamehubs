@@ -1,6 +1,6 @@
-# Neon Snake Arena — Gulper.io-inspired
+# Gulper.io Snake Game — Gulperio.com
 
-An independent single-player neon snake arena with computer-controlled rivals. It does not connect to the original Gulper.io multiplayer service. Rankings belong to the current local arena; there is no shared leaderboard.
+A single-player neon snake arena at https://gulperio.com/ with computer-controlled rivals. Rankings belong to the current local arena; there is no shared leaderboard.
 
 ## Local preview
 
@@ -22,7 +22,7 @@ Open http://127.0.0.1:4193/. The repository review server uses this port during 
 
 ## Assets and SEO
 
-Fonts are hosted locally with their OFL license files; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Native HTML/CSS/vector artwork supplies the page and social card. Social-card source is in `design/social-card.html`; the published PNG is 1200 × 630. No remote font or product-image request is needed to play.
+Fonts are hosted locally with their OFL license files; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Native HTML/CSS/vector artwork supplies the page and social card. Social-card layout reference is in `design/social-card.html`; `design/render-social-card.cjs` renders the current code-native vector artwork to the published 1200 × 630 PNG. Pass the local `sharp` module path as its argument when it is not installed in this repository. No remote font or product-image request is needed to play.
 
 The HTML contains one H1, readable instructions, matching visible FAQ/JSON-LD, a canonical URL, and Open Graph/Twitter metadata. FAQ schema is descriptive and does not guarantee a Google rich result. No ratings or ranking promises are supplied. Existing Vercel analytics/performance script hooks are retained for hosted pages and skipped on localhost; page privacy text discloses them.
 

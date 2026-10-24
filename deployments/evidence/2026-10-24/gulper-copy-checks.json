@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-10-24T07:25:19.890057+00:00",
+  "checks": [
+    {
+      "check": "preview: title matches OG/Twitter",
+      "pass": true
+    },
+    {
+      "check": "preview: descriptions match",
+      "pass": true
+    },
+    {
+      "check": "preview: canonical is owner domain",
+      "pass": true
+    },
+    {
+      "check": "preview: imitation disclaimers removed",
+      "pass": true
+    },
+    {
+      "check": "preview: actual rivals and local rankings explained",
+      "pass": true
+    },
+    {
+      "check": "preview: FAQ schema matches visible answers",
+      "pass": true
+    },
+    {
+      "check": "preview: social PNG dimensions",
+      "pass": true
+    },
+    {
+      "check": "preview: metadata origin",
+      "pass": true
+    },
+    {
+      "check": "preview: preview indexing gate",
+      "pass": true
+    },
+    {
+      "check": "preview: credits and privacy retained",
+      "pass": true
+    },
+    {
+      "check": "production: title matches OG/Twitter",
+      "pass": true
+    },
+    {
+      "check": "production: descriptions match",
+      "pass": true
+    },
+    {
+      "check": "production: canonical is owner domain",
+      "pass": true
+    },
+    {
+      "check": "production: imitation disclaimers removed",
+      "pass": true
+    },
+    {
+      "check": "production: actual rivals and local rankings explained",
+      "pass": true
+    },
+    {
+      "check": "production: FAQ schema matches visible answers",
+      "pass": true
+    },
+    {
+      "check": "production: social PNG dimensions",
+      "pass": true
+    },
+    {
+      "check": "production: metadata origin",
+      "pass": true
+    },
+    {
+      "check": "production: preview indexing gate",
+      "pass": true
+    },
+    {
+      "check": "production: robots/sitemap origin",
+      "pass": true
+    },
+    {
+      "check": "production: credits and privacy retained",
+      "pass": true
+    }
+  ],
+  "total": 21,
+  "passed": 21
+}
