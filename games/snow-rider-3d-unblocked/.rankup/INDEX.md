@@ -1,20 +1,11 @@
-## Production update — 2026-10-24
+# Snow Rider 3D — current handoff
 
-Owner confirmed purchased snowrider3d.top and authorized deployment. GitHub main pushed; Vercel gamehubs-snow-rider-3d deployed. DNS A216.198.79.1, www CNAME575342d45dca2a14.vercel-dns-017.com; www301 to apex. HTTPS is valid. Actual-domain game verification FAILED: GameDistribution blocked.html returns domain=snowrider3d.top, unregistered=true. The added official SDK frame permits the provider’s response; it does not solve registration. Production uses PUBLISHER_DOMAIN_STATUS=unregistered to keep noindex, disallow crawling and show the pending approval message. No referrer spoof or SDK bypass. Owner account/domain registration is required; after approval remove pending flag, redeploy and verify gameplay. Evidence: ../../../deployments/2026-10-24-owned-game-domains.md. Earlier pending-purchase/local-success statements below are historical.
+Updated 2026-10-24 (Asia/Shanghai). Website wrapper deployed at https://snowrider3d.top/; Vercel project gamehubs-snow-rider-3d. DNS/HTTPS/www301 verified.
 
-# Snow Rider 3D publisher player — handoff
-
-Updated 2026-10-24. Preview: http://127.0.0.1:4197/ .
-
-## 接力
-
-- Owner superseded original development: existing game package first, publisher iframe second. The local page now loads the public GameDistribution Snow Rider 3D player.
-- Complete Unity package found, but self-hosting license not established. GameMonetize ZIP is thumbnails only; two repo candidates returned451. Do not bypass restrictions or copy unverified game binaries.
-- Original engine, scene, game and vendor files are excluded from dist and not loaded. Keep earlier demo source/saves as historical material, not current gameplay.
-- Current evidence: 68 static/export checks and 9 CUA first-party shell checks passed; publisher title screen, sled menu and tutorial visibly rendered. A full round and real-device/mobile viewport/fullscreen exit remain outside verified scope.
-- iframe load is not a gameplay-ready signal. Preserve publisher UI/ads/privacy and send only the actual parent page as the SDK referrer. Local preview uses production CSP.
-- Domain candidates remain snowrider3donline.com / snowrider3dplay.com (registry404 earlier today, registrar price/history unknown). No purchase, deployment, publisher account or GSC setup is claimed.
-- Evidence: ../../../research/2026-10-24-snow-rider/PACKAGE-SOURCING.md, ../scripts/verification.json and ../../../research/2026-10-24-snow-rider/player-shell-qa.json.
-- 下一条要执行的动作：owner selects an owned domain; complete any publisher/domain onboarding required by its current terms, then deploy and verify real-domain loading plus physical mobile behavior before indexing.
-
-The earlier original-game plan and its tests are superseded. Skill update attempt retained installed3.38.3 after update command failure; no skill source changed.
+- Owner confirmed no GameDistribution publisher account and chose to retain deployment and record a todo. Publisher onboarding is deferred; no account creation is authorized now.
+- Actual game is blocked by the provider: domain=snowrider3d.top, unregistered=true. Keep production PUBLISHER_DOMAIN_STATUS=unregistered, noindex and the approval notice.
+- Future steps: owner creates an account, registers the domain and obtains approval; then redeploy, verify actual gameplay and SEO before indexing. [Todo checklist](plan.md).
+- Existing publisher iframe remains the selected game source. A complete Unity package was located without an established self-hosting license; the earlier custom engine is superseded and excluded from delivery.
+- Local checks: 68 static/export and 9 shell checks; local title/menu/tutorial observed. Actual-domain gameplay failed; full-round/physical-mobile/fullscreen-exit remain unverified.
+- Preserve publisher UI/SDK and actual parent referrer. Do not spoof another site or copy unlicensed binaries.
+- [Release and owner decision](../../../deployments/2026-10-24-owned-game-domains.md), [provider blocker](../../../deployments/evidence/2026-10-24/snow-rider-provider-blocked.txt), [sourcing](../../../research/2026-10-24-snow-rider/PACKAGE-SOURCING.md).

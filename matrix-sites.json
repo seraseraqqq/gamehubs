@@ -532,7 +532,7 @@
       },
       "createdAt": "2026-10-24",
       "updatedAt": "2026-10-24",
-      "nextDecision": "Owner must log into GameDistribution and register/enable snowrider3d.top for this game. Do not spoof another referrer or copy unlicensed binaries. After approval, remove PUBLISHER_DOMAIN_STATUS=unregistered, redeploy and verify actual gameplay before indexing.",
+      "nextDecision": "Owner deferred publisher onboarding because no account exists. Preserve deployment and noindex. Future: owner creates a GameDistribution publisher account, registers snowrider3d.top and obtains approval; then clear pending flag, redeploy and verify gameplay before indexing.",
       "releaseState": "public-wrapper-verified-game-blocked",
       "registeredDomain": "snowrider3d.top",
       "domainOwnership": "owner-confirmed-purchased-2026-10-24",
@@ -551,6 +551,14 @@
         "productionOrigin": "https://snowrider3d.top",
         "record": "deployments/2026-10-24-owned-game-domains.md",
         "verifiedPublicAt": "2026-10-24T04:19:34.278Z"
+      },
+      "publisherOnboarding": {
+        "provider": "GameDistribution",
+        "accountState": "not-created-owner-confirmed",
+        "state": "deferred-by-owner",
+        "confirmedAt": "2026-10-24",
+        "ownerDecision": "还没有账户，先保留部署并记录待办",
+        "todo": "games/snow-rider-3d-unblocked/.rankup/plan.md"
       }
     },
     {

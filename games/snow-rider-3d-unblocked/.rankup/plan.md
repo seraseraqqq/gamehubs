@@ -1,9 +1,14 @@
-## Production update — 2026-10-24
-
-Owner confirmed purchased snowrider3d.top and authorized deployment. GitHub main pushed; Vercel gamehubs-snow-rider-3d deployed. DNS A216.198.79.1, www CNAME575342d45dca2a14.vercel-dns-017.com; www301 to apex. HTTPS is valid. Actual-domain game verification FAILED: GameDistribution blocked.html returns domain=snowrider3d.top, unregistered=true. The added official SDK frame permits the provider’s response; it does not solve registration. Production uses PUBLISHER_DOMAIN_STATUS=unregistered to keep noindex, disallow crawling and show the pending approval message. No referrer spoof or SDK bypass. Owner account/domain registration is required; after approval remove pending flag, redeploy and verify gameplay. Evidence: ../../../deployments/2026-10-24-owned-game-domains.md. Earlier pending-purchase/local-success statements below are historical.
-
 # Current plan — 2026-10-24
 
-Existing Snow Rider 3D is integrated through GameDistribution. The owner replaced the original-game direction. Do not resume the custom engine or treat its ten tests as current player validation.
+Owner confirmed: “还没有账户，先保留部署并记录待办”. Preserve the deployed wrapper at https://snowrider3d.top/, DNS and production PUBLISHER_DOMAIN_STATUS=unregistered; retain noindex and the pending-approval notice. Publisher onboarding is deferred by owner. No account creation, contract acceptance or further deployment work is requested now.
 
-Before production: select/purchase an owned domain with owner authorization; complete required publisher/domain onboarding; configure actual SITE_ORIGIN; deploy the whitelisted export; test the game on that origin and physical mobile; verify canonical/robots/sitemap before indexing. Current sourcing and limitations are in ../../../research/2026-10-24-snow-rider/PACKAGE-SOURCING.md.
+## 待办：发布商账户与域名审批
+
+- [ ] Owner creates a GameDistribution publisher account and completes its required agreements.
+- [ ] Register snowrider3d.top and obtain approval to load Snow Rider 3D game3b79a8537ebc414fb4f9672a9b8c68c8.
+- [ ] Once approved, clear PUBLISHER_DOMAIN_STATUS=unregistered and redeploy using the actual owned origin.
+- [ ] Verify actual-domain game loading and controls, plus mobile/fullscreen behavior; recheck HTTPS, canonical, robots and sitemap before indexing.
+
+Actual-domain verification reached the official blocked.html response with unregistered=true. Local title/menu success is not production gameplay evidence. Do not spoof a referrer, bypass the provider SDK or copy the unlicensed Unity package.
+
+Evidence: [deployment record](../../../deployments/2026-10-24-owned-game-domains.md), [provider response](../../../deployments/evidence/2026-10-24/snow-rider-provider-blocked.txt), [package sourcing](../../../research/2026-10-24-snow-rider/PACKAGE-SOURCING.md).
