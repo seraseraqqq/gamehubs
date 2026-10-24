@@ -1,0 +1,79 @@
+{
+  "checkedAt": "2026-10-24T07:16:03.063Z",
+  "results": [
+    {
+      "siteId": "block-blast-unblocked",
+      "url": "https://playblockblastunblocked.com/",
+      "finalURL": "https://playblockblastunblocked.com/",
+      "httpStatus": 200,
+      "noindex": false
+    },
+    {
+      "siteId": "costcodle",
+      "url": "https://costcodle-unlimited.vercel.app/",
+      "finalURL": "https://costcodle-unlimited.vercel.app/",
+      "httpStatus": 200,
+      "noindex": false
+    },
+    {
+      "siteId": "gulper-io",
+      "url": "https://gulperio.com/",
+      "finalURL": "https://gulperio.com/",
+      "httpStatus": 200,
+      "noindex": false
+    },
+    {
+      "siteId": "krillion-unlimited",
+      "url": "https://krilliononline.com/",
+      "finalURL": "https://krilliononline.com/",
+      "httpStatus": 200,
+      "noindex": false
+    },
+    {
+      "siteId": "spacebar-counter",
+      "url": "https://www.spacebarcounter.xyz/",
+      "finalURL": "https://www.spacebarcounter.xyz/",
+      "httpStatus": 200,
+      "noindex": false
+    },
+    {
+      "siteId": "2048-cupcakes",
+      "url": "https://www.2048cupcakes.xyz/",
+      "finalURL": "https://www.2048cupcakes.xyz/",
+      "httpStatus": 200,
+      "noindex": false
+    },
+    {
+      "siteId": "coreball",
+      "url": "https://gamehubs-coreball.vercel.app/",
+      "finalURL": "https://gamehubs-coreball.vercel.app/",
+      "httpStatus": 200,
+      "noindex": true
+    },
+    {
+      "siteId": "minute-cryptic-unlimited",
+      "url": "https://gamehubs-minute-cryptic-unlimited.vercel.app/",
+      "finalURL": "https://gamehubs-minute-cryptic-unlimited.vercel.app/",
+      "httpStatus": 200,
+      "noindex": true
+    },
+    {
+      "siteId": "snow-rider-3d-unblocked",
+      "url": "https://snowrider3d.top/",
+      "finalURL": "https://snowrider3d.top/",
+      "httpStatus": 200,
+      "noindex": true,
+      "playerHttpStatus": 200,
+      "miniplayEmbed": true,
+      "controlledCommentDeployed": true,
+      "gameplayAcceptance": "not-retested-in-repository-refactor"
+    },
+    {
+      "siteId": "head-soccer-2026",
+      "url": "https://www.playheadsoccer.com/",
+      "finalURL": "https://www.playheadsoccer.com/",
+      "httpStatus": 200,
+      "noindex": false
+    }
+  ]
+}

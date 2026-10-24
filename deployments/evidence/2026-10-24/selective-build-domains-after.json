@@ -1,0 +1,338 @@
+{
+  "checkedAt": "2026-10-24T07:17:26.396Z",
+  "projects": [
+    {
+      "slug": "head-soccer-2026",
+      "result": {
+        "domains": [
+          {
+            "name": "www.playheadsoccer.com",
+            "apexName": "playheadsoccer.com",
+            "projectId": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+            "redirect": null,
+            "redirectStatusCode": null,
+            "gitBranch": null,
+            "customEnvironmentId": null,
+            "updatedAt": 1792818370972,
+            "createdAt": 1792814820169,
+            "verified": true
+          },
+          {
+            "name": "playheadsoccer.com",
+            "apexName": "playheadsoccer.com",
+            "projectId": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+            "redirect": "www.playheadsoccer.com",
+            "redirectStatusCode": 301,
+            "gitBranch": null,
+            "customEnvironmentId": null,
+            "updatedAt": 1792818377224,
+            "createdAt": 1792814819119,
+            "verified": true
+          }
+        ],
+        "pagination": {
+          "count": 2,
+          "next": null,
+          "prev": 1792814820169
+        }
+      }
+    },
+    {
+      "slug": "block-blast-unblocked",
+      "result": {
+        "domains": [
+          {
+            "name": "playblockblastunblocked.com",
+            "apexName": "playblockblastunblocked.com",
+            "projectId": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+            "redirect": null,
+            "redirectStatusCode": null,
+            "gitBranch": null,
+            "customEnvironmentId": null,
+            "updatedAt": 1792678683713,
+            "createdAt": 1792678630456,
+            "verified": true
+          },
+          {
+            "name": "www.playblockblastunblocked.com",
+            "apexName": "playblockblastunblocked.com",
+            "projectId": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+            "redirect": "playblockblastunblocked.com",
+            "redirectStatusCode": 301,
+            "gitBranch": null,
+            "customEnvironmentId": null,
+            "updatedAt": 1792678728293,
+            "createdAt": 1792678629917,
+            "verified": true
+          }
+        ],
+        "pagination": {
+          "count": 2,
+          "next": null,
+          "prev": 1792678630456
+        }
+      }
+    },
+    {
+      "slug": "summit-unlimited",
+      "result": {
+        "domains": [
+          {
+            "name": "krilliononline.com",
+            "apexName": "krilliononline.com",
+            "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+            "redirect": null,
+            "redirectStatusCode": null,
+            "gitBranch": null,
+            "customEnvironmentId": null,
+            "updatedAt": 1792721326979,
+            "createdAt": 1792721315743,
+            "verified": true
+          },
+          {
+            "name": "www.krilliononline.com",
+            "apexName": "krilliononline.com",
+            "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+            "redirect": "krilliononline.com",
+            "redirectStatusCode": 301,
+            "gitBranch": null,
+            "customEnvironmentId": null,
+            "updatedAt": 1792721336254,
+            "createdAt": 1792721315288,
+            "verified": true
+          }
+        ],
+        "pagination": {
+          "count": 2,
+          "next": null,
+          "prev": 1792721315743
+        }
+      }
+    },
+    {
+      "slug": "minute-cryptic-unlimited",
+      "result": {
+        "domains": [
+          {
+            "name": "gamehubs-minute-cryptic-unlimited.vercel.app",
+            "apexName": "vercel.app",
+            "projectId": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
+            "redirect": null,
+            "gitBranch": null,
+            "customEnvironmentId": null,
+            "updatedAt": 1792806760781,
+            "createdAt": 1792806760781,
+            "verified": true
+          }
+        ],
+        "pagination": {
+          "count": 1,
+          "next": null,
+          "prev": 1792806760781
+        }
+      }
+    },
+    {
+      "slug": "coreball",
+      "result": {
+        "domains": [
+          {
+            "name": "gamehubs-coreball.vercel.app",
+            "apexName": "vercel.app",
+            "projectId": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
+            "redirect": null,
+            "gitBranch": null,
+            "customEnvironmentId": null,
+            "updatedAt": 1792806729028,
+            "createdAt": 1792806729028,
+            "verified": true
+          }
+        ],
+        "pagination": {
+          "count": 1,
+          "next": null,
+          "prev": 1792806729028
+        }
+      }
+    },
+    {
+      "slug": "costcodle",
+      "result": {
+        "domains": [
+          {
+            "name": "costcodle-unlimited.vercel.app",
+            "apexName": "vercel.app",
+            "projectId": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+            "redirect": null,
+            "gitBranch": null,
+            "customEnvironmentId": null,
+            "updatedAt": 1792675185180,
+            "createdAt": 1792675185180,
+            "verified": true
+          }
+        ],
+        "pagination": {
+          "count": 1,
+          "next": null,
+          "prev": 1792675185180
+        }
+      }
+    },
+    {
+      "slug": "spacebar-counter",
+      "result": {
+        "domains": [
+          {
+            "name": "www.spacebarcounter.xyz",
+            "apexName": "spacebarcounter.xyz",
+            "projectId": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+            "redirect": null,
+            "redirectStatusCode": null,
+            "gitBranch": null,
+            "customEnvironmentId": null,
+            "updatedAt": 1792752301424,
+            "createdAt": 1792751128308,
+            "verified": true
+          },
+          {
+            "name": "spacebarcounter.xyz",
+            "apexName": "spacebarcounter.xyz",
+            "projectId": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+            "redirect": "www.spacebarcounter.xyz",
+            "redirectStatusCode": 301,
+            "gitBranch": null,
+            "customEnvironmentId": null,
+            "updatedAt": 1792752308586,
+            "createdAt": 1792751126604,
+            "verified": true
+          }
+        ],
+        "pagination": {
+          "count": 2,
+          "next": null,
+          "prev": 1792751128308
+        }
+      }
+    },
+    {
+      "slug": "gulperio",
+      "result": {
+        "domains": [
+          {
+            "name": "gulperio.com",
+            "apexName": "gulperio.com",
+            "projectId": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+            "redirect": null,
+            "redirectStatusCode": null,
+            "gitBranch": null,
+            "customEnvironmentId": null,
+            "updatedAt": 1792685193318,
+            "createdAt": 1792685164618,
+            "verified": true
+          },
+          {
+            "name": "www.gulperio.com",
+            "apexName": "gulperio.com",
+            "projectId": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+            "redirect": "gulperio.com",
+            "redirectStatusCode": 301,
+            "gitBranch": null,
+            "customEnvironmentId": null,
+            "updatedAt": 1792685207262,
+            "createdAt": 1792685163836,
+            "verified": true
+          }
+        ],
+        "pagination": {
+          "count": 2,
+          "next": null,
+          "prev": 1792685164618
+        }
+      }
+    },
+    {
+      "slug": "2048-cupcakes",
+      "result": {
+        "domains": [
+          {
+            "name": "www.2048cupcakes.xyz",
+            "apexName": "2048cupcakes.xyz",
+            "projectId": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+            "redirect": null,
+            "redirectStatusCode": null,
+            "gitBranch": null,
+            "customEnvironmentId": null,
+            "updatedAt": 1792752325581,
+            "createdAt": 1792751124753,
+            "verified": true
+          },
+          {
+            "name": "2048cupcakes.xyz",
+            "apexName": "2048cupcakes.xyz",
+            "projectId": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+            "redirect": "www.2048cupcakes.xyz",
+            "redirectStatusCode": 301,
+            "gitBranch": null,
+            "customEnvironmentId": null,
+            "updatedAt": 1792752334685,
+            "createdAt": 1792751123052,
+            "verified": true
+          }
+        ],
+        "pagination": {
+          "count": 2,
+          "next": null,
+          "prev": 1792751124753
+        }
+      }
+    },
+    {
+      "slug": "snow-rider-3d-unblocked",
+      "result": {
+        "domains": [
+          {
+            "name": "www.snowrider3d.top",
+            "apexName": "snowrider3d.top",
+            "projectId": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+            "redirect": "snowrider3d.top",
+            "redirectStatusCode": 301,
+            "gitBranch": null,
+            "customEnvironmentId": null,
+            "updatedAt": 1792814825370,
+            "createdAt": 1792814825370,
+            "verified": true
+          },
+          {
+            "name": "snowrider3d.top",
+            "apexName": "snowrider3d.top",
+            "projectId": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+            "redirect": null,
+            "redirectStatusCode": null,
+            "gitBranch": null,
+            "customEnvironmentId": null,
+            "updatedAt": 1792814823455,
+            "createdAt": 1792814823455,
+            "verified": true
+          },
+          {
+            "name": "gamehubs-snow-rider-3d.vercel.app",
+            "apexName": "vercel.app",
+            "projectId": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+            "redirect": null,
+            "gitBranch": null,
+            "customEnvironmentId": null,
+            "updatedAt": 1792814807139,
+            "createdAt": 1792814807139,
+            "verified": true
+          }
+        ],
+        "pagination": {
+          "count": 3,
+          "next": null,
+          "prev": 1792814825370
+        }
+      }
+    }
+  ],
+  "note": "All registered project domains remain verified; redirect settings retained. No domain mutation performed."
+}

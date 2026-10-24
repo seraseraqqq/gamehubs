@@ -1,0 +1,1342 @@
+{
+  "checkedAt": "2026-10-24T07:16:31.863Z",
+  "commit": "772f40768c82f76519ed6c03e641976864d71f5f",
+  "expected": "Snow Rider runtime-file comment change builds only its project; unrelated projects skip",
+  "summary": {
+    "ready": 1,
+    "skipped": 8,
+    "rateLimitedBeforeBuild": 1
+  },
+  "deployments": [
+    {
+      "id": "dpl_7ym9Aom8r6NLUD7YSjRuZRJg54c4",
+      "name": "gamehubs-summit-unlimited",
+      "state": "CANCELED",
+      "url": "https://vercel.com/gx03410-8651s-projects/gamehubs-summit-unlimited/7ym9Aom8r6NLUD7YSjRuZRJg54c4",
+      "events": [
+        {
+          "created": 1792826104273,
+          "date": 1792826104273,
+          "type": "stdout",
+          "text": "Running build in Washington, D.C., USA (East) – iad1",
+          "info": {
+            "type": "build",
+            "name": "bld_a850k6c19",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826104274,
+          "date": 1792826104274,
+          "type": "stdout",
+          "text": "Build machine configuration: 2 cores, 8 GB",
+          "info": {
+            "type": "build",
+            "name": "bld_a850k6c19",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826104404,
+          "date": 1792826104404,
+          "type": "stdout",
+          "text": "Cloning github.com/seraseraqqq/gamehubs (Branch: main, Commit: 772f407)",
+          "info": {
+            "type": "build",
+            "name": "bld_a850k6c19",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826104406,
+          "date": 1792826104406,
+          "type": "stdout",
+          "text": "Previous build caches not available.",
+          "info": {
+            "type": "build",
+            "name": "bld_a850k6c19",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826106418,
+          "date": 1792826106418,
+          "type": "stdout",
+          "text": "Cloning completed: 2.014s",
+          "info": {
+            "type": "build",
+            "name": "bld_a850k6c19",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826106698,
+          "date": 1792826106698,
+          "type": "stdout",
+          "text": "Running \"node ../../scripts/vercel-ignore.mjs games/summit-unlimited\"",
+          "info": {
+            "type": "build",
+            "name": "bld_a850k6c19",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826106811,
+          "date": 1792826106811,
+          "type": "stdout",
+          "text": "[gamehubs selective build] {\"build\":false,\"reason\":\"only unrelated files or game documentation changed\",\"baseline\":\"144f269628a5\",\"head\":\"772f40768c82\"}",
+          "info": {
+            "type": "build",
+            "name": "bld_a850k6c19",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826106820,
+          "date": 1792826106820,
+          "type": "stderr",
+          "text": "The deployment was canceled because the Ignored Build Step command returned exit code 0.",
+          "info": {
+            "type": "build",
+            "name": "bld_a850k6c19",
+            "entrypoint": "."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dpl_9m8BZQitZdr4Xq1WREPNK9BS1Brn",
+      "name": "gamehubs-spacebar-counter",
+      "state": "CANCELED",
+      "url": "https://vercel.com/gx03410-8651s-projects/gamehubs-spacebar-counter/9m8BZQitZdr4Xq1WREPNK9BS1Brn",
+      "events": [
+        {
+          "created": 1792826100978,
+          "date": 1792826100978,
+          "type": "stdout",
+          "text": "Running build in Washington, D.C., USA (East) – iad1",
+          "info": {
+            "type": "build",
+            "name": "bld_dmrm4nzxq",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826100979,
+          "date": 1792826100979,
+          "type": "stdout",
+          "text": "Build machine configuration: 2 cores, 8 GB",
+          "info": {
+            "type": "build",
+            "name": "bld_dmrm4nzxq",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826101149,
+          "date": 1792826101149,
+          "type": "stdout",
+          "text": "Cloning github.com/seraseraqqq/gamehubs (Branch: main, Commit: 772f407)",
+          "info": {
+            "type": "build",
+            "name": "bld_dmrm4nzxq",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826101150,
+          "date": 1792826101150,
+          "type": "stdout",
+          "text": "Previous build caches not available.",
+          "info": {
+            "type": "build",
+            "name": "bld_dmrm4nzxq",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826103238,
+          "date": 1792826103238,
+          "type": "stdout",
+          "text": "Cloning completed: 2.089s",
+          "info": {
+            "type": "build",
+            "name": "bld_dmrm4nzxq",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826103536,
+          "date": 1792826103536,
+          "type": "stdout",
+          "text": "Running \"node ../../scripts/vercel-ignore.mjs games/spacebar-counter\"",
+          "info": {
+            "type": "build",
+            "name": "bld_dmrm4nzxq",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826103628,
+          "date": 1792826103628,
+          "type": "stdout",
+          "text": "[gamehubs selective build] {\"build\":false,\"reason\":\"only unrelated files or game documentation changed\",\"baseline\":\"c6034dc0f5e6\",\"head\":\"772f40768c82\"}",
+          "info": {
+            "type": "build",
+            "name": "bld_dmrm4nzxq",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826103635,
+          "date": 1792826103635,
+          "type": "stderr",
+          "text": "The deployment was canceled because the Ignored Build Step command returned exit code 0.",
+          "info": {
+            "type": "build",
+            "name": "bld_dmrm4nzxq",
+            "entrypoint": "."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dpl_ETpfQmuTm9GmwJzn1Ma6PVV3qLEX",
+      "name": "block-blast-unblocked",
+      "state": "CANCELED",
+      "url": "https://vercel.com/gx03410-8651s-projects/block-blast-unblocked/ETpfQmuTm9GmwJzn1Ma6PVV3qLEX",
+      "events": [
+        {
+          "created": 1792826098734,
+          "date": 1792826098734,
+          "type": "stdout",
+          "text": "Running build in Washington, D.C., USA (East) – iad1",
+          "info": {
+            "type": "build",
+            "name": "bld_99fnp3d82",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826098735,
+          "date": 1792826098735,
+          "type": "stdout",
+          "text": "Build machine configuration: 2 cores, 8 GB",
+          "info": {
+            "type": "build",
+            "name": "bld_99fnp3d82",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826098855,
+          "date": 1792826098855,
+          "type": "stdout",
+          "text": "Cloning github.com/seraseraqqq/gamehubs (Branch: main, Commit: 772f407)",
+          "info": {
+            "type": "build",
+            "name": "bld_99fnp3d82",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826098856,
+          "date": 1792826098856,
+          "type": "stdout",
+          "text": "Previous build caches not available.",
+          "info": {
+            "type": "build",
+            "name": "bld_99fnp3d82",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826100021,
+          "date": 1792826100021,
+          "type": "stdout",
+          "text": "Cloning completed: 1.166s",
+          "info": {
+            "type": "build",
+            "name": "bld_99fnp3d82",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826100235,
+          "date": 1792826100235,
+          "type": "stdout",
+          "text": "Running \"node ../../scripts/vercel-ignore.mjs games/block-blast-unblocked\"",
+          "info": {
+            "type": "build",
+            "name": "bld_99fnp3d82",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826100331,
+          "date": 1792826100331,
+          "type": "stdout",
+          "text": "[gamehubs selective build] {\"build\":false,\"reason\":\"only unrelated files or game documentation changed\",\"baseline\":\"144f269628a5\",\"head\":\"772f40768c82\"}",
+          "info": {
+            "type": "build",
+            "name": "bld_99fnp3d82",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826100338,
+          "date": 1792826100338,
+          "type": "stderr",
+          "text": "The deployment was canceled because the Ignored Build Step command returned exit code 0.",
+          "info": {
+            "type": "build",
+            "name": "bld_99fnp3d82",
+            "entrypoint": "."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dpl_fALkTFBUMCxgefh5FnPpwYea1KRF",
+      "name": "gamehubs-minute-cryptic-unlimited",
+      "state": "CANCELED",
+      "url": "https://vercel.com/gx03410-8651s-projects/gamehubs-minute-cryptic-unlimited/fALkTFBUMCxgefh5FnPpwYea1KRF",
+      "events": [
+        {
+          "created": 1792826095354,
+          "date": 1792826095354,
+          "type": "stdout",
+          "text": "Running build in Washington, D.C., USA (East) – iad1",
+          "info": {
+            "type": "build",
+            "name": "bld_afy24do3d",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826095355,
+          "date": 1792826095355,
+          "type": "stdout",
+          "text": "Build machine configuration: 2 cores, 8 GB",
+          "info": {
+            "type": "build",
+            "name": "bld_afy24do3d",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826095596,
+          "date": 1792826095596,
+          "type": "stdout",
+          "text": "Cloning github.com/seraseraqqq/gamehubs (Branch: main, Commit: 772f407)",
+          "info": {
+            "type": "build",
+            "name": "bld_afy24do3d",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826095597,
+          "date": 1792826095597,
+          "type": "stdout",
+          "text": "Previous build caches not available.",
+          "info": {
+            "type": "build",
+            "name": "bld_afy24do3d",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826097556,
+          "date": 1792826097556,
+          "type": "stdout",
+          "text": "Cloning completed: 1.960s",
+          "info": {
+            "type": "build",
+            "name": "bld_afy24do3d",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826097948,
+          "date": 1792826097948,
+          "type": "stdout",
+          "text": "Running \"node ../../scripts/vercel-ignore.mjs games/minute-cryptic-unlimited\"",
+          "info": {
+            "type": "build",
+            "name": "bld_afy24do3d",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826098072,
+          "date": 1792826098072,
+          "type": "stdout",
+          "text": "[gamehubs selective build] {\"build\":false,\"reason\":\"only unrelated files or game documentation changed\",\"baseline\":\"144f269628a5\",\"head\":\"772f40768c82\"}",
+          "info": {
+            "type": "build",
+            "name": "bld_afy24do3d",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826098088,
+          "date": 1792826098088,
+          "type": "stderr",
+          "text": "The deployment was canceled because the Ignored Build Step command returned exit code 0.",
+          "info": {
+            "type": "build",
+            "name": "bld_afy24do3d",
+            "entrypoint": "."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dpl_4JbrGdLqCu6gyvP2vXKEN9wt1Fqc",
+      "name": "gamehubs-coreball",
+      "state": "CANCELED",
+      "url": "https://vercel.com/gx03410-8651s-projects/gamehubs-coreball/4JbrGdLqCu6gyvP2vXKEN9wt1Fqc",
+      "events": [
+        {
+          "created": 1792826090790,
+          "date": 1792826090790,
+          "type": "stdout",
+          "text": "Running build in Washington, D.C., USA (East) – iad1",
+          "info": {
+            "type": "build",
+            "name": "bld_eqdldukqe",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826090791,
+          "date": 1792826090791,
+          "type": "stdout",
+          "text": "Build machine configuration: 2 cores, 8 GB",
+          "info": {
+            "type": "build",
+            "name": "bld_eqdldukqe",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826090922,
+          "date": 1792826090922,
+          "type": "stdout",
+          "text": "Cloning github.com/seraseraqqq/gamehubs (Branch: main, Commit: 772f407)",
+          "info": {
+            "type": "build",
+            "name": "bld_eqdldukqe",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826090924,
+          "date": 1792826090924,
+          "type": "stdout",
+          "text": "Previous build caches not available.",
+          "info": {
+            "type": "build",
+            "name": "bld_eqdldukqe",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826093026,
+          "date": 1792826093026,
+          "type": "stdout",
+          "text": "Cloning completed: 2.103s",
+          "info": {
+            "type": "build",
+            "name": "bld_eqdldukqe",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826093297,
+          "date": 1792826093297,
+          "type": "stdout",
+          "text": "Running \"node ../../scripts/vercel-ignore.mjs games/coreball\"",
+          "info": {
+            "type": "build",
+            "name": "bld_eqdldukqe",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826093385,
+          "date": 1792826093385,
+          "type": "stdout",
+          "text": "[gamehubs selective build] {\"build\":false,\"reason\":\"only unrelated files or game documentation changed\",\"baseline\":\"144f269628a5\",\"head\":\"772f40768c82\"}",
+          "info": {
+            "type": "build",
+            "name": "bld_eqdldukqe",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826093394,
+          "date": 1792826093394,
+          "type": "stderr",
+          "text": "The deployment was canceled because the Ignored Build Step command returned exit code 0.",
+          "info": {
+            "type": "build",
+            "name": "bld_eqdldukqe",
+            "entrypoint": "."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dpl_6SypSLKX6RxvR4DUP4UCrjkCRLL4",
+      "name": "gamehubs-2048-cupcakes",
+      "state": "CANCELED",
+      "url": "https://vercel.com/gx03410-8651s-projects/gamehubs-2048-cupcakes/6SypSLKX6RxvR4DUP4UCrjkCRLL4",
+      "events": [
+        {
+          "created": 1792826087642,
+          "date": 1792826087642,
+          "type": "stdout",
+          "text": "Running build in Washington, D.C., USA (East) – iad1",
+          "info": {
+            "type": "build",
+            "name": "bld_ijf4ppmrd",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826087643,
+          "date": 1792826087643,
+          "type": "stdout",
+          "text": "Build machine configuration: 2 cores, 8 GB",
+          "info": {
+            "type": "build",
+            "name": "bld_ijf4ppmrd",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826087767,
+          "date": 1792826087767,
+          "type": "stdout",
+          "text": "Cloning github.com/seraseraqqq/gamehubs (Branch: main, Commit: 772f407)",
+          "info": {
+            "type": "build",
+            "name": "bld_ijf4ppmrd",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826087768,
+          "date": 1792826087768,
+          "type": "stdout",
+          "text": "Previous build caches not available.",
+          "info": {
+            "type": "build",
+            "name": "bld_ijf4ppmrd",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826089756,
+          "date": 1792826089756,
+          "type": "stdout",
+          "text": "Cloning completed: 1.989s",
+          "info": {
+            "type": "build",
+            "name": "bld_ijf4ppmrd",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826090028,
+          "date": 1792826090028,
+          "type": "stdout",
+          "text": "Running \"node ../../scripts/vercel-ignore.mjs games/2048-cupcakes\"",
+          "info": {
+            "type": "build",
+            "name": "bld_ijf4ppmrd",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826090120,
+          "date": 1792826090120,
+          "type": "stdout",
+          "text": "[gamehubs selective build] {\"build\":false,\"reason\":\"only unrelated files or game documentation changed\",\"baseline\":\"c6034dc0f5e6\",\"head\":\"772f40768c82\"}",
+          "info": {
+            "type": "build",
+            "name": "bld_ijf4ppmrd",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826090126,
+          "date": 1792826090126,
+          "type": "stderr",
+          "text": "The deployment was canceled because the Ignored Build Step command returned exit code 0.",
+          "info": {
+            "type": "build",
+            "name": "bld_ijf4ppmrd",
+            "entrypoint": "."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dpl_9nWw53LeQDFL1YnkuKZ7byebmATB",
+      "name": "costcodle-unlimited",
+      "state": "CANCELED",
+      "url": "https://vercel.com/gx03410-8651s-projects/costcodle-unlimited/9nWw53LeQDFL1YnkuKZ7byebmATB",
+      "events": [
+        {
+          "created": 1792826085317,
+          "date": 1792826085317,
+          "type": "stdout",
+          "text": "Running build in Washington, D.C., USA (East) – iad1",
+          "info": {
+            "type": "build",
+            "name": "bld_g32uzwd9c",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826085318,
+          "date": 1792826085318,
+          "type": "stdout",
+          "text": "Build machine configuration: 2 cores, 8 GB",
+          "info": {
+            "type": "build",
+            "name": "bld_g32uzwd9c",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826085453,
+          "date": 1792826085453,
+          "type": "stdout",
+          "text": "Cloning github.com/seraseraqqq/gamehubs (Branch: main, Commit: 772f407)",
+          "info": {
+            "type": "build",
+            "name": "bld_g32uzwd9c",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826085454,
+          "date": 1792826085454,
+          "type": "stdout",
+          "text": "Previous build caches not available.",
+          "info": {
+            "type": "build",
+            "name": "bld_g32uzwd9c",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826086653,
+          "date": 1792826086653,
+          "type": "stdout",
+          "text": "Cloning completed: 1.200s",
+          "info": {
+            "type": "build",
+            "name": "bld_g32uzwd9c",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826086938,
+          "date": 1792826086938,
+          "type": "stdout",
+          "text": "Running \"node ../../scripts/vercel-ignore.mjs games/costcodle\"",
+          "info": {
+            "type": "build",
+            "name": "bld_g32uzwd9c",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826087035,
+          "date": 1792826087035,
+          "type": "stdout",
+          "text": "[gamehubs selective build] {\"build\":false,\"reason\":\"only unrelated files or game documentation changed\",\"baseline\":\"c6034dc0f5e6\",\"head\":\"772f40768c82\"}",
+          "info": {
+            "type": "build",
+            "name": "bld_g32uzwd9c",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826087042,
+          "date": 1792826087042,
+          "type": "stderr",
+          "text": "The deployment was canceled because the Ignored Build Step command returned exit code 0.",
+          "info": {
+            "type": "build",
+            "name": "bld_g32uzwd9c",
+            "entrypoint": "."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dpl_7GNLZPMoVmiqZ3q4KFDMKY3FTfo6",
+      "name": "gamehubs-head-soccer-2026",
+      "state": "CANCELED",
+      "url": "https://vercel.com/gx03410-8651s-projects/gamehubs-head-soccer-2026/7GNLZPMoVmiqZ3q4KFDMKY3FTfo6",
+      "events": [
+        {
+          "created": 1792826080782,
+          "date": 1792826080782,
+          "type": "stdout",
+          "text": "Running build in Washington, D.C., USA (East) – iad1",
+          "info": {
+            "type": "build",
+            "name": "bld_90yw1yld0",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826080783,
+          "date": 1792826080783,
+          "type": "stdout",
+          "text": "Build machine configuration: 2 cores, 8 GB",
+          "info": {
+            "type": "build",
+            "name": "bld_90yw1yld0",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826080938,
+          "date": 1792826080938,
+          "type": "stdout",
+          "text": "Cloning github.com/seraseraqqq/gamehubs (Branch: main, Commit: 772f407)",
+          "info": {
+            "type": "build",
+            "name": "bld_90yw1yld0",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826080939,
+          "date": 1792826080939,
+          "type": "stdout",
+          "text": "Previous build caches not available.",
+          "info": {
+            "type": "build",
+            "name": "bld_90yw1yld0",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826083200,
+          "date": 1792826083200,
+          "type": "stdout",
+          "text": "Cloning completed: 2.262s",
+          "info": {
+            "type": "build",
+            "name": "bld_90yw1yld0",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826083531,
+          "date": 1792826083531,
+          "type": "stdout",
+          "text": "Running \"node ../../scripts/vercel-ignore.mjs games/head-soccer-2026\"",
+          "info": {
+            "type": "build",
+            "name": "bld_90yw1yld0",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826083706,
+          "date": 1792826083706,
+          "type": "stdout",
+          "text": "[gamehubs selective build] {\"build\":false,\"reason\":\"only unrelated files or game documentation changed\",\"baseline\":\"144f269628a5\",\"head\":\"772f40768c82\"}",
+          "info": {
+            "type": "build",
+            "name": "bld_90yw1yld0",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826083714,
+          "date": 1792826083714,
+          "type": "stderr",
+          "text": "The deployment was canceled because the Ignored Build Step command returned exit code 0.",
+          "info": {
+            "type": "build",
+            "name": "bld_90yw1yld0",
+            "entrypoint": "."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dpl_5ktwCiTCH7nzAg75kg9k3eYZNDkz",
+      "name": "gamehubs-snow-rider-3d",
+      "state": "READY",
+      "url": "https://vercel.com/gx03410-8651s-projects/gamehubs-snow-rider-3d/5ktwCiTCH7nzAg75kg9k3eYZNDkz",
+      "events": [
+        {
+          "created": 1792826080727,
+          "date": 1792826080727,
+          "type": "stdout",
+          "text": "Running build in Washington, D.C., USA (East) – iad1",
+          "info": {
+            "type": "build",
+            "name": "bld_jplud4o84",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826080728,
+          "date": 1792826080728,
+          "type": "stdout",
+          "text": "Build machine configuration: 2 cores, 8 GB",
+          "info": {
+            "type": "build",
+            "name": "bld_jplud4o84",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826080850,
+          "date": 1792826080850,
+          "type": "stdout",
+          "text": "Cloning github.com/seraseraqqq/gamehubs (Branch: main, Commit: 772f407)",
+          "info": {
+            "type": "build",
+            "name": "bld_jplud4o84",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826080851,
+          "date": 1792826080851,
+          "type": "stdout",
+          "text": "Previous build caches not available.",
+          "info": {
+            "type": "build",
+            "name": "bld_jplud4o84",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826082821,
+          "date": 1792826082821,
+          "type": "stdout",
+          "text": "Cloning completed: 1.971s",
+          "info": {
+            "type": "build",
+            "name": "bld_jplud4o84",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826083062,
+          "date": 1792826083062,
+          "type": "stdout",
+          "text": "Running \"node ../../scripts/vercel-ignore.mjs games/snow-rider-3d-unblocked\"",
+          "info": {
+            "type": "build",
+            "name": "bld_jplud4o84",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826083199,
+          "date": 1792826083199,
+          "type": "stdout",
+          "text": "[gamehubs selective build] {\"build\":true,\"reason\":\"game/runtime dependency changed\",\"baseline\":\"c6034dc0f5e6\",\"head\":\"772f40768c82\"}",
+          "info": {
+            "type": "build",
+            "name": "bld_jplud4o84",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826083367,
+          "date": 1792826083367,
+          "type": "stdout",
+          "text": "Running \"vercel build\"",
+          "info": {
+            "type": "build",
+            "name": "bld_jplud4o84",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826083380,
+          "date": 1792826083380,
+          "type": "stderr",
+          "text": "Vercel CLI 65.1.0",
+          "info": {
+            "type": "build",
+            "name": "bld_jplud4o84",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826084044,
+          "date": 1792826084044,
+          "type": "stdout",
+          "text": "Skipping \"install\" command...",
+          "info": {
+            "type": "build",
+            "name": "bld_jplud4o84",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826084102,
+          "date": 1792826084102,
+          "type": "stdout",
+          "text": "Exported 3 pages: preview / noindex. Nothing was deployed.",
+          "info": {
+            "type": "build",
+            "name": "bld_jplud4o84",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826084160,
+          "date": 1792826084160,
+          "type": "stderr",
+          "text": "Build Completed in /vercel/output [148ms]",
+          "info": {
+            "type": "build",
+            "name": "bld_jplud4o84",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826084187,
+          "date": 1792826084187,
+          "type": "stdout",
+          "text": "Deploying outputs...",
+          "info": {
+            "type": "build",
+            "name": "bld_jplud4o84",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826085045,
+          "date": 1792826085045,
+          "type": "stdout",
+          "text": "Deployment completed",
+          "info": {
+            "type": "build",
+            "name": "bld_jplud4o84",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826085049,
+          "date": 1792826085049,
+          "type": "stdout",
+          "text": "Creating build cache...",
+          "info": {
+            "type": "build",
+            "name": "bld_jplud4o84",
+            "entrypoint": "."
+          }
+        },
+        {
+          "created": 1792826085802,
+          "date": 1792826085802,
+          "type": "stdout",
+          "text": "Skipping cache upload because no files were prepared",
+          "info": {
+            "type": "build",
+            "name": "bld_jplud4o84",
+            "entrypoint": "."
+          }
+        }
+      ]
+    }
+  ],
+  "notCreated": [
+    {
+      "project": "gulperio-game",
+      "state": "rate-limited",
+      "source": "GitHub commit status",
+      "message": "Deployment rate limited — retry in 24 hours.",
+      "url": "https://vercel.com/gx03410-8651s-projects?upgradeToPro=build-rate-limit",
+      "ignoreRuleLiveVerification": "pending-quota-reset"
+    }
+  ],
+  "projectReadback": [
+    {
+      "slug": "head-soccer-2026",
+      "id": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+      "name": "gamehubs-head-soccer-2026",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792814800107,
+      "updatedAt": 1792826080439,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_7GNLZPMoVmiqZ3q4KFDMKY3FTfo6",
+        "url": "gamehubs-head-soccer-2026-a687xz3af-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792826080192,
+        "readyState": "CANCELED",
+        "target": "production"
+      },
+      "domains": [
+        "gamehubs-head-soccer-2026-gx03410-8651s-projects.vercel.app",
+        "gamehubs-head-soccer-2026-git-main-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    },
+    {
+      "slug": "block-blast-unblocked",
+      "id": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+      "name": "block-blast-unblocked",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792672742647,
+      "updatedAt": 1792826080524,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_ETpfQmuTm9GmwJzn1Ma6PVV3qLEX",
+        "url": "block-blast-unblocked-kmsbqykku-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792826080228,
+        "readyState": "CANCELED",
+        "target": "production"
+      },
+      "domains": [
+        "block-blast-unblocked-gx03410-8651s-projects.vercel.app",
+        "block-blast-unblocked-git-main-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    },
+    {
+      "slug": "summit-unlimited",
+      "id": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+      "name": "gamehubs-summit-unlimited",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792720757957,
+      "updatedAt": 1792826080558,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_7ym9Aom8r6NLUD7YSjRuZRJg54c4",
+        "url": "gamehubs-summit-unlimited-69ke9wnrs-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792826080249,
+        "readyState": "CANCELED",
+        "target": "production"
+      },
+      "domains": [
+        "gamehubs-summit-unlimited-gx03410-8651s-projects.vercel.app",
+        "gamehubs-summit-unlimited-git-main-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    },
+    {
+      "slug": "minute-cryptic-unlimited",
+      "id": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
+      "name": "gamehubs-minute-cryptic-unlimited",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792806760870,
+      "updatedAt": 1792826080564,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_fALkTFBUMCxgefh5FnPpwYea1KRF",
+        "url": "gamehubs-minute-cryptic-unlimited-ipah02uml.vercel.app",
+        "createdAt": 1792826080223,
+        "readyState": "CANCELED",
+        "target": "production"
+      },
+      "domains": [
+        "gamehubs-minute-cryptic-unlimited-gx03410-8651s-projects.vercel.app",
+        "gamehubs-minute-cryptic-unlim-git-2d7172-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    },
+    {
+      "slug": "coreball",
+      "id": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
+      "name": "gamehubs-coreball",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792806729110,
+      "updatedAt": 1792826080496,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_4JbrGdLqCu6gyvP2vXKEN9wt1Fqc",
+        "url": "gamehubs-coreball-2xsycjccd-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792826080213,
+        "readyState": "CANCELED",
+        "target": "production"
+      },
+      "domains": [
+        "gamehubs-coreball-gx03410-8651s-projects.vercel.app",
+        "gamehubs-coreball-git-main-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    },
+    {
+      "slug": "costcodle",
+      "id": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+      "name": "costcodle-unlimited",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792675185180,
+      "updatedAt": 1792826080490,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_9nWw53LeQDFL1YnkuKZ7byebmATB",
+        "url": "costcodle-unlimited-es1e61749-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792826080193,
+        "readyState": "CANCELED",
+        "target": "production"
+      },
+      "domains": [
+        "costcodle-unlimited-gx03410-8651s-projects.vercel.app",
+        "costcodle-unlimited-git-main-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    },
+    {
+      "slug": "spacebar-counter",
+      "id": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+      "name": "gamehubs-spacebar-counter",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792751059030,
+      "updatedAt": 1792826080579,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_9m8BZQitZdr4Xq1WREPNK9BS1Brn",
+        "url": "gamehubs-spacebar-counter-4hrrvcxeh-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792826080245,
+        "readyState": "CANCELED",
+        "target": "production"
+      },
+      "domains": [
+        "gamehubs-spacebar-counter-gx03410-8651s-projects.vercel.app",
+        "gamehubs-spacebar-counter-git-main-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    },
+    {
+      "slug": "gulperio",
+      "id": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+      "name": "gulperio-game",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792684511667,
+      "updatedAt": 1792825942776,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_BdVsESQ3tAru4cRAneRMzytGyDpM",
+        "url": "gulperio-game-nxl175x4a-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792817099345,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "domains": [
+        "gulperio.com",
+        "www.gulperio.com",
+        "gulperio-game-gx03410-8651s-projects.vercel.app",
+        "gulperio-game-git-main-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    },
+    {
+      "slug": "2048-cupcakes",
+      "id": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+      "name": "gamehubs-2048-cupcakes",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792751050278,
+      "updatedAt": 1792826080496,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_6SypSLKX6RxvR4DUP4UCrjkCRLL4",
+        "url": "gamehubs-2048-cupcakes-i8v4z9jtk-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792826080195,
+        "readyState": "CANCELED",
+        "target": "production"
+      },
+      "domains": [
+        "gamehubs-2048-cupcakes-gx03410-8651s-projects.vercel.app",
+        "gamehubs-2048-cupcakes-git-main-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    },
+    {
+      "slug": "snow-rider-3d-unblocked",
+      "id": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+      "name": "gamehubs-snow-rider-3d",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792814807219,
+      "updatedAt": 1792826085181,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_5ktwCiTCH7nzAg75kg9k3eYZNDkz",
+        "url": "gamehubs-snow-rider-3d-9ek1jaswv-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792826080187,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "domains": [
+        "snowrider3d.top",
+        "gamehubs-snow-rider-3d.vercel.app",
+        "www.snowrider3d.top",
+        "gamehubs-snow-rider-3d-gx03410-8651s-projects.vercel.app",
+        "gamehubs-snow-rider-3d-git-main-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    }
+  ],
+  "readbackCaveat": "Compact get_project domains reflect the latest deployment aliases. Canceled attempts omit live production aliases. Public URLs are checked separately; no domains/protection/settings other than ignore command were mutated."
+}

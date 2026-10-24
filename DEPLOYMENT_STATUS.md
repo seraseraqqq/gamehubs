@@ -2,6 +2,8 @@
 
 仓库改造补充：Cluster Rush 与 Acceleration City 已迁入各自独立私有仓库，仍未部署；本仓库原目录保留为快照。正式源码和构建策略见 [REPOSITORIES.md](REPOSITORIES.md)。以下为改造前 13:17 的部署基线，后续构建验证单独记录在 [REPOSITORY_REFACTOR.md](REPOSITORY_REFACTOR.md)。
 
+改造提交772f407的验证：Snow Rider成功构建；8个无关项目由构建规则跳过；Gulper.io遇到平台部署限额，规则执行尚未线上验收。10个现有公开站点复查均为HTTPS200。Vercel最新一次尝试显示CANCELED表示已跳过，原先的线上部署仍在服务。
+
 核对时间：2026-10-24 13:17（Asia/Shanghai）。范围：本工作区12个游戏目录、GitHub `seraseraqqq/gamehubs` 的 main，以及当前 Vercel 团队。Vercel 其他11个非本仓库项目不计入。
 
 **12个游戏目录均已推送 GitHub；10个已在 Vercel 成功部署；2个尚未部署。**

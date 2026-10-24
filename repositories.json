@@ -145,7 +145,8 @@
       "legacyPath": "games/acceleration-city",
       "legacyState": "frozen-migration-snapshot",
       "migrationState": "independent-repository",
-      "releaseState": "publication-deferred-by-owner"
+      "releaseState": "publication-deferred-by-owner",
+      "verifiedHead": "d554f04b044fabcd97c19b770b8bb4fe41793c6e"
     },
     {
       "siteId": "cluster-rush",
@@ -159,7 +160,8 @@
       "legacyPath": "games/cluster-rush",
       "legacyState": "frozen-migration-snapshot",
       "migrationState": "independent-repository",
-      "releaseState": "github-pushed-awaiting-deployment"
+      "releaseState": "github-pushed-awaiting-deployment",
+      "verifiedHead": "1bcc09648737f68009a64fe0a11653183814a764"
     }
   ]
 }

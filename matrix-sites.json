@@ -855,7 +855,8 @@
         "splitHistoryCommit": "b9735e264ca0a9768d12b86509ad29c56e48eaa5",
         "sourceCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
         "legacyPath": "games/acceleration-city",
-        "legacyState": "frozen-migration-snapshot"
+        "legacyState": "frozen-migration-snapshot",
+        "verifiedHead": "d554f04b044fabcd97c19b770b8bb4fe41793c6e"
       }
     },
     {
@@ -900,7 +901,8 @@
         "splitHistoryCommit": "f7205783b2a370fb70f14d9140446fedbcf3b9c1",
         "sourceCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
         "legacyPath": "games/cluster-rush",
-        "legacyState": "frozen-migration-snapshot"
+        "legacyState": "frozen-migration-snapshot",
+        "verifiedHead": "1bcc09648737f68009a64fe0a11653183814a764"
       }
     }
   ]
