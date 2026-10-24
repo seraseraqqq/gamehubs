@@ -36,6 +36,7 @@ if (origin) {
   await writeFile(path.join(out, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>${origin}/</loc></url></urlset>\n`);
 } else {
   html = html.replace(/<meta name="robots"[^>]*>/, '<meta name="robots" content="noindex, nofollow">');
+  html = html.replace(/\s*<link rel="canonical"[^>]*>/g, '').replace(/\s*<meta property="og:url"[^>]*>/g, '');
   await writeFile(path.join(out, 'robots.txt'), 'User-agent: *\nDisallow: /\n');
 }
 await writeFile(path.join(out, 'index.html'), html);

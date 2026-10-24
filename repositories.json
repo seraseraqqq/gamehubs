@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T07:13:38.554Z",
+  "updatedAt": "2026-10-24T09:20:00Z",
   "phase": "selective-build-and-two-independent-prototypes",
   "managementRepository": "https://github.com/seraseraqqq/gamehubs",
   "games": [
@@ -146,7 +146,7 @@
       "legacyState": "frozen-migration-snapshot",
       "migrationState": "independent-repository",
       "releaseState": "publication-deferred-by-owner",
-      "verifiedHead": "d554f04b044fabcd97c19b770b8bb4fe41793c6e"
+      "verifiedHead": "ba82e939249b775f5637248af986843c5d31ce4b"
     },
     {
       "siteId": "cluster-rush",
@@ -161,7 +161,7 @@
       "legacyState": "frozen-migration-snapshot",
       "migrationState": "independent-repository",
       "releaseState": "github-pushed-awaiting-deployment",
-      "verifiedHead": "1bcc09648737f68009a64fe0a11653183814a764"
+      "verifiedHead": "73a414801ab1e6a184737f27c9069ca7448692d3"
     }
   ]
 }

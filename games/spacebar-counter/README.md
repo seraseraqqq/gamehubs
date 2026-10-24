@@ -28,6 +28,12 @@ license and generated SEO files to dist/. Sources and default local exports
 remain noindex. The explicit production export sets matching canonical,
 Open Graph URL, robots and sitemap. Vercel preview environments remain noindex.
 
+The production export includes a 1200 × 630 sharing card with Open Graph/Twitter
+metadata and a matching WebApplication URL/image. Its source is the code-native
+SVG layout in `scripts/render-social-card.cjs`; regenerate it with
+`node scripts/render-social-card.cjs <absolute-sharp-module-path>`. Sharp is only
+used for local design work; the production build copies the checked-in PNG.
+
 The owner bought spacebarcounter.xyz at Spaceship and authorized deployment on
 2026-10-23. Vercel uses Root Directory games/spacebar-counter and vercel.json.
 Deployment and DNS verification status: ../../deployments/2026-10-23-games.md.

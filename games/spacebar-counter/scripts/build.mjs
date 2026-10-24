@@ -22,17 +22,27 @@ if (process.env.VERCEL_ENV && process.env.VERCEL_ENV !== 'production') origin = 
 await rm(out, { recursive: true, force: true });
 await mkdir(out, { recursive: true });
 for (const name of ['style.css', 'game.js', 'favicon.svg', 'LICENSE']) await cp(path.join(root, name), path.join(out, name));
+await mkdir(path.join(out, 'assets'), { recursive: true });
+await cp(path.join(root, 'assets/social-card.png'), path.join(out, 'assets/social-card.png'));
 let html = await readFile(path.join(root, 'index.html'), 'utf8');
 if (origin) {
-  html = html.replace('content="noindex, nofollow"', 'content="index, follow"');
+  html = html.replace('content="noindex, nofollow"', 'content="index, follow, max-image-preview:large"');
   const tags = [
     `<link rel="canonical" href="${origin}/">`,
     '<meta property="og:type" content="website">',
     '<meta property="og:title" content="Spacebar Counter — A Simple Spacebar Speed Test">',
     '<meta property="og:description" content="Count distinct spacebar presses, compare timed local rounds, or try a separately labeled tap test.">',
     `<meta property="og:url" content="${origin}/">`,
-    '<meta name="twitter:card" content="summary">',
-    `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebApplication', name: 'Spacebar Counter', url: `${origin}/`, applicationCategory: 'UtilitiesApplication', operatingSystem: 'Web browser', isAccessibleForFree: true, inLanguage: 'en' })}</script>`
+    `<meta property="og:image" content="${origin}/assets/social-card.png">`,
+    '<meta property="og:image:width" content="1200">',
+    '<meta property="og:image:height" content="630">',
+    '<meta property="og:image:alt" content="Spacebar Counter: count distinct presses in 5, 10, 30 or 60 seconds">',
+    '<meta name="twitter:card" content="summary_large_image">',
+    '<meta name="twitter:title" content="Spacebar Counter — A Simple Spacebar Speed Test">',
+    '<meta name="twitter:description" content="Count distinct spacebar presses, compare timed local rounds, or try a separately labeled tap test.">',
+    `<meta name="twitter:image" content="${origin}/assets/social-card.png">`,
+    '<meta name="twitter:image:alt" content="Spacebar Counter: count distinct presses in 5, 10, 30 or 60 seconds">',
+    `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebApplication', '@id': `${origin}/#counter`, name: 'Spacebar Counter', url: `${origin}/`, image: `${origin}/assets/social-card.png`, description: 'Count distinct spacebar presses in timed rounds or free count, with separate tap and click tests and browser-local history.', applicationCategory: 'UtilitiesApplication', operatingSystem: 'Web browser', isAccessibleForFree: true, inLanguage: 'en' })}</script>`
   ];
   html = html.replace('</head>', '  ' + tags.join('\n  ') + '\n</head>');
   await writeFile(path.join(out, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`);

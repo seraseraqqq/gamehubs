@@ -29,6 +29,12 @@ matching canonical, Open Graph URL and sitemap, and enable indexability in the
 export. This command never deploys and does not modify the preview sources.
 Review all production URLs before publishing.
 
+The production exporter includes the checked-in 1200 × 630 sharing card, matching
+Open Graph/Twitter metadata and the game's canonical URL/image in JSON-LD.
+`node scripts/render-social-card.cjs <absolute-sharp-module-path>` regenerates the
+code-native card layout from the original cupcake illustrations. Sharp is a local
+design tool only; the production build has no new dependencies.
+
 ## Controls and behavior
 
 - Arrow keys / WASD, swipes or four direction buttons move all cupcakes.

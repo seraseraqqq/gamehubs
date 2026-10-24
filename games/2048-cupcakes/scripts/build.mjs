@@ -1,5 +1,5 @@
 // Static export. Preview stays noindex unless an explicit production origin is supplied.
-import { cp, mkdir, readFile, writeFile, access, rm } from 'node:fs/promises';
+import { cp, mkdir, readFile, writeFile, rm } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
@@ -26,16 +26,21 @@ await rm(out, { recursive: true, force: true }); await mkdir(path.join(out, 'ass
 for (const name of ['style.css', 'game.mjs', 'engine.mjs', 'favicon.svg', 'LICENSE', 'THIRD_PARTY_NOTICES.md']) await cp(path.join(root, name), path.join(out, name));
 for (const name of ['cupcakes-atlas.webp', 'og-cover.png', 'LICENSE-2048.txt']) {
   const file = path.join(root, 'assets', name);
-  try { await access(file); await cp(file, path.join(out, 'assets', name)); } catch { if (name !== 'og-cover.png') throw new Error('Missing required asset: ' + name); }
+  await cp(file, path.join(out, 'assets', name));
 }
 let html = await readFile(path.join(root, 'index.html'), 'utf8');
 if (origin) {
-  html = html.replace('content="noindex, nofollow"', 'content="index, follow"');
+  html = html.replace('content="noindex, nofollow"', 'content="index, follow, max-image-preview:large"');
   const tags = [`<link rel="canonical" href="${origin}/">`, `<meta property="og:url" content="${origin}/">`, '<meta name="twitter:card" content="summary_large_image">'];
-  try {
-    await access(path.join(out, 'assets/og-cover.png'));
-    tags.push(`<meta property="og:image" content="${origin}/assets/og-cover.png">`, '<meta property="og:image:width" content="1200">', '<meta property="og:image:height" content="630">', '<meta property="og:image:alt" content="2048 Cupcakes by Crumb, a cozy cupcake merge puzzle">');
-  } catch { /* Optional share image; no nonexistent URL is emitted. */ }
+  tags.push(`<meta property="og:image" content="${origin}/assets/og-cover.png">`, '<meta property="og:image:width" content="1200">', '<meta property="og:image:height" content="630">', '<meta property="og:image:alt" content="2048 Cupcakes: slide, match and merge toward the rainbow cupcake">', `<meta name="twitter:image" content="${origin}/assets/og-cover.png">`, '<meta name="twitter:image:alt" content="2048 Cupcakes: slide, match and merge toward the rainbow cupcake">');
+  tags.push('<meta name="twitter:title" content="2048 Cupcakes — A Cozy Cupcake Merge Game">', '<meta name="twitter:description" content="Slide and merge matching cupcakes toward 2048. Play free with undo, local saves, arrow keys, WASD or swipe controls.">');
+  html = html.replace(/(<script type="application\/ld\+json">)([\s\S]*?)(<\/script>)/, (_, start, raw, end) => {
+    const game = JSON.parse(raw);
+    game.url = `${origin}/`;
+    game['@id'] = `${origin}/#game`;
+    game.image = `${origin}/assets/og-cover.png`;
+    return start + JSON.stringify(game) + end;
+  });
   html = html.replace('</head>', '  ' + tags.join('\n  ') + '\n</head>');
   await writeFile(path.join(out, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`);
   await writeFile(path.join(out, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>${origin}/</loc></url></urlset>\n`);

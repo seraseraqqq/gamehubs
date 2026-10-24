@@ -49,7 +49,7 @@ class Page(HTMLParser):
 
 def check(root):
     page = Page()
-    page.feed((root / 'index.html').read_text())
+    page.feed((root / 'index.html').read_text(encoding='utf-8'))
     assert page.h1_count == 1, 'Expected one descriptive H1'
     assert len(page.ids) == len(set(page.ids)), 'Duplicate HTML IDs'
     assert 'word game' in page.title.lower(), 'Title must describe the game'
@@ -82,7 +82,7 @@ def check(root):
         assert canonical.startswith('https://')
         assert page.meta['og:url'] == webpage['url'] == game['url'] == canonical
         assert page.meta['og:image'] == page.meta['twitter:image'] == canonical + 'assets/starling-social.png'
-        robots = (root / 'robots.txt').read_text()
+        robots = (root / 'robots.txt').read_text(encoding='utf-8')
         assert 'Sitemap: ' + canonical + 'sitemap.xml' in robots
         sitemap = ET.parse(root / 'sitemap.xml')
         assert [x.text for x in sitemap.findall('.//{*}loc')] == [canonical]

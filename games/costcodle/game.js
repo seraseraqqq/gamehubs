@@ -455,7 +455,7 @@
       this.guesses.forEach(g => {
         text += `${g.emoji} ${g.arrow}\n`;
       });
-      text += `Play free: https://costcodle-unlimited.vercel.app/`;
+      text += `Play free: https://costcodle.cc/`;
 
       if (navigator.clipboard) {
         navigator.clipboard.writeText(text).then(() => {

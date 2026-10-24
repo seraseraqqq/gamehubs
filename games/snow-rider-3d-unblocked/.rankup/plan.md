@@ -15,4 +15,6 @@ Evidence: [deployment record](../../../deployments/2026-10-24-owned-game-domains
 
 ## Alternative research — 2026-10-24
 
-[Local probe results](../../../research/2026-10-24-snow-rider/alternatives/README.md) informed the subsequent Miniplay switch. [Current release](../../../deployments/2026-10-24-snow-rider-miniplay.md), [workspace deployment inventory](../../../DEPLOYMENT_STATUS.md).
+[Local probe results](../../../research/2026-10-24-snow-rider/alternatives/README.md) informed the subsequent Miniplay switch. [Current release](../../../deployments/2026-10-24-snow-rider-miniplay.md), [workspace deployment inventory](../../../DEPLOYMENT_STATUS.md).## SEO maintenance — 2026-10-24
+
+Current Miniplay metadata and social cards are checked in the [portfolio SEO review](../../../deployments/2026-10-24-seo-protected-games.md). The old direct-provider onboarding task is superseded; preserve the existing noindex hold until actual-domain gameplay acceptance. This SEO pass makes no deployment or environment change.

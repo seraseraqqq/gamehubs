@@ -29,7 +29,7 @@ The HTML contains one H1, readable instructions, matching visible FAQ/JSON-LD, a
 
 ```sh
 node scripts/build.mjs                         # noindex local export
-node scripts/build.mjs --origin https://costcodle-unlimited.vercel.app        # production export
+node scripts/build.mjs --origin https://costcodle.cc        # production export
 ```
 
 `vercel.json` builds `dist/`. The allowlist publishes runtime files, asset/license notices, robots and sitemap; it excludes scripts, design sources, raw datasets, research, README and test evidence. Non-production Vercel environments are noindex even if the origin argument is present. An export does not deploy anything.

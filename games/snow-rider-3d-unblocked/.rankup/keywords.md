@@ -4,7 +4,7 @@ Updated 2026-10-24; English / US. Volume and KD unknown; observed normalized Tre
 
 | Route | Primary phrase | Intent |
 |---|---|---|
-| / | snow rider 3d unblocked | Existing game in the GameDistribution iframe; independent site with publisher credit |
+| / | snow rider 3d unblocked | Existing game in Miniplay’s public embed; independent site with publisher credit |
 | /snow-rider-3d-controls.html | snow rider 3d controls | Publisher controls and practical loading help |
 | /about.html | snow rider game page privacy | Site identity, external game delivery/credits/privacy; supporting page |
 

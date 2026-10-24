@@ -1,6 +1,6 @@
 # Source and asset provenance — current publisher player
 
-Updated 2026-10-24. The existing Snow Rider 3D game is loaded from the public GameDistribution player at https://html5.gamedistribution.com/3b79a8537ebc414fb4f9672a9b8c68c8/ . Its catalog credits GameBiz. Game content and trademarks belong to their respective owners; this site is an independent publisher page.
+Updated 2026-10-24. The existing Snow Rider 3D game is loaded through Miniplay’s public embed at https://www.miniplay.com/embed/snow-rider-3d . Miniplay uses GameDistribution for game delivery; the underlying catalog credits GameBiz. The earlier direct GameDistribution integration is superseded. Game content and trademarks belong to their respective owners; this site is an independent publisher page.
 
 - player.js: original first-party loading/fullscreen/recovery wrapper only. It contains no game simulation and leaves the publisher's SDK/branding/ads intact.
 - index.html, guide, about.html and style.css: original site shell and help copy, revised for the actual publisher game.

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-24T04:44:31.204Z",
+  "checkedAt": "2026-10-24T09:11:00.014Z",
   "checks": [
     {
       "name": "index.html: one H1",
@@ -24,6 +24,14 @@
     },
     {
       "name": "index.html: independent-site disclosure",
+      "pass": true
+    },
+    {
+      "name": "index.html: Twitter share card",
+      "pass": true
+    },
+    {
+      "name": "index.html: Twitter title and description match page",
       "pass": true
     },
     {
@@ -100,6 +108,14 @@
       "pass": true
     },
     {
+      "name": "snow-rider-3d-controls.html: Twitter share card",
+      "pass": true
+    },
+    {
+      "name": "snow-rider-3d-controls.html: Twitter title and description match page",
+      "pass": true
+    },
+    {
       "name": "snow-rider-3d-controls.html: local target ./favicon.svg",
       "pass": true
     },
@@ -145,6 +161,14 @@
       "pass": true
     },
     {
+      "name": "about.html: Twitter share card",
+      "pass": true
+    },
+    {
+      "name": "about.html: Twitter title and description match page",
+      "pass": true
+    },
+    {
       "name": "about.html: local target ./favicon.svg",
       "pass": true
     },
@@ -158,6 +182,10 @@
     },
     {
       "name": "about.html: local target ./snow-rider-3d-controls.html",
+      "pass": true
+    },
+    {
+      "name": "about.html: valid JSON-LD without fabricated reviews",
       "pass": true
     },
     {
@@ -241,6 +269,10 @@
       "pass": true
     },
     {
+      "name": "index.html: absolute Twitter image",
+      "pass": true
+    },
+    {
       "name": "snow-rider-3d-controls.html: production canonical",
       "pass": true
     },
@@ -253,6 +285,10 @@
       "pass": true
     },
     {
+      "name": "snow-rider-3d-controls.html: absolute Twitter image",
+      "pass": true
+    },
+    {
       "name": "about.html: production canonical",
       "pass": true
     },
@@ -262,6 +298,10 @@
     },
     {
       "name": "about.html: absolute social image",
+      "pass": true
+    },
+    {
+      "name": "about.html: absolute Twitter image",
       "pass": true
     },
     {
@@ -297,5 +337,5 @@
       "pass": true
     }
   ],
-  "passed": 70
+  "passed": 80
 }

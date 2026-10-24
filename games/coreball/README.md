@@ -1,6 +1,6 @@
-# Coreball-style game
+# Coreball
 
-SEO target: **coreball**, with **coreball game** and **coreball online** on the same page. No separate consumer brand is used. The title, H1, introduction, social metadata and game description identify it as an independent Coreball-style game; it does not claim to be the original game.
+SEO target: **coreball**, with **coreball game** and **coreball online** on the same page. No separate consumer brand is used. The title, H1, description and social metadata lead with Coreball, gameplay and controls. Credits and provenance describe the project’s original code, art and level configurations.
 
 Original rotating-pin timing game. 30 authored, replayable levels, full-speed Challenge and separate 70% Practice mode. Keyboard, pointer and touch controls; local completions, attempts and best successful times. No backend.
 

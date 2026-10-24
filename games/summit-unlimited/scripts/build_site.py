@@ -35,8 +35,8 @@ def build(site_url, output):
     if output.exists() and any(output.iterdir()) and not marker.exists():
         raise ValueError('Output must be empty or a previous STARLING build.')
     output.mkdir(parents=True, exist_ok=True)
-    marker.write_text('Generated STARLING public site.\n')
-    page = (ROOT / 'index.html').read_text()
+    marker.write_text('Generated STARLING public site.\n', encoding='utf-8')
+    page = (ROOT / 'index.html').read_text(encoding='utf-8')
     canonical = html.escape(site_url, quote=True)
     if '  <!-- Production canonical and absolute social URLs are inserted by scripts/build_site.py. -->' in page:
         page = page.replace('  <!-- Production canonical and absolute social URLs are inserted by scripts/build_site.py. -->',
@@ -58,7 +58,9 @@ def build(site_url, output):
     preview = bool(os.environ.get('VERCEL_ENV') and os.environ['VERCEL_ENV'] != 'production')
     if preview:
         page = re.sub(r'<meta name="robots"[^>]*>', '<meta name="robots" content="noindex,nofollow">', page)
-    (output / 'index.html').write_text(page)
+        page = re.sub(r'\s*<link rel="canonical"[^>]*>', '', page)
+        page = re.sub(r'\s*<meta property="og:url"[^>]*>', '', page)
+    (output / 'index.html').write_text(page, encoding='utf-8')
     for filename in ('style.css', 'answer-bank.js', 'scene.js', 'game.js'):
         shutil.copy2(ROOT / filename, output / filename)
     public_assets = ['icon.svg', 'starling-social.png', 'fonts/Silkscreen-Regular.ttf', 'fonts/OFL.txt']
@@ -68,7 +70,7 @@ def build(site_url, output):
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(ROOT / 'assets' / filename, target)
     (output / 'robots.txt').write_text('User-agent: *\nDisallow: /\n' if preview else
-                                     'User-agent: *\nAllow: /\n\nSitemap: ' + site_url + 'sitemap.xml\n')
+                                     'User-agent: *\nAllow: /\n\nSitemap: ' + site_url + 'sitemap.xml\n', encoding='utf-8')
     ET.register_namespace('', 'http://www.sitemaps.org/schemas/sitemap/0.9')
     ns = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
     sitemap = ET.Element(ns + 'urlset')

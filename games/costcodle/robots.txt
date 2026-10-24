@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://costcodle-unlimited.vercel.app/sitemap.xml
+Sitemap: https://costcodle.cc/sitemap.xml
