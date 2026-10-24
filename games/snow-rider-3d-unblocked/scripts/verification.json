@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-24T04:17:42.122Z",
+  "checkedAt": "2026-10-24T04:44:31.204Z",
   "checks": [
     {
       "name": "index.html: one H1",
@@ -14,8 +14,8 @@
       "name": "index.html: description <=155 characters",
       "pass": true,
       "detail": {
-        "length": 145,
-        "description": "Play Snow Rider 3D online in your browser. Steer your sled, jump obstacles and collect gifts. GameDistribution player, controls and loading help."
+        "length": 137,
+        "description": "Play Snow Rider 3D online in your browser. Steer your sled, jump obstacles and collect gifts. Miniplay player, controls and loading help."
       }
     },
     {
@@ -132,8 +132,8 @@
       "name": "about.html: description <=155 characters",
       "pass": true,
       "detail": {
-        "length": 138,
-        "description": "About this independent Snow Rider 3D game page, the GameDistribution player, third-party privacy choices, game credits and browser access."
+        "length": 130,
+        "description": "About this independent Snow Rider 3D game page, the Miniplay player, third-party privacy choices, game credits and browser access."
       }
     },
     {
@@ -177,15 +177,15 @@
       "pass": true
     },
     {
-      "name": "wrapper uses existing publisher game ID",
+      "name": "wrapper uses advertised Miniplay public embed",
       "pass": true
     },
     {
-      "name": "SDK referrer uses actual page URL",
+      "name": "wrapper does not supply another site as SDK referrer",
       "pass": true
     },
     {
-      "name": "CSP permits the selected publisher and its official SDK frame",
+      "name": "CSP permits the selected Miniplay frame only",
       "pass": true
     },
     {
@@ -218,6 +218,14 @@
     },
     {
       "name": "export excludes superseded original file assets/social-card.jpg",
+      "pass": true
+    },
+    {
+      "name": "owned origin stays noindex before gameplay acceptance",
+      "pass": true
+    },
+    {
+      "name": "testing export omits sitemap",
       "pass": true
     },
     {
@@ -289,5 +297,5 @@
       "pass": true
     }
   ],
-  "passed": 68
+  "passed": 70
 }

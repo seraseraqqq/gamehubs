@@ -1,14 +1,14 @@
 // Publisher-provided Snow Rider 3D player. No original game simulation is imported.
-const GAME_URL='https://html5.gamedistribution.com/3b79a8537ebc414fb4f9672a9b8c68c8/';
-function embedURL(pageURL){const page=new URL(pageURL),url=new URL(GAME_URL);url.searchParams.set('gd_sdk_referrer_url',page.origin+page.pathname);return url.href;}
+// Use Miniplay's advertised public embed; its own player manages distribution.
+const GAME_URL='https://www.miniplay.com/embed/snow-rider-3d';
 const $=id=>document.getElementById(id),stage=$('game'),mount=$('player-mount'),status=$('player-status');
-$('direct').href=embedURL(location.href);
+$('direct').href=GAME_URL;
 let frame,slowTimer,version=0;
 function loadGame(){
  clearTimeout(slowTimer);const attempt=++version;
  frame?.remove();stage.dataset.state='connecting';$('poster').hidden=true;$('reload').disabled=false;
  status.textContent='Opening the publisher player… The game may show a privacy prompt or an ad.';
- frame=document.createElement('iframe');frame.id='publisher-game';frame.title='Snow Rider 3D — GameDistribution player';frame.allow='autoplay; fullscreen; gamepad';frame.allowFullscreen=true;frame.referrerPolicy='strict-origin-when-cross-origin';frame.src=embedURL(location.href);
+ frame=document.createElement('iframe');frame.id='publisher-game';frame.title='Snow Rider 3D — Miniplay player';frame.allow='autoplay; fullscreen; gamepad';frame.allowFullscreen=true;frame.referrerPolicy='strict-origin-when-cross-origin';frame.src=GAME_URL;
  frame.addEventListener('load',()=>{if(attempt!==version)return;stage.dataset.state='connected';clearTimeout(slowTimer);status.textContent='Player page opened. Choose Play inside the player if shown; the game may still be loading.';});
  frame.addEventListener('error',()=>{if(attempt!==version)return;stage.dataset.state='connection-error';clearTimeout(slowTimer);status.textContent='The publisher player could not connect. Try Reload game or Open game.';});
  mount.append(frame);frame.focus();
