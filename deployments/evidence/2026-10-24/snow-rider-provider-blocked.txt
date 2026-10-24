@@ -16,7 +16,7 @@ Browser tab: 1958315538, Title: "Snow Rider 3D Unblocked — Play Free Online", 
 						38 heading SNOW RIDER 3D IS NOT AVAILABLE HERE., Value: 1
 							39 text SNOW RIDER 3D IS NOT AVAILABLE HERE.
 						40 heading IF YOU WANT TO PLAY SNOW RIDER 3D, CLICK HERE TO PLAY , Value: 2
-							41 text IF YOU WANT TO PLAY  SNOW RIDER 3D , 
+							41 text IF YOU WANT TO PLAY  SNOW RIDER 3D ,
 							42 link Description: CLICK HERE TO PLAY , Value: html5.gamedistribution.com/3b79a8537ebc414fb4f9672a9b8c68c8/?utm_source=snowrider3d.top&utm_medium=snow-rider-3d&utm_campaign=block-and-redirect
 						43 link Description: PLAY , Value: html5.gamedistribution.com/3b79a8537ebc414fb4f9672a9b8c68c8/?utm_source=snowrider3d.top&utm_medium=snow-rider-3d&utm_campaign=block-and-redirect
 		13 text ← → Steer ↑ / W Jump
@@ -37,7 +37,7 @@ Browser tab: 1958315538, Title: "Snow Rider 3D Unblocked — Play Free Online", 
 			28 button (collapsed) Why might the game not load?, Secondary Actions: Expand
 				29 text Why might the game not load?
 		30 container
-			31 text Game delivered by 
+			31 text Game delivered by
 			32 link Description: GameDistribution, Value: gamedistribution.com/games/snow-rider-3d/
 			33 text .
 		34 link Description: About & privacy, Value: snowrider3d.top/about.html
