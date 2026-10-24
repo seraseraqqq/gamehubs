@@ -9,3 +9,4 @@ Updated 2026-10-24 (Asia/Shanghai). Website wrapper deployed at https://snowride
 - Local checks: 68 static/export and 9 shell checks; local title/menu/tutorial observed. Actual-domain gameplay failed; full-round/physical-mobile/fullscreen-exit remain unverified.
 - Preserve publisher UI/SDK and actual parent referrer. Do not spoof another site or copy unlicensed binaries.
 - [Release and owner decision](../../../deployments/2026-10-24-owned-game-domains.md), [provider blocker](../../../deployments/evidence/2026-10-24/snow-rider-provider-blocked.txt), [sourcing](../../../research/2026-10-24-snow-rider/PACKAGE-SOURCING.md).
+- Alternative research: [three locally rendered public embeds and package checks](../../../research/2026-10-24-snow-rider/alternatives/README.md). Miniplay is the first existing-game candidate; Neo/Rush are distinct games. Production unchanged; actual-domain and full-round checks pending.

@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-10-24T04:31:43.553Z",
+  "results": [
+    {
+      "id": "original",
+      "url": "https://html5.gamemonetize.co/k6z3e79qwujg4gcfegdesc5y3j1me96y/",
+      "status": 403,
+      "title": "GameMonetize.com: Game distribution HTML5 Games for Websites",
+      "bytes": 7179,
+      "csp": null,
+      "xFrameOptions": null,
+      "scripts": [
+        "https://gamemonetize.com/js/runtime.js",
+        "https://gamemonetize.com/js/vendors.js",
+        "https://gamemonetize.com/js/main.js"
+      ],
+      "iframes": [],
+      "engineSignals": [
+        "   <title>GameMonetize.com: Game distribution HTML5 Games for Websites</title>",
+        "    <meta name=\"description\" content=\"GameMonetize.com is game distribution network with high quality HTML5 games. Monetize and distribute your HTML5 games. We connect game develop",
+        "    <link rel=\"shortcut icon\" href=\"https://gamemonetize.com/favicon/favicon.ico\">",
+        "    <link rel='stylesheet' href='https://gamemonetize.com/css/new/style.min.css' type='text/css' media='all' />",
+        "    <link rel=\"stylesheet\" href=\"https://gamemonetize.com/css/new/main-c.css?ver1\">",
+        ".dev-gamemonetize__title {",
+        "<img src=\"https://gamemonetize.com/images/gamepad-bgs.png\" width=\"70%\">",
+        "<section id=\"devgamemonetize\" data-effect=\"{ &quot;name&quot;: &quot;fadeInScaleOut&quot;, &quot;target&quot;: &quot;.dev-gamemonetize__item&quot; }\">",
+        "            <h2 class=\"hero section__title dev-gamemonetize__title\" data-text=\"Game not found!\">",
+        "<script type='text/javascript' src='https://gamemonetize.com/js/runtime.js'></script>",
+        "<script type='text/javascript' src='https://gamemonetize.com/js/vendors.js'></script>",
+        "<script type='text/javascript' src='https://gamemonetize.com/js/main.js'></script>"
+      ]
+    },
+    {
+      "id": "neo",
+      "url": "https://html5.gamemonetize.co/e4woyszceuiqga5qts3de48wf7gczzsb/",
+      "status": 200,
+      "title": "Snow Rider Neo",
+      "bytes": 54299,
+      "csp": null,
+      "xFrameOptions": null,
+      "scripts": [],
+      "iframes": [],
+      "engineSignals": [
+        "    forceWebGL: false,",
+        "  function webgl(atlas) {",
+        "    const gl = surface.getContext('webgl2', { alpha: false, antialias: false });",
+        "    if (!gl) { surface.remove(); throw new Error('WebGL2 unavailable'); }",
+        "    boot.forceWebGL = true;",
+        "    metrics.backend = 'WebGL2';",
+        "      try { webgl(atlas); }"
+      ]
+    },
+    {
+      "id": "rush",
+      "url": "https://html5.gamemonetize.co/qz19c89oeh9xgil0vhin4coe5c6y8o9x/",
+      "status": 200,
+      "title": "Snow Rush 3D",
+      "bytes": 21103,
+      "csp": null,
+      "xFrameOptions": null,
+      "scripts": [
+        "Build/Build.loader.js"
+      ],
+      "iframes": [],
+      "engineSignals": [
+        "        <canvas id=\"unity-canvas\"",
+        "            var canvas = document.querySelector(\"#unity-canvas\");",
+        "                dataUrl: \"Build/Build.data.unityweb\",",
+        "                frameworkUrl: \"Build/Build.framework.js.unityweb\",",
+        "                codeUrl: \"Build/Build.wasm.unityweb\",",
+        "                matchWebGLToCanvasSize: false,",
+        "            createUnityInstance(canvas, config, progressHandler).then(function (instance) {",
+        "            GameMonetize SDK bu template'e EKLENMEZ; sdk.js'i Unity tarafi enjekte eder:",
+        "            Assets/YK Template/Plugins/GameMonetizePlugin.jslib -> InitApi()"
+      ]
+    }
+  ]
+}

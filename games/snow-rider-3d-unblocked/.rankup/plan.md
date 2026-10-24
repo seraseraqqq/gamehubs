@@ -12,3 +12,7 @@ Owner confirmed: “还没有账户，先保留部署并记录待办”. Preserv
 Actual-domain verification reached the official blocked.html response with unregistered=true. Local title/menu success is not production gameplay evidence. Do not spoof a referrer, bypass the provider SDK or copy the unlicensed Unity package.
 
 Evidence: [deployment record](../../../deployments/2026-10-24-owned-game-domains.md), [provider response](../../../deployments/evidence/2026-10-24/snow-rider-provider-blocked.txt), [package sourcing](../../../research/2026-10-24-snow-rider/PACKAGE-SOURCING.md).
+
+## Alternative research — 2026-10-24
+
+[Local probe results](../../../research/2026-10-24-snow-rider/alternatives/README.md): public Miniplay Snow Rider 3D embed rendered the Unity title/menu; GameMonetize Neo/Rush rendered their own menus. Validate Miniplay on the actual domain if a provider change is requested. Production deployment and noindex remain unchanged. The publisher-onboarding checklist above remains a deferred option.

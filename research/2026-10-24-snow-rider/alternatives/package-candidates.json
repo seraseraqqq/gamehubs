@@ -1,0 +1,264 @@
+{
+  "checkedAt": "2026-10-24T04:31:20.039Z",
+  "results": [
+    {
+      "repo": "McNateyboii/tej",
+      "url": "https://github.com/McNateyboii/tej",
+      "defaultBranch": "main",
+      "fork": false,
+      "license": "MIT",
+      "files": [
+        {
+          "name": "LICENSE.md",
+          "type": "file",
+          "size": 1074
+        },
+        {
+          "name": "README.md",
+          "type": "file",
+          "size": 405
+        },
+        {
+          "name": "UnityLoader.js",
+          "type": "file",
+          "size": 156640
+        },
+        {
+          "name": "UnityProgress.js",
+          "type": "file",
+          "size": 1086
+        },
+        {
+          "name": "code.unityweb",
+          "type": "file",
+          "size": 6650777
+        },
+        {
+          "name": "config.json",
+          "type": "file",
+          "size": 293
+        },
+        {
+          "name": "data.unityweb",
+          "type": "file",
+          "size": 5813599
+        },
+        {
+          "name": "framework.unityweb",
+          "type": "file",
+          "size": 514240
+        },
+        {
+          "name": "index.html",
+          "type": "file",
+          "size": 1485
+        }
+      ],
+      "readme": "How to enable password protection:\nIt is very simple and won't keep anyone with moderate coding experience from bypassing, but is still very useful.\nTo enable:\nIn index.html, you can change the variables of line 18 and 19 to enable the password.\nSet 'const ENABLE_PASSWORD' line 18) to 1 to enable the password, and set 'const PASSWORD' (line 19) to whatever you want your password to be. Default is 1234\n",
+      "licenseText": "MIT License\n\nCopyright (c) 2026 Nathan Schoonover\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"
+    },
+    {
+      "repo": "games-source/snow-rider-3d",
+      "error": "Command failed: gh api repos/games-source/snow-rider-3d"
+    },
+    {
+      "repo": "arcadeclash/snow-rider-3d-unblocked",
+      "url": "https://github.com/arcadeclash/snow-rider-3d-unblocked",
+      "defaultBranch": "main",
+      "fork": false,
+      "license": "MIT",
+      "files": [
+        {
+          "name": "404.html",
+          "type": "file",
+          "size": 1808
+        },
+        {
+          "name": "Build",
+          "type": "dir",
+          "size": 0
+        },
+        {
+          "name": "CNAME",
+          "type": "file",
+          "size": 22
+        },
+        {
+          "name": "LICENSE",
+          "type": "file",
+          "size": 1066
+        },
+        {
+          "name": "TemplateData",
+          "type": "dir",
+          "size": 0
+        },
+        {
+          "name": "ahrefs_585f4691b0e399a160cb6e0c016b4fcd7b0c55de8ae4d7dc4c83d5d0761520b3",
+          "type": "file",
+          "size": 89
+        },
+        {
+          "name": "favicon.ico",
+          "type": "file",
+          "size": 25214
+        },
+        {
+          "name": "index.html",
+          "type": "file",
+          "size": 1314
+        },
+        {
+          "name": "js",
+          "type": "dir",
+          "size": 0
+        },
+        {
+          "name": "json",
+          "type": "dir",
+          "size": 0
+        },
+        {
+          "name": "snow-rider-3d.png",
+          "type": "file",
+          "size": 153945
+        }
+      ],
+      "readme": "",
+      "licenseText": "MIT License\n\nCopyright (c) 2025 gamehippy\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+    },
+    {
+      "repo": "Especially43/snow-rider",
+      "url": "https://github.com/Especially43/snow-rider",
+      "defaultBranch": "main",
+      "fork": false,
+      "license": "MIT",
+      "files": [
+        {
+          "name": "LICENSE",
+          "type": "file",
+          "size": 1069
+        },
+        {
+          "name": "README.md",
+          "type": "file",
+          "size": 1205
+        },
+        {
+          "name": "index.html",
+          "type": "file",
+          "size": 2762
+        },
+        {
+          "name": "og-image.jpg",
+          "type": "file",
+          "size": 67397
+        }
+      ],
+      "readme": "# ❄️ Snow Rider 3D\n\n**Snow Rider 3D** is a fast-paced, endless snowboarding game where your goal is simple: ride as far as you can without crashing. Dodge trees, rocks, and obstacles while gliding down a snowy slope at increasing speed. Easy to play, hard to master.\n\n![Snow Rider 3D Preview](https://especially43.github.io/snow-rider/og-image.jpg)\n\n## 🎮 Gameplay\n- Control a rider speeding downhill on a snowy track  \n- Avoid obstacles like trees, snowmen, and rocks  \n- The longer you survive, the faster and harder it gets  \n- Test your reflexes and aim for a high score  \n\n## 🕹️ Controls\n- **Left / Right Arrow Keys** – Steer\n- **A / D** – Alternative steering controls  \n- Simple controls, instant fun\n\n## 🌐 Play Online\nYou can play Snow Rider 3D directly in your browser here:  \n👉 **https://especially43.github.io/snow-rider/**\n\n## ⭐ Features\n- Smooth 3D graphics  \n- Endless runner gameplay  \n- Increasing difficulty for added challenge  \n- Works on desktop browsers with no installation  \n\n## 📌 About\nSnow Rider 3D is perfect for quick gaming sessions or competing with friends for the highest score. Jump in, ride fast, and try not to crash!\n\nEnjoy the ride 🏂❄️\n",
+      "licenseText": "MIT License\n\nCopyright (c) 2026 Especially43\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+    },
+    {
+      "repo": "TonGaming/Snow-Rider",
+      "url": "https://github.com/TonGaming/Snow-Rider",
+      "defaultBranch": "main",
+      "fork": false,
+      "license": "MIT",
+      "files": [
+        {
+          "name": ".gitignore",
+          "type": "file",
+          "size": 1284
+        },
+        {
+          "name": ".vsconfig",
+          "type": "file",
+          "size": 99
+        },
+        {
+          "name": "Assets",
+          "type": "dir",
+          "size": 0
+        },
+        {
+          "name": "Demo",
+          "type": "dir",
+          "size": 0
+        },
+        {
+          "name": "LICENSE",
+          "type": "file",
+          "size": 1068
+        },
+        {
+          "name": "Packages",
+          "type": "dir",
+          "size": 0
+        },
+        {
+          "name": "ProjectSettings",
+          "type": "dir",
+          "size": 0
+        },
+        {
+          "name": "README.md",
+          "type": "file",
+          "size": 2892
+        }
+      ],
+      "readme": "# Snow-Rider\nThis project is a 2D Skating game written using the Unity game engine. This game was built primarily for self-educational purposes \n\n# Gameplay Features\n- You are Eddy, a professional stunt puller who has gone through many trials and errors seeking the thrill of life through reckless and dangerous risky sports... \n\n  This time you encountered the highest peek in the world, the World Holder - the world's highest snow mountain that comes with freezing wind, below zero temperature, and deadly slopes and hills of all kinds...\n\n  What stunts will you pull this time? Will the legend thrive and prosper? Or will this be the last of his stunts? His fate falls into your hands...\n\n- Press W to boost, S to slow down(you can't go backward), press A and D to tilt/ rotate, same goes with the arrow and press space to jump\n\n- Remember, You are playing as the legendary stunt puller, try to do as many flip, rotate, tricks as you can. Make Eddy proud!\n\n- Be careful, if you smack Eddy's head to the ground, Eddy will be seriously injured and not happy at all, so control your flipping! \n\n## Gameplay Demo\n- [Try it out right here!](https://lady-killer.itch.io/snow-ryder)\n- Video demo:\n[You can watch the demo gameplay here](https://drive.google.com/file/d/1De7B4My6b9uXqwuqZNXwZ41nBEpmDsIF/view?usp=drive_link)https://drive.google.com/file/d/1De7B4My6b9uXqwuqZNXwZ41nBEpmDsIF/view?usp=drive_link\n\n- Gamplay Image\n- ![DemoScreenshot1](https://github.com/LadyKillerr/Snow-Rider/assets/107382099/254c1f3e-ac6d-42f5-b2e2-9b3f1333418b)\n  What a sight for sore eyes eh\n  \n- ![DemoScreenshot7](https://github.com/LadyKillerr/Snow-Rider/assets/107382099/23656fd1-b439-4903-a15b-4df22135dbc0)\n  Skating with particles under his board, neet\n\n- ![DemoScreenshot4](https://github.com/LadyKillerr/Snow-Rider/assets/107382099/7a27adf5-3935-4a51-9575-6a1862522761)\n  Even have some jets to slow down or rotate while in the air, sweet\n  \n- ![DemoScreenshot5](https://github.com/LadyKillerr/Snow-Rider/assets/107382099/a16152fc-351f-43ee-9826-3560adce07d3)\n  And fireworks when he crossed the finish line, now that's something\n\n- ![DemoScreenshot3](https://github.com/LadyKillerr/Snow-Rider/assets/107382099/d0949e1e-5cc3-443e-82f0-91d744cb47c4)\n  Uh Oh, got to be careful, Eddy cracks like an egg if his head got crashed into the snow\n\n## Things I learned making this 2D skating game\n- How to use sprite shapes\n- Setup a basic follow camera using Cinemachine\n- Using Surface Effector2D and Edge Collider\n- Using AddTorque instead of .Rotate() to control Eddy\n- Using SceneManagement and LoadScene() to reload a level\n- Creating Delays using Invoke\n- Learning the fundamentals of Particles, implementing Audio, and how to trigger them\n- Learn how to use FindObjectOfType and set methods to public to access them from another script.\n### And many many more while getting through making this project...\n",
+      "licenseText": "MIT License\n\nCopyright (c) 2023 LadyKillerr\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+    },
+    {
+      "repo": "amat55/SnowRider",
+      "url": "https://github.com/amat55/SnowRider",
+      "defaultBranch": "main",
+      "fork": false,
+      "license": "MIT",
+      "files": [
+        {
+          "name": ".gitignore",
+          "type": "file",
+          "size": 1011
+        },
+        {
+          "name": ".vscode",
+          "type": "dir",
+          "size": 0
+        },
+        {
+          "name": "Assets",
+          "type": "dir",
+          "size": 0
+        },
+        {
+          "name": "LICENSE.md",
+          "type": "file",
+          "size": 1081
+        },
+        {
+          "name": "Packages",
+          "type": "dir",
+          "size": 0
+        },
+        {
+          "name": "ProjectSettings",
+          "type": "dir",
+          "size": 0
+        },
+        {
+          "name": "README.md",
+          "type": "file",
+          "size": 12
+        },
+        {
+          "name": "UserSettings",
+          "type": "dir",
+          "size": 0
+        }
+      ],
+      "readme": "# SnowRider\n",
+      "licenseText": "\nThe MIT License (MIT)\n\nCopyright (c) 2025 Ahmet Senocak\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+    }
+  ]
+}
