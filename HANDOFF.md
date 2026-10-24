@@ -1,27 +1,18 @@
-# GameHubs handoff
+# GameHubs 当前接力
 
-Portfolio SEO repair completed — 2026-10-24: all 12 canonical game sites / 28 exported HTML pages reviewed; aggregate validation has zero failures. Scoped fixes include Costcodle domain/preview indexing, Head Soccer final www origin, missing sharing cards/metadata, schema identity, placeholder removal and current release records. See deployments/2026-10-24-seo-audit.md for per-game evidence and limits. Owner authorized this SEO GitHub batch despite the earlier push pause. Independent sources: Cluster Rush 73a4148 and Acceleration City ba82e93; frozen snapshots unchanged. Release holds/noindex remain. Production rollout, AITDK/PageSpeed and indexing acceptance are separate from the verified source delivery; unrelated existing local edits remain unstaged.
+更新：2026-10-24。管理仓库目录归位已完成；本轮另完成五个独立游戏本地首版，见[开发交付](research/2026-10-24-five-game-development/STATUS.md)；[整理清单与检查](management/history/2026-10-24-repository-cleanup.md)。旧交接和完整上下文保留在[历史交接](management/history/HANDOFF-before-cleanup-2026-10-24.md)。
 
-Current task — Gulperio copy (2026-10-24): domain binding and build/canonical/sitemap verified against gulperio.com. Direct game/SEO copy replaces inspired/independent/official-comparison framing; actual computer-rival/local-ranking descriptions remain.21 metadata/export checks pass. Source pushed at5432fff; GitHub's Vercel status reports deployment rate limited, retry in24 hours. Public homepage200 still serves the previous title; new copy is not live. [Release record](deployments/2026-10-24-gulper-copy.md). Next: after quota recovery deploy this pending source and verify the public title/social asset; do not repeatedly retry while rate-limited. Owner copy preference is recorded in AGENTS.md.
+## 当前进度
 
-Repository refactor (2026-10-24): [REPOSITORIES.md](REPOSITORIES.md) and [REPOSITORY_REFACTOR.md](REPOSITORY_REFACTOR.md). Cluster Rush / Acceleration City canonical sources are now their independent private repositories in `E:/Projects/game-sites/`; do not continue editing their GameHubs snapshots. Ten deployed projects remain linked to this repository with per-game Ignored Build Step filtering. Release holds remain in force.
+- 12个既有游戏：2个独立私有仓库、10个仍在过渡目录；源码位置见[仓库入口](management/REPOSITORIES.md)，发布状态见[部署总表](management/DEPLOYMENT_STATUS.md)。
+- Cutle、Poople、Colordle、Metazooa、Travle已分别创建私有gameshub-仓库，初始化文档已推送；随后授权的本地MVP已开发并通过已测范围，代码尚未提交/推送或部署。[项目资料](management/NEW_GAME_PROJECTS.md)。
+- 117词研究和11个建站方案完整保留：[关键词](research/2026-10-24-keyword-opportunities/SHORTLIST.md)、[开发优先级](research/2026-10-24-game-build-plan/README.md)。
+- 待发布的既有修改、平台限额与实际验收，按[下一轮安排](management/plans/2026-10-25.md)处理；不要依据旧历史记录直接部署。
 
-Live selective-build verification at 772f407: Snow Rider READY, 8 unrelated projects canceled by the ignore command; Gulper.io was rate-limited before deployment creation (platform says retry in24 hours), so its live ignore execution remains pending. All10 public URLs still return200. Remaining10 repository migrations are a subsequent phase; canceled attempts do not replace the existing production deployment.
+## 下一条要执行的动作
 
-Current deployment inventory (2026-10-24): [DEPLOYMENT_STATUS.md](DEPLOYMENT_STATUS.md). All12 game directories are pushed;10 Vercel production deployments are READY; Acceleration City and Cluster Rush are not deployed. Coreball/Minute Cryptic already have public Vercel URLs but remain noindex awaiting owned domains. This audit supersedes older blanket “not deployed” statements below.
+按Owner后续指令选择：继续既有站发布/验收时先读下一轮安排并重新确认平台状态；继续新游戏时进入各自`E:/Projects/game-sites/<slug>/.rankup/INDEX.md`，补实体手机/软键盘、缩放、跨浏览器与5人对照，再走名称/域名及生产发布门槛。不要重复建仓。
 
-- Cluster Rush: `games/cluster-rush`, preview `http://127.0.0.1:4202/`. Competitors use iframe + existing Unity; io loads external GitHub Pages NG/asm.js resources, net self-hosts a Unity build, Yoplay embeds Snokido, Geometry Lite directly embeds io game page. Same direct iframe approach built with original SEO guides; 92 export assertions + 10 HTTP checks pass. Real first-level game, focus/reload and responsive layout captured. Native fullscreen denied in controlled browser, focus fallback verified; phone touch unverified. [Research, screenshot gallery, difficulty, available domain shortlist](research/2026-10-24-cluster-rush/README.md). No deployment/purchase. Confirm embedding permission and owned domain before release; `.rankup` records live in the game directory.
+## 约束与工作区状态
 
-- Head Soccer 2026: `games/head-soccer-2026`, local preview `http://127.0.0.1:4201/`. Same official GamePix iframe architecture as direct competitor; [research, screenshots, difficulty and registrar-verified domains](research/2026-10-24-head-soccer-2026/README.md). Export/indexability/links/404 checks pass; actual solo pitch and controls observed, responsive layout checked. Own game DESIGN is scoped locally. Deployed to https://playheadsoccer.com/ after owner confirmed domain ownership. HTTPS, canonical, robots, sitemap and www301 verified; provider title rendered on actual domain. See deployments/2026-10-24-owned-game-domains.md. Real touch and revenue onboarding remain follow-ups.
-
-Updated 2026-10-24. Keyword-led single-game sites; no separate consumer brands.
-
-- Acceleration City: researched competitor iframe chains, saved screenshots, checked live domain availability and built a dark direct-CS2N iframe prototype in `games/acceleration-city`. [Research and current limits](research/2026-10-24-acceleration-city/README.md). Preview `http://127.0.0.1:4198/`; 68 static/behavior checks pass. Commercial embedding permission remains unknown (original says educational use only). Owner confirmed purchased playaccelerationcity.com but explicitly deferred publication because permission is not yet obtained. No Vercel project or DNS change. CUA stopped after the old native reload confirmation blocked browser control; new inline confirmation, mobile layout and native fullscreen need browser recapture before launch.
-
-- Snow Rider 3D: Miniplay public iframe replacement is deployed to https://snowrider3d.top/ (READY, c6034dc).70 static/export checks passed; public HTTP200 and noindex verified. Actual-domain full run/restart remains unverified because Computer Use could not reliably identify the Windows browser URL and stopped. Keep noindex until gameplay acceptance. [Current release](deployments/2026-10-24-snow-rider-miniplay.md).
-
-- Current directories: games/coreball and games/minute-cryptic-unlimited. Main queries: coreball and minute cryptic unlimited. Costcodle was not modified.
-- SEO implementation: [report](research/2026-10-23-keyword-seo/README.md).
-- Coreball redesigned with centered smooth peach fur ball, smooth 2D overhead closed cat paws (NOT pixel art or oblique paws), filled ivory toy pins and local impact feedback. User rejected the side-cat and dark ripples, then pixel duck-foot silhouettes. Preserve these corrections. [Design validation](research/2026-10-23-coreball-cats/README.md).
-- Rules, 30 levels and existing storage keys preserved. Scope of DESIGN.md is Coreball only; other games retain their visual systems.
-- Coreball/Minute Cryptic next: choose owned domains, configure SITE_ORIGIN, verify production and then enable indexing. Both already have READY deployments and public Vercel default URLs; remain noindex. See DEPLOYMENT_STATUS.md.
+保留Acceleration City嵌入许可hold、Cluster Rush许可/域名hold、Snow Rider实际域名游玩验收前noindex。冻结快照不修改；管理数据现在位于`management/data/`。Owner已授权推送本轮GameHubs管理整理、研究和跟进资料，提交与远端结果以Git记录为准；本轮不操作独立游戏仓库的运行代码，不手动部署。没有后台任务。

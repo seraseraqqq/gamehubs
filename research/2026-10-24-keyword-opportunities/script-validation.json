@@ -1,0 +1,15 @@
+{
+  "verifiedAt": "2026-10-24T10:36:16.928Z",
+  "browser": "User Chrome through CUA",
+  "readModule": "readSemrushBulk(sem) — executed on US overview and bulk pages",
+  "trendsFunction": "collectTrendBatch(gt,[slope unblocked,ovo game,eggy car,space waves,run 3 unblocked]) — actual series saved in raw/trends-02.json",
+  "batchModule": {
+    "import": "./collect-serp-batch.mjs",
+    "input": [
+      "poople"
+    ],
+    "intervalMs": 12500,
+    "serpRows": 10
+  },
+  "note": "Public UI research only; no Update metrics, API purchase, deployment or source game edits"
+}

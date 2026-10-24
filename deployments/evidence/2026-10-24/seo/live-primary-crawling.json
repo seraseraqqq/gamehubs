@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://www.playheadsoccer.com/robots.txt",
+    "status": 200,
+    "body": "User-agent: *\nAllow: /\nSitemap: https://playheadsoccer.com/sitemap.xml\n"
+  },
+  {
+    "url": "https://krilliononline.com/robots.txt",
+    "status": 200,
+    "body": "User-agent: *\nAllow: /\n\nSitemap: https://krilliononline.com/sitemap.xml\n"
+  },
+  {
+    "url": "https://costcodle.cc/robots.txt",
+    "status": 200,
+    "body": "User-agent: *\nAllow: /\nSitemap: https://costcodle-unlimited.vercel.app/sitemap.xml\n"
+  },
+  {
+    "url": "https://www.playheadsoccer.com/sitemap.xml",
+    "status": 200,
+    "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"><url><loc>https://playheadsoccer.com/</loc></url><url><loc>https://playheadsoccer.com/how-to-play.html</loc></url><url><loc>https://playheadsoccer.com/about.html</loc></url><url><loc>https://playheadsoccer.com/privacy.html</loc></url></urlset>"
+  },
+  {
+    "url": "https://costcodle.cc/sitemap.xml",
+    "status": 200,
+    "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"><url><loc>https://costcodle-unlimited.vercel.app/</loc></url></urlset>\n"
+  },
+  {
+    "url": "https://krilliononline.com/sitemap.xml",
+    "status": 200,
+    "body": "<?xml version='1.0' encoding='utf-8'?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"><url><loc>https://krilliononline.com/</loc></url></urlset>"
+  }
+]

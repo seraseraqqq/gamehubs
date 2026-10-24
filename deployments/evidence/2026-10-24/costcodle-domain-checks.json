@@ -1,0 +1,106 @@
+{
+  "checkedAt": "2026-10-24T09:02:17.890Z",
+  "origin": "https://costcodle.cc",
+  "productionDeployed": false,
+  "checks": [
+    {
+      "check": "preview: canonical",
+      "pass": true
+    },
+    {
+      "check": "preview: OG URL and image",
+      "pass": true
+    },
+    {
+      "check": "preview: Twitter image",
+      "pass": true
+    },
+    {
+      "check": "preview: structured game URL and image",
+      "pass": true
+    },
+    {
+      "check": "preview: no old URL in page",
+      "pass": true
+    },
+    {
+      "check": "preview: share URL",
+      "pass": true
+    },
+    {
+      "check": "preview: preview indexing gate",
+      "pass": true
+    },
+    {
+      "check": "preview: disallow and no sitemap",
+      "pass": true
+    },
+    {
+      "check": "production: canonical",
+      "pass": true
+    },
+    {
+      "check": "production: OG URL and image",
+      "pass": true
+    },
+    {
+      "check": "production: Twitter image",
+      "pass": true
+    },
+    {
+      "check": "production: structured game URL and image",
+      "pass": true
+    },
+    {
+      "check": "production: no old URL in page",
+      "pass": true
+    },
+    {
+      "check": "production: share URL",
+      "pass": true
+    },
+    {
+      "check": "production: preview indexing gate",
+      "pass": true
+    },
+    {
+      "check": "production: sitemap",
+      "pass": true
+    },
+    {
+      "check": "production: robots",
+      "pass": true
+    },
+    {
+      "check": "Vercel build origin",
+      "pass": true
+    },
+    {
+      "check": "source: index.html has no old host",
+      "pass": true
+    },
+    {
+      "check": "source: robots.txt has no old host",
+      "pass": true
+    },
+    {
+      "check": "source: sitemap.xml has no old host",
+      "pass": true
+    },
+    {
+      "check": "source: game.js has no old host",
+      "pass": true
+    },
+    {
+      "check": "source: README.md has no old host",
+      "pass": true
+    },
+    {
+      "check": "source: vercel.json has no old host",
+      "pass": true
+    }
+  ],
+  "passed": 24,
+  "total": 24,
+  "gameJsSyntaxValid": true
+}

@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-24T09:11:55.288Z",
+  "mode": "public (release holds preserved)",
+  "sites": 1,
+  "pages": 1,
+  "failures": [],
+  "results": [
+    {
+      "site": "costcodle",
+      "page": "index.html",
+      "title": "Costcodle Unlimited — Daily Price Guessing Game",
+      "description": "Guess a reference price in six tries. Play a shared UTC daily puzzle or unlimited practice, with higher/lower hints and a 5% winning window.",
+      "canonical": [
+        "https://costcodle.cc/"
+      ],
+      "robots": "index, follow, max-image-preview:large,index, follow, max-image-preview:large",
+      "issues": []
+    }
+  ]
+}

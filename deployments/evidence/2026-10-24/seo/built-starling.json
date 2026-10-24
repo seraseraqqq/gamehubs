@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-24T09:12:10.486Z",
+  "mode": "public (release holds preserved)",
+  "sites": 1,
+  "pages": 1,
+  "failures": [],
+  "results": [
+    {
+      "site": "krillion-unlimited",
+      "page": "index.html",
+      "title": "STARLING — Free Space Word Game & Rare Answer Challenge",
+      "description": "Play STARLING, a free space word game with seven timed prompts. Try uncommon answers, chase your best score and explore an animated pixel universe.",
+      "canonical": [
+        "https://krilliononline.com/"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "issues": []
+    }
+  ]
+}

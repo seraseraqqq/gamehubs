@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-24T09:12:32.446Z",
+  "mode": "preview",
+  "sites": 1,
+  "pages": 2,
+  "failures": [],
+  "results": [
+    {
+      "site": "coreball",
+      "page": "coreball-tips.html",
+      "title": "Coreball Tips & Level Guide: All 30 Original Levels",
+      "description": "Learn Coreball timing, changing rotation and slower Practice mode. Includes controls and a reference for all 30 levels in this free browser game.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "coreball",
+      "page": "index.html",
+      "title": "Coreball – Play Free Online | 30 Levels",
+      "description": "Play Coreball free online: place pins on a spinning fur ball across 30 levels. Tap or press Space to launch, retry anytime, or learn in slower Practice.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    }
+  ]
+}

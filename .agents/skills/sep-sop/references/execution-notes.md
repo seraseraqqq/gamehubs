@@ -36,6 +36,6 @@
 
 ## Portfolio Ledger
 
-Use the root `matrix-sites.json` as an inventory only; keep its records truthful and validate schema changes before writing. For each asset, track at minimum: stable ID, unit type, domain/URL, repo, primary intent, target market, game/source/license record, owner, created/deployed date, status, canonical/indexing state, ad approval state, analytics/Search Console connection state, costs, latest metrics date, and next decision. Never use `planned` as equivalent to deployed, indexed, or earning.
+Use the project's designated portfolio inventory; find its current path through AGENTS.md or README.md instead of assuming a root-level JSON file. Keep its records truthful and validate schema changes before writing. For each asset, track at minimum: stable ID, unit type, domain/URL, repo, primary intent, target market, game/source/license record, owner, created/deployed date, status, canonical/indexing state, ad approval state, analytics/Search Console connection state, costs, latest metrics date, and next decision. Never use `planned` as equivalent to deployed, indexed, or earning.
 
 Use explicit states such as `idea`, `researching`, `rights-check`, `building`, `qa`, `deployed`, `indexing-observed`, `monetization-pending`, `earning`, `hold`, and `retired`. Record transition dates and failure reasons. Do not delete historical outcomes when retiring an asset.

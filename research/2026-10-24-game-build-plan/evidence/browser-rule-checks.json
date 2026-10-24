@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-24",
+  "method": "Visible Chrome page and help/menu inspection with cua_repl; summarized observations, no source bundles reused",
+  "observations": [
+    {
+      "url": "https://poople.io/",
+      "rules": [
+        "A four-letter word ladder toward POOP",
+        "Each valid step changes exactly one letter",
+        "Daily starting word and minimum-step goal"
+      ],
+      "implementationImplication": "Build own dictionary, graph and daily schedule; do not publish original daily solutions as our own"
+    },
+    {
+      "url": "https://colordle.ryantanen.com/",
+      "rules": [
+        "Guess a hidden color by its name",
+        "A higher percentage indicates a closer match",
+        "New daily target"
+      ],
+      "helpLinks": [
+        "https://github.com/meodai/color-names"
+      ],
+      "implementationImplication": "MIT color-name data is a verified data source; original matching algorithm and game source license not established"
+    },
+    {
+      "url": "https://maptap.gg/",
+      "menuObserved": [
+        "Prior Days",
+        "Practice Levels",
+        "Player-Made Levels",
+        "Atlas",
+        "Groups",
+        "Versus",
+        "MapTap+"
+      ],
+      "implementationImplication": "Practice and archives already exist; do not sell these alone as a proven competitor gap"
+    }
+  ]
+}

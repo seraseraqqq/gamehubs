@@ -1,117 +1,28 @@
-# GameHubs
+# GameHubs · SEO游戏站群管理
 
-Repository management: [REPOSITORIES.md](REPOSITORIES.md). Cluster Rush and Acceleration City now have independent private repositories; their directories here are migration snapshots. Ten existing Vercel projects remain linked here with per-game selective builds. [Deployment inventory](DEPLOYMENT_STATUS.md) · [Refactor record](REPOSITORY_REFACTOR.md).
+本仓库管理游戏项目、关键词机会、域名、源码入口、发布验收与后续工作。新游戏使用独立私有仓库；当前仍有10个游戏临时从本仓库的games目录构建。
 
-## Cluster Rush — 2026-10-24
+| 需要查看 | 入口 |
+|---|---|
+| 当前进度与下一步 | [HANDOFF.md](HANDOFF.md) |
+| 部署、域名与发布阻塞 | [部署状态](management/DEPLOYMENT_STATUS.md) |
+| 正式源码仓库和工作目录 | [仓库入口](management/REPOSITORIES.md) |
+| 新游戏需求、设计、竞品与任务 | [5个新项目](management/NEW_GAME_PROJECTS.md) |
+| 下一轮安排 | [2026-10-25工作计划](management/plans/2026-10-25.md) |
+| 关键词机会与优先开发清单 | [117词机会库](research/2026-10-24-keyword-opportunities/SHORTLIST.md) · [建站计划](research/2026-10-24-game-build-plan/README.md) |
+| 历史关键词数据与Excel | [早期研究资料](research/2026-10-23-keyword-discovery/README.md) |
+| 机器台账 | [仓库映射](management/data/repositories.json) · [站点台账](management/data/matrix-sites.json) |
+| 交付与验收证据 | [发布记录](deployments/) · [调研资料](research/) |
 
-`games/cluster-rush` uses the existing Unity game through a direct iframe, matching the observed competitor architecture. Local preview: http://127.0.0.1:4202/ . Includes focused desktop play, keyboard controls checked in the first level, fullscreen fallback, inline reload confirmation and original control/loading guides. [Research, real competitor screenshots, difficulty and registrar-verified domains](research/2026-10-24-cluster-rush/README.md); [screenshot gallery](research/2026-10-24-cluster-rush/gallery.html). Static export checks pass; not deployed. Commercial embedding rights, owned domain, production/physical-device performance and mobile touch play remain unconfirmed. No ranking improvement is claimed.
+## 目录规则
 
-## Head Soccer 2026 — 2026-10-24
+- `management/`：项目管理文档、工作计划、机器台账、管理工具与整理历史。
+- `research/`：关键词、市场/竞品、域名与产品调研，保留来源证据。
+- `deployments/`：发布和验收记录，区分源码、部署、真实可玩、索引及接入状态。
+- `games/`：10个现役游戏的过渡源码，以及2个冻结迁移快照；后续逐个迁出，不新增游戏。
+- `scripts/vercel-ignore.mjs`：现役部署依赖，保持原路径。
+- `.rankup/`：项目接力、研究决策和初始化管理工具；`.agents/`为工作规则。
 
-`games/head-soccer-2026` is a static site around the official GamePix public-feed iframe, matching the direct competitor's architecture. Includes responsive game-first layout, accurate control references, focus mode, fullscreen fallback, supporting guide and domain-configured SEO export. Preview: http://127.0.0.1:4201/. Published at https://playheadsoccer.com/ using the owner’s purchased domain; release record: deployments/2026-10-24-owned-game-domains.md. [Research, screenshot gallery, difficulty and verified domain shortlist](research/2026-10-24-head-soccer-2026/README.md).
+根目录仅保留README、HANDOFF、AGENTS和必要隐藏配置；JSON、Excel、一次性测试和单游戏设计不放根目录。新游戏在`E:/Projects/game-sites/<slug>`独立开发，仓库默认私有。修改前按[AGENTS.md](AGENTS.md)核对正式源码入口。
 
-A collection of lightweight, high-performance, SEO-optimized browser mini-games.
-
-## Repository Structure
-
-Ten deployed game implementations remain in secondary directories under `games/`; migrated prototypes are retained as snapshots:
-
-```
-gamehubs/
-├── README.md
-├── matrix-sites.json
-└── games/
-    └── block-blast-unblocked/
-        ├── index.html
-        ├── style.css
-        ├── game.js
-        ├── favicon.svg
-        ├── assets/
-        ├── manifest.json
-        ├── robots.txt
-        ├── sitemap.xml
-                └── README.md
-```
-
-## Games Directory
-
-### Acceleration City — local prototype
-
-* **Directory**: [games/acceleration-city](games/acceleration-city/README.md)
-* **Research**: [competitor screenshots, embed evidence, difficulty and available domains](research/2026-10-24-acceleration-city/README.md)
-* Direct official iframe with a focused dark wrapper. Local noindex evaluation; commercial embedding rights and final browser checks remain unresolved. No deployment is claimed.
-
-### 1. Block Blast Unblocked
-* **Directory**: [`games/block-blast-unblocked`](games/block-blast-unblocked)
-* **Primary Keyword**: `block blast unblocked` (Volume: 22,200/mo, KD: 7)
-* **Visual Style**: Neo-Brutalist flat paper texture sticker theme (inspired by zadely.com)
-* **Tech Stack**: Vanilla HTML5 / CSS3 / ES6+ JavaScript / Web Audio API
-* **Features**: 8×8 block puzzle, smart solvable spawns, dual controls (drag & drop + tap to place), combo scale chimes, high-score local persistence.
-
-## Vercel Deployment
-
-### Deploying the Subdirectory directly
-Set the **Root Directory** in Vercel project settings to:
-```
-games/block-blast-unblocked
-```
-
-Each game is a separate Vercel project pointing at its own subdirectory. There
-is no shared root deployment configuration; do not deploy the repository root
-as one of these games.
-
-## New independent game sites
-
-| Game | Vercel root directory | Production origin |
-| --- | --- | --- |
-| 2048 Cupcakes / Crumb | games/2048-cupcakes | https://www.2048cupcakes.xyz |
-| Spacebar Counter | games/spacebar-counter | https://www.spacebarcounter.xyz |
-
-Both games are dependency-free static applications. Their vercel.json files
-build a whitelisted dist/ export with domain-specific canonical, robots and
-sitemap files. Source/local previews and Vercel preview builds remain noindex.
-Local Cupcakes preview: http://127.0.0.1:4180/.
-
-See each game's README and [deployment record](deployments/2026-10-23-games.md)
-for deployment and domain verification status. DNS is managed by the owner at
-Spaceship. Ads and Search Console are not connected. Vercel Web Analytics scripts are
-installed across all six deployed games; the owner manages the dashboard switches.
-See [Analytics release record](deployments/2026-10-23-analytics.md).
-
-
-## Existing-game review — 2026-10-23
-
-Reviewed Block Blast, Costcodle, Gulper.io-inspired solo arena and STARLING (`summit-unlimited`). Changes cover SEO accuracy, social cards, mobile layout, original category illustrations, controls, storage fallback and runtime-only exports. The owner authorized this validated batch to be committed and pushed to `origin/main`; production rollout is recorded separately. The older headline keyword estimates above are historical, not newly verified SEO evidence.
-
-[Inspection report and before/after evidence](research/2026-10-23-existing-games/report.html). Local review previews: Block Blast `4191`, Costcodle `4192`, Gulper `4193`, STARLING `4194`. Preview servers need to be running.
-
-
-## Repository delivery workflow
-
-The owner has authorized completed, validated GameHubs optimization changes to be committed and pushed directly to the existing GitHub repository without asking again. Keep commits scoped, exclude secrets/generated exports, and report the commit and push result. A push may trigger connected Vercel projects; verify deployment separately before claiming the production site changed. Domain purchases and paid services still require their own authorization.
-
-See [existing-game release record](deployments/2026-10-23-existing-games.md).
-
-
-## Second independent-game build — 2026-10-23
-
-| Game | Repository directory | Local preview |
-| --- | --- | --- |
-| Coreball-style game, 30 original levels | games/coreball | http://127.0.0.1:4195/ |
-| Minute Cryptic Unlimited practice — 20 original clues | games/minute-cryptic-unlimited | http://127.0.0.1:4196/ |
-
-Both are dependency-free static apps with local assets and safe browser-local progress. Default/source and Vercel preview builds are noindex; `SITE_ORIGIN` or an explicit approved `--origin` enables canonical/robots/sitemap only after the owner chooses an owned domain. No new Vercel project or domain purchase is performed in this batch. The game directories and public copy now use their SEO target keywords; no separate consumer brands are maintained.
-
-[Second-build evidence and domain candidates](research/2026-10-23-two-new-games/README.md).
-
-## Keyword-focused SEO update — 2026-10-23
-
-`games/orbit-pins` moved to `games/coreball`; `games/cryptic-practice` moved to `games/minute-cryptic-unlimited`. Each homepage targets its main query and links to one static supporting guide. Update any external Vercel Root Directory to the new path before the next build. Runtime storage keys remain compatible. No owned production origin is configured for either site.
-
-[SEO rationale, sources and validation](research/2026-10-23-keyword-seo/README.md).
-
-## Snow Rider 3D publisher game — 2026-10-24
-
-The owner replaced original development with the existing game. games/snow-rider-3d-unblocked now loads the GameDistribution Snow Rider 3D iframe. A complete Unity package was found but self-hosting rights were not established. The original engine/vendor are excluded from delivery. Preview: http://127.0.0.1:4197/ .
-
-68 static/export and 9 browser-shell checks pass; existing game title/menu/tutorial rendered. Full-round, physical-mobile and persistent fullscreen-exit validation remain outside the verified scope. Website wrapper: https://snowrider3d.top/ using the owner’s purchased domain. The actual game is blocked by GameDistribution as unregistered; production stays noindex pending publisher onboarding; release record: deployments/2026-10-24-owned-game-domains.md. [Current sourcing and integration evidence](research/2026-10-24-snow-rider/PACKAGE-SOURCING.md).
+当前为12个既有游戏＋5个独立本地MVP新项目。5个新项目已开发并完成已测范围，尚未部署；现有发布holds见部署总表。此次整理没有发布线上变更。[整理记录](management/history/2026-10-24-repository-cleanup.md)。

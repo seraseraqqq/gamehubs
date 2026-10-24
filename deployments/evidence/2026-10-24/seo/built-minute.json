@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-24T09:12:32.531Z",
+  "mode": "preview",
+  "sites": 1,
+  "pages": 2,
+  "failures": [],
+  "results": [
+    {
+      "site": "minute-cryptic-unlimited",
+      "page": "how-to-solve-cryptic-clues.html",
+      "title": "How to Solve Cryptic Clues: 5 Worked Examples",
+      "description": "Learn five cryptic clue types with worked examples: anagrams, hidden words, reversals, charades and containers. Read hints, then reveal each answer.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "minute-cryptic-unlimited",
+      "page": "index.html",
+      "title": "Minute Cryptic Unlimited – Free Cryptic Practice",
+      "description": "Play Minute Cryptic Unlimited free: 20 cryptic clues, three hints and explained answers. Practice five clue types with unlimited replay and no signup.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    }
+  ]
+}

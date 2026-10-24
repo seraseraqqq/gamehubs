@@ -1,0 +1,566 @@
+{
+  "collectedAt": "2026-10-24T10:10:55.794Z",
+  "url": "https://sem.3ue.com/analytics/keywordoverview/bulk/?q=murdle&db=us&bulk=LYVwTgJgNgpgPgdxha8BGYCGBjA1jAFwAJsBLAgTzmEMwC8B7BzRBsKVIkAOylOHLI4ARxBtUcAOYwGE7A24EYADwIMpMyVgAOACwpFJmGgGc4AMyiZJ20vBPYs3CSe0MCsOLrYnPbwlBwttpmJgqSsCZmCGwckiAwUWAWVpKGCVGk3GlGNHAQmKRQBrmJUlAMaLCGxjBAA",
+  "market": "US",
+  "rows": [
+    {
+      "cells": [
+        "Select keywords",
+        "Keyword",
+        "Intent",
+        "Volume",
+        "Trend",
+        "Pot. Traffic",
+        "PKD %",
+        "KD %",
+        "CPC (USD)",
+        "Com.",
+        "SERP Features",
+        "Results",
+        "Updated"
+      ],
+      "links": []
+    },
+    {
+      "cells": [
+        "quordle",
+        "quordle",
+        "n/a",
+        "1,830,000",
+        "",
+        "n/a",
+        "n/a",
+        "68",
+        "2.32",
+        "0.33",
+        "+3",
+        "88",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "quordle",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=quordle&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=quordle&db=us&serpId=b-g-97-0921-8223248655403685406"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "pips",
+        "pips",
+        "Informational\nI",
+        "550,000",
+        "",
+        "n/a",
+        "n/a",
+        "70",
+        "3.15",
+        "0.33",
+        "",
+        "103",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "pips",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=pips&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=pips&db=us&serpId=b-i-97-0921-15644459502178719156"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "contexto",
+        "contexto",
+        "Informational\nI",
+        "450,000",
+        "",
+        "n/a",
+        "n/a",
+        "50",
+        "0.00",
+        "0.33",
+        "",
+        "96",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "contexto",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=contexto&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=contexto&db=us&serpId=b-f-97-0921-4365074593012696233"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "bracket city",
+        "bracket city",
+        "Navigational\nN",
+        "135,000",
+        "",
+        "n/a",
+        "n/a",
+        "38",
+        "0.00",
+        "0.33",
+        "",
+        "n/a",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "bracket city",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=bracket+city&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=bracket+city&db=us&serpId=b-h-97-0924-4792467947683250823"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "spotle",
+        "spotle",
+        "Transactional\nT\nNavigational\nN",
+        "110,000",
+        "",
+        "n/a",
+        "n/a",
+        "23",
+        "0.00",
+        "0.33",
+        "",
+        "98",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "spotle",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=spotle&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=spotle&db=us&serpId=b-f-97-0925-2111853549472144004"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "worldguessr",
+        "worldguessr",
+        "Navigational\nN",
+        "110,000",
+        "",
+        "n/a",
+        "n/a",
+        "63",
+        "0.00",
+        "0.33",
+        "+2",
+        "n/a",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "worldguessr",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=worldguessr&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=worldguessr&db=us&serpId=b-f-97-0918-16412608182472188620"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "scrandle",
+        "scrandle",
+        "Informational\nI",
+        "90,500",
+        "",
+        "n/a",
+        "n/a",
+        "15",
+        "1.80",
+        "0.09",
+        "+2",
+        "95",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "scrandle",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=scrandle&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=scrandle&db=us&serpId=b-f-97-0921-12334007981260282741"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "songless",
+        "songless",
+        "Commercial\nC",
+        "74,000",
+        "",
+        "n/a",
+        "n/a",
+        "21",
+        "0.00",
+        "0.33",
+        "",
+        "120",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "songless",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=songless&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=songless&db=us&serpId=b-g-97-0919-1984592413531350359"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "weddle",
+        "weddle",
+        "Navigational\nN",
+        "60,500",
+        "",
+        "n/a",
+        "n/a",
+        "45",
+        "0.00",
+        "0.33",
+        "",
+        "155",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "weddle",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=weddle&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=weddle&db=us&serpId=b-e-97-0923-198616375112461728"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "murdle",
+        "murdle",
+        "Navigational\nN",
+        "49,500",
+        "",
+        "n/a",
+        "n/a",
+        "46",
+        "0.24",
+        "0.18",
+        "+3",
+        "n/a",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "murdle",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=murdle&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=murdle&db=us&serpId=b-f-97-0922-6707558253905847671"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "geography games",
+        "geography games",
+        "Informational\nI",
+        "27,100",
+        "",
+        "n/a",
+        "n/a",
+        "71",
+        "1.07",
+        "0.02",
+        "",
+        "166",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "geography games",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=geography+games&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=geography+games&db=us&serpId=b-i-97-0921-16674889307736268961"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "poetl",
+        "poetl",
+        "Commercial\nC",
+        "27,100",
+        "",
+        "n/a",
+        "n/a",
+        "29",
+        "0.00",
+        "0.33",
+        "",
+        "65.0K",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "poetl",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=poetl&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=poetl&db=us&serpId=b-f-97-0925-9849409652654570567"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "horsle",
+        "horsle",
+        "Commercial\nC",
+        "18,100",
+        "",
+        "n/a",
+        "n/a",
+        "10",
+        "0.00",
+        "0.33",
+        "+2",
+        "98",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "horsle",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=horsle&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=horsle&db=us&serpId=b-i-97-0922-5441522330081718323"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "worldle unlimited",
+        "worldle unlimited",
+        "Commercial\nC",
+        "18,100",
+        "",
+        "n/a",
+        "n/a",
+        "71",
+        "0.00",
+        "0.33",
+        "",
+        "100",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "worldle unlimited",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=worldle+unlimited&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=worldle+unlimited&db=us&serpId=b-g-97-0925-11845867340767177581"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "daily games",
+        "daily games",
+        "Informational\nI",
+        "14,800",
+        "",
+        "n/a",
+        "n/a",
+        "62",
+        "0.42",
+        "0.06",
+        "",
+        "170",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "daily games",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=daily+games&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=daily+games&db=us&serpId=b-i-97-0920-8971225412661532615"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "globle game",
+        "globle game",
+        "Navigational\nN",
+        "12,100",
+        "",
+        "n/a",
+        "n/a",
+        "32",
+        "5.83",
+        "0.33",
+        "",
+        "n/a",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "globle game",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=globle+game&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=globle+game&db=us&serpId=b-e-97-0919-10982535002721896988"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "metazooa",
+        "metazooa",
+        "Navigational\nN",
+        "12,100",
+        "",
+        "n/a",
+        "n/a",
+        "23",
+        "4.33",
+        "0.01",
+        "",
+        "n/a",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "metazooa",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=metazooa&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=metazooa&db=us&serpId=b-i-97-0925-11120215267042987687"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "flag guessing game",
+        "flag guessing game",
+        "Informational\nI",
+        "3,600",
+        "",
+        "n/a",
+        "n/a",
+        "43",
+        "0.11",
+        "0.01",
+        "",
+        "185",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "flag guessing game",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=flag+guessing+game&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=flag+guessing+game&db=us&serpId=b-i-97-0924-2603910440651910194"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "geodle",
+        "geodle",
+        "Navigational\nN",
+        "2,400",
+        "",
+        "n/a",
+        "n/a",
+        "15",
+        "0.25",
+        "0.33",
+        "",
+        "86",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "geodle",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=geodle&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=geodle&db=us&serpId=b-i-97-0923-12928105286710097995"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "flagpie",
+        "flagpie",
+        "Informational\nI",
+        "1,300",
+        "",
+        "n/a",
+        "n/a",
+        "28",
+        "0.00",
+        "0.33",
+        "",
+        "23.6K",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "flagpie",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=flagpie&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=flagpie&db=us&serpId=b-e-97-0925-3252339846965033831"
+        }
+      ]
+    }
+  ],
+  "text": "Skip to content\nmurdle\nAnalyze\nPricing\nEnterprise\nMore\nT\nHome\nSEO\nAI\nTraffic & Market\nLocal\nContent\nAd\nAI PR\nSocial\nReports\nApps\nSEO\nSite Performance\nCompetitive Analysis\nKeyword Research\nContent Ideas\nLink Building\nExtras\nOther\nHome\nSEO\nKeyword Overview\nKeyword Research course\nUser manual\nSend feedback\nKeyword Overview:\nmurdle\nUnited States\nUSD\nOverview\nBulk Analysis\nKeywords\n20/100\nClear all\n1.\nmurdle\n2.\nweddle\n3.\nbracket city\n4.\nmetazooa\n5.\nworldle unlimited\n6.\nquordle\n7.\ngeodle\n8.\ncontexto\n9.\ngeography games\n10.\nflagpie\n11.\nscrandle\n12.\nspotle\n13.\nhorsle\n14.\npoetl\n15.\npips\n16.\nsongless\n17.\nworldguessr\n18.\nflag guessing game\n19.\ndaily games\n20.\ngloble game\n21.\n﻿\n\nExamples:\nloans, movies, how to buy audible books\nAnalyze\nBulk Keyword Analysis\n20\nSend keywords\nUpdate metrics\n1,000/1,000\nManage columns\n9/10\nExport\nSelect keywords\nKeyword\nIntent\nVolume\nTrend\nKD %\nCPC (USD)\nCom.\nSERP Features\nUpdated\nSelected:\n0\nDeselect all\nCopy\nquordle\nquordle\nn/a\n1,830,000\n68\n2.32\n0.33\n+3\n1 month\npips\npips\nInformational\nI\n550,000\n70\n3.15\n0.33\n1 month\ncontexto\ncontexto\nInformational\nI\n450,000\n50\n0.00\n0.33\n1 month\nbracket city\nbracket city\nNavigational\nN\n135,000\n38\n0.00\n0.33\n4 weeks\nspotle\nspotle\nTransactional\nT\nNavigational\nN\n110,000\n23\n0.00\n0.33\n4 weeks\nworldguessr\nworldguessr\nNavigational\nN\n110,000\n63\n0.00\n0.33\n+2\n1 month\nscrandle\nscrandle\nInformational\nI\n90,500\n15\n1.80\n0.09\n+2\n1 month\nsongless\nsongless\nCommercial\nC\n74,000\n21\n0.00\n0.33\n1 month\nweddle\nweddle\nNavigational\nN\n60,500\n45\n0.00\n0.33\n4 weeks\nmurdle\nmurdle\nNavigational\nN\n49,500\n46\n0.24\n0.18\n+3\n1 month\ngeography games\ngeography games\nInformational\nI\n27,100\n71\n1.07\n0.02\n1 month\npoetl\npoetl\nCommercial\nC\n27,100\n29\n0.00\n0.33\n4 weeks\nhorsle\nhorsle\nCommercial\nC\n18,100\n10\n0.00\n0.33\n+2\n1 month\nworldle unlimited\nworldle unlimited\nCommercial\nC\n18,100\n71\n0.00\n0.33\n4 weeks\ndaily games\ndaily games\nInformational\nI\n14,800\n62\n0.42\n0.06\n1 month\ngloble game\ngloble game\nNavigational\nN\n12,100\n32\n5.83\n0.33\n1 month\nmetazooa\nmetazooa\nNavigational\nN\n12,100\n23\n4.33\n0.01\n4 weeks\nflag guessing game\nflag guessing game\nInformational\nI\n3,600\n43\n0.11\n0.01\n4 weeks\ngeodle\ngeodle\nNavigational\nN\n2,400\n15\n0.25\n0.33\n1 month\nflagpie\nflagpie\nInformational\nI\n1,300\n28\n0.00\n0.33\n4 weeks"
+}

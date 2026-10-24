@@ -1,0 +1,658 @@
+{
+  "source-web1": "X Trench Run - HTML5 Game Licensing - MarketJS (https://www.marketjs.com/item/x-trench-run/)\nciteturn4search0 [wordlim: 200] Crawled: 5 months ago; # X Trench Run - HTML5 Game ... HTML Game License\n\n# X Trench Run - HTML5 Game\n\nAvoid obstacles and take out the turrets\n\nGame Demo\n\nImage Tap to Play\n\nMobile demo: https://bit.ly/x-trench Play on big screen\n\n\nDescription\n\nAvoid obstacles and take out the turrets in this space simulation game.\n\nAs the nation’s star cadet, fly your x fighter wing deep into the enemy trench, disable enemy laser gates and hunt the boss.\n\nIt’s up to you to win this space war! Stay on course, don’t crash, and use your intuition!\n\nFeatures:\n\n  * Endless mode with increasing difficulty\n  * Highly repetitive five star gameplay. Every round is different\n  * Exciting boss fights. Earn your stars and stripes.\n  * Fast and energetic music\n  * Mobile and desktop friendly controls\n\n\nHTML Game License\n\nVIP Prime 5999 USD\n\nLicensing summary\n\n  * - Fully functional, compiled game.\n  * - For use on one project / end-product / client only.\n  * - Deploy on one domain of choice (one website).\n  * - No customization (game provided as-is).\n  * - For additional customizations, multiple use or other requests, please fill in the contact form, or email [email protected] - we will provide a custom price quote\n\nInterested to license the game? Contact us today.\n\nName\n\n[Input: Eg: John Doe]\n\nCompany Name\n\n[Input: Company Name]\n\nCompany Website\n\n[Input: Eg: https://company.com]\n\nEmail\n\nNote: Please use your corporate email address. We currently do not accept inquiries from gmail.com/yahoo.com/free email providers.\n\n[Input: Eg: john@company.com]\n\nSubject\n\n[Select]\n\nMessage\n\nPermissions (updated for GDPR)\n\n  [Input]   In order for MarketJS to respond to my inquiry, I agree to the Terms of Service and Privacy Policy of this website.\n\n  [Input]   I would like to subscribe to the MarketJS newsletter, for the latest games, case studies and products\n\n\nAre you robot or human? Please check the box.\n\nPlease check the box, and solve the puzzle.\n\n[Button: Submit]\n\nIf completing forms is not your cup of tea, feel free to email us directly at [email protected]\n\nLanguages\n\nFor a small additional fee, we can localize the English version into the following languages: German, French, Italian, Japanese, Chinese (Simplified and Traditional), Taiwanese, Portuguese, Spanish, Korean, Arabic, Russian, Swedish, Danish, Malay, Indonesian, Dutch, Vietnamese, Thai, Turkish, Czech, Greek, Finnish, Tagalog, Ukranian, Hebrew--------------------------------------------------------------------------------\nGames Metadata - MarketJS (https://www.marketjs.com/metadata/)\nciteturn4search1 [wordlim: 200] Crawled: last month; #  | Title  | Short Description  | Genre  | Short Link  | Orientation (Mobile)  | Orientation (Desktop)  | License Type  | Promo Zip  | Plays (Million)  | Avg. ... 411  | X Trench Run  | Avoid obstacles and take out the turrets  | Fighting, Hypercasual, Airplane, 3D, Aircraft, Space, Shooting, WebGL, Endless Runner, Physics, Singleplayer  | https://bit.ly/x-trench  | Landscape  | Landscape  | VIP Prime  | Download  | 2.5  | 00:05:25  |\n408  | Married To A Prince  | Romantic novel. Make choices, be the star of your own story  | Adventure, Girls, Interactive Comic, RPG, Role Playing Game, Chat Story, Interactive Story, Singleplayer  | https://bit.ly/married-prince  | Landscape  | Landscape  | Premium  | Download  | 2.5  | 00:05:00  | \n409  | Jewels Blocks Puzzle  | Create rows of jewels to win  | Brain, Cognitive, Puzzle, Family, Singleplayer  | https://bit.ly/jewels-blocks-hd  | Portrait  | Portrait  | Premium  | Download  | 2.5  | 00:05:00  | \n410  | How Smart Are You?  | Test your general knowledge  | Quiz, Trivia, Hypercasual, Family, Educational, Singleplayer  | https://bit.ly/how-smart-quiz  | Landscape  | Landscape  | Premium  | Download  | 2.5  | 00:05:00  | \n411  | X Trench Run  | Avoid obstacles and take out the turrets  | Fighting, Hypercasual, Airplane, 3D, Aircraft, Space, Shooting, WebGL, Endless Runner, Physics, Singleplayer  | https://bit.ly/x-trench  | Landscape  | Landscape  | VIP Prime  | Download  | 2.5  | 00:05:25  | \n412  | Spot The Patterns  | Predict the next object intelligently  | Kids, Preschool, Cognitive, Puzzle, Educational, Brain, Animals, Airplane, Hypercasual, Singleplayer  | https://bit.ly/spot-patterns  | Landscape  | Landscape  | Premium  | Download  | 2.5  | 00:05:00  | \n413  | Pro Cricket Champion  | Endless hypercasual cricket game  | Arcade, India, Brands, Hypercasual, Sports, Singleplayer  | https://bit.ly/pro-cricket  | Portrait  | Portrait  | Premium  | Download  | 2.5  | 00:05:00  | \n--------------------------------------------------------------------------------\njt13890’s gists · GitHub (https://gist.github.com/jt13890)\nciteturn4search2 [wordlim: 200] Published: 1.5 years ago; Crawled: last month; This is a hack file for https://colordle.ryantanen.com to use, just paste into browser console\n\n# Joseph E Tucker jt13890\n\nView GitHub Profile\n\n  * All gists 1\n\n  * 1 file\n  * 0 forks\n  * 0 comments\n  * 0 stars\n\njt13890 / Colordle Hacks.js\n\nCreated May 8, 2025 14:27\n\nThis is a hack file for https://colordle.ryantanen.com to use, just paste into browser console\n\n | function findTodaysColordleColorWithNativeDates() {\n | console.log(\"Attempting to find today's Colordle color using native Date objects...\");\n | \n | fetch('https://colordle.ryantanen.com/colors.json')\n | .then(response => {\n | if (!response.ok) {\n | throw new Error('Network response was not ok: ' + response.statusText);\n | }\n | return response.json(); // Parses the JSON response\n | })\n--------------------------------------------------------------------------------\nTraffic Road - Play Traffic Road On A-Z Games (https://www.azgames.io/traffic-road)\nciteturn4search3 [wordlim: 200] Crawled: last week; In Traffic Road, reaching the finish line on time is just the beginning; there are tougher challenges (or easier ones) waiting in its multiple modes.\n\n# Traffic Road\n\nImage: bad Image: poor Image: regular Image: good Image: gorgeous[Input]\n\n8359 votes 4.2/5\n\n28.4K\n\n## About Traffic Road\n\nTraffic Road is a 3D, fast-paced, first-person motorcycle driving game where your goal is to navigate through heavy highway traffic while avoiding collisions and scoring points for high-speed, skillful riding. Do not forget to brake when needed!\n\n### 4 Game Modes & A Flurry of Driving Challenges\n\nMultiple game modes, each with unique missions, bring added challenges and extra thrills to the gameplay experience. That’s true! In Traffic Road, reaching the finish line on time is just the beginning; there are tougher challenges (or easier ones) waiting in its multiple modes.\n\n  * Career mode takes you to race through a series of levels. Missions are completed by reaching the finish line before time runs out or by fulfilling other specific objectives revealed at the start of each level.\n  * Endless mode pushes your focus and reflexes to the limit: Navigate as far as you can without crashing, and see how long you can survive!\n  * Time Trial mode tests your speed and precision under time pressure and try to cover the best distance possible.\n  * Free mode lets you unwind and explore with no pressure, just pure discovery. It allows you to roam the world at your own pace without limits. Simply go as far as you want.\n\n## How to Play Traffic Road\n\nDrive your motorbike through busy urban roads, highways, or deserts and avoid crashes with other vehicles. By performing rewarding reflexes, precision, top speeds, and skillful dodges along the way, you will earn a lot of points, in-game money, and bonuses.\n\nStill, this game is not just about driving. It also lets you build an impressive collection of unlockable and upgradable motorbikes. With 30 captivating models to choose from, you can fill your garage with dream vehicles by completing engaging missions and earning as much in-game money as possible.\n\nSpend your earned money wisely, either on upgrading the vehicle’s power, handling, and braking or on buying more powerful models. Don’t just focus on driving and racing; aim to boost its performance.\n\n### Game Controls:\n\n  * Up arrow key: Accelerate\n  * Down arrow key: Brake\n  * Right and left arrows: Steer right or left.\n  * Q or E: Look to the left/right.\n\nReady to jump in, race your motorbike through busy streets, dodge unpredictable traffic, and tackle challenging routes that demand not just quick reflexes but also speed and precision? Play Traffic Road and conquer its various game modes.--------------------------------------------------------------------------------\nBuyer FAQ - MarketJS (https://www.marketjs.com/buyer-faq/)\nciteturn4search4 [wordlim: 200] Crawled: last month; You can embed the links into your web application via iFrame, or via the WebView in your app (as an example) ... We will specify in the license specifically, that the game will be used for your client (eg: Client X).\n\n## The solution\n\nMarketJS sells premium games that work on the browsers of smartphones, tablets, laptops and desktops. That covers the entire consumer devices market.\n\nMarketJS allows anyone to buy distribution licenses to ready-made HTML5 games.\n\nYou are buying the rights to use the game for one specific commercial purpose only.\n\n## The deliverables\n\nIt depends on the license.\n\nIf your are purchasing a fixed fee license, we deliver the compiled game files. This is the fully functional game, which you can upload to your own server.\n\nIf your are purchasing a subscription-based license, we deliver the game links (one link per game). You can embed the links into your web application via iFrame, or via the WebView in your app (as an example)\n\nNote: We do not deliver the raw source code, because that is our IP\n\n## Do you offer discounts for bulk purchases?\n\nYes. We offer discounts for purchases above 10 games.\n\nPlease use our contact form, or email [email protected]\n\n## What happens after a successful purchase?\n--------------------------------------------------------------------------------\nX-Trench Run (https://cdn-factory.marketjs.com/en/x-trench-run/index.html)\nciteturn4search5 [wordlim: 200] Crawled: 3 months ago; \nImage\n\nImage--------------------------------------------------------------------------------\nGitHub - holdencasey7/Codle: Codle is a basic code-guessing game that provides users with lines of code from which they must guess the programming language. · GitHub (https://github.com/holdencasey7/Codle)\nciteturn4search6 [wordlim: 200] Crawled: 2 months ago; The idea for this game came from the popular \"Wordle\" game. ... Concepts such as functions, variables, constants, switch-case logic, if-else logic, for loops, and, importantly, the document object model were explored and used in this project.\n\nholdencasey7 / Codle Public\n\n  * Notifications You must be signed in to change notification settings\n  * Fork 0\n  * Star\n\n  * Code\n  * Issues 0\n  * Pull requests 0\n  * Actions\n  * Projects\n  * Security and quality 0\n  * Insights\n\nAdditional navigation options\n\n## Latest commit\n\n \n\n## History\n\n8 Commits\nLICENSE  | LICENSE  |    |  \nREADME.md  | README.md  |    |  \nindex.html  | index.html  |    |  \nmain.css  | main.css  |    |  \nsource.js  | source.js  |    |  \n\n\n# Codle\n\nCreated by Holden Casey in April 2022, finalized in July 2022\n\nCodle is a basic code-guessing game that provides users with lines of code from which they must guess the programming language. Lines are given one at a time. The first line is given upon startup, and each subsequent line is given when the user either makes an incorrect guess or uses the skip button. All lines are revealed upon a correct guess. The game currently incorporates Java, Python, JavaScript, C, and COBOL as languages to guess from.\n\nThe game logic was written in JavaScript, with the game interface being designed in HTML with CSS styling. The idea for this game came from the popular \"Wordle\" game. Any similarities to other code-guessing games are coincidental.\n\nThe purpose of this project was not to create an industry-level game. In that regard, it surely falls far short. Rather, the purpose of this project was to explore basic web development, mainly how HTML, CSS, and JavaScript interact with each other, as well as to learn the syntax and capabilities of JavaScript. Concepts such as functions, variables, constants, switch-case logic, if-else logic, for loops, and, importantly, the document object model were explored and used in this project.\n\n## About\n\nCodle is a basic code-guessing game that provides users with lines of code from which they must guess the programming language.\n\n### Resources\n\nReadme\n\nMIT license\n\nActivity\n\n### Stars\n\n1 star\n\n### Watchers\n\n1 watching\n\n### Forks\n\n0 forks\n--------------------------------------------------------------------------------\nCar Games - Play Car Games On A-Z Games (https://azgames.io/category/car-games)\nciteturn4search7 [wordlim: 200] Crawled: 3 weeks ago; Traffic Road\n\n# Car Games\n\nTraffic Road\n\nTraffic Rally\n\nDrift Hunters\n\nTraffic Jam 3D\n\nWheelie Master\n\nMoto X3M\n\nEscape Road 3 Trending\n\nStreet Wheelie\n\nEscape Road City 2 Trending\n\nDrift Rush Trending\n\nJetski Race\n\nBike Xtreme\n\nPolice Drive Trending\n\nEscape Road 2\n\nEscape Road\n\nSmash Karts\n\nDeer Adventure Trending\n\nCrashy Rush Trending\n\nCar Chaos Trending\n\nCrazy Taxi Trending\n\nChase Rush\n\nAmerican Truck Driving\n\nRetro Rush Trending\n\nTap Drift\n\nWheelie Party Trending\n\nLoop Crash\n\nEscape Drive\n\nBlocky Rider\n\nEscape Road Halloween\n\nOvertake X\n\nDrift Boss\n\nMad Pursuit\n\nMad Racers Trending\n\nTraffic Rider\n\nSmashy Road\n\nEscape Road Winter\n\nMad Trails\n--------------------------------------------------------------------------------\nGitHub - amycatgirl/clordle: Wordle clone written in Clojure · GitHub (https://github.com/amycatgirl/clordle)\nciteturn4search8 [wordlim: 200] Crawled: last month; amycatgirl / clordle Public ... LICENSE  | LICENSE  |    | ... To build the project, you first need to install Clojure and Leiningen.\n\namycatgirl / clordle Public\n\n  * Notifications You must be signed in to change notification settings\n  * Fork 0\n  * Star\n\n  * Code\n  * Issues 0\n  * Pull requests 0\n\nName  | Name  | Last commit message  | Last commit date\n--- | --- | --- | ---\nresources  | resources  |    |  \nscreenies  | screenies  |    |  \nsrc/clordle  | src/clordle  |    |  \n.gitignore  | .gitignore  |    |  \nLICENSE  | LICENSE  |    |  \nREADME.org  | README.org  |    |  \nproject.clj  | project.clj  |    |  \n\n\n  *   * README\n  * MIT license\n\nMore items\n\n# Clordle\n\nClordle is a clone of NYT Games’ Wordle, written entirely in Clojure, with a minimal frontend written using vanilla JS and HTML.\n\n# Building\n\nTo build the project, you first need to install Clojure and Leiningen. Then, run `lein uberjar` to create a uberjar inside the newly created `dist` directory.\n\n# Screenshots\n\n# Hosting Clordle\n\nTBD.\n\n# Api reference\n\n## Endpoints\n\n### GET `/api/handshake`\n\nGet a padded “secret word” generated at runtime; Used to prevent cheating.\n\n### GET `/api/puzzles`\n\nGet a list of all previous puzzles, including today’s puzzle, as an HTML unordered list.\n\n### POST `/guess/:id`\n\nSubmit a guess for the puzzle with the given id. The request body must contain a 5 letter word, fewer or more characters will result in an error. Response is as follows: The guess consists of 5 “cells” consisting of 3 different states. 0: Means that the character at that position is not in the word. 1: Means that the character at that position is in the word, just not on that specific position. (Duplicates will be marked as 0) 2: Means that the character at that position is in the word and on that specific position.\n\n### POST `/giveup/:id`\n\nGet the solution for the puzzle given its id. The request body must contain the secret word given from the handshake endpoint.\n\n## Sample implementation\n\nA sample implementation on how to use the API can be found in `resources/public/js/game.js`\n\n## About\n\nWordle clone written in Clojure\n\n### Resources\n\nReadme\n\nMIT license\n\nActivity\n\n### Stars\n\n0 stars\n\n### Watchers\n\n0 watching\n\n### Forks\n\n0 forks--------------------------------------------------------------------------------\nPlay Free Online Games On Az Games | Play Now! (https://azgames.io/...)\nciteturn4search9 [wordlim: 200] Crawled: 4 days ago; Traffic Road\n\nCapybara Mart Trending\n\nAirborne BMX Trending\n\nShape Rush Trending\n\nHill Sprint Trending\n\nTap Road 2 Trending\n\n\n## Popular games\n\nWave Rider Trending\n\nSlope 2 Trending\n\nTraffic Road\n\nSlope Rider Trending\n\nWacky Flip\n\nTap Road\n\nUndead Corridor Trending\n\nBike Xtreme\n\nRagdoll Hit Stickman\n\nHead Soccer 2024\n\nEscape Road City 2 Trending\n\nJetski Race\n\nGolf Hit\n\nCurve Rush\n\nHead Basketball\n\nEscape Road 2\n\nAstro Robot Clicker\n\nSlope\n\nEscape Road\n\nCookie Clicker\n\nChill Guy Clicker\n\nSlope 3\n\nBasketball Stars\n\nMoto X3M\n\n## Hot games\n\nView more ›\n\nTraffic Rally\n\nEscape Road 3 Trending\n\nDrift Rush Trending\n\nOrbit Kick Trending\n\nCowboy Safari Trending\n--------------------------------------------------------------------------------\nGame-development projects on GitHub · GitHub.Locker (https://github.locker/topics/game-development)\nciteturn4search10 [wordlim: 200] Published: today; Crawled: today; As of October 24, 2026, the most-starred Game-development projects on GitHub are build-your-own-x (555.7K stars), project-based-learning (287.7K stars) and godot (118.9K stars). ... Browse in the catalog →github.com/topics/game-development ↗ ... 25K leereilly/games\n\nTopics / #game-development\n\n# Game-development projects on GitHub\n\nCreating video games with engines, physics, rendering, and design tooling.\n\nAs of October 24, 2026, the most-starred Game-development projects on GitHub are build-your-own-x (555.7K stars), project-based-learning (287.7K stars) and godot (118.9K stars). GitHub.Locker tracks 153 Game-development repositories with 2.6M stars combined. The fastest-growing on October 22 was AnyPS5, with +516 stars in a day.\n\n153 Projects\n\n2.6M Stars in total\n\n+3.6K Stars in a day\n\nBrowse in the catalog →github.com/topics/game-development ↗\n\n## Hot right now\n\nMost stars gained in a day · Oct 22\n\n+516 AnyPS5 boykopovar/AnyPS5 · ★ 47.4K AnyPS5 is a tool that automatically ports PS5 executables so they run natively on Linux and Windows, without emulation.+318 build-your-own-x codecrafters-io/build-your-own-x · ★ 555.7K It's a curated collection of step-by-step guides that show you how to rebuild popular technologies (databases, game engines, blockchains, compilers, web browsers, etc.) from scratch, so you understand how they really work.【### howler.js\n\n25.4K goldfire/howler.js · JavaScript\n\nhowler.js is a JavaScript audio library for the web that gives you one consistent API for playing and controlling sound, defaulting to the Web Audio API and falling back to HTML5 Audio automatically.\n  20. 20Image\n\n### SpacetimeDB\n\n25.4K clockworklabs/SpacetimeDB · Rust\n\nSpacetimeDB is a relational database that is also a server: you upload your application logic into the database as a module, and clients connect straight to it with no web or game server in between. Data is synchronized to connected clients in real time.\n\n     * unreal-engine\n     * in-memory\n     * relational-database\n     * unity\n  21. 21Image\n\n### games\n\n25K leereilly/games\n\nA curated catalog of open source games, add-ons, maps, engines and other game projects hosted on GitHub — any genre, any platform, any engine. It grew from a 2012 Hacker News thread into one of GitHub's most-starred game collections and is now archived.\n\n     * games\n     * html5\n     * game-engine\n     * gamedev\n  22. 22Image\n\n### CnC_Remastered_Collection\n\n21.4K electronicarts/CnC_Remastered_Collection · C++\n\nSource code release for the DLLs and Map Editor that power the Command & Conquer Remastered Collection (Tiberian Dawn and Red Alert), published by EA for community modding.\n\n     * strategy\n     * steam\n     * game-modding\n     * modding\n  23. 23Image\n\n### OpenSpeedy\n\n20.3K game1024/OpenSpeedy · TypeScript\n\nOpenSpeedy is an open-source game speed controller for Windows: you pick a running game's process, set a speed multiplier, and the change takes effect immediately.\n\n     * toolkit\n     * gamedev\n     * tauri\n     * game\n  24. 24Image\n\n### 3d-game-shaders-for-beginners\n\n20K lettier/3d-game-shaders-for-beginners · C++\n\nA step-by-step guide to implementing 3D game shading techniques such as SSAO, depth of field, bloom, normal mapping, fog, and screen space reflection/refraction for your own 3D game.\n  25. 25Image\n\n### ml-agents\n\n19.8K Unity-Technologies/ml-agents · C#\n\nUnity ML-Agents Toolkit lets Unity games and simulations act as training environments for AI agents, using deep reinforcement learning and imitation learning. It pairs a Unity SDK with a Python API so game developers and researchers can train NPCs, test builds, or evaluate design decisions.\n\n     * imitation-learning\n     * unity3d\n     * deep-reinforcement-learning\n     * unity\n  26. 26Image\n\n     * opencl\n     * virtual-reality\n  44. 44Image\n\n### MonoGame\n\n14.6K MonoGame/MonoGame · C#\n\nMonoGame is an open-source .NET framework for building cross-platform games in C#. It's a community-driven re-implementation of Microsoft's discontinued XNA Framework.\n\n     * c-sharp\n     * game-engine\n     * gamedev\n     * microsoft\n  45. 45Image\n\n### openage\n\n14.5K SFTtech/openage · Python\n\nopenage is a volunteer-built open-source clone of the Genie Engine used by Age of Empires, Age of Empires II (HD), and Star Wars: Galactic Battlegrounds, aiming to recreate the original gameplay with a modern, moddable engine.\n\n     * cpp20\n     * engine\n     * multiplayer\n     * qt\n  46. 46Image\n\n### skynet\n\n14.2K cloudwu/skynet · C\n\nSkynet is a lightweight, multi-user Lua framework built on the actor model, mainly used to build online game servers.\n  47. 47Image\n\n### luanti\n\n13.8K luanti-org/luanti · C++\n\nLuanti (formerly Minetest) is a free, open-source voxel game engine and game-creation platform: play voxel games, join multiplayer servers, or build your own games and mods with Lua.\n\n     * voxel\n     * game-server\n     * cpp17\n     * multiplayer\n  48. 48Image\n\n### ebiten\n\n13.6K hajimehoshi/ebiten · Go\n\nEbitengine (formerly Ebiten) is an open source 2D game engine for Go: a simple API for building 2D games that deploy across many platforms.\n\n     * 2d-game\n     * golang-library\n     * shader\n     * 2d\n  49. 49Image\n\n     * cpp17\n     * cpp20\n  52. 52Image\n\n### Hazel\n\n13.1K TheCherno/Hazel · C++\n\nHazel is an early-stage interactive application and rendering engine for Windows, built mainly as an educational project: nearly everything in the repo is implemented live in YouTube videos.\n\n     * engine\n     * game-engine\n     * gamedev\n     * youtube\n  53. 53Image\n\n### UnityCsReference\n\n13K Unity-Technologies/UnityCsReference · C#\n\nThe C# portion of the Unity game engine and editor source code, published by Unity Technologies for developers to read. It is a reference copy of engine internals, not a product you install or run.\n\n     * unity3d\n     * engine\n     * unity\n     * runtime\n  54. 54Image\n\n### tiled\n\n13K mapeditor/tiled · C++\n\nTiled is a free, general-purpose tile map editor for tile-based games such as RPGs, platformers, or Breakout clones. It is highly flexible and runs on all major operating systems.\n  55. 55Image\n\n### piskel\n\n12.9K piskelapp/piskel · JavaScript\n\nPiskel is an easy-to-use, web-based sprite editor for creating game sprites, animations, and pixel art.\n\n     * spritesheet\n     * pixel-art\n     * gif\n     * creative-tools\n  56. 56Image\n\n### boardgame.io\n\n12.5K boardgameio/boardgame.io · TypeScript\n\nAn open-source engine for building turn-based games in JavaScript: you write functions that describe how each move changes the game state, and it turns them into a playable game with online multiplayer — no networking or storage code required.\n\n     * multiplayer\n     * game-engine\n     * state-management\n     * gamedev\n  57. 57Image\n\n--------------------------------------------------------------------------------\nREST API endpoints for licenses - GitHub Docs (https://docs.github.com/en/rest/licenses/licenses?apiVersion=2026-03-10)\nciteturn4search11 [wordlim: 200] Crawled: last month; `[ { \"key\": \"mit\", \"name\": \"MIT License\", \"spdx_id\": \"MIT\", \"url\": \"https://api.github.com/licenses/mit\", \"node_id\": \"MDc6TGljZW5zZW1pdA==\" }, { \"key\": \"lgpl-3.0\", \"name\": \"GNU Lesser General Public License v3.0\", \"spdx_id\": \"LGPL-3.0\", \"url\": \"https://api.github.com/licenses/lgpl-3.0\", \"node_id\": \"MDc6TGljZW5zZW1pdA==\" }, { \"key\": \"mpl-2.0\", \"name\": \"Mozilla Public License 2.0\", \"spdx_id\": \"MPL-2.0\", \"url\": \"https://api.github.com/licenses/mpl-2.0\", \"node_id\": \"MDc6TGljZW5zZW1pdA==\" }, { \"key\": \"agpl-3.0\", \"name\": \"GNU Affero General Public License v3.0\", \"spdx_id\": \"AGPL-3.0\", \"url\": \"https://api.github.com/licenses/agpl-3.0\", \"node_id\": \"MDc6TGljZW5zZW1pdA==\" }, { \"key\": \"unlicense\", \"name\": \"The Unlicense\", \"spdx_id\": \"Unlicense\", \"url\": \"https://api.github.com/licenses/unlicense\", \"node_id\": \"MDc6TGljZW5zZW1pdA==\" }, { \"key\": \"apache-2.0\", \"name\": \"Apache License 2.0\", \"spdx_id\": \"Apache-2.0\", \"url\": \"https://api.github.com/licenses/apache-2.0\", \"node_id\": \"MDc6TGljZW5zZW1pdA==\" }, { \"key\": \"gpl-3.0\", \"name\": \"GNU General Public License v3.0\", \"spdx_id\": \"GPL-3.0\", \"url\": \"https://api.github.com/licenses/gpl-3.0\", \"node_id\": \"MDc6TGljZW5zZW1pdA==\" } ]`\n\nThe REST API is now versioned. For more information, see \"About API versioning.\"\n\n# REST API endpoints for licenses\n\nUse the REST API to retrieve popular open source licenses and information about a particular project's license file.\n\n## About licenses\n\nGitHub uses the open source Ruby Gem Licensee to attempt to identify the license for a project. Licensee matches the contents of a project's `LICENSE` file (if it exists) against a short list of known licenses. As a result, the API does not take into account the licenses of project dependencies or other means of documenting a project's license such as references to the license name in the documentation.\n\nIf a license is matched, the license key and name returned conforms to the SPDX specification.\n\nNote: These endpoints will also return a repository's license information:\n\n  * Get a repository\n  * List repositories for a user\n  * List organization repositories\n  * List forks\n--------------------------------------------------------------------------------\nList of commercial video games with available source code (https://en.wikipedia.org/wiki/List_of_commercial_video_games_with_available_source_code)\nciteturn4search12 [wordlim: 200] Crawled: last week;  Sonic & Knuckles  | 1994 (Genesis)  | 2006  | Platformer  | Sega, Sonic Team  | Initially disassembled by Sonic fans in 2006, with various iterations of the reverse engineered assembly released since 2010, the source code for the Sega Genesis game is currently hosted by Sonic fan site Sonic Retro on GitHub as of 2013. ...  Sonic Mania  | 2017 (Windows)  | 2022  | Platformer  | Christian Whitehead, PagodaWest Games, Headcannon, Hyperkinetic Studios (Plus)  | In August 2022, the base game and the 2018 Plus DLC were decompiled, with the code released on GitHub.\nSource code is hosted on GitHub. \n Thirty Flights of Loving  | 2012  | Adventure game  | GPLv2+  | Proprietary  | Blendo Games  | Game source released in August 2012 as it is based on the KMQuake II source port. \n Vulture for Nethack  | 1987  | rogue-like  | NetHack General Public License  | Freeware / Commercial  | NetHack community / Jaakko Peltonen / Clive Crous  | Falcon's Eye was developed by Jaakko Peltonen as graphical version of NetHack. After 2001 development had ended, Clive Crous continued Falcon's Eye as Vulture's Eye. While still being Free and open-source software the game is commercialized via the author's website and Desura. In October 2013 the game was put into the Steam Greenlight process and successfully released on Steam in January 2016. \n Wargroove  | 2019  | Turn-based tactics  | Apache-2.0  | Proprietary  | Chucklefish  | Halley, the custom engine made for Wargroove, has been available on GitHub to the public at least since 2018. \n Wolfenstein 3D Classic Platinum  | 2009  | First-person shooter  | GPLv2+  | Proprietary  | id Software  | Source code of the iOS port released in March 2009 as it is based on the Wolfenstein 3-D Redux source port. \n Wrath: Aeon of Ruin  | 2019 (early access)  | First-person shooter  | GPLv2+  | Proprietary  | KillPixel  | Being released in November 2019 as early access game, based on the DarkPlaces engine, the game's source code was also released on GitHub.\n--------------------------------------------------------------------------------\n6b (https://kroojel.github.io/pdfs/Impl1.pdf)\nciteturn4search13 [wordlim: 200] Crawled: 6 months ago; Repository link: https://github.com/AlexGUni/How-Hard-Can-It-BeJAR file: Included in zip file, also available on website: https://kroojel.github.io/game/Pirate-Game-Group-3.jar\n--------------------------------------------------------------------------------\nTax Policy And Economic Development (https://www.staff.ces.funai.edu.ng/papersCollection/Resources/filedownload.ashx/Tax_Policy_And_Economic_Development.pdf)\nciteturn4search14 [wordlim: 200] Published: 6 months ago; him out quickly and quietly be careful if ... kill game amazon com - Feb 09 2023 ... kilgame github - Feb 26 2022\n--------------------------------------------------------------------------------\nO\nu\nt\no\nr\nf\no\nT\nh\ne\nP\nr\no\no\nf\nF\nu\nc\nk\nC\noncept\nGe (https://mcfp.felk.cvut.cz/publicDatasets/pocorgtfo/releases/pocorgtfo15.pdf)\nciteturn4search15 [wordlim: 200] Published: 8 months ago; I have not enabled any cheats on our release, but I ... lists most of the people involved in making the game. ... JULIE LETERNEAU    MARK COOK\n--------------------------------------------------------------------------------\nLet’s play a little guessing game (https://sideeffect.io/files/frenchkit.pdf)\nciteturn4search16 [wordlim: 200] Published: 6 months ago; https://github.com/sideeffect-io\n--------------------------------------------------------------------------------\nCODE THE CLASSICS (https://magazines-static.raspberrypi.org/books/full_pdfs/000/000/034/original/Code_the_Classics-book.pdf)\nciteturn4search17 [wordlim: 200] Published: 6.9 years ago; Crawled: 6.9 years ago; The alternative is to download it directly using the git version control system, which you can download from git-scm.com. ... On the game’s GitHub page, copy the web address that comes up when ‘Clone or download’ is clicked, and then either use git via the command prompt/terminal to download the project – enter git clone followed by the URL found by clicking on ‘Clone or download’ on the game’s GitHub page; or download it via the ‘Check out from Version Control’ option in PyCharm, if you intend to use that IDE.\n--------------------------------------------------------------------------------\nVersion 0.2 (https://rehanschool.net/wp-content/uploads/2025/04/CWI-BOOK-4-VERSION-0.2.pdf)\nciteturn4search18 [wordlim: 200] Published: last year; Store game data and moves in Firestore or WebSocket server. ... Ó Upload your Tic-Tac-Toe Game (Flutter) project to GitHub with a README.md explaining the features\n",
+  "source-web2": "Natural Earth » Terms of Use - Free vector and raster map data at 1:10m, 1:50m, and 1:110m scales (https://www.naturalearthdata.com/about/terms-of-use/)\nciteturn5view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.naturalearthdata.com/about/terms-of-use/\",\"lineno\":null}); Total lines: 90\nL0: #\nL1: \nL2: Free vector and raster map data at 1:10m, 1:50m, and 1:110m scales\nL3: \nL4: [Input] [Input]\nL5: \nL6:   * 【0†Home】\nL7:   * 【1†Features】\nL8:   * 【2†Downloads】\nL9:   * 【3†Blog】\nL10:   * 【4†Issues】\nL11:   * 【5†Corrections】\nL12:   * 【6†About】\nL13: \nL14: * * *\nL15: \nL16: « 【6†About】\nL17: ## Terms of Use\nL18: \nL19: All versions of Natural Earth raster + vector map data found on this website are in the public domain. You may use the maps in any manner, including modifying the content and design, electronic dissemination, and offset printing. The primary authors, Tom Patterson and Nathaniel Vaughn Kelso, and all other contributors renounce all financial claim to the maps and invites you to use them for personal, educational, and commercial purposes.\nL20: No permission is needed to use Natural Earth. Crediting the authors is unnecessary.\nL21: \nL22: However, if you wish to cite the map data, simply use one of the following.\nL23: \nL24: Short text:\nL25: Made with Natural Earth.\nL26: \nL27: Long text:\nL28: Made with Natural Earth. Free vector and raster map data @ naturalearthdata.com.\nL29: \nL30: Three logo options:\nL31: \nL32: 【7†Image: NEV-Logo-color_sm】\nL33: \nL34: 【8†Download Large Transparent PNG】\nL35: \nL36: 【9†Download EPS】\nL37: \nL38: 【10†Image: NEV-Logo-Black_sm】\nL39: \nL40: 【11†Download Large Transparent PNG】\nL41: \nL42: 【12†Download EPS】\nL43: 【13†Image: NEV-Logo-White_sm】\nL44: \nL45: Note: this graphic is white on a transparent background. Gray shade is just so you can see it here\nL46: \nL47: 【14†Download Large Transparent PNG】\nL48: \nL49: 【15†Download EPS】\nL50: \nL51: All users of Natural Earth are highly encouraged to read about data sources and manipulation in the 【16†Data Creation】 section.\nL52: The authors provide Natural Earth as a public service and are not responsible for any problems relating to accuracy, content, design, and how it is used. If you find an error or omission, please 【17†report it】 for future updates.\nL53: \nL54: The authors used data from The Washington Post, here is their release:\nL55: > Natural Earth is hereby granted a non-exclusive license to use the data being provided by The Washington Post for the sole purpose of creating a world base map.  The Washington Post makes no claims as to the completeness, accuracy or content of the data, and makes no representation of any kind, including, but not limited to, any warranty as to the accuracy or fitness of the data for a particular use (nor shall the act of distribution constitute any such warranty).\nL56: No responsibility is assumed by The Washington Post for any claims arising out of Natural Earth’s use of the data.\nL57: The author’s used river and lake data (for Europe only) from the European Commission, Joint Research Centre, Institute for Environment and Sustainability, here is their release:\nL58: > Natural Earth is hereby granted a non-exclusive license to use the data being provided by European Commission, Joint Research Centre, Institute for Environment and Sustainability (JRC IES) for the sole purpose of creating a world base map.\nL59: The EC JRC IES makes no claims as to the completeness, accuracy or content of the data, and makes no representation of any kind, including, but not limited to, any warranty as to the accuracy or fitness of the data for a particular use (nor shall the act of distribution constitute any such warranty). No responsibility is assumed by EC JRC IES for any claims arising out of Natural Earth’s use of the data.\nL60: The author’s used road transportation data (for North America only) from XNR Productions, here is their release:\nL61: > Natural Earth is hereby granted a non-exclusive license to use the data being provided by XNR Productions for the sole purpose of creating a world base map. XNR makes no claims as to the completeness, accuracy or content of the data, and makes no representation of any kind, including, but not limited to, any warranty as to the accuracy or fitness of the data for a particular use (nor shall the act of distribution constitute any such warranty).\nL62: No responsibility is assumed by XNR for any claims arising out of Natural Earth’s use of the data.\nL63: The author’s used time zone data from International Mapping Associates, Inc., here is their release:\nL64: > Natural Earth is hereby granted a non-exclusive license to use the data being provided by International Mapping Associates, Inc. for the sole purpose of creating a world base map. International Mapping Associates, Inc. makes no claims as to the completeness, accuracy or content of the data, and makes no representation of any kind, including, but not limited to, any warranty as to the accuracy or fitness of the data for a particular use (nor shall the act of distribution constitute any such warranty).\nL65: No responsibility is assumed by International Mapping Associates, Inc. for any claims arising out of Natural Earth’s use of the data.\nL66: The authors’ used name data for more than 20 languages from 【18†Wikidata†www.wikidata.org】 which is under a CC0 (public domain) license.\nL67: \nL68: Happy mapping!\nL69: \nL70:   * ## Stay up to Date\nL71: \nL72: Know when a new version of Natural Earth is released by subscribing to our 【19†announcement list】.\nL73: \nL74:   * ## Find a Problem?\nL75: \nL76: Submit suggestions and bug reports via 【20†Github Issues†github.com】 and track the progress of your edits.\nL77: \nL78:   * ## Thank You\nL79: Our data downloads are generously hosted by Amazon Web Services since 2021 and previously Florida State University.\nL80: \nL81: * * *\nL82: \nL83: Supported by:\nL84: \nL85: © 2009 - 2026. Natural Earth. All rights reserved.\nL86: \nL87: Powered by 【21†WordPress†wordpress.org】\nL88: \nL89: 【22†Staff Login »】\n--------------------------------------------------------------------------------\nWikidata:Licensing - Wikidata (https://www.wikidata.org/wiki/Wikidata%3ALicensing)\nciteturn5view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.wikidata.org/wiki/Wikidata:Licensing\",\"lineno\":null}); Redirected to URL: https://www.wikidata.org/wiki/Wikidata:Licensing; Total lines: 215\nL0: 【0†Jump to content】\nL1: \nL2: [Input] Main menu\nL3: \nL4: Main menu\nL5: \nL6: [Button: move to sidebar] [Button: hide]\nL7: \nL8: Navigation\nL9: \nL10:   * 【1†Main page】\nL11:   * 【2†Community portal】\nL12:   * 【3†Project chat】\nL13:   * 【4†Create a new Item】\nL14:   * 【5†Recent changes】\nL15:   * 【6†Random Item】\nL16:   * 【7†Query Service†query.wikidata.org】\nL17:   * 【8†Nearby】\nL18:   * 【9†Help】\nL19:   * 【10†Special pages】\nL20: \nL21: Lexicographical data\nL22: \nL23:   * 【11†Create a new Lexeme】\nL24:   * 【12†Recent changes】\nL25:   * 【13†Random Lexeme】\nL26: \nL27: In Wikipedia\nL28: \nL29: 【14†Add links】\nL30: \nL31: 【15†Search】\nL32: \nL33: [Input: Search Wikidata]\nL34: \nL35: [Input]\nL36: [Button: Search]\nL37: \nL38:   * 【16†English】\nL39: \nL40: [Input] Appearance\nL41: \nL42:   * 【17†Donate†donate.wikimedia.org】\nL43:   * 【18†Create account】\nL44:   * 【19†Log in】\nL45: \nL46: [Input] Personal tools\nL47: \nL48:   * 【17†Donate†donate.wikimedia.org】\nL49:   * 【18†Create account】\nL50:   * 【19†Log in】\nL51: ## Contents\nL52: \nL53: [Button: move to sidebar] [Button: hide]\nL54: \nL55:   * 【16†Beginning】\nL56:   * 【20†1 Official policy】\nL57:   * 【21†2 Other compatible copyright designations】\nL58:   * 【22†3 Determining the copyright of a dataset】\nL59:   * 【23†4 Examples】 Toggle Examples subsection\nL60:     * 【24†4.1 Stories】\nL61:     * 【25†4.2 Uses】\nL62:   * 【26†5 Why should you use a CC0 license for data in Wikidata?】\nL63:   * 【27†6 See also】\nL64:   * 【28†7 External links】\nL65: \nL66: [Input] Toggle the table of contents\nL67: # Wikidata:Licensing\nL68: \nL69:   * 【29†Project page】\nL70:   * 【30†Discussion】\nL71: \nL72: [Input] English\nL73: \nL74:   * 【29†Read】\nL75:   * 【31†Edit】\nL76:   * 【32†View history】\nL77: \nL78: [Input] Tools\nL79: \nL80: Tools\nL81: \nL82: [Button: move to sidebar] [Button: hide]\nL83: \nL84: Actions\nL85: \nL86:   * 【29†Read】\nL87:   * 【31†Edit】\nL88:   * 【32†View history】\nL89: \nL90: General\nL91: \nL92:   * 【33†What links here】\nL93:   * 【34†Related changes】\nL94:   * 【35†Permanent link】\nL95:   * 【36†Page information】\nL96:   * 【37†Get shortened URL】\nL97: \nL98: Print/export\nL99: \nL100:   * 【38†Create a book】\nL101:   * 【39†Download as PDF】\nL102:   * Printable version\nL103: \nL104: In other projects\nL105: \nL106: Appearance\nL107: [Button: move to sidebar] [Button: hide]\nL108: \nL109: This page presents an overview of copyright licensing for Wikidata contributors and users.\nL110: ## Official policy\nL111: \nL112: [【40†edit】]\nL113: \nL114: Wikidata's policy statement can be found at 【41†Wikidata:Copyright】.\nL115: \nL116: All structured data (i.e. the main, Property, Lexeme, and EntitySchema namespaces) is released into the public domain under 【42†Creative Commons Zero†creativecommons.org】. Text in other namespaces is copyrighted and available under the 【43†Creative Commons Attribution-ShareAlike 4.0 License†creativecommons.org】.\nL117: ## Other compatible copyright designations\nL118: \nL119: [【44†edit】]\nL120: \nL121: Wikidata requires a CC0 license, which is equivalent to public domain; anyone may freely designate any public-domain data to be CC0.\nL122: \nL123: Other than public-domain data and CC0 data, no other data license or designation is compatible with Wikidata's copyright requirements.\nL124: ## Determining the copyright of a dataset\nL125: \nL126: [【45†edit】]\nL127: All data in Wikidata has a CC0 license. Wikidata avoids hosting data that lacks a CC0 license. However, in cases where the Wikidata community decides not to host data due to a copyright claim, that decision does not constitute recognition or confirmation by the Wikidata community (or any authority) of the given copyright claim's validity.\nL128: The copyright claim may well have merit; more often, the Wikidata community wishes to avoid conflict with an organization asserting a copyright claim over data that, in fact, may not be eligible for copyright.\nL129: When any Wikidata user makes a contribution to Wikidata, that user applies a CC0 license to their contribution as a term of use of the Wikidata website. This happens irrespective of whether the user has any claim of ownership to the data they contribute.\nL130: Discussing ownership of data and datasets is challenging, as is determining the eligibility of any given data for copyright. Across the globe there is much confusion as to the copyright of datasets. This confusion affects data scientists, copyright lawyers, librarians, government agencies and other reputable organizations which reasonable people would expect to have a clear understanding of how copyright affects their field of expertise.\nL131: At this time, the Wikidata community cannot offer a simple statement that will clarify all confusion.\nL132: Most authorities agree that individual concepts expressed as data are not eligible for copyright anywhere. Wikidata contributors making manual Wikidata entries probably need not worry about copyright.\nL133: For example, anyone who reads a book, selects information from that book and enters it into Wikidata can presume that their contributions come from sources which have no claim of copyright over the data they contain; if the Wikidata user has any claim to copyright ownership, they relinquish it under the compulsory CC0 license as soon as they post it to Wikidata.\nL134: Less clear-cut are situations in which someone wishes to integrate an existing dataset into Wikidata. A dataset is a collection of data that has been curated and structured by an individual or organization. Some entities claim copyright ownership of the datasets they develop.\nL135: Often the Wikidata community pauses by default with such claims, and it avoids integrating those datasets into Wikidata without considering whether those copyright claims are legitimate and apply to data eligible for copyright, or perhaps less legitimate and being asserted for data ineligible for copyright. Many organizations assert copyright for any media they touch, without considering whether the media is eligible for copyright or whether they own the copyright.\nL136: The Wikidata community discusses copyright claims more frequently than any other open data project; it is challenging to arrive at definitive answers.\nL137: Wikidata contributors sometimes avoid uploading data when someone has made any of the following kinds of copyright claims on the data:\nL138:   * traditional copyright, even with no copyright notice at all\nL139:   * any Creative Commons license other than CC0. This includes Creative Commons Attribution, the very permissive license accepted on other Wikimedia projects. Some datasets may have Creative Commons Non-Commercial licenses as well.\nL140:   * any specialized license with restrictions\nL141:   * any of the many copyright licenses applicable to creative works or open source software but which, for some reason, people try to apply to data.\nL142: ## Examples\nL143: \nL144: [【46†edit】]\nL145: ### Stories\nL146: \nL147: [【47†edit】]\nL148: \nL149: There are some stories that circulate in the Wikidata community as examples for explaining the copyright of data. Here are some of them:\nL150:   * 【48†Feist v. Rural (Q5441583)】 - This 1991 United States legal case determined that a company that compiles a set of phone numbers cannot copyright them. Wikidata contributors sometimes cite this case as supporting evidence that collecting identifying information from compilations of data is permissible, since this sort of information is not eligible for copyright.\nL151: ### Uses\nL152: \nL153: [【49†edit】]\nL154: \nL155: Organisations who release data under PD or CC0 licences include:\nL156: \nL157:   * 【50†Science Museum (Q674773)】 (e.g. 【51†[1]†collection.sciencemuseum.org.uk】)\nL158: \nL159: Creative Commons hosts a list for several sources that use CC0 license for data: 【52†CC0 use for data†wiki.creativecommons.org】\nL160:   * 【53†Europeana (Q234110)】, see 【54†https://www.europeana.eu/nl/rights/usage-guidelines-for-metadata†www.europeana.eu】\nL161:   * 【55†KB, nationale bibliotheek (Q1526131)】, see 【56†http://data.bibliotheken.nl/†data.bibliotheken.nl】\nL162:   * 【57†Smithsonian Institution (Q131626)】, see 【58†https://www.si.edu/openaccess/faq†www.si.edu】\nL163:   * 【59†Rijksmuseum (Q190804)】, see 【60†https://www.rijksmuseum.nl/en/research/conduct-research/data/policy†www.rijksmuseum.nl】\nL164: ## Why should you use a CC0 license for data in Wikidata?\nL165: \nL166: [【61†edit】]\nL167: \nL168: The Wikidata community frequently gets questions as to why data providers should license content with a CC0 license. Here are some pieces describing various explanations for this reasoning:\nL169:   * 【62†Lydia Pintscher's thoughts】\nL170:   * 【63†Arguments on CC0-licensing for data†se.wikimedia.org】 (PDF)\nL171:   * 【64†Why Sweden advocates for CC0†www.europeandataportal.eu】\nL172:   * 【65†Discussion of benefits of CC0 for data†opendata.stackexchange.com】 on StackExchange\nL173:   * 【66†How Do We Attribute Data?†blog.ldodds.com】 by Leigh Dodds (2013)\nL174:   * 【67†Protocol for Implementing Open Access Data†sciencecommons.org】 -- by the Science Commons project at Creative Commons\nL175:   * 【68†Free data†simia.net】 by Denny Vrandečić\nL176: ## See also\nL177: \nL178: [【69†edit】]\nL179: \nL180:   * 【70†A guide for publishing open data】\nL181: ## External links\nL182: \nL183: [【71†edit】]\nL184: \nL185:   * 【72†Introduction to intellectual property rights in data management†data.research.cornell.edu】 from Cornell University\nL186: \nL187: 【73†Image】\nL188: \nL189: Retrieved from \"【35†https://www.wikidata.org/w/index.php?title=Wikidata:Licensing&oldid=2548950862】\"\nL190:   * This page was last edited on 24 September 2026, at 03:42.\nL191:   * All structured data from the main, Property, Lexeme, and EntitySchema namespaces is available under the 【42†Creative Commons CC0 License†creativecommons.org】; text in the other namespaces is available under the 【43†Creative Commons Attribution-ShareAlike License†creativecommons.org】; additional terms may apply. By using this site, you agree to the 【74†Terms of Use†foundation.wikimedia.org】 and 【75†Privacy Policy†foundation.wikimedia.org】.\nL192:   * 【75†Privacy policy†foundation.wikimedia.org】\nL193:   * 【76†About Wikidata】\nL194:   * 【77†Disclaimers】\nL195:   * 【78†Legal & safety contacts†foundation.wikimedia.org】\nL196:   * 【79†Code of Conduct†foundation.wikimedia.org】\nL197:   * 【80†Developers†developer.wikimedia.org】\nL198:   * 【81†Statistics†stats.wikimedia.org】\nL199:   * 【82†Cookie statement†foundation.wikimedia.org】\nL200:   *   * 【83†Data access】\nL201: \nL202: Search\nL203: \nL204: [Input: Search Wikidata]\nL205: \nL206: [Input]\nL207: \nL208: [Button: Search]\nL209: \nL210: [Input] Toggle the table of contents\nL211: \nL212: Wikidata:Licensing\nL213: \nL214: 【16†Add topic】\n--------------------------------------------------------------------------------\nFAQ (https://metazooa.com/faq)\nciteturn5view2 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: open({\"ref_id\":\"https://metazooa.com/faq\",\"lineno\":null}); Total lines: 27\nL0: 【0†Metazooa】【1†person】\nL1: \nL2: * * *\nL3: ## FAQ\nL4: \nL5: 1.. How were the animals in the game selected?\nL6: \nL7: The animals in Metazooa were selected based on how familiar they are to people, as well as for the breadth of species that would make the game more interesting.\nL8: \nL9: 2.. The game is wrong! Wikipedia has different classifications for one of the animals.\nL10: This is possible. The classifications used in the game are based on the NCBI taxonomy, which is the most widely used taxonomy for animals. However, it is not the only taxonomy. The Wikipedia taxonomy is also widely used, and it is possible that the two taxonomies disagree on the classification of a species.\nL11: \nL12: 【2†NCBI taxonomy†www.ncbi.nlm.nih.gov】·【3†Wikipedia taxonomy†en.wikipedia.org】\nL13: \nL14: 3.. Why is there no \"Reptile\" or \"Reptilia\" class in the game?\nL15: While some datasets, like Wikipedia, use the class Reptilia, the NCBI taxonomy does not. Instead, the NCBI taxonomy uses the class Sauropsida, which includes all reptiles and birds. This is because some of the animals commonly identified as reptiles have more in common with birds than they do with other reptiles. For example, crocodiles are more closely related to birds than they are to lizards.\nL16: \nL17: 4.. Does Metazooa have a privacy policy?\nL18: \nL19: Click this link to see Metazooa's 【4†privacy policy】.\nL20: 【5†Enter the zoo!】\nL21: \nL22: 【6†by Trainwreck Labs†trainwrecklabs.com】\nL23: \nL24: 【7†Join our Discord server!†discord.gg】\nL25: \nL26: 【8†Check out the FAQ】\n--------------------------------------------------------------------------------\nAbout Us - A-Z Games (https://azgames.io/about-us)\nciteturn5view3 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: open({\"ref_id\":\"https://azgames.io/about-us\",\"lineno\":null}); Total lines: 32\nL0:   * 【0†Clicker】\nL1:   * 【1†Io】\nL2:   * 【2†Adventure】\nL3:   * 【3†2 player】\nL4:   * 【4†Shooting】\nL5:   * 【5†Sports】\nL6:   * 【6†Car】\nL7:   * 【7†Puzzle】\nL8:   * 【8†Casual】\nL9: \nL10:   * [Input: Search Game...]\nL11: \nL12:   * 【0†Clicker】\nL13:   * 【1†Io】\nL14:   * 【2†Adventure】\nL15:   * 【3†2 player】\nL16:   * 【4†Shooting】\nL17:   * 【5†Sports】\nL18:   * 【6†Car】\nL19:   * 【7†Puzzle】\nL20:   * 【8†Casual】\nL21: \nL22: My games\nL23: \nL24: [Button: Recent][Button: Favorites][Button: Liked]\nL25: # About Us\nL26: \nL27: Az Game is a website that features free online games with no download required. Play the best games of different genres like io games, clicker games, idle games, and more.\nL28: \nL29: 【9†About us】【10†Copyright infringement notice procedure】【11†Contact us】【12†Privacy policy】【13†Term of use】\nL30: \nL31: © 2026 Azgames.io. All rights reserved.\n",
+  "source-web3": "Policies and Disclaimers - NCBI (https://www.ncbi.nlm.nih.gov/home/about/policies/)\nciteturn6view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.ncbi.nlm.nih.gov/home/about/policies/\",\"lineno\":null}); Total lines: 81\nL0: 【0†Log in†account.ncbi.nlm.nih.gov】 Show account info\nL1: \nL2: [Select] Search NCBI\nL3: \nL4: [Input: Search NCBI]\nL5: \nL6: 【1†Image】 Search Icon  Search\nL7: \nL8: # NCBI Website and Data Usage Policies and Disclaimers\nL9: ## Website Disclaimer\nL10: \nL11: Liability: For documents and software available from this server, the U.S. Government does not warrant or assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed.\nL12: Endorsement: NCBI does not endorse or recommend any commercial products, processes, or services. The views and opinions of authors expressed on NCBI's Web sites do not necessarily state or reflect those of the U.S. Government, and they may not be used for advertising or product endorsement purposes.\nL13: External Links: Some NCBI Web pages may provide links to other Internet sites for the convenience of users. NCBI is not responsible for the availability or content of these external sites, nor does NCBI endorse, warrant, or guarantee the products, services, or information described or offered at these other Internet sites. Users cannot assume that the external sites will abide by the same 【2†Privacy Policy†www.nlm.nih.gov】 to which NCBI adheres.\nL14: It is the responsibility of the user to examine the copyright and licensing restrictions of linked pages and to secure all necessary permissions.\nL15: Pop-Up Advertisements: When visiting our Web site, your Web browser may produce pop-up advertisements. These advertisements were most likely produced by other Web sites you visited or by third party software installed on your computer. The NLM does not endorse or recommend products or services for which you may view a pop-up advertisement on your computer screen while visiting our site.\nL16: ## Website Usage\nL17: This site is maintained by the U.S. Government and is protected by various provisions of Title 18 of the U.S. Code. Violations of Title 18 are subject to criminal prosecution in a federal court. For site security purposes, as well as to ensure that this service remains available to all users, we use software programs to monitor traffic and to identify unauthorized attempts to upload or change information or otherwise cause damage.\nL18: In the event of authorized law enforcement investigations and pursuant to any required legal process, information from these sources may be used to help identify an individual.\nL19: ## Copyright Status of Webpages\nL20: \nL21: Information that is created by or for the US government on this site is within the public domain. Public domain information on the National Library of Medicine (NLM) Web pages may be freely distributed and copied. However, it is requested that in any subsequent use of this work, NLM be given appropriate acknowledgment.\nL22: NOTE: This site contains resources which incorporate material contributed or licensed by individuals, companies, or organizations that may be protected by U.S. and foreign copyright laws. These include, but are not limited to PubMed Central (PMC) (see 【3†PMC Copyright Notice】), Bookshelf (see 【4†Bookshelf Copyright Notice】), OMIM (see 【5†OMIM Copyright Status†omim.org】), and PubChem.\nL23: All persons reproducing, redistributing, or making commercial use of this information are expected to adhere to the terms and conditions asserted by the copyright holder. Transmission or reproduction of protected items beyond that allowed by 【6†fair use†www.copyright.gov】 (PDF) as defined in the copyright laws requires the written permission of the copyright owners.\nL24: ## Molecular Data Usage\nL25: Databases of molecular data on the NCBI Web site include such examples as nucleotide sequences (GenBank), protein sequences, macromolecular structures, molecular variation, gene expression, and mapping data. They are designed to provide and encourage access within the scientific community to sources of current and comprehensive information. Therefore, NCBI itself places no restrictions on the use or distribution of the data contained therein.\nL26: Nor do we accept data when the submitter has requested restrictions on reuse or redistribution. However, some submitters of the original data (or the country of origin of such data) may claim patent, copyright, or other intellectual property rights in all or a portion of the data (that has been submitted). NCBI is not in a position to assess the validity of such claims and since there is no transfer of rights from submitters to NCBI, NCBI has no rights to transfer to a third party.\nL27: Therefore, NCBI cannot provide comment or unrestricted permission concerning the use, copying, or distribution of the information contained in the molecular databases.\nL28: ## Human Genomic Data Submitted to Unrestricted-Access Repositories\nL29: If you plan to submit large-scale human genomic data, as defined by the 【7†NIH Genomic Data Sharing (GDS) Policy†osp.od.nih.gov】, to be maintained in an unrestricted-access NCBI database, NIH expects you to 1) submit an 【8†Institutional Certification†osp.od.nih.gov】 to assure that the data submission and expectations defined in the NIH GDS Policy have been met, 2) register the study in NCBI 【9†BioProject】 regardless of where the data will ultimately reside (e.g., GenBank, SRA, GEO).\nL30: If you have any questions about whether your research is subject to the NIH GDS Policy, please contact the relevant NIH Program Official and/or the 【10†Genomic Program Administrator†osp.od.nih.gov】.\nL31: If you plan to submit genomic data from human specimens that would not be considered large-scale, it is your responsibility to ensure that the submitted information does not compromise participant privacy and is in accord with the original consent in addition to all applicable federal, Tribal, state, and local laws, regulations, statutes, guidance, and institutional policies.\nL32: ## Use of Web Browsers\nL33: \nL34: The NCBI web site supports the current release of Chrome, Firefox, Safari, and Edge, and the previous two versions. It also supports IE11 and newer versions. \"Supports\" means that NCBI will actively work to identify and fix bugs. For advice on how to adjust web browser parameters to optimize use and accessibility of the NCBI website, please see 【11†Browser Advice】 for NCBI Web Pages.\nL35: ## Accessibility Policy\nL36: \nL37: As a Center within the National Library of Medicine (NLM), the NCBI is making every effort to ensure that the information available on our Web site is accessible to all. Please see the 【12†NLM's Accessibility Policy†www.nlm.nih.gov】, for more information.\nL38: ## Privacy Policy\nL39: The NCBI provides this Web site as a public service. As a Center within the NLM, we do not collect any personally identifiable information (PII) about visitors to our Web sites. We do collect some data about user visits to help us better understand how the public uses the site and how to make it more helpful. The NCBI does not collect information for commercial marketing or any purpose unrelated to 【13†NCBI's Mission】. For more information, please see the 【2†NLM Privacy Policy†www.nlm.nih.gov】.\nL40: ## Medical Information and Advice Disclaimer\nL41: \nL42: It is not the intention of NLM to provide specific medical advice but rather to provide users with information to better understand their health and their diagnosed disorders. Specific medical advice will not be provided, and NLM urges you to consult with a qualified physician for diagnosis and for answers to your personal questions.\nL43: ## Guidelines for Scripting Calls to NCBI Servers\nL44: \nL45: Do not overload NCBI's systems. Users intending to send numerous queries and/or retrieve large numbers of records should comply with the following:\nL46:   * Run retrieval scripts on weekends or between 9 pm and 5 am Eastern Time weekdays for any series of more than 100 requests.\nL47:   * Send E-utilities requests to 【14†https://eutils.ncbi.nlm.nih.gov】, not the standard NCBI Web address.\nL48:   * Make no more than 3 requests every 1 second.\nL49:   * Use the URL parameter email, and tool for distributed software, so that we can track your project and contact you if there is a problem. For more information, please see the 【15†Usage Guidelines and Requirements section】 in the 【14†Entrez Programming Utilities Help Manual】.\nL50:   * NCBI's Disclaimer and Copyright notice must be evident to users of your service. NLM does not claim the 【16†copyright on the abstracts in PubMed†www.nlm.nih.gov】; however, journal publishers or authors may. NLM provides no legal advice concerning distribution of copyrighted materials, consult your legal counsel.\nL51: #### CONTENTS\nL52: \nL53:   * 【17†Website Disclaimer】\nL54:   * 【18†Website Usage】\nL55:   * 【19†Copyright Status of Webpages】\nL56:   * 【20†Molecular Data Usage】\nL57:   * 【21†Use of Web Browsers】\nL58:   * 【22†Accessibility Policy】\nL59:   * 【23†Privacy Policy】\nL60:   * 【24†Medical Information and Advice Disclaimer】\nL61:   * 【25†Guidelines for Scripting Calls to NCBI Servers】\nL62: \nL63: Follow NCBI\nL64: \nL65: 【26†Connect with NLM†www.nlm.nih.gov】\nL66: \nL67: National Library of Medicine\nL68: 【27†8600 Rockville Pike Bethesda, MD 20894†www.google.com】\nL69: 【28†Web Policies†www.nlm.nih.gov】\nL70: 【29†FOIA†www.nih.gov】\nL71: 【30†HHS Vulnerability Disclosure†www.hhs.gov】\nL72: \nL73: 【31†Help†support.nlm.nih.gov】\nL74: 【12†Accessibility†www.nlm.nih.gov】\nL75: 【32†Careers†www.nlm.nih.gov】\nL76: \nL77:   * 【33†NLM†www.nlm.nih.gov】\nL78:   * 【34†NIH†www.nih.gov】\nL79:   * 【35†HHS†www.hhs.gov】\nL80:   * 【36†USA.gov†www.usa.gov】\n--------------------------------------------------------------------------------\nHome - Taxonomy - NCBI (https://www.ncbi.nlm.nih.gov/taxonomy)\nciteturn6view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.ncbi.nlm.nih.gov/taxonomy\",\"lineno\":null}); Total lines: 75\nL0: Warning: The NCBI web site requires JavaScript to function. 【0†more...】\nL1: \nL2: 【1†Log in†account.ncbi.nlm.nih.gov】 Show account info\nL3: \nL4: # 【2†Taxonomy】\nL5: \nL6: ## Index of Life\nL7: \nL8: Search database[Select]\nL9: \nL10: Search term\nL11: \nL12: [Input]\nL13: \nL14: [Button: Search]\nL15: \nL16:   * 【3†Limits】\nL17:   * 【4†Advanced】\nL18:   * 【5†Help】\nL19: \nL20: [Input]\nL21: \nL22: # Taxonomy\nL23: \nL24: The Taxonomy Database is a curated classification and nomenclature for all of the organisms in the public sequence databases. This currently represents about 10% of the described species of life on the planet.\nL25: ## Using Taxonomy\nL26: \nL27:   * 【6†Quick Start Guide】\nL28:   * 【7†FAQ】\nL29:   * 【8†Handbook】\nL30:   * 【9†Taxonomy FTP†ftp.ncbi.nih.gov】\nL31:   * 【10†Important Update: Phyla Changing†ncbiinsights.ncbi.nlm.nih.gov】\nL32:   * 【11†Important Update: New Flu species Names†ncbiinsights.ncbi.nlm.nih.gov】\nL33:   * 【12†Important Update: New ranks replaced superkingdom†ncbiinsights.ncbi.nlm.nih.gov】\nL34: ## Taxonomy Tools\nL35: \nL36:   * 【13†Browser】\nL37:   * 【14†Common Tree】\nL38:   * 【15†Statistics】\nL39:   * 【16†Name/ID Status】\nL40:   * 【17†Genetic Codes】\nL41:   * 【18†Linking to Taxonomy】\nL42:   * 【19†Extinct Organisms】\nL43: ## Other Resources\nL44: \nL45:   * 【20†GenBank】\nL46:   * 【21†LinkOut】\nL47:   * 【22†E-Utilities】\nL48:   * 【23†Batch Entrez】\nL49:   * 【24†INSDC†www.insdc.org】\nL50: \nL51: 【25†Image】\nL52: \nL53: Follow NCBI\nL54: \nL55: 【26†Connect with NLM†www.nlm.nih.gov】\nL56: \nL57: National Library of Medicine\nL58: 【27†8600 Rockville Pike Bethesda, MD 20894†www.google.com】\nL59: \nL60: 【28†Web Policies†www.nlm.nih.gov】\nL61: 【29†FOIA†www.nih.gov】\nL62: 【30†HHS Vulnerability Disclosure†www.hhs.gov】\nL63: \nL64: 【31†Help†support.nlm.nih.gov】\nL65: 【32†Accessibility†www.nlm.nih.gov】\nL66: 【33†Careers†www.nlm.nih.gov】\nL67:   * 【34†NLM†www.nlm.nih.gov】\nL68:   * 【35†NIH†www.nih.gov】\nL69:   * 【36†HHS†www.hhs.gov】\nL70:   * 【37†USA.gov†www.usa.gov】\nL71: \nL72: [Input][Input][Input][Input][Input][Input][Input][Input][Input][Input][Input][Input][Input]\nL73: \nL74: [Input][Input][Input][Input][Input]\n--------------------------------------------------------------------------------\nTearm Of Use - A-Z Games (https://azgames.io/term-of-use)\nciteturn6view2 [wordlim: 200] Crawled: 2 days ago; Content type: text/html; Source: click({\"ref_id\":\"turn5view3\",\"id\":13}); Total lines: 101\nL0:   * 【0†Clicker】\nL1:   * 【1†Io】\nL2:   * 【2†Adventure】\nL3:   * 【3†2 player】\nL4:   * 【4†Shooting】\nL5:   * 【5†Sports】\nL6:   * 【6†Car】\nL7:   * 【7†Puzzle】\nL8:   * 【8†Casual】\nL9: \nL10:   * [Input: Search Game...]\nL11: \nL12:   * 【0†Clicker】\nL13:   * 【1†Io】\nL14:   * 【2†Adventure】\nL15:   * 【3†2 player】\nL16:   * 【4†Shooting】\nL17:   * 【5†Sports】\nL18:   * 【6†Car】\nL19:   * 【7†Puzzle】\nL20:   * 【8†Casual】\nL21: \nL22: My games\nL23: \nL24: [Button: Recent][Button: Favorites][Button: Liked]\nL25: \nL26: # Term Of Use\nL27: \nL28: Last Updated: Oct 18, 2025\nL29: \nL30: Website: 【9†https://azgames.io】\nL31: \nL32: * * *\nL33: ## 1. Agreement to Terms\nL34: \nL35: By accessing or using AZ Games (also referred to as Play Free Online Games On AZ Games | Play Now!), you agree to be bound by these Terms of Use and our 【10†Privacy Policy】, which are incorporated by reference.\nL36: \nL37: This Agreement remains in full force and effect while you use any of the AZ Games family of sites.\nL38: \nL39: * * *\nL40: ## 2. Disclaimer\nL41: \nL42:   * No Academic Guarantees: AZ Games LLC makes no promises or guarantees that using our sites or games will improve your grades or academic performance.\nL43: \nL44:   * Accuracy of Information: We do not guarantee the accuracy, reliability, or completeness of any information found on our websites or on external sites we link to.\nL45:   * Third-Party Content: Some games and content on our website are created or licensed from third-party developers. AZ Games is not responsible for the accuracy, legality, or appropriateness of such third-party content.\nL46: \nL47:   * Advertising Disclaimer: We are not responsible for any advertisements that may appear due to malware, browser extensions, or other third-party errors.\nL48: \nL49: * * *\nL50: ## 3. Educational Purpose\nL51: \nL52: All information and games provided on AZ Games are designed for entertainment and educational support only.\nL53: They are intended to supplement learning, not replace formal education or professional instruction.\nL54: \nL55: * * *\nL56: ## 4. Intellectual Property Rights\nL57: \nL58: All materials, including text, images, graphics, layout, and design on this site (except for licensed games hosted at azgames.io) are owned and copyrighted by AZ Games LLC.\nL59: \nL60: You may:\nL61: \nL62:   * Access and print materials for personal, non-commercial use only.\nL63: \nL64: You may not:\nL65: \nL66:   * Copy, modify, distribute, or transfer any material on this site, in whole or in part, without prior written permission from AZ Games LLC.\nL67: \nL68: * * *\nL69: ## 5. Limitation of Liability\nL70: \nL71: AZ Games shall not be liable for:\nL72: \nL73:   * Any direct, indirect, incidental, or consequential damages arising from your use of the site.\nL74: \nL75:   * Any interruptions, errors, or omissions in content.\nL76: \nL77:   * Any unauthorized access or alteration of your data.\nL78: \nL79: Use of our website and games is entirely at your own risk.\nL80: \nL81: * * *\nL82: ## 6. Updates and Modifications\nL83: \nL84: AZ Games reserves the right to modify or update these Terms of Use at any time without prior notice.\nL85: Continued use of our site after changes are posted constitutes your acceptance of those changes.\nL86: \nL87: * * *\nL88: ## 7. Contact Information\nL89: \nL90: If you have questions or concerns regarding these Terms of Use, please contact us at:\nL91: 【11†[email protected]】\nL92: \nL93: * * *\nL94: \nL95: © 2025 Azgames.io. All Rights Reserved.\nL96: Play Free Online Games On AZ Games | Play Now!\nL97: \nL98: 【12†About us】【13†Copyright infringement notice procedure】【14†Contact us】【10†Privacy policy】【15†Term of use】\nL99: \nL100: © 2026 Azgames.io. All rights reserved.\n",
+  "more-source-0": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "content": "{\n  \"name\": \"colordle\",\n  \"version\": \"1.1.0\",\n  \"private\": true,\n  \"dependencies\": {\n    \"@headlessui/react\": \"^1.4.2\",\n    \"@heroicons/react\": \"^1.0.5\",\n    \"@testing-library/jest-dom\": \"^5.16.1\",\n    \"@testing-library/react\": \"^12.1.2\",\n    \"@testing-library/user-event\": \"^13.5.0\",\n    \"@types/downloadjs\": \"^1.4.3\",\n    \"@types/jest\": \"^27.4.0\",\n    \"@types/node\": \"^16.11.19\",\n    \"@types/react\": \"^17.0.38\",\n    \"@types/react-dom\": \"^17.0.11\",\n    \"chance\": \"^1.1.8\",\n    \"classnames\": \"^2.3.1\",\n    \"color-name-list\": \"^9.32.0\",\n    \"contrast\": \"^1.0.1\",\n    \"grapheme-splitter\": \"1.0.4\",\n    \"html-to-image\": \"^1.11.2\",\n    \"nearest-colors\": \"^1.0.0\",\n    \"react\": \"^17.0.2\",\n    \"react-countdown\": \"^2.3.2\",\n    \"react-dom\": \"^17.0.2\",\n    \"react-scripts\": \"5.0.0\",\n    \"typescript\": \"^4.5.4\",\n    \"web-vitals\": \"^2.1.3\"\n  },\n  \"scripts\": {\n    \"build\": \"react-scripts build\",\n    \"eject\": \"react-scripts eject\",\n    \"fix\": \"prettier --write src\",\n    \"lint\": \"prettier --check src\",\n    \"start\": \"react-scripts start\",\n    \"test\": \"react-scripts test\",\n    \"prepare\": \"husky install\"\n  },\n  \"eslintConfig\": {\n    \"extends\": [\n      \"react-app\",\n      \"react-app/jest\"\n    ]\n  },\n  \"browserslist\": {\n    \"production\": [\n      \">0.2%\",\n      \"not dead\",\n      \"not op_mini all\"\n    ],\n    \"development\": [\n      \"last 1 chrome version\",\n      \"last 1 firefox version\",\n      \"last 1 safari version\"\n    ]\n  },\n  \"devDependencies\": {\n    \"@types/chance\": \"^1.1.3\",\n    \"@types/file-saver\": \"^2.0.7\",\n    \"autoprefixer\": \"^10.4.2\",\n    \"file-saver\": \"^2.0.5\",\n    \"husky\": \"^7.0.4\",\n    \"lint-staged\": \"^12.3.2\",\n    \"postcss\": \"^8.4.5\",\n    \"prettier\": \"2.5.1\",\n    \"tailwindcss\": \"^3.0.12\"\n  },\n  \"lint-staged\": {\n    \"src/*.{ts,tsx,js,jsx,css,md}\": \"prettier --write\"\n  }\n}\n",
+        "encoding": "utf-8",
+        "sha": "8377756aaaaae3955008a8cef6cedb41a4c54ab4",
+        "display_url": "https://github.com/hobgoblina/colordle/blob/main/package.json",
+        "display_title": "package.json"
+      },
+      "isError": false
+    }
+  },
+  "more-source-1": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "content": "import {\n  InformationCircleIcon,\n  ChartBarIcon,\n  CogIcon,\n} from '@heroicons/react/outline'\nimport { useState, useEffect } from 'react'\nimport { Grid } from './components/grid/Grid'\nimport { Keyboard } from './components/keyboard/Keyboard'\nimport { InfoModal } from './components/modals/InfoModal'\nimport { StatsModal } from './components/modals/StatsModal'\nimport { SettingsModal } from './components/modals/SettingsModal'\nimport {\n  WIN_MESSAGES,\n  GAME_COPIED_MESSAGE,\n  NOT_ENOUGH_LETTERS_MESSAGE,\n  CORRECT_WORD_MESSAGE,\n  HARD_MODE_ALERT_MESSAGE,\n} from './constants/strings'\nimport {\n  MAX_WORD_LENGTH,\n  MAX_CHALLENGES,\n  REVEAL_TIME_MS,\n  GAME_LOST_INFO_DELAY,\n  WELCOME_INFO_MODAL_MS,\n} from './constants/settings'\nimport {\n  isWinningWord,\n  solution,\n  findFirstUnusedReveal,\n  unicodeLength,\n} from './lib/words'\nimport { addStatsForCompletedGame, loadStats } from './lib/stats'\nimport {\n  loadGameStateFromLocalStorage,\n  saveGameStateToLocalStorage,\n  setStoredIsHighContrastMode,\n  getStoredIsHighContrastMode,\n} from './lib/localStorage'\nimport { default as GraphemeSplitter } from 'grapheme-splitter'\n\nimport './App.css'\nimport { AlertContainer } from './components/alerts/AlertContainer'\nimport { useAlert } from './context/AlertContext'\n\nconst Chance = require('chance')\nconst contrast = require('contrast')\n\nfunction App() {\n  const { showError: showErrorAlert, showSuccess: showSuccessAlert } =\n    useAlert()\n  const [currentGuess, setCurrentGuess] = useState('')\n  const [isGameWon, setIsGameWon] = useState(false)\n  const [isInfoModalOpen, setIsInfoModalOpen] = useState(false)\n  const [isStatsModalOpen, setIsStatsModalOpen] = useState(false)\n  const [isSettingsModalOpen, setIsSettingsModalOpen] = useState(false)\n  const [currentRowClass, setCurrentRowClass] = useState('')\n  const [isGameLost, setIsGameLost] = useState(false)\n  const [isDarkMode, setIsDarkMode] = useState(true)\n  const [isHighContrastMode, setIsHighContrastMode] = useState(\n    getStoredIsHighContrastMode()\n  )\n  const [isRevealing, setIsRevealing] = useState(false)\n  const [guesses, setGuesses] = useState<string[]>(() => {\n    const loaded = loadGameStateFromLocalStorage()\n    if (loaded?.solution !== solution) {\n      return []\n    }\n    const gameWasWon = loaded.guesses.includes(solution)\n    if (gameWasWon) {\n      setIsGameWon(true)\n    }\n    if (loaded.guesses.length === MAX_CHALLENGES && !gameWasWon) {\n      setIsGameLost(true)\n      showErrorAlert(CORRECT_WORD_MESSAGE(solution), {\n        persist: false,\n      })\n    }\n    return loaded.guesses\n  })\n\n  const [stats, setStats] = useState(() => loadStats())\n\n  const [isHardMode, setIsHardMode] = useState(\n    localStorage.getItem('gameMode')\n      ? localStorage.getItem('gameMode') === 'hard'\n      : false\n  )\n\n  const chance = new Chance(new Date(Date.now()).toLocaleDateString('en'))\n  const winningColorCode = chance.color({ format: 'hex' })\n\n  useEffect(() => {\n    // if no game state on load,\n    // show the user the how-to info modal\n    if (!loadGameStateFromLocalStorage()) {\n      setTimeout(() => {\n        setIsInfoModalOpen(true)\n      }, WELCOME_INFO_MODAL_MS)\n    }\n  }, [])\n\n  useEffect(() => {\n    if (isDarkMode) {\n      document.documentElement.classList.add('dark')\n    } else {\n      document.documentElement.classList.remove('dark')\n    }\n\n    if (isHighContrastMode) {\n      document.documentElement.classList.add('high-contrast')\n    } else {\n      document.documentElement.classList.remove('high-contrast')\n    }\n  }, [isDarkMode, isHighContrastMode])\n\n  const handleDarkMode = (isDark: boolean) => {\n    setIsDarkMode(isDark)\n    localStorage.setItem('theme', isDark ? 'dark' : 'light')\n  }\n\n  const handleHardMode = (isHard: boolean) => {\n    if (guesses.length === 0 || localStorage.getItem('gameMode') === 'hard') {\n      setIsHardMode(isHard)\n      localStorage.setItem('gameMode', isHard ? 'hard' : 'normal')\n    } else {\n      showErrorAlert(HARD_MODE_ALERT_MESSAGE)\n    }\n  }\n\n  const handleHighContrastMode = (isHighContrast: boolean) => {\n    setIsHighContrastMode(isHighContrast)\n    setStoredIsHighContrastMode(isHighContrast)\n  }\n\n  const clearCurrentRowClass = () => {\n    setCurrentRowClass('')\n  }\n\n  useEffect(() => {\n    saveGameStateToLocalStorage({ guesses, solution })\n  }, [guesses])\n\n  useEffect(() => {\n    if (isGameWon) {\n      const winMessage =\n        WIN_MESSAGES[Math.floor(Math.random() * WIN_MESSAGES.length)]\n      const delayMs = REVEAL_TIME_MS * MAX_WORD_LENGTH\n\n      showSuccessAlert(winMessage, {\n        delayMs,\n        onClose: () => setIsStatsModalOpen(true),\n      })\n    }\n\n    if (isGameLost) {\n      setTimeout(() => {\n        setIsStatsModalOpen(true)\n      }, GAME_LOST_INFO_DELAY)\n    }\n  }, [isGameWon, isGameLost, showSuccessAlert])\n\n  const onChar = (value: string) => {\n    if (\n      unicodeLength(`${currentGuess}${value}`) <= MAX_WORD_LENGTH &&\n      guesses.length < MAX_CHALLENGES &&\n      !isGameWon\n    ) {\n      setCurrentGuess(`${currentGuess}${value}`)\n    }\n  }\n\n  const onDelete = () => {\n    setCurrentGuess(\n      new GraphemeSplitter().splitGraphemes(currentGuess).slice(0, -1).join('')\n    )\n  }\n\n  const onEnter = () => {\n    if (isGameWon || isGameLost) {\n      return\n    }\n\n    if (!(unicodeLength(currentGuess) === MAX_WORD_LENGTH)) {\n      setCurrentRowClass('jiggle')\n      return showErrorAlert(NOT_ENOUGH_LETTERS_MESSAGE, {\n        onClose: clearCurrentRowClass,\n      })\n    }\n\n    // enforce hard mode - all guesses must contain all previously revealed letters\n    if (isHardMode) {\n      const firstMissingReveal = findFirstUnusedReveal(currentGuess, guesses)\n      if (firstMissingReveal) {\n        setCurrentRowClass('jiggle')\n        return showErrorAlert(firstMissingReveal, {\n          onClose: clearCurrentRowClass,\n        })\n      }\n    }\n\n    setIsRevealing(true)\n    // turn this back off after all\n    // chars have been revealed\n    setTimeout(() => {\n      setIsRevealing(false)\n    }, REVEAL_TIME_MS * MAX_WORD_LENGTH)\n\n    const winningWord = isWinningWord(currentGuess)\n\n    if (\n      unicodeLength(currentGuess) === MAX_WORD_LENGTH &&\n      guesses.length < MAX_CHALLENGES &&\n      !isGameWon\n    ) {\n      setGuesses([...guesses, currentGuess])\n      setCurrentGuess('')\n\n      if (winningWord) {\n        setStats(addStatsForCompletedGame(stats, guesses.length))\n        return setIsGameWon(true)\n      }\n\n      if (guesses.length === MAX_CHALLENGES - 1) {\n        setStats(addStatsForCompletedGame(stats, guesses.length + 1))\n        setIsGameLost(true)\n        showErrorAlert(CORRECT_WORD_MESSAGE(solution), {\n          persist: false,\n          delayMs: REVEAL_TIME_MS * MAX_WORD_LENGTH + 1,\n        })\n      }\n    }\n  }\n\n  return window.self !== window.top ? (\n    <div className=\"bg-red-700 flex-col between-4 min-h-screen h-max text-center font-bold text-white align-bottom flex place-content-center p-10\">\n      <div className=\"mb-6\">\n        This website is attempting to use this game without permission. They are\n        likely trying to monetize the efforts of myself and others by\n        surrounding games like this with ads and other anti-features that may\n        pose a security risk to you.\n      </div>\n      <div className=\"mb-6\">\n        Well, fuck that and fuck them. You deserve a non-enshittified\n        experience, and they don't deserve to profit off of other people's work.\n      </div>\n      <div className=\"mb-6\">\n        Visit{' '}\n        <a\n          href=\"https://colordle.lina.garden\"\n          className=\"text-blue-400\"\n          target=\"_top\"\n        >\n          colordle.lina.garden\n        </a>{' '}\n        to play the game.\n      </div>\n      <div>\n        Black, indigenous, trans, disabled, & palestinian lives matter. All cops\n        are bastards. Landlords are leeches. Capitalism is cancer. Google Murray\n        Bookchin.\n      </div>\n    </div>\n  ) : (\n    <div style={{ background: winningColorCode }}>\n      <div className=\"pt-2 pb-8 max-w-7xl mx-auto sm:px-6 lg:px-8 h-screen\">\n        <div className=\"flex w-80 mx-auto items-center mb-10 mt-4\">\n          <h1 className=\"text-xl ml-2.5 grow font-bold dark:text-white\">\n            <span className=\"rainbow-red\">C</span>\n            <span className=\"rainbow-orange\">o</span>\n            <span className=\"rainbow-yellow\">l</span>\n            <span className=\"rainbow-green\">o</span>\n            <span className=\"rainbow-blue\">r</span>\n            <span className=\"rainbow-indigo\">d</span>\n            <span className=\"rainbow-black\">l</span>\n            <span className=\"rainbow-brown\">e</span>\n          </h1>\n          <InformationCircleIcon\n            className={`h-6 w-6 mr-2 cursor-pointer ${\n              contrast(winningColorCode) === 'light' ? '' : 'dark:stroke-white'\n            }`}\n            onClick={() => setIsInfoModalOpen(true)}\n          />\n          <ChartBarIcon\n            className={`h-6 w-6 mr-2 cursor-pointer ${\n              contrast(winningColorCode) === 'light' ? '' : 'dark:stroke-white'\n            }`}\n            onClick={() => setIsStatsModalOpen(true)}\n          />\n          <CogIcon\n            className={`h-6 w-6 mr-2 cursor-pointer ${\n              contrast(winningColorCode) === 'light' ? '' : 'dark:stroke-white'\n            }`}\n            onClick={() => setIsSettingsModalOpen(true)}\n          />\n        </div>\n        <Grid\n          guesses={guesses}\n          currentGuess={currentGuess}\n          isRevealing={isRevealing}\n          currentRowClassName={currentRowClass}\n        />\n        <Keyboard\n          onChar={onChar}\n          onDelete={onDelete}\n          onEnter={onEnter}\n          guesses={guesses}\n          isRevealing={isRevealing}\n        />\n        <InfoModal\n          isOpen={isInfoModalOpen}\n          handleClose={() => setIsInfoModalOpen(false)}\n        />\n        <StatsModal\n          isOpen={isStatsModalOpen}\n          handleClose={() => setIsStatsModalOpen(false)}\n          guesses={guesses}\n          gameStats={stats}\n          isGameLost={isGameLost}\n          isGameWon={isGameWon}\n          handleShare={() => showSuccessAlert(GAME_COPIED_MESSAGE)}\n          isHardMode={isHardMode}\n          isDarkMode={isDarkMode}\n          isHighContrastMode={isHighContrastMode}\n        />\n        <SettingsModal\n          isOpen={isSettingsModalOpen}\n          handleClose={() => setIsSettingsModalOpen(false)}\n          isHardMode={isHardMode}\n          handleHardMode={handleHardMode}\n          isDarkMode={isDarkMode}\n          handleDarkMode={handleDarkMode}\n          isHighContrastMode={isHighContrastMode}\n          handleHighContrastMode={handleHighContrastMode}\n        />\n\n        <AlertContainer />\n      </div>\n    </div>\n  )\n}\n\nexport default App\n",
+        "encoding": "utf-8",
+        "sha": "4ca1462cd38825e12c3f1c1a1e69679820687bfc",
+        "display_url": "https://github.com/hobgoblina/colordle/blob/main/src/App.tsx",
+        "display_title": "App.tsx"
+      },
+      "isError": false
+    }
+  },
+  "more-source-2": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "content": "MIT License\n\nCopyright (c) 2017 David Aerne\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+        "encoding": "utf-8",
+        "sha": "b5b133c7fa32badafc748c05c5ba213e13f68649",
+        "display_url": "https://github.com/meodai/color-names/blob/main/LICENSE",
+        "display_title": "LICENSE"
+      },
+      "isError": false
+    }
+  },
+  "more-source-3": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "archive_filter_applied": null,
+        "repositories": [
+          {
+            "id": "1037179110",
+            "name": "Vietle",
+            "owner": {
+              "login": "TranBinhMinh-Finn",
+              "id": 20392949,
+              "type": "User",
+              "avatar_url": "https://avatars.githubusercontent.com/u/20392949?v=4",
+              "url": "https://api.github.com/users/TranBinhMinh-Finn"
+            },
+            "repository_full_name": "TranBinhMinh-Finn/Vietle",
+            "permissions": {
+              "admin": false,
+              "maintain": false,
+              "pull": true,
+              "push": false,
+              "triage": false
+            },
+            "allow_auto_merge": null,
+            "allow_merge_commit": null,
+            "allow_rebase_merge": null,
+            "allow_squash_merge": null,
+            "allow_update_branch": null,
+            "clone_url": "https://github.com/TranBinhMinh-Finn/Vietle.git",
+            "size": 4277,
+            "default_branch": "main",
+            "git_commits_url": "https://api.github.com/repos/TranBinhMinh-Finn/Vietle/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TranBinhMinh-Finn/Vietle/git/refs{/sha}",
+            "git_url": "git://github.com/TranBinhMinh-Finn/Vietle.git",
+            "master_branch": null,
+            "visibility": "public",
+            "archived": false,
+            "is_code_search_indexed": null,
+            "display_title": "TranBinhMinh-Finn/Vietle",
+            "display_url": "https://github.com/TranBinhMinh-Finn/Vietle"
+          },
+          {
+            "id": "793571323",
+            "name": "travle_solver",
+            "owner": {
+              "login": "andresafira",
+              "id": 88152559,
+              "type": "User",
+              "avatar_url": "https://avatars.githubusercontent.com/u/88152559?v=4",
+              "url": "https://api.github.com/users/andresafira"
+            },
+            "repository_full_name": "andresafira/travle_solver",
+            "permissions": {
+              "admin": false,
+              "maintain": false,
+              "pull": true,
+              "push": false,
+              "triage": false
+            },
+            "allow_auto_merge": null,
+            "allow_merge_commit": null,
+            "allow_rebase_merge": null,
+            "allow_squash_merge": null,
+            "allow_update_branch": null,
+            "clone_url": "https://github.com/andresafira/travle_solver.git",
+            "size": 9,
+            "default_branch": "main",
+            "git_commits_url": "https://api.github.com/repos/andresafira/travle_solver/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/andresafira/travle_solver/git/refs{/sha}",
+            "git_url": "git://github.com/andresafira/travle_solver.git",
+            "master_branch": null,
+            "visibility": "public",
+            "archived": false,
+            "is_code_search_indexed": null,
+            "display_title": "andresafira/travle_solver",
+            "display_url": "https://github.com/andresafira/travle_solver"
+          }
+        ]
+      },
+      "isError": false
+    }
+  },
+  "more-source-4": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "archive_filter_applied": null,
+        "repositories": [
+          {
+            "id": "701900641",
+            "name": "metazooa-solver",
+            "owner": {
+              "login": "AEFeinstein",
+              "id": 231180,
+              "type": "User",
+              "avatar_url": "https://avatars.githubusercontent.com/u/231180?v=4",
+              "url": "https://api.github.com/users/AEFeinstein"
+            },
+            "repository_full_name": "AEFeinstein/metazooa-solver",
+            "permissions": {
+              "admin": false,
+              "maintain": false,
+              "pull": true,
+              "push": false,
+              "triage": false
+            },
+            "allow_auto_merge": null,
+            "allow_merge_commit": null,
+            "allow_rebase_merge": null,
+            "allow_squash_merge": null,
+            "allow_update_branch": null,
+            "clone_url": "https://github.com/AEFeinstein/metazooa-solver.git",
+            "size": 47,
+            "default_branch": "main",
+            "git_commits_url": "https://api.github.com/repos/AEFeinstein/metazooa-solver/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/AEFeinstein/metazooa-solver/git/refs{/sha}",
+            "git_url": "git://github.com/AEFeinstein/metazooa-solver.git",
+            "master_branch": null,
+            "visibility": "public",
+            "archived": false,
+            "is_code_search_indexed": null,
+            "display_title": "AEFeinstein/metazooa-solver",
+            "display_url": "https://github.com/AEFeinstein/metazooa-solver"
+          },
+          {
+            "id": "1041659488",
+            "name": "metazooa",
+            "owner": {
+              "login": "harrison-barnes",
+              "id": 11165100,
+              "type": "User",
+              "avatar_url": "https://avatars.githubusercontent.com/u/11165100?v=4",
+              "url": "https://api.github.com/users/harrison-barnes"
+            },
+            "repository_full_name": "harrison-barnes/metazooa",
+            "permissions": {
+              "admin": false,
+              "maintain": false,
+              "pull": true,
+              "push": false,
+              "triage": false
+            },
+            "allow_auto_merge": null,
+            "allow_merge_commit": null,
+            "allow_rebase_merge": null,
+            "allow_squash_merge": null,
+            "allow_update_branch": null,
+            "clone_url": "https://github.com/harrison-barnes/metazooa.git",
+            "size": 62,
+            "default_branch": "main",
+            "git_commits_url": "https://api.github.com/repos/harrison-barnes/metazooa/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/harrison-barnes/metazooa/git/refs{/sha}",
+            "git_url": "git://github.com/harrison-barnes/metazooa.git",
+            "master_branch": null,
+            "visibility": "public",
+            "archived": false,
+            "is_code_search_indexed": null,
+            "display_title": "harrison-barnes/metazooa",
+            "display_url": "https://github.com/harrison-barnes/metazooa"
+          },
+          {
+            "id": "1150514205",
+            "name": "metazooa",
+            "owner": {
+              "login": "alexjercan",
+              "id": 48100248,
+              "type": "User",
+              "avatar_url": "https://avatars.githubusercontent.com/u/48100248?v=4",
+              "url": "https://api.github.com/users/alexjercan"
+            },
+            "repository_full_name": "alexjercan/metazooa",
+            "permissions": {
+              "admin": false,
+              "maintain": false,
+              "pull": true,
+              "push": false,
+              "triage": false
+            },
+            "allow_auto_merge": null,
+            "allow_merge_commit": null,
+            "allow_rebase_merge": null,
+            "allow_squash_merge": null,
+            "allow_update_branch": null,
+            "clone_url": "https://github.com/alexjercan/metazooa.git",
+            "size": 189,
+            "default_branch": "master",
+            "git_commits_url": "https://api.github.com/repos/alexjercan/metazooa/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/alexjercan/metazooa/git/refs{/sha}",
+            "git_url": "git://github.com/alexjercan/metazooa.git",
+            "master_branch": null,
+            "visibility": "public",
+            "archived": false,
+            "is_code_search_indexed": null,
+            "display_title": "alexjercan/metazooa",
+            "display_url": "https://github.com/alexjercan/metazooa"
+          },
+          {
+            "id": "691714374",
+            "name": "Metazooa-Helper",
+            "owner": {
+              "login": "volcwolf",
+              "id": 121436644,
+              "type": "User",
+              "avatar_url": "https://avatars.githubusercontent.com/u/121436644?v=4",
+              "url": "https://api.github.com/users/volcwolf"
+            },
+            "repository_full_name": "volcwolf/Metazooa-Helper",
+            "permissions": {
+              "admin": false,
+              "maintain": false,
+              "pull": true,
+              "push": false,
+              "triage": false
+            },
+            "allow_auto_merge": null,
+            "allow_merge_commit": null,
+            "allow_rebase_merge": null,
+            "allow_squash_merge": null,
+            "allow_update_branch": null,
+            "clone_url": "https://github.com/volcwolf/Metazooa-Helper.git",
+            "size": 43,
+            "default_branch": "main",
+            "git_commits_url": "https://api.github.com/repos/volcwolf/Metazooa-Helper/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/volcwolf/Metazooa-Helper/git/refs{/sha}",
+            "git_url": "git://github.com/volcwolf/Metazooa-Helper.git",
+            "master_branch": null,
+            "visibility": "public",
+            "archived": false,
+            "is_code_search_indexed": null,
+            "display_title": "volcwolf/Metazooa-Helper",
+            "display_url": "https://github.com/volcwolf/Metazooa-Helper"
+          },
+          {
+            "id": "906781220",
+            "name": "Indo-European-Word-Game",
+            "owner": {
+              "login": "BirryGit",
+              "id": 175510256,
+              "type": "User",
+              "avatar_url": "https://avatars.githubusercontent.com/u/175510256?v=4",
+              "url": "https://api.github.com/users/BirryGit"
+            },
+            "repository_full_name": "BirryGit/Indo-European-Word-Game",
+            "permissions": {
+              "admin": false,
+              "maintain": false,
+              "pull": true,
+              "push": false,
+              "triage": false
+            },
+            "allow_auto_merge": null,
+            "allow_merge_commit": null,
+            "allow_rebase_merge": null,
+            "allow_squash_merge": null,
+            "allow_update_branch": null,
+            "clone_url": "https://github.com/BirryGit/Indo-European-Word-Game.git",
+            "size": 80,
+            "default_branch": "main",
+            "git_commits_url": "https://api.github.com/repos/BirryGit/Indo-European-Word-Game/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/BirryGit/Indo-European-Word-Game/git/refs{/sha}",
+            "git_url": "git://github.com/BirryGit/Indo-European-Word-Game.git",
+            "master_branch": null,
+            "visibility": "public",
+            "archived": false,
+            "is_code_search_indexed": null,
+            "display_title": "BirryGit/Indo-European-Word-Game",
+            "display_url": "https://github.com/BirryGit/Indo-European-Word-Game"
+          }
+        ]
+      },
+      "isError": false
+    }
+  },
+  "licensed-0": {
+    "request": {
+      "repository_full_name": "harrison-barnes/metazooa",
+      "path": "README.md"
+    },
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "content": "# Metazooa Analysis Toolkit\n\nA comprehensive Python toolkit for analyzing Metazooa gameplay, detecting cheating patterns, building taxonomy trees, and managing game statistics.\n\n## Overview\n\nMetazooa is a taxonomic guessing game where players guess animal species based on taxonomic clues. This toolkit provides:\n\n- **Data Collection**: Scrape animal lists from the Metazooa website\n- **Taxonomy Enrichment**: Enhance animal data with detailed taxonomy from GBIF API\n- **Game Simulation**: Monte Carlo simulations with random and optimal strategies\n- **Cheating Detection**: Statistical analysis to detect unusual player performance patterns\n- **Data Visualization**: Interactive taxonomy trees and performance analysis charts\n- **Message Analysis**: Extract game scores from iMessage chat history\n\n## Installation\n\n### From Source\n\n```bash\ngit clone https://github.com/harrison-barnes/metazooa.git\ncd metazooa\npip install -e .\n```\n\n### Dependencies\n\nInstall core dependencies:\n```bash\npip install -r requirements.txt\n```\n\nFor web scraping functionality, also install:\n```bash\npip install playwright\nplaywright install chromium\n```\n\n## Quick Start\n\n### Basic Usage\n\n```python\nfrom metazooa import MetazooaWebScraper, TaxonomyEnricher, MetazooaSimulator\n\n# Scrape animal data\nscraper = MetazooaWebScraper()\nanimals = scraper.extract_animal_list()\n\n# Enrich with taxonomy\nimport pandas as pd\ndf = pd.DataFrame(animals)\nenricher = TaxonomyEnricher(df)\nenriched_df = enricher.enrich_taxonomy()\n\n# Run simulations\nsimulator = MetazooaSimulator(enriched_df)\nrandom_results, optimal_results = simulator.run_simulations(n_simulations=1000)\n```\n\n### Command Line Interface\n\nThe toolkit provides a comprehensive CLI:\n\n```bash\n# Scrape animal list from website\nmetazooa --scrape\n\n# Enrich taxonomy data using GBIF\nmetazooa --enrich --taxonomy-file data/metazooa_animals_raw.csv\n\n# Run Monte Carlo simulations\nmetazooa --simulate -n 10000 --taxonomy-file data/metazooa_taxonomy_enriched.csv\n\n# Detect cheating patterns\nmetazooa --detect-cheating --scores-file data/metazooa_score.csv\n\n# Create interactive taxonomy visualization\nmetazooa --visualize-tree --taxonomy-file data/metazooa_taxonomy_enriched.csv\n\n# Analyze temporal patterns\nmetazooa --analyze-temporal --scores-file data/metazooa_score.csv\n```\n\n## Core Components\n\n### Web Scraper (`MetazooaWebScraper`)\nExtracts animal lists from the Metazooa website using Playwright for dynamic content handling.\n\n### Taxonomy Enricher (`TaxonomyEnricher`)\nEnhances animal data with detailed taxonomic information from the GBIF API, including:\n- Complete taxonomic hierarchy (kingdom → species)\n- Important phylogenetic clades (Bilateria, Gnathostomata, etc.)\n- Comprehensive rank coverage\n\n### Game Simulator (`MetazooaSimulator`)\nImplements the core Metazooa game mechanics with:\n- Correct taxonomic pruning logic\n- Random and information-gain optimal strategies\n- Monte Carlo simulation capabilities\n- Caching for performance\n\n### Cheating Detector (`MetazooaCheatingDetector`)\nStatistical analysis engine that detects unusual performance patterns using:\n- Kolmogorov-Smirnov tests\n- Likelihood ratio analysis\n- Percentile ranking\n- Comprehensive suspicion scoring\n\n### Tree Visualizer (`TaxonomyTreeVisualizer`)\nCreates interactive sunburst diagrams showing:\n- Complete taxonomic hierarchies\n- Species count distributions\n- Clickable exploration interface\n\n### Message Analyzer (`MessageHistoryAnalyzer`)\nExtracts game scores from iMessage databases for analysis.\n\n## Data Flow\n\n1. **Collection**: `metazooa --scrape` → `data/metazooa_animals_raw.csv`\n2. **Enrichment**: `metazooa --enrich` → `data/metazooa_taxonomy_enriched.csv`\n3. **Simulation**: `metazooa --simulate` → `data/simulation_results_N.pkl`\n4. **Analysis**: Compare player scores against simulation baselines\n\n## File Structure\n\n```\nmetazooa/\n├── src/metazooa/           # Main package\n│   ├── __init__.py\n│   ├── scraper.py          # Web scraping\n│   ├── enricher.py         # Taxonomy enrichment\n│   ├── simulator.py        # Game simulation\n│   ├── detector.py         # Cheating detection\n│   ├── visualizer.py       # Data visualization\n│   ├── analyzer.py         # Message analysis\n│   └── cli.py             # Command-line interface\n├── data/                   # Data files and cache\n├── tests/                  # Test suite\n├── scripts/               # Utility scripts\n├── docs/                  # Documentation\n├── requirements.txt       # Dependencies\n├── pyproject.toml        # Package configuration\n└── README.md             # This file\n```\n\n## Configuration\n\n### Caching\n- **Taxonomy Cache**: `data/taxonomy_cache.json` - GBIF API responses\n- **Simulation Cache**: `data/metazooa_simulations_N.pkl` - Monte Carlo results\n- Use `--no-cache` to force fresh data retrieval\n\n### Environment Variables\n- Set custom data directory: `METAZOOA_DATA_DIR=/path/to/data`\n- Configure API timeouts: `GBIF_TIMEOUT=30`\n\n## Advanced Features\n\n### Custom Analysis Scripts\n```python\nfrom metazooa import MetazooaCheatingDetector\nimport pandas as pd\n\n# Load your simulation results\nwith open('data/simulation_results_1000.pkl', 'rb') as f:\n    random_results, optimal_results = pickle.load(f)\n\n# Analyze specific player\ndetector = MetazooaCheatingDetector(random_results, optimal_results)\nplayer_scores = [3, 2, 4, 1, 2, 3, 5]\nanalysis = detector.analyze_player(player_scores)\nprint(f\"Suspicion Score: {analysis['suspicion_score']}/100\")\n```\n\n### Interactive Visualizations\nAll visualizations are interactive Plotly charts that can be:\n- Saved as HTML files with `--save-plots`\n- Embedded in Jupyter notebooks\n- Customized with focus groups and depth limits\n\n## Contributing\n\n1. Fork the repository\n2. Create a feature branch\n3. Add tests for new functionality\n4. Run the test suite: `pytest`\n5. Submit a pull request\n\n## Testing\n\n```bash\n# Install development dependencies\npip install -e \".[dev]\"\n\n# Run tests\npytest\n\n# Run with coverage\npytest --cov=metazooa --cov-report=html\n```\n\n## Author\n\n**Harrison Barnes**  \nEmail: harrison@panopticare.com  \nGitHub: [@harrison-barnes](https://github.com/harrison-barnes)\n\n## License\n\nThis project is licensed under the MIT License - see the LICENSE file for details.\n\n## Acknowledgments\n\n- **GBIF**: Global Biodiversity Information Facility for taxonomic data\n- **Metazooa**: The original game that inspired this analysis toolkit\n- **Plotly**: Interactive visualization capabilities",
+          "encoding": "utf-8",
+          "sha": "5f24a2adf7765a25fb7724be9b65d34423ef7022",
+          "display_url": "https://github.com/harrison-barnes/metazooa/blob/main/README.md",
+          "display_title": "README.md"
+        },
+        "isError": false
+      }
+    }
+  },
+  "licensed-1": {
+    "request": {
+      "repository_full_name": "harrison-barnes/metazooa",
+      "path": "LICENSE"
+    },
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "content": "MIT License\n\nCopyright (c) 2025 Metazooa Analysis Toolkit\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+          "encoding": "utf-8",
+          "sha": "ee25b2d43ee3460e3091041c2f269a4aa92f36e4",
+          "display_url": "https://github.com/harrison-barnes/metazooa/blob/main/LICENSE",
+          "display_title": "LICENSE"
+        },
+        "isError": false
+      }
+    }
+  },
+  "licensed-2": {
+    "request": {
+      "repository_full_name": "the-abe-train/metazooa-translations",
+      "path": "README.md"
+    },
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "content": "# Metazooa Translations\n\n`metazooa-translations` is the official repository for translations of\n[Metazooa](https://metazooa.com) and [Metaflora](https://flora.metazooa.com), maintained\nby [Trainwreck Labs](https://trainwrecklabs.com).\n\n## Table of contents\n\n- [Current game reference](#current-game-reference)\n- [Adding a new language](#adding-a-new-language)\n  - [Language text](#language-text)\n  - [Species lists](#species-lists)\n  - [Alternative names](#alternative-names)\n  - [Slovak contribution checklist](#slovak-contribution-checklist)\n- [Non-programmer instructions](#non-programmer-instructions)\n- [Correcting an existing translation](#correcting-an-existing-translation)\n- [Quick corrections for species names](#quick-corrections-for-species-names)\n- [Slovak integration](#slovak-integration)\n- [Pending translations](#pending-translations)\n- [Maintainer integration](#maintainer-integration)\n- [Final notes](#final-notes)\n\n## Current game reference\n\nThe `Language Text` and `Species Lists` files were compared with the TWL monorepo\non October 15, 2026, at commit\n[`49263bb1`](https://github.com/the-abe-train/twl-monorepo/commit/49263bb19943bd42f8166900155c12d1f1bd0352).\nThe base resources matched the corresponding committed game resources as parsed\ndata. The Slovak contribution described below is added on top of that baseline:\n\n- `Language Text/*.json`: the original 15 locale files in\n  `apps/metazooa/src/lib/data/translations/*.ts`.\n- `Species Lists/animals.json`: `scripts/meta-data-prep/curated/animals.ts`\n  (343 animals).\n- `Species Lists/plants.json`: `scripts/meta-data-prep/curated/plants.ts`\n  (215 plants).\n- `Species Lists/alt_names.json`:\n  `apps/metazooa/src/lib/data/alt_names.json` (745 baseline records, plus 49 Slovak records).\n\nThis is a reference to committed game source. Pending local changes and open\ntranslation pull requests are not included. Existing wording, including any\nEnglish text in another locale, reflects that source; suggested improvements\ncan still be contributed separately.\n\nThe integrated Metazooa language list includes `en`, `es`, `de`, `fr`, `it`, `pt`, `ca`, `ko`, `hu`,\n`uk`, `cs`, `tr`, `nl`, `ru`, `pl`, and `sk`. Metaflora enables `en`, `es`, `de`, `fr`,\n`it`, `pt`, `hu`, `cs`, `tr`, `nl`, `uk`, and `ru`. A language file may therefore\nexist before that language is enabled for both games.\n\n## Adding a new language\n\nPlease submit a pull request with the translated interface text and species\nnames. Translating only Metazooa or only Metaflora is welcome; identify which game\nyour contribution covers.\n\n### Language text\n\n1. Copy [Language Text/en-CA.json](Language%20Text/en-CA.json) to a new file named\n   with the language and locale code, such as `sk-SK.json` for Slovak. Keep the\n   outer `translation` object and the existing key names and structure. There is\n   currently no need for a second locale of an already supported language.\n2. Translate the string values. The `Metazooa` and `Metaflora` sections contain\n   game-specific words and grammatical forms used by the rest of the text. If\n   you are translating only one game, leave the other section intact and explain\n   the scope of your contribution.\n3. Preserve interpolation tokens exactly, including spelling, capitalization,\n   dots, and both pairs of braces. For example, `{{species.definite}}`,\n   `{{guess}}`, `{{MAX_GUESSES}}`, and `{{nextGame}}` must keep their names, but\n   may move within a sentence. Translate the corresponding game-specific values\n   where applicable; runtime values such as `{{guess}}` come from the game.\n4. Preserve HTML tags, link destinations, and valid JSON escaping. Only translate\n   visible text inside links and tags. The current template includes `share.4`\n   (sharing in progress), `share.5` (retry), and `settings.4` (dark mode).\n   The profile dashboard sentence uses `statistics.dashboardPrompt` with exactly\n   one `{{dashboard}}` token for the link, and `statistics.dashboardLink` for its\n   visible text. Move the token to suit your language's word order, and keep\n   punctuation in the sentence. Both games share these messages. All 16 current\n   locale files include these translations; pending snapshots remain historical.\n5. Use the game website to check context. The key names indicate where text is\n   used. If your language needs additional grammatical forms or placeholders,\n   describe them in the pull request so the game integration can support them.\n\n### Species lists\n\n1. For Metazooa, add a `name_<language>` field to every record in\n   [Species Lists/animals.json](Species%20Lists/animals.json). For Metaflora, do\n   the same in [Species Lists/plants.json](Species%20Lists/plants.json).\n2. Use the language code without the country: for example, Slovak uses\n   `name_sk`, not `name_sk-SK`.\n3. Preserve each numeric `nodeId`, `scientific_name`, English `name`, existing\n   translations, and record order. Match incoming files by `nodeId`; do not\n   assume their row order matches the current list.\n4. Choose the most common or technically appropriate localized species name as\n   the main name. Put other accepted common names in the alternative-name file.\n\n### Alternative names\n\n[Species Lists/alt_names.json](Species%20Lists/alt_names.json) is shared by both\ngames and all languages. Each record has a language code, the canonical name\nfrom that language's species field, and an array of accepted alternatives:\n\n```json\n{ \"language\": \"en\", \"name\": \"cattle\", \"alts\": [\"cow\", \"bull\", \"steer\", \"ox\"] }\n```\n\nFor Slovak, use `\"language\": \"sk\"` and the exact corresponding `name_sk` value as\n`name`. Preserve existing alternatives when adding new ones. Alternatives are\noptional if there are no additional common names to suggest.\n\n### Slovak contribution checklist\n\n- `Language Text/sk-SK.json`, based on the current English template.\n- `name_sk` on all 343 animal records for a complete Metazooa translation.\n- Optional Slovak alternatives in `Species Lists/alt_names.json`.\n- `name_sk` on all 215 plant records only if also contributing Metaflora.\n- A note identifying any missing species, untranslated interface text, or extra\n  grammatical forms needed by Slovak.\n\nThe Slovak contribution is integrated into the Metazooa source.\nProduction availability depends on review, taxonomy publication, and release.\n\n## Non-programmer instructions\n\nIf this is your first time on GitHub, you can still contribute! Share your files\nin the [Discord server](https://discord.gg/CMxAF2FEdB) or email them to\nabe@trainwrecklabs.com. Please identify the language and which game you translated.\n\n## Correcting an existing translation\n\nSubmit a pull request with the correction and a short explanation of why the\nnew translation is more appropriate. Include the file and key or species\n`nodeId` when possible.\n\n## Quick corrections for species names\n\nUse our [Google Form](https://forms.gle/kRXL4iM3tDgyXrsW6) for small species-name\ncorrections without creating a pull request. You can also suggest corrections to\nWikipedia articles associated with clades or recommend alternative species names.\n\n## Slovak integration\n\nThe October 15, 2026 Slovak contribution adds `Language Text/sk-SK.json`,\n`name_sk` on all 343 animals, and 49 alternative-name records containing 54\nSlovak alternatives. The repository now has 16 interface locale files and 794\nalternative-name records. Metaflora is not included in this contribution.\n\nThe supplied animal file needed five missing commas, and the alternative-name\nfile needed its closing array bracket. Only the Slovak fields and records were\nmerged, preserving current corrections in other languages. The two newer sharing\nmessages absent from the submission were added as `Zdieľanie…` and\n`Skúsiť znova`. Three English interface keywords left in the submission were\ntranslated as `zostáva`, `Kliknite`, and `Ťuknite`. Original contributor wording\nis otherwise retained.\n\nThe TWL monorepo integration registers `sk` as `Slovenčina` for Metazooa,\nadds Slovak to the taxonomy build and lookup types, and permits Slovak guesses\nthrough the current daily/practice request boundary. A taxonomy release containing\nthese names must accompany the application release.\n\n## Pending translations\n\nThe October 15 sync preserves earlier contributor wording separately in\n[Pending Translations/it-IT.json](Pending%20Translations/it-IT.json) and\n[Pending Translations/ru-RU.json](Pending%20Translations/ru-RU.json). These are\nsnapshots from translation-repository commit `45f60e4`, before this sync. They\ncontain Italian and Russian wording that differs from the committed game,\nincluding translated passages where the game still has English text.\n\nThese snapshots are retained for a future reviewed integration. They are not\ncurrent game templates and do not include the newly synchronized sharing keys.\nUse `Language Text/en-CA.json` as the starting point for a new language.\n\n## Maintainer integration\n\nAccepted translation contributions still need to be integrated into the TWL\nmonorepo before they appear in either game:\n\n- Convert interface JSON into the game's TypeScript translation resources under\n  `apps/metazooa/src/lib/data/translations`.\n- Register a new language in `apps/metazooa/src/lib/util/i18n.ts` (resources,\n  enabled games, and display name) and\n  `apps/metazooa/src/lib/schemas/i18nSchemas.ts` (language and translation types).\n  Additional grammatical placeholders also need support in the parameter\n  collection in `apps/metazooa/src/lib/util/i18n.server.ts`.\n- Update the curated animal or plant lists and shared alternative names. Species\n  data is published through `scripts/meta-data-prep`; changing this repository\n  alone does not update the game's taxonomy data.\n- Review and validate the contribution before release. This repository's existing\n  helper scripts contain language-specific settings; they are not an automatic\n  new-language deployment process.\n\n## Final notes\n\n- All languages are welcome.\n- If any game text is missing from the translation file, please let us know.\n- For questions, visit the\n  [Trainwreck Labs Discord server](https://discord.gg/CMxAF2FEdB).\n\nThank you to everyone helping make Metazooa and Metaflora accessible to players\naround the world!\n",
+          "encoding": "utf-8",
+          "sha": "6a4c42923a900db6bc255ea4841893bf4053bd5d",
+          "display_url": "https://github.com/the-abe-train/metazooa-translations/blob/main/README.md",
+          "display_title": "README.md"
+        },
+        "isError": false
+      }
+    }
+  },
+  "licensed-3": {
+    "request": {
+      "repository_full_name": "the-abe-train/metazooa-translations",
+      "path": "LICENSE"
+    },
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}"
+          }
+        ],
+        "structuredContent": {
+          "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+          "error_code": "NOT_FOUND",
+          "error_data": {
+            "message": "Not Found",
+            "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+            "status": "404"
+          }
+        },
+        "isError": true
+      }
+    }
+  },
+  "licensed-4": {
+    "request": {
+      "repository_full_name": "dwyl/english-words",
+      "path": "LICENSE.md"
+    },
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "content": "This is free and unencumbered software released into the public domain.\n\nAnyone is free to copy, modify, publish, use, compile, sell, or\ndistribute this software, either in source code form or as a compiled\nbinary, for any purpose, commercial or non-commercial, and by any\nmeans.\n\nIn jurisdictions that recognize copyright laws, the author or authors\nof this software dedicate any and all copyright interest in the\nsoftware to the public domain. We make this dedication for the benefit\nof the public at large and to the detriment of our heirs and\nsuccessors. We intend this dedication to be an overt act of\nrelinquishment in perpetuity of all present and future rights to this\nsoftware under copyright law.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR\nOTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\nFor more information, please refer to <https://unlicense.org/>\n",
+          "encoding": "utf-8",
+          "sha": "efb98088164f5786b17e83ed384971fc3c74f93c",
+          "display_url": "https://github.com/dwyl/english-words/blob/master/LICENSE.md",
+          "display_title": "LICENSE.md"
+        },
+        "isError": false
+      }
+    }
+  },
+  "licensed-5": {
+    "request": {
+      "repository_full_name": "TranBinhMinh-Finn/Vietle",
+      "path": "README.md"
+    },
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "content": "# React + Vite\n\nThis template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.\n\nCurrently, two official plugins are available:\n\n- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh\n- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh\n\n## Expanding the ESLint configuration\n\nIf you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.\n",
+          "encoding": "utf-8",
+          "sha": "7059a962adb0138b65dd10e0aee66ccfe984b8c6",
+          "display_url": "https://github.com/TranBinhMinh-Finn/Vietle/blob/main/README.md",
+          "display_title": "README.md"
+        },
+        "isError": false
+      }
+    }
+  },
+  "licensed-6": {
+    "request": {
+      "repository_full_name": "TranBinhMinh-Finn/Vietle",
+      "path": "LICENSE"
+    },
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}"
+          }
+        ],
+        "structuredContent": {
+          "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+          "error_code": "NOT_FOUND",
+          "error_data": {
+            "message": "Not Found",
+            "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+            "status": "404"
+          }
+        },
+        "isError": true
+      }
+    }
+  },
+  "official-0": {
+    "request": {
+      "repository_full_name": "the-abe-train/twl-monorepo",
+      "path": "LICENSE"
+    },
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}"
+          }
+        ],
+        "structuredContent": {
+          "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+          "error_code": "NOT_FOUND",
+          "error_data": {
+            "message": "Not Found",
+            "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+            "status": "404"
+          }
+        },
+        "isError": true
+      }
+    }
+  },
+  "official-1": {
+    "request": {
+      "repository_full_name": "the-abe-train/twl-monorepo",
+      "path": "README.md"
+    },
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}"
+          }
+        ],
+        "structuredContent": {
+          "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+          "error_code": "NOT_FOUND",
+          "error_data": {
+            "message": "Not Found",
+            "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+            "status": "404"
+          }
+        },
+        "isError": true
+      }
+    }
+  },
+  "official-2": {
+    "request": {
+      "repository_full_name": "the-abe-train/twl-monorepo",
+      "path": "apps/metazooa/package.json"
+    },
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}"
+          }
+        ],
+        "structuredContent": {
+          "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+          "error_code": "NOT_FOUND",
+          "error_data": {
+            "message": "Not Found",
+            "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+            "status": "404"
+          }
+        },
+        "isError": true
+      }
+    }
+  },
+  "official-3": {
+    "request": {
+      "repository_full_name": "AEFeinstein/metazooa-solver",
+      "path": "README.md"
+    },
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "content": "# Metazooa Solver\n\nSolve [Metazooa](https://metazooa.com/) puzzles, and fast!\n\n# How to use\n\n## Setup\n\n> **Note**\n> `metazooa-species.json`, `sciNames.json`, and `tree.json` are provided in this repo, but may not be accurate (generated October 7th, 2023)\n>\n> If you're happy using those files, skip Setup and go straight to Solving\n\n1. Download taxonomic data from https://ftp.ncbi.nih.gov/pub/taxonomy/. You'll want to get `taxdmp.zip` (or an equivalent), extract `names.dmp` and `nodes.dmp`, and put them in this folder.\n1. Make `metazooa-species.json` by grabbing the species from https://metazooa.com/ page source. When the game starts, just search for \"octopus.\" Use the same JSON format.\n1. Use `sciScraper.py` to grab the scientific names for each animal in `metazooa-species.json`. This generates `sciNames.json`. It's a slow, Selenium process. Gross. It probably won't work in the near future. That's Selenium!\n1. Use `treeGen.py` to generate the taxonomic tree used by the solver. This uses `sciNames.json`, `names.dmp`, and `nodes.dmp` as inputs. It generates `tree.json`.\n\n## Solving\n\nRun the solver, and follow the prompts. \n```bash\npython solver.py\n```\n\n# Strategy\n\nThe goal is to guess a species which will narrow the search space as much as possible for the next iteration.\nI tested three strategies for finding that species:\n1. Starting at the root of the taxonomic tree, go down the branch which has the most species in it and recurse until you reach a species. This has an average of **4.224** guesses per solution.\n1. Iterate through each species as a potential guess. For each guess, iterate through each species as a potential solution. For each combination of potential guess and potential solution, tally how many resulting species there would be. Pick the species with the smallest number of total resulting species. This is very slow. This has an average of **4.231** guesses per solution.\n1. Starting at the root of the taxonomic tree, go down the branch which has closest to 50% of the remaining species in it and recurse until you reach a species. This has an average of **4.627** guesses per solution.\n\nOnce the tree is constructed, it is searched like so:\n\n1. Find the best guess and give it to the user.\n    1. Count how many species each node in the tree has underneath it\n    1. Use one of the three aforementioned strategies to find the best guess species\n1. Get the common group between the unknown species and the guessed species from the user.\n1. Set the root of the tree to the common group (remove all species not in the common group).\n1. Remove the branch of the tree from below the root to the guessed species (remove all species that are too similar to the incorrectly guessed species).\n1. Return to step 1.\n",
+          "encoding": "utf-8",
+          "sha": "99f8fa6205c1068f85d9e2627ed8028da1b316be",
+          "display_url": "https://github.com/AEFeinstein/metazooa-solver/blob/main/README.md",
+          "display_title": "README.md"
+        },
+        "isError": false
+      }
+    }
+  },
+  "official-4": {
+    "request": {
+      "repository_full_name": "AEFeinstein/metazooa-solver",
+      "path": "LICENSE"
+    },
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "content": "MIT License\n\nCopyright (c) 2023 gelakinetic\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+          "encoding": "utf-8",
+          "sha": "624dc3f8ace5b01b4cb0ff7c3357f455f0c31650",
+          "display_url": "https://github.com/AEFeinstein/metazooa-solver/blob/main/LICENSE",
+          "display_title": "LICENSE"
+        },
+        "isError": false
+      }
+    }
+  }
+}

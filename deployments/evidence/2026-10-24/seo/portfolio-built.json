@@ -1,0 +1,280 @@
+{
+  "checkedAt": "2026-10-24T09:14:44.931Z",
+  "mode": "public (release holds preserved)",
+  "sites": 12,
+  "pages": 28,
+  "failures": [],
+  "results": [
+    {
+      "site": "block-blast-unblocked",
+      "page": "index.html",
+      "title": "Block Blast Unblocked — Free 8×8 Block Puzzle",
+      "description": "Play Block Blast Unblocked free. Place shapes on an 8×8 board, clear rows and columns, build combos, and save your best. Drag, tap or use the keyboard.",
+      "canonical": [
+        "https://playblockblastunblocked.com/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "issues": []
+    },
+    {
+      "site": "costcodle",
+      "page": "index.html",
+      "title": "Costcodle Unlimited — Daily Price Guessing Game",
+      "description": "Play Costcodle Unlimited: guess a reference price in six tries. Try the daily puzzle or unlimited mode, with higher/lower hints and a 5% winning window.",
+      "canonical": [
+        "https://costcodle.cc/"
+      ],
+      "robots": "index, follow, max-image-preview:large,index, follow, max-image-preview:large",
+      "issues": []
+    },
+    {
+      "site": "gulper-io",
+      "page": "index.html",
+      "title": "Gulper.io Snake Game — Play Online Free",
+      "description": "Play Gulper.io in your browser. Collect glowing orbs, outmaneuver computer rivals and boost your way to a new high score. Free to play, no download.",
+      "canonical": [
+        "https://gulperio.com/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "issues": []
+    },
+    {
+      "site": "krillion-unlimited",
+      "page": "index.html",
+      "title": "STARLING — Free Space Word Game & Rare Answer Challenge",
+      "description": "Play STARLING, a free space word game with seven timed prompts. Try uncommon answers, chase your best score and explore an animated pixel universe.",
+      "canonical": [
+        "https://krilliononline.com/"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "issues": []
+    },
+    {
+      "site": "spacebar-counter",
+      "page": "index.html",
+      "title": "Spacebar Counter — A Simple Spacebar Speed Test",
+      "description": "Count individual spacebar presses in 5, 10, 30 or 60 seconds. Filter held-key repeats, compare your local results, or try a separate tap test.",
+      "canonical": [
+        "https://www.spacebarcounter.xyz/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "issues": []
+    },
+    {
+      "site": "2048-cupcakes",
+      "page": "index.html",
+      "title": "2048 Cupcakes — A Cozy Cupcake Merge Game | Crumb",
+      "description": "Play 2048 Cupcakes free. Slide and merge matching cupcakes toward 2048, undo up to 10 moves, and save your batch. Use arrow keys, WASD or swipe controls.",
+      "canonical": [
+        "https://www.2048cupcakes.xyz/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "issues": []
+    },
+    {
+      "site": "coreball",
+      "page": "coreball-tips.html",
+      "title": "Coreball Tips & Level Guide: All 30 Original Levels",
+      "description": "Learn Coreball timing, changing rotation and slower Practice mode. Includes controls and a reference for all 30 levels in this free browser game.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "coreball",
+      "page": "index.html",
+      "title": "Coreball – Play Free Online | 30 Levels",
+      "description": "Play Coreball free online: place pins on a spinning fur ball across 30 levels. Tap or press Space to launch, retry anytime, or learn in slower Practice.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "minute-cryptic-unlimited",
+      "page": "how-to-solve-cryptic-clues.html",
+      "title": "How to Solve Cryptic Clues: 5 Worked Examples",
+      "description": "Learn five cryptic clue types with worked examples: anagrams, hidden words, reversals, charades and containers. Read hints, then reveal each answer.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "minute-cryptic-unlimited",
+      "page": "index.html",
+      "title": "Minute Cryptic Unlimited – Free Cryptic Practice",
+      "description": "Play Minute Cryptic Unlimited free: 20 cryptic clues, three hints and explained answers. Practice five clue types with unlimited replay and no signup.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "snow-rider-3d-unblocked",
+      "page": "about.html",
+      "title": "About & Privacy — Snow Rider 3D Game Page",
+      "description": "About this independent Snow Rider 3D game page, the Miniplay player, third-party privacy choices, game credits and browser access.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "snow-rider-3d-unblocked",
+      "page": "index.html",
+      "title": "Snow Rider 3D Unblocked — Play Free Online",
+      "description": "Play Snow Rider 3D online in your browser. Steer your sled, jump obstacles and collect gifts. Miniplay player, controls and loading help.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "snow-rider-3d-unblocked",
+      "page": "snow-rider-3d-controls.html",
+      "title": "Snow Rider 3D Controls & Loading Help",
+      "description": "Snow Rider 3D controls: arrows or A/D to steer, Up or W to jump. Learn about gifts, mobile landscape play and troubleshooting the publisher player.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "head-soccer-2026",
+      "page": "404.html",
+      "title": "Page Not Found — Head Soccer 2026",
+      "description": "This page could not be found. Return to Head Soccer 2026 or read the game controls.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "head-soccer-2026",
+      "page": "about.html",
+      "title": "About Head Soccer 2026 — Game Source & Site Information",
+      "description": "Learn about this independent Head Soccer 2026 game page, the official GamePix embed, and the difference between website features and game features.",
+      "canonical": [
+        "https://www.playheadsoccer.com/about.html"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "issues": []
+    },
+    {
+      "site": "head-soccer-2026",
+      "page": "how-to-play.html",
+      "title": "How to Play Head Soccer 2026 — Controls & 2 Player Guide",
+      "description": "Learn Head Soccer 2026 controls for solo and two-player matches, plus mobile play, shooting tactics and solutions for a game that will not load.",
+      "canonical": [
+        "https://www.playheadsoccer.com/how-to-play.html"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "issues": []
+    },
+    {
+      "site": "head-soccer-2026",
+      "page": "index.html",
+      "title": "Head Soccer 2026 — Play Free Online, Solo & 2 Player",
+      "description": "Play Head Soccer 2026 in your browser. Pick a national team, challenge the CPU or a friend, and find clear keyboard controls, mobile tips and fullscreen play.",
+      "canonical": [
+        "https://www.playheadsoccer.com/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "issues": []
+    },
+    {
+      "site": "head-soccer-2026",
+      "page": "privacy.html",
+      "title": "Privacy & Game Provider — Head Soccer 2026",
+      "description": "See when this site connects to GamePix, how the embedded game handles provider privacy choices, and what happens to gameplay data.",
+      "canonical": [
+        "https://www.playheadsoccer.com/privacy.html"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "issues": []
+    },
+    {
+      "site": "acceleration-city",
+      "page": "404.html",
+      "title": "Page Not Found — Acceleration City",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "acceleration-city",
+      "page": "about.html",
+      "title": "About This Acceleration City Player Guide",
+      "description": "Who made Acceleration City, how this independent browser page works, and what happens when you load the original CS2N game.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "acceleration-city",
+      "page": "guide.html",
+      "title": "Acceleration City Guide — CoBot, Controls & Loading Help",
+      "description": "Get started with Acceleration City: driving, CoBot programming, browser requirements and loading help, with links to the official learning resources.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "acceleration-city",
+      "page": "index.html",
+      "title": "Acceleration City — Play the CoBot Driving Game",
+      "description": "Play Acceleration City in your browser. Explore, drive and program a CoBot, with a clear game view, practical help and a guide to getting started.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "cluster-rush",
+      "page": "404.html",
+      "title": "Page Not Found — Cluster Rush",
+      "description": "This page could not be found. Return to the Cluster Rush game or open the control guide.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "cluster-rush",
+      "page": "about.html",
+      "title": "About This Cluster Rush Fan Site & Game Source",
+      "description": "How this independent Cluster Rush website works, where the Unity game is loaded from, and how to report a site or rights issue.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "cluster-rush",
+      "page": "how-to-play.html",
+      "title": "How to Play Cluster Rush — Controls, Climbing & Tips",
+      "description": "Learn the verified Cluster Rush keyboard controls, how to climb a truck, and practical tips for the first level. Includes mobile and retry limitations.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "cluster-rush",
+      "page": "index.html",
+      "title": "Cluster Rush — Play the Truck Jumping Game Online",
+      "description": "Play Cluster Rush online. Jump between moving trucks, hold to climb, and reach the red gate. Clear keyboard controls, fullscreen play, and practical tips.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "cluster-rush",
+      "page": "not-loading.html",
+      "title": "Cluster Rush Not Loading? Browser & Keyboard Fixes",
+      "description": "Fix a blank Cluster Rush player, slow Unity loading, or keyboard focus issues. Clear steps and honest limits for WebGL, mobile devices, and networks.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "cluster-rush",
+      "page": "privacy.html",
+      "title": "Privacy — Cluster Rush Fan Site",
+      "description": "Privacy notes for the Cluster Rush website and its external Unity game iframe, including provider requests and browser storage.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    }
+  ]
+}

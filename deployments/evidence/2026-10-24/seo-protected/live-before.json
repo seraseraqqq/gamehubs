@@ -1,0 +1,2535 @@
+[
+  {
+    "url": "https://gamehubs-coreball.vercel.app/",
+    "overview": {
+      "url": "https://gamehubs-coreball.vercel.app/",
+      "title": {
+        "text": "Coreball – Play Free Online | 30 Levels",
+        "length": 39
+      },
+      "description": {
+        "text": "Play an independent Coreball-style game with a soft 3D fur ball and playful cat paws. 30 original levels, unlimited retries and slower practice. Free, no signup.",
+        "length": 161
+      },
+      "keywords": null,
+      "canonical": null,
+      "robots": "noindex, nofollow",
+      "charset": "utf-8",
+      "lang": "en",
+      "viewport": "width=device-width,initial-scale=1"
+    },
+    "issues": [
+      {
+        "code": "DESC_LEN",
+        "observed": "description 161文字（典型范围外，判读见 references/seo-box.md）"
+      },
+      {
+        "code": "NO_KEYWORDS",
+        "observed": "meta keywordsがありません"
+      },
+      {
+        "code": "NO_CANONICAL",
+        "observed": "canonicalタグがありません"
+      },
+      {
+        "code": "NOINDEX",
+        "observed": "robotsにnoindexが設定されています"
+      }
+    ],
+    "density": {
+      "totalWords": 585,
+      "unigrams": [
+        {
+          "word": "the",
+          "count": 27,
+          "density": "4.62%"
+        },
+        {
+          "word": "and",
+          "count": 15,
+          "density": "2.56%"
+        },
+        {
+          "word": "this",
+          "count": 15,
+          "density": "2.56%"
+        },
+        {
+          "word": "game",
+          "count": 11,
+          "density": "1.88%"
+        },
+        {
+          "word": "is",
+          "count": 11,
+          "density": "1.88%"
+        },
+        {
+          "word": "coreball",
+          "count": 10,
+          "density": "1.71%"
+        },
+        {
+          "word": "levels",
+          "count": 9,
+          "density": "1.54%"
+        },
+        {
+          "word": "to",
+          "count": 9,
+          "density": "1.54%"
+        },
+        {
+          "word": "level",
+          "count": 9,
+          "density": "1.54%"
+        },
+        {
+          "word": "pin",
+          "count": 8,
+          "density": "1.37%"
+        },
+        {
+          "word": "or",
+          "count": 8,
+          "density": "1.37%"
+        },
+        {
+          "word": "challenge",
+          "count": 7,
+          "density": "1.20%"
+        },
+        {
+          "word": "progress",
+          "count": 7,
+          "density": "1.20%"
+        },
+        {
+          "word": "play",
+          "count": 6,
+          "density": "1.03%"
+        },
+        {
+          "word": "practice",
+          "count": 6,
+          "density": "1.03%"
+        },
+        {
+          "word": "your",
+          "count": 6,
+          "density": "1.03%"
+        },
+        {
+          "word": "in",
+          "count": 6,
+          "density": "1.03%"
+        },
+        {
+          "word": "original",
+          "count": 5,
+          "density": "0.85%"
+        },
+        {
+          "word": "launch",
+          "count": 5,
+          "density": "0.85%"
+        },
+        {
+          "word": "are",
+          "count": 5,
+          "density": "0.85%"
+        }
+      ],
+      "bigrams": [
+        {
+          "phrase": "the game",
+          "count": 4,
+          "density": "0.68%"
+        },
+        {
+          "phrase": "to play",
+          "count": 3,
+          "density": "0.51%"
+        },
+        {
+          "phrase": "tap the",
+          "count": 3,
+          "density": "0.51%"
+        },
+        {
+          "phrase": "levels are",
+          "count": 3,
+          "density": "0.51%"
+        },
+        {
+          "phrase": "free online",
+          "count": 2,
+          "density": "0.34%"
+        },
+        {
+          "phrase": "game coreball",
+          "count": 2,
+          "density": "0.34%"
+        },
+        {
+          "phrase": "how to",
+          "count": 2,
+          "density": "0.34%"
+        },
+        {
+          "phrase": "every pin",
+          "count": 2,
+          "density": "0.34%"
+        },
+        {
+          "phrase": "clean streak",
+          "count": 2,
+          "density": "0.34%"
+        },
+        {
+          "phrase": "fresh start",
+          "count": 2,
+          "density": "0.34%"
+        },
+        {
+          "phrase": "watch the",
+          "count": 2,
+          "density": "0.34%"
+        },
+        {
+          "phrase": "the ball",
+          "count": 2,
+          "density": "0.34%"
+        },
+        {
+          "phrase": "speed practice",
+          "count": 2,
+          "density": "0.34%"
+        },
+        {
+          "phrase": "this version",
+          "count": 2,
+          "density": "0.34%"
+        },
+        {
+          "phrase": "launch button",
+          "count": 2,
+          "density": "0.34%"
+        }
+      ],
+      "trigrams": [
+        {
+          "phrase": "how to play",
+          "count": 2,
+          "density": "0.34%"
+        },
+        {
+          "phrase": "space or enter",
+          "count": 2,
+          "density": "0.34%"
+        },
+        {
+          "phrase": "for this project",
+          "count": 2,
+          "density": "0.34%"
+        },
+        {
+          "phrase": "progress and settings",
+          "count": 2,
+          "density": "0.34%"
+        }
+      ]
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "Coreball"
+      },
+      {
+        "level": 2,
+        "text": "A fresh start?"
+      },
+      {
+        "level": 2,
+        "text": "Pick your next challenge"
+      },
+      {
+        "level": 2,
+        "text": "How to play Coreball."
+      },
+      {
+        "level": 2,
+        "text": "Coreball tips: watch the landing."
+      },
+      {
+        "level": 2,
+        "text": "Coreball game: frequently asked questions"
+      },
+      {
+        "level": 2,
+        "text": "Your game stays here."
+      },
+      {
+        "level": 2,
+        "text": "A fresh start?"
+      }
+    ],
+    "images": {
+      "total": 0,
+      "withoutAlt": 0,
+      "emptyAlt": 0,
+      "items": []
+    },
+    "links": {
+      "internal": [
+        {
+          "href": "./",
+          "text": "coreball",
+          "rel": ""
+        },
+        {
+          "href": "./coreball-tips.html",
+          "text": "Tips &amp; levels",
+          "rel": ""
+        },
+        {
+          "href": "./coreball-tips.html",
+          "text": "Coreball tips and 30-level reference",
+          "rel": ""
+        },
+        {
+          "href": "./LICENSE",
+          "text": "MIT license",
+          "rel": ""
+        },
+        {
+          "href": "./assets/fonts/Figtree-OFL.txt",
+          "text": "SIL OFL",
+          "rel": ""
+        }
+      ],
+      "external": [],
+      "nofollow": [],
+      "total": 5
+    },
+    "social": {
+      "og": {
+        "title": "Coreball – Play Free Online | 30 Levels",
+        "description": "Play an independent Coreball-style game with a soft 3D fur ball and playful cat paws. 30 original levels, unlimited retries and slower practice. Free, no signup.",
+        "image": "./assets/social-card.png",
+        "url": null,
+        "type": "website",
+        "siteName": null,
+        "locale": null,
+        "imageWidth": "1200",
+        "imageHeight": "630"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Coreball – Play Free Online | 30 Levels",
+        "description": "Play an independent Coreball-style game with a soft 3D fur ball and playful cat paws. 30 original levels, unlimited retries and slower practice. Free, no signup.",
+        "image": "./assets/social-card.png"
+      }
+    },
+    "hreflangs": [],
+    "structured": [
+      {
+        "type": "Graph",
+        "summary": "VideoGame, FAQPage"
+      }
+    ],
+    "structuredValidation": {
+      "scope": "syntax-only",
+      "jsonSyntax": "valid",
+      "schemaSemantics": "not-validated"
+    }
+  },
+  {
+    "url": "https://gamehubs-coreball.vercel.app/coreball-tips.html",
+    "overview": {
+      "url": "https://gamehubs-coreball.vercel.app/coreball-tips.html",
+      "title": {
+        "text": "Coreball Tips &amp; Level Guide: All 30 Original Levels",
+        "length": 55
+      },
+      "description": {
+        "text": "Learn how to time Coreball-style shots, handle changing rotation and use slower practice. Includes a reference for the 30 original levels in this game.",
+        "length": 151
+      },
+      "keywords": null,
+      "canonical": null,
+      "robots": "noindex, nofollow",
+      "charset": "utf-8",
+      "lang": "en",
+      "viewport": "width=device-width,initial-scale=1"
+    },
+    "issues": [
+      {
+        "code": "NO_KEYWORDS",
+        "observed": "meta keywordsがありません"
+      },
+      {
+        "code": "NO_CANONICAL",
+        "observed": "canonicalタグがありません"
+      },
+      {
+        "code": "NOINDEX",
+        "observed": "robotsにnoindexが設定されています"
+      }
+    ],
+    "density": {
+      "totalWords": 563,
+      "unigrams": [
+        {
+          "word": "the",
+          "count": 23,
+          "density": "4.09%"
+        },
+        {
+          "word": "clockwise",
+          "count": 23,
+          "density": "4.09%"
+        },
+        {
+          "word": "variation",
+          "count": 21,
+          "density": "3.73%"
+        },
+        {
+          "word": "constant",
+          "count": 11,
+          "density": "1.95%"
+        },
+        {
+          "word": "moderate",
+          "count": 11,
+          "density": "1.95%"
+        },
+        {
+          "word": "stronger",
+          "count": 10,
+          "density": "1.78%"
+        },
+        {
+          "word": "coreball",
+          "count": 8,
+          "density": "1.42%"
+        },
+        {
+          "word": "pin",
+          "count": 8,
+          "density": "1.42%"
+        },
+        {
+          "word": "level",
+          "count": 7,
+          "density": "1.24%"
+        },
+        {
+          "word": "and",
+          "count": 7,
+          "density": "1.24%"
+        },
+        {
+          "word": "to",
+          "count": 7,
+          "density": "1.24%"
+        },
+        {
+          "word": "counterclockwise",
+          "count": 7,
+          "density": "1.24%"
+        },
+        {
+          "word": "levels",
+          "count": 6,
+          "density": "1.07%"
+        },
+        {
+          "word": "is",
+          "count": 6,
+          "density": "1.07%"
+        },
+        {
+          "word": "all",
+          "count": 5,
+          "density": "0.89%"
+        },
+        {
+          "word": "speed",
+          "count": 5,
+          "density": "0.89%"
+        },
+        {
+          "word": "in",
+          "count": 5,
+          "density": "0.89%"
+        },
+        {
+          "word": "original",
+          "count": 4,
+          "density": "0.71%"
+        },
+        {
+          "word": "this",
+          "count": 4,
+          "density": "0.71%"
+        },
+        {
+          "word": "rotation",
+          "count": 4,
+          "density": "0.71%"
+        }
+      ],
+      "bigrams": [
+        {
+          "phrase": "variation clockwise",
+          "count": 15,
+          "density": "2.66%"
+        },
+        {
+          "phrase": "moderate variation",
+          "count": 10,
+          "density": "1.78%"
+        },
+        {
+          "phrase": "stronger variation",
+          "count": 10,
+          "density": "1.78%"
+        },
+        {
+          "phrase": "clockwise constant",
+          "count": 8,
+          "density": "1.42%"
+        },
+        {
+          "phrase": "clockwise stronger",
+          "count": 8,
+          "density": "1.42%"
+        },
+        {
+          "phrase": "constant clockwise",
+          "count": 7,
+          "density": "1.24%"
+        },
+        {
+          "phrase": "clockwise moderate",
+          "count": 7,
+          "density": "1.24%"
+        },
+        {
+          "phrase": "variation counterclockwise",
+          "count": 4,
+          "density": "0.71%"
+        },
+        {
+          "phrase": "the core",
+          "count": 3,
+          "density": "0.53%"
+        },
+        {
+          "phrase": "constant counterclockwise",
+          "count": 3,
+          "density": "0.53%"
+        },
+        {
+          "phrase": "counterclockwise moderate",
+          "count": 3,
+          "density": "0.53%"
+        },
+        {
+          "phrase": "coreball tips",
+          "count": 2,
+          "density": "0.36%"
+        },
+        {
+          "phrase": "tips level",
+          "count": 2,
+          "density": "0.36%"
+        },
+        {
+          "phrase": "level guide",
+          "count": 2,
+          "density": "0.36%"
+        },
+        {
+          "phrase": "guide all",
+          "count": 2,
+          "density": "0.36%"
+        }
+      ],
+      "trigrams": [
+        {
+          "phrase": "moderate variation clockwise",
+          "count": 8,
+          "density": "1.42%"
+        },
+        {
+          "phrase": "variation clockwise stronger",
+          "count": 8,
+          "density": "1.42%"
+        },
+        {
+          "phrase": "clockwise stronger variation",
+          "count": 8,
+          "density": "1.42%"
+        },
+        {
+          "phrase": "constant clockwise constant",
+          "count": 7,
+          "density": "1.24%"
+        },
+        {
+          "phrase": "variation clockwise moderate",
+          "count": 7,
+          "density": "1.24%"
+        },
+        {
+          "phrase": "clockwise moderate variation",
+          "count": 7,
+          "density": "1.24%"
+        },
+        {
+          "phrase": "stronger variation clockwise",
+          "count": 7,
+          "density": "1.24%"
+        },
+        {
+          "phrase": "clockwise constant clockwise",
+          "count": 5,
+          "density": "0.89%"
+        },
+        {
+          "phrase": "clockwise constant counterclockwise",
+          "count": 3,
+          "density": "0.53%"
+        },
+        {
+          "phrase": "counterclockwise moderate variation",
+          "count": 3,
+          "density": "0.53%"
+        }
+      ]
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "Coreball Tips &amp; Level Guide: All 30 Original Levels"
+      },
+      {
+        "level": 2,
+        "text": "Time the landing, not the click"
+      },
+      {
+        "level": 2,
+        "text": "Learn a pattern at 70% speed"
+      },
+      {
+        "level": 2,
+        "text": "All 30 levels in this version"
+      },
+      {
+        "level": 2,
+        "text": "Touch, mouse and keyboard controls"
+      },
+      {
+        "level": 2,
+        "text": "Why do repeated clicks fail?"
+      }
+    ],
+    "images": {
+      "total": 0,
+      "withoutAlt": 0,
+      "emptyAlt": 0,
+      "items": []
+    },
+    "links": {
+      "internal": [
+        {
+          "href": "./",
+          "text": "Coreball",
+          "rel": ""
+        },
+        {
+          "href": "./#play",
+          "text": "Play free",
+          "rel": ""
+        },
+        {
+          "href": "./",
+          "text": "Coreball",
+          "rel": ""
+        },
+        {
+          "href": "./#play",
+          "text": "Play the free Coreball-style game",
+          "rel": ""
+        },
+        {
+          "href": "./#play",
+          "text": "Back to Coreball →",
+          "rel": ""
+        }
+      ],
+      "external": [],
+      "nofollow": [],
+      "total": 5
+    },
+    "social": {
+      "og": {
+        "title": "Coreball Tips &amp; Level Guide: All 30 Original Levels",
+        "description": "Learn how to time Coreball-style shots, handle changing rotation and use slower practice. Includes a reference for the 30 original levels in this game.",
+        "image": "./assets/guide-card.png",
+        "url": null,
+        "type": "article",
+        "siteName": null,
+        "locale": null,
+        "imageWidth": "1200",
+        "imageHeight": "630"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Coreball Tips &amp; Level Guide: All 30 Original Levels",
+        "description": "Learn how to time Coreball-style shots, handle changing rotation and use slower practice. Includes a reference for the 30 original levels in this game.",
+        "image": "./assets/guide-card.png"
+      }
+    },
+    "hreflangs": [],
+    "structured": [
+      {
+        "type": "Article",
+        "summary": "Article"
+      }
+    ],
+    "structuredValidation": {
+      "scope": "syntax-only",
+      "jsonSyntax": "valid",
+      "schemaSemantics": "not-validated"
+    }
+  },
+  {
+    "url": "https://gamehubs-minute-cryptic-unlimited.vercel.app/",
+    "overview": {
+      "url": "https://gamehubs-minute-cryptic-unlimited.vercel.app/",
+      "title": {
+        "text": "Minute Cryptic Unlimited – Free Cryptic Practice",
+        "length": 48
+      },
+      "description": {
+        "text": "Play Minute Cryptic Unlimited practice free: 20 original cryptic clues, three hints and explained answers. No daily limit or signup. Independent practice game.",
+        "length": 159
+      },
+      "keywords": null,
+      "canonical": null,
+      "robots": "noindex, nofollow",
+      "charset": "utf-8",
+      "lang": "en",
+      "viewport": "width=device-width,initial-scale=1"
+    },
+    "issues": [
+      {
+        "code": "NO_KEYWORDS",
+        "observed": "meta keywordsがありません"
+      },
+      {
+        "code": "NO_CANONICAL",
+        "observed": "canonicalタグがありません"
+      },
+      {
+        "code": "NOINDEX",
+        "observed": "robotsにnoindexが設定されています"
+      }
+    ],
+    "density": {
+      "totalWords": 737,
+      "unigrams": [
+        {
+          "word": "the",
+          "count": 22,
+          "density": "2.99%"
+        },
+        {
+          "word": "cryptic",
+          "count": 19,
+          "density": "2.58%"
+        },
+        {
+          "word": "clue",
+          "count": 14,
+          "density": "1.90%"
+        },
+        {
+          "word": "this",
+          "count": 14,
+          "density": "1.90%"
+        },
+        {
+          "word": "minute",
+          "count": 11,
+          "density": "1.49%"
+        },
+        {
+          "word": "practice",
+          "count": 11,
+          "density": "1.49%"
+        },
+        {
+          "word": "for",
+          "count": 11,
+          "density": "1.49%"
+        },
+        {
+          "word": "is",
+          "count": 11,
+          "density": "1.49%"
+        },
+        {
+          "word": "you",
+          "count": 11,
+          "density": "1.49%"
+        },
+        {
+          "word": "to",
+          "count": 10,
+          "density": "1.36%"
+        },
+        {
+          "word": "clues",
+          "count": 10,
+          "density": "1.36%"
+        },
+        {
+          "word": "and",
+          "count": 10,
+          "density": "1.36%"
+        },
+        {
+          "word": "unlimited",
+          "count": 9,
+          "density": "1.22%"
+        },
+        {
+          "word": "no",
+          "count": 8,
+          "density": "1.09%"
+        },
+        {
+          "word": "or",
+          "count": 8,
+          "density": "1.09%"
+        },
+        {
+          "word": "it",
+          "count": 7,
+          "density": "0.95%"
+        },
+        {
+          "word": "answer",
+          "count": 7,
+          "density": "0.95%"
+        },
+        {
+          "word": "of",
+          "count": 7,
+          "density": "0.95%"
+        },
+        {
+          "word": "in",
+          "count": 7,
+          "density": "0.95%"
+        },
+        {
+          "word": "not",
+          "count": 7,
+          "density": "0.95%"
+        }
+      ],
+      "bigrams": [
+        {
+          "phrase": "minute cryptic",
+          "count": 11,
+          "density": "1.49%"
+        },
+        {
+          "phrase": "cryptic unlimited",
+          "count": 9,
+          "density": "1.22%"
+        },
+        {
+          "phrase": "daily limit",
+          "count": 4,
+          "density": "0.54%"
+        },
+        {
+          "phrase": "free cryptic",
+          "count": 3,
+          "density": "0.41%"
+        },
+        {
+          "phrase": "cryptic practice",
+          "count": 3,
+          "density": "0.41%"
+        },
+        {
+          "phrase": "unlimited practice",
+          "count": 3,
+          "density": "0.41%"
+        },
+        {
+          "phrase": "cryptic clues",
+          "count": 3,
+          "density": "0.41%"
+        },
+        {
+          "phrase": "no daily",
+          "count": 3,
+          "density": "0.41%"
+        },
+        {
+          "phrase": "hidden words",
+          "count": 3,
+          "density": "0.41%"
+        },
+        {
+          "phrase": "original clues",
+          "count": 3,
+          "density": "0.41%"
+        },
+        {
+          "phrase": "little patch",
+          "count": 3,
+          "density": "0.41%"
+        },
+        {
+          "phrase": "this edition",
+          "count": 3,
+          "density": "0.41%"
+        },
+        {
+          "phrase": "in this",
+          "count": 3,
+          "density": "0.41%"
+        },
+        {
+          "phrase": "this browser",
+          "count": 3,
+          "density": "0.41%"
+        },
+        {
+          "phrase": "unlimited free",
+          "count": 2,
+          "density": "0.27%"
+        }
+      ],
+      "trigrams": [
+        {
+          "phrase": "minute cryptic unlimited",
+          "count": 9,
+          "density": "1.22%"
+        },
+        {
+          "phrase": "cryptic unlimited practice",
+          "count": 3,
+          "density": "0.41%"
+        },
+        {
+          "phrase": "no daily limit",
+          "count": 3,
+          "density": "0.41%"
+        },
+        {
+          "phrase": "cryptic unlimited free",
+          "count": 2,
+          "density": "0.27%"
+        },
+        {
+          "phrase": "unlimited free cryptic",
+          "count": 2,
+          "density": "0.27%"
+        },
+        {
+          "phrase": "free cryptic practice",
+          "count": 2,
+          "density": "0.27%"
+        },
+        {
+          "phrase": "anagrams hidden words",
+          "count": 2,
+          "density": "0.27%"
+        },
+        {
+          "phrase": "hidden words reversals",
+          "count": 2,
+          "density": "0.27%"
+        },
+        {
+          "phrase": "words reversals charades",
+          "count": 2,
+          "density": "0.27%"
+        },
+        {
+          "phrase": "fresh little patch",
+          "count": 2,
+          "density": "0.27%"
+        }
+      ]
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "Minute Cryptic Unlimited"
+      },
+      {
+        "level": 2,
+        "text": "Quiet after rearranging tinsel (6)"
+      },
+      {
+        "level": 3,
+        "text": "Here’s how it grows together."
+      },
+      {
+        "level": 2,
+        "text": "How to solve cryptic clues."
+      },
+      {
+        "level": 2,
+        "text": "Want more than one clue a day?"
+      },
+      {
+        "level": 2,
+        "text": "Minute Cryptic Unlimited practice: questions"
+      },
+      {
+        "level": 2,
+        "text": "A quiet corner of the web."
+      },
+      {
+        "level": 2,
+        "text": "Ready for the answer?"
+      },
+      {
+        "level": 2,
+        "text": "A fresh little patch?"
+      }
+    ],
+    "images": {
+      "total": 0,
+      "withoutAlt": 0,
+      "emptyAlt": 0,
+      "items": []
+    },
+    "links": {
+      "internal": [
+        {
+          "href": "./",
+          "text": "minute cryptic UNLIMITED PRACTICE",
+          "rel": ""
+        },
+        {
+          "href": "./how-to-solve-cryptic-clues.html",
+          "text": "Solving guide",
+          "rel": ""
+        },
+        {
+          "href": "./LICENSE",
+          "text": "MIT license",
+          "rel": ""
+        },
+        {
+          "href": "./assets/fonts/Figtree-OFL.txt",
+          "text": "SIL OFL",
+          "rel": ""
+        }
+      ],
+      "external": [],
+      "nofollow": [],
+      "total": 4
+    },
+    "social": {
+      "og": {
+        "title": "Minute Cryptic Unlimited – Free Cryptic Practice",
+        "description": "Play Minute Cryptic Unlimited practice free: 20 original cryptic clues, three hints and explained answers. No daily limit or signup. Independent practice game.",
+        "image": "./assets/social-card.png",
+        "url": null,
+        "type": "website",
+        "siteName": null,
+        "locale": null,
+        "imageWidth": "1200",
+        "imageHeight": "630"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Minute Cryptic Unlimited – Free Cryptic Practice",
+        "description": "Play Minute Cryptic Unlimited practice free: 20 original cryptic clues, three hints and explained answers. No daily limit or signup. Independent practice game.",
+        "image": "./assets/social-card.png"
+      }
+    },
+    "hreflangs": [],
+    "structured": [
+      {
+        "type": "Graph",
+        "summary": "VideoGame, FAQPage"
+      }
+    ],
+    "structuredValidation": {
+      "scope": "syntax-only",
+      "jsonSyntax": "valid",
+      "schemaSemantics": "not-validated"
+    }
+  },
+  {
+    "url": "https://gamehubs-minute-cryptic-unlimited.vercel.app/how-to-solve-cryptic-clues.html",
+    "overview": {
+      "url": "https://gamehubs-minute-cryptic-unlimited.vercel.app/how-to-solve-cryptic-clues.html",
+      "title": {
+        "text": "How to Solve Cryptic Clues: 5 Worked Examples",
+        "length": 45
+      },
+      "description": {
+        "text": "Learn five cryptic clue types with original worked examples: anagrams, hidden words, reversals, charades and containers. Read hints, then reveal each answer.",
+        "length": 157
+      },
+      "keywords": null,
+      "canonical": null,
+      "robots": "noindex, nofollow",
+      "charset": "utf-8",
+      "lang": "en",
+      "viewport": "width=device-width,initial-scale=1"
+    },
+    "issues": [
+      {
+        "code": "NO_KEYWORDS",
+        "observed": "meta keywordsがありません"
+      },
+      {
+        "code": "NO_CANONICAL",
+        "observed": "canonicalタグがありません"
+      },
+      {
+        "code": "NOINDEX",
+        "observed": "robotsにnoindexが設定されています"
+      }
+    ],
+    "density": {
+      "totalWords": 661,
+      "unigrams": [
+        {
+          "word": "the",
+          "count": 47,
+          "density": "7.11%"
+        },
+        {
+          "word": "to",
+          "count": 15,
+          "density": "2.27%"
+        },
+        {
+          "word": "definition",
+          "count": 15,
+          "density": "2.27%"
+        },
+        {
+          "word": "and",
+          "count": 15,
+          "density": "2.27%"
+        },
+        {
+          "word": "answer",
+          "count": 11,
+          "density": "1.66%"
+        },
+        {
+          "word": "is",
+          "count": 11,
+          "density": "1.66%"
+        },
+        {
+          "word": "in",
+          "count": 9,
+          "density": "1.36%"
+        },
+        {
+          "word": "of",
+          "count": 9,
+          "density": "1.36%"
+        },
+        {
+          "word": "cryptic",
+          "count": 8,
+          "density": "1.21%"
+        },
+        {
+          "word": "or",
+          "count": 8,
+          "density": "1.21%"
+        },
+        {
+          "word": "letters",
+          "count": 8,
+          "density": "1.21%"
+        },
+        {
+          "word": "how",
+          "count": 7,
+          "density": "1.06%"
+        },
+        {
+          "word": "first",
+          "count": 7,
+          "density": "1.06%"
+        },
+        {
+          "word": "hint",
+          "count": 7,
+          "density": "1.06%"
+        },
+        {
+          "word": "for",
+          "count": 6,
+          "density": "0.91%"
+        },
+        {
+          "word": "explanation",
+          "count": 6,
+          "density": "0.91%"
+        },
+        {
+          "word": "construction",
+          "count": 6,
+          "density": "0.91%"
+        },
+        {
+          "word": "try",
+          "count": 6,
+          "density": "0.91%"
+        },
+        {
+          "word": "indicator",
+          "count": 6,
+          "density": "0.91%"
+        },
+        {
+          "word": "minute",
+          "count": 5,
+          "density": "0.76%"
+        }
+      ],
+      "bigrams": [
+        {
+          "phrase": "the definition",
+          "count": 8,
+          "density": "1.21%"
+        },
+        {
+          "phrase": "how to",
+          "count": 7,
+          "density": "1.06%"
+        },
+        {
+          "phrase": "the construction",
+          "count": 6,
+          "density": "0.91%"
+        },
+        {
+          "phrase": "minute cryptic",
+          "count": 5,
+          "density": "0.76%"
+        },
+        {
+          "phrase": "to spot",
+          "count": 5,
+          "density": "0.76%"
+        },
+        {
+          "phrase": "spot the",
+          "count": 5,
+          "density": "0.76%"
+        },
+        {
+          "phrase": "first hint",
+          "count": 5,
+          "density": "0.76%"
+        },
+        {
+          "phrase": "reveal answer",
+          "count": 5,
+          "density": "0.76%"
+        },
+        {
+          "phrase": "answer and",
+          "count": 5,
+          "density": "0.76%"
+        },
+        {
+          "phrase": "and explanation",
+          "count": 5,
+          "density": "0.76%"
+        },
+        {
+          "phrase": "cryptic unlimited",
+          "count": 4,
+          "density": "0.61%"
+        },
+        {
+          "phrase": "cryptic clues",
+          "count": 3,
+          "density": "0.45%"
+        },
+        {
+          "phrase": "is the",
+          "count": 3,
+          "density": "0.45%"
+        },
+        {
+          "phrase": "the wordplay",
+          "count": 3,
+          "density": "0.45%"
+        },
+        {
+          "phrase": "when you",
+          "count": 3,
+          "density": "0.45%"
+        }
+      ],
+      "trigrams": [
+        {
+          "phrase": "how to spot",
+          "count": 5,
+          "density": "0.76%"
+        },
+        {
+          "phrase": "to spot the",
+          "count": 5,
+          "density": "0.76%"
+        },
+        {
+          "phrase": "spot the construction",
+          "count": 5,
+          "density": "0.76%"
+        },
+        {
+          "phrase": "reveal answer and",
+          "count": 5,
+          "density": "0.76%"
+        },
+        {
+          "phrase": "answer and explanation",
+          "count": 5,
+          "density": "0.76%"
+        },
+        {
+          "phrase": "minute cryptic unlimited",
+          "count": 4,
+          "density": "0.61%"
+        },
+        {
+          "phrase": "how to solve",
+          "count": 2,
+          "density": "0.30%"
+        },
+        {
+          "phrase": "to solve cryptic",
+          "count": 2,
+          "density": "0.30%"
+        },
+        {
+          "phrase": "solve cryptic clues",
+          "count": 2,
+          "density": "0.30%"
+        },
+        {
+          "phrase": "cryptic clues worked",
+          "count": 2,
+          "density": "0.30%"
+        }
+      ]
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "How to Solve Cryptic Clues: 5 Worked Examples"
+      },
+      {
+        "level": 2,
+        "text": "Anagrams: how to spot the construction"
+      },
+      {
+        "level": 3,
+        "text": "Try: Quiet after rearranging tinsel (6)"
+      },
+      {
+        "level": 2,
+        "text": "Hidden words: how to spot the construction"
+      },
+      {
+        "level": 3,
+        "text": "Try: Pet concealed in music at dusk (3)"
+      },
+      {
+        "level": 2,
+        "text": "Reversals: how to spot the construction"
+      },
+      {
+        "level": 3,
+        "text": "Try: Feeling tense, desserts come back (8)"
+      },
+      {
+        "level": 2,
+        "text": "Charades: how to spot the construction"
+      },
+      {
+        "level": 3,
+        "text": "Try: Celebrity with swimmer finds a sea creature (8)"
+      },
+      {
+        "level": 2,
+        "text": "Containers: how to spot the construction"
+      },
+      {
+        "level": 3,
+        "text": "Try: Vehicle in surf’s edges becomes neckwear (5)"
+      },
+      {
+        "level": 2,
+        "text": "A solving routine when you get stuck"
+      },
+      {
+        "level": 2,
+        "text": "Practice without a daily limit"
+      }
+    ],
+    "images": {
+      "total": 0,
+      "withoutAlt": 0,
+      "emptyAlt": 0,
+      "items": []
+    },
+    "links": {
+      "internal": [
+        {
+          "href": "./",
+          "text": "Minute Cryptic Unlimited",
+          "rel": ""
+        },
+        {
+          "href": "./#puzzle",
+          "text": "Play free",
+          "rel": ""
+        },
+        {
+          "href": "./",
+          "text": "Minute Cryptic Unlimited",
+          "rel": ""
+        },
+        {
+          "href": "./#puzzle",
+          "text": "Minute Cryptic Unlimited practice",
+          "rel": ""
+        },
+        {
+          "href": "./#puzzle",
+          "text": "Back to Minute Cryptic Unlimited →",
+          "rel": ""
+        }
+      ],
+      "external": [],
+      "nofollow": [],
+      "total": 5
+    },
+    "social": {
+      "og": {
+        "title": "How to Solve Cryptic Clues: 5 Worked Examples",
+        "description": "Learn five cryptic clue types with original worked examples: anagrams, hidden words, reversals, charades and containers. Read hints, then reveal each answer.",
+        "image": "./assets/guide-card.png",
+        "url": null,
+        "type": "article",
+        "siteName": null,
+        "locale": null,
+        "imageWidth": "1200",
+        "imageHeight": "630"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "How to Solve Cryptic Clues: 5 Worked Examples",
+        "description": "Learn five cryptic clue types with original worked examples: anagrams, hidden words, reversals, charades and containers. Read hints, then reveal each answer.",
+        "image": "./assets/guide-card.png"
+      }
+    },
+    "hreflangs": [],
+    "structured": [
+      {
+        "type": "Article",
+        "summary": "Article"
+      }
+    ],
+    "structuredValidation": {
+      "scope": "syntax-only",
+      "jsonSyntax": "valid",
+      "schemaSemantics": "not-validated"
+    }
+  },
+  {
+    "url": "https://snowrider3d.top/",
+    "overview": {
+      "url": "https://snowrider3d.top/",
+      "title": {
+        "text": "Snow Rider 3D Unblocked — Play Free Online",
+        "length": 42
+      },
+      "description": {
+        "text": "Play Snow Rider 3D online in your browser. Steer your sled, jump obstacles and collect gifts. Miniplay player, controls and loading help.",
+        "length": 137
+      },
+      "keywords": null,
+      "canonical": null,
+      "robots": "noindex, nofollow",
+      "charset": "utf-8",
+      "lang": "en",
+      "viewport": "width=device-width,initial-scale=1"
+    },
+    "issues": [
+      {
+        "code": "NO_KEYWORDS",
+        "observed": "meta keywordsがありません"
+      },
+      {
+        "code": "NO_CANONICAL",
+        "observed": "canonicalタグがありません"
+      },
+      {
+        "code": "NOINDEX",
+        "observed": "robotsにnoindexが設定されています"
+      }
+    ],
+    "density": {
+      "totalWords": 202,
+      "unigrams": [
+        {
+          "word": "game",
+          "count": 16,
+          "density": "7.92%"
+        },
+        {
+          "word": "the",
+          "count": 8,
+          "density": "3.96%"
+        },
+        {
+          "word": "to",
+          "count": 7,
+          "density": "3.47%"
+        },
+        {
+          "word": "snow",
+          "count": 6,
+          "density": "2.97%"
+        },
+        {
+          "word": "rider",
+          "count": 6,
+          "density": "2.97%"
+        },
+        {
+          "word": "3d",
+          "count": 6,
+          "density": "2.97%"
+        },
+        {
+          "word": "play",
+          "count": 6,
+          "density": "2.97%"
+        },
+        {
+          "word": "this",
+          "count": 4,
+          "density": "1.98%"
+        },
+        {
+          "word": "and",
+          "count": 4,
+          "density": "1.98%"
+        },
+        {
+          "word": "or",
+          "count": 4,
+          "density": "1.98%"
+        },
+        {
+          "word": "controls",
+          "count": 3,
+          "density": "1.49%"
+        },
+        {
+          "word": "is",
+          "count": 3,
+          "density": "1.49%"
+        },
+        {
+          "word": "miniplay",
+          "count": 3,
+          "density": "1.49%"
+        },
+        {
+          "word": "may",
+          "count": 3,
+          "density": "1.49%"
+        },
+        {
+          "word": "privacy",
+          "count": 3,
+          "density": "1.49%"
+        },
+        {
+          "word": "load",
+          "count": 3,
+          "density": "1.49%"
+        },
+        {
+          "word": "use",
+          "count": 3,
+          "density": "1.49%"
+        },
+        {
+          "word": "page",
+          "count": 3,
+          "density": "1.49%"
+        },
+        {
+          "word": "unblocked",
+          "count": 2,
+          "density": "0.99%"
+        },
+        {
+          "word": "how",
+          "count": 2,
+          "density": "0.99%"
+        }
+      ],
+      "bigrams": [
+        {
+          "phrase": "snow rider",
+          "count": 6,
+          "density": "2.97%"
+        },
+        {
+          "phrase": "rider 3d",
+          "count": 6,
+          "density": "2.97%"
+        },
+        {
+          "phrase": "the game",
+          "count": 4,
+          "density": "1.98%"
+        },
+        {
+          "phrase": "3d unblocked",
+          "count": 2,
+          "density": "0.99%"
+        },
+        {
+          "phrase": "how to",
+          "count": 2,
+          "density": "0.99%"
+        },
+        {
+          "phrase": "to play",
+          "count": 2,
+          "density": "0.99%"
+        },
+        {
+          "phrase": "3d game",
+          "count": 2,
+          "density": "0.99%"
+        },
+        {
+          "phrase": "by miniplay",
+          "count": 2,
+          "density": "0.99%"
+        },
+        {
+          "phrase": "reload game",
+          "count": 2,
+          "density": "0.99%"
+        },
+        {
+          "phrase": "open game",
+          "count": 2,
+          "density": "0.99%"
+        },
+        {
+          "phrase": "load the",
+          "count": 2,
+          "density": "0.99%"
+        },
+        {
+          "phrase": "or to",
+          "count": 2,
+          "density": "0.99%"
+        },
+        {
+          "phrase": "and use",
+          "count": 2,
+          "density": "0.99%"
+        },
+        {
+          "phrase": "the game’s",
+          "count": 2,
+          "density": "0.99%"
+        },
+        {
+          "phrase": "independent game",
+          "count": 2,
+          "density": "0.99%"
+        }
+      ],
+      "trigrams": [
+        {
+          "phrase": "snow rider 3d",
+          "count": 6,
+          "density": "2.97%"
+        },
+        {
+          "phrase": "rider 3d unblocked",
+          "count": 2,
+          "density": "0.99%"
+        },
+        {
+          "phrase": "how to play",
+          "count": 2,
+          "density": "0.99%"
+        },
+        {
+          "phrase": "rider 3d game",
+          "count": 2,
+          "density": "0.99%"
+        },
+        {
+          "phrase": "load the game",
+          "count": 2,
+          "density": "0.99%"
+        },
+        {
+          "phrase": "independent game page",
+          "count": 2,
+          "density": "0.99%"
+        }
+      ]
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "Snow Rider 3D Unblocked"
+      },
+      {
+        "level": 2,
+        "text": "How to play"
+      }
+    ],
+    "images": {
+      "total": 1,
+      "withoutAlt": 0,
+      "emptyAlt": 0,
+      "items": [
+        {
+          "src": "./assets/publisher-cover.jpg",
+          "alt": "Snow Rider 3D: wooden sled, snowy mountain and gift boxes",
+          "altMissing": false,
+          "width": "1280",
+          "height": "720",
+          "loading": null
+        }
+      ]
+    },
+    "links": {
+      "internal": [
+        {
+          "href": "./",
+          "text": "SNOW RIDER 3D",
+          "rel": ""
+        },
+        {
+          "href": "./snow-rider-3d-controls.html",
+          "text": "Controls & tips ↗",
+          "rel": ""
+        },
+        {
+          "href": "./snow-rider-3d-controls.html",
+          "text": "Controls & loading help →",
+          "rel": ""
+        },
+        {
+          "href": "./about.html",
+          "text": "About & privacy",
+          "rel": ""
+        }
+      ],
+      "external": [
+        {
+          "href": "https://www.miniplay.com/embed/snow-rider-3d",
+          "text": "Open game ↗",
+          "rel": "noopener"
+        },
+        {
+          "href": "https://www.miniplay.com/embed/snow-rider-3d",
+          "text": "Open Snow Rider 3D directly",
+          "rel": "noopener"
+        },
+        {
+          "href": "https://www.miniplay.com/game/snow-rider-3d",
+          "text": "Miniplay",
+          "rel": "noopener"
+        }
+      ],
+      "nofollow": [],
+      "total": 7
+    },
+    "social": {
+      "og": {
+        "title": "Snow Rider 3D Unblocked — Play Free Online",
+        "description": "The Snow Rider 3D game, delivered by Miniplay. Steer, jump and collect gifts.",
+        "image": "./assets/publisher-cover.jpg",
+        "url": null,
+        "type": "website",
+        "siteName": null,
+        "locale": null,
+        "imageWidth": null,
+        "imageHeight": null
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": null,
+        "description": null,
+        "image": null
+      }
+    },
+    "hreflangs": [],
+    "structured": [
+      {
+        "type": "VideoGame",
+        "summary": "VideoGame"
+      }
+    ],
+    "structuredValidation": {
+      "scope": "syntax-only",
+      "jsonSyntax": "valid",
+      "schemaSemantics": "not-validated"
+    }
+  },
+  {
+    "url": "https://snowrider3d.top/snow-rider-3d-controls.html",
+    "overview": {
+      "url": "https://snowrider3d.top/snow-rider-3d-controls.html",
+      "title": {
+        "text": "Snow Rider 3D Controls & Loading Help",
+        "length": 37
+      },
+      "description": {
+        "text": "Snow Rider 3D controls: arrows or A/D to steer, Up or W to jump. Learn about gifts, mobile landscape play and troubleshooting the publisher player.",
+        "length": 147
+      },
+      "keywords": null,
+      "canonical": null,
+      "robots": "noindex, nofollow",
+      "charset": "utf-8",
+      "lang": "en",
+      "viewport": "width=device-width,initial-scale=1"
+    },
+    "issues": [
+      {
+        "code": "NO_KEYWORDS",
+        "observed": "meta keywordsがありません"
+      },
+      {
+        "code": "NO_CANONICAL",
+        "observed": "canonicalタグがありません"
+      },
+      {
+        "code": "NOINDEX",
+        "observed": "robotsにnoindexが設定されています"
+      }
+    ],
+    "density": {
+      "totalWords": 362,
+      "unigrams": [
+        {
+          "word": "the",
+          "count": 27,
+          "density": "7.46%"
+        },
+        {
+          "word": "game",
+          "count": 19,
+          "density": "5.25%"
+        },
+        {
+          "word": "and",
+          "count": 10,
+          "density": "2.76%"
+        },
+        {
+          "word": "use",
+          "count": 8,
+          "density": "2.21%"
+        },
+        {
+          "word": "controls",
+          "count": 7,
+          "density": "1.93%"
+        },
+        {
+          "word": "or",
+          "count": 7,
+          "density": "1.93%"
+        },
+        {
+          "word": "your",
+          "count": 6,
+          "density": "1.66%"
+        },
+        {
+          "word": "snow",
+          "count": 5,
+          "density": "1.38%"
+        },
+        {
+          "word": "rider",
+          "count": 5,
+          "density": "1.38%"
+        },
+        {
+          "word": "3d",
+          "count": 5,
+          "density": "1.38%"
+        },
+        {
+          "word": "its",
+          "count": 5,
+          "density": "1.38%"
+        },
+        {
+          "word": "player",
+          "count": 5,
+          "density": "1.38%"
+        },
+        {
+          "word": "page",
+          "count": 5,
+          "density": "1.38%"
+        },
+        {
+          "word": "this",
+          "count": 5,
+          "density": "1.38%"
+        },
+        {
+          "word": "loading",
+          "count": 4,
+          "density": "1.10%"
+        },
+        {
+          "word": "to",
+          "count": 4,
+          "density": "1.10%"
+        },
+        {
+          "word": "play",
+          "count": 4,
+          "density": "1.10%"
+        },
+        {
+          "word": "before",
+          "count": 4,
+          "density": "1.10%"
+        },
+        {
+          "word": "on",
+          "count": 4,
+          "density": "1.10%"
+        },
+        {
+          "word": "by",
+          "count": 4,
+          "density": "1.10%"
+        }
+      ],
+      "bigrams": [
+        {
+          "phrase": "the game",
+          "count": 8,
+          "density": "2.21%"
+        },
+        {
+          "phrase": "snow rider",
+          "count": 5,
+          "density": "1.38%"
+        },
+        {
+          "phrase": "rider 3d",
+          "count": 5,
+          "density": "1.38%"
+        },
+        {
+          "phrase": "the controls",
+          "count": 4,
+          "density": "1.10%"
+        },
+        {
+          "phrase": "inside the",
+          "count": 3,
+          "density": "0.83%"
+        },
+        {
+          "phrase": "arrow or",
+          "count": 3,
+          "density": "0.83%"
+        },
+        {
+          "phrase": "use the",
+          "count": 3,
+          "density": "0.83%"
+        },
+        {
+          "phrase": "and use",
+          "count": 3,
+          "density": "0.83%"
+        },
+        {
+          "phrase": "the embedded",
+          "count": 3,
+          "density": "0.83%"
+        },
+        {
+          "phrase": "3d controls",
+          "count": 2,
+          "density": "0.55%"
+        },
+        {
+          "phrase": "controls loading",
+          "count": 2,
+          "density": "0.55%"
+        },
+        {
+          "phrase": "loading help",
+          "count": 2,
+          "density": "0.55%"
+        },
+        {
+          "phrase": "its game",
+          "count": 2,
+          "density": "0.55%"
+        },
+        {
+          "phrase": "the player",
+          "count": 2,
+          "density": "0.55%"
+        },
+        {
+          "phrase": "play snow",
+          "count": 2,
+          "density": "0.55%"
+        }
+      ],
+      "trigrams": [
+        {
+          "phrase": "snow rider 3d",
+          "count": 5,
+          "density": "1.38%"
+        },
+        {
+          "phrase": "rider 3d controls",
+          "count": 2,
+          "density": "0.55%"
+        },
+        {
+          "phrase": "3d controls loading",
+          "count": 2,
+          "density": "0.55%"
+        },
+        {
+          "phrase": "controls loading help",
+          "count": 2,
+          "density": "0.55%"
+        },
+        {
+          "phrase": "play snow rider",
+          "count": 2,
+          "density": "0.55%"
+        },
+        {
+          "phrase": "use the controls",
+          "count": 2,
+          "density": "0.55%"
+        },
+        {
+          "phrase": "inside the game",
+          "count": 2,
+          "density": "0.55%"
+        },
+        {
+          "phrase": "in its own",
+          "count": 2,
+          "density": "0.55%"
+        },
+        {
+          "phrase": "the publisher player",
+          "count": 2,
+          "density": "0.55%"
+        }
+      ]
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "Snow Rider 3D controls & loading help."
+      },
+      {
+        "level": 2,
+        "text": "The controls"
+      },
+      {
+        "level": 2,
+        "text": "Get further down the slope"
+      },
+      {
+        "level": 2,
+        "text": "Gifts and sleds"
+      },
+      {
+        "level": 2,
+        "text": "Starting the publisher player"
+      },
+      {
+        "level": 2,
+        "text": "If the game will not load"
+      }
+    ],
+    "images": {
+      "total": 0,
+      "withoutAlt": 0,
+      "emptyAlt": 0,
+      "items": []
+    },
+    "links": {
+      "internal": [
+        {
+          "href": "./",
+          "text": "SNOW RIDER 3D",
+          "rel": ""
+        },
+        {
+          "href": "./",
+          "text": "Back to the game ↗",
+          "rel": ""
+        },
+        {
+          "href": "./#game",
+          "text": "Play Snow Rider 3D",
+          "rel": ""
+        },
+        {
+          "href": "./about.html",
+          "text": "About this page & privacy",
+          "rel": ""
+        },
+        {
+          "href": "./",
+          "text": "Play game",
+          "rel": ""
+        }
+      ],
+      "external": [
+        {
+          "href": "https://www.miniplay.com/game/snow-rider-3d",
+          "text": "Publisher game listing",
+          "rel": "noopener"
+        }
+      ],
+      "nofollow": [],
+      "total": 6
+    },
+    "social": {
+      "og": {
+        "title": "Snow Rider 3D controls & loading help",
+        "description": "Controls and help for the Snow Rider 3D publisher player.",
+        "image": "./assets/publisher-cover.jpg",
+        "url": null,
+        "type": "article",
+        "siteName": null,
+        "locale": null,
+        "imageWidth": null,
+        "imageHeight": null
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": null,
+        "description": null,
+        "image": null
+      }
+    },
+    "hreflangs": [],
+    "structured": [
+      {
+        "type": "Article",
+        "summary": "Article"
+      }
+    ],
+    "structuredValidation": {
+      "scope": "syntax-only",
+      "jsonSyntax": "valid",
+      "schemaSemantics": "not-validated"
+    }
+  },
+  {
+    "url": "https://snowrider3d.top/about.html",
+    "overview": {
+      "url": "https://snowrider3d.top/about.html",
+      "title": {
+        "text": "About & Privacy — Snow Rider 3D Game Page",
+        "length": 41
+      },
+      "description": {
+        "text": "About this independent Snow Rider 3D game page, the Miniplay player, third-party privacy choices, game credits and browser access.",
+        "length": 130
+      },
+      "keywords": null,
+      "canonical": null,
+      "robots": "noindex, nofollow",
+      "charset": "utf-8",
+      "lang": "en",
+      "viewport": "width=device-width,initial-scale=1"
+    },
+    "issues": [
+      {
+        "code": "NO_KEYWORDS",
+        "observed": "meta keywordsがありません"
+      },
+      {
+        "code": "NO_CANONICAL",
+        "observed": "canonicalタグがありません"
+      },
+      {
+        "code": "NO_TWITTER_CARD",
+        "observed": "twitter:cardがありません"
+      },
+      {
+        "code": "NO_STRUCTURED",
+        "observed": "構造化データ(JSON-LD)がありません"
+      },
+      {
+        "code": "NOINDEX",
+        "observed": "robotsにnoindexが設定されています"
+      }
+    ],
+    "density": {
+      "totalWords": 319,
+      "unigrams": [
+        {
+          "word": "the",
+          "count": 21,
+          "density": "6.58%"
+        },
+        {
+          "word": "game",
+          "count": 18,
+          "density": "5.64%"
+        },
+        {
+          "word": "and",
+          "count": 16,
+          "density": "5.02%"
+        },
+        {
+          "word": "page",
+          "count": 9,
+          "density": "2.82%"
+        },
+        {
+          "word": "your",
+          "count": 7,
+          "density": "2.19%"
+        },
+        {
+          "word": "to",
+          "count": 6,
+          "density": "1.88%"
+        },
+        {
+          "word": "its",
+          "count": 6,
+          "density": "1.88%"
+        },
+        {
+          "word": "browser",
+          "count": 6,
+          "density": "1.88%"
+        },
+        {
+          "word": "privacy",
+          "count": 5,
+          "density": "1.57%"
+        },
+        {
+          "word": "play",
+          "count": 5,
+          "density": "1.57%"
+        },
+        {
+          "word": "this",
+          "count": 5,
+          "density": "1.57%"
+        },
+        {
+          "word": "by",
+          "count": 5,
+          "density": "1.57%"
+        },
+        {
+          "word": "publisher",
+          "count": 5,
+          "density": "1.57%"
+        },
+        {
+          "word": "miniplay",
+          "count": 4,
+          "density": "1.25%"
+        },
+        {
+          "word": "not",
+          "count": 4,
+          "density": "1.25%"
+        },
+        {
+          "word": "gamedistribution",
+          "count": 4,
+          "density": "1.25%"
+        },
+        {
+          "word": "snow",
+          "count": 3,
+          "density": "0.94%"
+        },
+        {
+          "word": "rider",
+          "count": 3,
+          "density": "0.94%"
+        },
+        {
+          "word": "3d",
+          "count": 3,
+          "density": "0.94%"
+        },
+        {
+          "word": "you",
+          "count": 3,
+          "density": "0.94%"
+        }
+      ],
+      "bigrams": [
+        {
+          "phrase": "the game",
+          "count": 5,
+          "density": "1.57%"
+        },
+        {
+          "phrase": "snow rider",
+          "count": 3,
+          "density": "0.94%"
+        },
+        {
+          "phrase": "rider 3d",
+          "count": 3,
+          "density": "0.94%"
+        },
+        {
+          "phrase": "game page",
+          "count": 3,
+          "density": "0.94%"
+        },
+        {
+          "phrase": "and publisher",
+          "count": 3,
+          "density": "0.94%"
+        },
+        {
+          "phrase": "this page",
+          "count": 3,
+          "density": "0.94%"
+        },
+        {
+          "phrase": "your browser",
+          "count": 3,
+          "density": "0.94%"
+        },
+        {
+          "phrase": "3d game",
+          "count": 2,
+          "density": "0.63%"
+        },
+        {
+          "phrase": "game the",
+          "count": 2,
+          "density": "0.63%"
+        },
+        {
+          "phrase": "play this",
+          "count": 2,
+          "density": "0.63%"
+        },
+        {
+          "phrase": "independent game",
+          "count": 2,
+          "density": "0.63%"
+        },
+        {
+          "phrase": "maintained by",
+          "count": 2,
+          "density": "0.63%"
+        },
+        {
+          "phrase": "by gamehubs",
+          "count": 2,
+          "density": "0.63%"
+        },
+        {
+          "phrase": "game and",
+          "count": 2,
+          "density": "0.63%"
+        },
+        {
+          "phrase": "cover image",
+          "count": 2,
+          "density": "0.63%"
+        }
+      ],
+      "trigrams": [
+        {
+          "phrase": "snow rider 3d",
+          "count": 3,
+          "density": "0.94%"
+        },
+        {
+          "phrase": "rider 3d game",
+          "count": 2,
+          "density": "0.63%"
+        },
+        {
+          "phrase": "the game the",
+          "count": 2,
+          "density": "0.63%"
+        },
+        {
+          "phrase": "independent game page",
+          "count": 2,
+          "density": "0.63%"
+        },
+        {
+          "phrase": "maintained by gamehubs",
+          "count": 2,
+          "density": "0.63%"
+        },
+        {
+          "phrase": "you choose play",
+          "count": 2,
+          "density": "0.63%"
+        }
+      ]
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "The game you came to play."
+      },
+      {
+        "level": 2,
+        "text": "Game delivery and credits"
+      },
+      {
+        "level": 2,
+        "text": "Before and after Play"
+      },
+      {
+        "level": 2,
+        "text": "Scores and saved progress"
+      },
+      {
+        "level": 2,
+        "text": "Site code and access"
+      }
+    ],
+    "images": {
+      "total": 0,
+      "withoutAlt": 0,
+      "emptyAlt": 0,
+      "items": []
+    },
+    "links": {
+      "internal": [
+        {
+          "href": "./",
+          "text": "SNOW RIDER 3D",
+          "rel": ""
+        },
+        {
+          "href": "./",
+          "text": "Play the game ↗",
+          "rel": ""
+        },
+        {
+          "href": "./assets/Figtree-OFL.txt",
+          "text": "SIL Open Font License",
+          "rel": ""
+        },
+        {
+          "href": "./",
+          "text": "Back to the game",
+          "rel": ""
+        },
+        {
+          "href": "./snow-rider-3d-controls.html",
+          "text": "Controls & help",
+          "rel": ""
+        }
+      ],
+      "external": [
+        {
+          "href": "https://www.miniplay.com/game/snow-rider-3d",
+          "text": "Game listing and publisher information",
+          "rel": "noopener"
+        },
+        {
+          "href": "https://www.miniplay.com/support/privacy",
+          "text": "Miniplay’s privacy information",
+          "rel": "noopener"
+        }
+      ],
+      "nofollow": [],
+      "total": 7
+    },
+    "social": {
+      "og": {
+        "title": "About this Snow Rider 3D game page",
+        "description": "Game delivery, credits and privacy for the Miniplay player.",
+        "image": "./assets/publisher-cover.jpg",
+        "url": null,
+        "type": "website",
+        "siteName": null,
+        "locale": null,
+        "imageWidth": null,
+        "imageHeight": null
+      },
+      "twitter": {
+        "card": null,
+        "title": null,
+        "description": null,
+        "image": null
+      }
+    },
+    "hreflangs": [],
+    "structured": [],
+    "structuredValidation": {
+      "scope": "syntax-only",
+      "jsonSyntax": "not-present",
+      "schemaSemantics": "not-validated"
+    }
+  }
+]

@@ -1,0 +1,1588 @@
+{
+  "collectedAt": "2026-10-24T09:34:12.009Z",
+  "url": "https://sem.3ue.com/analytics/keywordoverview/bulk/?q=drift+boss&db=us&bulk=CYJwlgZgLgBARgewM5ID5wIZINYFNZwjLpa6YA258RaECCUFVhxADguQJ5QgYDG2VEnIJWuGAFcAdnBEDcwVAgBuCGAHMMAW1ypc69Zxh8MIIa37iA7hmW40IaTADMkmXLyLc5XHx4IpGGAsAAtUImAQjFRWcgwpfGNyMHkzMGAfalwMbAQJKFQTKWAjPmTU9F4wKSJYMpS8MwA2AHYkhtwzVglWMVgQhHlOVGAJARhkiHEAFlQRKwByJBgMYDspKAkQexcR8GgYEOkoTrRMHETeYoQtIUG%2BTpgr4BvUVUpcI2fXxAAPavUT3iL1uvHUL0ohzABTBEKopj4IVOQigDS08UO9EEoDAdhg6MU5zwjAwkKQUFMaFROhgSAGDEeACZUNTxHT6CcQLt1PgMDYjOyGHkYfRoKJaVIwGIQFTpAkqI46UIRGInulOiNQjoeMNfjAeLgpIintI7hARDArEjvGBxJNdDYBEZzVKUWiMWVQoUtnjFWE%2BDQkF8EKtChwEFy-RptLo6AwmEDrrdzmRSQrga9RuN7TAAIwABj2kH6x1Oblkg0ERAQYtYEqlZc0OhZYBpgs5LlpNgK6KgIViGE46iI0mAMG8vn8gWCSonfiI09C%2BIwfZgA6HI%2BK0eb6UyhGyuXy%2BIQcDAPlQu-E%2B5ywtpPBX%2BmGWewE0gM2XffXw7yxVQvf7cQbj%2BY7Pq%2BUwsnK3gmnS266DiByICgsFAA",
+  "market": "US",
+  "rows": [
+    {
+      "cells": [
+        "Select keywords",
+        "Keyword",
+        "Intent",
+        "Volume",
+        "Trend",
+        "Pot. Traffic",
+        "PKD %",
+        "KD %",
+        "CPC (USD)",
+        "Com.",
+        "SERP Features",
+        "Results",
+        "Updated"
+      ],
+      "links": []
+    },
+    {
+      "cells": [
+        "drift boss",
+        "drift boss",
+        "Informational\nI",
+        "1,830,000",
+        "",
+        "n/a",
+        "n/a",
+        "60",
+        "0.08",
+        "0.02",
+        "",
+        "99",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "drift boss",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=drift%20boss&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=drift%20boss&db=us&serpId=b-e-97-0923-15221768632233906555"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "football bros",
+        "football bros",
+        "Commercial\nC",
+        "368,000",
+        "",
+        "n/a",
+        "n/a",
+        "50",
+        "0.00",
+        "0.33",
+        "",
+        "82",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "football bros",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=football%20bros&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=football%20bros&db=us&serpId=b-i-97-0918-16571993833986600689"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "polytrack",
+        "polytrack",
+        "Commercial\nC",
+        "368,000",
+        "",
+        "n/a",
+        "n/a",
+        "64",
+        "0.10",
+        "0.33",
+        "+3",
+        "79",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "polytrack",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=polytrack&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=polytrack&db=us&serpId=b-h-97-0925-12370086418612097992"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "space waves",
+        "space waves",
+        "Commercial\nC",
+        "368,000",
+        "",
+        "n/a",
+        "n/a",
+        "86",
+        "0.04",
+        "0.33",
+        "",
+        "88",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "space waves",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=space%20waves&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=space%20waves&db=us&serpId=b-h-97-0921-14295739664066368950"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "drive mad",
+        "drive mad",
+        "Informational\nI",
+        "301,000",
+        "",
+        "n/a",
+        "n/a",
+        "64",
+        "0.16",
+        "0.08",
+        "+3",
+        "105",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "drive mad",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=drive%20mad&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=drive%20mad&db=us&serpId=b-h-97-0920-9083939185933651185"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "slope unblocked",
+        "slope unblocked",
+        "Informational\nI",
+        "246,000",
+        "",
+        "n/a",
+        "n/a",
+        "52",
+        "0.00",
+        "0.33",
+        "",
+        "89",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "slope unblocked",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=slope%20unblocked&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=slope%20unblocked&db=us&serpId=b-h-97-0920-7381977367586146928"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "basketball stars",
+        "basketball stars",
+        "Informational\nI",
+        "201,000",
+        "",
+        "n/a",
+        "n/a",
+        "89",
+        "0.19",
+        "0.04",
+        "+2",
+        "1.0K",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "basketball stars",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=basketball%20stars&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=basketball%20stars&db=us&serpId=b-h-97-0923-1792874304374398509"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "baseball bros",
+        "baseball bros",
+        "Informational\nI\nCommercial\nC",
+        "165,000",
+        "",
+        "n/a",
+        "n/a",
+        "35",
+        "2.04",
+        "0.33",
+        "",
+        "1.3B",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "baseball bros",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=baseball%20bros&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=baseball%20bros&db=us&serpId=b-g-97-0923-6352758733948207743"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "basket random",
+        "basket random",
+        "Informational\nI",
+        "165,000",
+        "",
+        "n/a",
+        "n/a",
+        "60",
+        "0.10",
+        "0.02",
+        "+2",
+        "137",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "basket random",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=basket%20random&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=basket%20random&db=us&serpId=b-e-97-0921-7661075098854573253"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "crossy road",
+        "crossy road",
+        "Informational\nI\nTransactional\nT",
+        "165,000",
+        "",
+        "n/a",
+        "n/a",
+        "90",
+        "0.05",
+        "0.03",
+        "+6",
+        "7.6B",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "crossy road",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=crossy%20road&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=crossy%20road&db=us&serpId=b-h-97-0925-6731978193794398966"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "ovo game",
+        "ovo game",
+        "Informational\nI\nTransactional\nT",
+        "165,000",
+        "",
+        "n/a",
+        "n/a",
+        "57",
+        "0.10",
+        "0.02",
+        "+2",
+        "154",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "ovo game",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=ovo%20game&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=ovo%20game&db=us&serpId=b-h-97-0923-12930085554218734530"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "stickman hook",
+        "stickman hook",
+        "Informational\nI",
+        "165,000",
+        "",
+        "n/a",
+        "n/a",
+        "75",
+        "0.16",
+        "0.11",
+        "+3",
+        "153",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "stickman hook",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=stickman%20hook&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=stickman%20hook&db=us&serpId=b-g-97-0921-12451585648160282153"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "drift hunters",
+        "drift hunters",
+        "Informational\nI\nTransactional\nT",
+        "135,000",
+        "",
+        "n/a",
+        "n/a",
+        "68",
+        "0.21",
+        "0.33",
+        "+6",
+        "127",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "drift hunters",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=drift%20hunters&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=drift%20hunters&db=us&serpId=b-f-97-0921-1236675913303175080"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "eggy car",
+        "eggy car",
+        "Informational\nI",
+        "135,000",
+        "",
+        "n/a",
+        "n/a",
+        "53",
+        "0.06",
+        "0.33",
+        "+3",
+        "171",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "eggy car",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=eggy%20car&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=eggy%20car&db=us&serpId=b-g-97-0921-3696126015678728760"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "wacky flip",
+        "wacky flip",
+        "Navigational\nN",
+        "110,000",
+        "",
+        "n/a",
+        "n/a",
+        "72",
+        "4.35",
+        "0.33",
+        "+4",
+        "180",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "wacky flip",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=wacky%20flip&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=wacky%20flip&db=us&serpId=b-f-97-0920-680057566915247212"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "dashmetry",
+        "dashmetry",
+        "Informational\nI",
+        "90,500",
+        "",
+        "n/a",
+        "n/a",
+        "16",
+        "0.00",
+        "0.33",
+        "",
+        "104",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "dashmetry",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=dashmetry&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=dashmetry&db=us&serpId=b-i-97-0922-16302186949629301133"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "planet clicker",
+        "planet clicker",
+        "Informational\nI",
+        "90,500",
+        "",
+        "n/a",
+        "n/a",
+        "40",
+        "0.04",
+        "0.01",
+        "+3",
+        "79",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "planet clicker",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=planet%20clicker&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=planet%20clicker&db=us&serpId=b-h-97-0920-11638347191038024048"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "ragdoll hit",
+        "ragdoll hit",
+        "n/a",
+        "90,500",
+        "",
+        "n/a",
+        "n/a",
+        "45",
+        "0.15",
+        "0.06",
+        "+3",
+        "72",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "ragdoll hit",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=ragdoll%20hit&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=ragdoll%20hit&db=us&serpId=b-h-97-0918-4459353269908128530"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "curve rush",
+        "curve rush",
+        "Navigational\nN",
+        "74,000",
+        "",
+        "n/a",
+        "n/a",
+        "49",
+        "0.00",
+        "0.33",
+        "",
+        "n/a",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "curve rush",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=curve%20rush&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=curve%20rush&db=us&serpId=b-g-97-0919-13852262032178762665"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "ragdoll archers",
+        "ragdoll archers",
+        "Informational\nI",
+        "74,000",
+        "",
+        "n/a",
+        "n/a",
+        "51",
+        "0.05",
+        "0.33",
+        "+4",
+        "109",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "ragdoll archers",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=ragdoll%20archers&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=ragdoll%20archers&db=us&serpId=b-g-97-0919-18255228371124301139"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "slope rider",
+        "slope rider",
+        "Informational\nI",
+        "74,000",
+        "",
+        "n/a",
+        "n/a",
+        "75",
+        "0.00",
+        "0.33",
+        "",
+        "182",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "slope rider",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=slope%20rider&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=slope%20rider&db=us&serpId=b-e-97-0924-13630380675059703300"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "rodha",
+        "rodha",
+        "Informational\nI",
+        "60,500",
+        "",
+        "n/a",
+        "n/a",
+        "22",
+        "0.54",
+        "0.33",
+        "+3",
+        "100",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "rodha",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=rodha&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=rodha&db=us&serpId=b-g-97-0924-10859694875133326733"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "67 clicker",
+        "67 clicker",
+        "Informational\nI",
+        "49,500",
+        "",
+        "n/a",
+        "n/a",
+        "35",
+        "0.00",
+        "0.33",
+        "",
+        "5.3K",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "67 clicker",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=67%20clicker&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=67%20clicker&db=us&serpId=b-f-97-0924-12343125108506019834"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "basket bros",
+        "basket bros",
+        "Informational\nI",
+        "49,500",
+        "",
+        "n/a",
+        "n/a",
+        "44",
+        "0.82",
+        "0.33",
+        "",
+        "174",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "basket bros",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=basket%20bros&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=basket%20bros&db=us&serpId=b-e-97-0924-18191748649757096172"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "idle breakout",
+        "idle breakout",
+        "Informational\nI",
+        "49,500",
+        "",
+        "n/a",
+        "n/a",
+        "67",
+        "0.08",
+        "0.01",
+        "+4",
+        "183",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "idle breakout",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=idle%20breakout&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=idle%20breakout&db=us&serpId=b-g-97-0920-5056090950941070802"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "tunnel rush",
+        "tunnel rush",
+        "Informational\nI",
+        "49,500",
+        "",
+        "n/a",
+        "n/a",
+        "54",
+        "0.15",
+        "0.05",
+        "+4",
+        "94",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "tunnel rush",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=tunnel%20rush&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=tunnel%20rush&db=us&serpId=b-i-97-0919-3561489739199177339"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "x trench run",
+        "x trench run",
+        "Informational\nI",
+        "49,500",
+        "",
+        "n/a",
+        "n/a",
+        "9",
+        "0.04",
+        "0.33",
+        "+2",
+        "318",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "x trench run",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=x%20trench%20run&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=x%20trench%20run&db=us&serpId=b-f-97-0923-16891179615833841065"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "brainrot clicker",
+        "brainrot clicker",
+        "Informational\nI",
+        "40,500",
+        "",
+        "n/a",
+        "n/a",
+        "39",
+        "0.21",
+        "0.01",
+        "+3",
+        "175",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "brainrot clicker",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=brainrot%20clicker&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=brainrot%20clicker&db=us&serpId=b-i-97-0925-4201892000147442078"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "electron dash",
+        "electron dash",
+        "Commercial\nC",
+        "40,500",
+        "",
+        "n/a",
+        "n/a",
+        "34",
+        "1.49",
+        "0.33",
+        "+2",
+        "87.3K",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "electron dash",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=electron%20dash&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=electron%20dash&db=us&serpId=b-i-97-0924-1139393936193712448"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "run 3 unblocked",
+        "run 3 unblocked",
+        "Informational\nI",
+        "40,500",
+        "",
+        "n/a",
+        "n/a",
+        "36",
+        "0.00",
+        "0.33",
+        "",
+        "70",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "run 3 unblocked",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=run%203%20unblocked&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=run%203%20unblocked&db=us&serpId=b-e-97-0923-10635130755108995640"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "soccer random",
+        "soccer random",
+        "Informational\nI",
+        "40,500",
+        "",
+        "n/a",
+        "n/a",
+        "46",
+        "0.08",
+        "0.01",
+        "+4",
+        "864",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "soccer random",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=soccer%20random&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=soccer%20random&db=us&serpId=b-g-97-0920-13663914615943766705"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "soflo wheelie life",
+        "soflo wheelie life",
+        "Informational\nI",
+        "40,500",
+        "",
+        "n/a",
+        "n/a",
+        "41",
+        "0.00",
+        "0.33",
+        "",
+        "96",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "soflo wheelie life",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=soflo%20wheelie%20life&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=soflo%20wheelie%20life&db=us&serpId=b-h-97-0921-6264792646070524051"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "getaway shootout",
+        "getaway shootout",
+        "Informational\nI",
+        "33,100",
+        "",
+        "n/a",
+        "n/a",
+        "43",
+        "0.14",
+        "0.05",
+        "+3",
+        "126",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "getaway shootout",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=getaway%20shootout&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=getaway%20shootout&db=us&serpId=b-h-97-0921-17933204188244459374"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "puppet hockey",
+        "puppet hockey",
+        "Informational\nI\nTransactional\nT",
+        "33,100",
+        "",
+        "n/a",
+        "n/a",
+        "38",
+        "0.00",
+        "0.33",
+        "+4",
+        "123",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "puppet hockey",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=puppet%20hockey&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=puppet%20hockey&db=us&serpId=b-i-97-0922-2609608654314007727"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "candy clicker",
+        "candy clicker",
+        "Informational\nI",
+        "27,100",
+        "",
+        "n/a",
+        "n/a",
+        "40",
+        "0.03",
+        "0.03",
+        "+3",
+        "161",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "candy clicker",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=candy%20clicker&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=candy%20clicker&db=us&serpId=b-e-97-0925-5143577161777317984"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "duck life 4",
+        "duck life 4",
+        "Informational\nI",
+        "27,100",
+        "",
+        "n/a",
+        "n/a",
+        "54",
+        "0.04",
+        "0.33",
+        "+4",
+        "97",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "duck life 4",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=duck%20life%204&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=duck%20life%204&db=us&serpId=b-g-97-0919-6865535917920819897"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "drift boss game",
+        "drift boss game",
+        "Informational\nI",
+        "22,200",
+        "",
+        "n/a",
+        "n/a",
+        "55",
+        "0.11",
+        "0.12",
+        "+3",
+        "183",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "drift boss game",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=drift%20boss%20game&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=drift%20boss%20game&db=us&serpId=b-e-97-0925-10446156008221672004"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "rooftop snipers",
+        "rooftop snipers",
+        "Informational\nI\nCommercial\nC",
+        "22,200",
+        "",
+        "n/a",
+        "n/a",
+        "44",
+        "0.15",
+        "0.08",
+        "+4",
+        "120",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "rooftop snipers",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=rooftop%20snipers&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=rooftop%20snipers&db=us&serpId=b-g-97-0923-10676942481005263936"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "stickman clash",
+        "stickman clash",
+        "Informational\nI\nTransactional\nT",
+        "12,100",
+        "",
+        "n/a",
+        "n/a",
+        "49",
+        "0.00",
+        "0.33",
+        "+3",
+        "134",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "stickman clash",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=stickman%20clash&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=stickman%20clash&db=us&serpId=b-h-97-0919-517069478119094130"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "boxing random",
+        "boxing random",
+        "Informational\nI",
+        "9,900",
+        "",
+        "n/a",
+        "n/a",
+        "19",
+        "0.08",
+        "0.02",
+        "",
+        "92",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "boxing random",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=boxing%20random&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=boxing%20random&db=us&serpId=b-g-97-0924-7858072370932678238"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "volley random",
+        "volley random",
+        "Informational\nI",
+        "8,100",
+        "",
+        "n/a",
+        "n/a",
+        "30",
+        "0.04",
+        "0.04",
+        "+3",
+        "84",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "volley random",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=volley%20random&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=volley%20random&db=us&serpId=b-i-97-0925-10801256446967518036"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "time shooter 2",
+        "time shooter 2",
+        "Informational\nI",
+        "5,400",
+        "",
+        "n/a",
+        "n/a",
+        "22",
+        "0.13",
+        "0.04",
+        "",
+        "94",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "time shooter 2",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=time%20shooter%202&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=time%20shooter%202&db=us&serpId=b-e-97-0918-7920129434588790693"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "time shooter 3",
+        "time shooter 3",
+        "Informational\nI",
+        "5,400",
+        "",
+        "n/a",
+        "n/a",
+        "20",
+        "0.12",
+        "0.02",
+        "+2",
+        "93",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "time shooter 3",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=time%20shooter%203&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=time%20shooter%203&db=us&serpId=b-e-97-0920-11156581763369899934"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "color rush game",
+        "color rush game",
+        "Informational\nI",
+        "4,400",
+        "",
+        "n/a",
+        "n/a",
+        "4",
+        "0.00",
+        "0.33",
+        "",
+        "152",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "color rush game",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=color%20rush%20game&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=color%20rush%20game&db=us&serpId=b-g-97-0925-8826747715081461413"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "low's adventures 3",
+        "low's adventures 3",
+        "Informational\nI",
+        "2,900",
+        "",
+        "n/a",
+        "n/a",
+        "25",
+        "0.00",
+        "0.33",
+        "+4",
+        "145",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "low's adventures 3",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=low%27s%20adventures%203&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=low%27s%20adventures%203&db=us&serpId=b-h-97-0923-9282668329773306894"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "mathplayground electron dash",
+        "mathplayground electron dash",
+        "Informational\nI",
+        "2,400",
+        "",
+        "n/a",
+        "n/a",
+        "27",
+        "0.00",
+        "0.33",
+        "",
+        "67",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "mathplayground electron dash",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=mathplayground%20electron%20dash&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=mathplayground%20electron%20dash&db=us&serpId=b-i-97-0919-11173094807987728226"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "football random",
+        "football random",
+        "Informational\nI",
+        "1,300",
+        "",
+        "n/a",
+        "n/a",
+        "24",
+        "0.11",
+        "0.01",
+        "+2",
+        "1.1K",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "football random",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=football%20random&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=football%20random&db=us&serpId=b-f-97-0811-13991671084163012158"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "time shooter 3 swat",
+        "time shooter 3 swat",
+        "Commercial\nC",
+        "1,000",
+        "",
+        "n/a",
+        "n/a",
+        "9",
+        "0.00",
+        "0.01",
+        "0",
+        "132",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "time shooter 3 swat",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=time%20shooter%203%20swat&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=time%20shooter%203%20swat&db=us&serpId=b-i-97-0806-11938269824713336404"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "tunnel rush game",
+        "tunnel rush game",
+        "Informational\nI\nTransactional\nT",
+        "720",
+        "",
+        "n/a",
+        "n/a",
+        "41",
+        "0.13",
+        "0.02",
+        "+2",
+        "132",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "tunnel rush game",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=tunnel%20rush%20game&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=tunnel%20rush%20game&db=us&serpId=b-h-97-0812-12493461987851660640"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "baseball random",
+        "baseball random",
+        "Informational\nI",
+        "590",
+        "",
+        "n/a",
+        "n/a",
+        "60",
+        "0.00",
+        "0.33",
+        "",
+        "1.5K",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "baseball random",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=baseball%20random&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=baseball%20random&db=us&serpId=b-i-97-0908-14488880374443498406"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "rooftop snipers game",
+        "rooftop snipers game",
+        "Informational\nI",
+        "590",
+        "",
+        "n/a",
+        "n/a",
+        "33",
+        "0.10",
+        "0.03",
+        "+2",
+        "137",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "rooftop snipers game",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=rooftop%20snipers%20game&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=rooftop%20snipers%20game&db=us&serpId=b-g-97-0818-6294454338583794181"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "duck life 10",
+        "duck life 10",
+        "Informational\nI",
+        "480",
+        "",
+        "n/a",
+        "n/a",
+        "30",
+        "0.00",
+        "0.33",
+        "+3",
+        "115",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "duck life 10",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=duck%20life%2010&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=duck%20life%2010&db=us&serpId=b-g-97-0807-15453779895017499229"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "duck life 4 mathplayground",
+        "duck life 4 mathplayground",
+        "Transactional\nT\nNavigational\nN",
+        "90",
+        "",
+        "n/a",
+        "n/a",
+        "35",
+        "0.00",
+        "0.33",
+        "",
+        "76",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "duck life 4 mathplayground",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=duck%20life%204%20mathplayground&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=duck%20life%204%20mathplayground&db=us&serpId=b-i-97-0810-2003367583610283947"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "electron dash math playground game",
+        "electron dash math playground game",
+        "Informational\nI",
+        "70",
+        "",
+        "n/a",
+        "n/a",
+        "21",
+        "0.00",
+        "0.33",
+        "+2",
+        "98",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "electron dash math playground game",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=electron%20dash%20math%20playground%20game&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=electron%20dash%20math%20playground%20game&db=us&serpId=b-i-97-0815-7619900018078648676"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "idle breakout strategy",
+        "idle breakout strategy",
+        "Informational\nI",
+        "70",
+        "",
+        "n/a",
+        "n/a",
+        "32",
+        "0.00",
+        "0.33",
+        "+3",
+        "81",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "idle breakout strategy",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=idle%20breakout%20strategy&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=idle%20breakout%20strategy&db=us&serpId=b-e-97-0923-11456182556361897105"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "drift hunters unblock",
+        "drift hunters unblock",
+        "Informational\nI",
+        "50",
+        "",
+        "n/a",
+        "n/a",
+        "29",
+        "0.00",
+        "0.33",
+        "",
+        "88",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "drift hunters unblock",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=drift%20hunters%20unblock&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=drift%20hunters%20unblock&db=us&serpId=b-h-97-0921-11453041707048621247"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "idle breakout mobile",
+        "idle breakout mobile",
+        "Commercial\nC",
+        "50",
+        "",
+        "n/a",
+        "n/a",
+        "51",
+        "0.10",
+        "0.33",
+        "+3",
+        "113",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "idle breakout mobile",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=idle%20breakout%20mobile&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=idle%20breakout%20mobile&db=us&serpId=b-e-97-0830-17495000440207286926"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "mathplayground duck life",
+        "mathplayground duck life",
+        "n/a",
+        "0",
+        "",
+        "n/a",
+        "n/a",
+        "n/a",
+        "0.00",
+        "0.33",
+        "",
+        "n/a",
+        "For metrics, refresh"
+      ],
+      "links": [
+        {
+          "text": "mathplayground duck life",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=mathplayground%20duck%20life&db=us&date=202610&device=0"
+        }
+      ]
+    }
+  ],
+  "text": "Skip to content\ndrift boss\nAnalyze\nPricing\nEnterprise\nMore\nT\nHome\nSEO\nAI\nTraffic & Market\nLocal\nContent\nAd\nAI PR\nSocial\nReports\nApps\nSEO\nSite Performance\nCompetitive Analysis\nKeyword Research\nContent Ideas\nLink Building\nExtras\nOther\nHome\nSEO\nKeyword Overview\nKeyword Research course\nUser manual\nSend feedback\nKeyword Overview:\ndrift boss\nUnited States\nUSD\nOverview\nBulk Analysis\nKeywords\n58/100\nClear all\n1.\ndrift boss\n2.\nbasket bros\n3.\nbaseball bros\n4.\nfootball bros\n5.\npolytrack\n6.\nslope unblocked\n7.\novo game\n8.\neggy car\n9.\nspace waves\n10.\nrun 3 unblocked\n11.\nelectron dash\n12.\nrodha\n13.\nplanet clicker\n14.\nidle breakout\n15.\ncandy clicker\n16.\nbrainrot clicker\n17.\n67 clicker\n18.\npuppet hockey\n19.\nduck life 4\n20.\nlow's adventures 3\n21.\ndrift hunters\n22.\nbasket random\n23.\nsoccer random\n24.\nvolley random\n25.\nboxing random\n26.\nragdoll hit\n27.\nragdoll archers\n28.\nstickman hook\n29.\ndrive mad\n30.\nbasketball stars\n31.\ntime shooter 2\n32.\ntime shooter 3\n33.\ngetaway shootout\n34.\nrooftop snipers\n35.\ntunnel rush\n36.\nslope rider\n37.\ndashmetry\n38.\nx trench run\n39.\nsoflo wheelie life\n40.\nwacky flip\n41.\nstickman clash\n42.\ncurve rush\n43.\ncrossy road\n44.\ncolor rush game\n45.\nfootball random\n46.\nbaseball random\n47.\nduck life 10\n48.\ndrift hunters unblock\n49.\nrooftop snipers game\n50.\ntime shooter 3 swat\n51.\nmathplayground electron dash\n52.\nelectron dash math playground game\n53.\nidle breakout mobile\n54.\nidle breakout strategy\n55.\nduck life 4 mathplayground\n56.\nmathplayground duck life\n57.\ntunnel rush game\n58.\ndrift boss game\n59.\n﻿\n\nExamples:\nloans, movies, how to buy audible books\nAnalyze\nBulk Keyword Analysis\n58\nSend keywords\nUpdate metrics\n1,000/1,000\nManage columns\n9/10\nExport\nSelect keywords\nKeyword\nIntent\nVolume\nTrend\nKD %\nCPC (USD)\nCom.\nSERP Features\nUpdated\nSelected:\n0\nDeselect all\nCopy\ndrift boss\ndrift boss\nInformational\nI\n1,830,000\n60\n0.08\n0.02\n1 month\nfootball bros\nfootball bros\nCommercial\nC\n368,000\n50\n0.00\n0.33\n1 month\npolytrack\npolytrack\nCommercial\nC\n368,000\n64\n0.10\n0.33\n+3\n4 weeks\nspace waves\nspace waves\nCommercial\nC\n368,000\n86\n0.04\n0.33\n1 month\ndrive mad\ndrive mad\nInformational\nI\n301,000\n64\n0.16\n0.08\n+3\n1 month\nslope unblocked\nslope unblocked\nInformational\nI\n246,000\n52\n0.00\n0.33\n1 month\nbasketball stars\nbasketball stars\nInformational\nI\n201,000\n89\n0.19\n0.04\n+2\n4 weeks\nbaseball bros\nbaseball bros\nInformational\nI\nCommercial\nC\n165,000\n35\n2.04\n0.33\n1 month\nbasket random\nbasket random\nInformational\nI\n165,000\n60\n0.10\n0.02\n+2\n1 month\ncrossy road\ncrossy road\nInformational\nI\nTransactional\nT\n165,000\n90\n0.05\n0.03\n+6\n4 weeks\novo game\novo game\nInformational\nI\nTransactional\nT\n165,000\n57\n0.10\n0.02\n+2\n4 weeks\nstickman hook\nstickman hook\nInformational\nI\n165,000\n75\n0.16\n0.11\n+3\n1 month\ndrift hunters\ndrift hunters\nInformational\nI\nTransactional\nT\n135,000\n68\n0.21\n0.33\n+6\n1 month\neggy car\neggy car\nInformational\nI\n135,000\n53\n0.06\n0.33\n+3\n1 month\nwacky flip\nwacky flip\nNavigational\nN\n110,000\n72\n4.35\n0.33\n+4\n1 month\ndashmetry\ndashmetry\nInformational\nI\n90,500\n16\n0.00\n0.33\n1 month\nplanet clicker\nplanet clicker\nInformational\nI\n90,500\n40\n0.04\n0.01\n+3\n1 month\nragdoll hit\nragdoll hit\nn/a\n90,500\n45\n0.15\n0.06\n+3\n1 month\ncurve rush\ncurve rush\nNavigational\nN\n74,000\n49\n0.00\n0.33\n1 month\nragdoll archers\nragdoll archers\nInformational\nI\n74,000\n51\n0.05\n0.33\n+4\n1 month\nslope rider\nslope rider\nInformational\nI\n74,000\n75\n0.00\n0.33\n4 weeks\nrodha\nrodha\nInformational\nI\n60,500\n22\n0.54\n0.33\n+3\n4 weeks\n67 clicker\n67 clicker\nInformational\nI\n49,500\n35\n0.00\n0.33\n4 weeks\nbasket bros\nbasket bros\nInformational\nI\n49,500\n44\n0.82\n0.33\n4 weeks\nidle breakout\nidle breakout\nInformational\nI\n49,500\n67\n0.08\n0.01\n+4\n1 month\ntunnel rush\ntunnel rush\nInformational\nI\n49,500\n54\n0.15\n0.05\n+4\n1 month\nx trench run\nx trench run\nInformational\nI\n49,500\n9\n0.04\n0.33\n+2\n4 weeks\nbrainrot clicker\nbrainrot clicker\nInformational\nI\n40,500\n39\n0.21\n0.01\n+3\n4 weeks\nelectron dash\nelectron dash\nCommercial\nC\n40,500\n34\n1.49\n0.33\n+2\n4 weeks\nrun 3 unblocked\nrun 3 unblocked\nInformational\nI\n40,500\n36\n0.00\n0.33\n1 month\nsoccer random\nsoccer random\nInformational\nI\n40,500\n46\n0.08\n0.01\n+4\n1 month\nsoflo wheelie life\nsoflo wheelie life\nInformational\nI\n40,500\n41\n0.00\n0.33\n1 month\ngetaway shootout\ngetaway shootout\nInformational\nI\n33,100\n43\n0.14\n0.05\n+3\n1 month\npuppet hockey\npuppet hockey\nInformational\nI\nTransactional\nT\n33,100\n38\n0.00\n0.33\n+4\n1 month\ncandy clicker\ncandy clicker\nInformational\nI\n27,100\n40\n0.03\n0.03\n+3\n4 weeks\nduck life 4\nduck life 4\nInformational\nI\n27,100\n54\n0.04\n0.33\n+4\n1 month\ndrift boss game\ndrift boss game\nInformational\nI\n22,200\n55\n0.11\n0.12\n+3\n4 weeks\nrooftop snipers\nrooftop snipers\nInformational\nI\nCommercial\nC\n22,200\n44\n0.15\n0.08\n+4\n4 weeks\nstickman clash\nstickman clash\nInformational\nI\nTransactional\nT\n12,100\n49\n0.00\n0.33\n+3\n1 month\nboxing random\nboxing random\nInformational\nI\n9,900\n19\n0.08\n0.02\n4 weeks\nvolley random\nvolley random\nInformational\nI\n8,100\n30\n0.04\n0.04\n+3\n4 weeks\ntime shooter 2\ntime shooter 2\nInformational\nI\n5,400\n22\n0.13\n0.04\n1 month\ntime shooter 3\ntime shooter 3\nInformational\nI\n5,400\n20\n0.12\n0.02\n+2\n1 month\ncolor rush game\ncolor rush game\nInformational\nI\n4,400\n4\n0.00\n0.33\n4 weeks\nlow's adventures 3\nlow's adventures 3\nInformational\nI\n2,900\n25\n0.00\n0.33\n+4\n4 weeks\nmathplayground electron dash\nmathplayground electron dash\nInformational\nI\n2,400\n27\n0.00\n0.33\n1 month\nfootball random\nfootball random\nInformational\nI\n1,300\n24\n0.11\n0.01\n+2\n1 month\ntime shooter 3 swat\ntime shooter 3 swat\nCommercial\nC\n1,000\n9\n0.00\n0.01\n0\n1 month\ntunnel rush game\ntunnel rush game\nInformational\nI\nTransactional\nT\n720\n41\n0.13\n0.02\n+2\n1 month\nbaseball random\nbaseball random\nInformational\nI\n590\n60\n0.00\n0.33\n1 month\nrooftop snipers game\nrooftop snipers game\nInformational\nI\n590\n33\n0.10\n0.03\n+2\n1 month\nduck life 10\nduck life 10\nInformational\nI\n480\n30\n0.00\n0.33\n+3\n1 month\nduck life 4 mathplayground\nduck life 4 mathplayground\nTransactional\nT\nNavigational\nN\n90\n35\n0.00\n0.33\n1 month\nelectron dash math playground game\nelectron dash math playground game\nInformational\nI\n70\n21\n0.00\n0.33\n+2\n1 month\nidle breakout strategy\nidle breakout strategy\nInformational\nI\n70\n32\n0.00\n0.33\n+3\n4 weeks\ndrift hunters unblock\ndrift hunters unblock\nInformational\nI\n50\n29\n0.00\n0.33\n1 month\nidle breakout mobile\nidle breakout mobile\nCommercial\nC\n50\n51\n0.10\n0.33\n+3\n1 month\nmathplayground duck life\nmathplayground duck life\nn/a\n0\nn/a\n0.00\n0.33\nFor metrics, refresh"
+}

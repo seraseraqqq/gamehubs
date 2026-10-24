@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-10-24T14:58:13.222Z",
+  "result": "passed",
+  "existingExportCheck": {
+    "command": "node management/tools/check-portfolio-seo.mjs --public",
+    "sites": 12,
+    "pages": 28,
+    "failures": 0,
+    "scope": "Existing local dist outputs; no deployment or live gameplay test"
+  },
+  "rootFiles": [
+    ".agent",
+    ".gitignore",
+    "AGENTS.md",
+    "HANDOFF.md",
+    "README.md"
+  ],
+  "rootJsonCount": 0,
+  "retiredScripts": 13,
+  "retiredReviewCaptures": 10,
+  "relocations": 19,
+  "runtimeAndFrozenFilesUnchanged": 303,
+  "registryCounts": {
+    "games": 12,
+    "plannedGames": 5,
+    "sites": 12
+  },
+  "dataPreservation": [
+    {
+      "file": "management/data/repositories.json",
+      "byteIdentical": true
+    },
+    {
+      "file": "management/data/matrix-sites.json",
+      "byteIdentical": true
+    },
+    {
+      "file": "research/2026-10-23-keyword-discovery/candidates_discovered.json",
+      "byteIdentical": true
+    },
+    {
+      "file": "research/2026-10-23-keyword-discovery/serp_gap_analysis.json",
+      "byteIdentical": true
+    },
+    {
+      "file": "research/2026-10-23-keyword-discovery/trends_rising.json",
+      "byteIdentical": true
+    },
+    {
+      "file": "research/2026-10-23-keyword-discovery/trends_verified_results.json",
+      "byteIdentical": true
+    },
+    {
+      "file": "research/2026-10-23-keyword-discovery/游戏关键词台账.xlsx",
+      "byteIdentical": true
+    }
+  ],
+  "managementLint": {
+    "files": 11,
+    "links": 88,
+    "broken": [],
+    "oversize": []
+  },
+  "rankupLint": {
+    "files": 4,
+    "links": 17,
+    "broken": [],
+    "oversize": []
+  },
+  "scriptSyntax": {
+    "management/tools/check-portfolio-seo.mjs": "syntax passed",
+    "management/tools/prepare-standalone.mjs": "syntax passed",
+    ".rankup/scripts/init-game-projects.mjs": "syntax passed",
+    ".rankup/scripts/register-game-projects.mjs": "syntax passed"
+  },
+  "entrypointLinksChecked": 36,
+  "localSkillPointerUpdated": true
+}

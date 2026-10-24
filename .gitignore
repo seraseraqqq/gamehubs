@@ -11,7 +11,7 @@ __pycache__/
 .vercel
 
 # Local Impeccable screenshots; final review evidence lives in research.
-.impeccable/review/
+games/coreball/.impeccable/review/
 
 # Local downloaded research snapshots; curated reports remain versioned.
 research/2026-10-24-snow-rider/competitor-source/
@@ -21,3 +21,8 @@ research/2026-10-24-snow-rider/html5_gamemonetize_games-publisher-player.html
 research/2026-10-24-head-soccer-2026/raw/
 research/2026-10-24-acceleration-city/raw/
 research/2026-10-24-cluster-rush/raw/
+
+# Machine-local tool state and raw failed diagnostics are not portfolio records.
+.rankup/skill-state.json
+.rankup/agentic/
+.rankup/evidence/

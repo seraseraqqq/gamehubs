@@ -1,5 +1,7 @@
 # Coreball playroom redesign
 
+> 2026-10-24整理注：本报告保留当时结果；相关一次性测试/旧同步脚本已移出管理仓库，不再按文内旧命令复跑。当前质量复查使用仓库根执行 `node management/tools/check-portfolio-seo.mjs --public`，游戏专属测试见各游戏README。
+
 Started 2026-10-23; final user-directed revision and validation 2026-10-24.
 
 ## Final direction
@@ -21,7 +23,7 @@ The owner requested a more enjoyable Coreball with a 3D fluffy ball and cat acti
 - `python research/2026-10-23-keyword-seo/check-seo.py`: both sites' production, preview and default exports pass. This verifies links, metadata, assets, FAQ/schema agreement, canonical/robots/sitemap and runtime allowlists. Fixture origins are never deployed. The Cryptic game's implementation was not changed.
 - Chrome at 390px, 1440px and the user's 2560px viewport: centered layout and no horizontal document overflow. The 390×844 initial view includes the complete launch control; measured bottom about 728px.
 - Real UI clicks on Practice Level 1 reached five successful placements, streak five and the `Nicely played!` result with the final flat paw and full flying-pin graphics. Actual collision showed streak zero, `Two pins touched`, Retry level and disabled launch. Keyboard P paused and focused the resume control. No error-level console messages were observed in the smoke check.
-- Current high-level crowded-board capture shows Level 30 with ten starting pins and thirteen incoming pins. Timed swat capture shows a raised right paw, complete pin in flight and the matching status. Review-only captures live under ignored `.impeccable/review/`; final representative previews are retained here.
+- Current high-level crowded-board capture shows Level 30 with ten starting pins and thirteen incoming pins. Timed swat capture shows a raised right paw, complete pin in flight and the matching status. Review-only captures live under 仓库外可恢复临时目录（见管理清理记录）; final representative previews are retained here.
 - Mechanical detector ran once. Small functional text was raised to at least 12px; progress animation uses transform rather than width. Cream palette and nested-control heuristics are retained with contextual explanations in [detector notes](detector-notes.md). The result panel is a transient game state, not a nested information-card layout.
 - Both shipping PNG cards were rebuilt with the current paw and pin style; provenance scan reports two rasters and zero missing origins. Original generated cat trials were discarded from the game assets. The generated originals outside this repository were preserved.
 

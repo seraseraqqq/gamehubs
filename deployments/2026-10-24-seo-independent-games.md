@@ -39,7 +39,7 @@ Production behavior was tested only in local fixture exports with reserved `.inv
 - Cluster Rush: `node scripts/check.mjs` — **107 assertions pass**. Covers default/forced-preview isolation, production metadata, schemas, share image fields, internal file/anchor resolution, sitemap exclusion and export whitelist. Evidence: canonical repo `research/2026-10-24-cluster-rush/export-checks.json`.
 - Acceleration City: `node scripts/verify.mjs` — **89 checks pass**. Covers noindex/origin/license gates, canonical and schema identities, preview and production social images, measured image dimensions/alternatives, invalid origins, route references and existing reload behavior. Evidence: canonical repo `scripts/verification.json`.
 - Acceleration City: `node scripts/build.mjs` — final export `production: false`, `origin: null`.
-- Aggregate checker: `node scripts/check-portfolio-seo.mjs --site acceleration-city` from GameHubs — all four preview routes pass, zero failures.
+- Aggregate checker: `node management/tools/check-portfolio-seo.mjs --site acceleration-city` from GameHubs — all four preview routes pass, zero failures.
 - Both repositories: `git diff --check` passes (only existing Windows newline conversion notices).
 
 Public redirect/crawl/header checks, AITDK, real performance/Core Web Vitals, Search Console and actual-domain gameplay cannot be accepted for sites with no production deployment. No ranking or traffic improvement is claimed.

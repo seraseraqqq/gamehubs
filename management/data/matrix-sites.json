@@ -1,0 +1,919 @@
+{
+  "updatedAt": "2026-10-24",
+  "sites": [
+    {
+      "siteId": "block-blast-unblocked",
+      "primaryKeyword": "block blast unblocked",
+      "volume": 22200,
+      "kd": 7,
+      "secondaryKeywords": [
+        "blockblast unblocked",
+        "block blast unblocked 76",
+        "block blast unblocked 66",
+        "bloc blast unblocked",
+        "block blast online free",
+        "block blast no download",
+        "8x8 block puzzle",
+        "block blast unblock",
+        "block blast chromebook"
+      ],
+      "path": "games/block-blast-unblocked",
+      "domain": "https://playblockblastunblocked.com",
+      "url": "https://playblockblastunblocked.com/",
+      "repo": "https://github.com/seraseraqqq/gamehubs",
+      "status": "deployed",
+      "targetIntent": "Instant-play independent 8x8 block puzzle, with pointer/touch/keyboard controls and browser-local best; network access is not guaranteed.",
+      "techStack": "HTML5 / CSS3 / Vanilla JS / Web Audio API / Zadely Sticker Theme",
+      "createdAt": "2026-10-22",
+      "updatedAt": "2026-10-23",
+      "workspaceReview": {
+        "date": "2026-10-23",
+        "state": "validated-for-github-release",
+        "record": "research/2026-10-23-existing-games/report.html",
+        "productionChanged": null,
+        "keywordMetrics": "Historical volume/KD retained; not revalidated in this workspace SEO/UI review.",
+        "releaseRecord": "deployments/2026-10-23-existing-games.md",
+        "releaseBranch": "main",
+        "productionVerification": "not-performed"
+      },
+      "analyticsState": "vercel-web-analytics-script-installed",
+      "analytics": {
+        "provider": "Vercel Web Analytics",
+        "integration": "static-html-script",
+        "dashboardEnablement": "owner-managed",
+        "collectionVerified": false,
+        "record": "deployments/2026-10-23-analytics.md"
+      },
+      "deploymentAudit": {
+        "checkedAt": "2026-10-24T05:17:09.386Z",
+        "githubPushed": true,
+        "githubCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+        "record": "DEPLOYMENT_STATUS.md",
+        "vercelDeployed": true,
+        "state": "READY",
+        "production": true,
+        "gameSourceMatchesGitHub": true,
+        "httpStatus": 200,
+        "publicURL": "https://playblockblastunblocked.com/",
+        "observedCanonical": "https://playblockblastunblocked.com/",
+        "noindex": false
+      },
+      "deployment": {
+        "platform": "Vercel",
+        "projectId": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+        "projectName": "block-blast-unblocked",
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+        "rootDirectory": "games/block-blast-unblocked",
+        "target": "production",
+        "state": "READY",
+        "latestVerifiedDeploymentId": "dpl_5VZ2JEnrTPihkezw9fBkYBQnwbdY",
+        "verifiedGameSourceCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+        "verifiedPublicAt": "2026-10-24T05:17:09.386Z",
+        "record": "DEPLOYMENT_STATUS.md"
+      }
+    },
+    {
+      "siteId": "costcodle",
+      "primaryKeyword": "costcodle",
+      "volume": 18100,
+      "kd": 0,
+      "secondaryKeywords": [
+        "costcodle unlimited",
+        "costcodle game",
+        "costcodle today",
+        "guess costco price game",
+        "play costcodle free",
+        "costcodle archive",
+        "costcodle daily"
+      ],
+      "path": "games/costcodle",
+      "url": "https://costcodle.cc/",
+      "repo": "https://github.com/seraseraqqq/gamehubs",
+      "status": "deployed",
+      "targetIntent": "Independent daily UTC and unlimited reference-price puzzle with a 5% winning window; 152 fixed catalog entries and local category art, not live prices.",
+      "techStack": "HTML5 / CSS3 / Vanilla JS / Web Audio API / Zadely Sticker Theme",
+      "createdAt": "2026-10-22",
+      "updatedAt": "2026-10-24",
+      "workspaceReview": {
+        "date": "2026-10-23",
+        "state": "validated-for-github-release",
+        "record": "research/2026-10-23-existing-games/report.html",
+        "productionChanged": null,
+        "keywordMetrics": "Historical volume/KD retained; not revalidated in this workspace SEO/UI review.",
+        "releaseRecord": "deployments/2026-10-23-existing-games.md",
+        "releaseBranch": "main",
+        "productionVerification": "not-performed"
+      },
+      "analyticsState": "vercel-web-analytics-script-installed",
+      "analytics": {
+        "provider": "Vercel Web Analytics",
+        "integration": "static-html-script",
+        "dashboardEnablement": "owner-managed",
+        "collectionVerified": false,
+        "record": "deployments/2026-10-23-analytics.md"
+      },
+      "deploymentAudit": {
+        "checkedAt": "2026-10-24T05:17:09.386Z",
+        "githubPushed": true,
+        "githubCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+        "record": "DEPLOYMENT_STATUS.md",
+        "vercelDeployed": true,
+        "state": "READY",
+        "production": true,
+        "gameSourceMatchesGitHub": true,
+        "httpStatus": 200,
+        "publicURL": "https://costcodle-unlimited.vercel.app/",
+        "observedCanonical": "https://costcodle-unlimited.vercel.app/",
+        "noindex": false
+      },
+      "deployment": {
+        "platform": "Vercel",
+        "projectId": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+        "projectName": "costcodle-unlimited",
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+        "rootDirectory": "games/costcodle",
+        "target": "production",
+        "state": "READY",
+        "latestVerifiedDeploymentId": "dpl_FWAKmu4yHrGw6YAYhLQaYMeA8i6K",
+        "verifiedGameSourceCommit": "c6034dc0f5e6fafbee20e2a3514c29e98baa5b0a",
+        "verifiedPublicAt": "2026-10-24T05:17:09.386Z",
+        "record": "DEPLOYMENT_STATUS.md"
+      },
+      "domain": "https://costcodle.cc",
+      "canonical": "https://costcodle.cc/",
+      "registeredDomain": "costcodle.cc",
+      "domainBindingState": "vercel-verified",
+      "domainConsistency": {
+        "sourceState": "corrected-locally-awaiting-push",
+        "productionState": "custom-domain-live-with-old-metadata-awaiting-deployment",
+        "oldDefaultURL": "https://costcodle-unlimited.vercel.app/",
+        "record": "deployments/2026-10-24-costcodle-domain.md"
+      }
+    },
+    {
+      "siteId": "gulper-io",
+      "primaryKeyword": "gulper.io game",
+      "volume": 12100,
+      "kd": 7,
+      "secondaryKeywords": [
+        "gulper io",
+        "gulper io unblocked",
+        "gulperio",
+        "slither io unblocked",
+        "gulper.io online",
+        "gulper io chromebook",
+        "neon snake game"
+      ],
+      "path": "games/gulperio",
+      "domain": "https://gulperio.com",
+      "url": "https://gulperio.com/",
+      "repo": "https://github.com/seraseraqqq/gamehubs",
+      "status": "deployed",
+      "targetIntent": "Independent single-player neon snake practice against computer-controlled rivals, with local arena rankings and personal best.",
+      "techStack": "HTML5 Canvas 2D / Vanilla JS / Web Audio API / local fonts and original neon vector art",
+      "createdAt": "2026-10-22",
+      "updatedAt": "2026-10-23",
+      "workspaceReview": {
+        "date": "2026-10-23",
+        "state": "validated-for-github-release",
+        "record": "research/2026-10-23-existing-games/report.html",
+        "productionChanged": null,
+        "keywordMetrics": "Historical volume/KD retained; not revalidated in this workspace SEO/UI review.",
+        "releaseRecord": "deployments/2026-10-23-existing-games.md",
+        "releaseBranch": "main",
+        "productionVerification": "not-performed"
+      },
+      "productDecision": {
+        "date": "2026-10-23",
+        "mode": "single-player-computer-rivals",
+        "multiplayerPlanned": false,
+        "opponentDirection": "Human-like local rivals: distinct play styles, bounded perception, reactions and mistakes, bot-vs-bot competition, persistent identities on respawn.",
+        "implementation": "games/gulperio/bot-brain.js",
+        "record": "research/2026-10-23-existing-games/gulper-personality.md",
+        "productionChanged": null
+      },
+      "analyticsState": "vercel-web-analytics-script-installed",
+      "analytics": {
+        "provider": "Vercel Web Analytics",
+        "integration": "static-html-script",
+        "dashboardEnablement": "owner-managed",
+        "collectionVerified": false,
+        "record": "deployments/2026-10-23-analytics.md"
+      },
+      "deploymentAudit": {
+        "checkedAt": "2026-10-24T05:17:09.386Z",
+        "githubPushed": true,
+        "githubCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+        "record": "DEPLOYMENT_STATUS.md",
+        "vercelDeployed": true,
+        "state": "READY",
+        "production": true,
+        "gameSourceMatchesGitHub": true,
+        "httpStatus": 200,
+        "publicURL": "https://gulperio.com/",
+        "observedCanonical": "https://gulperio.com/",
+        "noindex": false
+      },
+      "deployment": {
+        "platform": "Vercel",
+        "projectId": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+        "projectName": "gulperio-game",
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+        "rootDirectory": "games/gulperio",
+        "target": "production",
+        "state": "READY",
+        "latestVerifiedDeploymentId": "dpl_BdVsESQ3tAru4cRAneRMzytGyDpM",
+        "verifiedGameSourceCommit": "c6034dc0f5e6fafbee20e2a3514c29e98baa5b0a",
+        "verifiedPublicAt": "2026-10-24T05:17:09.386Z",
+        "record": "DEPLOYMENT_STATUS.md"
+      }
+    },
+    {
+      "siteId": "krillion-unlimited",
+      "primaryKeyword": "krillion unlimited",
+      "volume": 4400,
+      "kd": 0,
+      "secondaryKeywords": [
+        "krillion",
+        "krillion game",
+        "krillion io",
+        "one in a krillion",
+        "krillion online free",
+        "play krillion unlimited",
+        "deep sea rarity trivia",
+        "reverse trivia game"
+      ],
+      "path": "games/summit-unlimited",
+      "domain": "https://krilliononline.com",
+      "url": "https://krilliononline.com/",
+      "repo": "https://github.com/seraseraqqq/gamehubs",
+      "status": "deployed",
+      "targetIntent": "Play STARLING, an independent fixed seven-prompt space word game with authored rarity scores; not the official Krillion game.",
+      "techStack": "Static HTML/CSS / JavaScript / local Canvas pixel art and font / localStorage / optional synthesized audio",
+      "createdAt": "2026-10-23",
+      "updatedAt": "2026-10-23",
+      "workspaceReview": {
+        "date": "2026-10-23",
+        "state": "validated-for-github-release",
+        "record": "research/2026-10-23-existing-games/report.html",
+        "productionChanged": null,
+        "keywordMetrics": "Historical volume/KD retained; not revalidated in this workspace SEO/UI review.",
+        "releaseRecord": "deployments/2026-10-23-existing-games.md",
+        "releaseBranch": "main",
+        "productionVerification": "not-performed"
+      },
+      "analyticsState": "vercel-web-analytics-script-installed",
+      "analytics": {
+        "provider": "Vercel Web Analytics",
+        "integration": "static-html-script",
+        "dashboardEnablement": "owner-managed",
+        "collectionVerified": false,
+        "record": "deployments/2026-10-23-analytics.md"
+      },
+      "deploymentAudit": {
+        "checkedAt": "2026-10-24T05:17:09.386Z",
+        "githubPushed": true,
+        "githubCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+        "record": "DEPLOYMENT_STATUS.md",
+        "vercelDeployed": true,
+        "state": "READY",
+        "production": true,
+        "gameSourceMatchesGitHub": true,
+        "httpStatus": 200,
+        "publicURL": "https://krilliononline.com/",
+        "observedCanonical": "https://krilliononline.com/",
+        "noindex": false
+      },
+      "deployment": {
+        "platform": "Vercel",
+        "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+        "projectName": "gamehubs-summit-unlimited",
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+        "rootDirectory": "games/summit-unlimited",
+        "target": "production",
+        "state": "READY",
+        "latestVerifiedDeploymentId": "dpl_GMi33nrBmRBqgKzeTXBw2YAhwtXh",
+        "verifiedGameSourceCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+        "verifiedPublicAt": "2026-10-24T05:17:09.386Z",
+        "record": "DEPLOYMENT_STATUS.md"
+      }
+    },
+    {
+      "siteId": "spacebar-counter",
+      "unitType": "game",
+      "primaryKeyword": "spacebar counter",
+      "secondaryKeywords": [
+        "space bar counter",
+        "spacebar test"
+      ],
+      "path": "games/spacebar-counter",
+      "domain": "https://www.spacebarcounter.xyz",
+      "url": "https://www.spacebarcounter.xyz/",
+      "repo": "https://github.com/seraseraqqq/gamehubs",
+      "status": "deployed",
+      "releaseState": "public-domain-verified",
+      "targetMarket": {
+        "country": "US",
+        "language": "en"
+      },
+      "targetIntent": "Count distinct focused Space presses and compare timed local rounds; tap/button input is separately labeled.",
+      "gameSource": {
+        "type": "original",
+        "thirdPartyAssets": false,
+        "rightsNotes": "Original HTML/CSS/JavaScript/SVG created for this repository. No third-party game package or branding."
+      },
+      "canonical": "https://www.spacebarcounter.xyz/",
+      "indexingState": "indexable-gsc-not-connected",
+      "adApprovalState": "not-requested",
+      "adsEnabled": false,
+      "analyticsState": "vercel-web-analytics-script-installed",
+      "searchConsoleState": "not-connected",
+      "keywordEvidence": {
+        "path": "research/2026-10-23-game-keywords/normalized-evidence.json",
+        "asOf": "2026-10-23",
+        "trends": "not-yet-verified",
+        "semrushUserSupplied": {
+          "volume": 5400,
+          "kd": 28,
+          "snapshotDate": null
+        },
+        "ahrefsUserSupplied": {
+          "volumeLowerBoundExclusive": 10000,
+          "kd": 5,
+          "snapshotDate": null
+        },
+        "dataforseoSupplementary": {
+          "volume": 8100,
+          "kd": 11
+        }
+      },
+      "owner": "workspace-owner",
+      "createdAt": "2026-10-23",
+      "updatedAt": "2026-10-23",
+      "deployedAt": "2026-10-23T10:25:18.314000+00:00",
+      "buildHours": null,
+      "recurringCostUsd": null,
+      "nextDecision": "Connect Search Console and submit the www sitemap; enable Vercel Web Analytics in the dashboard and verify page views; consider gameplay events separately; finish real-device/performance checks; retain the Google Trends evidence gap and keep ads disabled pending approval.",
+      "registrar": "Spaceship",
+      "domainOwnership": "owner-confirmed-purchased-2026-10-23",
+      "deployment": {
+        "platform": "Vercel",
+        "projectId": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+        "projectName": "gamehubs-spacebar-counter",
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+        "rootDirectory": "games/spacebar-counter",
+        "target": "production",
+        "state": "READY",
+        "initialDeploymentId": "dpl_Et7b5BJ6YDJpnhxEDpncfXp93vge",
+        "verifiedGameSourceCommit": "c6034dc0f5e6fafbee20e2a3514c29e98baa5b0a",
+        "record": "DEPLOYMENT_STATUS.md",
+        "latestVerifiedDeploymentId": "dpl_AZ7Br8QSvT6R3vQpwQTPvvcYxjqc",
+        "verifiedPublicAt": "2026-10-24T05:17:09.386Z",
+        "productionOrigin": "https://www.spacebarcounter.xyz"
+      },
+      "dnsState": "verified",
+      "qa": {
+        "date": "2026-10-23",
+        "record": "deployments/2026-10-23-games.md",
+        "productionBrowserChecks": 6,
+        "productionHttpChecks": 5,
+        "customDomainChecks": 5
+      },
+      "registeredDomain": "spacebarcounter.xyz",
+      "analytics": {
+        "provider": "Vercel Web Analytics",
+        "integration": "static-html-script",
+        "dashboardEnablement": "owner-managed",
+        "collectionVerified": false,
+        "record": "deployments/2026-10-23-analytics.md"
+      },
+      "deploymentAudit": {
+        "checkedAt": "2026-10-24T05:17:09.386Z",
+        "githubPushed": true,
+        "githubCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+        "record": "DEPLOYMENT_STATUS.md",
+        "vercelDeployed": true,
+        "state": "READY",
+        "production": true,
+        "gameSourceMatchesGitHub": true,
+        "httpStatus": 200,
+        "publicURL": "https://www.spacebarcounter.xyz/",
+        "observedCanonical": "https://www.spacebarcounter.xyz/",
+        "noindex": false
+      }
+    },
+    {
+      "siteId": "2048-cupcakes",
+      "unitType": "game",
+      "primaryKeyword": "2048 cupcakes",
+      "secondaryKeywords": [
+        "cupcake 2048",
+        "cupcakes 2048",
+        "2048 cupcake game"
+      ],
+      "path": "games/2048-cupcakes",
+      "domain": "https://www.2048cupcakes.xyz",
+      "url": "https://www.2048cupcakes.xyz/",
+      "localPreview": "http://127.0.0.1:4180/",
+      "repo": "https://github.com/seraseraqqq/gamehubs",
+      "status": "deployed",
+      "releaseState": "public-domain-verified",
+      "targetMarket": {
+        "country": "US",
+        "language": "en"
+      },
+      "targetIntent": "Play a cupcake-themed 2048 sliding puzzle with original artwork, keyboard/swipe controls, undo and local continuation.",
+      "techStack": "Static HTML/CSS / original JavaScript ES-module engine / localStorage / optional Web Audio",
+      "gameSource": {
+        "type": "original",
+        "inspiration": "2048 by Gabriele Cirulli",
+        "license": "MIT",
+        "thirdPartyNotices": "games/2048-cupcakes/THIRD_PARTY_NOTICES.md",
+        "assets": "Original built-in imagegen atlas; original SVG icons"
+      },
+      "canonical": "https://www.2048cupcakes.xyz/",
+      "indexingState": "indexable-gsc-not-connected",
+      "adApprovalState": "not-requested",
+      "adsEnabled": false,
+      "analyticsState": "vercel-web-analytics-script-installed",
+      "searchConsoleState": "not-connected",
+      "keywordEvidence": {
+        "path": "research/2026-10-23-game-keywords/normalized-evidence.json",
+        "asOf": "2026-10-23",
+        "trends": "not-yet-verified",
+        "semrushUserSupplied": {
+          "volume": 110000,
+          "kd": 28,
+          "snapshotDate": null
+        },
+        "ahrefsUserSupplied": {
+          "volumeLowerBoundExclusive": 10000,
+          "kd": 1,
+          "snapshotDate": null
+        },
+        "dataforseoSupplementary": {
+          "volume": 201000,
+          "kd": 0
+        }
+      },
+      "qa": {
+        "date": "2026-10-23",
+        "engineTests": 7,
+        "browserChecks": 22,
+        "record": "games/2048-cupcakes/QA.md",
+        "productionBrowserChecks": 7,
+        "productionHttpChecks": 7,
+        "customDomainChecks": 5
+      },
+      "owner": "workspace-owner",
+      "createdAt": "2026-10-23",
+      "updatedAt": "2026-10-23",
+      "deployedAt": "2026-10-23T10:25:13.491000+00:00",
+      "buildHours": null,
+      "recurringCostUsd": null,
+      "nextDecision": "Connect Search Console and submit the www sitemap; enable Vercel Web Analytics in the dashboard and verify page views; consider gameplay events separately; finish real-device/performance checks; retain the Google Trends evidence gap and keep ads disabled pending approval.",
+      "registrar": "Spaceship",
+      "domainOwnership": "owner-confirmed-purchased-2026-10-23",
+      "deployment": {
+        "platform": "Vercel",
+        "projectId": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+        "projectName": "gamehubs-2048-cupcakes",
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+        "rootDirectory": "games/2048-cupcakes",
+        "target": "production",
+        "state": "READY",
+        "initialDeploymentId": "dpl_5G4DXDWenxdSmR9VygeDNtN4VcEi",
+        "verifiedGameSourceCommit": "c6034dc0f5e6fafbee20e2a3514c29e98baa5b0a",
+        "record": "DEPLOYMENT_STATUS.md",
+        "latestVerifiedDeploymentId": "dpl_8qmAkYzsNLg2pY8yxs1J2ucmByZk",
+        "verifiedPublicAt": "2026-10-24T05:17:09.386Z",
+        "productionOrigin": "https://www.2048cupcakes.xyz"
+      },
+      "dnsState": "verified",
+      "registeredDomain": "2048cupcakes.xyz",
+      "analytics": {
+        "provider": "Vercel Web Analytics",
+        "integration": "static-html-script",
+        "dashboardEnablement": "owner-managed",
+        "collectionVerified": false,
+        "record": "deployments/2026-10-23-analytics.md"
+      },
+      "deploymentAudit": {
+        "checkedAt": "2026-10-24T05:17:09.386Z",
+        "githubPushed": true,
+        "githubCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+        "record": "DEPLOYMENT_STATUS.md",
+        "vercelDeployed": true,
+        "state": "READY",
+        "production": true,
+        "gameSourceMatchesGitHub": true,
+        "httpStatus": 200,
+        "publicURL": "https://www.2048cupcakes.xyz/",
+        "observedCanonical": "https://www.2048cupcakes.xyz/",
+        "noindex": false
+      }
+    },
+    {
+      "siteId": "coreball",
+      "brandName": null,
+      "unitType": "game",
+      "primaryKeyword": "coreball",
+      "researchSeedKeyword": "coreball",
+      "path": "games/coreball",
+      "domain": null,
+      "url": "https://gamehubs-coreball.vercel.app/",
+      "repo": "https://github.com/seraseraqqq/gamehubs",
+      "status": "deployed-noindex-awaiting-domain",
+      "releaseState": "vercel-default-domain-live",
+      "targetMarket": {
+        "country": "US",
+        "language": "en"
+      },
+      "targetIntent": "Play a free independent Coreball-style timing game: 30 original levels, unlimited retries and separate slower Practice.",
+      "gameSource": {
+        "type": "original",
+        "record": "games/coreball/PROVENANCE.md"
+      },
+      "canonical": null,
+      "indexingState": "noindex-awaiting-owned-origin",
+      "adsEnabled": false,
+      "analyticsState": "not-connected",
+      "searchConsoleState": "not-connected",
+      "createdAt": "2026-10-23",
+      "updatedAt": "2026-10-24",
+      "localPreview": "http://127.0.0.1:4195/",
+      "verificationRecord": "research/2026-10-23-two-new-games/README.md",
+      "domainResearch": "research/2026-10-23-two-new-games/domain-final-check.json",
+      "nextDecision": "Owner chooses and purchases a domain; configure approved SITE_ORIGIN and verify production before indexing. Trends evidence remains incomplete.",
+      "secondaryKeywords": [
+        "coreball game",
+        "coreball online"
+      ],
+      "seoReview": {
+        "date": "2026-10-23",
+        "record": "research/2026-10-23-keyword-seo/README.md",
+        "state": "local-validation-passed",
+        "productionVerified": false
+      },
+      "keywordPages": [
+        {
+          "path": "/",
+          "primaryKeyword": "coreball"
+        },
+        {
+          "path": "/coreball-tips.html",
+          "primaryKeyword": "coreball tips"
+        }
+      ],
+      "visualReview": {
+        "date": "2026-10-24",
+        "record": "research/2026-10-23-coreball-cats/README.md",
+        "theme": "Smooth 3D peach fur ball, flat overhead cat paws, filled ivory toy pins, local impact feedback",
+        "productionVerified": false
+      },
+      "deploymentAudit": {
+        "checkedAt": "2026-10-24T05:17:09.386Z",
+        "githubPushed": true,
+        "githubCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+        "record": "DEPLOYMENT_STATUS.md",
+        "vercelDeployed": true,
+        "state": "READY",
+        "production": true,
+        "gameSourceMatchesGitHub": true,
+        "httpStatus": 200,
+        "publicURL": "https://gamehubs-coreball.vercel.app/",
+        "observedCanonical": null,
+        "noindex": true
+      },
+      "deployment": {
+        "platform": "Vercel",
+        "projectId": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
+        "projectName": "gamehubs-coreball",
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+        "rootDirectory": "games/coreball",
+        "target": "production",
+        "state": "READY",
+        "latestVerifiedDeploymentId": "dpl_5HXGDs41bmFbm7wYu2LD6ZiDHTDk",
+        "verifiedGameSourceCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+        "verifiedPublicAt": "2026-10-24T05:17:09.386Z",
+        "record": "DEPLOYMENT_STATUS.md"
+      }
+    },
+    {
+      "siteId": "minute-cryptic-unlimited",
+      "brandName": null,
+      "unitType": "game",
+      "primaryKeyword": "minute cryptic unlimited",
+      "researchSeedKeyword": "minute cryptic unlimited",
+      "path": "games/minute-cryptic-unlimited",
+      "domain": null,
+      "url": "https://gamehubs-minute-cryptic-unlimited.vercel.app/",
+      "repo": "https://github.com/seraseraqqq/gamehubs",
+      "status": "deployed-noindex-awaiting-domain",
+      "releaseState": "vercel-default-domain-live",
+      "targetMarket": {
+        "country": "US",
+        "language": "en"
+      },
+      "targetIntent": "Minute Cryptic Unlimited practice: play 20 original cryptic clues with hints and answers, unlimited replay of a finite bank; independent of the official game.",
+      "gameSource": {
+        "type": "original",
+        "record": "games/minute-cryptic-unlimited/PROVENANCE.md"
+      },
+      "canonical": null,
+      "indexingState": "noindex-awaiting-owned-origin",
+      "adsEnabled": false,
+      "analyticsState": "not-connected",
+      "searchConsoleState": "not-connected",
+      "createdAt": "2026-10-23",
+      "updatedAt": "2026-10-23",
+      "localPreview": "http://127.0.0.1:4196/",
+      "verificationRecord": "research/2026-10-23-two-new-games/README.md",
+      "domainResearch": "research/2026-10-23-two-new-games/domain-final-check.json",
+      "nextDecision": "Owner chooses and purchases a domain; configure approved SITE_ORIGIN and verify production before indexing. Trends evidence remains incomplete.",
+      "secondaryKeywords": [
+        "cryptic clue practice",
+        "cryptic crossword practice",
+        "cryptic clues with answers"
+      ],
+      "seoReview": {
+        "date": "2026-10-23",
+        "record": "research/2026-10-23-keyword-seo/README.md",
+        "state": "local-validation-passed",
+        "productionVerified": false
+      },
+      "keywordPages": [
+        {
+          "path": "/",
+          "primaryKeyword": "minute cryptic unlimited"
+        },
+        {
+          "path": "/how-to-solve-cryptic-clues.html",
+          "primaryKeyword": "how to solve cryptic clues"
+        }
+      ],
+      "deploymentAudit": {
+        "checkedAt": "2026-10-24T05:17:09.386Z",
+        "githubPushed": true,
+        "githubCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+        "record": "DEPLOYMENT_STATUS.md",
+        "vercelDeployed": true,
+        "state": "READY",
+        "production": true,
+        "gameSourceMatchesGitHub": true,
+        "httpStatus": 200,
+        "publicURL": "https://gamehubs-minute-cryptic-unlimited.vercel.app/",
+        "observedCanonical": null,
+        "noindex": true
+      },
+      "deployment": {
+        "platform": "Vercel",
+        "projectId": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
+        "projectName": "gamehubs-minute-cryptic-unlimited",
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+        "rootDirectory": "games/minute-cryptic-unlimited",
+        "target": "production",
+        "state": "READY",
+        "latestVerifiedDeploymentId": "dpl_34zGpyftYeGro26f82HuJADWsxgP",
+        "verifiedGameSourceCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+        "verifiedPublicAt": "2026-10-24T05:17:09.386Z",
+        "record": "DEPLOYMENT_STATUS.md"
+      }
+    },
+    {
+      "siteId": "snow-rider-3d-unblocked",
+      "unitType": "game",
+      "primaryKeyword": "snow rider 3d unblocked",
+      "secondaryKeywords": [
+        "snow rider 3d online",
+        "snow rider 3d controls",
+        "snow rider 3d tips"
+      ],
+      "path": "games/snow-rider-3d-unblocked",
+      "domain": "https://snowrider3d.top",
+      "url": "https://snowrider3d.top/",
+      "canonical": null,
+      "status": "deployed-awaiting-gameplay-verification",
+      "targetMarket": {
+        "country": "US",
+        "language": "en"
+      },
+      "targetIntent": "Play the existing Snow Rider 3D through the public Miniplay embed; independent page with provider attribution and privacy disclosure.",
+      "gameSource": {
+        "type": "publisher-iframe",
+        "provider": "Miniplay",
+        "catalogUrl": "https://www.miniplay.com/game/snow-rider-3d",
+        "iframeUrl": "https://www.miniplay.com/embed/snow-rider-3d",
+        "selfHostedPackage": "located-but-license-not-established",
+        "record": "deployments/2026-10-24-snow-rider-miniplay.md",
+        "underlyingProvider": "GameDistribution",
+        "underlyingGameId": "3b79a8537ebc414fb4f9672a9b8c68c8"
+      },
+      "indexingState": "noindex-awaiting-actual-domain-gameplay",
+      "adsEnabled": false,
+      "analyticsState": "first-party-not-installed; publisher-in-game-tracking-disclosed",
+      "searchConsoleState": "not-connected",
+      "localPreview": "http://127.0.0.1:4197/",
+      "keywordEvidence": {
+        "asOf": "2026-10-24",
+        "volume": null,
+        "kd": null,
+        "trends": "US 12-month same-chart raw tables; not calibrated monthly volume",
+        "record": "research/2026-10-24-snow-rider/README.md"
+      },
+      "domainResearch": "research/2026-10-24-snow-rider/domain-evidence.json",
+      "qa": {
+        "date": "2026-10-24",
+        "staticExportChecks": 70,
+        "browserShellChecks": null,
+        "gameRuntimeObserved": "Miniplay local title/menu observed; formal actual-domain run/restart unverified.",
+        "finalVisualVerification": "default IAB; physical mobile and fullscreen exit pending",
+        "record": "deployments/2026-10-24-snow-rider-miniplay.md",
+        "productionGameRuntime": "Miniplay deployed and HTTP200. Computer Use interrupted actual-domain gameplay acceptance before a full run/restart; noindex retained."
+      },
+      "createdAt": "2026-10-24",
+      "updatedAt": "2026-10-24",
+      "nextDecision": "Complete actual snowrider3d.top gameplay, controls, game over/restart, reload/ad recovery and fullscreen checks; then set PUBLISHER_DOMAIN_STATUS=verified, deploy and verify indexing metadata.",
+      "releaseState": "miniplay-deployed-noindex-testing",
+      "registeredDomain": "snowrider3d.top",
+      "domainOwnership": "owner-confirmed-purchased-2026-10-24",
+      "registrar": "Spaceship",
+      "dnsState": "verified",
+      "deployment": {
+        "platform": "Vercel",
+        "projectId": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+        "projectName": "gamehubs-snow-rider-3d",
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+        "rootDirectory": "games/snow-rider-3d-unblocked",
+        "target": "production",
+        "state": "READY",
+        "verifiedGameSourceCommit": "c6034dc0f5e6fafbee20e2a3514c29e98baa5b0a",
+        "latestVerifiedDeploymentId": "dpl_AJ7j1EWmkwdfAgegzcnexGQywtW3",
+        "productionOrigin": "https://snowrider3d.top",
+        "record": "DEPLOYMENT_STATUS.md",
+        "verifiedPublicAt": "2026-10-24T05:17:09.386Z"
+      },
+      "publisherOnboarding": {
+        "provider": "GameDistribution",
+        "accountState": "not-created-owner-confirmed",
+        "state": "superseded-direct-integration-deferred",
+        "confirmedAt": "2026-10-24",
+        "ownerDecision": "还没有账户，先保留部署并记录待办",
+        "todo": "games/snow-rider-3d-unblocked/.rankup/plan.md",
+        "appliesTo": "Previous direct GameDistribution player, not current Miniplay public embed"
+      },
+      "deploymentAudit": {
+        "checkedAt": "2026-10-24T05:17:09.386Z",
+        "githubPushed": true,
+        "githubCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+        "record": "DEPLOYMENT_STATUS.md",
+        "vercelDeployed": true,
+        "state": "READY",
+        "production": true,
+        "gameSourceMatchesGitHub": true,
+        "httpStatus": 200,
+        "publicURL": "https://snowrider3d.top/",
+        "observedCanonical": null,
+        "noindex": true
+      }
+    },
+    {
+      "siteId": "head-soccer-2026",
+      "unitType": "game",
+      "primaryKeyword": "head soccer 2026",
+      "path": "games/head-soccer-2026",
+      "repo": "https://github.com/seraseraqqq/gamehubs",
+      "createdAt": "2026-10-24",
+      "adsEnabled": false,
+      "searchConsoleState": "not-connected",
+      "gameSource": {
+        "type": "publisher-iframe",
+        "provider": "GamePix",
+        "iframeUrl": "https://play.gamepix.com/head-soccer-2026/embed?sid=1"
+      },
+      "domain": "https://playheadsoccer.com",
+      "url": "https://www.playheadsoccer.com/",
+      "canonical": "https://playheadsoccer.com/",
+      "registeredDomain": "playheadsoccer.com",
+      "status": "deployed",
+      "releaseState": "public-domain-verified",
+      "indexingState": "indexable-gsc-not-connected",
+      "domainOwnership": "owner-confirmed-purchased-2026-10-24",
+      "registrar": "Spaceship",
+      "dnsState": "verified",
+      "updatedAt": "2026-10-24",
+      "deployment": {
+        "platform": "Vercel",
+        "projectId": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+        "projectName": "gamehubs-head-soccer-2026",
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+        "rootDirectory": "games/head-soccer-2026",
+        "target": "production",
+        "state": "READY",
+        "verifiedGameSourceCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+        "latestVerifiedDeploymentId": "dpl_3b6gV7wMJdZF9Sgb8ni7b6gkLFzE",
+        "productionOrigin": "https://playheadsoccer.com",
+        "record": "DEPLOYMENT_STATUS.md",
+        "verifiedPublicAt": "2026-10-24T05:17:09.386Z"
+      },
+      "nextDecision": "Complete physical-device/full-round checks; publisher monetization onboarding and Search Console remain separate follow-up work.",
+      "deploymentAudit": {
+        "checkedAt": "2026-10-24T05:17:09.386Z",
+        "githubPushed": true,
+        "githubCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+        "record": "DEPLOYMENT_STATUS.md",
+        "vercelDeployed": true,
+        "state": "READY",
+        "production": true,
+        "gameSourceMatchesGitHub": true,
+        "httpStatus": 200,
+        "publicURL": "https://www.playheadsoccer.com/",
+        "observedCanonical": "https://playheadsoccer.com/",
+        "noindex": false,
+        "issues": [
+          "Apex redirects301 to www, but HTML canonical points to apex."
+        ]
+      }
+    },
+    {
+      "siteId": "acceleration-city",
+      "path": "games/acceleration-city",
+      "primaryKeyword": "acceleration city",
+      "unitType": "game",
+      "domain": "https://playaccelerationcity.com",
+      "url": null,
+      "registeredDomain": "playaccelerationcity.com",
+      "status": "publication-deferred-by-owner",
+      "indexingState": "noindex-embedding-permission-pending",
+      "domainOwnership": "owner-confirmed-purchased-2026-10-24",
+      "updatedAt": "2026-10-24",
+      "nextDecision": "Owner explicitly deferred publication until game embedding permission is obtained. Do not set GAME_EMBED_LICENSE_CONFIRMED=true.",
+      "deploymentAudit": {
+        "checkedAt": "2026-10-24T05:17:09.386Z",
+        "githubPushed": true,
+        "githubCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+        "record": "DEPLOYMENT_STATUS.md",
+        "vercelDeployed": false
+      },
+      "repo": "https://github.com/seraseraqqq/gamehubs-acceleration-city",
+      "canonicalSource": {
+        "repo": "https://github.com/seraseraqqq/gamehubs-acceleration-city",
+        "rootDirectory": ".",
+        "localPath": "E:/Projects/game-sites/acceleration-city",
+        "private": true,
+        "migrationCommit": "04ee594d9c9a8c1b41c6be1603269951e0d8ef22",
+        "splitHistoryCommit": "b9735e264ca0a9768d12b86509ad29c56e48eaa5",
+        "sourceCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+        "legacyPath": "games/acceleration-city",
+        "legacyState": "frozen-migration-snapshot",
+        "verifiedHead": "d554f04b044fabcd97c19b770b8bb4fe41793c6e"
+      }
+    },
+    {
+      "siteId": "cluster-rush",
+      "unitType": "game",
+      "primaryKeyword": "cluster rush",
+      "secondaryKeywords": [
+        "cluster rush online",
+        "cluster rush controls",
+        "cluster rush not loading"
+      ],
+      "path": "games/cluster-rush",
+      "domain": null,
+      "url": null,
+      "status": "github-pushed-awaiting-deployment",
+      "indexingState": "preview-noindex",
+      "gameSource": {
+        "type": "external-unity-iframe",
+        "iframeUrl": "https://clusterrush.io/game/cluster-rush/",
+        "commercialPermission": "unconfirmed"
+      },
+      "createdAt": "2026-10-24",
+      "updatedAt": "2026-10-24",
+      "research": "research/2026-10-24-cluster-rush/README.md",
+      "recommendedDomain": "playclusterrush.com",
+      "domainOwnership": "not-purchased",
+      "nextDecision": "Confirm embedding rights, choose and own a domain, then verify production loading, real devices and performance before publication.",
+      "deploymentAudit": {
+        "checkedAt": "2026-10-24T05:17:09.386Z",
+        "githubPushed": true,
+        "githubCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+        "record": "DEPLOYMENT_STATUS.md",
+        "vercelDeployed": false
+      },
+      "repo": "https://github.com/seraseraqqq/gamehubs-cluster-rush",
+      "canonicalSource": {
+        "repo": "https://github.com/seraseraqqq/gamehubs-cluster-rush",
+        "rootDirectory": ".",
+        "localPath": "E:/Projects/game-sites/cluster-rush",
+        "private": true,
+        "migrationCommit": "69e0068c166e28f3ecf21992ae3ce59c0c445e76",
+        "splitHistoryCommit": "f7205783b2a370fb70f14d9140446fedbcf3b9c1",
+        "sourceCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+        "legacyPath": "games/cluster-rush",
+        "legacyState": "frozen-migration-snapshot",
+        "verifiedHead": "1bcc09648737f68009a64fe0a11653183814a764"
+      }
+    }
+  ]
+}

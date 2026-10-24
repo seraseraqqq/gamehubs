@@ -1,0 +1,215 @@
+{
+  "collectedAt": "2026-10-24T10:10:11.285Z",
+  "url": "https://sem.3ue.com/analytics/keywordoverview/bulk/?q=poople&db=us&bulk=A4exwGwUwHwWwIbAC5PkgBK4MrTlAHbLQwDGAribAGYQIDmGDFUAzm1AE7kgQhcAJtCA",
+  "market": "US",
+  "rows": [
+    {
+      "cells": [
+        "Select keywords",
+        "Keyword",
+        "Intent",
+        "Volume",
+        "Trend",
+        "Pot. Traffic",
+        "PKD %",
+        "KD %",
+        "CPC (USD)",
+        "Com.",
+        "SERP Features",
+        "Results",
+        "Updated"
+      ],
+      "links": []
+    },
+    {
+      "cells": [
+        "colordle",
+        "colordle",
+        "Navigational\nN",
+        "74,000",
+        "",
+        "n/a",
+        "n/a",
+        "25",
+        "0.00",
+        "0.33",
+        "",
+        "n/a",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "colordle",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=colordle&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=colordle&db=us&serpId=b-h-97-0920-1961497017715381515"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "maptap",
+        "maptap",
+        "Navigational\nN",
+        "40,500",
+        "",
+        "n/a",
+        "n/a",
+        "31",
+        "0.00",
+        "0.33",
+        "",
+        "n/a",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "maptap",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=maptap&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=maptap&db=us&serpId=b-f-97-0923-1042460218965043884"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "poople",
+        "poople",
+        "Informational\nI",
+        "33,100",
+        "",
+        "n/a",
+        "n/a",
+        "26",
+        "1.72",
+        "0.33",
+        "",
+        "803",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "poople",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=poople&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=poople&db=us&serpId=b-i-97-0924-1825814635853499759"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "map tap",
+        "map tap",
+        "Navigational\nN",
+        "27,100",
+        "",
+        "n/a",
+        "n/a",
+        "36",
+        "0.00",
+        "0.33",
+        "",
+        "n/a",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "map tap",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=map+tap&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=map+tap&db=us&serpId=b-g-97-0924-7819100177214554367"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "cutle",
+        "cutle",
+        "Commercial\nC",
+        "12,100",
+        "",
+        "n/a",
+        "n/a",
+        "8",
+        "0.00",
+        "0.33",
+        "",
+        "89",
+        "4 weeks"
+      ],
+      "links": [
+        {
+          "text": "cutle",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=cutle&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=cutle&db=us&serpId=b-i-97-0924-9031944235906338745"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "flag guesser",
+        "flag guesser",
+        "Informational\nI",
+        "9,900",
+        "",
+        "n/a",
+        "n/a",
+        "41",
+        "0.00",
+        "0.33",
+        "+2",
+        "118",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "flag guesser",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=flag+guesser&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=flag+guesser&db=us&serpId=b-g-97-0922-16369895293045561846"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "elementle",
+        "elementle",
+        "Informational\nI",
+        "210",
+        "",
+        "n/a",
+        "n/a",
+        "5",
+        "0.43",
+        "0.03",
+        "",
+        "105",
+        "1 month"
+      ],
+      "links": [
+        {
+          "text": "elementle",
+          "url": "https://sem.3ue.com/analytics/keywordoverview?q=elementle&db=us&date=202610&device=0"
+        },
+        {
+          "text": "",
+          "url": "https://sem.3ue.com/analytics/serp/?phrase=elementle&db=us&serpId=b-h-97-0817-16096514179656968289"
+        }
+      ]
+    }
+  ],
+  "text": "Skip to content\npoople\nAnalyze\nPricing\nEnterprise\nMore\nT\nHome\nSEO\nAI\nTraffic & Market\nLocal\nContent\nAd\nAI PR\nSocial\nReports\nApps\nSEO\nSite Performance\nCompetitive Analysis\nKeyword Research\nContent Ideas\nLink Building\nExtras\nOther\nHome\nSEO\nKeyword Overview\nKeyword Research course\nUser manual\nSend feedback\nKeyword Overview:\npoople\nUnited States\nUSD\nOverview\nBulk Analysis\nKeywords\n7/100\nClear all\n1.\npoople\n2.\nmaptap\n3.\nmap tap\n4.\nelementle\n5.\ncutle\n6.\nflag guesser\n7.\ncolordle\n8.\n﻿\n\nExamples:\nloans, movies, how to buy audible books\nAnalyze\nBulk Keyword Analysis\n7\nSend keywords\nUpdate metrics\n1,000/1,000\nManage columns\n9/10\nExport\nSelect keywords\nKeyword\nIntent\nVolume\nTrend\nKD %\nCPC (USD)\nCom.\nSERP Features\nUpdated\nSelected:\n0\nDeselect all\nCopy\ncolordle\ncolordle\nNavigational\nN\n74,000\n25\n0.00\n0.33\n1 month\nmaptap\nmaptap\nNavigational\nN\n40,500\n31\n0.00\n0.33\n4 weeks\npoople\npoople\nInformational\nI\n33,100\n26\n1.72\n0.33\n4 weeks\nmap tap\nmap tap\nNavigational\nN\n27,100\n36\n0.00\n0.33\n4 weeks\ncutle\ncutle\nCommercial\nC\n12,100\n8\n0.00\n0.33\n4 weeks\nflag guesser\nflag guesser\nInformational\nI\n9,900\n41\n0.00\n0.33\n+2\n1 month\nelementle\nelementle\nInformational\nI\n210\n5\n0.43\n0.03\n1 month"
+}

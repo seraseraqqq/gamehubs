@@ -1,0 +1,86 @@
+[
+  {
+    "id": "spacebar-counter",
+    "url": "https://www.spacebarcounter.xyz/",
+    "status": 200,
+    "title": "Spacebar Counter — A Simple Spacebar Speed Test",
+    "description": "Count individual spacebar presses in 5, 10, 30 or 60 seconds. Filter held-key repeats, compare your local results, or try a separate tap test.",
+    "canonical": "https://www.spacebarcounter.xyz/",
+    "robots": "index, follow, max-image-preview:large",
+    "image": "https://www.spacebarcounter.xyz/assets/social-card.png",
+    "imageStatus": 200,
+    "metadataMatchesVerifiedBuild": true
+  },
+  {
+    "id": "minute-cryptic-unlimited",
+    "url": "https://gamehubs-minute-cryptic-unlimited.vercel.app/",
+    "status": 200,
+    "title": "Minute Cryptic Unlimited – Free Cryptic Practice",
+    "description": "Play Minute Cryptic Unlimited free: 20 cryptic clues, three hints and explained answers. Practice five clue types with unlimited replay and no signup.",
+    "canonical": "",
+    "robots": "noindex, nofollow",
+    "image": "https://gamehubs-minute-cryptic-unlimited.vercel.app/assets/social-card.png",
+    "imageStatus": 200,
+    "metadataMatchesVerifiedBuild": true
+  },
+  {
+    "id": "coreball",
+    "url": "https://gamehubs-coreball.vercel.app/",
+    "status": 200,
+    "title": "Coreball – Play Free Online | 30 Levels",
+    "description": "Play Coreball free online: place pins on a spinning fur ball across 30 levels. Tap or press Space to launch, retry anytime, or learn in slower Practice.",
+    "canonical": "",
+    "robots": "noindex, nofollow",
+    "image": "https://gamehubs-coreball.vercel.app/assets/social-card.png",
+    "imageStatus": 200,
+    "metadataMatchesVerifiedBuild": true
+  },
+  {
+    "id": "krillion-unlimited",
+    "url": "https://krilliononline.com/",
+    "status": 200,
+    "title": "STARLING — Free Space Word Game & Rare Answer Challenge",
+    "description": "Play STARLING, a free space word game with seven timed prompts. Try uncommon answers, chase your best score and explore an animated pixel universe.",
+    "canonical": "https://krilliononline.com/",
+    "robots": "index,follow,max-image-preview:large",
+    "image": "https://krilliononline.com/assets/starling-social.png",
+    "imageStatus": 200,
+    "metadataMatchesVerifiedBuild": true
+  },
+  {
+    "id": "costcodle",
+    "url": "https://costcodle.cc/",
+    "status": 200,
+    "title": "Costcodle Unlimited — Daily Price Guessing Game",
+    "description": "Play Costcodle Unlimited: guess a reference price in six tries. Try the daily puzzle or unlimited mode, with higher/lower hints and a 5% winning window.",
+    "canonical": "https://costcodle.cc/",
+    "robots": "index, follow, max-image-preview:large",
+    "image": "https://costcodle.cc/assets/social-card.png",
+    "imageStatus": 200,
+    "metadataMatchesVerifiedBuild": true
+  },
+  {
+    "id": "2048-cupcakes",
+    "url": "https://www.2048cupcakes.xyz/",
+    "status": 200,
+    "title": "2048 Cupcakes — A Cozy Cupcake Merge Game | Crumb",
+    "description": "Play 2048 Cupcakes free. Slide and merge matching cupcakes toward 2048, undo up to 10 moves, and save your batch. Use arrow keys, WASD or swipe controls.",
+    "canonical": "https://www.2048cupcakes.xyz/",
+    "robots": "index, follow, max-image-preview:large",
+    "image": "https://www.2048cupcakes.xyz/assets/og-cover.png",
+    "imageStatus": 200,
+    "metadataMatchesVerifiedBuild": true
+  },
+  {
+    "id": "gulper-io",
+    "url": "https://gulperio.com/",
+    "status": 200,
+    "title": "Gulper.io Snake Game — Play Online Free",
+    "description": "Play Gulper.io in your browser. Collect glowing orbs, outmaneuver computer rivals and boost your way to a new high score. Free to play, no download.",
+    "canonical": "https://gulperio.com/",
+    "robots": "index, follow, max-image-preview:large",
+    "image": "https://gulperio.com/assets/social-card.png",
+    "imageStatus": 200,
+    "metadataMatchesVerifiedBuild": true
+  }
+]

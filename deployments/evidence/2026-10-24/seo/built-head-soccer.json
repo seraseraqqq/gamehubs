@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-10-24T09:11:55.448Z",
+  "mode": "public (release holds preserved)",
+  "sites": 1,
+  "pages": 5,
+  "failures": [],
+  "results": [
+    {
+      "site": "head-soccer-2026",
+      "page": "404.html",
+      "title": "Page Not Found — Head Soccer 2026",
+      "description": "This page could not be found. Return to Head Soccer 2026 or read the game controls.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "head-soccer-2026",
+      "page": "about.html",
+      "title": "About Head Soccer 2026 — Game Source & Site Information",
+      "description": "Learn about this independent Head Soccer 2026 game page, the official GamePix embed, and the difference between website features and game features.",
+      "canonical": [
+        "https://www.playheadsoccer.com/about.html"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "issues": []
+    },
+    {
+      "site": "head-soccer-2026",
+      "page": "how-to-play.html",
+      "title": "How to Play Head Soccer 2026 — Controls & 2 Player Guide",
+      "description": "Learn Head Soccer 2026 controls for solo and two-player matches, plus mobile play, shooting tactics and solutions for a game that will not load.",
+      "canonical": [
+        "https://www.playheadsoccer.com/how-to-play.html"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "issues": []
+    },
+    {
+      "site": "head-soccer-2026",
+      "page": "index.html",
+      "title": "Head Soccer 2026 — Play Free Online, Solo & 2 Player",
+      "description": "Play Head Soccer 2026 in your browser. Pick a national team, challenge the CPU or a friend, and find clear keyboard controls, mobile tips and fullscreen play.",
+      "canonical": [
+        "https://www.playheadsoccer.com/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "issues": []
+    },
+    {
+      "site": "head-soccer-2026",
+      "page": "privacy.html",
+      "title": "Privacy & Game Provider — Head Soccer 2026",
+      "description": "See when this site connects to GamePix, how the embedded game handles provider privacy choices, and what happens to gameplay data.",
+      "canonical": [
+        "https://www.playheadsoccer.com/privacy.html"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "issues": []
+    }
+  ]
+}

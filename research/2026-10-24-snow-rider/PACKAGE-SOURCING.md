@@ -1,5 +1,7 @@
 # Existing game package / publisher player replacement
 
+> 2026-10-24整理注：本报告保留当时结果；相关一次性测试/旧同步脚本已移出管理仓库，不再按文内旧命令复跑。当前质量复查使用仓库根执行 `node management/tools/check-portfolio-seo.mjs --public`，游戏专属测试见各游戏README。
+
 Started 2026-10-24. The owner explicitly superseded the original-game choice: prioritize a reusable existing Snow Rider 3D package; use a publisher iframe if no suitable package can be established. This authorizes the local replacement, not a domain purchase, account signup, outreach or production deployment.
 
 Research outcome: a complete Unity WebGL export was located, but no self-hosting license was established. The local site was replaced with the public GameDistribution player, preserving its SDK, branding and advertisements. No domain purchase, account signup, production deployment, referrer spoofing or access-control bypass was performed.

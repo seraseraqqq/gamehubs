@@ -84,7 +84,7 @@
 
 - 源码与导出配置检查通过，最新数量及列表以 [verification.json](../../games/acceleration-city/scripts/verification.json) 为准。测试使用保留的 `.invalid` 域验证生产配置，从未部署。
 - [本地HTTP核验](raw/local-http-checks.json)：9个真实页面/资源返回200，缺失路径返回404，预览响应全部带noindex。
-- 真实Chrome：竞品游戏菜单/驾驶/Blocks、本地原版加载/Continue/驾驶、专注视图进入和退出均观察成功。[截图目录](screenshots/)
+- 真实Chrome：竞品游戏菜单/驾驶/Blocks、本地原版加载/Continue/驾驶、专注视图进入和退出均观察成功。[截图目录](screenshots)
 - Fullscreen API被当前浏览器自动化环境拒绝，回退专注视图成功；**原生全屏未获实测通过**。
 - 旧版重载 `window.confirm` 令控制通道超时，随后 CUA 因无法可靠识别 Windows 页面URL停止本轮。已改成页内确认，但新确认流程、移动端截图、最后的小幅高度修订**尚未重新浏览器验收**。不以静态检查替代这些结果。
 - 独立设计复核的结论为 **recapture**，停在证据完整性检查，未给出视觉通过结论。[复核记录与最小补拍矩阵](finish-review.md)。机械扫描的一条 skip-link hover 对比度问题已在源码修正；逻辑间距提示仍需真实渲染复核，没有把扫描输出当作全量无障碍验收。

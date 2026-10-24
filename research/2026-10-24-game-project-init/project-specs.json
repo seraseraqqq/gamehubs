@@ -1,0 +1,62 @@
+{
+  "cutle": {
+    "direction": "几何练习台：形状、切线和面积反馈是视觉中心，外围像一张简洁的制图工作纸。",
+    "palette": {"page":"#F6F3EA","surface":"#FFFFFF","ink":"#203028","muted":"#56665D","accent":"#24594E","line":"#C8D1C8"},
+    "signature": "提交切线后，两半沿法线小幅分开，同时显示精确比例和误差；降低动态效果时改为静态双侧填充。",
+    "layout": "居中SVG切割台；上方仅游戏名、练习/每日模式与题目难度，下方紧贴比例、重玩/下一题。训练记录在游戏之后，说明文字最后。",
+    "specificRules": ["MVP只承诺凸多边形；不画带孔/不连通示例冒充支持","拖动时切线可见且不会滚动页面，结束拖动才提交；无效切割不耗费首刀","结果使用精确面积比例，显示精度与是否获胜分开；胜负按内部数值判定","绘图区保留清晰边界，不用纸纹覆盖形状或噪点干扰面积判断"],
+    "references": [
+      {"url":"https://pfiffel.com/cutle/","role":"玩法原型","observed":"2026-10-24规则页读取","learn":"单刀规则、50:50目标、48:52胜利阈值、UTC每日更新","avoid":"不复制原站形状、题目编号、代码和视觉资产；Daily Archive已存在"},
+      {"url":"https://cutle.org/","role":"当前Google前列可玩竞品","observed":"2026-10-24 Google及页面读取","learn":"无限、归档、自定义形状和生成工具已存在；无限模式页面称不保存记录","avoid":"无限本身不是空位；不照搬其采样算法、文案或SVG；练习记录和难度仅是假设"},
+      {"url":"https://playlin.io/game/cutle/","role":"目录/意图参考","observed":"2026-10-24 Google结果，未完整游玩","learn":"游戏名、玩法简介、相关游戏入口的意图呈现","avoid":"目录曝光不代表其内容授权可继承，不把摘要当UI验收"}
+    ]
+  },
+  "poople": {
+    "direction": "字梯练习本：一条持续可读的词链，像有批注的文字谜题工作纸，突出每步改变。",
+    "palette": {"page":"#FBF7EF","surface":"#FFFFFF","ink":"#25242A","muted":"#625A66","accent":"#6B3C7D","line":"#D8D0DA"},
+    "signature": "合法提交后高亮唯一发生改变的字母并将词链接到下一行；终局可逐步展开本站词库的一条最短路径。",
+    "layout": "起点与目标POOP常驻；中部是可滚动但不会遮挡输入的词链，下方一行四字母输入、提交和分层提示。移动键盘弹起时当前词与错误反馈保持可见。",
+    "specificRules": ["四格字母等宽，不以大写样式改变输入语义；粘贴完整词可用","非法词/多字母变化只给内联原因，不丢失已完成词链","提示先指出可改位置，再由用户主动展开下一词；不自动剧透","本地练习历史允许清除，明确只保存在当前浏览器；不宣称云同步或防作弊"],
+    "references": [
+      {"url":"https://poople.io/","role":"原站规则","observed":"2026-10-24 Chrome帮助及Google","learn":"四字母词、一步只变一字母、以POOP为终点、最短路目标","avoid":"不复制原站每日起点/词库或宣称本站提示适用于官方每日答案"},
+      {"url":"https://pooplegame.com/unlimited","role":"无限练习竞品","observed":"2026-10-24页面读取","learn":"Unlimited、par和Solver入口均已存在，页面称无限练习不保存","avoid":"不能把unlimited/solver当独家卖点；本地记录/分难度/分层提示需对照试玩"},
+      {"url":"https://playdaily.org/poople","role":"搜索竞争参考","observed":"2026-10-24 Google结果，未完整游玩","learn":"已有Unlimited搜索入口","avoid":"不根据SERP摘要认定所有功能或分发许可"}
+    ]
+  },
+  "colordle": {
+    "direction": "中性配色实验台：真实目标色与猜测色承担全部颜色表达，外围保持中性，不让装饰色影响判断。",
+    "palette": {"page":"#F5F5F5","surface":"#FFFFFF","ink":"#202124","muted":"#5F6368","accent":"#30343B","line":"#CED1D5"},
+    "signature": "每次猜测追加颜色名、色样和文字百分比；终局对齐目标色和最佳猜测并解释本站分数含义。",
+    "layout": "小标题与模式选择之后直接进入色样/猜测台，名称搜索与提交紧邻；历史按行排列，禁止将任意颜色用作文字背景导致不可读。",
+    "specificRules": ["只承接颜色名+接近百分比这一玩法，不混用六字符hex Wordle或Colorfle混色规则","任意色样的文字放在独立中性标签区；百分比和状态不单靠颜色表达","颜色名搜索必须键盘可选，处理别名、重复RGB和无结果状态","明确本站RGB距离评分与独立每日题；不宣称Ryan原版算法兼容"],
+    "references": [
+      {"url":"https://colordle.ryantanen.com/","role":"目标玩法原站","observed":"2026-10-24 Chrome帮助及Google","learn":"颜色名猜测、百分比接近反馈、meodai/color-names数据出处","avoid":"不复制原站评分算法或每日答案；颜色数据MIT不自动许可游戏名/代码"},
+      {"url":"https://colordle.com/","role":"同名异玩法反例","observed":"2026-10-24 Google结果摘要","learn":"六字符十六进制玩法与本站目标不同","avoid":"不将其功能、主词流量或公开源码混作目标原版"},
+      {"url":"https://colorfle.com/","role":"近名异玩法反例","observed":"2026-10-24 Google结果摘要","learn":"混色题型会混入Colordle SERP","avoid":"不以Colorfle变体铺同一个颜色名页面"}
+    ]
+  },
+  "metazooa": {
+    "direction": "自然分类手册：以树枝关系、动物名称和解释为核心，像清楚的野外分类笔记，避免依赖大幅动物照片。",
+    "palette": {"page":"#F4F1E6","surface":"#FFFFFF","ink":"#263A2C","muted":"#556354","accent":"#315D3D","line":"#CBD2C4"},
+    "signature": "每次猜测展开共同祖先到候选动物的分类路径，让玩家看懂为什么缩小了范围；不暴露答案的隐藏分支。",
+    "layout": "动物搜索+剩余次数固定在游戏区上方；桌面左侧猜测、右侧分类路径，移动端上下堆叠；树过宽时使用分层折叠而不是横向挤压小字。",
+    "specificRules": ["没有完成分类数据审查不进入正式引擎开发","MVP文字与树即可，不把未经授权照片当占位资产","别名输入需有确定taxon映射，同名/多义输入明确让玩家选择","20次上限与提示树必须一致；本站分类与原站不同就写明数据版本"],
+    "references": [
+      {"url":"https://metazooa.com/","role":"原版游戏","observed":"2026-10-24公开页/原研究","learn":"动物分类关系猜测与20次机会","avoid":"不抓取原站题库/私有物种列表，不伪造官方同步每日题"},
+      {"url":"https://metazooa.com/faq","role":"规则与数据来源","observed":"2026-10-24官方FAQ读取","learn":"原站使用NCBI分类；某些常见分类词与数据树可能不同","avoid":"不默认Wikipedia树与NCBI一致；不把翻译仓库当完整游戏源码"},
+      {"url":"https://playlin.io/game/metazooa/","role":"搜索目录参考","observed":"2026-10-24镜像SERP，未新增Google或实际游玩","learn":"游戏意图的目录入口存在","avoid":"镜像位置不是已复核实时Google排名，目录授权不能继承"}
+    ]
+  },
+  "travle": {
+    "direction": "国家路线工作图：地图与路径占主要空间，像清爽的路线规划图，国名输入始终比装饰更显著。",
+    "palette": {"page":"#F2F4F1","surface":"#FFFFFF","ink":"#243342","muted":"#536574","accent":"#25566F","line":"#C8D3D8","water":"#DCEAF0"},
+    "signature": "每个合法国家加入路线后在SVG地图上连成路径；终局并列显示玩家路径和一条有效最短路线。",
+    "layout": "起终点与目标步数在地图上方；国名搜索紧邻地图下缘，已走路径为可读列表。移动端先保证搜索和状态，不强迫精准点击小国。",
+    "specificRules": ["国名输入与键盘选择是完整替代操作，不依赖鼠标点地图","选中/起点/终点同时用形状标记和文字，不能仅用红绿区分","岛屿、海峡、飞地的本站连接规则可查，异常路线先解释数据规则","地图只用已记录来源的简化快照；保留地图署名和争议边界说明策略待核验"],
+    "references": [
+      {"url":"https://travle.earth/","role":"原版游戏入口","observed":"2026-10-24公开页与原研究，未新增实际Google交叉核验","learn":"给定国家之间按相邻国家寻找路径的核心意图","avoid":"不复制原版每日起终点或特殊连接表，先实玩确认操作细节"},
+      {"url":"https://imois.in/games/travle/","role":"旧版与规则参考","observed":"2026-10-24公开入口读取，未取得完整开源许可","learn":"玩法演进与规则说明参考入口","avoid":"页面可访问不代表代码或题库可商用复用"},
+      {"url":"https://playlin.io/game/travle/","role":"搜索目录参考","observed":"2026-10-24镜像SERP，未完整游玩","learn":"游戏与旅游拼写歧义需区分","avoid":"不为travel旅游词铺页，也不把目录当可用游戏供应商"}
+    ]
+  }
+}

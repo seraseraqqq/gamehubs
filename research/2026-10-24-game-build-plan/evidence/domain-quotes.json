@@ -1,0 +1,49 @@
+{
+  "queriedAt": "2026-10-24T11:51:42.155Z",
+  "provider": "Vercel public domain search",
+  "purpose": "read-only registration and renewal quotes; no purchase",
+  "request": {
+    "domains": [
+      "cutleunlimited.com",
+      "playcutle.com",
+      "cutlepractice.com",
+      "colordleunlimited.com",
+      "playcolordle.com",
+      "colordlepractice.com",
+      "pooplepractice.com",
+      "pooplegameplay.com",
+      "playpoople.net",
+      "poopleunlimited.net",
+      "playpoople.com",
+      "poopleunlimited.com",
+      "metazooapractice.com",
+      "playmetazooa.com",
+      "metazooaunlimited.com",
+      "travleunlimited.com",
+      "playtravle.com",
+      "travlepractice.com",
+      "maptappractice.com",
+      "playmaptap.com",
+      "maptapunlimited.com",
+      "playtrafficroad.com",
+      "trafficroadunblocked.com",
+      "playxtrenchrun.com",
+      "xtrenchrununblocked.com",
+      "spotlepractice.com",
+      "playspotle.com",
+      "songlesspractice.com",
+      "playsongless.com",
+      "playscrandle.com"
+    ]
+  },
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"result\": {\n    \"results\": [\n      {\n        \"domain\": \"cutleunlimited.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"playcutle.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"cutlepractice.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"colordleunlimited.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"playcolordle.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"colordlepractice.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"pooplepractice.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"pooplegameplay.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"playpoople.net\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 13.5,\n        \"renewalPrice\": 13.5,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"poopleunlimited.net\",\n        \"available\": false\n      },\n      {\n        \"domain\": \"playpoople.com\",\n        \"available\": false\n      },\n      {\n        \"domain\": \"poopleunlimited.com\",\n        \"available\": false\n      },\n      {\n        \"domain\": \"metazooapractice.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"playmetazooa.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"metazooaunlimited.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"travleunlimited.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"playtravle.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"travlepractice.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"maptappractice.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"playmaptap.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"maptapunlimited.com\",\n        \"available\": false\n      },\n      {\n        \"domain\": \"playtrafficroad.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"trafficroadunblocked.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"playxtrenchrun.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"xtrenchrununblocked.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"spotlepractice.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"playspotle.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"songlesspractice.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      },\n      {\n        \"domain\": \"playsongless.com\",\n        \"available\": false\n      },\n      {\n        \"domain\": \"playscrandle.com\",\n        \"available\": true,\n        \"years\": 1,\n        \"price\": 11.25,\n        \"renewalPrice\": 11.25,\n        \"premium\": false\n      }\n    ]\n  }\n}"
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  }
+}

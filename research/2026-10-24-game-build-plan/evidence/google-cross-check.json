@@ -1,0 +1,124 @@
+{
+  "observedAt": "2026-10-24T11:59:30.995Z",
+  "method": "Chrome Google results; gl=us, hl=en, pws=0 requested; geographic parameter is not a clean US residential IP guarantee",
+  "queries": [
+    {
+      "keyword": "cutle",
+      "requestedUrl": "https://www.google.com/search?q=cutle&gl=us&hl=en&pws=0",
+      "results": [
+        {
+          "title": "Cutle - Cut the Shape as Close to 50:50 as You Can",
+          "url": "https://cutle.org/"
+        },
+        {
+          "title": "Cutle",
+          "url": "https://pfiffel.com/cutle/"
+        },
+        {
+          "title": "Cutle: Play the Daily Visual Game",
+          "url": "https://playlin.io/game/cutle/"
+        },
+        {
+          "title": "Cutle: Daily Estimation Game",
+          "url": "https://daily-games.app/games/cutle"
+        },
+        {
+          "title": "Cutle",
+          "url": "https://wordleverse.net/games/cutle"
+        },
+        {
+          "title": "Cutle — play the daily guessing game free",
+          "url": "https://www.alldle.net/game/cutle"
+        },
+        {
+          "title": "Cutle (2025)",
+          "url": "https://backloggd.com/games/cutle/"
+        },
+        {
+          "title": "Cutle, Mini games",
+          "url": "https://www.bored.com/link/pfiffel-com-cutle/"
+        },
+        {
+          "title": "Daily Shapes - cut the shape perfectly in half : r/playmygame",
+          "url": "https://www.reddit.com/r/playmygame/comments/1mc48ec/daily_shapes_cut_the_shape_perfectly_in_half/"
+        }
+      ]
+    },
+    {
+      "keyword": "poople",
+      "requestedUrl": "https://www.google.com/search?q=poople&gl=us&hl=en&pws=0",
+      "results": [
+        {
+          "title": "Poople - The Official Daily Word Game",
+          "url": "https://poople.io/"
+        },
+        {
+          "title": "Poople: Free Daily Word Ladder Game Online",
+          "url": "https://pooplegame.com/"
+        },
+        {
+          "title": "Poople - Apps on Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.pooplenative&hl=en_US"
+        },
+        {
+          "title": "Poople - Daily Word Game - App Store - Apple",
+          "url": "https://apps.apple.com/gb/app/poople-daily-word-game/id6752505565"
+        },
+        {
+          "title": "Poople: Play the Daily Word Game",
+          "url": "https://playlin.io/game/poople/"
+        },
+        {
+          "title": "Poople | Wildcard October 18, 2026",
+          "url": "https://www.youtube.com/watch?v=JlW7Zu6-C8s"
+        },
+        {
+          "title": "Poople - Play Free Online",
+          "url": "https://brainplay.com/p/poople"
+        },
+        {
+          "title": "Turn Any Word into POOP - Poople Unlimited - Daily Games",
+          "url": "https://playdaily.org/poople"
+        }
+      ]
+    },
+    {
+      "keyword": "colordle",
+      "requestedUrl": "https://www.google.com/search?q=colordle&gl=us&hl=en&pws=0",
+      "results": [
+        {
+          "title": "Colordle",
+          "url": "https://colordle.ryantanen.com/"
+        },
+        {
+          "title": "Colordle - The daily color game",
+          "url": "https://colordle.com/"
+        },
+        {
+          "title": "Colordle is a scam : r/wordleverse",
+          "url": "https://www.reddit.com/r/wordleverse/comments/1qqzibl/colordle_is_a_scam/"
+        },
+        {
+          "title": "Colorfle",
+          "url": "https://colorfle.com/"
+        },
+        {
+          "title": "Colordles",
+          "url": "https://www.instagram.com/popular/colordles/?hl=en"
+        },
+        {
+          "title": "Colordle - File Exchange - MATLAB Central",
+          "url": "https://www.mathworks.com/matlabcentral/fileexchange/180680-colordle?s_tid=answers_rc2-1_p4_Topic"
+        },
+        {
+          "title": "Hank Green on X: \"Wordle Clone Idea. “Colordle” you have ...",
+          "url": "https://x.com/hankgreen/status/1505261723716145156?lang=en"
+        },
+        {
+          "title": "Colordle - Phrazle",
+          "url": "https://phrazle.co/colordle"
+        }
+      ]
+    }
+  ]
+}

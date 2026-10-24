@@ -1,0 +1,371 @@
+{
+  "observedAt": "2026-10-24T11:40:02.761Z",
+  "note": "Frame headers indicate technical behavior only, never distribution permission.",
+  "results": [
+    {
+      "name": "cutle",
+      "url": "https://pfiffel.com/cutle/",
+      "status": "unknown",
+      "error": "fetch failed"
+    },
+    {
+      "name": "poople",
+      "url": "https://poople.io/",
+      "finalUrl": "https://poople.io/",
+      "status": 200,
+      "observedAt": "2026-10-24T11:39:48.793Z",
+      "title": "Poople - The Official Daily Word Game",
+      "bytes": 15000,
+      "frameHeaders": {
+        "xFrameOptions": null,
+        "contentSecurityPolicy": null
+      },
+      "relevantLinks": [],
+      "iframeSources": [],
+      "scriptSources": [
+        "https://www.googletagmanager.com/gtag/js?id=G-SBM3PJ5HJN",
+        "/assets/index-CbbZj1rp.js"
+      ],
+      "briefVisibleExcerpt": "--> Poople - The Official Daily Word Game",
+      "contains5999": false,
+      "containsEmbed": false
+    },
+    {
+      "name": "colordle",
+      "url": "https://colordle.ryantanen.com/",
+      "finalUrl": "https://colordle.ryantanen.com/",
+      "status": 200,
+      "observedAt": "2026-10-24T11:39:48.867Z",
+      "title": "Colordle",
+      "bytes": 1603,
+      "frameHeaders": {
+        "xFrameOptions": null,
+        "contentSecurityPolicy": null
+      },
+      "relevantLinks": [],
+      "iframeSources": [],
+      "scriptSources": [
+        "https://ss.mndsrv.com/banner.js",
+        "/static/js/main.984e0cc7.js",
+        "https://static.cloudflareinsights.com/beacon.min.js",
+        "//cdn.intergient.com/1025716/77014/ramp.js"
+      ],
+      "briefVisibleExcerpt": "Colordle You need to enable JavaScript to run this app.",
+      "contains5999": false,
+      "containsEmbed": false
+    },
+    {
+      "name": "metazooa",
+      "url": "https://metazooa.com/",
+      "finalUrl": "https://metazooa.com/",
+      "status": 200,
+      "observedAt": "2026-10-24T11:40:00.158Z",
+      "title": "Metazooa",
+      "bytes": 22234,
+      "frameHeaders": {
+        "xFrameOptions": null,
+        "contentSecurityPolicy": null
+      },
+      "relevantLinks": [
+        "https://metazooa.com/faq"
+      ],
+      "iframeSources": [],
+      "scriptSources": [
+        "https://s.nitropay.com/ads-1664.js",
+        "https://s.nitropay.com/sponsor.js",
+        "/_build/assets/entry-client-DBflukn6.js"
+      ],
+      "briefVisibleExcerpt": "Metazooa Metazooa person The animal kingdom ( Metazoa , in",
+      "contains5999": false,
+      "containsEmbed": false
+    },
+    {
+      "name": "spotle",
+      "url": "https://spotle.io/",
+      "finalUrl": "https://spotle.io/",
+      "status": 200,
+      "observedAt": "2026-10-24T11:40:00.781Z",
+      "title": "Spotle: Music Wordle Game",
+      "bytes": 39117,
+      "frameHeaders": {
+        "xFrameOptions": null,
+        "contentSecurityPolicy": null
+      },
+      "relevantLinks": [],
+      "iframeSources": [],
+      "scriptSources": [
+        "https://www.googletagmanager.com/gtag/js?id=G-HNK31HM2H9"
+      ],
+      "briefVisibleExcerpt": "Spotle: Music Wordle Game S P 4 4 T L",
+      "contains5999": false,
+      "containsEmbed": false
+    },
+    {
+      "name": "songless",
+      "url": "https://lessgames.com/songless",
+      "finalUrl": "https://lessgames.com/songless",
+      "status": 200,
+      "observedAt": "2026-10-24T11:39:59.973Z",
+      "title": "Songless",
+      "bytes": 93223,
+      "frameHeaders": {
+        "xFrameOptions": "SAMEORIGIN",
+        "contentSecurityPolicy": null
+      },
+      "relevantLinks": [],
+      "iframeSources": [],
+      "scriptSources": [
+        "/_next/static/chunks/39gzddkik6ria.js",
+        "/_next/static/chunks/1ns-pj0f41m2c.js",
+        "/_next/static/chunks/0yi97a884d8z-.js",
+        "/_next/static/chunks/turbopack-17j9qkpsiltcy.js",
+        "/_next/static/chunks/368yzg3xkacbw.js",
+        "/_next/static/chunks/0jsnyx2z2na1n.js",
+        "/_next/static/chunks/0lghbc95p3wwv.js",
+        "/_next/static/chunks/279rnifkkrcvi.js",
+        "/_next/static/chunks/1rm-o6r-ek1gn.js",
+        "/_next/static/chunks/1h7uqzy98ptmo.js",
+        "/_next/static/chunks/2cdr2oe_ucbpl.js",
+        "/_next/static/chunks/0_sg53z624uj8.js",
+        "/_next/static/chunks/3l492krpifjg9.js",
+        "/_next/static/chunks/0o91r6qtbj-o9.js",
+        "/_next/static/chunks/0nsk0vy_488ht.js",
+        "/_next/static/chunks/2wri3ziegu503.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/2_djwl3e_-3ia.js"
+      ],
+      "briefVisibleExcerpt": "Songless",
+      "contains5999": false,
+      "containsEmbed": false
+    },
+    {
+      "name": "scrandle",
+      "url": "https://scrandle.com/",
+      "finalUrl": "https://scrandle.com/",
+      "status": 200,
+      "observedAt": "2026-10-24T11:40:01.794Z",
+      "title": "Scrandle",
+      "bytes": 2354,
+      "frameHeaders": {
+        "xFrameOptions": "DENY",
+        "contentSecurityPolicy": "frame-ancestors 'none';"
+      },
+      "relevantLinks": [],
+      "iframeSources": [],
+      "scriptSources": [
+        "https://www.googletagmanager.com/gtag/js?id=G-H5243904EG",
+        "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit",
+        "/assets/index-CGKawlk9.js"
+      ],
+      "briefVisibleExcerpt": "Scrandle",
+      "contains5999": false,
+      "containsEmbed": false
+    },
+    {
+      "name": "traffic-road",
+      "url": "https://azgames.io/traffic-road",
+      "finalUrl": "https://azgames.io/traffic-road",
+      "status": 200,
+      "observedAt": "2026-10-24T11:40:01.121Z",
+      "title": "Traffic Road - Play Traffic Road On A-Z Games",
+      "bytes": 99113,
+      "frameHeaders": {
+        "xFrameOptions": null,
+        "contentSecurityPolicy": null
+      },
+      "relevantLinks": [
+        "https://azgames.io/about-us",
+        "https://azgames.io/copyright-infringement-notice-procedure",
+        "https://azgames.io/privacy-policy"
+      ],
+      "iframeSources": [
+        "https://azgames.io/traffic-road.embed"
+      ],
+      "scriptSources": [
+        "https://events.azgames.io/js/gm-collect.js",
+        "https://www.googletagmanager.com/gtag/js?id=G-8N9M1TLCJV",
+        "/themes/azgames.io_v2/rs/js/gm-storage.js",
+        "/themes/azgames.io_v2/rs/js/ga-embed-engagement-tracker.js",
+        "/themes/azgames.io_v2/rs/js/az-profile.min.js",
+        "/themes/azgames.io_v2/rs/js/rec-tracking.js",
+        "/themes/azgames.io_v2/rs/js/jquery-3.4.1.min.js",
+        "/themes/azgames.io_v2/rs/js/jquery.validate.min.js",
+        "/themes/azgames.io_v2/rs/js/footer.js",
+        "/themes/azgames.io_v2/rs/js/es-config.min.js",
+        "/themes/azgames.io_v2/rs/js/estimated-session-duration-tracker.min.js",
+        "/themes/azgames.io_v2/rs/js/estimated-page-duration-tracker.min.js"
+      ],
+      "briefVisibleExcerpt": "Traffic Road - Play Traffic Road On A-Z Games Clicker",
+      "contains5999": false,
+      "containsEmbed": false
+    },
+    {
+      "name": "x-trench-run-license",
+      "url": "https://www.marketjs.com/item/x-trench-run/",
+      "finalUrl": "https://www.marketjs.com/item/x-trench-run/",
+      "status": 200,
+      "observedAt": "2026-10-24T11:40:01.460Z",
+      "title": "X Trench Run - HTML5 Game Licensing - MarketJS",
+      "bytes": 44739,
+      "frameHeaders": {
+        "xFrameOptions": null,
+        "contentSecurityPolicy": null
+      },
+      "relevantLinks": [
+        "https://www.marketjs.com/about",
+        "https://www.marketjs.com/privacy",
+        "https://www.marketjs.com/license-web-games",
+        "https://www.marketjs.com/license-mobile-games",
+        "https://www.marketjs.com/license-browser-games",
+        "https://www.marketjs.com/license-android-games",
+        "https://www.marketjs.com/license-ipad-html5-games",
+        "https://www.marketjs.com/license-android-html5-games"
+      ],
+      "iframeSources": [
+        "https://www.googletagmanager.com/ns.html?id=GTM-NCG53T28"
+      ],
+      "scriptSources": [
+        "https://www.marketjs.com/libs/jquery/jquery-3.7.1.min.js",
+        "https://www.marketjs.com/libs/jquery/jquery.validate.js",
+        "https://www.googletagmanager.com/gtag/js?id=G-MDRZG59F14",
+        "https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js",
+        "/shell/search/documents.js?0-0-458-build-removeold1",
+        "/shell/search/setup.js",
+        "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "https://www.google.com/recaptcha/api.js",
+        "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      ],
+      "briefVisibleExcerpt": "X Trench Run - HTML5 Game Licensing - MarketJS &nbsp;&nbsp;",
+      "contains5999": true,
+      "containsEmbed": true
+    },
+    {
+      "name": "travle",
+      "url": "https://travle.earth/",
+      "finalUrl": "https://travle.earth/",
+      "status": 200,
+      "observedAt": "2026-10-24T11:40:02.761Z",
+      "title": "travle",
+      "bytes": 42431,
+      "frameHeaders": {
+        "xFrameOptions": null,
+        "contentSecurityPolicy": null
+      },
+      "relevantLinks": [],
+      "iframeSources": [
+        "https://www.googletagmanager.com/ns.html?id=GTM-KRJDLFGB"
+      ],
+      "scriptSources": [
+        "https://www.googletagmanager.com/gtag/js?id=G-EQFFWR5YJE",
+        "https://btloader.com/tag?o=5658536637890560&upapi=true",
+        "https://widgets.teuteuf.fr/notifications/notifications.js"
+      ],
+      "briefVisibleExcerpt": "travle travle Daily Weekly Challenge Every Monday Practice &amp; Challenge",
+      "contains5999": false,
+      "containsEmbed": false
+    },
+    {
+      "name": "travle-imois",
+      "url": "https://imois.in/games/travle/",
+      "finalUrl": "https://imois.in/games/travle/",
+      "status": 200,
+      "observedAt": "2026-10-24T11:40:02.070Z",
+      "title": "travle",
+      "bytes": 29550,
+      "frameHeaders": {
+        "xFrameOptions": null,
+        "contentSecurityPolicy": null
+      },
+      "relevantLinks": [],
+      "iframeSources": [],
+      "scriptSources": [
+        "member_manager.11b3c0f84a1423b3e13a.js",
+        "bundle.9f9f61f9a942ece8f74e.js",
+        "https://www.googletagmanager.com/gtag/js?id=G-D905D8N8VB"
+      ],
+      "briefVisibleExcerpt": "travle travle by Oisín Carroll How to Play Settings Colour",
+      "contains5999": false,
+      "containsEmbed": false
+    },
+    {
+      "name": "maptap",
+      "url": "https://maptap.gg/",
+      "finalUrl": "https://maptap.gg/",
+      "status": 200,
+      "observedAt": "2026-10-24T11:40:02.266Z",
+      "title": "MapTap.gg - Daily Geography Game",
+      "bytes": 387032,
+      "frameHeaders": {
+        "xFrameOptions": null,
+        "contentSecurityPolicy": null
+      },
+      "relevantLinks": [],
+      "iframeSources": [],
+      "scriptSources": [
+        "https://www.googletagmanager.com/gtag/js?id=G-M0H6SPLEBJ",
+        "js/ocean-prefs.js?v=3",
+        "js/rotate-prefs.js?v=1",
+        "js/webgl-check.js?v=1",
+        "js/webgl-health-check.js?v=9",
+        "js/analytics.js?v=2",
+        "js/i18n.js?v=28",
+        "js/settings-registry.js?v=24",
+        "js/crash-sentinel.js?v=5",
+        "js/jjbasics.js?v=51",
+        "js/orbit-loader.js?v=1",
+        "js/tap-guard.js?v=3",
+        "js/hold-to-place.js?v=3",
+        "js/keyboard-globe.js?v=3",
+        "js/pending-session-save.js?v=1",
+        "js/hold-promo.js?v=4",
+        "js/ui.js?v=18",
+        "js/flag-emoji-polyfill.js?v=1",
+        "js/scoring-config.js?v=1",
+        "js/globe-utils-v2.js?v=22",
+        "js/arrival-labels.js?v=3",
+        "js/geo-utils.js?v=1",
+        "js/browser-detection.js?v=1",
+        "js/region-service.js?v=4",
+        "js/country_names.js?v=20261005",
+        "data/center_of.js?v=2",
+        "assets/three-bundle.js?v=4",
+        "js/tileglobe.bundle.js?v=138",
+        "js/platform.js?v=3",
+        "js/play-billing.js?v=12",
+        "js/subscription.js?v=22",
+        "data/reward_text.js?v=17",
+        "js/geography.js?v=23",
+        "js/location-detection.js?v=4",
+        "js/effects.js?v=1",
+        "js/comet-effect.js?v=2",
+        "js/utils.js?v=1",
+        "js/game-history-complete.js?v=2",
+        "js/firebase-service.js?v=28",
+        "data/master_locations.js?v=2",
+        "js/location-progress.js?v=8",
+        "js/xp-config.js?v=4",
+        "js/continent-progress.js?v=13",
+        "js/level-up-celebration.js?v=2",
+        "js/auth-modal.js?v=22",
+        "js/preferences-backup.js?v=5",
+        "js/game-init.js?v=16",
+        "js/settings-modal.js?v=34",
+        "js/subscription-modal.js?v=16",
+        "js/nag-system.js?v=11",
+        "js/play-review.js?v=3",
+        "js/groups-service.js?v=20",
+        "js/game-menu.js?v=26",
+        "js/achievement-fx.js?v=10",
+        "js/achievements.js?v=31",
+        "js/story-keeps.js?v=3",
+        "js/keep-auth.js?v=2",
+        "js/heart-fx.js?v=3",
+        "js/story-share.js?v=2",
+        "js/story-collect.js?v=13"
+      ],
+      "briefVisibleExcerpt": "MapTap.gg - Daily Geography Game app association. --> population lookup,",
+      "contains5999": false,
+      "containsEmbed": false
+    }
+  ]
+}

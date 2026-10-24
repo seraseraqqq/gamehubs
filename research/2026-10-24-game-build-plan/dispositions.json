@@ -1,0 +1,638 @@
+[
+  {
+    "keyword": "2v2io",
+    "volume": 49500,
+    "kd": 31,
+    "disposition": "条件：实时多人服务/供应商授权是前提，不当作廉价单机自研"
+  },
+  {
+    "keyword": "horsle",
+    "volume": 18100,
+    "kd": 10,
+    "disposition": "观察：原站玩法含固定HORSE答案梗；复玩/长期需求价值待测，不因KD10单独建站"
+  },
+  {
+    "keyword": "wave rider",
+    "volume": 12100,
+    "kd": 27,
+    "disposition": "条件：鞋/冲浪/游戏混合意图，须先确认游戏SERP与准确版本、许可"
+  },
+  {
+    "keyword": "dashmetry",
+    "volume": 90500,
+    "kd": 16,
+    "disposition": "观察：曾有高峰，近期弱于高峰；版本、分发许可待审"
+  },
+  {
+    "keyword": "bracket city",
+    "volume": 135000,
+    "kd": 38,
+    "disposition": "暂缓：官方媒体/谜题内容依赖，不能复制每日内容"
+  },
+  {
+    "keyword": "baseball bros",
+    "volume": 165000,
+    "kd": 35,
+    "disposition": "条件：多人/游戏供应商/商用嵌入范围待审"
+  },
+  {
+    "keyword": "electron dash",
+    "volume": 40500,
+    "kd": 34,
+    "disposition": "保留研究库：次级/条件候选；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "puppet hockey",
+    "volume": 33100,
+    "kd": 38,
+    "disposition": "保留研究库：次级/条件候选；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "planet clicker",
+    "volume": 90500,
+    "kd": 40,
+    "disposition": "保留研究库：次级/条件候选；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "boxing random",
+    "volume": 9900,
+    "kd": 19,
+    "disposition": "下一轮授权核验：9,900/KD19，不满足严格>10k；非首批已选"
+  },
+  {
+    "keyword": "time shooter 3",
+    "volume": 5400,
+    "kd": 20,
+    "disposition": "下一轮授权核验：5,400/KD20，低于量级门槛；不开源假设"
+  },
+  {
+    "keyword": "time shooter 2",
+    "volume": 5400,
+    "kd": 22,
+    "disposition": "下一轮授权核验：5,400/KD22，低于量级门槛；不开源假设"
+  },
+  {
+    "keyword": "geodle",
+    "volume": 2400,
+    "kd": 15,
+    "disposition": "小额观察：2,400/KD15；数据、玩法及与Travle区别待审"
+  },
+  {
+    "keyword": "flagpie",
+    "volume": 1300,
+    "kd": 28,
+    "disposition": "观察：意图混杂、独立Trends证据不足，不当作确定游戏"
+  },
+  {
+    "keyword": "color rush game",
+    "volume": 4400,
+    "kd": 4,
+    "disposition": "保留研究库：次级/条件候选；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "curve rush 2",
+    "volume": 27100,
+    "kd": 15,
+    "disposition": "暂缓：真实续作/版本和SERP一致性未定"
+  },
+  {
+    "keyword": "soflo wheelie life",
+    "volume": 40500,
+    "kd": 41,
+    "disposition": "保留研究库：次级/条件候选；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "ragdoll hit",
+    "volume": 90500,
+    "kd": 45,
+    "disposition": "保留研究库：次级/条件候选；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "getaway shootout",
+    "volume": 33100,
+    "kd": 43,
+    "disposition": "保留研究库：次级/条件候选；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "basket bros",
+    "volume": 49500,
+    "kd": 44,
+    "disposition": "保留研究库：次级/条件候选；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "rooftop snipers",
+    "volume": 22200,
+    "kd": 44,
+    "disposition": "保留研究库：次级/条件候选；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "soccer random",
+    "volume": 40500,
+    "kd": 46,
+    "disposition": "保留研究库：次级/条件候选；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "candy clicker",
+    "volume": 27100,
+    "kd": 40,
+    "disposition": "保留研究库：次级/条件候选；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "run 3 unblocked",
+    "volume": 40500,
+    "kd": 36,
+    "disposition": "保留研究库：次级/条件候选；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "curve rush",
+    "volume": 74000,
+    "kd": 49,
+    "disposition": "保留研究库：次级/条件候选；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "stickman clash",
+    "volume": 12100,
+    "kd": 49,
+    "disposition": "保留研究库：次级/条件候选；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "volley random",
+    "volume": 8100,
+    "kd": 30,
+    "disposition": "保留研究库：次级/条件候选；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "football bros",
+    "volume": 368000,
+    "kd": 50,
+    "disposition": "保留研究库：次级/条件候选；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "slope rider 3d",
+    "volume": 22200,
+    "kd": 39,
+    "disposition": "保留研究库：次级/条件候选；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "murdle",
+    "volume": 49500,
+    "kd": 46,
+    "disposition": "后排：KD46，图书/游戏混合及谜题内容供给待核验"
+  },
+  {
+    "keyword": "weddle",
+    "volume": 60500,
+    "kd": 45,
+    "disposition": "后排：KD45，球员/游戏混合与运动员数据维护待核验"
+  },
+  {
+    "keyword": "contexto",
+    "volume": 450000,
+    "kd": 50,
+    "disposition": "后排：KD50、既有成熟语义引擎和竞品，非首批"
+  },
+  {
+    "keyword": "low's adventures 3",
+    "volume": 2900,
+    "kd": 25,
+    "disposition": "保留研究库：次级/条件候选；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "tap road beat",
+    "volume": 1300,
+    "kd": 8,
+    "disposition": "小额观察：1,300/KD8；需明确真实版本和分发权"
+  },
+  {
+    "keyword": "tap road",
+    "volume": 90500,
+    "kd": 27,
+    "disposition": "暂缓：Trends近期弱于早期；供应商/许可待审"
+  },
+  {
+    "keyword": "kart bros",
+    "volume": 165000,
+    "kd": 29,
+    "disposition": "暂缓：需求走弱且多人/供应商依赖，先不自研替代"
+  },
+  {
+    "keyword": "rodha",
+    "volume": 60500,
+    "kd": 22,
+    "disposition": "暂缓：教育培训与游戏混合；先验证纯游戏需求"
+  },
+  {
+    "keyword": "bike hero",
+    "volume": 14800,
+    "kd": 38,
+    "disposition": "保留研究库：暂缓或条件观察；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "poor bunny",
+    "volume": 135000,
+    "kd": 39,
+    "disposition": "保留研究库：暂缓或条件观察；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "67 clicker",
+    "volume": 49500,
+    "kd": 35,
+    "disposition": "保留研究库：暂缓或条件观察；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "brainrot clicker",
+    "volume": 40500,
+    "kd": 39,
+    "disposition": "保留研究库：暂缓或条件观察；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "dinosaur game",
+    "volume": 673000,
+    "kd": 32,
+    "disposition": "保留研究库：暂缓或条件观察；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "poetl",
+    "volume": 27100,
+    "kd": 29,
+    "disposition": "排除当前拼写：球员Jakob Poeltl相关；实际Poeltl游戏需单独研究"
+  },
+  {
+    "keyword": "boxing bros",
+    "volume": 6600,
+    "kd": 25,
+    "disposition": "排除独立游戏假设：混入WrestleBros/拳馆/音乐"
+  },
+  {
+    "keyword": "bullseye game",
+    "volume": 2400,
+    "kd": 12,
+    "disposition": "排除当前意图：实体桌游/商业产品占位，不直接建浏览器游戏承接"
+  },
+  {
+    "keyword": "drift boss",
+    "volume": 1830000,
+    "kd": 60,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "quordle",
+    "volume": 1830000,
+    "kd": 68,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "pips",
+    "volume": 550000,
+    "kd": 70,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "fnf",
+    "volume": 450000,
+    "kd": 91,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "worldle",
+    "volume": 450000,
+    "kd": 90,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "polytrack",
+    "volume": 368000,
+    "kd": 64,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "space waves",
+    "volume": 368000,
+    "kd": 86,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "geometry dash lite",
+    "volume": 368000,
+    "kd": 75,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "drive mad",
+    "volume": 301000,
+    "kd": 64,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "slope unblocked",
+    "volume": 246000,
+    "kd": 52,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "globle",
+    "volume": 246000,
+    "kd": 52,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "basketball stars",
+    "volume": 201000,
+    "kd": 89,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "basket random",
+    "volume": 165000,
+    "kd": 60,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "ovo game",
+    "volume": 165000,
+    "kd": 57,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "stickman hook",
+    "volume": 165000,
+    "kd": 75,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "crossy road",
+    "volume": 165000,
+    "kd": 90,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "drift hunters",
+    "volume": 135000,
+    "kd": 68,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "eggy car",
+    "volume": 135000,
+    "kd": 53,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "wacky flip",
+    "volume": 110000,
+    "kd": 72,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "slope 2",
+    "volume": 110000,
+    "kd": 72,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "word hurdle",
+    "volume": 110000,
+    "kd": 89,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "worldguessr",
+    "volume": 110000,
+    "kd": 63,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "ragdoll archers",
+    "volume": 74000,
+    "kd": 51,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "slope rider",
+    "volume": 74000,
+    "kd": 75,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "flagle",
+    "volume": 74000,
+    "kd": 60,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "rocket goal",
+    "volume": 60500,
+    "kd": 56,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "idle breakout",
+    "volume": 49500,
+    "kd": 67,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "tunnel rush",
+    "volume": 49500,
+    "kd": 54,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "duck life 4",
+    "volume": 27100,
+    "kd": 54,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "map tap",
+    "volume": 27100,
+    "kd": 36,
+    "disposition": "并入Maptap主词，同站同页，不叠加量，不另建域名"
+  },
+  {
+    "keyword": "geography games",
+    "volume": 27100,
+    "kd": 71,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "drift boss game",
+    "volume": 22200,
+    "kd": 55,
+    "disposition": "保留研究库：合并词簇/长尾；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "worldle unlimited",
+    "volume": 18100,
+    "kd": 71,
+    "disposition": "保留研究库：合并词簇/长尾；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "daily games",
+    "volume": 14800,
+    "kd": 62,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "geometry dash free",
+    "volume": 12100,
+    "kd": 73,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "globle game",
+    "volume": 12100,
+    "kd": 32,
+    "disposition": "保留研究库：合并词簇/长尾；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "flag guesser",
+    "volume": 9900,
+    "kd": 41,
+    "disposition": "保留研究库：待补SERP，不作立项结论；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "geometry game",
+    "volume": 8100,
+    "kd": 29,
+    "disposition": "保留研究库：暂缓或条件观察；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "poor bunny poki",
+    "volume": 5400,
+    "kd": 55,
+    "disposition": "保留研究库：合并词簇/长尾；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "flag guessing game",
+    "volume": 3600,
+    "kd": 43,
+    "disposition": "保留研究库：待补SERP，不作立项结论；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "mathplayground electron dash",
+    "volume": 2400,
+    "kd": 27,
+    "disposition": "保留研究库：合并词簇/长尾；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "football random",
+    "volume": 1300,
+    "kd": 24,
+    "disposition": "保留研究库：合并词簇/长尾；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "dashmetry.io",
+    "volume": 1300,
+    "kd": 15,
+    "disposition": "保留研究库：合并词簇/长尾；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "time shooter 3 swat",
+    "volume": 1000,
+    "kd": 9,
+    "disposition": "保留研究库：合并词簇/长尾；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "tunnel rush game",
+    "volume": 720,
+    "kd": 41,
+    "disposition": "保留研究库：合并词簇/长尾；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "top road",
+    "volume": 720,
+    "kd": 56,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "baseball random",
+    "volume": 590,
+    "kd": 60,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "rooftop snipers game",
+    "volume": 590,
+    "kd": 33,
+    "disposition": "保留研究库：合并词簇/长尾；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "duck life 10",
+    "volume": 480,
+    "kd": 30,
+    "disposition": "保留研究库：待补SERP，不作立项结论；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "color run game",
+    "volume": 390,
+    "kd": 21,
+    "disposition": "保留研究库：待补SERP，不作立项结论；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "best browser game",
+    "volume": 320,
+    "kd": 64,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "rocket league browser game",
+    "volume": 210,
+    "kd": 63,
+    "disposition": "保留研究库：高难度，暂不优先；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "elementle",
+    "volume": 210,
+    "kd": 5,
+    "disposition": "早期观察：210/KD5，related Breakout不是绝对搜索量"
+  },
+  {
+    "keyword": "boxing random game",
+    "volume": 110,
+    "kd": 34,
+    "disposition": "保留研究库：合并词簇/长尾；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "duck life 4 mathplayground",
+    "volume": 90,
+    "kd": 35,
+    "disposition": "保留研究库：合并词簇/长尾；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "electron dash math playground game",
+    "volume": 70,
+    "kd": 21,
+    "disposition": "保留研究库：合并词簇/长尾；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "idle breakout strategy",
+    "volume": 70,
+    "kd": 32,
+    "disposition": "保留研究库：合并词簇/长尾；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "drift hunters unblock",
+    "volume": 50,
+    "kd": 29,
+    "disposition": "保留研究库：合并词簇/长尾；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "idle breakout mobile",
+    "volume": 50,
+    "kd": 51,
+    "disposition": "保留研究库：合并词簇/长尾；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "halo browser game",
+    "volume": 20,
+    "kd": null,
+    "disposition": "保留研究库：待补SERP，不作立项结论；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  },
+  {
+    "keyword": "mathplayground duck life",
+    "volume": 0,
+    "kd": null,
+    "disposition": "保留研究库：合并词簇/长尾；本轮未核验可用源码/素材/iframe许可，不能标记可直接开发"
+  }
+]

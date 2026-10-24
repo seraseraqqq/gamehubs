@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-24T09:12:32.598Z",
+  "mode": "preview",
+  "sites": 1,
+  "pages": 3,
+  "failures": [],
+  "results": [
+    {
+      "site": "snow-rider-3d-unblocked",
+      "page": "about.html",
+      "title": "About & Privacy — Snow Rider 3D Game Page",
+      "description": "About this independent Snow Rider 3D game page, the Miniplay player, third-party privacy choices, game credits and browser access.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "snow-rider-3d-unblocked",
+      "page": "index.html",
+      "title": "Snow Rider 3D Unblocked — Play Free Online",
+      "description": "Play Snow Rider 3D online in your browser. Steer your sled, jump obstacles and collect gifts. Miniplay player, controls and loading help.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    },
+    {
+      "site": "snow-rider-3d-unblocked",
+      "page": "snow-rider-3d-controls.html",
+      "title": "Snow Rider 3D Controls & Loading Help",
+      "description": "Snow Rider 3D controls: arrows or A/D to steer, Up or W to jump. Learn about gifts, mobile landscape play and troubleshooting the publisher player.",
+      "canonical": [],
+      "robots": "noindex, nofollow",
+      "issues": []
+    }
+  ]
+}

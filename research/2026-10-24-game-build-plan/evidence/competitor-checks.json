@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-24",
+  "method": "Primary public page read, summarized; no code or assets reused",
+  "checks": [
+    {
+      "url": "https://pfiffel.com/cutle/",
+      "rules": [
+        "One straight cut, aim for equal area",
+        "48:52 or better is a win",
+        "New daily shape at UTC midnight",
+        "Daily Archive control visible"
+      ]
+    },
+    {
+      "url": "https://cutle.org/",
+      "features": [
+        "Infinite mode",
+        "Published daily archive",
+        "Custom SVG paths",
+        "Shape generation tools"
+      ],
+      "declaredLimit": "Infinite mode does not save progress",
+      "implication": "Unlimited alone is not a product gap"
+    },
+    {
+      "url": "https://pooplegame.com/unlimited",
+      "features": [
+        "Unlimited curated word-ladder practice",
+        "par / minimum path scoring",
+        "Solver link"
+      ],
+      "declaredLimit": "Unlimited runs are not saved",
+      "implication": "Difficulty training, local practice history and layered hints remain hypotheses, not proven unique features"
+    }
+  ]
+}

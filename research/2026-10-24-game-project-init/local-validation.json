@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-24T12:33:03.858Z",
+  "result": "passed",
+  "projects": [
+    {
+      "siteId": "cutle",
+      "files": 29,
+      "localMarkdownLinks": 50
+    },
+    {
+      "siteId": "poople",
+      "files": 29,
+      "localMarkdownLinks": 50
+    },
+    {
+      "siteId": "colordle",
+      "files": 29,
+      "localMarkdownLinks": 50
+    },
+    {
+      "siteId": "metazooa",
+      "files": 29,
+      "localMarkdownLinks": 50
+    },
+    {
+      "siteId": "travle",
+      "files": 29,
+      "localMarkdownLinks": 50
+    }
+  ]
+}

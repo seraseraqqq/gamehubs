@@ -1,0 +1,30 @@
+
+[rankup] snow-rider-3d-unblocked\.rankup\checks.md
+  3: - Passed: Miniplay public embed selected and deployed at https://snowrider3d.top/. The previous direct GameDistribution blocker is historical; no unlicensed Uni
+  4: - Passed: current source/default export remains noindex. An owned-origin build also remains noindex until `PUBLISHER_DOMAIN_STATUS=verified`; Vercel preview ove
+  6: - Passed: current CSP permits the selected Miniplay frame. Runtime excludes the superseded original engine, scene, game and vendor files.
+  7: - Observed: Miniplay local title/menu; production HTTP200 and noindex. See [release record](../../../deployments/2026-10-24-snow-rider-miniplay.md).
+
+[rankup] snow-rider-3d-unblocked\.rankup\INDEX.md
+  5: - Owner authorized replacement with Miniplay, real-domain gameplay testing and indexing only after acceptance. No publisher-account signup is requested.
+  6: - Miniplay public embed is deployed, production READY at c6034dc0f5e6fafbee20e2a3514c29e98baa5b0a. Live player.js confirms the Miniplay URL. The previous direct
+  7: - Formal gameplay acceptance was interrupted by Computer Use URL verification on Windows. A full actual-domain run/restart is unverified. Keep noindex and leave
+  8: - Existing game is supplied through Miniplay's advertised public embed. A Unity package was located without established original-author distribution permission;
+  9: - Current source/export SEO checks: 80 passed; [portfolio SEO review](../../../deployments/2026-10-24-seo-protected-games.md). Miniplay local title/menu and dep
+  11: - [Current release](../../../deployments/2026-10-24-snow-rider-miniplay.md), [workspace status](../../../DEPLOYMENT_STATUS.md), [historical direct-provider bloc
+  12: - [Alternative research](../../../research/2026-10-24-snow-rider/alternatives/README.md) led to the owner-authorized Miniplay deployment. Actual-domain gameplay
+
+[rankup] snow-rider-3d-unblocked\.rankup\keywords.md
+  7: | / | snow rider 3d unblocked | Existing game in Miniplay’s public embed; independent site with publisher credit |
+
+[rankup] snow-rider-3d-unblocked\.rankup\plan.md
+  3: Owner subsequently authorized switching to Miniplay, deployment to https://snowrider3d.top/ and actual-domain gameplay acceptance before indexing. Miniplay repl
+  7: - [x] Replace direct GameDistribution iframe with the advertised Miniplay public embed and deploy under noindex.
+  10: - [ ] Only after acceptance, set PUBLISHER_DOMAIN_STATUS=verified, redeploy and verify canonical, robots and sitemap.
+  12: Historical direct-provider verification reached blocked.html with unregistered=true. That integration is superseded. Miniplay actual-domain gameplay verificatio
+  18: [Local probe results](../../../research/2026-10-24-snow-rider/alternatives/README.md) informed the subsequent Miniplay switch. [Current release](../../../deploy
+  20: Current Miniplay metadata and social cards are checked in the [portfolio SEO review](../../../deployments/2026-10-24-seo-protected-games.md). The old direct-pro
+
+命中统计：
+  PUBLISHER_DOMAIN_STATUS：3 行
+  Miniplay：15 行

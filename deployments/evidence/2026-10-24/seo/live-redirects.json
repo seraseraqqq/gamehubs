@@ -1,0 +1,142 @@
+[
+  {
+    "url": "http://krilliononline.com/",
+    "headers": "HTTP/1.0 308 Permanent Redirect\nContent-Type: text/plain\nLocation: https://krilliononline.com/\nRefresh: 0;url=https://krilliononline.com/\nserver: Vercel\n\nHTTP/1.0 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14945\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 14994\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:43 GMT\nEtag: \"ef742fc414282f3a0b1c0f87c67babd1\"\nLast-Modified: Sat, 24 Oct 2026 05:06:38 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::b2hm9-1792833343833-e634689c6c89\n",
+    "exitCode": 0
+  },
+  {
+    "url": "http://playblockblastunblocked.com/",
+    "headers": "HTTP/1.0 308 Permanent Redirect\nContent-Type: text/plain\nLocation: https://playblockblastunblocked.com/\nRefresh: 0;url=https://playblockblastunblocked.com/\nserver: Vercel\n\nHTTP/1.0 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14314\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 11763\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:43 GMT\nEtag: \"f3967ad984a96eda54f7c413d8b17de7\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::b2qcw-1792833343880-fa09f2a4d272\n",
+    "exitCode": 0
+  },
+  {
+    "url": "http://costcodle.cc/",
+    "headers": "HTTP/1.0 308 Permanent Redirect\nContent-Type: text/plain\nLocation: https://costcodle.cc/\nRefresh: 0;url=https://costcodle.cc/\nserver: Vercel\n\nHTTP/1.0 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14538\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 16191\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:43 GMT\nEtag: \"72e3270a1f03effac5bdca3455f4eaf4\"\nLast-Modified: Sat, 24 Oct 2026 05:13:25 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::b2hm9-1792833343942-cbc727b60ed6\n",
+    "exitCode": 0
+  },
+  {
+    "url": "http://gulperio.com/",
+    "headers": "HTTP/1.0 308 Permanent Redirect\nContent-Type: text/plain\nLocation: https://gulperio.com/\nRefresh: 0;url=https://gulperio.com/\nserver: Vercel\n\nHTTP/1.0 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14314\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 15293\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:43 GMT\nEtag: \"a930cb4e0fff3e5f486397b2176770ab\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::b2qcw-1792833343975-e05d748fb2d0\n",
+    "exitCode": 0
+  },
+  {
+    "url": "http://playheadsoccer.com/",
+    "headers": "HTTP/1.0 308 Permanent Redirect\nContent-Type: text/plain\nLocation: https://playheadsoccer.com/\nRefresh: 0;url=https://playheadsoccer.com/\nserver: Vercel\n\nHTTP/1.0 301 Moved Permanently\nCache-Control: public, max-age=0, must-revalidate\nContent-Type: text/plain\nDate: Sat, 24 Oct 2026 09:15:43 GMT\nLocation: https://www.playheadsoccer.com/\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Id: hnd1::hrmbj-1792833343393-7443978f60c8\n\nHTTP/1.0 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14314\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 8465\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:44 GMT\nEtag: \"9ac5d4edef3c36bbd2d9445be67a6e43\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nPermissions-Policy: camera=(), microphone=(), geolocation=()\nReferrer-Policy: strict-origin-when-cross-origin\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Content-Type-Options: nosniff\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::hrmbj-1792833344051-643312eecef8\n",
+    "exitCode": 0
+  },
+  {
+    "url": "https://krilliononline.com/",
+    "headers": "HTTP/1.1 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14945\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 14994\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:44 GMT\nEtag: \"ef742fc414282f3a0b1c0f87c67babd1\"\nLast-Modified: Sat, 24 Oct 2026 05:06:38 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::b2hm9-1792833344136-1c7e005dc80d\n",
+    "exitCode": 0
+  },
+  {
+    "url": "https://playblockblastunblocked.com/",
+    "headers": "HTTP/1.1 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14314\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 11763\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:44 GMT\nEtag: \"f3967ad984a96eda54f7c413d8b17de7\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::b2qcw-1792833344162-c1f9be92056d\n",
+    "exitCode": 0
+  },
+  {
+    "url": "https://costcodle.cc/",
+    "headers": "HTTP/1.1 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14539\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 16191\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:44 GMT\nEtag: \"72e3270a1f03effac5bdca3455f4eaf4\"\nLast-Modified: Sat, 24 Oct 2026 05:13:25 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::krn6k-1792833344295-d20d84954bd4\n",
+    "exitCode": 0
+  },
+  {
+    "url": "https://gulperio.com/",
+    "headers": "HTTP/1.1 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14314\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 15293\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:44 GMT\nEtag: \"a930cb4e0fff3e5f486397b2176770ab\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::r6xgl-1792833344304-2163fb1179dc\n",
+    "exitCode": 0
+  },
+  {
+    "url": "http://2048cupcakes.xyz/",
+    "headers": "HTTP/1.0 308 Permanent Redirect\nContent-Type: text/plain\nLocation: https://2048cupcakes.xyz/\nRefresh: 0;url=https://2048cupcakes.xyz/\nserver: Vercel\n\nHTTP/1.0 301 Moved Permanently\nCache-Control: public, max-age=0, must-revalidate\nContent-Type: text/plain\nDate: Sat, 24 Oct 2026 09:15:43 GMT\nLocation: https://www.2048cupcakes.xyz/\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Id: hnd1::r6xgl-1792833343826-439c963286a0\n\nHTTP/1.0 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14315\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 14946\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:44 GMT\nEtag: \"10e0b994c3c1c18ad5f26ae32e5f4dff\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::krn6k-1792833344521-ef123285b1c4\n",
+    "exitCode": 0
+  },
+  {
+    "url": "https://playheadsoccer.com/",
+    "headers": "HTTP/1.1 301 Moved Permanently\nCache-Control: public, max-age=0, must-revalidate\nContent-Type: text/plain\nDate: Sat, 24 Oct 2026 09:15:44 GMT\nLocation: https://www.playheadsoccer.com/\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Id: hnd1::r6xgl-1792833344380-5adf3f253567\n\nHTTP/1.1 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14315\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 8465\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:44 GMT\nEtag: \"9ac5d4edef3c36bbd2d9445be67a6e43\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nPermissions-Policy: camera=(), microphone=(), geolocation=()\nReferrer-Policy: strict-origin-when-cross-origin\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Content-Type-Options: nosniff\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::lk4ng-1792833344618-d5b5e2f5fbbd\n",
+    "exitCode": 0
+  },
+  {
+    "url": "http://spacebarcounter.xyz/",
+    "headers": "HTTP/1.0 308 Permanent Redirect\nContent-Type: text/plain\nLocation: https://spacebarcounter.xyz/\nRefresh: 0;url=https://spacebarcounter.xyz/\nserver: Vercel\n\nHTTP/1.0 301 Moved Permanently\nCache-Control: public, max-age=0, must-revalidate\nContent-Type: text/plain\nDate: Sat, 24 Oct 2026 09:15:43 GMT\nLocation: https://www.spacebarcounter.xyz/\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Id: hnd1::7q5ph-1792833343604-e5a11d8ca3aa\n\nHTTP/1.0 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14315\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 6681\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:44 GMT\nEtag: \"5fdfa533a46044309eb895e0ab056d91\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::s6xlf-1792833344656-6d38c899e6a4\n",
+    "exitCode": 0
+  },
+  {
+    "url": "http://www.playheadsoccer.com/",
+    "headers": "HTTP/1.0 308 Permanent Redirect\nContent-Type: text/plain\nLocation: https://www.playheadsoccer.com/\nRefresh: 0;url=https://www.playheadsoccer.com/\nserver: Vercel\n\nHTTP/1.0 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14315\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 8465\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nEtag: \"9ac5d4edef3c36bbd2d9445be67a6e43\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nPermissions-Policy: camera=(), microphone=(), geolocation=()\nReferrer-Policy: strict-origin-when-cross-origin\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Content-Type-Options: nosniff\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::rn4df-1792833345044-b90cd01cd0d4\n",
+    "exitCode": 0
+  },
+  {
+    "url": "https://2048cupcakes.xyz/",
+    "headers": "HTTP/1.1 301 Moved Permanently\nCache-Control: public, max-age=0, must-revalidate\nContent-Type: text/plain\nDate: Sat, 24 Oct 2026 09:15:44 GMT\nLocation: https://www.2048cupcakes.xyz/\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Id: hnd1::gx6xf-1792833344912-c9b24de82fc8\n\nHTTP/1.1 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14315\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 14946\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nEtag: \"10e0b994c3c1c18ad5f26ae32e5f4dff\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::ll4jp-1792833345164-caa41840c59f\n",
+    "exitCode": 0
+  },
+  {
+    "url": "https://spacebarcounter.xyz/",
+    "headers": "HTTP/1.1 301 Moved Permanently\nCache-Control: public, max-age=0, must-revalidate\nContent-Type: text/plain\nDate: Sat, 24 Oct 2026 09:15:44 GMT\nLocation: https://www.spacebarcounter.xyz/\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Id: hnd1::6j84p-1792833344954-79e6208e2a93\n\nHTTP/1.1 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14315\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 6681\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nEtag: \"5fdfa533a46044309eb895e0ab056d91\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::r6xgl-1792833345232-63009d85b574\n",
+    "exitCode": 0
+  },
+  {
+    "url": "https://www.playheadsoccer.com/",
+    "headers": "HTTP/1.1 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14315\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 8465\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nEtag: \"9ac5d4edef3c36bbd2d9445be67a6e43\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nPermissions-Policy: camera=(), microphone=(), geolocation=()\nReferrer-Policy: strict-origin-when-cross-origin\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Content-Type-Options: nosniff\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::drkb7-1792833345315-cc3b4b201fe8\n",
+    "exitCode": 0
+  },
+  {
+    "url": "http://www.playblockblastunblocked.com/",
+    "headers": "HTTP/1.0 308 Permanent Redirect\nContent-Type: text/plain\nLocation: https://www.playblockblastunblocked.com/\nRefresh: 0;url=https://www.playblockblastunblocked.com/\nserver: Vercel\n\nHTTP/1.0 301 Moved Permanently\nCache-Control: public, max-age=0, must-revalidate\nContent-Type: text/plain\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nLocation: https://playblockblastunblocked.com/\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Id: hnd1::s6xlf-1792833345004-4a1928b9638d\n\nHTTP/1.0 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14316\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 11763\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nEtag: \"f3967ad984a96eda54f7c413d8b17de7\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::97swr-1792833345484-ace0472b8eef\n",
+    "exitCode": 0
+  },
+  {
+    "url": "http://www.krilliononline.com/",
+    "headers": "HTTP/1.0 308 Permanent Redirect\nContent-Type: text/plain\nLocation: https://www.krilliononline.com/\nRefresh: 0;url=https://www.krilliononline.com/\nserver: Vercel\n\nHTTP/1.0 301 Moved Permanently\nCache-Control: public, max-age=0, must-revalidate\nContent-Type: text/plain\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nLocation: https://krilliononline.com/\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Id: hnd1::jwwtt-1792833345228-99744847bb66\n\nHTTP/1.0 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14947\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 14994\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nEtag: \"ef742fc414282f3a0b1c0f87c67babd1\"\nLast-Modified: Sat, 24 Oct 2026 05:06:38 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::r6xgl-1792833345479-e4308f5dccc5\n",
+    "exitCode": 0
+  },
+  {
+    "url": "http://www.costcodle.cc/",
+    "headers": "HTTP/1.0 308 Permanent Redirect\nContent-Type: text/plain\nLocation: https://www.costcodle.cc/\nRefresh: 0;url=https://www.costcodle.cc/\nserver: Vercel\n\nHTTP/1.0 301 Moved Permanently\nCache-Control: public, max-age=0, must-revalidate\nContent-Type: text/plain\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nLocation: https://costcodle.cc/\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Id: hnd1::dfpnd-1792833345325-48c55331c2dd\n\nHTTP/1.0 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14540\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 16191\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nEtag: \"72e3270a1f03effac5bdca3455f4eaf4\"\nLast-Modified: Sat, 24 Oct 2026 05:13:25 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::drkb7-1792833345559-fbc9241349d8\n",
+    "exitCode": 0
+  },
+  {
+    "url": "http://www.gulperio.com/",
+    "headers": "HTTP/1.0 308 Permanent Redirect\nContent-Type: text/plain\nLocation: https://www.gulperio.com/\nRefresh: 0;url=https://www.gulperio.com/\nserver: Vercel\n\nHTTP/1.0 301 Moved Permanently\nCache-Control: public, max-age=0, must-revalidate\nContent-Type: text/plain\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nLocation: https://gulperio.com/\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Id: hnd1::5c5jv-1792833345347-819fd3094c55\n\nHTTP/1.0 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14316\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 15293\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nEtag: \"a930cb4e0fff3e5f486397b2176770ab\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::97swr-1792833345583-8a7f32eb6bb7\n",
+    "exitCode": 0
+  },
+  {
+    "url": "http://www.2048cupcakes.xyz/",
+    "headers": "HTTP/1.0 308 Permanent Redirect\nContent-Type: text/plain\nLocation: https://www.2048cupcakes.xyz/\nRefresh: 0;url=https://www.2048cupcakes.xyz/\nserver: Vercel\n\nHTTP/1.0 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14316\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 14946\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nEtag: \"10e0b994c3c1c18ad5f26ae32e5f4dff\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::hrmbj-1792833345624-00aabef3198b\n",
+    "exitCode": 0
+  },
+  {
+    "url": "http://www.spacebarcounter.xyz/",
+    "headers": "HTTP/1.0 308 Permanent Redirect\nContent-Type: text/plain\nLocation: https://www.spacebarcounter.xyz/\nRefresh: 0;url=https://www.spacebarcounter.xyz/\nserver: Vercel\n\nHTTP/1.0 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14316\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 6681\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nEtag: \"5fdfa533a46044309eb895e0ab056d91\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::7q5ph-1792833345709-729dec8fc019\n",
+    "exitCode": 0
+  },
+  {
+    "url": "https://www.2048cupcakes.xyz/",
+    "headers": "HTTP/1.1 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14316\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 14946\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nEtag: \"10e0b994c3c1c18ad5f26ae32e5f4dff\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::slsx8-1792833345908-9a28b86177a9\n",
+    "exitCode": 0
+  },
+  {
+    "url": "https://www.spacebarcounter.xyz/",
+    "headers": "HTTP/1.1 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14316\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 6681\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nEtag: \"5fdfa533a46044309eb895e0ab056d91\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::7q5ph-1792833345986-6a60a9e84a61\n",
+    "exitCode": 0
+  },
+  {
+    "url": "https://www.playblockblastunblocked.com/",
+    "headers": "HTTP/1.1 301 Moved Permanently\nCache-Control: public, max-age=0, must-revalidate\nContent-Type: text/plain\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nLocation: https://playblockblastunblocked.com/\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Id: hnd1::s6xlf-1792833345833-da64a69f96d9\n\nHTTP/1.1 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14316\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 11763\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:46 GMT\nEtag: \"f3967ad984a96eda54f7c413d8b17de7\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::7q5ph-1792833346076-b67f5de7765d\n",
+    "exitCode": 0
+  },
+  {
+    "url": "https://www.krilliononline.com/",
+    "headers": "HTTP/1.1 301 Moved Permanently\nCache-Control: public, max-age=0, must-revalidate\nContent-Type: text/plain\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nLocation: https://krilliononline.com/\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Id: hnd1::b2hm9-1792833345824-df3a8ee96027\n\nHTTP/1.1 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14947\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 14994\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:46 GMT\nEtag: \"ef742fc414282f3a0b1c0f87c67babd1\"\nLast-Modified: Sat, 24 Oct 2026 05:06:38 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::ws5hz-1792833346073-7630464f7df3\n",
+    "exitCode": 0
+  },
+  {
+    "url": "https://www.costcodle.cc/",
+    "headers": "HTTP/1.1 301 Moved Permanently\nCache-Control: public, max-age=0, must-revalidate\nContent-Type: text/plain\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nLocation: https://costcodle.cc/\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Id: hnd1::sxm5m-1792833345843-feeba6478e57\n\nHTTP/1.1 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14540\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 16191\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:46 GMT\nEtag: \"72e3270a1f03effac5bdca3455f4eaf4\"\nLast-Modified: Sat, 24 Oct 2026 05:13:25 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::gvtb5-1792833346079-d1c8e7ab376b\n",
+    "exitCode": 0
+  },
+  {
+    "url": "https://www.gulperio.com/",
+    "headers": "HTTP/1.1 301 Moved Permanently\nCache-Control: public, max-age=0, must-revalidate\nContent-Type: text/plain\nDate: Sat, 24 Oct 2026 09:15:45 GMT\nLocation: https://gulperio.com/\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Id: hnd1::s6xlf-1792833345861-c5a748c80be1\n\nHTTP/1.1 200 OK\nAccept-Ranges: bytes\nAccess-Control-Allow-Origin: *\nAge: 14316\nCache-Control: public, max-age=0, must-revalidate\nContent-Disposition: inline\nContent-Length: 15293\nContent-Type: text/html; charset=utf-8\nDate: Sat, 24 Oct 2026 09:15:46 GMT\nEtag: \"a930cb4e0fff3e5f486397b2176770ab\"\nLast-Modified: Sat, 24 Oct 2026 05:17:09 GMT\nServer: Vercel\nStrict-Transport-Security: max-age=63072000\nX-Vercel-Cache: HIT\nX-Vercel-Id: hnd1::b2qcw-1792833346125-13a33ffdd894\n",
+    "exitCode": 0
+  }
+]

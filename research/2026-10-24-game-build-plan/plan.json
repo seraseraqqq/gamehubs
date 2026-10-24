@@ -1,0 +1,1255 @@
+{
+  "date": "2026-10-24",
+  "scope": "US/English research and task plan only",
+  "rankingBasis": "Implementation control, licensing/data certainty, demand direction, SERP intent and cost; not KD-only and not a probability forecast",
+  "domainQueriedAt": "2026-10-24T11:51:42.155Z",
+  "sites": [
+    {
+      "id": "CUT",
+      "slug": "cutle",
+      "name": "Cutle",
+      "rank": 1,
+      "cohort": "P0 · 首批",
+      "route": "自研",
+      "buildConfidence": "高",
+      "seoConfidence": "中",
+      "days": [
+        3,
+        4
+      ],
+      "domain": "cutleunlimited.com",
+      "alternatives": [
+        "playcutle.com",
+        "cutlepractice.com"
+      ],
+      "decision": "先做几何切割练习站。KD低、规则清楚、无需外部图片或实时API，是首个成本可控的实验。",
+      "serp": "镜像前十以原站及游戏目录为主；实际Google本次先出现cutle.org，再出现pfiffel原站，排名与镜像不同。cutle.org已有无限模式、归档、自定义形状和生成工具。因此只把按难度训练/练习记录作为待测差异，不能称无限版有空位。",
+      "sources": [
+        {
+          "title": "原站规则",
+          "url": "https://pfiffel.com/cutle/",
+          "note": "拖动直线分割形状，以接近50:50为目标；48:52及以内算赢，原站每日UTC更新。HTTP检查曾失败，规则随后由网页读取确认。未核验到原游戏可商用开源代码。"
+        },
+        {
+          "title": "当前前列竞品",
+          "url": "https://cutle.org/",
+          "note": "页面明示Infinite、Archive、自定义形状和生成工具；无限模式不保存进度，不能把无限本身当作独家差异。"
+        }
+      ],
+      "implementation": "静态页面 + TypeScript + SVG。独立实现直线/半平面裁剪和多边形面积，MVP只生成凸多边形；图形、随机种子、UI全部自行制作。无需iframe，不复制原站每日形状或代码。",
+      "mvp": [
+        "三角形、矩形及5–8顶点凸形；拖动预览切线，提交后显示两侧百分比",
+        "Unlimited练习、难度选择、自有UTC每日题；首刀成绩与最佳成绩分开",
+        "本地统计、重玩、结果分享、触屏与键盘切线控制；无登录"
+      ],
+      "differentiation": "验证“按形状/难度反复训练 + 切线误差解释”是否比只玩每日题更有用。此为产品假设，不声称原站没有练习。",
+      "seo": {
+        "primary": "cutle",
+        "variants": [
+          "cutle game",
+          "cutle unlimited",
+          "cutle practice",
+          "play cutle",
+          "cutle online"
+        ],
+        "title": "Cutle Unlimited – Play the Shape Cutting Game",
+        "pages": [
+          [
+            "/",
+            "可玩主词页，承接game/unlimited/practice/online，默认可立即练习"
+          ],
+          [
+            "/how-to-play/",
+            "直线切割、比例判定与实际操作示例"
+          ],
+          [
+            "/strategy/",
+            "用自绘形状讲切线与面积；有实质示例才发布"
+          ]
+        ]
+      },
+      "tasks": [
+        [
+          "ENGINE",
+          "完成凸形生成、裁剪和比例计算",
+          "随机样本两侧面积守恒；50:50及48:52边界、切过顶点、未穿过图形、零长度拖动均正确"
+        ],
+        [
+          "PLAY",
+          "完成练习/每日/统计与输入",
+          "连续玩10局；重置、刷新、UTC跨日、触屏和键盘操作有效；首刀与最佳值不混淆"
+        ],
+        [
+          "CONTENT",
+          "完成规则与策略示例",
+          "说明本网站题目与规则版本；不输出原站今日答案或抄原图"
+        ]
+      ],
+      "status": "planned; not built, bought or deployed",
+      "metric": {
+        "keyword": "cutle",
+        "volume": 12100,
+        "kd": 8,
+        "market": "US",
+        "source": "User-provided Semrush mirror; modeled, not independently official-verified",
+        "observedAt": "2026-10-24T10:10:11.285Z",
+        "file": "../2026-10-24-keyword-opportunities/raw/semrush-bulk-08.json"
+      },
+      "trend": {
+        "first4": 0,
+        "last4": 7.75,
+        "file": "../2026-10-24-keyword-opportunities/raw/trends-15.json",
+        "url": "https://trends.google.com/trends/explore?geo=US&q=cutle,horsle,metazooa,poetl,maptap&hl=en"
+      },
+      "serpFile": "../2026-10-24-keyword-opportunities/raw/semrush-serp-cutle.json",
+      "domains": [
+        {
+          "domain": "cutleunlimited.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        },
+        {
+          "domain": "playcutle.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        },
+        {
+          "domain": "cutlepractice.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        }
+      ]
+    },
+    {
+      "id": "POO",
+      "slug": "poople",
+      "name": "Poople",
+      "rank": 2,
+      "cohort": "P0 · 首批",
+      "route": "自研 + 公有领域词库",
+      "buildConfidence": "高",
+      "seoConfidence": "中",
+      "days": [
+        4,
+        5
+      ],
+      "domain": "pooplepractice.com",
+      "alternatives": [
+        "pooplegameplay.com",
+        "playpoople.net"
+      ],
+      "decision": "增长信号强、玩法可独立实现；先验证词库体验，避免把未授权第三方仓库当开源成品。",
+      "serp": "实际Google确认原站和pooplegame.com在前列，也有playdaily的Unlimited入口。pooplegame.com/unlimited页面已有练习、最短路par和Solver链接，且称无限练习不保存。本站只把按难度训练、本地练习历史及分层提示作为待测差异，不宣称Unlimited/Solver为空位。",
+      "sources": [
+        {
+          "title": "原站玩法",
+          "url": "https://poople.io/",
+          "note": "浏览器规则确认：四字母英文词，每次只换一个字母，向POOP转换，追求少步数。"
+        },
+        {
+          "title": "当前练习竞品",
+          "url": "https://pooplegame.com/unlimited",
+          "note": "已存在无限练习及Solver入口；页面称练习不保存，本地练习历史仅作拟验证差异。"
+        },
+        {
+          "title": "第三方参考仓库",
+          "url": "https://github.com/poople-game/poople-game",
+          "note": "README仅称源码供参考，游戏内容归Poople；没有确认可商用开源许可，不能直接部署。"
+        },
+        {
+          "title": "候选词库许可",
+          "url": "https://github.com/dwyl/english-words/blob/master/LICENSE.md",
+          "note": "Unlicense，公有领域献出文本；商业使用可行。锁定版本、保留许可记录并另行清洗词表。"
+        }
+      ],
+      "implementation": "TypeScript词图 + BFS求最短路径，词库离线打包。独立整理常见四字母词、建立连通分量，只抽取能到POOP的起点。自有每日seed，与原站题库无同步关系。",
+      "mvp": [
+        "四字母输入、一字母合法替换、已用词和非法词反馈",
+        "无限练习、自有每日题、按最短步数分难度、本地练习历史与错题重练",
+        "分层提示（先给可改字母位置，再按需给下一词）；终局显示本词库的一条最短路径"
+      ],
+      "differentiation": "核心是“可解释的字梯训练”，不是复制官方每日答案。上线前人工检查常用词、冷僻词、敏感词和误收词。",
+      "seo": {
+        "primary": "poople",
+        "variants": [
+          "poople game",
+          "poople unlimited",
+          "poople practice",
+          "poople hints",
+          "poople solver"
+        ],
+        "title": "Poople Practice – Play Unlimited Word Ladder Puzzles",
+        "pages": [
+          [
+            "/",
+            "可玩主词页，整合game/unlimited/practice"
+          ],
+          [
+            "/how-to-play/",
+            "用自行生成的字梯示例说明规则"
+          ],
+          [
+            "/solver/",
+            "第二阶段真正可用的BFS工具；标明只适用于本站词库，不宣称能还原官方今日答案"
+          ]
+        ]
+      },
+      "tasks": [
+        [
+          "WORDS",
+          "整理可用词库和许可清单",
+          "固定词库版本；仅四字母；POOP在词表；每个选中起点可达；抽样人工复查至少100个入选词"
+        ],
+        [
+          "ENGINE",
+          "实现图搜索与挑战状态",
+          "合法步Hamming距离=1；非法词不推进；BFS最短步数已知样例正确；不可达起点被剔除"
+        ],
+        [
+          "PLAY",
+          "完成难度/提示/每日与结果",
+          "10局完整流程、连续重复输入、提示与最短路径一致；UTC跨日和刷新不重复计数"
+        ]
+      ],
+      "status": "planned; not built, bought or deployed",
+      "metric": {
+        "keyword": "poople",
+        "volume": 33100,
+        "kd": 26,
+        "market": "US",
+        "source": "User-provided Semrush mirror; modeled, not independently official-verified",
+        "observedAt": "2026-10-24T10:10:11.285Z",
+        "file": "../2026-10-24-keyword-opportunities/raw/semrush-bulk-08.json"
+      },
+      "trend": {
+        "first4": 0,
+        "last4": 63.25,
+        "file": "../2026-10-24-keyword-opportunities/raw/trends-14.json",
+        "url": "https://trends.google.com/trends/explore?geo=US&q=spotle,scrandle,songless,colordle,poople&hl=en"
+      },
+      "serpFile": "../2026-10-24-keyword-opportunities/raw/semrush-serp-poople.json",
+      "domains": [
+        {
+          "domain": "pooplepractice.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        },
+        {
+          "domain": "pooplegameplay.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        },
+        {
+          "domain": "playpoople.net",
+          "available": true,
+          "years": 1,
+          "price": 13.5,
+          "renewalPrice": 13.5,
+          "premium": false
+        }
+      ]
+    },
+    {
+      "id": "COL",
+      "slug": "colordle",
+      "name": "Colordle",
+      "rank": 3,
+      "cohort": "P0 · 首批",
+      "route": "自研 + MIT颜色数据",
+      "buildConfidence": "高",
+      "seoConfidence": "中偏低",
+      "days": [
+        3,
+        4
+      ],
+      "domain": "colordleunlimited.com",
+      "alternatives": [
+        "playcolordle.com",
+        "colordlepractice.com"
+      ],
+      "decision": "零图片/音频依赖，许可明确的数据可用，适合低成本补充实验；同名玩法混杂使SEO确定性弱于开发确定性。",
+      "serp": "实际Google确认Ryan颜色名原站和colordle.com十六进制版在前列，也混入Colorfle/MATLAB及其他颜色游戏。必须围绕颜色名猜测意图，不把74,000全部算作这一玩法可争取份额。",
+      "sources": [
+        {
+          "title": "本次目标原站",
+          "url": "https://colordle.ryantanen.com/",
+          "note": "浏览器帮助确认颜色名输入、百分比反馈、每日颜色，数据链接meodai/color-names。未确认原游戏代码许可。"
+        },
+        {
+          "title": "颜色名数据MIT许可",
+          "url": "https://github.com/meodai/color-names/blob/master/LICENSE",
+          "note": "MIT，David Aerne；可使用数据，保留版权及许可。"
+        },
+        {
+          "title": "另一个MIT版本",
+          "url": "https://github.com/hobgoblina/colordle",
+          "note": "README/LICENSE可用，但React17/旧CRA，玩法是另一类Wordle式输入；App含反嵌入检查。不是目标原版直接部署包。"
+        },
+        {
+          "title": "BSD版差异",
+          "url": "https://github.com/weber1158/colordle",
+          "note": "BSD-3-Clause已见，但为MATLAB十六进制猜色应用，不是网页可直接部署源。"
+        }
+      ],
+      "implementation": "独立颜色匹配逻辑 + MIT颜色名快照。MVP用明确公开的RGB距离归一化分数；相同颜色100%，越接近分数越高。它是本站评分，不能声称复现原站算法。颜色名别名和重复色值先规范化。",
+      "mvp": [
+        "颜色名搜索、输入与猜测历史；本网站百分比评分",
+        "Unlimited、自有每日色、本地统计与结果分享",
+        "文字分数、可见焦点、文字状态反馈；不只靠色块区分结果"
+      ],
+      "differentiation": "测试“颜色名可搜索 + 训练难度 + 终局解释颜色关系”，并明确本站独立题目。原站既有功能不能当作未经核实的缺口。",
+      "seo": {
+        "primary": "colordle",
+        "variants": [
+          "colordle game",
+          "colordle unlimited",
+          "colordle practice",
+          "color guessing game",
+          "colordle color names"
+        ],
+        "title": "Colordle Unlimited – Guess the Color by Name",
+        "pages": [
+          [
+            "/",
+            "明确Guess the color by name，承接主词和无限练习"
+          ],
+          [
+            "/how-to-play/",
+            "本站评分方法、颜色名与操作"
+          ],
+          [
+            "/color-guide/",
+            "第二阶段提供真实可用的颜色名/色值查询，避免无内容的一色一页"
+          ]
+        ]
+      },
+      "tasks": [
+        [
+          "DATA",
+          "处理MIT颜色数据",
+          "锁定版本与许可；处理别名/重复RGB/无效值；候选目标能被有效输入"
+        ],
+        [
+          "ENGINE",
+          "实现评分与独立题目",
+          "相同颜色100%；分数有界且确定；每日跨时区一致；不虚称原版百分比兼容"
+        ],
+        [
+          "PLAY",
+          "完成输入、反馈与无障碍",
+          "键盘搜索选色、猜测、重玩；色块和文字共同反馈；10局完整流程无状态错误"
+        ]
+      ],
+      "status": "planned; not built, bought or deployed",
+      "metric": {
+        "keyword": "colordle",
+        "volume": 74000,
+        "kd": 25,
+        "market": "US",
+        "source": "User-provided Semrush mirror; modeled, not independently official-verified",
+        "observedAt": "2026-10-24T10:10:11.285Z",
+        "file": "../2026-10-24-keyword-opportunities/raw/semrush-bulk-08.json"
+      },
+      "trend": {
+        "first4": 6,
+        "last4": 6,
+        "file": "../2026-10-24-keyword-opportunities/raw/trends-14.json",
+        "url": "https://trends.google.com/trends/explore?geo=US&q=spotle,scrandle,songless,colordle,poople&hl=en"
+      },
+      "serpFile": "../2026-10-24-keyword-opportunities/raw/semrush-serp-colordle.json",
+      "domains": [
+        {
+          "domain": "colordleunlimited.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        },
+        {
+          "domain": "playcolordle.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        },
+        {
+          "domain": "colordlepractice.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        }
+      ]
+    },
+    {
+      "id": "MET",
+      "slug": "metazooa",
+      "name": "Metazooa",
+      "rank": 4,
+      "cohort": "P1 · 第二批",
+      "route": "条件自研：先完成分类数据审查",
+      "buildConfidence": "中",
+      "seoConfidence": "中",
+      "days": [
+        6,
+        9
+      ],
+      "domain": "metazooapractice.com",
+      "alternatives": [
+        "playmetazooa.com",
+        "metazooaunlimited.com"
+      ],
+      "decision": "需求方向较好；主要成本在可信分类树与动物别名，不是页面。数据包通过审查后才进入开发。",
+      "serp": "原站引用域多、前列也有目录和解释页；可以测试练习/学习意图，但不能按KD23推定能替代原站每日游戏。",
+      "sources": [
+        {
+          "title": "原站FAQ",
+          "url": "https://metazooa.com/faq",
+          "note": "确认基于NCBI分类，并非直接使用Wikipedia树。"
+        },
+        {
+          "title": "官方翻译仓库",
+          "url": "https://github.com/the-abe-train/metazooa-translations",
+          "note": "公开翻译不等于完整游戏代码。LICENSE和其引用的twl-monorepo源码请求未取得可用文件；不推断仓库私有或授予分发权。"
+        },
+        {
+          "title": "MIT工具而非网页游戏",
+          "url": "https://github.com/harrison-barnes/metazooa",
+          "note": "Python分析/抓取/模拟工具；不是开源网页成品，不继承其抓取的原站清单。"
+        },
+        {
+          "title": "NCBI政策",
+          "url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+          "note": "政府制作信息有公有领域说明，同时提示第三方内容和数据限制；具体taxonomy下载包声明仍需核验，不能一概宣布全部NCBI数据无约束。"
+        },
+        {
+          "title": "可替代结构化数据许可",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+          "note": "Wikidata结构化命名空间为CC0；其他文字及图片不自动CC0。如改用此数据，应以自有分类规则说明，不声称原站一致。"
+        }
+      ],
+      "implementation": "自建精选动物列表+taxon ID映射+最近共同祖先LCA；优先核查NCBI taxonomy包，再固定版本。若使用Wikidata CC0自行整理，需独立校验分类一致性。MVP无动物照片、不抓取原站私有题库。",
+      "mvp": [
+        "先100–200种常见动物和英文别名，经人工抽样检查",
+        "20次猜测、共同分类节点提示、可解释的分类路径",
+        "Unlimited、自有每日题、本地进度；不承诺同步原站答案"
+      ],
+      "differentiation": "用清楚的分类树解释每一步为什么更近，试验教育练习价值；没有授权的数据包则保持待办。",
+      "seo": {
+        "primary": "metazooa",
+        "variants": [
+          "metazooa game",
+          "metazooa unlimited",
+          "metazooa practice",
+          "metazooa hints",
+          "animal taxonomy game"
+        ],
+        "title": "Metazooa Practice – Animal Taxonomy Guessing Game",
+        "pages": [
+          [
+            "/",
+            "练习玩法，显著说明本站数据/规则版本"
+          ],
+          [
+            "/how-to-play/",
+            "分类关系与20次猜测规则"
+          ],
+          [
+            "/taxonomy-guide/",
+            "真实数据对应的分类树和策略，不铺空动物详情页"
+          ]
+        ]
+      },
+      "tasks": [
+        [
+          "DATA",
+          "通过数据许可和分类样本门槛",
+          "保存包声明/版本/来源；100–200动物无缺失父节点、无环；别名唯一映射；人工复核至少30组LCA"
+        ],
+        [
+          "ENGINE",
+          "实现LCA、提示与猜测规则",
+          "已知分类对结果正确；同种、重复、无效输入、20次上限、跨日可恢复"
+        ],
+        [
+          "PLAY",
+          "完成树解释与练习",
+          "在无需图片/API的情况下完整玩10局；不把本站每日解答写成官方答案"
+        ]
+      ],
+      "status": "planned; not built, bought or deployed",
+      "metric": {
+        "keyword": "metazooa",
+        "volume": 12100,
+        "kd": 23,
+        "market": "US",
+        "source": "User-provided Semrush mirror; modeled, not independently official-verified",
+        "observedAt": "2026-10-24T10:10:55.794Z",
+        "file": "../2026-10-24-keyword-opportunities/raw/semrush-bulk-09.json"
+      },
+      "trend": {
+        "first4": 6,
+        "last4": 14,
+        "file": "../2026-10-24-keyword-opportunities/raw/trends-15.json",
+        "url": "https://trends.google.com/trends/explore?geo=US&q=cutle,horsle,metazooa,poetl,maptap&hl=en"
+      },
+      "serpFile": "../2026-10-24-keyword-opportunities/raw/semrush-serp-metazooa.json",
+      "domains": [
+        {
+          "domain": "metazooapractice.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        },
+        {
+          "domain": "playmetazooa.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        },
+        {
+          "domain": "metazooaunlimited.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        }
+      ]
+    },
+    {
+      "id": "TRA",
+      "slug": "travle",
+      "name": "Travle",
+      "rank": 5,
+      "cohort": "P1 · 第二批",
+      "route": "自研 + 公有领域地图",
+      "buildConfidence": "中偏高",
+      "seoConfidence": "中",
+      "days": [
+        5,
+        7
+      ],
+      "domain": "travleunlimited.com",
+      "alternatives": [
+        "playtravle.com",
+        "travlepractice.com"
+      ],
+      "decision": "KD31属于放宽档；玩法和本地地图均可掌控，可在首批表现合格后做，不受第三方iframe持续供给影响。",
+      "serp": "原站及旧版页面在前列，也存在travle拼写带来的非游戏内容；聚焦国家连线路径游戏，避免把travel旅游词作为变体铺页。",
+      "sources": [
+        {
+          "title": "原站",
+          "url": "https://travle.earth/",
+          "note": "国家路径猜谜；原站每日题不复制。"
+        },
+        {
+          "title": "旧版入口",
+          "url": "https://imois.in/games/travle/",
+          "note": "作为玩法核验入口；未确认可直接部署的完整开源许可。"
+        },
+        {
+          "title": "Natural Earth官方使用条款",
+          "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+          "note": "矢量/栅格地图公有领域，可商用修改；适合离线SVG底图。国家邻接仍需单独整理。"
+        }
+      ],
+      "implementation": "本地简化SVG地图+自建国家邻接图+BFS最短路；使用Natural Earth数据快照。陆地边界、飞地、海峡/岛屿连接须写明自己的规则，不能仅靠多边形相交自动认定。",
+      "mvp": [
+        "给定起终点，输入相邻国家完成路径；国名搜索/英文别名",
+        "可达难度分组、Unlimited与自有每日题",
+        "终局最短路解释和地图高亮；无地图服务账号与计费依赖"
+      ],
+      "differentiation": "按地区/步数训练和清楚的边界规则是待验证价值；不把unlimited当作已证明竞争空位。",
+      "seo": {
+        "primary": "travle",
+        "variants": [
+          "travle game",
+          "travle unlimited",
+          "travle practice",
+          "travle geography game",
+          "travle hints"
+        ],
+        "title": "Travle Unlimited – Play the Country Path Game",
+        "pages": [
+          [
+            "/",
+            "可玩的国家路径游戏，合并unlimited/practice"
+          ],
+          [
+            "/how-to-play/",
+            "陆地邻接、岛屿和特殊连接规则"
+          ],
+          [
+            "/strategy/",
+            "用本地图的真实路线解释；不伪造官方每日解答"
+          ]
+        ]
+      },
+      "tasks": [
+        [
+          "MAP",
+          "整理地图与邻接规则",
+          "锁定Natural Earth版本；邻接无意外单向边；特殊连接清单可见；抽样50对边界人工核验"
+        ],
+        [
+          "ENGINE",
+          "完成BFS与出题",
+          "起终点可达且不同；最短距离正确；非法边不推进；有多条最短路时均接受"
+        ],
+        [
+          "PLAY",
+          "完成SVG交互与国名输入",
+          "小屏搜索不遮挡状态；键盘完成一局；结果路线与图一致；10局完整流程"
+        ]
+      ],
+      "status": "planned; not built, bought or deployed",
+      "metric": {
+        "keyword": "travle",
+        "volume": 40500,
+        "kd": 31,
+        "market": "US",
+        "source": "User-provided Semrush mirror; modeled, not independently official-verified",
+        "observedAt": "2026-10-24T10:08:28.640Z",
+        "file": "../2026-10-24-keyword-opportunities/raw/semrush-bulk-07.json"
+      },
+      "trend": {
+        "first4": 10.25,
+        "last4": 16.75,
+        "file": "../2026-10-24-keyword-opportunities/raw/trends-13.json",
+        "url": "https://trends.google.com/trends/explore?geo=US&q=travle,flagle,globle,worldle,word%20hurdle&hl=en"
+      },
+      "serpFile": "../2026-10-24-keyword-opportunities/raw/semrush-serp-travle.json",
+      "domains": [
+        {
+          "domain": "travleunlimited.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        },
+        {
+          "domain": "playtravle.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        },
+        {
+          "domain": "travlepractice.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        }
+      ]
+    },
+    {
+      "id": "SPO",
+      "slug": "spotle",
+      "name": "Spotle",
+      "rank": 6,
+      "cohort": "P2 · 条件队列",
+      "route": "条件自研：音乐人元数据先行",
+      "buildConfidence": "中偏低",
+      "seoConfidence": "中",
+      "days": null,
+      "domain": "spotlepractice.com",
+      "alternatives": [
+        "playspotle.com"
+      ],
+      "decision": "量和趋势均值得保留；先解决可长期维护的艺人属性数据。不是直接下载Spotify内容后上线。",
+      "serp": "原站、提示答案媒体和同名不同玩法并存；先明确音乐人猜测意图，unlimited并非自动空位。",
+      "sources": [
+        {
+          "title": "原站",
+          "url": "https://spotle.io/",
+          "note": "艺人猜测玩法；代码、照片及数据集的商用来源仍待核验。"
+        }
+      ],
+      "implementation": "拟自研艺人属性猜谜，先验证合法可用的元数据来源/更新方式；MVP可不含音频与头像。若无法满足玩家识别需求则暂缓，不抓取受限服务。",
+      "mvp": [
+        "定义字段与缺失值处理",
+        "小规模艺人集验证可玩性",
+        "真实字段反馈与自有每日题"
+      ],
+      "differentiation": "数据许可、覆盖度、更新成本及小样本试玩通过后再估工期。",
+      "seo": {
+        "primary": "spotle",
+        "variants": [
+          "spotle game",
+          "spotle unlimited",
+          "spotle practice",
+          "music artist guessing game"
+        ],
+        "title": "Spotle Practice – Music Artist Guessing Game",
+        "pages": [
+          [
+            "/",
+            "音乐人猜测；不混入电影或其他Spotle"
+          ],
+          [
+            "/how-to-play/",
+            "只解释实际实现的字段"
+          ]
+        ]
+      },
+      "tasks": [
+        [
+          "GATE",
+          "核查数据与产品可行性",
+          "字段/数据/头像分别有来源与许可；完成可玩原型；原站名称使用范围完成审查后再排开发"
+        ]
+      ],
+      "status": "planned; not built, bought or deployed",
+      "metric": {
+        "keyword": "spotle",
+        "volume": 110000,
+        "kd": 23,
+        "market": "US",
+        "source": "User-provided Semrush mirror; modeled, not independently official-verified",
+        "observedAt": "2026-10-24T10:10:55.794Z",
+        "file": "../2026-10-24-keyword-opportunities/raw/semrush-bulk-09.json"
+      },
+      "trend": {
+        "first4": 5.25,
+        "last4": 21,
+        "file": "../2026-10-24-keyword-opportunities/raw/trends-14.json",
+        "url": "https://trends.google.com/trends/explore?geo=US&q=spotle,scrandle,songless,colordle,poople&hl=en"
+      },
+      "serpFile": "../2026-10-24-keyword-opportunities/raw/semrush-serp-spotle.json",
+      "domains": [
+        {
+          "domain": "spotlepractice.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        },
+        {
+          "domain": "playspotle.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        }
+      ]
+    },
+    {
+      "id": "ROA",
+      "slug": "traffic-road",
+      "name": "Traffic Road",
+      "rank": 7,
+      "cohort": "P2 · 授权后可前移",
+      "route": "授权iframe",
+      "buildConfidence": "取决于授权及触屏",
+      "seoConfidence": "中",
+      "days": null,
+      "domain": "playtrafficroad.com",
+      "alternatives": [
+        "trafficroadunblocked.com"
+      ],
+      "decision": "若取得适用本站域名和变现方式的嵌入许可，可提前；目前未取得，不算随时可上的站。",
+      "serp": "镜像中门户/分站较多，也混入通用traffic内容；真实产品是3D第一人称摩托，不以简易2D自研替代承接同一搜索意图。",
+      "sources": [
+        {
+          "title": "游戏说明",
+          "url": "https://azgames.io/traffic-road",
+          "note": "四模式3D摩托游戏；HTTP页面出现traffic-road.embed地址，仅证明技术入口。"
+        },
+        {
+          "title": "AZ条款",
+          "url": "https://azgames.io/term-of-use",
+          "note": "只明示个人非商业材料访问，复制/修改/分发等需事先书面许可；未找到可覆盖本站商业嵌入的授权。"
+        }
+      ],
+      "implementation": "只考虑权利方允许的iframe/feed；确认域名、广告、分成、退出/下架及可用性约束，再验证frame/CSP、保存、重启、横竖屏和触屏。授权未到位不镜像包、不替换广告。",
+      "mvp": [
+        "原版完整游戏嵌入",
+        "准确的控制/模式说明",
+        "加载失败/全屏/焦点与返回处理"
+      ],
+      "differentiation": "授权条件成立后再做稳定加载、清晰控制和移动体验；并不保证学校/公司网络可访问。",
+      "seo": {
+        "primary": "traffic road",
+        "variants": [
+          "traffic road game",
+          "traffic road online",
+          "play traffic road",
+          "traffic road unblocked"
+        ],
+        "title": "Traffic Road – Play the Motorcycle Driving Game",
+        "pages": [
+          [
+            "/",
+            "主词及online整合一个真实可玩入口；unblocked不另开重复页"
+          ],
+          [
+            "/controls/",
+            "按获授权版本实际验证的控制与模式"
+          ]
+        ]
+      },
+      "tasks": [
+        [
+          "RIGHTS",
+          "获取适用域名和变现方式的许可",
+          "保存明确授权范围与条款；不以iframe地址可访问代替授权；本轮未联系/发信"
+        ],
+        [
+          "FRAME",
+          "许可后验证完整游戏",
+          "真实最终域名可加载；桌面/触屏各完整游玩；CSP/广告/失败状态与条款一致"
+        ]
+      ],
+      "status": "planned; not built, bought or deployed",
+      "metric": {
+        "keyword": "traffic road",
+        "volume": 14800,
+        "kd": 29,
+        "market": "US",
+        "source": "User-provided Semrush mirror; modeled, not independently official-verified",
+        "observedAt": "2026-10-24T09:56:55.209Z",
+        "file": "../2026-10-24-keyword-opportunities/raw/semrush-bulk-06.json"
+      },
+      "trend": {
+        "first4": 37.5,
+        "last4": 33.5,
+        "file": "../2026-10-24-keyword-opportunities/raw/trends-12.json",
+        "url": "https://trends.google.com/trends/explore?geo=US&q=kart%20bros,curve%20rush%202,traffic%20road,wave%20rider,2v2io&hl=en"
+      },
+      "serpFile": "../2026-10-24-keyword-opportunities/raw/semrush-serp-traffic-road.json",
+      "domains": [
+        {
+          "domain": "playtrafficroad.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        },
+        {
+          "domain": "trafficroadunblocked.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        }
+      ]
+    },
+    {
+      "id": "MAP",
+      "slug": "maptap",
+      "name": "Maptap",
+      "rank": 8,
+      "cohort": "P2 · 待差异化验证",
+      "route": "条件自研地图定位",
+      "buildConfidence": "中偏低",
+      "seoConfidence": "中",
+      "days": null,
+      "domain": "playmaptap.com",
+      "alternatives": [
+        "maptappractice.com"
+      ],
+      "decision": "增长强但开发/内容成本较高，原站产品也成熟；先做区别于现有Practice的具体题型验证。",
+      "serp": "原站、应用商店和媒体占据较强位置；浏览器已确认原站有Practice/Prior Days/Player-Made Levels，不能以这些功能作为缺口。",
+      "sources": [
+        {
+          "title": "原站菜单",
+          "url": "https://maptap.gg/",
+          "note": "Chrome核验Practice Levels、Prior Days、玩家关卡、Atlas、Groups、Versus等。"
+        },
+        {
+          "title": "地图底图候选",
+          "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+          "note": "仅解决底图，不等于地点题库/图片/原站游戏代码许可。"
+        }
+      ],
+      "implementation": "拟自研地图定位与距离评分；离线地图+独立整理地点事实。地图精度、地点命名、移动缩放和题目成本先做小样。没有获准iframe源。",
+      "mvp": [
+        "先定义一种可验证的定位题型",
+        "用自行整理的少量题测定位/距离分数",
+        "不包含未实现的全球对战/UGC"
+      ],
+      "differentiation": "只有完成玩家对照试玩、证明具体题型价值后才排期。",
+      "seo": {
+        "primary": "maptap",
+        "variants": [
+          "maptap game",
+          "map tap",
+          "maptap practice",
+          "maptap geography game"
+        ],
+        "title": "Maptap Practice – Geography Location Challenges",
+        "pages": [
+          [
+            "/",
+            "maptap与map tap同一意图归一页，不叠加量"
+          ],
+          [
+            "/how-to-play/",
+            "实际定位/评分规则"
+          ]
+        ]
+      },
+      "tasks": [
+        [
+          "GATE",
+          "验证题型与数据成本",
+          "记录原站已有功能；完成自有题小样与地图移动体验；找不到实质差异则不建站"
+        ]
+      ],
+      "status": "planned; not built, bought or deployed",
+      "metric": {
+        "keyword": "maptap",
+        "volume": 40500,
+        "kd": 31,
+        "market": "US",
+        "source": "User-provided Semrush mirror; modeled, not independently official-verified",
+        "observedAt": "2026-10-24T10:10:11.285Z",
+        "file": "../2026-10-24-keyword-opportunities/raw/semrush-bulk-08.json"
+      },
+      "trend": {
+        "first4": 0.5,
+        "last4": 80.5,
+        "file": "../2026-10-24-keyword-opportunities/raw/trends-15.json",
+        "url": "https://trends.google.com/trends/explore?geo=US&q=cutle,horsle,metazooa,poetl,maptap&hl=en"
+      },
+      "serpFile": "../2026-10-24-keyword-opportunities/raw/semrush-serp-maptap.json",
+      "domains": [
+        {
+          "domain": "playmaptap.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        },
+        {
+          "domain": "maptappractice.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        }
+      ]
+    },
+    {
+      "id": "SCR",
+      "slug": "scrandle",
+      "name": "Scrandle",
+      "rank": 9,
+      "cohort": "P2 · 待玩法/素材审计",
+      "route": "待核验：授权iframe优先，或合规素材自研",
+      "buildConfidence": "低",
+      "seoConfidence": "中偏低",
+      "days": null,
+      "domain": "playscrandle.com",
+      "alternatives": [],
+      "decision": "KD15不足以抵消规则、素材和长期内容来源未核验的问题；只保留审计任务。",
+      "serp": "原站、多个成熟分站及视频并存；趋势首末四周相近，不能称为近期爆发。",
+      "sources": [
+        {
+          "title": "原站入口",
+          "url": "https://scrandle.com/",
+          "note": "HTTP入口可访问，未完成完整实际游戏和素材来源核验。"
+        }
+      ],
+      "implementation": "先完成真实玩法与每类素材的权利来源清单。可授权feed则iframe；有独立可商用数据/素材才评估自研。没有条件前不指定为开源部署。",
+      "mvp": [
+        "先做实际玩法审计",
+        "确认持续出题/素材来源",
+        "再选iframe或自研"
+      ],
+      "differentiation": "尚未证明可实施差异，域名仅候选。",
+      "seo": {
+        "primary": "scrandle",
+        "variants": [
+          "scrandle game",
+          "play scrandle",
+          "scrandle practice"
+        ],
+        "title": null,
+        "pages": [
+          [
+            "/",
+            "待实际玩法与来源确认后决定定位"
+          ]
+        ]
+      },
+      "tasks": [
+        [
+          "GATE",
+          "审计实际玩法、内容及许可",
+          "完成一局记录、资产/数据清单、授权范围和成本，再决定是否开发"
+        ]
+      ],
+      "status": "planned; not built, bought or deployed",
+      "metric": {
+        "keyword": "scrandle",
+        "volume": 90500,
+        "kd": 15,
+        "market": "US",
+        "source": "User-provided Semrush mirror; modeled, not independently official-verified",
+        "observedAt": "2026-10-24T10:10:55.794Z",
+        "file": "../2026-10-24-keyword-opportunities/raw/semrush-bulk-09.json"
+      },
+      "trend": {
+        "first4": 3.5,
+        "last4": 3.5,
+        "file": "../2026-10-24-keyword-opportunities/raw/trends-14.json",
+        "url": "https://trends.google.com/trends/explore?geo=US&q=spotle,scrandle,songless,colordle,poople&hl=en"
+      },
+      "serpFile": "../2026-10-24-keyword-opportunities/raw/semrush-serp-scrandle.json",
+      "domains": [
+        {
+          "domain": "playscrandle.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        }
+      ]
+    },
+    {
+      "id": "SON",
+      "slug": "songless",
+      "name": "Songless",
+      "rank": 10,
+      "cohort": "P2 · 音频许可阻塞",
+      "route": "授权iframe或取得音频许可后自研",
+      "buildConfidence": "低",
+      "seoConfidence": "中",
+      "days": null,
+      "domain": "songlesspractice.com",
+      "alternatives": [],
+      "decision": "需求不错，但音频的长期分发/播放许可是先决条件；不从流媒体提取短片段当免费素材。",
+      "serp": "官方、成熟分站、应用以及现有unlimited页面已存在；仅加无限模式不是已验证的优势。",
+      "sources": [
+        {
+          "title": "原站",
+          "url": "https://lessgames.com/songless",
+          "note": "歌曲识别方向；音频许可、具体供给与嵌入授权未核验。"
+        }
+      ],
+      "implementation": "首先核查权利方是否提供可商用嵌入/音频方案。若没有授权内容，降为观察，不以陌生开源壳套商业录音。",
+      "mvp": [
+        "许可内容/地区/时长/广告范围先明确",
+        "获得许可后再实现播放和判题",
+        "处理触屏自动播放限制与无声错误"
+      ],
+      "differentiation": "成本和许可确定后才估工期，暂不开发。",
+      "seo": {
+        "primary": "songless",
+        "variants": [
+          "songless game",
+          "songless unlimited",
+          "songless practice"
+        ],
+        "title": null,
+        "pages": [
+          [
+            "/",
+            "获准后才建真实歌曲猜测页，不发布空内容站"
+          ]
+        ]
+      },
+      "tasks": [
+        [
+          "RIGHTS",
+          "确认音频或嵌入许可",
+          "内容、地区、再分发/播放、广告和费用均有证据；无许可则持续暂缓"
+        ]
+      ],
+      "status": "planned; not built, bought or deployed",
+      "metric": {
+        "keyword": "songless",
+        "volume": 74000,
+        "kd": 21,
+        "market": "US",
+        "source": "User-provided Semrush mirror; modeled, not independently official-verified",
+        "observedAt": "2026-10-24T10:10:55.794Z",
+        "file": "../2026-10-24-keyword-opportunities/raw/semrush-bulk-09.json"
+      },
+      "trend": {
+        "first4": 4,
+        "last4": 18.5,
+        "file": "../2026-10-24-keyword-opportunities/raw/trends-14.json",
+        "url": "https://trends.google.com/trends/explore?geo=US&q=spotle,scrandle,songless,colordle,poople&hl=en"
+      },
+      "serpFile": "../2026-10-24-keyword-opportunities/raw/semrush-serp-songless.json",
+      "domains": [
+        {
+          "domain": "songlesspractice.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        }
+      ]
+    },
+    {
+      "id": "XTR",
+      "slug": "x-trench-run",
+      "name": "X Trench Run",
+      "rank": 11,
+      "cohort": "HOLD · 不进低成本首批",
+      "route": "商业授权成品自托管；订阅iframe另询价",
+      "buildConfidence": "合同及预算未定",
+      "seoConfidence": "中偏低",
+      "days": null,
+      "domain": "playxtrenchrun.com",
+      "alternatives": [
+        "xtrenchrununblocked.com"
+      ],
+      "decision": "KD9但官方标价5,999美元，趋势也较早期弱；与低成本试站目标不匹配，不购买、不抓包。",
+      "serp": "MathPlayground、CrazyGames及其他游戏站已占位。页面级引用域少不等于竞争弱或可免费分发。",
+      "sources": [
+        {
+          "title": "官方许可产品页",
+          "url": "https://www.marketjs.com/item/x-trench-run/",
+          "note": "页面列VIP Prime 5999 USD、编译成品、单项目/单域名、原样不含定制。"
+        },
+        {
+          "title": "官方买家FAQ",
+          "url": "https://www.marketjs.com/buyer-faq/",
+          "note": "固定费通常交编译文件自托管，订阅交iframe链接；不交原始源码。不能把5999当作已包含订阅iframe的价格。"
+        }
+      ],
+      "implementation": "只有预算和合同通过后才按授权部署编译成品或订阅iframe；这不是“开源部署”。原开发商游戏演示/CDN不等于免费发行许可。",
+      "mvp": [
+        "暂不安排实现"
+      ],
+      "differentiation": "若未来合法供给明显降价或组合成本合理，再重新评估。",
+      "seo": {
+        "primary": "x trench run",
+        "variants": [
+          "x trench run game",
+          "x-trench run",
+          "x trench run online",
+          "x trench run unblocked"
+        ],
+        "title": null,
+        "pages": [
+          [
+            "/",
+            "未来获准时主词/拼写归一页，不做重复unblocked入口"
+          ]
+        ]
+      },
+      "tasks": [
+        [
+          "GATE",
+          "仅在有预算时复核商业授权",
+          "明确合同、交付、域名/广告、总费用后重新决策；本轮不购买/联系供应商"
+        ]
+      ],
+      "status": "planned; not built, bought or deployed",
+      "metric": {
+        "keyword": "x trench run",
+        "volume": 49500,
+        "kd": 9,
+        "market": "US",
+        "source": "User-provided Semrush mirror; modeled, not independently official-verified",
+        "observedAt": "2026-10-24T09:34:12.009Z",
+        "file": "../2026-10-24-keyword-opportunities/raw/semrush-bulk-03.json"
+      },
+      "trend": {
+        "first4": 35.75,
+        "last4": 26.5,
+        "file": "../2026-10-24-keyword-opportunities/raw/trends-09.json",
+        "url": "https://trends.google.com/trends/explore?geo=US&q=dashmetry,x%20trench%20run,color%20rush%20game,boxing%20random,poor%20bunny&hl=en"
+      },
+      "serpFile": "../2026-10-24-keyword-opportunities/raw/semrush-serp-x-trench-run.json",
+      "domains": [
+        {
+          "domain": "playxtrenchrun.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        },
+        {
+          "domain": "xtrenchrununblocked.com",
+          "available": true,
+          "years": 1,
+          "price": 11.25,
+          "renewalPrice": 11.25,
+          "premium": false
+        }
+      ]
+    }
+  ],
+  "commonTasks": [
+    {
+      "id": "G01",
+      "name": "采购前复核名称与域名",
+      "acceptance": "逐站核验名称/商标、域名历史/垃圾内容、最终价格和本人所有权；当前可注册报价不代表名称可自由使用。未通过则更名并重做搜索意图判断。"
+    },
+    {
+      "id": "G02",
+      "name": "独立项目初始化",
+      "acceptance": "执行建站获授权后，在E:/Projects/game-sites/<slug>建立独立私有仓库、锁依赖和许可清单；不在GameHubs新增games目录/嵌套Git。尚无外部资源则不写成已创建。"
+    },
+    {
+      "id": "G03",
+      "name": "静态站与索引配置",
+      "acceptance": "游戏和主要文字可直接访问；唯一H1、准确title/description、最终域名canonical、OG、可见内容对应的schema、robots/sitemap、真实404；预览noindex，最终域名验收后再开放。"
+    },
+    {
+      "id": "G04",
+      "name": "逐站验收",
+      "acceptance": "桌面Chrome/Edge与实际触屏设备完成开始/输入/得分/胜负/重玩；键盘焦点、窄屏、刷新/跨日/存储禁用、无控制台错误和意外外部请求；不能把未测设备记为通过。"
+    },
+    {
+      "id": "G05",
+      "name": "发布与记录",
+      "acceptance": "另行获得域名购买/部署授权后，确认预算和平台限额；每站独立Vercel项目。最终域名HTTPS、www跳转、canonical、索引、完整游戏再验收；把实际repo/project/domain登记到GameHubs，不动现有游戏holds。"
+    },
+    {
+      "id": "G06",
+      "name": "量化观察",
+      "acceptance": "获准后配置GSC与必要统计，记录game_start/complete/replay和自然搜索曝光/点击；无数据标未知。开发中广告关闭，网络批准和政策/隐私/控件距离核验后才启用。"
+    }
+  ],
+  "warnings": [
+    "Mirror metrics are unverified estimates, not guaranteed current official Semrush values",
+    "Trends are normalized; first/last4 complete weeks are directional only; cross-chart values are not comparable",
+    "Proposed keyword variants lack separate Trends/Volume/KD validation unless explicitly noted",
+    "Names/assets are not licensed by an MIT data license or by self-writing code",
+    "Domains were queried, not purchased; quotes are not history/trademark clearance",
+    "No paid provider contacted; no game built or production changed"
+  ]
+}

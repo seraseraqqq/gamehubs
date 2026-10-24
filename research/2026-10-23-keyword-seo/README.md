@@ -1,5 +1,7 @@
 # Coreball + Minute Cryptic Unlimited SEO — 2026-10-23
 
+> 2026-10-24整理注：本报告保留当时结果；相关一次性测试/旧同步脚本已移出管理仓库，不再按文内旧命令复跑。当前质量复查使用仓库根执行 `node management/tools/check-portfolio-seo.mjs --public`，游戏专属测试见各游戏README。
+
 ## Scope and delivery
 
 The owner corrected the second game from Costcodle to orbit-pins, approved keyword-based directory names and explicitly requested no separate public brands. Current paths are `games/coreball` and `games/minute-cryptic-unlimited`. Costcodle is unchanged. Source code module identifiers and browser storage keys remain compatible; these are not public branding.

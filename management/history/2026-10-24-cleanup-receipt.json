@@ -1,0 +1,735 @@
+{
+  "startedAt": "2026-10-24T14:55:00.643Z",
+  "root": "E:/Projects/gamesHub",
+  "trash": "C:\\Users\\Sera\\.rankup\\trash\\gameshub-cleanup-2026-10-24T14-54-05-914Z",
+  "moves": [
+    {
+      "from": "repositories.json",
+      "to": "management/data/repositories.json",
+      "sha256Before": "85d520e55d0527dec0cae07ee244140fe67f4e2a674d6799af286faacf23669e",
+      "sha256After": "85d520e55d0527dec0cae07ee244140fe67f4e2a674d6799af286faacf23669e",
+      "contentUnchanged": true
+    },
+    {
+      "from": "matrix-sites.json",
+      "to": "management/data/matrix-sites.json",
+      "sha256Before": "f01d7070a196632ebfb4c7c8f03b1b9c42f0bd7077f5baac34edeae789d4907e",
+      "sha256After": "f01d7070a196632ebfb4c7c8f03b1b9c42f0bd7077f5baac34edeae789d4907e",
+      "contentUnchanged": true
+    },
+    {
+      "from": "REPOSITORIES.md",
+      "to": "management/REPOSITORIES.md",
+      "sha256Before": "f62c8bfe6b8ce0c5ef6368aa8450b412f3994712a15b296b9c881936f12f01bf",
+      "sha256After": "52518aa59ec6332c3f1e6e22ea3623deaf9e66799ccf996394bf5d8077a2cf87",
+      "contentUnchanged": false
+    },
+    {
+      "from": "DEPLOYMENT_STATUS.md",
+      "to": "management/DEPLOYMENT_STATUS.md",
+      "sha256Before": "eddfc4ae8fc834796ba11eed9c25787a9bef49abb11d6059d4c5bb64388856b3",
+      "sha256After": "a0f3e7e339b6eb3a2a85ce2ec6a03c9061d11acf05fe4a5d35c82c1b1d4d46d1",
+      "contentUnchanged": false
+    },
+    {
+      "from": "NEW_GAME_PROJECTS.md",
+      "to": "management/NEW_GAME_PROJECTS.md",
+      "sha256Before": "12158759b625e189be1720bebbf72541bf158e038acf34b7da3233d13132fde6",
+      "sha256After": "a8ce19f4e6494c778b29be45821e8d9cdd0a737d3636f4de11e88b5f026c5f20",
+      "contentUnchanged": false
+    },
+    {
+      "from": "WORK_PLAN_2026-10-25.md",
+      "to": "management/plans/2026-10-25.md",
+      "sha256Before": "20d0ccb5c3c6789c723a30376437ec9a837bf79e85561895fc35951a902bd10c",
+      "sha256After": "e571d82c9bd7335c6c2f562cec456916745675e194cc2488c2c1e82822d7680e",
+      "contentUnchanged": false
+    },
+    {
+      "from": "REPOSITORY_REFACTOR.md",
+      "to": "management/history/2026-10-24-repository-refactor.md",
+      "sha256Before": "ae5a1622bfdf3414f1c919c214c878e71bd63dd28192f2a0289d7ba44036f971",
+      "sha256After": "ae5a1622bfdf3414f1c919c214c878e71bd63dd28192f2a0289d7ba44036f971",
+      "contentUnchanged": true
+    },
+    {
+      "from": "candidates_discovered.json",
+      "to": "research/2026-10-23-keyword-discovery/candidates_discovered.json",
+      "sha256Before": "b0d0dc7bdb70116958f00e1c62a1c543e70f0c2607081413b4c5d73df57bbf75",
+      "sha256After": "b0d0dc7bdb70116958f00e1c62a1c543e70f0c2607081413b4c5d73df57bbf75",
+      "contentUnchanged": true
+    },
+    {
+      "from": "serp_gap_analysis.json",
+      "to": "research/2026-10-23-keyword-discovery/serp_gap_analysis.json",
+      "sha256Before": "6cb9f591cbdd4126864b6aae310380d17c4b5d479c8a81d53255e9d44f7daf16",
+      "sha256After": "6cb9f591cbdd4126864b6aae310380d17c4b5d479c8a81d53255e9d44f7daf16",
+      "contentUnchanged": true
+    },
+    {
+      "from": "trends_rising.json",
+      "to": "research/2026-10-23-keyword-discovery/trends_rising.json",
+      "sha256Before": "d47c6c8d791ffa10598b4bb667694cb98ffdb58df154066cab551021cea95549",
+      "sha256After": "d47c6c8d791ffa10598b4bb667694cb98ffdb58df154066cab551021cea95549",
+      "contentUnchanged": true
+    },
+    {
+      "from": "trends_verified_results.json",
+      "to": "research/2026-10-23-keyword-discovery/trends_verified_results.json",
+      "sha256Before": "c440c058b06a56881b80ac5a1098313a770ea55a4821c0f61d40493a2e805de9",
+      "sha256After": "c440c058b06a56881b80ac5a1098313a770ea55a4821c0f61d40493a2e805de9",
+      "contentUnchanged": true
+    },
+    {
+      "from": "游戏关键词台账.xlsx",
+      "to": "research/2026-10-23-keyword-discovery/游戏关键词台账.xlsx",
+      "sha256Before": "e22c6dc3beef85d2b5931c16674811376590980e148d5c104e3e4d65a97baeb9",
+      "sha256After": "e22c6dc3beef85d2b5931c16674811376590980e148d5c104e3e4d65a97baeb9",
+      "contentUnchanged": true
+    },
+    {
+      "from": "PRODUCT.md",
+      "to": "games/coreball/PRODUCT.md",
+      "sha256Before": "d04592733a5f1631333c7deb99955a1c89ebf081fd2d4f72ee29438f2acf55b8",
+      "sha256After": "56ebbe3043ddceb4705f16481c78003b532f7f1cd856ca1783e2a0d4dcf9ad2f",
+      "contentUnchanged": false
+    },
+    {
+      "from": "DESIGN.md",
+      "to": "games/coreball/DESIGN.md",
+      "sha256Before": "2f1972a9e69a3bd03ff59c3cc0ed2128a30a05f029d58fe41b9078fd32eb1fcd",
+      "sha256After": "9ed4a1055240233d1655e70e25a6015124c3993a22979a7b9a787e1c10fa615f",
+      "contentUnchanged": false
+    },
+    {
+      "from": ".impeccable/config.json",
+      "to": "games/coreball/.impeccable/config.json",
+      "sha256Before": "f05fbce3fb293f8574c482044125ac45823714a2b1b56bb8232638223aebe8f0",
+      "sha256After": "f05fbce3fb293f8574c482044125ac45823714a2b1b56bb8232638223aebe8f0",
+      "contentUnchanged": true
+    },
+    {
+      "from": ".impeccable/design.json",
+      "to": "games/coreball/.impeccable/design.json",
+      "sha256Before": "13da874dd4402d67f8c796ecb474731e90adc91889e2cc3d5fc7f16d02bb9e22",
+      "sha256After": "d2a0d376b75aca06251bf1ad2edc78dba016c96c693a8a0492d829f65f912db4",
+      "contentUnchanged": false
+    },
+    {
+      "from": ".impeccable/surfaces/games-coreball-index-html.md",
+      "to": "games/coreball/.impeccable/surfaces/index-html.md",
+      "sha256Before": "3a419b0479be8948cca22477a8ae1980e471a02b804af05e77f57a71c4c13b74",
+      "sha256After": "0767d78ac059949ba75819711b4378abd8fcc6d8fd928863e06c4424d4cc2a91",
+      "contentUnchanged": false
+    },
+    {
+      "from": "scripts/check-portfolio-seo.mjs",
+      "to": "management/tools/check-portfolio-seo.mjs",
+      "sha256Before": "d513d373b0161ba5fa8e3af540bf75d957561fbb8d8fcab87936c8ad4b525b95",
+      "sha256After": "cab810028b54b3779779a269ddafc21a0d1e30d40018a9892e69022030a15200",
+      "contentUnchanged": false
+    },
+    {
+      "from": "scripts/prepare-standalone.mjs",
+      "to": "management/tools/prepare-standalone.mjs",
+      "sha256Before": "fa2664d799f70737a95bda7a486b93df801206f9a802721f9819cfa42c636f29",
+      "sha256After": "bbf69c0ed0ab52c59f272646ddf365a5d0d0a1896026bfb913b9d4eed51a00c4",
+      "contentUnchanged": false
+    }
+  ],
+  "retired": [
+    {
+      "file": "scripts/vercel-ignore.test.mjs",
+      "sha256": "c0e6ac6e81c3dab9971fd437ad4de7f278a779c461558ef7fb273989bdef28df",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/scripts/vercel-ignore.test.mjs"
+    },
+    {
+      "file": "research/2026-10-23-existing-games/browser-layout.py",
+      "sha256": "18423ff4cb12e31fb28c5260164f50e2bee42adc72f4210e5a1fa762387faa7a",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/research/2026-10-23-existing-games/browser-layout.py"
+    },
+    {
+      "file": "research/2026-10-23-existing-games/browser-regression.py",
+      "sha256": "41840765f0121eb747da0ab48f4f1f0a211f6f326d1e6152cd7570b65fa313fa",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/research/2026-10-23-existing-games/browser-regression.py"
+    },
+    {
+      "file": "research/2026-10-23-existing-games/browser-storage.py",
+      "sha256": "fb3c13aac4053d680594d49c04e57bafd1e8db6ac98af3971c9f75778073c9c7",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/research/2026-10-23-existing-games/browser-storage.py"
+    },
+    {
+      "file": "research/2026-10-23-existing-games/check-static.py",
+      "sha256": "85d33ddb9f127f517f5b06032f92015d6c42af358fa59705af5703922e631278",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/research/2026-10-23-existing-games/check-static.py"
+    },
+    {
+      "file": "research/2026-10-23-existing-games/storage-disabled-init.js",
+      "sha256": "e4ef1083562972b136fbebe77cb0bf672260b5ba75b04361727bd7273ee9c0be",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/research/2026-10-23-existing-games/storage-disabled-init.js"
+    },
+    {
+      "file": "research/2026-10-23-two-new-games/browser-qa.py",
+      "sha256": "77ebfb9cab10fd3c04c73ee7aca2fc0be79c9f013578c9cf895f30077d63e054",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/research/2026-10-23-two-new-games/browser-qa.py"
+    },
+    {
+      "file": "research/2026-10-23-two-new-games/storage-qa.py",
+      "sha256": "6bcf84ba430e70164c1db89b2f79fa4558124871d6f9d91a37e63dc48a97179f",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/research/2026-10-23-two-new-games/storage-qa.py"
+    },
+    {
+      "file": "research/2026-10-23-two-new-games/check-builds.py",
+      "sha256": "bf06a54f89d76b8127e3bd6ba0975123a235052718508357b69467d5406f7bee",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/research/2026-10-23-two-new-games/check-builds.py"
+    },
+    {
+      "file": "research/2026-10-23-two-new-games/storage-disabled-init.js",
+      "sha256": "67b2e99742ac5f095310505908ff27f0a57f09e0189335dfb976d14a49aea8e4",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/research/2026-10-23-two-new-games/storage-disabled-init.js"
+    },
+    {
+      "file": "research/2026-10-23-two-new-games/make-report.py",
+      "sha256": "11bcf1980c69a014ea719461a0398219d4682737b4940fe09de351d3944ff18b",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/research/2026-10-23-two-new-games/make-report.py"
+    },
+    {
+      "file": "research/2026-10-23-keyword-seo/check-seo.py",
+      "sha256": "26f3276afd62698a3b467a2e69a50ce9ea6e4be4b89eb901214e1e80dd46a8e9",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/research/2026-10-23-keyword-seo/check-seo.py"
+    },
+    {
+      "file": "research/2026-10-24-snow-rider/sync-publisher-records.mjs",
+      "sha256": "ca977d3acb95b916c351067596111cbb756f4ddd3b4e075c92c279d0e407f0a7",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/research/2026-10-24-snow-rider/sync-publisher-records.mjs"
+    }
+  ],
+  "reviewCaptures": [
+    {
+      "file": ".impeccable/review/collision-mobile.png",
+      "sha256": "37db9ed8f121fa4e5fce14545c3713393f77e8a4a58153e81e52d5d3b90997f6",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/.impeccable/review/collision-mobile.png"
+    },
+    {
+      "file": ".impeccable/review/crowded-mobile.png",
+      "sha256": "b7313b06276924ad0a49ba3a29c148d8adace3c2bc4021d2338ac13206201c4c",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/.impeccable/review/crowded-mobile.png"
+    },
+    {
+      "file": ".impeccable/review/desktop-hero.png",
+      "sha256": "af7df84de3adf147fc654a4fc823e3f6c7f3dfb208519bc035a5e0fa5523ac4e",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/.impeccable/review/desktop-hero.png"
+    },
+    {
+      "file": ".impeccable/review/desktop.png",
+      "sha256": "8fd84b0734a04b0748b75d53a9ce1062f1a391af6c48c86192fe13e59aeb1095",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/.impeccable/review/desktop.png"
+    },
+    {
+      "file": ".impeccable/review/flat-swat-mobile.png",
+      "sha256": "2b7e1966ca6339ba40b1560cff4b447db04b90787ac91daf5ac8de04c11a8b1e",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/.impeccable/review/flat-swat-mobile.png"
+    },
+    {
+      "file": ".impeccable/review/mobile-hero.png",
+      "sha256": "293a073528ab33048e238f679cc07e7a6c40d754d66a9545e1dc8168cd4a0cf7",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/.impeccable/review/mobile-hero.png"
+    },
+    {
+      "file": ".impeccable/review/mobile.png",
+      "sha256": "76968aee18228d97368941b01a46237e0272256d19aad72ebfe4bf3a307f2c54",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/.impeccable/review/mobile.png"
+    },
+    {
+      "file": ".impeccable/review/pixel-swat-mobile.png",
+      "sha256": "7581cc45c760154c18e3867842d110a1e3a1d96aecec28bd0141d94b460374e5",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/.impeccable/review/pixel-swat-mobile.png"
+    },
+    {
+      "file": ".impeccable/review/practice-win-mobile.png",
+      "sha256": "c1578c0b3acdc338afba535a749505c1fa4a2818a193c272b76eeb0b1c7d27e7",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/.impeccable/review/practice-win-mobile.png"
+    },
+    {
+      "file": ".impeccable/review/user-2560.png",
+      "sha256": "8defd99e5e85a444630150ff35e109f8c33a47c970968e61518420b0d2aed928",
+      "recoverFrom": "C:/Users/Sera/.rankup/trash/gameshub-cleanup-2026-10-24T14-54-05-914Z/.impeccable/review/user-2560.png"
+    }
+  ],
+  "rewritten": [
+    ".rankup/research/game-keywords-us-2026-10-24.md",
+    ".rankup/research/game-project-initialization-2026-10-24.md",
+    ".rankup/research/game-site-build-plan-2026-10-24.md",
+    ".rankup/scripts/register-game-projects.mjs",
+    "AGENTS.md",
+    "deployments/2026-10-24-seo-audit.md",
+    "deployments/2026-10-24-seo-independent-games.md",
+    "games/coreball/.impeccable/surfaces/index-html.md",
+    "games/coreball/DESIGN.md",
+    "games/coreball/PRODUCT.md",
+    "games/snow-rider-3d-unblocked/.rankup/INDEX.md",
+    "games/snow-rider-3d-unblocked/.rankup/plan.md",
+    "HANDOFF.md",
+    "management/DEPLOYMENT_STATUS.md",
+    "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+    "management/history/README-before-cleanup-2026-10-24.md",
+    "management/NEW_GAME_PROJECTS.md",
+    "management/plans/2026-10-25.md",
+    "management/REPOSITORIES.md",
+    "management/tools/check-portfolio-seo.mjs",
+    "management/tools/prepare-standalone.mjs",
+    "README.md",
+    "research/2026-10-24-acceleration-city/README.md",
+    "research/2026-10-24-keyword-opportunities/README.md"
+  ],
+  "baselineBrokenLinks": [
+    {
+      "file": ".rankup/research/game-project-initialization-2026-10-24.md",
+      "href": "../../NEW_GAME_PROJECTS.md",
+      "target": "NEW_GAME_PROJECTS.md"
+    },
+    {
+      "file": ".rankup/research/game-site-build-plan-2026-10-24.md",
+      "href": "../../NEW_GAME_PROJECTS.md",
+      "target": "NEW_GAME_PROJECTS.md"
+    },
+    {
+      "file": "games/snow-rider-3d-unblocked/.rankup/INDEX.md",
+      "href": "../../../DEPLOYMENT_STATUS.md",
+      "target": "DEPLOYMENT_STATUS.md"
+    },
+    {
+      "file": "games/snow-rider-3d-unblocked/.rankup/plan.md",
+      "href": "../../../DEPLOYMENT_STATUS.md",
+      "target": "DEPLOYMENT_STATUS.md"
+    },
+    {
+      "file": "HANDOFF.md",
+      "href": "NEW_GAME_PROJECTS.md",
+      "target": "NEW_GAME_PROJECTS.md"
+    },
+    {
+      "file": "HANDOFF.md",
+      "href": "WORK_PLAN_2026-10-25.md",
+      "target": "WORK_PLAN_2026-10-25.md"
+    },
+    {
+      "file": "HANDOFF.md",
+      "href": "DEPLOYMENT_STATUS.md",
+      "target": "DEPLOYMENT_STATUS.md"
+    },
+    {
+      "file": "HANDOFF.md",
+      "href": "REPOSITORIES.md",
+      "target": "REPOSITORIES.md"
+    },
+    {
+      "file": "HANDOFF.md",
+      "href": "REPOSITORY_REFACTOR.md",
+      "target": "REPOSITORY_REFACTOR.md"
+    },
+    {
+      "file": "HANDOFF.md",
+      "href": "DEPLOYMENT_STATUS.md",
+      "target": "DEPLOYMENT_STATUS.md"
+    },
+    {
+      "file": "management/DEPLOYMENT_STATUS.md",
+      "href": "WORK_PLAN_2026-10-25.md",
+      "target": "management/WORK_PLAN_2026-10-25.md"
+    },
+    {
+      "file": "management/DEPLOYMENT_STATUS.md",
+      "href": "deployments/2026-10-24-seo-release.md",
+      "target": "management/deployments/2026-10-24-seo-release.md"
+    },
+    {
+      "file": "management/DEPLOYMENT_STATUS.md",
+      "href": "deployments/2026-10-24-seo-audit.md",
+      "target": "management/deployments/2026-10-24-seo-audit.md"
+    },
+    {
+      "file": "management/DEPLOYMENT_STATUS.md",
+      "href": "deployments/evidence/2026-10-24/next-day-status-audit.json",
+      "target": "management/deployments/evidence/2026-10-24/next-day-status-audit.json"
+    },
+    {
+      "file": "management/DEPLOYMENT_STATUS.md",
+      "href": "deployments/2026-10-24-gulper-copy.md",
+      "target": "management/deployments/2026-10-24-gulper-copy.md"
+    },
+    {
+      "file": "management/DEPLOYMENT_STATUS.md",
+      "href": "deployments/2026-10-24-costcodle-domain.md",
+      "target": "management/deployments/2026-10-24-costcodle-domain.md"
+    },
+    {
+      "file": "management/DEPLOYMENT_STATUS.md",
+      "href": "REPOSITORY_REFACTOR.md",
+      "target": "management/REPOSITORY_REFACTOR.md"
+    },
+    {
+      "file": "management/DEPLOYMENT_STATUS.md",
+      "href": "deployments/2026-10-24-snow-rider-miniplay.md",
+      "target": "management/deployments/2026-10-24-snow-rider-miniplay.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "NEW_GAME_PROJECTS.md",
+      "target": "management/history/NEW_GAME_PROJECTS.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "research/2026-10-24-game-project-init/verification.json",
+      "target": "management/history/research/2026-10-24-game-project-init/verification.json"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": ".rankup/research/game-project-initialization-2026-10-24.md",
+      "target": "management/history/.rankup/research/game-project-initialization-2026-10-24.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "research/2026-10-24-game-build-plan/README.md",
+      "target": "management/history/research/2026-10-24-game-build-plan/README.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "research/2026-10-24-game-build-plan/TASKS.md",
+      "target": "management/history/research/2026-10-24-game-build-plan/TASKS.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "research/2026-10-24-game-build-plan/DOMAINS.md",
+      "target": "management/history/research/2026-10-24-game-build-plan/DOMAINS.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "research/2026-10-24-game-build-plan/SOURCE-AUDIT.md",
+      "target": "management/history/research/2026-10-24-game-build-plan/SOURCE-AUDIT.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": ".rankup/research/game-site-build-plan-2026-10-24.md",
+      "target": "management/history/.rankup/research/game-site-build-plan-2026-10-24.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "research/2026-10-24-keyword-opportunities/SHORTLIST.md",
+      "target": "management/history/research/2026-10-24-keyword-opportunities/SHORTLIST.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "research/2026-10-24-keyword-opportunities/README.md",
+      "target": "management/history/research/2026-10-24-keyword-opportunities/README.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": ".rankup/research/game-keywords-us-2026-10-24.md",
+      "target": "management/history/.rankup/research/game-keywords-us-2026-10-24.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "deployments/2026-10-24-costcodle-domain.md",
+      "target": "management/history/deployments/2026-10-24-costcodle-domain.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "README.md",
+      "target": "management/history/README.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "WORK_PLAN_2026-10-25.md",
+      "target": "management/history/WORK_PLAN_2026-10-25.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "DEPLOYMENT_STATUS.md",
+      "target": "management/history/DEPLOYMENT_STATUS.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "deployments/2026-10-24-gulper-copy.md",
+      "target": "management/history/deployments/2026-10-24-gulper-copy.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "REPOSITORIES.md",
+      "target": "management/history/REPOSITORIES.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "REPOSITORY_REFACTOR.md",
+      "target": "management/history/REPOSITORY_REFACTOR.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "DEPLOYMENT_STATUS.md",
+      "target": "management/history/DEPLOYMENT_STATUS.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "research/2026-10-24-cluster-rush/README.md",
+      "target": "management/history/research/2026-10-24-cluster-rush/README.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "research/2026-10-24-head-soccer-2026/README.md",
+      "target": "management/history/research/2026-10-24-head-soccer-2026/README.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "research/2026-10-24-acceleration-city/README.md",
+      "target": "management/history/research/2026-10-24-acceleration-city/README.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "deployments/2026-10-24-snow-rider-miniplay.md",
+      "target": "management/history/deployments/2026-10-24-snow-rider-miniplay.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "research/2026-10-23-keyword-seo/README.md",
+      "target": "management/history/research/2026-10-23-keyword-seo/README.md"
+    },
+    {
+      "file": "management/history/HANDOFF-before-cleanup-2026-10-24.md",
+      "href": "research/2026-10-23-coreball-cats/README.md",
+      "target": "management/history/research/2026-10-23-coreball-cats/README.md"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "NEW_GAME_PROJECTS.md",
+      "target": "management/history/NEW_GAME_PROJECTS.md"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "DEPLOYMENT_STATUS.md",
+      "target": "management/history/DEPLOYMENT_STATUS.md"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "WORK_PLAN_2026-10-25.md",
+      "target": "management/history/WORK_PLAN_2026-10-25.md"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "HANDOFF.md",
+      "target": "management/history/HANDOFF.md"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "REPOSITORIES.md",
+      "target": "management/history/REPOSITORIES.md"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "NEW_GAME_PROJECTS.md",
+      "target": "management/history/NEW_GAME_PROJECTS.md"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "repositories.json",
+      "target": "management/history/repositories.json"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "matrix-sites.json",
+      "target": "management/history/matrix-sites.json"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "REPOSITORY_REFACTOR.md",
+      "target": "management/history/REPOSITORY_REFACTOR.md"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "deployments/2026-10-24-costcodle-domain.md",
+      "target": "management/history/deployments/2026-10-24-costcodle-domain.md"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "WORK_PLAN_2026-10-25.md",
+      "target": "management/history/WORK_PLAN_2026-10-25.md"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "research/2026-10-23-existing-games/report.html",
+      "target": "management/history/research/2026-10-23-existing-games/report.html"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "research/2026-10-23-two-new-games/README.md",
+      "target": "management/history/research/2026-10-23-two-new-games/README.md"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "research/2026-10-23-keyword-seo/README.md",
+      "target": "management/history/research/2026-10-23-keyword-seo/README.md"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "research/2026-10-24-head-soccer-2026/README.md",
+      "target": "management/history/research/2026-10-24-head-soccer-2026/README.md"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "research/2026-10-24-cluster-rush/README.md",
+      "target": "management/history/research/2026-10-24-cluster-rush/README.md"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "research/2026-10-24-acceleration-city/README.md",
+      "target": "management/history/research/2026-10-24-acceleration-city/README.md"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "deployments/2026-10-24-gulper-copy.md",
+      "target": "management/history/deployments/2026-10-24-gulper-copy.md"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "deployments/2026-10-24-snow-rider-miniplay.md",
+      "target": "management/history/deployments/2026-10-24-snow-rider-miniplay.md"
+    },
+    {
+      "file": "management/history/README-before-cleanup-2026-10-24.md",
+      "href": "deployments/2026-10-23-analytics.md",
+      "target": "management/history/deployments/2026-10-23-analytics.md"
+    },
+    {
+      "file": "management/NEW_GAME_PROJECTS.md",
+      "href": "repositories.json",
+      "target": "management/repositories.json"
+    },
+    {
+      "file": "management/NEW_GAME_PROJECTS.md",
+      "href": "research/2026-10-24-game-project-init/verification.json",
+      "target": "management/research/2026-10-24-game-project-init/verification.json"
+    },
+    {
+      "file": "management/NEW_GAME_PROJECTS.md",
+      "href": "research/2026-10-24-game-build-plan/README.md",
+      "target": "management/research/2026-10-24-game-build-plan/README.md"
+    },
+    {
+      "file": "management/NEW_GAME_PROJECTS.md",
+      "href": ".rankup/research/game-project-initialization-2026-10-24.md",
+      "target": "management/.rankup/research/game-project-initialization-2026-10-24.md"
+    },
+    {
+      "file": "management/NEW_GAME_PROJECTS.md",
+      "href": ".rankup/scripts/init-game-projects.mjs",
+      "target": "management/.rankup/scripts/init-game-projects.mjs"
+    },
+    {
+      "file": "management/NEW_GAME_PROJECTS.md",
+      "href": ".rankup/scripts/register-game-projects.mjs",
+      "target": "management/.rankup/scripts/register-game-projects.mjs"
+    },
+    {
+      "file": "management/plans/2026-10-25.md",
+      "href": "DEPLOYMENT_STATUS.md",
+      "target": "management/plans/DEPLOYMENT_STATUS.md"
+    },
+    {
+      "file": "management/plans/2026-10-25.md",
+      "href": "deployments/2026-10-24-gulper-copy.md",
+      "target": "management/plans/deployments/2026-10-24-gulper-copy.md"
+    },
+    {
+      "file": "management/plans/2026-10-25.md",
+      "href": "deployments/2026-10-24-costcodle-domain.md",
+      "target": "management/plans/deployments/2026-10-24-costcodle-domain.md"
+    },
+    {
+      "file": "management/plans/2026-10-25.md",
+      "href": "DEPLOYMENT_STATUS.md",
+      "target": "management/plans/DEPLOYMENT_STATUS.md"
+    },
+    {
+      "file": "management/plans/2026-10-25.md",
+      "href": "HANDOFF.md",
+      "target": "management/plans/HANDOFF.md"
+    },
+    {
+      "file": "management/plans/2026-10-25.md",
+      "href": "deployments/evidence/2026-10-24/next-day-status-audit.json",
+      "target": "management/plans/deployments/evidence/2026-10-24/next-day-status-audit.json"
+    },
+    {
+      "file": "management/plans/2026-10-25.md",
+      "href": "REPOSITORY_REFACTOR.md",
+      "target": "management/plans/REPOSITORY_REFACTOR.md"
+    },
+    {
+      "file": "management/plans/2026-10-25.md",
+      "href": "REPOSITORIES.md",
+      "target": "management/plans/REPOSITORIES.md"
+    },
+    {
+      "file": "management/REPOSITORIES.md",
+      "href": "repositories.json",
+      "target": "management/repositories.json"
+    },
+    {
+      "file": "management/REPOSITORIES.md",
+      "href": "REPOSITORY_REFACTOR.md",
+      "target": "management/REPOSITORY_REFACTOR.md"
+    },
+    {
+      "file": "README.md",
+      "href": "NEW_GAME_PROJECTS.md",
+      "target": "NEW_GAME_PROJECTS.md"
+    },
+    {
+      "file": "README.md",
+      "href": "DEPLOYMENT_STATUS.md",
+      "target": "DEPLOYMENT_STATUS.md"
+    },
+    {
+      "file": "README.md",
+      "href": "WORK_PLAN_2026-10-25.md",
+      "target": "WORK_PLAN_2026-10-25.md"
+    },
+    {
+      "file": "README.md",
+      "href": "REPOSITORIES.md",
+      "target": "REPOSITORIES.md"
+    },
+    {
+      "file": "README.md",
+      "href": "NEW_GAME_PROJECTS.md",
+      "target": "NEW_GAME_PROJECTS.md"
+    },
+    {
+      "file": "README.md",
+      "href": "repositories.json",
+      "target": "repositories.json"
+    },
+    {
+      "file": "README.md",
+      "href": "matrix-sites.json",
+      "target": "matrix-sites.json"
+    },
+    {
+      "file": "README.md",
+      "href": "REPOSITORY_REFACTOR.md",
+      "target": "REPOSITORY_REFACTOR.md"
+    },
+    {
+      "file": "README.md",
+      "href": "WORK_PLAN_2026-10-25.md",
+      "target": "WORK_PLAN_2026-10-25.md"
+    }
+  ],
+  "finishedAt": "2026-10-24T14:55:00.868Z",
+  "runtimeAndFrozenFilesUnchanged": 303,
+  "rootJsonFiles": [],
+  "registryCounts": {
+    "games": 12,
+    "plannedGames": 5,
+    "sites": 12
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "publicPages": {
+    "checkedAt": "2026-10-24T07:51:34.998Z",
+    "results": [
+      {
+        "siteId": "block-blast-unblocked",
+        "url": "https://playblockblastunblocked.com/",
+        "finalURL": "https://playblockblastunblocked.com/",
+        "status": 200,
+        "title": "Block Blast Unblocked — Free 8×8 Block Puzzle",
+        "canonical": "https://playblockblastunblocked.com/",
+        "noindex": false
+      },
+      {
+        "siteId": "costcodle",
+        "url": "https://costcodle-unlimited.vercel.app/",
+        "finalURL": "https://costcodle-unlimited.vercel.app/",
+        "status": 200,
+        "title": "Costcodle Unlimited — Daily Price Guessing Game",
+        "canonical": "https://costcodle-unlimited.vercel.app/",
+        "noindex": false
+      },
+      {
+        "siteId": "gulper-io",
+        "url": "https://gulperio.com/",
+        "finalURL": "https://gulperio.com/",
+        "status": 200,
+        "title": "Gulper.io-Inspired Snake Arena — Solo Bot Game",
+        "canonical": "https://gulperio.com/",
+        "noindex": false
+      },
+      {
+        "siteId": "krillion-unlimited",
+        "url": "https://krilliononline.com/",
+        "finalURL": "https://krilliononline.com/",
+        "status": 200,
+        "title": "STARLING — Free Space Word Game &amp; Rare Answer Challenge",
+        "canonical": "https://krilliononline.com/",
+        "noindex": false
+      },
+      {
+        "siteId": "spacebar-counter",
+        "url": "https://www.spacebarcounter.xyz/",
+        "finalURL": "https://www.spacebarcounter.xyz/",
+        "status": 200,
+        "title": "Spacebar Counter — A Simple Spacebar Speed Test",
+        "canonical": "https://www.spacebarcounter.xyz/",
+        "noindex": false
+      },
+      {
+        "siteId": "2048-cupcakes",
+        "url": "https://www.2048cupcakes.xyz/",
+        "finalURL": "https://www.2048cupcakes.xyz/",
+        "status": 200,
+        "title": "2048 Cupcakes — A Cozy Cupcake Merge Game | Crumb",
+        "canonical": "https://www.2048cupcakes.xyz/",
+        "noindex": false
+      },
+      {
+        "siteId": "coreball",
+        "url": "https://gamehubs-coreball.vercel.app/",
+        "finalURL": "https://gamehubs-coreball.vercel.app/",
+        "status": 200,
+        "title": "Coreball – Play Free Online | 30 Levels",
+        "canonical": null,
+        "noindex": true
+      },
+      {
+        "siteId": "minute-cryptic-unlimited",
+        "url": "https://gamehubs-minute-cryptic-unlimited.vercel.app/",
+        "finalURL": "https://gamehubs-minute-cryptic-unlimited.vercel.app/",
+        "status": 200,
+        "title": "Minute Cryptic Unlimited – Free Cryptic Practice",
+        "canonical": null,
+        "noindex": true
+      },
+      {
+        "siteId": "snow-rider-3d-unblocked",
+        "url": "https://snowrider3d.top/",
+        "finalURL": "https://snowrider3d.top/",
+        "status": 200,
+        "title": "Snow Rider 3D Unblocked — Play Free Online",
+        "canonical": null,
+        "noindex": true
+      },
+      {
+        "siteId": "head-soccer-2026",
+        "url": "https://www.playheadsoccer.com/",
+        "finalURL": "https://www.playheadsoccer.com/",
+        "status": 200,
+        "title": "Head Soccer 2026 — Play Free Online, Solo & 2 Player",
+        "canonical": "https://playheadsoccer.com/",
+        "noindex": false
+      }
+    ]
+  },
+  "github": {
+    "sha": "a733573fb7cfe7f7fdc4ab940348d56030e729cc",
+    "subject": "docs: record pending Gulperio deployment under platform limit"
+  },
+  "latestCommitStatuses": {
+    "state": "failure",
+    "statuses": [
+      {
+        "context": "Vercel – gamehubs-snow-rider-3d",
+        "description": "Deployment rate limited — retry in 24 hours.",
+        "state": "failure"
+      },
+      {
+        "context": "Vercel – gamehubs-head-soccer-2026",
+        "description": "Deployment rate limited — retry in 24 hours.",
+        "state": "failure"
+      },
+      {
+        "context": "Vercel – gamehubs-minute-cryptic-unlimited",
+        "description": "Deployment rate limited — retry in 24 hours.",
+        "state": "failure"
+      },
+      {
+        "context": "Vercel – gamehubs-coreball",
+        "description": "Deployment rate limited — retry in 24 hours.",
+        "state": "failure"
+      },
+      {
+        "context": "Vercel – gamehubs-spacebar-counter",
+        "description": "Deployment rate limited — retry in 24 hours.",
+        "state": "failure"
+      },
+      {
+        "context": "Vercel – gamehubs-summit-unlimited",
+        "description": "Deployment rate limited — retry in 24 hours.",
+        "state": "failure"
+      },
+      {
+        "context": "Vercel – gulperio-game",
+        "description": "Deployment rate limited — retry in 24 hours.",
+        "state": "failure"
+      },
+      {
+        "context": "Vercel – gamehubs-2048-cupcakes",
+        "description": "Deployment rate limited — retry in 24 hours.",
+        "state": "failure"
+      },
+      {
+        "context": "Vercel – costcodle-unlimited",
+        "description": "Deployment rate limited — retry in 24 hours.",
+        "state": "failure"
+      },
+      {
+        "context": "Vercel – block-blast-unblocked",
+        "description": "Deployment rate limited — retry in 24 hours.",
+        "state": "failure"
+      }
+    ]
+  },
+  "workspaceVercelProjects": [
+    {
+      "id": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+      "name": "gamehubs-snow-rider-3d",
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792814807219,
+      "updatedAt": 1792826085181
+    },
+    {
+      "id": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+      "name": "gamehubs-spacebar-counter",
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792751059030,
+      "updatedAt": 1792826080579
+    },
+    {
+      "id": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
+      "name": "gamehubs-minute-cryptic-unlimited",
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792806760870,
+      "updatedAt": 1792826080564
+    },
+    {
+      "id": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+      "name": "gamehubs-summit-unlimited",
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792720757957,
+      "updatedAt": 1792826080558
+    },
+    {
+      "id": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+      "name": "block-blast-unblocked",
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792672742647,
+      "updatedAt": 1792826080524
+    },
+    {
+      "id": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+      "name": "gamehubs-2048-cupcakes",
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792751050278,
+      "updatedAt": 1792826080496
+    },
+    {
+      "id": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
+      "name": "gamehubs-coreball",
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792806729110,
+      "updatedAt": 1792826080496
+    },
+    {
+      "id": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+      "name": "costcodle-unlimited",
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792675185180,
+      "updatedAt": 1792826080490
+    },
+    {
+      "id": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+      "name": "gamehubs-head-soccer-2026",
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792814800107,
+      "updatedAt": 1792826080439
+    },
+    {
+      "id": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+      "name": "gulperio-game",
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792684511667,
+      "updatedAt": 1792825942776
+    }
+  ],
+  "otherTeamProjectCount": 11,
+  "scope": "Read-only status audit for tomorrow planning; no deployment, push, DNS or indexing changes."
+}
