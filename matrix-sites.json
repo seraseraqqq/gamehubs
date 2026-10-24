@@ -614,6 +614,28 @@
       "domainOwnership": "owner-confirmed-purchased-2026-10-24",
       "updatedAt": "2026-10-24",
       "nextDecision": "Owner explicitly deferred publication until game embedding permission is obtained. Do not set GAME_EMBED_LICENSE_CONFIRMED=true."
+    },
+    {
+      "siteId": "cluster-rush",
+      "unitType": "game",
+      "primaryKeyword": "cluster rush",
+      "secondaryKeywords": ["cluster rush online", "cluster rush controls", "cluster rush not loading"],
+      "path": "games/cluster-rush",
+      "domain": null,
+      "url": null,
+      "status": "local-prototype",
+      "indexingState": "preview-noindex",
+      "gameSource": {
+        "type": "external-unity-iframe",
+        "iframeUrl": "https://clusterrush.io/game/cluster-rush/",
+        "commercialPermission": "unconfirmed"
+      },
+      "createdAt": "2026-10-24",
+      "updatedAt": "2026-10-24",
+      "research": "research/2026-10-24-cluster-rush/README.md",
+      "recommendedDomain": "playclusterrush.com",
+      "domainOwnership": "not-purchased",
+      "nextDecision": "Confirm embedding rights, choose and own a domain, then verify production loading, real devices and performance before publication."
     }
   ]
 }

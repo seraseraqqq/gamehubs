@@ -1,0 +1,61 @@
+Browser tab: 196476499, Title: "2048 • Play the Free Online Game", URL: "https://play2048.co/".
+0 AXWebArea 2048 • Play the Free Online Game, URL: play2048.co/
+	1 container
+		2 container Description: Advertisement, Help: 3rd party ad content, ID: google_ads_iframe_/1030006,22600954320/play2048/sticky_sidebar_0
+			3 AXWebArea play2048.co/
+				4 container
+					5 link Value: …, ID: aw0
+		6 container
+			7 button 2048
+				8 image
+				9 heading 2048, Value: 1
+					10 text 2048
+			11 text WELCOME TO 2048!
+			12 text Would you like to learn how to play?
+			13 button Play Tutorial
+			14 button
+				15 image
+			16 text SCORE 0 BEST 0
+			17 link Description: Give Feedback, Value: docs.google.com/forms/d/e/1FAIpQLScZldyVgauCIUTfGVlV90-7Za_6kYUSMGcaNmh6WGIfOAK_RA/viewform?usp=pp_url&entry.1880902338=Using%20worker%3A%20true%0ARenderer%20initialized%20once%3A%20true%0AWorker%20startup%20failed%3A%20false%0AResolution%3A%202.25%0AWeb%20worker%20supported%3A%20true%0AUser%20agent%3A%20Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F155.0.0.0%20Safari%2F537.36%0AWindow%20width%3A%202560%0AWindow%20height%3A%201215%0AScreen%20width%3A%202560%0AScreen%20height%3A%201440%0ADevice%20pixel%20ratio%3A%201.5%0ACurrent%20URL%3A%20https%3A%2F%2Fplay2048.co%2F%0ACookies%20enabled%3A%20true%0APlatform%3A%20Win32%0ABrowser%20version%3A%205.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F155.0.0.0%20Safari%2F537.36%0ABrowser%20vendor%3A%20Google%20Inc.%0ABrowser%20product%3A%20Gecko%0ADevice%20memory%3A%2032
+			18 button N or R New Game
+				19 container
+					20 text N  or  R
+				21 text New Game
+		22 image
+		23 image
+		24 container
+			25 text 1
+			26 button
+				27 image
+			28 text 2
+			29 button
+				30 image
+			31 text 3
+			32 button
+				33 image
+		34 text play2048.co © 2014—2026 Gabriele Cirulli. All rights reserved.
+		35 container Description: Advertisement, Help: 3rd party ad content, ID: google_ads_iframe_/1030006,22600954320/play2048/sticky_sidebar_1
+			36 AXWebArea play2048.co/
+				37 container
+					38 link Value: …, ID: aw0
+	39 container fixed_container_bottom
+		40 container universalPlayer_wrapper
+			41 button Close ad
+				42 image Description: Close Ad, ID: iconCloseSvg
+			43 image Description: Ad Menu, ID: iconMenuSvg
+			44 container
+				45 container
+					46 container Advertisement
+				47 container Description: Advertisement, ID: goog_1999935838
+				48 button Unmute ad
+					49 image Description: Unmute Ad, ID: iconUnmuteAd
+				50 text Ad
+				51 container 无法播放媒体。
+			52 container
+				53 text ··· ···
+		54 container Description: Advertisement, Help: 3rd party ad content, ID: google_ads_iframe_/1030006,22600954320/play2048/adhesion_0
+			55 AXWebArea play2048.co/
+				56 container
+					57 link Value: …, ID: aw0
+
+The focused UI element is 13 button Play Tutorial

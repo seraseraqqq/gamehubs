@@ -1,0 +1,18 @@
+Browser tab: 196476503, Title: "0h h1", URL: "https://0hh1.com/".
+0 AXWebArea 0h h1, URL: 0hh1.com/
+	1 container
+		2 container
+			3 heading Oh hi, Value: 1
+				4 text Oh hi
+			5 container titlegrid
+				6 container digits
+					7 text 0
+					8 text h h
+					9 text 1
+			10 text A little logic game
+			11 text By Q42
+			12 text Created by Martin Kool
+			13 image q42
+		14 text 5
+
+The focused UI element is 0 AXWebArea 0h h1, URL: 0hh1.com/

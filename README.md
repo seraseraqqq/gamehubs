@@ -1,5 +1,9 @@
 # GameHubs
 
+## Cluster Rush — 2026-10-24
+
+`games/cluster-rush` uses the existing Unity game through a direct iframe, matching the observed competitor architecture. Local preview: http://127.0.0.1:4202/ . Includes focused desktop play, keyboard controls checked in the first level, fullscreen fallback, inline reload confirmation and original control/loading guides. [Research, real competitor screenshots, difficulty and registrar-verified domains](research/2026-10-24-cluster-rush/README.md); [screenshot gallery](research/2026-10-24-cluster-rush/gallery.html). Static export checks pass; not deployed. Commercial embedding rights, owned domain, production/physical-device performance and mobile touch play remain unconfirmed. No ranking improvement is claimed.
+
 ## Head Soccer 2026 — 2026-10-24
 
 `games/head-soccer-2026` is a static site around the official GamePix public-feed iframe, matching the direct competitor's architecture. Includes responsive game-first layout, accurate control references, focus mode, fullscreen fallback, supporting guide and domain-configured SEO export. Preview: http://127.0.0.1:4201/. Published at https://playheadsoccer.com/ using the owner’s purchased domain; release record: deployments/2026-10-24-owned-game-domains.md. [Research, screenshot gallery, difficulty and verified domain shortlist](research/2026-10-24-head-soccer-2026/README.md).

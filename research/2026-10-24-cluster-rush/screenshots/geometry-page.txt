@@ -1,0 +1,6 @@
+Browser tab: 196476495, Title: "Cluster Rush - Play Free Online Arcade Game | Geometry Lite", URL: "https://geometrylite.net/arcade/cluster-rush".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 55
++									211 text Downloading data... (1.60 MB/11.0 MB)
++				212 text Write a Comment
+The focused UI element is 0 AXWebArea Cluster Rush - Play Free Online Arcade Game | Geometry Lite, URL: geometrylite.net/arcade/cluster-rush

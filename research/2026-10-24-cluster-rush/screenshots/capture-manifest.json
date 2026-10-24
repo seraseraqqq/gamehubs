@@ -1,0 +1,32 @@
+[
+  {
+    "name": "yoplay-page",
+    "url": "https://yoplay.io/cluster-rush",
+    "checkedAt": "2026-10-24T04:35:48.124Z",
+    "status": "captured"
+  },
+  {
+    "name": "geometry-page",
+    "url": "https://geometrylite.net/arcade/cluster-rush",
+    "checkedAt": "2026-10-24T04:35:51.089Z",
+    "status": "captured"
+  },
+  {
+    "name": "reference-2048",
+    "url": "https://play2048.co/",
+    "checkedAt": "2026-10-24T04:36:11.891Z",
+    "status": "captured"
+  },
+  {
+    "name": "reference-0hh1",
+    "url": "https://0hh1.com/",
+    "checkedAt": "2026-10-24T04:36:14.890Z",
+    "status": "captured"
+  },
+  {
+    "name": "reference-hextris",
+    "url": "https://hextris.io/",
+    "status": "failed",
+    "error": "Browser Use cannot open https://hextris.io in tab 196476507. Browser reported: net::ERR_CERT_DATE_INVALID"
+  }
+]

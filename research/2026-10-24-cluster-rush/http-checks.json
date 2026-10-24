@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-10-24T04:51:52.182Z",
+  "base": "http://127.0.0.1:4202",
+  "status": "pass",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "expected": 200,
+      "bytes": 5287,
+      "localResponseMs": 41
+    },
+    {
+      "path": "/how-to-play.html",
+      "status": 200,
+      "expected": 200,
+      "bytes": 4543,
+      "localResponseMs": 16
+    },
+    {
+      "path": "/not-loading.html",
+      "status": 200,
+      "expected": 200,
+      "bytes": 4362,
+      "localResponseMs": 16
+    },
+    {
+      "path": "/privacy.html",
+      "status": 200,
+      "expected": 200,
+      "bytes": 2969,
+      "localResponseMs": 17
+    },
+    {
+      "path": "/about.html",
+      "status": 200,
+      "expected": 200,
+      "bytes": 3066,
+      "localResponseMs": 17
+    },
+    {
+      "path": "/favicon.svg",
+      "status": 200,
+      "expected": 200,
+      "bytes": 305,
+      "localResponseMs": 17
+    },
+    {
+      "path": "/assets/social-card.png",
+      "status": 200,
+      "expected": 200,
+      "bytes": 37056,
+      "localResponseMs": 18
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "expected": 200,
+      "bytes": 26,
+      "localResponseMs": 18
+    },
+    {
+      "path": "/missing-page",
+      "status": 404,
+      "expected": 404,
+      "bytes": 1561,
+      "localResponseMs": 19
+    },
+    {
+      "path": "/scripts/build.mjs",
+      "status": 404,
+      "expected": 404,
+      "bytes": 1561,
+      "localResponseMs": 18
+    }
+  ],
+  "limits": "Loopback response checks, not mobile network speed or real-user Core Web Vitals."
+}

@@ -1,0 +1,3 @@
+Browser tab: 196476514, Title: "2048 Game - Play 2048 Game Online", URL: "https://2048game.com/".
+There has been no change in the accessibility tree.
+The focused UI element is 0 AXWebArea 2048 Game - Play 2048 Game Online, URL: 2048game.com/

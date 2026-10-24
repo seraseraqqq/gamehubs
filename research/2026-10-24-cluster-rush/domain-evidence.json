@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-10-24T04:40:28.153Z",
+  "source": "Vercel public registrar search API",
+  "currency": "USD",
+  "httpStatus": 200,
+  "body": {
+    "results": [
+      {
+        "domain": "clusterrush.com",
+        "available": false
+      },
+      {
+        "domain": "playclusterrush.com",
+        "available": true,
+        "years": 1,
+        "price": 11.25,
+        "renewalPrice": 11.25,
+        "premium": false
+      },
+      {
+        "domain": "clusterrushgame.com",
+        "available": false
+      },
+      {
+        "domain": "clusterrushplay.com",
+        "available": true,
+        "years": 1,
+        "price": 11.25,
+        "renewalPrice": 11.25,
+        "premium": false
+      },
+      {
+        "domain": "clusterrushonline.com",
+        "available": true,
+        "years": 1,
+        "price": 11.25,
+        "renewalPrice": 11.25,
+        "premium": false
+      },
+      {
+        "domain": "clusterrush.games",
+        "available": true,
+        "years": 1,
+        "price": 14.99,
+        "renewalPrice": 31.82,
+        "premium": false
+      },
+      {
+        "domain": "clusterrush.gg",
+        "available": true,
+        "years": 1,
+        "price": 129.99,
+        "renewalPrice": 129.99,
+        "premium": false
+      },
+      {
+        "domain": "clusterrush.org",
+        "available": true,
+        "years": 1,
+        "price": 9.99,
+        "renewalPrice": 10.99,
+        "premium": false
+      },
+      {
+        "domain": "clusterrush.io",
+        "available": false
+      },
+      {
+        "domain": "cluster-rush.com",
+        "available": false
+      }
+    ]
+  },
+  "caveat": "Availability/prices can change. available:false is unavailable or not confirmed. No clean-history, ownership or trademark conclusion. No domain purchased."
+}

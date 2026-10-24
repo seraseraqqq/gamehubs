@@ -1,0 +1,114 @@
+{
+  "checkedAt": "2026-10-24T04:41:15.070Z",
+  "checks": [
+    {
+      "name": "desktop-layout",
+      "iframe": {
+        "bottom": 839.09375,
+        "height": 630,
+        "left": 202.5,
+        "right": 1147.5,
+        "top": 209.09375,
+        "width": 945,
+        "x": 202.5,
+        "y": 209.09375
+      },
+      "overflow": false,
+      "viewport": [
+        1365,
+        900
+      ]
+    },
+    {
+      "name": "reload-prompt",
+      "visible": true
+    },
+    {
+      "name": "focus-mode",
+      "enabled": true,
+      "exitVisible": "Exit focus mode",
+      "pressed": "true"
+    },
+    {
+      "name": "native-fullscreen-entry",
+      "fallback": true,
+      "label": "Fullscreen",
+      "native": false
+    },
+    {
+      "name": "native-fullscreen-exit",
+      "native": false
+    },
+    {
+      "name": "mobile-layout",
+      "buttons": [
+        {
+          "height": 44,
+          "text": "Reload",
+          "width": 60.58333587646485
+        },
+        {
+          "height": 44,
+          "text": "Exit focus mode",
+          "width": 112.89583587646484
+        },
+        {
+          "height": 44,
+          "text": "Fullscreen",
+          "width": 106.80208587646484
+        }
+      ],
+      "iframe": {
+        "bottom": 782.6041870117188,
+        "height": 722.6041870117188,
+        "left": 0,
+        "right": 390,
+        "top": 60,
+        "width": 390,
+        "x": 0,
+        "y": 60
+      },
+      "overflow": false,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "mobile-normal-layout",
+      "focusMode": false,
+      "iframe": {
+        "bottom": 415.5,
+        "height": 228.4375,
+        "left": 16,
+        "right": 358.66668701171875,
+        "top": 187.0625,
+        "width": 342.66668701171875,
+        "x": 16,
+        "y": 187.0625
+      },
+      "overflow": false,
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  ],
+  "limits": "Native fullscreen rejected in controlled browser; focus fallback and visible exit verified. Mobile viewport checks are not physical touch-device certification. No full-level completion.",
+  "finalGameEvidence": "screenshots/site-gameplay.jpg (exact fresh getScreenshot bytes; real truck scene)",
+  "finalCaptureViewports": {
+    "desktop": [
+      2560,
+      1215
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "clarifications": [
+    "native-fullscreen-exit only observed no native fullscreen; native exit not certified",
+    "Unity sometimes went white after live viewport resize; reload restored menu",
+    "Snapshots can lag canvas frames; gameplay files recaptured from fresh displayed bytes"
+  ]
+}

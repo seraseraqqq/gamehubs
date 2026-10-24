@@ -1,0 +1,46 @@
+{
+  "terms": [
+    "cluster-rush"
+  ],
+  "counts": {
+    "cluster-rush": 4
+  },
+  "hits": [
+    {
+      "scope": "rankup",
+      "file": "cluster-rush\\.rankup\\checks.md",
+      "line": 5,
+      "terms": [
+        "cluster-rush"
+      ],
+      "text": "- ✅ Competitor architecture and actual opening-level controls: public HTML, asset probes, real Chrome screenshots in `../../../research/2026-10-24-cluster-rush`"
+    },
+    {
+      "scope": "rankup",
+      "file": "cluster-rush\\.rankup\\INDEX.md",
+      "line": 5,
+      "terms": [
+        "cluster-rush"
+      ],
+      "text": "- Read: [plan](plan.md), [keyword research](research/cluster-rush-2026-10-24.md), [research evidence](../../../research/2026-10-24-cluster-rush/README.md)."
+    },
+    {
+      "scope": "rankup",
+      "file": "cluster-rush\\.rankup\\keywords.md",
+      "line": 11,
+      "terms": [
+        "cluster-rush"
+      ],
+      "text": "Evidence and limits: [research entry](research/cluster-rush-2026-10-24.md)."
+    },
+    {
+      "scope": "rankup",
+      "file": "cluster-rush\\.rankup\\research\\cluster-rush-2026-10-24.md",
+      "line": 10,
+      "terms": [
+        "cluster-rush"
+      ],
+      "text": "Original evidence: [report](../../../../research/2026-10-24-cluster-rush/README.md), `raw/http-manifest.json`, game HTML, asset probes and screenshots. Own page"
+    }
+  ]
+}

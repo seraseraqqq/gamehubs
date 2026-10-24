@@ -1,5 +1,7 @@
 # GameHubs handoff
 
+- Cluster Rush: `games/cluster-rush`, preview `http://127.0.0.1:4202/`. Competitors use iframe + existing Unity; io loads external GitHub Pages NG/asm.js resources, net self-hosts a Unity build, Yoplay embeds Snokido, Geometry Lite directly embeds io game page. Same direct iframe approach built with original SEO guides; 92 export assertions + 10 HTTP checks pass. Real first-level game, focus/reload and responsive layout captured. Native fullscreen denied in controlled browser, focus fallback verified; phone touch unverified. [Research, screenshot gallery, difficulty, available domain shortlist](research/2026-10-24-cluster-rush/README.md). No deployment/purchase. Confirm embedding permission and owned domain before release; `.rankup` records live in the game directory.
+
 - Head Soccer 2026: `games/head-soccer-2026`, local preview `http://127.0.0.1:4201/`. Same official GamePix iframe architecture as direct competitor; [research, screenshots, difficulty and registrar-verified domains](research/2026-10-24-head-soccer-2026/README.md). Export/indexability/links/404 checks pass; actual solo pitch and controls observed, responsive layout checked. Own game DESIGN is scoped locally. Deployed to https://playheadsoccer.com/ after owner confirmed domain ownership. HTTPS, canonical, robots, sitemap and www301 verified; provider title rendered on actual domain. See deployments/2026-10-24-owned-game-domains.md. Real touch and revenue onboarding remain follow-ups.
 
 Updated 2026-10-24. Keyword-led single-game sites; no separate consumer brands.

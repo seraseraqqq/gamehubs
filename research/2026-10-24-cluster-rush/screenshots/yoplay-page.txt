@@ -1,0 +1,12 @@
+Browser tab: 196476491, Title: "Cluster Rush - Play Online", URL: "https://yoplay.io/cluster-rush".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 1-4
++	343 text Advertisement
++	344 text Advertisement
++			345 container default-demo
++				346 image Description: 1, Help: bad
++				347 image Description: 2, Help: poor
++				348 image Description: 3, Help: regular
++				349 image Description: 4, Help: good
++				350 image Description: 5, Help: gorgeous
+The focused UI element is 0 AXWebArea Cluster Rush - Play Online, URL: yoplay.io/cluster-rush

@@ -1,0 +1,160 @@
+{
+  "checkedAt": "2026-10-24T04:33:32.002Z",
+  "results": [
+    {
+      "name": "io",
+      "url": "https://clusterrush.io/",
+      "finalUrl": "https://clusterrush.io/",
+      "status": 200,
+      "bytes": 111295,
+      "iframes": [
+        "<iframe class=\"game-iframe\" id=\"game-area\"\r\n src=\"https://clusterrush.io/embed/cluster-rush?pub_id=&amp;preroll=0\"\r\n allow=\"autoplay; fullscreen; focus-without-user-activation *; gamepad; keyboard-map *; accelerometer; gyroscope\" \r\n allowfullscreen>"
+      ],
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-K9FV34GJGJ",
+        "/ads/ads.min.js?v1.0",
+        "/themes/clusterrush.io/resources/js/jquery-3.5.1.min.js",
+        "/themes/clusterrush.io/resources/js/ga_tracking.js?v2",
+        "/themes/clusterrush.io/resources/js/tracking_event.js?v1.1",
+        "/themes/clusterrush.io/resources/js/scripts.min.js?v=1"
+      ],
+      "title": "Cluster Rush",
+      "h1": [
+        "<h1>Cluster Rush</h1>"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://clusterrush.io\" data-react-helmet=\"true\">"
+      ],
+      "headers": {
+        "content-security-policy": null,
+        "x-frame-options": null,
+        "content-type": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "name": "net",
+      "url": "https://clusterrush.net/",
+      "finalUrl": "https://clusterrush.net/",
+      "status": 200,
+      "bytes": 38655,
+      "iframes": [
+        "<iframe\n          src=\"/game/index.html\"\n          id=\"gameFrame\" scrolling=\"no\"\n          allowfullscreen\n          allow=\"autoplay; fullscreen\"\n          title=\"Play Cluster Rush online\"\n          onload=\"gameLoaded()\"\n          >"
+      ],
+      "scripts": [],
+      "title": "Cluster Rush - Play Cluster Rush Unblocked Online Free",
+      "h1": [
+        "<h1 class=\"info-title\">Cluster <span>Rush</span></h1>"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://clusterrush.net/\">"
+      ],
+      "headers": {
+        "content-security-policy": null,
+        "x-frame-options": null,
+        "content-type": "text/html"
+      }
+    },
+    {
+      "name": "online",
+      "url": "https://clusterrush.online/",
+      "error": "fetch failed"
+    },
+    {
+      "name": "geometry",
+      "url": "https://geometrylite.net/arcade/cluster-rush",
+      "finalUrl": "https://geometrylite.net/arcade/cluster-rush",
+      "status": 200,
+      "bytes": 163282,
+      "iframes": [
+        "<iframe src=\"https://clusterrush.io/game/cluster-rush/\" class=\"w-full h-full border-0\" title=\"Play Geometry Lite - Free Online Game\" allow=\"autoplay; fullscreen; camera; focus-without-user-activation *; monetization; gamepad; keyboard-map *; xr-spatial-tracking; clipboard-write; web-share; accelerometer; magnetometer; gyroscope; display-capture\" allowFullScreen=\"\" sandbox=\"allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-scripts allow-same-origin allow-downloads\" loading=\"eager\">"
+      ],
+      "scripts": [
+        "/_next/static/chunks/5c2c9b78-4def35cbd98d227b.js",
+        "/_next/static/chunks/6707-0247c7a32b1742e5.js",
+        "/_next/static/chunks/main-app-34841aa84ed9edd3.js",
+        "/_next/static/chunks/9581-4cc751725f90706d.js",
+        "/_next/static/chunks/4816-c06622479e88aaf6.js",
+        "/_next/static/chunks/8443-f7effcc3d70dbba8.js",
+        "/_next/static/chunks/2084-8893f8a970729e7f.js",
+        "/_next/static/chunks/9036-fb29217a6e357dd8.js",
+        "/_next/static/chunks/7996-0d06aefb78c4ef91.js",
+        "/_next/static/chunks/5733-ac9b5c7f897704a3.js",
+        "/_next/static/chunks/2022-49cb893bda3dec60.js",
+        "/_next/static/chunks/4371-0c8955113570b372.js",
+        "/_next/static/chunks/2326-c43cb76b4f42c5bc.js",
+        "/_next/static/chunks/7586-05ba4c549bd17a8e.js",
+        "/_next/static/chunks/app/%5Blocale%5D/(games)/layout-439ef0109dab5259.js",
+        "/_next/static/chunks/911-2691ebfd1e747081.js",
+        "/_next/static/chunks/9611-306a4c1a7bc6045f.js",
+        "/_next/static/chunks/app/%5Blocale%5D/layout-ea543a145c7a0aac.js",
+        "/_next/static/chunks/7555-a0d3c3e05d9a3ddd.js",
+        "/_next/static/chunks/8333-42fd3cb22aecfa4a.js",
+        "/_next/static/chunks/app/%5Blocale%5D/(games)/%5Bcatalog%5D/%5Bslug%5D/page-2e82c0154dd5831d.js",
+        "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "/_next/static/chunks/webpack-31f1d32950559721.js"
+      ],
+      "title": "Cluster Rush - Play Free Online Arcade Game | Geometry Lite",
+      "h1": [
+        "<h1 class=\"text-xl md:text-3xl lg:text-4xl text-[#00FF79] drop-shadow-[0_0_10px_#00FF79] leading-tight truncate\" itemProp=\"name\">Cluster Rush</h1>"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://geometrylite.net/arcade/cluster-rush\"/>"
+      ],
+      "headers": {
+        "content-security-policy": null,
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "name": "yoplay",
+      "url": "https://yoplay.io/cluster-rush",
+      "finalUrl": "https://yoplay.io/cluster-rush",
+      "status": 200,
+      "bytes": 146240,
+      "iframes": [
+        "<iframe id=\"iframehtml5\" src=\"/cluster-rush.embed\" width=\"100%\" height=\"100%\" title=\"Cluster Rush\" frameborder=\"0\" border=\"0\" scrolling=\"auto\" allowfullscreen>"
+      ],
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-Y6HY4E0BYR",
+        "/themes/yoplay/rs/js/storage.js",
+        "/themes/yoplay/rs/js/jquery-3.4.1.min.js",
+        "/themes/yoplay/rs/js/jquery.validate.min.js",
+        "/themes/yoplay/rs/js/lazyload.min.js",
+        "/themes/yoplay/rs/js/swiper.min.js",
+        "/themes/yoplay/rs/js/script.js?v=8"
+      ],
+      "title": "Cluster Rush - Play Online",
+      "h1": [
+        "<h1 class=\"\" style=\"font-size: 24px; font-weight: 400; margin: 8px 0; text-transform: capitalize; white-space: unset;\">Cluster Rush</h1>"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://yoplay.io/cluster-rush\">"
+      ],
+      "headers": {
+        "content-security-policy": null,
+        "x-frame-options": null,
+        "content-type": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "name": "embed",
+      "url": "https://clusterrush.io/embed/cluster-rush?pub_id=&preroll=0",
+      "finalUrl": "https://clusterrush.io/embed/cluster-rush?pub_id=&preroll=0",
+      "status": 200,
+      "bytes": 14600,
+      "iframes": [
+        "<iframe class=\"game-iframe\" id=\"game-area\" src=\"about:blank\"\r\n allow=\"autoplay; fullscreen; focus-without-user-activation *; gamepad; keyboard-map *; accelerometer; gyroscope\"\r\n allowfullscreen>"
+      ],
+      "scripts": [],
+      "title": "Play Cluster Rush game!",
+      "h1": null,
+      "canonical": null,
+      "headers": {
+        "content-security-policy": null,
+        "x-frame-options": null,
+        "content-type": "text/html; charset=UTF-8"
+      }
+    }
+  ]
+}
