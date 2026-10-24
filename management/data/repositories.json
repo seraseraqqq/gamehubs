@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T15:36:31.785Z",
+  "updatedAt": "2026-10-24T16:40:39.599Z",
   "phase": "selective-build-and-two-independent-prototypes",
   "managementRepository": "https://github.com/seraseraqqq/gamehubs",
   "games": [
@@ -175,10 +175,10 @@
       "githubRepositoryId": 1432163348,
       "defaultBranch": "main",
       "migrationState": "new-independent-repository",
-      "developmentState": "local-mvp-verified-pending-device-and-player-acceptance",
+      "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
       "releaseState": "not-deployed",
-      "verifiedHead": "bc4fc8e53a5d67e8377d54d46d69037558297105",
-      "verifiedAt": "2026-10-24T12:34:45.077Z",
+      "verifiedHead": "cd3d12b88e94743ac47539656114088b72f3c473",
+      "verifiedAt": "2026-10-24T16:40:34.552Z",
       "priority": 1,
       "cohort": "P0 · 首批",
       "plannedDomain": "cutleunlimited.com",
@@ -188,7 +188,8 @@
         "requirements": "docs/PRD.md",
         "design": "docs/DESIGN_BRIEF.md",
         "competitors": "docs/COMPETITORS.md",
-        "handoff": ".rankup/INDEX.md"
+        "handoff": ".rankup/INDEX.md",
+        "optimization": "docs/OPTIMIZATION.md"
       },
       "localPreview": "http://127.0.0.1:4311",
       "localValidation": {
@@ -199,7 +200,16 @@
         "physicalDeviceAcceptance": false,
         "playerComparisonAcceptance": false
       },
-      "localWorktreeState": "uncommitted-implementation"
+      "localWorktreeState": "clean-pushed",
+      "optimizationValidation": {
+        "date": "2026-10-25",
+        "engineTests": 6,
+        "chromeFlowsPassed": true,
+        "review": "ship-local-prototype",
+        "physicalDeviceAcceptance": false,
+        "playerComparisonAcceptance": false,
+        "productionPerformanceAcceptance": false
+      }
     },
     {
       "siteId": "poople",
@@ -211,10 +221,10 @@
       "githubRepositoryId": 1432163572,
       "defaultBranch": "main",
       "migrationState": "new-independent-repository",
-      "developmentState": "local-mvp-verified-pending-device-and-player-acceptance",
+      "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
       "releaseState": "not-deployed",
-      "verifiedHead": "cf0ff44e999acf3a9bb7103409dca3e849454b1d",
-      "verifiedAt": "2026-10-24T12:34:51.265Z",
+      "verifiedHead": "09a623df1cccd3afc7597eef27b18e3d3b6ca813",
+      "verifiedAt": "2026-10-24T16:40:35.796Z",
       "priority": 2,
       "cohort": "P0 · 首批",
       "plannedDomain": "pooplepractice.com",
@@ -224,7 +234,8 @@
         "requirements": "docs/PRD.md",
         "design": "docs/DESIGN_BRIEF.md",
         "competitors": "docs/COMPETITORS.md",
-        "handoff": ".rankup/INDEX.md"
+        "handoff": ".rankup/INDEX.md",
+        "optimization": "docs/OPTIMIZATION.md"
       },
       "localPreview": "http://127.0.0.1:4312",
       "localValidation": {
@@ -235,7 +246,16 @@
         "physicalDeviceAcceptance": false,
         "playerComparisonAcceptance": false
       },
-      "localWorktreeState": "uncommitted-implementation"
+      "localWorktreeState": "clean-pushed",
+      "optimizationValidation": {
+        "date": "2026-10-25",
+        "engineTests": 5,
+        "chromeFlowsPassed": true,
+        "review": "ship-local-prototype",
+        "physicalDeviceAcceptance": false,
+        "playerComparisonAcceptance": false,
+        "productionPerformanceAcceptance": false
+      }
     },
     {
       "siteId": "colordle",
@@ -247,10 +267,10 @@
       "githubRepositoryId": 1432163806,
       "defaultBranch": "main",
       "migrationState": "new-independent-repository",
-      "developmentState": "local-mvp-verified-pending-device-and-player-acceptance",
+      "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
       "releaseState": "not-deployed",
-      "verifiedHead": "2cd8459473dbe5a4e6f7a5ea459a1fb65a02b39c",
-      "verifiedAt": "2026-10-24T12:34:57.284Z",
+      "verifiedHead": "0092d9d796a00048f65855dfbf072fa2dec5760b",
+      "verifiedAt": "2026-10-24T16:40:37.125Z",
       "priority": 3,
       "cohort": "P0 · 首批",
       "plannedDomain": "colordleunlimited.com",
@@ -260,7 +280,8 @@
         "requirements": "docs/PRD.md",
         "design": "docs/DESIGN_BRIEF.md",
         "competitors": "docs/COMPETITORS.md",
-        "handoff": ".rankup/INDEX.md"
+        "handoff": ".rankup/INDEX.md",
+        "optimization": "docs/OPTIMIZATION.md"
       },
       "localPreview": "http://127.0.0.1:4313",
       "localValidation": {
@@ -271,7 +292,16 @@
         "physicalDeviceAcceptance": false,
         "playerComparisonAcceptance": false
       },
-      "localWorktreeState": "uncommitted-implementation"
+      "localWorktreeState": "clean-pushed",
+      "optimizationValidation": {
+        "date": "2026-10-25",
+        "engineTests": 4,
+        "chromeFlowsPassed": true,
+        "review": "ship-local-prototype",
+        "physicalDeviceAcceptance": false,
+        "playerComparisonAcceptance": false,
+        "productionPerformanceAcceptance": false
+      }
     },
     {
       "siteId": "metazooa",
@@ -283,10 +313,10 @@
       "githubRepositoryId": 1432163965,
       "defaultBranch": "main",
       "migrationState": "new-independent-repository",
-      "developmentState": "local-mvp-verified-pending-device-and-player-acceptance",
+      "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
       "releaseState": "not-deployed",
-      "verifiedHead": "48ae9bf93afeb90f5201d1517f1f07cf5d587a84",
-      "verifiedAt": "2026-10-24T12:35:03.034Z",
+      "verifiedHead": "2e504e89c85b7f24a963881f39d69632b44fd29e",
+      "verifiedAt": "2026-10-24T16:40:38.347Z",
       "priority": 4,
       "cohort": "P1 · 第二批",
       "plannedDomain": "metazooapractice.com",
@@ -296,7 +326,8 @@
         "requirements": "docs/PRD.md",
         "design": "docs/DESIGN_BRIEF.md",
         "competitors": "docs/COMPETITORS.md",
-        "handoff": ".rankup/INDEX.md"
+        "handoff": ".rankup/INDEX.md",
+        "optimization": "docs/OPTIMIZATION.md"
       },
       "localPreview": "http://127.0.0.1:4314",
       "localValidation": {
@@ -307,7 +338,16 @@
         "physicalDeviceAcceptance": false,
         "playerComparisonAcceptance": false
       },
-      "localWorktreeState": "uncommitted-implementation"
+      "localWorktreeState": "clean-pushed",
+      "optimizationValidation": {
+        "date": "2026-10-25",
+        "engineTests": 4,
+        "chromeFlowsPassed": true,
+        "review": "ship-local-prototype",
+        "physicalDeviceAcceptance": false,
+        "playerComparisonAcceptance": false,
+        "productionPerformanceAcceptance": false
+      }
     },
     {
       "siteId": "travle",
@@ -319,10 +359,10 @@
       "githubRepositoryId": 1432164130,
       "defaultBranch": "main",
       "migrationState": "new-independent-repository",
-      "developmentState": "local-mvp-verified-pending-device-and-player-acceptance",
+      "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
       "releaseState": "not-deployed",
-      "verifiedHead": "f3cb0e28ca502df09d8ecd5c44054480fee7e8a1",
-      "verifiedAt": "2026-10-24T12:35:07.844Z",
+      "verifiedHead": "0dde58e7eb69bc6cab48b8fa283bf35b29113916",
+      "verifiedAt": "2026-10-24T16:40:39.599Z",
       "priority": 5,
       "cohort": "P1 · 第二批",
       "plannedDomain": "travleunlimited.com",
@@ -332,7 +372,8 @@
         "requirements": "docs/PRD.md",
         "design": "docs/DESIGN_BRIEF.md",
         "competitors": "docs/COMPETITORS.md",
-        "handoff": ".rankup/INDEX.md"
+        "handoff": ".rankup/INDEX.md",
+        "optimization": "docs/OPTIMIZATION.md"
       },
       "localPreview": "http://127.0.0.1:4315",
       "localValidation": {
@@ -343,7 +384,16 @@
         "physicalDeviceAcceptance": false,
         "playerComparisonAcceptance": false
       },
-      "localWorktreeState": "uncommitted-implementation"
+      "localWorktreeState": "clean-pushed",
+      "optimizationValidation": {
+        "date": "2026-10-25",
+        "engineTests": 6,
+        "chromeFlowsPassed": true,
+        "review": "ship-local-prototype",
+        "physicalDeviceAcceptance": false,
+        "playerComparisonAcceptance": false,
+        "productionPerformanceAcceptance": false
+      }
     }
   ]
 }

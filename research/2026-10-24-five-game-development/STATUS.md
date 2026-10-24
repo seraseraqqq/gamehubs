@@ -25,7 +25,7 @@
 
 实体手机触屏/软键盘、200%缩放、跨浏览器专项、至少5名目标玩家竞品对照、逐词市场与名称/域名历史复核、生产PageSpeed/CWV、正式域名游玩和索引/分析/广告接入仍未验收。未安排外部人员联系，未建立自动化。关键词Volume/KD沿用已有研究估值，不将本地实现解释为流量、排名或收入成果。
 
-本轮运行时代码和管理记录留在本地工作树，尚未提交/推送；原有游戏的发布holds、Vercel项目、忽略构建逻辑和迁移快照保持不变。管理仓库整理后的台账路径为`management/data/repositories.json`，五项仍在plannedGames，developmentState已单独反映本地MVP状态。
+2026-10-25续更：完整运行时和优化已推送五仓，提交与当前验收见[优化交付](optimization-delivery.md)；其余内容保留2026-10-24首版验收范围。原有游戏的发布holds、Vercel项目、忽略构建逻辑和迁移快照保持不变。管理仓库整理后的台账路径为`management/data/repositories.json`，五项仍在plannedGames，developmentState已单独反映本地MVP状态。
 
 ## 沉淀的脚本
 

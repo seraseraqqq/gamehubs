@@ -17,13 +17,13 @@
 
 | 新游戏 | 独立GitHub仓库（私有） | 本地工作目录 | 当前状态 |
 |---|---|---|---|
-| Cutle | [gameshub-cutle](https://github.com/seraseraqqq/gameshub-cutle) | `E:/Projects/game-sites/cutle` | 本地MVP与浏览器验证完成；实体设备/玩家待验收，未部署 |
-| Poople | [gameshub-poople](https://github.com/seraseraqqq/gameshub-poople) | `E:/Projects/game-sites/poople` | 本地MVP与浏览器验证完成；实体设备/玩家待验收，未部署 |
-| Colordle | [gameshub-colordle](https://github.com/seraseraqqq/gameshub-colordle) | `E:/Projects/game-sites/colordle` | 本地MVP与浏览器验证完成；实体设备/玩家待验收，未部署 |
-| Metazooa | [gameshub-metazooa](https://github.com/seraseraqqq/gameshub-metazooa) | `E:/Projects/game-sites/metazooa` | 130动物与分类数据审查完成；本地MVP验证，未部署 |
-| Travle | [gameshub-travle](https://github.com/seraseraqqq/gameshub-travle) | `E:/Projects/game-sites/travle` | 本地MVP与浏览器验证完成；实体设备/玩家待验收，未部署 |
+| Cutle | [gameshub-cutle](https://github.com/seraseraqqq/gameshub-cutle) | `E:/Projects/game-sites/cutle` | 本地优化与Chrome回归完成，源码已推送；实体设备/玩家待验收，未部署 |
+| Poople | [gameshub-poople](https://github.com/seraseraqqq/gameshub-poople) | `E:/Projects/game-sites/poople` | 本地优化与Chrome回归完成，源码已推送；实体设备/玩家待验收，未部署 |
+| Colordle | [gameshub-colordle](https://github.com/seraseraqqq/gameshub-colordle) | `E:/Projects/game-sites/colordle` | 本地优化与Chrome回归完成，源码已推送；实体设备/玩家待验收，未部署 |
+| Metazooa | [gameshub-metazooa](https://github.com/seraseraqqq/gameshub-metazooa) | `E:/Projects/game-sites/metazooa` | 130动物与分类数据审查完成；本地优化及源码已推送，未部署 |
+| Travle | [gameshub-travle](https://github.com/seraseraqqq/gameshub-travle) | `E:/Projects/game-sites/travle` | 本地优化与Chrome回归完成，源码已推送；实体设备/玩家待验收，未部署 |
 
-新仓库按Owner本轮指定使用`gameshub-`前缀；原有`gamehubs-`仓库不改名。[工作空间与文档索引](NEW_GAME_PROJECTS.md)。五仓的初始化文档均已推送并核验；本轮本地运行时代码尚未提交/推送，尚无Vercel项目和已购域名。
+新仓库按Owner本轮指定使用`gameshub-`前缀；原有`gamehubs-`仓库不改名。[工作空间与文档索引](NEW_GAME_PROJECTS.md)。2026-10-25五仓完整本地运行时与UI/交互/SEO工具优化均已推送各自main，并回读核对远端SHA；[优化交付与提交号](../research/2026-10-24-five-game-development/optimization-delivery.md)。尚无Vercel项目和已购域名。
 
 ## 暂保留在 GameHubs 的 10 个线上游戏
 
