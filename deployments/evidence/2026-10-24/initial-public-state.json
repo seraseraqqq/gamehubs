@@ -1,0 +1,184 @@
+{
+  "checkedAt": "2026-10-24T04:02:42.420Z",
+  "results": [
+    {
+      "domain": "playaccelerationcity.com",
+      "http": {
+        "error": "fetch failed"
+      },
+      "dns": {
+        "status": 0,
+        "answers": [
+          {
+            "name": "playaccelerationcity.com.",
+            "type": 1,
+            "TTL": 300,
+            "data": "34.216.117.25"
+          },
+          {
+            "name": "playaccelerationcity.com.",
+            "type": 1,
+            "TTL": 300,
+            "data": "54.149.79.189"
+          }
+        ]
+      }
+    },
+    {
+      "domain": "playheadsoccer.com",
+      "http": {
+        "error": "fetch failed"
+      },
+      "dns": {
+        "status": 0,
+        "answers": [
+          {
+            "name": "playheadsoccer.com.",
+            "type": 1,
+            "TTL": 300,
+            "data": "54.149.79.189"
+          },
+          {
+            "name": "playheadsoccer.com.",
+            "type": 1,
+            "TTL": 300,
+            "data": "34.216.117.25"
+          }
+        ]
+      }
+    },
+    {
+      "domain": "snowrider3d.top",
+      "http": {
+        "error": "fetch failed"
+      },
+      "dns": {
+        "status": 0,
+        "answers": [
+          {
+            "name": "snowrider3d.top.",
+            "type": 1,
+            "TTL": 300,
+            "data": "34.216.117.25"
+          },
+          {
+            "name": "snowrider3d.top.",
+            "type": 1,
+            "TTL": 300,
+            "data": "54.149.79.189"
+          }
+        ]
+      }
+    },
+    {
+      "domain": "2048cupcakes.xyz",
+      "http": {
+        "status": 200,
+        "finalURL": "https://www.2048cupcakes.xyz/",
+        "title": "2048 Cupcakes — A Cozy Cupcake Merge Game | Crumb",
+        "canonical": "https://www.2048cupcakes.xyz/",
+        "noindex": false,
+        "server": "Vercel"
+      },
+      "dns": {
+        "status": 0,
+        "answers": [
+          {
+            "name": "2048cupcakes.xyz.",
+            "type": 1,
+            "TTL": 1800,
+            "data": "216.198.79.1"
+          }
+        ]
+      }
+    },
+    {
+      "domain": "spacebarcounter.xyz",
+      "http": {
+        "status": 200,
+        "finalURL": "https://www.spacebarcounter.xyz/",
+        "title": "Spacebar Counter — A Simple Spacebar Speed Test",
+        "canonical": "https://www.spacebarcounter.xyz/",
+        "noindex": false,
+        "server": "Vercel"
+      },
+      "dns": {
+        "status": 0,
+        "answers": [
+          {
+            "name": "spacebarcounter.xyz.",
+            "type": 1,
+            "TTL": 1800,
+            "data": "216.198.79.1"
+          }
+        ]
+      }
+    },
+    {
+      "domain": "krilliononline.com",
+      "http": {
+        "status": 200,
+        "finalURL": "https://krilliononline.com/",
+        "title": "STARLING — Free Space Word Game &amp; Rare Answer Challenge",
+        "canonical": "https://krilliononline.com/",
+        "noindex": false,
+        "server": "Vercel"
+      },
+      "dns": {
+        "status": 0,
+        "answers": [
+          {
+            "name": "krilliononline.com.",
+            "type": 1,
+            "TTL": 1800,
+            "data": "216.198.79.1"
+          }
+        ]
+      }
+    },
+    {
+      "domain": "gulperio.com",
+      "http": {
+        "status": 200,
+        "finalURL": "https://gulperio.com/",
+        "title": "Gulper.io-Inspired Snake Arena — Solo Bot Game",
+        "canonical": "https://gulperio.com/",
+        "noindex": false,
+        "server": "Vercel"
+      },
+      "dns": {
+        "status": 0,
+        "answers": [
+          {
+            "name": "gulperio.com.",
+            "type": 1,
+            "TTL": 1800,
+            "data": "216.198.79.1"
+          }
+        ]
+      }
+    },
+    {
+      "domain": "playblockblastunblocked.com",
+      "http": {
+        "status": 200,
+        "finalURL": "https://playblockblastunblocked.com/",
+        "title": "Block Blast Unblocked — Free 8×8 Block Puzzle",
+        "canonical": "https://playblockblastunblocked.com/",
+        "noindex": false,
+        "server": "Vercel"
+      },
+      "dns": {
+        "status": 0,
+        "answers": [
+          {
+            "name": "playblockblastunblocked.com.",
+            "type": 1,
+            "TTL": 1800,
+            "data": "216.198.79.1"
+          }
+        ]
+      }
+    }
+  ]
+}

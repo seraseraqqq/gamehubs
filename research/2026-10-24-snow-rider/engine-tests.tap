@@ -1,0 +1,70 @@
+TAP version 13
+# Subtest: seeded course is reproducible; every obstacle row leaves an open lane
+ok 1 - seeded course is reproducible; every obstacle row leaves an open lane
+  ---
+  duration_ms: 7.0542
+  type: 'test'
+  ...
+# Subtest: course jitter removes all permanent safe corridors, including inter-lane positions
+ok 2 - course jitter removes all permanent safe corridors, including inter-lane positions
+  ---
+  duration_ms: 8.4871
+  type: 'test'
+  ...
+# Subtest: paused or ready runs do not advance; resume advances
+ok 3 - paused or ready runs do not advance; resume advances
+  ---
+  duration_ms: 0.5312
+  type: 'test'
+  ...
+# Subtest: steering is bounded and frame stalls cannot skip the whole slope
+ok 4 - steering is bounded and frame stalls cannot skip the whole slope
+  ---
+  duration_ms: 0.4503
+  type: 'test'
+  ...
+# Subtest: riding the edge cannot avoid every obstacle for free
+ok 5 - riding the edge cannot avoid every obstacle for free
+  ---
+  duration_ms: 0.3484
+  type: 'test'
+  ...
+# Subtest: ground collision ends a run; jumping clears a low log
+ok 6 - ground collision ends a run; jumping clears a low log
+  ---
+  duration_ms: 0.2279
+  type: 'test'
+  ...
+# Subtest: tall trees cannot be jumped and steering outside the hitbox is safe
+ok 7 - tall trees cannot be jumped and steering outside the hitbox is safe
+  ---
+  duration_ms: 0.2194
+  type: 'test'
+  ...
+# Subtest: one gift is counted once; airborne sled misses high pickup
+ok 8 - one gift is counted once; airborne sled misses high pickup
+  ---
+  duration_ms: 0.1593
+  type: 'test'
+  ...
+# Subtest: jump cannot repeat in air and always returns to ground
+ok 9 - jump cannot repeat in air and always returns to ground
+  ---
+  duration_ms: 0.3211
+  type: 'test'
+  ...
+# Subtest: malformed saves cannot create invalid colors, negative funds or infinite scores
+ok 10 - malformed saves cannot create invalid colors, negative funds or infinite scores
+  ---
+  duration_ms: 0.5475
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 112.5554

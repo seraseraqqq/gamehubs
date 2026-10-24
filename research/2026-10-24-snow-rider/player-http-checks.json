@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-24T03:33:19.769Z",
+  "checks": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "csp": true
+    },
+    {
+      "path": "player.js",
+      "status": 200,
+      "csp": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "csp": true
+    },
+    {
+      "path": "assets/publisher-cover.jpg",
+      "status": 200,
+      "csp": true
+    },
+    {
+      "path": "about.html",
+      "status": 200,
+      "csp": true
+    },
+    {
+      "path": "snow-rider-3d-controls.html",
+      "status": 200,
+      "csp": true
+    }
+  ]
+}

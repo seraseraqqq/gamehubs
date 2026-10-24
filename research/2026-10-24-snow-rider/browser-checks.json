@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-24",
+  "environment": "User Chrome via CUA; desktop viewport 1440x1000 and mobile emulation 390x844; captures may exclude scrollbar in pixel width.",
+  "observations": [
+    {"check":"WebGL startup", "result":"passed", "evidence":"data-renderer=webgl2, state=ready; rendered forest/sled screenshot"},
+    {"check":"Desktop overflow", "result":"passed", "evidence":"document scrollWidth <= innerWidth; game rect 1248x640"},
+    {"check":"Start and keyboard steering", "result":"passed", "evidence":"Ride the slope -> state playing; 350ms Right -> x=2.40, distance=5"},
+    {"check":"Pause", "result":"passed", "evidence":"P -> Take a breather, state paused, Keep riding and Resume controls"},
+    {"check":"Insufficient gifts", "result":"passed", "evidence":"Forest green with zero gifts -> Collect 15 more gifts to unlock this sled"},
+    {"check":"Mobile layout", "result":"observed", "evidence":"390x844 layout; actual initial and playing captures, touch buttons visible"},
+    {"check":"Mobile pointer steering", "result":"passed", "evidence":"300ms left-button hold -> x=-2.00, state playing, distance advanced"},
+    {"check":"Jump UI", "result":"exercised", "evidence":"Up key and touch Jump exercised; playing screenshot shows raised sled. Quantitative height read was not retained; jump physics independently passes unit tests."}
+  ],
+  "finalChangesAfterCaptures": ["jitter obstacle positions to eliminate permanent lane gaps", "internal fullscreen pause/exit", "opaque overlay-description backdrop", "sound icon follows state"],
+  "notCompleted": ["final screenshots after last UI batch", "fullscreen touch pause/resume/exit interaction", "sound icon enabled appearance", "real mobile-device performance", "storage-blocked browser fixture", "full run/restart/save browser persistence test", "Lighthouse/3G performance measurement"],
+  "blocker": "Browser bridge timed out twice, then CUA explicitly stopped Computer Use because the current Windows browser URL could not be determined with enough confidence. No other browser-control mechanism was used after that stop."
+}

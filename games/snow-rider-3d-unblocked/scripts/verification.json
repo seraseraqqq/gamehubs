@@ -1,0 +1,293 @@
+{
+  "checkedAt": "2026-10-24T04:05:26.182Z",
+  "checks": [
+    {
+      "name": "index.html: one H1",
+      "pass": true
+    },
+    {
+      "name": "index.html: unique sensible title",
+      "pass": true,
+      "detail": "Snow Rider 3D Unblocked — Play Free Online"
+    },
+    {
+      "name": "index.html: description <=155 characters",
+      "pass": true,
+      "detail": {
+        "length": 145,
+        "description": "Play Snow Rider 3D online in your browser. Steer your sled, jump obstacles and collect gifts. GameDistribution player, controls and loading help."
+      }
+    },
+    {
+      "name": "index.html: source stays noindex",
+      "pass": true
+    },
+    {
+      "name": "index.html: independent-site disclosure",
+      "pass": true
+    },
+    {
+      "name": "index.html: local target ./favicon.svg",
+      "pass": true
+    },
+    {
+      "name": "index.html: local target ./assets/apple-touch-icon.png",
+      "pass": true
+    },
+    {
+      "name": "index.html: local target ./manifest.webmanifest",
+      "pass": true
+    },
+    {
+      "name": "index.html: local target ./style.css",
+      "pass": true
+    },
+    {
+      "name": "index.html: local target ./assets/Figtree-Latin.woff2",
+      "pass": true
+    },
+    {
+      "name": "index.html: local target ./snow-rider-3d-controls.html",
+      "pass": true
+    },
+    {
+      "name": "index.html: local target ./assets/publisher-cover.jpg",
+      "pass": true
+    },
+    {
+      "name": "index.html: local target ./snow-rider-3d-controls.html",
+      "pass": true
+    },
+    {
+      "name": "index.html: local target ./about.html",
+      "pass": true
+    },
+    {
+      "name": "index.html: local target ./player.js",
+      "pass": true
+    },
+    {
+      "name": "index.html: valid JSON-LD without fabricated reviews",
+      "pass": true
+    },
+    {
+      "name": "index.html: no external executable before interaction",
+      "pass": true
+    },
+    {
+      "name": "snow-rider-3d-controls.html: one H1",
+      "pass": true
+    },
+    {
+      "name": "snow-rider-3d-controls.html: unique sensible title",
+      "pass": true,
+      "detail": "Snow Rider 3D Controls & Loading Help"
+    },
+    {
+      "name": "snow-rider-3d-controls.html: description <=155 characters",
+      "pass": true,
+      "detail": {
+        "length": 147,
+        "description": "Snow Rider 3D controls: arrows or A/D to steer, Up or W to jump. Learn about gifts, mobile landscape play and troubleshooting the publisher player."
+      }
+    },
+    {
+      "name": "snow-rider-3d-controls.html: source stays noindex",
+      "pass": true
+    },
+    {
+      "name": "snow-rider-3d-controls.html: independent-site disclosure",
+      "pass": true
+    },
+    {
+      "name": "snow-rider-3d-controls.html: local target ./favicon.svg",
+      "pass": true
+    },
+    {
+      "name": "snow-rider-3d-controls.html: local target ./style.css",
+      "pass": true
+    },
+    {
+      "name": "snow-rider-3d-controls.html: local target ./about.html",
+      "pass": true
+    },
+    {
+      "name": "snow-rider-3d-controls.html: valid JSON-LD without fabricated reviews",
+      "pass": true
+    },
+    {
+      "name": "snow-rider-3d-controls.html: no external executable before interaction",
+      "pass": true
+    },
+    {
+      "name": "about.html: one H1",
+      "pass": true
+    },
+    {
+      "name": "about.html: unique sensible title",
+      "pass": true,
+      "detail": "About & Privacy — Snow Rider 3D Game Page"
+    },
+    {
+      "name": "about.html: description <=155 characters",
+      "pass": true,
+      "detail": {
+        "length": 138,
+        "description": "About this independent Snow Rider 3D game page, the GameDistribution player, third-party privacy choices, game credits and browser access."
+      }
+    },
+    {
+      "name": "about.html: source stays noindex",
+      "pass": true
+    },
+    {
+      "name": "about.html: independent-site disclosure",
+      "pass": true
+    },
+    {
+      "name": "about.html: local target ./favicon.svg",
+      "pass": true
+    },
+    {
+      "name": "about.html: local target ./style.css",
+      "pass": true
+    },
+    {
+      "name": "about.html: local target ./assets/Figtree-OFL.txt",
+      "pass": true
+    },
+    {
+      "name": "about.html: local target ./snow-rider-3d-controls.html",
+      "pass": true
+    },
+    {
+      "name": "about.html: no external executable before interaction",
+      "pass": true
+    },
+    {
+      "name": "main keyword in title and H1",
+      "pass": true
+    },
+    {
+      "name": "homepage loads publisher wrapper, no original simulation",
+      "pass": true
+    },
+    {
+      "name": "publisher and third-party privacy are disclosed",
+      "pass": true
+    },
+    {
+      "name": "wrapper uses existing publisher game ID",
+      "pass": true
+    },
+    {
+      "name": "SDK referrer uses actual page URL",
+      "pass": true
+    },
+    {
+      "name": "CSP permits the selected publisher frame only",
+      "pass": true
+    },
+    {
+      "name": "unique page descriptions",
+      "pass": true
+    },
+    {
+      "name": "preview blocks indexing",
+      "pass": true
+    },
+    {
+      "name": "preview omits canonical",
+      "pass": true
+    },
+    {
+      "name": "export excludes superseded original file engine.js",
+      "pass": true
+    },
+    {
+      "name": "export excludes superseded original file scene.js",
+      "pass": true
+    },
+    {
+      "name": "export excludes superseded original file game.js",
+      "pass": true
+    },
+    {
+      "name": "export excludes superseded original file vendor",
+      "pass": true
+    },
+    {
+      "name": "export excludes superseded original file assets/social-card.jpg",
+      "pass": true
+    },
+    {
+      "name": "index.html: production canonical",
+      "pass": true
+    },
+    {
+      "name": "index.html: production indexable",
+      "pass": true
+    },
+    {
+      "name": "index.html: absolute social image",
+      "pass": true
+    },
+    {
+      "name": "snow-rider-3d-controls.html: production canonical",
+      "pass": true
+    },
+    {
+      "name": "snow-rider-3d-controls.html: production indexable",
+      "pass": true
+    },
+    {
+      "name": "snow-rider-3d-controls.html: absolute social image",
+      "pass": true
+    },
+    {
+      "name": "about.html: production canonical",
+      "pass": true
+    },
+    {
+      "name": "about.html: production indexable",
+      "pass": true
+    },
+    {
+      "name": "about.html: absolute social image",
+      "pass": true
+    },
+    {
+      "name": "sitemap has exactly three production URLs",
+      "pass": true
+    },
+    {
+      "name": "robots advertises production sitemap",
+      "pass": true
+    },
+    {
+      "name": "Vercel preview cannot accidentally index",
+      "pass": true
+    },
+    {
+      "name": "reject invalid origin http://bad.example",
+      "pass": true
+    },
+    {
+      "name": "reject invalid origin https://bad.example/a",
+      "pass": true
+    },
+    {
+      "name": "reject invalid origin https://localhost",
+      "pass": true
+    },
+    {
+      "name": "reject invalid origin https://user:pass@bad.example",
+      "pass": true
+    },
+    {
+      "name": "final export is safe preview",
+      "pass": true
+    }
+  ],
+  "passed": 68
+}

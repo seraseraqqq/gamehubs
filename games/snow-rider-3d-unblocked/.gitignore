@@ -1,0 +1,9 @@
+dist/
+
+# Superseded original prototype: retain locally, exclude from publisher delivery.
+engine.js
+scene.js
+game.js
+vendor/
+assets/social-card.jpg
+scripts/engine.test.mjs

@@ -1,0 +1,51 @@
+[
+  {
+    "signals": [
+      "d 0!==n.precision?n.precision:\"highp\",l=i(o);l!==o&&((0,x.warn)(\"WebGLRenderer:\",o,\"not supported, using\",l,\"instead.\"),o=l);let s=!0===n.logarithmicDepthBuffer,u=!0===n.reversedDepthBuffer&&t.has(\"",
+      "_control\");return!0===n.reversedDepthBuffer&&!1===u&&(0,x.warn)(\"WebGLRenderer: Unable to use reversed depth buffer due to missing EXT_clip_control extension. Fallback to default depth buffer.\"),{is",
+      "t\")},get:function(e){let t=n(e);return null===t&&(0,x.warnOnce)(\"WebGLRenderer: \"+e+\" extension not supported.\"),t}}}function Q(e,t,n,r){let a={},i=new WeakMap;function o(e){let l=e.target;for(let e",
+      ";if(void 0===n){let e=tu.get(t);if(void 0!==e)n=M[e],(0,x.warn)('WebGLRenderer: Shader chunk \"%s\" has been deprecated. Use \"%s\" instead.',t,e);else throw Error(\"THREE.WebGLProgram: Can not resolve #",
+      "n h(e,t){return m?new OffscreenCanvas(e,t):(0,x.createElementNS)(\"canvas\")}function g(e,t,n){let r=1,a=j(e);if((a.width>n||a.height>n)&&(r=n/Math.max(a.width,a.height)),r<1)if(\"u\">typeof HTMLIm",
+      "n,o.height=i,o.getContext(\"2d\").drawImage(e,0,0,n,i),(0,x.warn)(\"WebGLRenderer: Texture has been resized from (\"+a.width+\"x\"+a.height+\") to (\"+n+\"x\"+i+\").\"),o}else\"data\"in e&&(0,x.warn)(\"WebGLRender",
+      "=!1){let s;if(null!==n){if(void 0!==e[n])return e[n];(0,x.warn)(\"WebGLRenderer: Attempt to use non-existing WebGL internal format '\"+n+\"'\")}i&&((s=t.get(\"EXT_texture_norm16\"))||(0,x.warn)(\"WebGLRend",
+      "&&s.__version!==t.version){let e=t.image;if(null===e)(0,x.warn)(\"WebGLRenderer: Texture marked for update but no image data found.\");else{if(!1!==e.complete)return void U(s,t,a);(0,x.warn)(\"WebGLRen"
+    ],
+    "bytes": 585358,
+    "url": "https://snowrider.app/_next/static/chunks/44k6_egeuihon.js",
+    "status": 200
+  },
+  {
+    "signals": [
+      "import * as THREE from 'three';",
+      "const _rainbow = new THREE.Color();",
+      "    this.renderer = new THREE.WebGLRenderer({",
+      "    this.scene = new THREE.Scene();",
+      "    this.scene.fog = new THREE.Fog(PAL.fog, CFG.fogNear, CFG.fogFar);",
+      "    this.camera = new THREE.PerspectiveCamera(62, 1, 0.3, 900);",
+      "    this.camPos = new THREE.Vector3(0, 5, 9);",
+      "    this.camLook = new THREE.Vector3(0, 1, -10);"
+    ],
+    "bytes": 38484,
+    "url": "https://snowrider.com/game/src/game.js?v=79c103d2",
+    "status": 200
+  },
+  {
+    "signals": [
+      "    <script src=\"Build/UnityLoader.js\"></script>",
+      "        var gameInstance = UnityLoader.instantiate(",
+      "            \"Build/SnowRider3D-gd-1.json\","
+    ],
+    "bytes": 1882,
+    "url": "https://snowrider3dunblocked.me/game/",
+    "status": 200
+  },
+  {
+    "signals": [
+      "    <script src=\"Build/UnityLoader.js\"></script>",
+      "        var gameInstance = UnityLoader.instantiate(\"gameContainer\", \"Build/SnowRider3D-gd-1.json\", { onProgress: UnityProgress, Module: { onRuntimeInitialized"
+    ],
+    "bytes": 1083,
+    "url": "https://snow-rider3d.github.io/file/",
+    "status": 200
+  }
+]

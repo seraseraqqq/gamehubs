@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-24T02:48:37.286Z",
+  "status": "pass",
+  "findings": [
+    "preview export noindex; no production canonical or sitemap",
+    "production export: four canonical pages; one H1 each; all local links/anchors/assets exist; 404 excluded from sitemap; scripts omitted",
+    "Vercel preview suppresses configured production origin",
+    "invalid production origin rejected"
+  ]
+}

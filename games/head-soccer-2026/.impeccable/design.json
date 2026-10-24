@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-24T02:47:45.754Z",
+  "title": "Design System: Head Soccer 2026",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0133 102.02)",
+          "oklch(26.43% 0.0133 102.02)",
+          "oklch(37.86% 0.0133 102.02)",
+          "oklch(49.29% 0.0133 102.02)",
+          "oklch(60.71% 0.0133 102.02)",
+          "oklch(72.14% 0.0133 102.02)",
+          "oklch(83.57% 0.0133 102.02)",
+          "oklch(95% 0.0133 102.02)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0455 172.67)",
+          "oklch(26.43% 0.0455 172.67)",
+          "oklch(37.86% 0.0455 172.67)",
+          "oklch(49.29% 0.0455 172.67)",
+          "oklch(60.71% 0.0455 172.67)",
+          "oklch(72.14% 0.0455 172.67)",
+          "oklch(83.57% 0.0455 172.67)",
+          "oklch(95% 0.0455 172.67)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0298 161.02)",
+          "oklch(26.43% 0.0298 161.02)",
+          "oklch(37.86% 0.0298 161.02)",
+          "oklch(49.29% 0.0298 161.02)",
+          "oklch(60.71% 0.0298 161.02)",
+          "oklch(72.14% 0.0298 161.02)",
+          "oklch(83.57% 0.0298 161.02)",
+          "oklch(95% 0.0298 161.02)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15% 0.0197 133.10)",
+          "oklch(26.43% 0.0197 133.10)",
+          "oklch(37.86% 0.0197 133.10)",
+          "oklch(49.29% 0.0197 133.10)",
+          "oklch(60.71% 0.0197 133.10)",
+          "oklch(72.14% 0.0197 133.10)",
+          "oklch(83.57% 0.0197 133.10)",
+          "oklch(95% 0.0197 133.10)"
+        ]
+      },
+      "green": {
+        "role": "primary",
+        "displayName": "Green",
+        "tonalRamp": [
+          "oklch(15% 0.0606 164.02)",
+          "oklch(26.43% 0.0606 164.02)",
+          "oklch(37.86% 0.0606 164.02)",
+          "oklch(49.29% 0.0606 164.02)",
+          "oklch(60.71% 0.0606 164.02)",
+          "oklch(72.14% 0.0606 164.02)",
+          "oklch(83.57% 0.0606 164.02)",
+          "oklch(95% 0.0606 164.02)"
+        ]
+      },
+      "orange": {
+        "role": "secondary",
+        "displayName": "Orange",
+        "tonalRamp": [
+          "oklch(15% 0.1803 36.48)",
+          "oklch(26.43% 0.1803 36.48)",
+          "oklch(37.86% 0.1803 36.48)",
+          "oklch(49.29% 0.1803 36.48)",
+          "oklch(60.71% 0.1803 36.48)",
+          "oklch(72.14% 0.1803 36.48)",
+          "oklch(83.57% 0.1803 36.48)",
+          "oklch(95% 0.1803 36.48)"
+        ]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Cream",
+        "tonalRamp": [
+          "oklch(15% 0.0132 106.64)",
+          "oklch(26.43% 0.0132 106.64)",
+          "oklch(37.86% 0.0132 106.64)",
+          "oklch(49.29% 0.0132 106.64)",
+          "oklch(60.71% 0.0132 106.64)",
+          "oklch(72.14% 0.0132 106.64)",
+          "oklch(83.57% 0.0132 106.64)",
+          "oklch(95% 0.0132 106.64)"
+        ]
+      },
+      "lime": {
+        "role": "primary",
+        "displayName": "Lime",
+        "tonalRamp": [
+          "oklch(15% 0.1158 113.76)",
+          "oklch(26.43% 0.1158 113.76)",
+          "oklch(37.86% 0.1158 113.76)",
+          "oklch(49.29% 0.1158 113.76)",
+          "oklch(60.71% 0.1158 113.76)",
+          "oklch(72.14% 0.1158 113.76)",
+          "oklch(83.57% 0.1158 113.76)",
+          "oklch(95% 0.1158 113.76)"
+        ]
+      },
+      "dark": {
+        "role": "neutral",
+        "displayName": "Dark",
+        "tonalRamp": [
+          "oklch(15% 0.0374 169.54)",
+          "oklch(26.43% 0.0374 169.54)",
+          "oklch(37.86% 0.0374 169.54)",
+          "oklch(49.29% 0.0374 169.54)",
+          "oklch(60.71% 0.0374 169.54)",
+          "oklch(72.14% 0.0374 169.54)",
+          "oklch(83.57% 0.0374 169.54)",
+          "oklch(95% 0.0374 169.54)"
+        ]
+      },
+      "primary-hover": {
+        "role": "neutral",
+        "displayName": "Primary Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0850 113.64)",
+          "oklch(26.43% 0.0850 113.64)",
+          "oklch(37.86% 0.0850 113.64)",
+          "oklch(49.29% 0.0850 113.64)",
+          "oklch(60.71% 0.0850 113.64)",
+          "oklch(72.14% 0.0850 113.64)",
+          "oklch(83.57% 0.0850 113.64)",
+          "oklch(95% 0.0850 113.64)"
+        ]
+      },
+      "toolbar-hover": {
+        "role": "neutral",
+        "displayName": "Toolbar Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0169 125.30)",
+          "oklch(26.43% 0.0169 125.30)",
+          "oklch(37.86% 0.0169 125.30)",
+          "oklch(49.29% 0.0169 125.30)",
+          "oklch(60.71% 0.0169 125.30)",
+          "oklch(72.14% 0.0169 125.30)",
+          "oklch(83.57% 0.0169 125.30)",
+          "oklch(95% 0.0169 125.30)"
+        ]
+      },
+      "tab-surface": {
+        "role": "neutral",
+        "displayName": "Tab Surface",
+        "tonalRamp": [
+          "oklch(15% 0.0166 121.78)",
+          "oklch(26.43% 0.0166 121.78)",
+          "oklch(37.86% 0.0166 121.78)",
+          "oklch(49.29% 0.0166 121.78)",
+          "oklch(60.71% 0.0166 121.78)",
+          "oklch(72.14% 0.0166 121.78)",
+          "oklch(83.57% 0.0166 121.78)",
+          "oklch(95% 0.0166 121.78)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Page Heading",
+        "purpose": "Compact heavy page titles."
+      },
+      "body": {
+        "displayName": "Reading Copy",
+        "purpose": "Introduction and support-page paragraphs."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "primary-state",
+        "value": "background .15s, transform .15s",
+        "purpose": "Play button hover and press; disabled for reduced motion."
+      },
+      {
+        "name": "primary-hover-lift",
+        "value": "translateY(-2px)",
+        "purpose": "Hover feedback."
+      },
+      {
+        "name": "primary-press",
+        "value": "translateY(1px)",
+        "purpose": "Active feedback."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1600px"
+      },
+      {
+        "name": "intermediate-max",
+        "value": "1000px"
+      },
+      {
+        "name": "phone-max",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Play Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main launch action with the shipped filled SVG triangle.",
+      "html": "<button class=\"ds-primary\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m8 5 11 7-11 7Z\"/></svg>Play Head Soccer 2026</button>",
+      "css": ".ds-primary{font-family:Figtree,system-ui,sans-serif;background:var(--lime,#e3ed91);color:var(--ink,#173b31);font-size:16px;font-weight:800;padding:16px 22px;border:0;border-radius:6px;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;cursor:pointer;transition:background .15s,transform .15s}.ds-primary svg{width:20px;height:20px;fill:currentColor;stroke:0}.ds-primary:hover{background:#eff7b5;transform:translateY(-2px)}.ds-primary:active{transform:translateY(1px)}.ds-primary:focus-visible{outline:3px solid var(--orange,#d54c23);outline-offset:4px;}.ds-primary:disabled{cursor:wait;opacity:.65}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"
+    },
+    {
+      "name": "Toolbar Action",
+      "kind": "button",
+      "refersTo": "button-toolbar",
+      "description": "Transparent secondary action with pressed state.",
+      "html": "<button class=\"ds-toolbar\" aria-pressed=\"false\">Focus mode</button>",
+      "css": ".ds-toolbar{font-family:Figtree,system-ui,sans-serif;background:transparent;color:var(--ink,#173b31);border:0;border-radius:4px;font-weight:700;font-size:12px;padding:10px 8px;min-height:42px;cursor:pointer}.ds-toolbar:hover,.ds-toolbar[aria-pressed=true]{background:#e0e5d9}.ds-toolbar:focus-visible{outline:3px solid var(--orange,#d54c23);outline-offset:4px;}"
+    },
+    {
+      "name": "Control Selector",
+      "kind": "custom",
+      "refersTo": "tab-selected",
+      "description": "Instruction selector; application controls the pressed state. Source has no distinct hover style.",
+      "html": "<div class=\"ds-tabs\" role=\"group\" aria-label=\"Show controls for\"><button aria-pressed=\"true\">Solo</button><button aria-pressed=\"false\">2 player</button><button aria-pressed=\"false\">Touch</button></div>",
+      "css": ".ds-tabs{display:flex;gap:3px;padding:4px;background:#e3e7db;border-radius:6px;max-width:350px}.ds-tabs button{font-family:Figtree,system-ui,sans-serif;flex:1;min-height:38px;background:transparent;color:var(--ink,#173b31);border:0;font-size:12px;font-weight:700;border-radius:4px;cursor:pointer}.ds-tabs button[aria-pressed=true]{background:var(--ink,#173b31);color:var(--cream,#f9f9ef)}.ds-tabs button:focus-visible{outline:3px solid var(--orange,#d54c23);outline-offset:4px;}"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "description": "Simple text navigation with shared ink and hover accent.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main\"><a href=\"#controls\">Controls</a><a href=\"./how-to-play.html\">How to play</a></nav>",
+      "css": ".ds-nav{display:flex;gap:28px}.ds-nav a{font-family:Figtree,system-ui,sans-serif;color:var(--ink,#173b31);text-decoration:none;font-size:14px;font-weight:650;text-underline-offset:4px}.ds-nav a:hover{color:#a93513}.ds-nav a:focus-visible{outline:3px solid var(--orange,#d54c23);outline-offset:4px;}"
+    },
+    {
+      "name": "Keyboard Legend",
+      "kind": "custom",
+      "refersTo": "keycap",
+      "description": "Actual keyboard label with a thicker bottom border; noninteractive.",
+      "html": "<kbd class=\"ds-key\">Z</kbd> <kbd class=\"ds-key\">X</kbd>",
+      "css": ".ds-key{font:650 14px Figtree,system-ui,sans-serif;display:inline-grid;place-items:center;min-width:29px;height:29px;padding:3px 6px;background:var(--cream,#f9f9ef);border:1px solid #b6c3b3;border-bottom-width:3px;border-radius:4px;color:var(--ink,#173b31)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Simple Football Frame",
+    "overview": "The user chose game-first/simple-football. A saturated pitch, compact heavy headings and clear keyboard instructions sit within a warm paper surround. Football geometry supplies the identity; quiet dividers organize supporting copy.\n\nThis system covers this game’s static website and support pages. The cross-origin game retains its provider interface. The record follows shipped source and final desktop/mobile screenshots; no approved bitmap comp exists. Coreball-specific commitments in root PRODUCT.md do not apply here.",
+    "keyCharacteristics": [
+      "Field green and lime within a pale paper page.",
+      "Locally hosted Figtree with compact heavy headings.",
+      "Flat ruled sections and small rectangular controls.",
+      "Pitch markings and original geometric SVG icons."
+    ],
+    "rules": [
+      {
+        "name": "The Field and Paper Rule",
+        "body": "Reserve the saturated field for the player; keep instructional and article surfaces on paper.",
+        "section": "colors"
+      },
+      {
+        "name": "The Flat Frame Rule",
+        "body": "Use tonal surfaces, dividers and borders to separate controls and content.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use the Field and Paper Rule for the game frame and supporting reading surfaces.",
+      "Do retain visible focus outlines and reduced-motion behavior.",
+      "Do use geometric SVG for interface icons and keycaps for actual keyboard labels.",
+      "Do preserve the compact control rhythm and responsive stacking."
+    ],
+    "donts": [
+      "Don't add box-shadow elevation to this flat frame.",
+      "Don't inherit the repository’s Coreball-specific visual identity into this game.",
+      "Don't infer provider-game styling from this website’s tokens."
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-10-24T03:26:59.599Z",
+  "checks": [
+    {
+      "name": "No external game frame before Play",
+      "pass": true,
+      "evidence": 0
+    },
+    {
+      "name": "Original simulation is not loaded",
+      "pass": true,
+      "evidence": [
+        "./player.js"
+      ]
+    },
+    {
+      "name": "Default viewport has no horizontal overflow",
+      "pass": true,
+      "evidence": {
+        "width": 987
+      }
+    },
+    {
+      "name": "Publisher cover loaded",
+      "pass": true,
+      "evidence": 1280
+    },
+    {
+      "name": "Reload disabled until first play",
+      "pass": true
+    },
+    {
+      "name": "One publisher frame is mounted",
+      "pass": true,
+      "evidence": 1
+    },
+    {
+      "name": "Selected existing publisher game is used",
+      "pass": true,
+      "evidence": "https://html5.gamedistribution.com/3b79a8537ebc414fb4f9672a9b8c68c8/?gd_sdk_referrer_url=http%3A%2F%2F127.0.0.1%3A4197%2F"
+    },
+    {
+      "name": "Referrer is the actual parent page",
+      "pass": true
+    },
+    {
+      "name": "Poster removed and reload enabled",
+      "pass": true
+    }
+  ],
+  "scope": "First-party shell and embed URL. Iframe load is not claimed as Unity gameplay readiness."
+}

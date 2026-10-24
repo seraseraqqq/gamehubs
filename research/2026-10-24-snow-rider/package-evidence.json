@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "name": "SnowRider3D-gd-1.data.unityweb",
+      "size": 5813599
+    },
+    {
+      "name": "SnowRider3D-gd-1.json",
+      "size": 418
+    },
+    {
+      "name": "SnowRider3D-gd-1.wasm.code.unityweb",
+      "size": 6650777
+    },
+    {
+      "name": "SnowRider3D-gd-1.wasm.framework.unityweb.js",
+      "size": 514248
+    },
+    {
+      "name": "UnityLoader.js",
+      "size": 156644
+    }
+  ],
+  "decision": "Complete package located, self-hosting rights not established. Use publisher iframe fallback.",
+  "repository": "https://github.com/unblockedgames71/snowrider-unblocked",
+  "checkedAt": "2026-10-24",
+  "license": null
+}

@@ -1,0 +1,6 @@
+// Public registrar discovery, no account, purchase or paid API. --help for use.
+import {writeFile} from 'node:fs/promises';
+if(process.argv.includes('--help')){console.log('node domains.mjs [domain ...] — checks Vercel public registrar availability and prices; defaults to project shortlist.');process.exit(0);}
+const domains=process.argv.slice(2).length?process.argv.slice(2):['headsoccer2026.com','headsoccer2026.net','headsoccer2026.org','playheadsoccer2026.com','headsoccer2026game.com','headsoccer2026online.com','playheadsoccer.com','headsoccerplay.com'];
+const response=await fetch('https://api.vercel.com/v1/registrar/domains/search',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({domains}),signal:AbortSignal.timeout(30000)});
+const body=await response.json();const report={checkedAt:new Date().toISOString(),source:'Vercel public registrar search API',currency:'USD',httpStatus:response.status,body,caveat:'Availability/prices can change; available:false may also mean not confirmed. No clean-history or trademark conclusion.'};await writeFile(new URL('./domain-evidence.json',import.meta.url),JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));

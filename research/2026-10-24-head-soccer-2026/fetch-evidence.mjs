@@ -1,0 +1,6 @@
+// Public read-only HTML/iframe inspection. Verified 2026-10-24. Run with Node 22+.
+import {mkdir,writeFile} from 'node:fs/promises';
+const root=new URL('./raw/',import.meta.url);await mkdir(root,{recursive:true});
+const targets={math:'https://www.mathplayground.com/puzzle_head_soccer_2026.html',hooda:'https://www.hoodamath.com/games/headsoccer2026.html',origin:'https://www.play-games.com/game/39004/head-soccer-2026.html',orbit:'https://orbitkick.io/head-soccer-2026',cbc:'https://www.cbc.ca/kids/games/all/head-soccer-2026',y8:'https://www.y8.com/games/head_soccer_2026_world_cup'};
+const results=await Promise.all(Object.entries(targets).map(async([name,url])=>{try{const r=await fetch(url,{signal:AbortSignal.timeout(25000)}),html=await r.text();await writeFile(new URL(name+'.html',root),html);return {name,url,finalUrl:r.url,status:r.status,bytes:Buffer.byteLength(html),iframes:html.match(/<iframe\b[^>]*>/gi),scripts:[...html.matchAll(/<script[^>]+src=["']([^"']+)/gi)].map(m=>m[1]),h1:html.match(/<h1\b[^>]*>[\s\S]*?<\/h1>/gi),canonical:html.match(/<link[^>]*canonical[^>]*>/gi)};}catch(e){return {name,url,error:e.message};}}));
+await writeFile(new URL('http-manifest.json',root),JSON.stringify({checkedAt:new Date().toISOString(),results},null,2));console.log(JSON.stringify(results,null,2));

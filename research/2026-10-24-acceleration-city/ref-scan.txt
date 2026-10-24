@@ -1,0 +1,154 @@
+
+[rankup] research\2026-10-24-acceleration-city\check-local.cjs
+  1: // Usage: node research/2026-10-24-acceleration-city/check-local.cjs [port]
+  5: const checks=[];for(const route of ['/','/guide.html','/about.html','/app.js','/style.css','/favicon.svg','/assets/og-game.jpg','/robots.txt','/sitemap.xml','/m
+
+[rankup] research\2026-10-24-acceleration-city\design-detector.json
+  8: "file": "E:\\Projects\\gamesHub\\games\\acceleration-city\\index.html",
+  18: "file": "E:\\Projects\\gamesHub\\games\\acceleration-city\\index.html",
+  28: "file": "E:\\Projects\\gamesHub\\games\\acceleration-city\\index.html",
+  38: "file": "E:\\Projects\\gamesHub\\games\\acceleration-city\\guide.html",
+  48: "file": "E:\\Projects\\gamesHub\\games\\acceleration-city\\about.html",
+
+[rankup] research\2026-10-24-acceleration-city\fetch-additional.cjs
+  1: const fs=require('node:fs/promises');const root='research/2026-10-24-acceleration-city/raw/';
+  2: (async()=>{const records=[];for(const [key,url] of Object.entries({cc:'https://accelerationcity.cc/',ccEmbed:'https://accelerationcity.cc/game-embed/acceleratio
+
+[rankup] research\2026-10-24-acceleration-city\fetch-evidence.cjs
+  3: const root = path.resolve('research/2026-10-24-acceleration-city/raw');
+  4: const sources = {io:'https://accelerationcity.io/',net:'https://accelerationcity.net/',tops:'https://tops.games/game/acceleration-city',venko:'https://venkogame
+
+[rankup] research\2026-10-24-acceleration-city\inspect-engine.cjs
+  1: const fs=require('fs');const p='research/2026-10-24-acceleration-city/raw/netEmbed.txt';fs.writeFileSync(p,fs.readFileSync(p,'utf8').replace(/token=[^&"\s]+/g,'
+  2: const s=fs.readFileSync('research/2026-10-24-acceleration-city/raw/officialMain.txt','utf8');const i=s.indexOf('loaderUrl:'); console.log(s.slice(i,i+600));
+
+[rankup] research\2026-10-24-acceleration-city\keyword-research.md
+  28: - [CS2N P3G 页面](https://www.cs2n.org/badges/player-programmed-partner-games) → 新的 [CS2N Games](https://games.cs2n.org/)；旧游戏页重定向目标为 `https://cobots.cs2n.org/game
+  29: - [activities.cs2n.org 原作入口](https://activities.cs2n.org/acceleration-city/) 在搜索索引中可见版本 `1.0.3`；该版本号仅为索引观察，未作浏览器内确认。
+  36: node C:/Users/Sera/.agents/skills/rankup/scripts/demand/suggest.mjs 'acceleration city' --engine google,bing,ddg --hl en --gl us --json --out research/2026-10-2
+
+[rankup] research\2026-10-24-acceleration-city\raw\additional-manifest.json
+  10: "<iframe src=\"/game-embed/acceleration-city\" title=\"Play Acceleration City online\" class=\"w-full h-full border-0\" sandbox=\"allow-scripts allow-same-origi
+  13: "https://accelerationcity.cc/games/acceleration-city-thumb.webp",
+  14: "https://activities.cs2n.org/acceleration-city/?id=21\\u0026track_id=null\\u0026token=[REDACTED_PUBLIC_PAGE_TOKEN]",
+  16: "https://accelerationcity.cc/games/acceleration-city-thumb.webp\\\\\\",
+  17: "https://accelerationcity.cc/games/acceleration-city-thumb.webp\\"
+  22: "url": "https://accelerationcity.cc/game-embed/acceleration-city",
+  26: "<iframe\n  src=\"https://activities.cs2n.org/acceleration-city/?id=21&track_id=null&token=[REDACTED_PUBLIC_PAGE_TOKEN]&baseUrl=https://www.cs2n.org&configurati
+  29: "https://activities.cs2n.org/acceleration-city/?id=21&track_id=null&token=[REDACTED_PUBLIC_PAGE_TOKEN]&baseUrl=https://www.cs2n.org&configuration="
+  34: "url": "https://freewebgames.io/acceleration-city",
+  38: "<iframe id=\"iframehtml5\" src=\"/acceleration-city.embed\" width=\"100%\" height=\"100%\" title=\"Acceleration City\" frameborder=\"0\" border=\"0\" scrolling
+  41: "https://freewebgames.io/acceleration-city",
+  42: "https://freewebgames.io/data/image/game/acceleration-city.jpg",
+  43: "https://www.facebook.com/sharer/sharer.php?u=https://freewebgames.io/acceleration-city',",
+  44: "https://freewebgames.io/acceleration-city',",
+  45: "http://freewebgames.io//data/image/game/acceleration-city.jpg&method=button&url=https://freewebgames.io/acceleration-city',",
+  46: "https://t.me/share/url?url=https://freewebgames.io/acceleration-city&amp;text=Acceleration",
+  47: "https://freewebgames.io/acceleration-city.embed",
+  48: "https://freewebgames.io/acceleration-city.embed&quot;",
+  49: "https:\\/\\/freewebgames.io\\/acceleration-city",
+  50: "https:\\/\\/freewebgames.io\\/\\/data\\/image\\/game\\/acceleration-city.jpg",
+  51: "https:\\/\\/freewebgames.io\\/\\/acceleration-city"
+  56: "url": "https://acceleration-city.tops-games.workers.dev/",
+
+[rankup] research\2026-10-24-acceleration-city\raw\domain-availability.json
+  11: "acceleration-city.com",
+  56: "domain": "acceleration-city.com",
+
+[rankup] research\2026-10-24-acceleration-city\raw\game-asset-headers.json
+  6: "url": "https://activities.cs2n.org/acceleration-city/unity_game/Build/unity_game.data.unityweb",
+  21: "url": "https://activities.cs2n.org/acceleration-city/unity_game/Build/unity_game.wasm.unityweb",
+  36: "url": "https://activities.cs2n.org/acceleration-city/unity_game/Build/unity_game.framework.js.unityweb",
+
+[rankup] research\2026-10-24-acceleration-city\raw\google-serp.txt
+  58: - link "Acceleration City | CS2N Games CS-STEM Network https://games.cs2n.org › games › acceleration-city":
+  59: - /url: https://games.cs2n.org/games/acceleration-city
+  62: - generic: https://games.cs2n.org › games › acceleration-city
+  83: - /url: https://freewebgames.io/acceleration-city
+  161: - /url: https://games.cs2n.org/games/acceleration-city
+  178: - /url: https://games.cs2n.org/games/acceleration-city
+  195: - /url: https://games.cs2n.org/games/acceleration-city
+  201: - /url: https://cobots.cs2n.org/games/acceleration-city
+  207: - /url: https://freewebgames.io/acceleration-city
+  213: - /url: https://coolgamesonline.io/acceleration-city
+  225: - /url: https://igre.games/en/acceleration-city/
+  251: - 'link "Acceleration City - COOLGamesOnline Cool Games: Ready To Play! https://coolgamesonline.io › acceleration-city"':
+  252: - /url: https://coolgamesonline.io/acceleration-city
+  255: - generic: https://coolgamesonline.io › acceleration-city
+  300: - /url: https://slithergame.io/acceleration-city
+  313: - /url: https://slithergame.io/acceleration-city#:~:text=What%20Is%20Acceleration%20City%3F,systems%20with%20real%2Dtime%20tactical%20assistance.
+  348: - link "Acceleration City - OzGames - There's A Place To Play! OzGames https://ozgames.io › acceleration-city":
+  349: - /url: https://ozgames.io/acceleration-city
+  352: - generic: https://ozgames.io › acceleration-city
+  374: - /url: https://games.cs2n.org/games/acceleration-city
+  381: - /url: https://freewebgames.io/acceleration-city
+  388: - /url: https://slithergame.io/acceleration-city
+
+[rankup] research\2026-10-24-acceleration-city\raw\http-manifest.json
+  31: "<iframe id=\"gameIframe\" data-src=\"https://activities.cs2n.org/acceleration-city/\" frameborder=\"0\" scrolling=\"no\" style=\"width: 100%; height: 100%; bor
+  70: "<iframe \r\n                    id=\"game-iframe\" \r\n                    src=\"https://escaperoadcity.org/acceleration-city.embed\" \r\n                    a
+  80: "url": "https://tops.games/game/acceleration-city",
+  81: "finalUrl": "https://tops.games/game/acceleration-city",
+  110: "<iframe\r\n                        id=\"gameFrame\"\r\n                        class=\"game-iframe\"\r\n                        title=\"Acceleration City Game 
+  119: "url": "https://venkogames.com/game/acceleration-city",
+  120: "finalUrl": "https://venkogames.com/game/acceleration-city",
+  149: "<iframe\r\n                        id=\"gameFrame\"\r\n                        class=\"game-iframe\"\r\n                        title=\"Acceleration City Game 
+  156: "url": "https://activities.cs2n.org/acceleration-city/",
+  157: "finalUrl": "https://activities.cs2n.org/acceleration-city/",
+
+[rankup] research\2026-10-24-acceleration-city\raw\keyword-sources.json
+  29: {"url":"https://www.cs2n.org/badges/player-programmed-partner-games","observation":"Official quick-access games link to https://games.cs2n.org/; old Acceleratio
+  30: {"url":"https://activities.cs2n.org/acceleration-city/","observation":"Search-index text exposes Version 1.0.3; not browser-verified in this subtask."},
+  39: "https://playnados.com/acceleration-city/",
+  40: "https://gamesfree.io/game/acceleration-city/",
+  41: "https://slopegameplay.io/acceleration-city",
+  42: "https://igre.games/en/acceleration-city/"
+
+[rankup] research\2026-10-24-acceleration-city\raw\keyword-suggest-evidence\manifest.json
+  13: "research/2026-10-24-acceleration-city/raw/keyword-suggest.json",
+  15: "research/2026-10-24-acceleration-city/raw/keyword-suggest-evidence",
+
+[rankup] research\2026-10-24-acceleration-city\raw\keyword-suggest.json
+  50: "evidenceDir": "E:\\Projects\\gamesHub\\research\\2026-10-24-acceleration-city\\raw\\keyword-suggest-evidence",
+  51: "file": "E:\\Projects\\gamesHub\\research\\2026-10-24-acceleration-city\\raw\\keyword-suggest-evidence\\manifest.json",
+
+[rankup] research\2026-10-24-acceleration-city\raw\netEmbed.txt
+  11: }</style></head><body id="run_IFRAME_HTML"><style type="text/css">.pluto-splash-container{display:flex;flex-direction:column;font-family:Helvetica,Arial,sans-se
+  32: frame_game.setAttribute('src', "https://activities.cs2n.org/acceleration-city/?id=21&track_id=null&token=[REDACTED_PUBLIC_PAGE_TOKEN]&baseUrl=https://www.cs2n.o
+
+[rankup] research\2026-10-24-acceleration-city\raw\officialVendors.txt
+  79: !function(e){"use strict";var t,o=e.Uint8Array,n=e.HTMLCanvasElement,i=n&&n.prototype,r=/\s*;\s*base64\s*(?:;|$)/i,l="toDataURL",a=function(e){for(var n,i,r=e.l
+
+[rankup] research\2026-10-24-acceleration-city\raw\topsEmbed.txt
+  21: frame.src = "https://acceleration-city.tops-games.workers.dev/";
+  51: slug: "acceleration-city" },
+
+[rankup] research\2026-10-24-acceleration-city\raw\venkoEmbed.txt
+  21: frame.src = "https://acceleration-city.tops-games.workers.dev/";
+  51: slug: "acceleration-city" },
+
+[rankup] research\2026-10-24-acceleration-city\README.md
+  7: 本地源码：[games/acceleration-city](../../games/acceleration-city/README.md)。预览：[http://127.0.0.1:4198/](http://127.0.0.1:4198/)，需保持预览进程运行。
+  11: - [Google 实页证据](raw/google-serp.txt)：查询 `acceleration city`，指定 `gl=us&hl=en`；观察到官方 `games.cs2n.org/games/acceleration-city`、freewebgames.io、accelerationcity.cc、
+  22: | accelerationcity.io | 首页 `iframe#gameIframe[data-src]` → `activities.cs2n.org/acceleration-city/` | HTML/CSS/JS + 按需 iframe；直接用原版，无需登录参数；未发现自研内核证据 | [首页](scre
+  23: | accelerationcity.net | 首页 iframe → `escaperoadcity.org/acceleration-city.embed` → CS2N | 静态壳 + 第三方中转。中转源码包含不应复用的账户样式 token，证据已脱敏；本次画面持续为黑屏，只代表这次观察，不证明长期故障 | [
+  24: | accelerationcity.cc | 首页 iframe → 同站 `/game-embed/acceleration-city` → CS2N | `_next/static` 资源表明 Next.js 站点壳；游戏依旧来自原版。中转带 token，不等于自研游戏或可复用授权 | [初始](screensh
+  25: | tops.games | `data-src=/embed/acceleration-city` → `acceleration-city.tops-games.workers.dev` | 门户通过 Worker 域提供 Unity 运行包；Worker HTML 含 `createUnityInstance`、
+  26: | venkogames.com | `/embed/acceleration-city` → 同一个 tops-games Worker | 门户与游戏包分离。只做了源码链路取证，未截图实玩 | [HTML](raw/venko.html)、[嵌入壳](raw/venkoEmbed.txt) |
+  27: | freewebgames.io | 首页 iframe → `/acceleration-city.embed` | 已确认 iframe 第一跳；未追完后续链路，不猜测最终包来源 | [HTML](raw/freeweb.html) |
+  76: | 备选 | acceleration-city.com | 可注册 | 11.25 / 11.25 | 接近名称，但口头传播易漏连字符 |
+  85: - 源码与导出配置检查通过，最新数量及列表以 [verification.json](../../games/acceleration-city/scripts/verification.json) 为准。测试使用保留的 `.invalid` 域验证生产配置，从未部署。
+  100: - `games/acceleration-city/scripts/build.mjs`、`serve.mjs`、`verify.mjs`：分别用于默认noindex导出、本地预览、配置核验；均已执行。
+
+[rankup] research\2026-10-24-acceleration-city\trace-embeds.cjs
+  1: const fs=require('node:fs/promises'); const root='research/2026-10-24-acceleration-city/raw/';
+  2: (async()=>{for(const [k,u] of Object.entries({officialMain:'https://activities.cs2n.org/acceleration-city/main.js',officialVendors:'https://activities.cs2n.org/
+
+[rankup] research\2026-10-24-acceleration-city\verify-public-sources.mjs
+  2: // Usage: node research/2026-10-24-acceleration-city/verify-public-sources.mjs [output-directory]
+  5: const out=path.resolve(process.argv[2]||'research/2026-10-24-acceleration-city/raw');
+  7: const domains=['accelerationcity.com','playaccelerationcity.com','accelerationcitygame.com','accelerationcityonline.com','accelerationcityplay.com','acceleratio
+  9: for(const [key,url] of Object.entries({data:'https://activities.cs2n.org/acceleration-city/unity_game/Build/unity_game.data.unityweb',wasm:'https://activities.c
+
+命中统计：
+  acceleration-city：109 行

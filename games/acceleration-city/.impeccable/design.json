@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-24T02:41:01.129Z",
+  "title": "Design System: Acceleration City player page",
+  "extensions": {
+    "colorMeta": {
+      "page": {
+        "role": "neutral",
+        "displayName": "page",
+        "tonalRamp": [
+          "oklch(15% 0.0107 185.66)",
+          "oklch(26% 0.0107 185.66)",
+          "oklch(38% 0.0107 185.66)",
+          "oklch(49% 0.0107 185.66)",
+          "oklch(61% 0.0107 185.66)",
+          "oklch(72% 0.0107 185.66)",
+          "oklch(84% 0.0107 185.66)",
+          "oklch(95% 0.0107 185.66)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "surface",
+        "tonalRamp": [
+          "oklch(15% 0.0135 180.02)",
+          "oklch(26% 0.0135 180.02)",
+          "oklch(38% 0.0135 180.02)",
+          "oklch(49% 0.0135 180.02)",
+          "oklch(61% 0.0135 180.02)",
+          "oklch(72% 0.0135 180.02)",
+          "oklch(84% 0.0135 180.02)",
+          "oklch(95% 0.0135 180.02)"
+        ]
+      },
+      "screen": {
+        "role": "neutral",
+        "displayName": "screen",
+        "tonalRamp": [
+          "oklch(15% 0.0068 178.58)",
+          "oklch(26% 0.0068 178.58)",
+          "oklch(38% 0.0068 178.58)",
+          "oklch(49% 0.0068 178.58)",
+          "oklch(61% 0.0068 178.58)",
+          "oklch(72% 0.0068 178.58)",
+          "oklch(84% 0.0068 178.58)",
+          "oklch(95% 0.0068 178.58)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "ink",
+        "tonalRamp": [
+          "oklch(15% 0.0126 126.37)",
+          "oklch(26% 0.0126 126.37)",
+          "oklch(38% 0.0126 126.37)",
+          "oklch(49% 0.0126 126.37)",
+          "oklch(61% 0.0126 126.37)",
+          "oklch(72% 0.0126 126.37)",
+          "oklch(84% 0.0126 126.37)",
+          "oklch(95% 0.0126 126.37)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "muted",
+        "tonalRamp": [
+          "oklch(15% 0.0206 159.63)",
+          "oklch(26% 0.0206 159.63)",
+          "oklch(38% 0.0206 159.63)",
+          "oklch(49% 0.0206 159.63)",
+          "oklch(61% 0.0206 159.63)",
+          "oklch(72% 0.0206 159.63)",
+          "oklch(84% 0.0206 159.63)",
+          "oklch(95% 0.0206 159.63)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "line",
+        "tonalRamp": [
+          "oklch(15% 0.0228 165.07)",
+          "oklch(26% 0.0228 165.07)",
+          "oklch(38% 0.0228 165.07)",
+          "oklch(49% 0.0228 165.07)",
+          "oklch(61% 0.0228 165.07)",
+          "oklch(72% 0.0228 165.07)",
+          "oklch(84% 0.0228 165.07)",
+          "oklch(95% 0.0228 165.07)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "accent",
+        "tonalRamp": [
+          "oklch(15% 0.0727 159.36)",
+          "oklch(26% 0.0727 159.36)",
+          "oklch(38% 0.0727 159.36)",
+          "oklch(49% 0.0727 159.36)",
+          "oklch(61% 0.0727 159.36)",
+          "oklch(72% 0.0727 159.36)",
+          "oklch(84% 0.0727 159.36)",
+          "oklch(95% 0.0727 159.36)"
+        ]
+      },
+      "accent-ink": {
+        "role": "neutral",
+        "displayName": "accent ink",
+        "tonalRamp": [
+          "oklch(15% 0.0408 159.87)",
+          "oklch(26% 0.0408 159.87)",
+          "oklch(38% 0.0408 159.87)",
+          "oklch(49% 0.0408 159.87)",
+          "oklch(61% 0.0408 159.87)",
+          "oklch(72% 0.0408 159.87)",
+          "oklch(84% 0.0408 159.87)",
+          "oklch(95% 0.0408 159.87)"
+        ]
+      },
+      "focus": {
+        "role": "secondary",
+        "displayName": "focus",
+        "tonalRamp": [
+          "oklch(15% 0.0985 81.43)",
+          "oklch(26% 0.0985 81.43)",
+          "oklch(38% 0.0985 81.43)",
+          "oklch(49% 0.0985 81.43)",
+          "oklch(61% 0.0985 81.43)",
+          "oklch(72% 0.0985 81.43)",
+          "oklch(84% 0.0985 81.43)",
+          "oklch(95% 0.0985 81.43)"
+        ]
+      },
+      "action-hover": {
+        "role": "neutral",
+        "displayName": "action hover",
+        "tonalRamp": [
+          "oklch(15% 0.0496 157.98)",
+          "oklch(26% 0.0496 157.98)",
+          "oklch(38% 0.0496 157.98)",
+          "oklch(49% 0.0496 157.98)",
+          "oklch(61% 0.0496 157.98)",
+          "oklch(72% 0.0496 157.98)",
+          "oklch(84% 0.0496 157.98)",
+          "oklch(95% 0.0496 157.98)"
+        ]
+      },
+      "quiet-hover": {
+        "role": "neutral",
+        "displayName": "quiet hover",
+        "tonalRamp": [
+          "oklch(15% 0.0290 160.08)",
+          "oklch(26% 0.0290 160.08)",
+          "oklch(38% 0.0290 160.08)",
+          "oklch(49% 0.0290 160.08)",
+          "oklch(61% 0.0290 160.08)",
+          "oklch(72% 0.0290 160.08)",
+          "oklch(84% 0.0290 160.08)",
+          "oklch(95% 0.0290 160.08)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "title": {
+        "displayName": "Homepage title",
+        "purpose": "Current inherited heading; not a future own-world display prescription."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading content and interface text."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "interface-color",
+        "value": ".16s ease-out",
+        "purpose": "Button and link color transitions; only without reduced motion."
+      },
+      {
+        "name": "launch-mark-reveal",
+        "value": ".55s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Single clip-path mark reveal; only without reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-toolbar",
+        "value": "900px"
+      },
+      {
+        "name": "phone-layout",
+        "value": "560px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The authored play action; primary colors, geometry and hover.",
+      "html": "<button class=\"ds-primary\">Play Acceleration City</button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:12px;background:var(--accent,#a8e0c0);color:var(--accent-ink,#102a1d);border:0;border-radius:6px;min-height:54px;padding:14px 24px;font-family:system-ui,sans-serif;font-size:16px;font-weight:600;cursor:pointer}.ds-primary:hover{background:#c7ecd5}.ds-primary:focus-visible{outline:3px solid var(--focus,#f1ca84);outline-offset:5px}@media(prefers-reduced-motion:no-preference){.ds-primary{transition:background-color .16s ease-out,color .16s ease-out}}"
+    },
+    {
+      "name": "Quiet toolbar action",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Game wrapper controls with selected and disabled states.",
+      "html": "<button class=\"ds-quiet\" aria-pressed=\"false\">Focus view</button><button class=\"ds-quiet\" disabled>Reload</button>",
+      "css": ".ds-quiet{background:transparent;color:var(--ink,#f0f4eb);border:0;border-radius:4px;padding:10px 13px;min-height:44px;font:600 13px system-ui,sans-serif;cursor:pointer}.ds-quiet:hover:not(:disabled),.ds-quiet[aria-pressed=true]{background:#2c3e34;color:var(--accent,#a8e0c0)}.ds-quiet:focus-visible{outline:3px solid var(--focus,#f1ca84);outline-offset:5px}.ds-quiet:disabled{opacity:.42;cursor:default}"
+    },
+    {
+      "name": "Text navigation",
+      "kind": "nav",
+      "description": "Quiet reading and source navigation.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"/guide.html\">How to play</a><a href=\"/about.html\">About</a></nav>",
+      "css": ".ds-nav{display:flex;gap:28px;font:400 14px system-ui,sans-serif;color:var(--muted,#b5c4bb)}.ds-nav a{color:inherit;text-decoration:none;text-underline-offset:.25em}.ds-nav a:hover{color:var(--accent,#a8e0c0);text-decoration:underline}.ds-nav a:focus-visible{outline:3px solid var(--focus,#f1ca84);outline-offset:5px}"
+    },
+    {
+      "name": "Native FAQ disclosure",
+      "kind": "custom",
+      "description": "Actual native details/summary pattern; no custom dropdown.",
+      "html": "<details class=\"ds-faq\"><summary>What is the CoBot?</summary><p>Your CoBot is a programmable partner. Its actions depend on your program.</p></details>",
+      "css": ".ds-faq{font:400 16px/1.6 system-ui,sans-serif;color:var(--ink,#f0f4eb);border-bottom:1px solid var(--line,#33423b);padding:18px 0}.ds-faq summary{cursor:pointer;padding-right:24px;font-weight:600}.ds-faq p{margin-top:14px;color:var(--muted,#b5c4bb);max-width:70ch}.ds-faq summary:hover{color:var(--accent,#a8e0c0)}.ds-faq summary:focus-visible{outline:3px solid var(--focus,#f1ca84);outline-offset:5px}"
+    },
+    {
+      "name": "Inline reload confirmation",
+      "kind": "custom",
+      "description": "Non-modal warning and explicit reload/cancel actions; visual recapture pending.",
+      "html": "<div class=\"ds-confirm\" role=\"group\" aria-labelledby=\"ds-warning\"><p id=\"ds-warning\">Reload the game? Unsaved progress may be lost.</p><div><button class=\"ds-reload\">Reload game</button><button>Keep playing</button></div></div>",
+      "css": ".ds-confirm{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 20px;border-top:1px solid var(--line,#33423b);font-family:system-ui,sans-serif}.ds-confirm p{color:var(--muted,#b5c4bb);font-size:13px}.ds-confirm>div{display:flex;gap:8px;flex-shrink:0}.ds-confirm button{min-height:44px;padding:8px 14px;border:1px solid var(--line,#33423b);border-radius:4px;background:transparent;color:var(--ink,#f0f4eb);font:600 13px system-ui,sans-serif;cursor:pointer}.ds-confirm button:hover{background:#2c3e34}.ds-confirm .ds-reload{background:var(--accent,#a8e0c0);color:var(--accent-ink,#102a1d);border-color:var(--accent,#a8e0c0)}.ds-confirm .ds-reload:hover{background:#c7ecd5}.ds-confirm button:focus-visible{outline:3px solid var(--focus,#f1ca84);outline-offset:5px}@media(max-width:560px){.ds-confirm{align-items:flex-start;flex-direction:column;gap:10px;padding:12px 16px}.ds-confirm>div{width:100%}.ds-confirm button{flex:1}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Quiet Game Frame",
+    "overview": "**Creative North Star: \"The Quiet Game Frame\"** — descriptive shorthand for the user's confirmed dark, simple direction, rather than a new identity claim.\n\nScope is only `games/acceleration-city`; the root Coreball world does not apply. The current code places the original game inside a restrained dark frame with legible controls and subdued instructions. It does not restyle the cross-origin game itself.\n\n**Key Characteristics:**\n- Dark tonal surfaces and warm white text.\n- Pale green actions and an original geometric A mark.\n- Flat ruled reading sections.\n\nThis is a source-derived code-led record with no approved raster comp. The final review disposition is **recapture**: mobile, final inline confirmation and height changes lack browser captures; native fullscreen success is not established.",
+    "keyCharacteristics": [
+      "Dark tonal surfaces and warm white text.",
+      "Pale green actions and an original geometric A mark.",
+      "Flat ruled reading sections."
+    ],
+    "rules": [
+      {
+        "name": "The Quiet Frame Rule",
+        "body": "Wrapper color identifies actions while original game graphics remain authoritative inside the frame.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do keep this system scoped to Acceleration City.",
+      "Do preserve the user's dark, restrained frame and game-first hierarchy.",
+      "Do retain explicit focus, recovery and cancellation states.",
+      "Do distinguish wrapper responsiveness from original game input support."
+    ],
+    "donts": [
+      "Don't inherit Coreball's cream, peach or paw materials.",
+      "Don't describe captured original game imagery as original wrapper artwork.",
+      "Don't treat source-load feedback as proof of Unity readiness.",
+      "Don't claim the outstanding responsive/fullscreen review is complete."
+    ]
+  }
+}

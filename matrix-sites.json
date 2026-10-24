@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23",
+  "updatedAt": "2026-10-24",
   "sites": [
     {
       "siteId": "block-blast-unblocked",
@@ -479,6 +479,60 @@
           "primaryKeyword": "how to solve cryptic clues"
         }
       ]
+    },
+    {
+      "siteId": "snow-rider-3d-unblocked",
+      "unitType": "game",
+      "primaryKeyword": "snow rider 3d unblocked",
+      "secondaryKeywords": [
+        "snow rider 3d online",
+        "snow rider 3d controls",
+        "snow rider 3d tips"
+      ],
+      "path": "games/snow-rider-3d-unblocked",
+      "domain": null,
+      "url": null,
+      "canonical": null,
+      "status": "built-local-publisher-iframe",
+      "targetMarket": {
+        "country": "US",
+        "language": "en"
+      },
+      "targetIntent": "Play the existing Snow Rider 3D game through GameDistribution; independent site, publisher credit and external-game privacy disclosed.",
+      "gameSource": {
+        "type": "publisher-iframe",
+        "provider": "GameDistribution",
+        "gameId": "3b79a8537ebc414fb4f9672a9b8c68c8",
+        "catalogUrl": "https://gamedistribution.com/games/snow-rider-3d/",
+        "iframeUrl": "https://html5.gamedistribution.com/3b79a8537ebc414fb4f9672a9b8c68c8/",
+        "selfHostedPackage": "located-but-license-not-established",
+        "record": "research/2026-10-24-snow-rider/PACKAGE-SOURCING.md"
+      },
+      "indexingState": "noindex-awaiting-owned-origin",
+      "adsEnabled": false,
+      "analyticsState": "first-party-not-installed; publisher-in-game-tracking-disclosed",
+      "searchConsoleState": "not-connected",
+      "localPreview": "http://127.0.0.1:4197/",
+      "keywordEvidence": {
+        "asOf": "2026-10-24",
+        "volume": null,
+        "kd": null,
+        "trends": "US 12-month same-chart raw tables; not calibrated monthly volume",
+        "record": "research/2026-10-24-snow-rider/README.md"
+      },
+      "domainResearch": "research/2026-10-24-snow-rider/domain-evidence.json",
+      "qa": {
+        "date": "2026-10-24",
+        "staticExportChecks": 68,
+        "browserShellChecks": 9,
+        "gameRuntimeObserved": "publisher title, sled menu and tutorial; full round not certified",
+        "finalVisualVerification": "default IAB; physical mobile and fullscreen exit pending",
+        "record": "research/2026-10-24-snow-rider/PACKAGE-SOURCING.md"
+      },
+      "createdAt": "2026-10-24",
+      "updatedAt": "2026-10-24",
+      "nextDecision": "Select owned domain, complete required publisher/domain onboarding, deploy when authorized and verify actual-origin game plus physical mobile before indexing.",
+      "releaseState": "local-integration-verified-no-owned-origin"
     }
   ]
 }

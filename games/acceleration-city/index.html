@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Acceleration City — Play the CoBot Driving Game</title>
+  <meta name="description" content="Play Acceleration City in your browser. Explore, drive and program a CoBot, with a clear game view, practical help and a guide to getting started.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#101716">
+  <meta property="og:title" content="Acceleration City — Play the CoBot Driving Game">
+  <meta property="og:description" content="Drive, explore and build with your programmable CoBot. A focused browser game view with practical help.">
+  <meta property="og:type" content="website">
+  <!-- SITE_METADATA -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#game">Skip to game</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="/" aria-label="Acceleration City home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 24 16 5l11 19M10 19h12M13 25h6"/></svg><span>Acceleration City</span></a>
+    <nav aria-label="Main navigation"><a href="/guide.html">How to play</a><a href="/about.html">About</a></nav>
+  </header>
+  <main>
+    <section class="play-area wrap" aria-labelledby="game-title">
+      <div class="play-heading"><h1 id="game-title">Acceleration City</h1><span class="platform">Browser game · Keyboard recommended</span></div>
+      <div class="game-shell" id="game" tabindex="-1">
+        <div class="stage" id="stage">
+          <div class="launch-screen" id="launch-screen">
+            <svg class="launch-mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M10 50 32 12l22 38M19 40h26M26 52h12"/></svg>
+            <h2>The city is yours to explore.</h2>
+            <p>Drive. Build with your CoBot. Find a new way through.</p>
+            <button class="primary" id="play-button" type="button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m7 4 9 6-9 6Z"/></svg>Play Acceleration City</button>
+            <span class="launch-note">Loads the original CS2N game when you press play.</span>
+          </div>
+          <div class="opening-screen" id="opening-screen" hidden><p>Opening the original game…</p><span>The 3D game may take a little longer to load.</span></div>
+          <noscript><p class="no-script">JavaScript is needed to launch the embedded game. <a href="https://activities.cs2n.org/acceleration-city/" rel="noopener" target="_blank">Open the original game</a>.</p></noscript>
+        </div>
+        <div class="game-toolbar">
+          <p id="game-status" role="status" aria-live="polite">Ready when you are</p>
+          <div class="game-actions">
+            <button id="focus-game" type="button" disabled>Focus game</button>
+            <button id="reload-game" type="button" aria-expanded="false" aria-controls="reload-confirmation" disabled>Reload</button>
+            <button id="cinema-button" type="button" aria-pressed="false">Focus view</button>
+            <button id="fullscreen-button" type="button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 3H3v4m10-4h4v4M3 13v4h4m10-4v4h-4"/></svg><span>Fullscreen</span></button>
+          </div>
+        </div>
+        <div class="reload-confirmation" id="reload-confirmation" role="group" aria-labelledby="reload-warning" hidden>
+          <p id="reload-warning">Reload the game? Unsaved progress may be lost.</p>
+          <div><button id="confirm-reload" type="button">Reload game</button><button id="cancel-reload" type="button">Keep playing</button></div>
+        </div>
+      </div>
+      <div class="game-meta"><p>Original game by Carnegie Mellon Robotics Academy. Independent player guide.</p><a href="https://activities.cs2n.org/acceleration-city/" target="_blank" rel="noopener">Open original <span aria-hidden="true">↗</span></a></div>
+      <p class="device-note">On a phone? A computer with a keyboard is the best way to play. This page does not add touch controls to the original game.</p>
+      <details class="loading-help" id="loading-help"><summary>Game not loading?</summary><p>Give the 3D game time to initialize. If the view stays blank, try Reload, a current browser with WebGL enabled, or open the original. Reload can lose unsaved progress. Network restrictions may prevent access.</p></details>
+    </section>
+    <section class="intro wrap" aria-labelledby="how-heading">
+      <h2 id="how-heading">How to play</h2>
+      <div><p>Explore an open world, take on races and collect Minanimals. Program your CoBot to help you build a route. Start with the in-game help; CoBot actions depend on your program.</p><a class="text-link" href="/guide.html">Read the getting-started guide <span aria-hidden="true">→</span></a></div>
+    </section>
+    <section class="faq wrap" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">A few useful answers</h2>
+      <div>
+        <details><summary>Is Acceleration City free to play?</summary><p>The original browser game can be opened without a payment on the CS2N activity page. This independent page adds a focused view and player help. The game is created by Carnegie Mellon Robotics Academy.</p></details>
+        <details><summary>What is the CoBot?</summary><p>Your CoBot is a programmable partner. Its actions can be linked to keyboard inputs or colored areas on a track. Build and test a small program in the game's Blocks editor; the action is determined by your program, rather than one universal shortcut.</p></details>
+        <details><summary>Do I need an app or a download?</summary><p>The game runs in a browser using WebGL. Its game files download as part of loading the page. This site does not offer an APK or a separate desktop app. For an Hour of Code lesson, use the official Carnegie Mellon Robotics Academy resources.</p></details>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer wrap"><p>Game rights belong to their respective creators.</p><nav aria-label="Footer"><a href="/about.html">About & privacy</a><a href="https://www.cmu.edu/roboticsacademy/programs/outreach/hour_of_code.html" target="_blank" rel="noopener">Official learning resources</a></nav></footer>
+</body>
+</html>

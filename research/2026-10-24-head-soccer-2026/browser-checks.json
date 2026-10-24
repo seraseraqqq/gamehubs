@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-24T02:45:51.930Z",
+  "browser": "Connected local Chrome",
+  "checks": {
+    "desktop": "pass: final intentional launch pitch screenshot",
+    "responsive390": "pass: innerWidth390, scrollWidth375, no horizontal overflow",
+    "preplayThirdPartyFrames": "pass: zero iframes before Play",
+    "controls": "pass: Solo and 2 player switch reveals correct key sets; Touch instructions supplied",
+    "game": "pass: provider loaded 2026 menu, mode select, ten-character selection and single-player pitch; Right/X/Up input dispatched; scoreboard observed",
+    "privacy": "pass: provider customization, Reject all and Save and continue accessible",
+    "focus": "pass: entered and exited; same iframe retained",
+    "nativeFullscreen": "unavailable in automated invocation; Focus mode fallback observed",
+    "reload": "full page reload/start path verified; in-game rematch and reload-confirm acceptance not separately verified",
+    "parentConsole": "no errors/warnings returned for observed parent page",
+    "touchHardware": "not tested",
+    "onlineMatchmaking": "not tested",
+    "productionCWV": "not tested; no new production deployment"
+  },
+  "screenshots": "screenshots/",
+  "limitations": "Viewport emulation is not a physical touch device. Parent console evidence does not cover every third-party frame."
+}

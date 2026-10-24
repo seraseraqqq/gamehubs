@@ -1,5 +1,9 @@
 # GameHubs
 
+## Head Soccer 2026 — 2026-10-24
+
+`games/head-soccer-2026` is a static site around the official GamePix public-feed iframe, matching the direct competitor's architecture. Includes responsive game-first layout, accurate control references, focus mode, fullscreen fallback, supporting guide and domain-configured SEO export. Preview: http://127.0.0.1:4201/. No new deployment or purchase. [Research, screenshot gallery, difficulty and verified domain shortlist](research/2026-10-24-head-soccer-2026/README.md).
+
 A collection of lightweight, high-performance, SEO-optimized browser mini-games.
 
 ## Repository Structure
@@ -24,6 +28,12 @@ gamehubs/
 ```
 
 ## Games Directory
+
+### Acceleration City — local prototype
+
+* **Directory**: [games/acceleration-city](games/acceleration-city/README.md)
+* **Research**: [competitor screenshots, embed evidence, difficulty and available domains](research/2026-10-24-acceleration-city/README.md)
+* Direct official iframe with a focused dark wrapper. Local noindex evaluation; commercial embedding rights and final browser checks remain unresolved. No deployment is claimed.
 
 ### 1. Block Blast Unblocked
 * **Directory**: [`games/block-blast-unblocked`](games/block-blast-unblocked)
@@ -93,3 +103,9 @@ Both are dependency-free static apps with local assets and safe browser-local pr
 `games/orbit-pins` moved to `games/coreball`; `games/cryptic-practice` moved to `games/minute-cryptic-unlimited`. Each homepage targets its main query and links to one static supporting guide. Update any external Vercel Root Directory to the new path before the next build. Runtime storage keys remain compatible. No owned production origin is configured for either site.
 
 [SEO rationale, sources and validation](research/2026-10-23-keyword-seo/README.md).
+
+## Snow Rider 3D publisher game — 2026-10-24
+
+The owner replaced original development with the existing game. games/snow-rider-3d-unblocked now loads the GameDistribution Snow Rider 3D iframe. A complete Unity package was found but self-hosting rights were not established. The original engine/vendor are excluded from delivery. Preview: http://127.0.0.1:4197/ .
+
+68 static/export and 9 browser-shell checks pass; existing game title/menu/tutorial rendered. Full-round, physical-mobile and persistent fullscreen-exit validation remain outside the verified scope. No domain or deployment is configured. [Current sourcing and integration evidence](research/2026-10-24-snow-rider/PACKAGE-SOURCING.md).

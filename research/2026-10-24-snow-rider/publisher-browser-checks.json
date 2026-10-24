@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-10-24T03:25:41.253Z",
+  "checks": [
+    {
+      "name": "Default IAB shell; no iframe before Play; original engine absent",
+      "pass": true,
+      "evidence": {
+        "cover": 1280,
+        "iframeCount": 0,
+        "overflow": false,
+        "rect": {
+          "bottom": 804.2187957763672,
+          "height": 650.2396240234375,
+          "left": 36,
+          "right": 936,
+          "top": 153.9791717529297,
+          "width": 900,
+          "x": 36,
+          "y": 153.9791717529297
+        },
+        "scripts": [
+          "./player.js"
+        ],
+        "width": 987
+      }
+    },
+    {
+      "name": "Fullscreen exposes an internal 44px exit control",
+      "pass": true
+    },
+    {
+      "name": "Mobile-width override not effective in IAB",
+      "pass": null,
+      "evidence": {
+        "overflow": false,
+        "play": {
+          "bottom": 719.8229370117188,
+          "height": 51.59375,
+          "left": 373.6666870117187,
+          "right": 598.3229370117188,
+          "top": 668.2291870117188,
+          "width": 224.65625,
+          "x": 373.6666870117187,
+          "y": 668.2291870117188
+        },
+        "width": 987
+      },
+      "status": "not-verified"
+    }
+  ],
+  "gameObserved": "Publisher title screen, sled menu and in-game arrow-key tutorial; nested Unity canvas detected. ArrowUp sent. Full round not certified.",
+  "limitations": [
+    "IAB fullscreen entered with a visible 44px exit, then exited automatically before the next call; internal exit click not completed.",
+    "Coordinate click on nested game iframe was rejected by the browser safety check; no alternate coordinate workaround used.",
+    "Physical mobile controls and real-device performance not tested.",
+    "Requested 1440px and 390px viewport overrides both yielded innerWidth 987; capture filenames desktop/mobile reflect intended targets, not verified viewport widths."
+  ]
+}

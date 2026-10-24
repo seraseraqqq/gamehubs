@@ -12,3 +12,11 @@ __pycache__/
 
 # Local Impeccable screenshots; final review evidence lives in research.
 .impeccable/review/
+
+# Local downloaded research snapshots; curated reports remain versioned.
+research/2026-10-24-snow-rider/competitor-source/
+research/2026-10-24-snow-rider/superseded-original/
+research/2026-10-24-snow-rider/gamemonetize-catalog.html
+research/2026-10-24-snow-rider/html5_gamemonetize_games-publisher-player.html
+research/2026-10-24-head-soccer-2026/raw/
+research/2026-10-24-acceleration-city/raw/

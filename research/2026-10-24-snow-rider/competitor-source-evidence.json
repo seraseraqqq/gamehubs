@@ -1,0 +1,329 @@
+{
+  "checkedAt": "2026-10-24T02:28:52.938Z",
+  "method": "Public HTTP HTML only. Search result sample, not a verified personalized Google top-10 ordering. iframe alone does not determine authorship.",
+  "sites": [
+    {
+      "url": "https://snowrider.app/",
+      "finalUrl": "https://snowrider.app/",
+      "status": 200,
+      "bytes": 66837,
+      "title": "Snow Rider 3D — Play the Free Sled Game Online",
+      "frames": [],
+      "scripts": [
+        "/_next/static/chunks/18ksjhqskv366.js",
+        "/_next/static/chunks/36lm--m0zwqtj.js",
+        "/_next/static/chunks/1wv0mvl5jms-e.js",
+        "/_next/static/chunks/turbopack-1-2mk_t3a3wzb.js",
+        "/_next/static/chunks/2gpj7-c-itm2y.js",
+        "/_next/static/chunks/12dv3s7uaexlg.js",
+        "/_next/static/chunks/3fntmmi971322.js",
+        "/_next/static/chunks/1ykdf3zazq-wn.js",
+        "/_next/static/chunks/3fyhqsbxntf_u.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/0jvhpaew_uadu.js"
+      ],
+      "canvasTags": 0,
+      "signals": []
+    },
+    {
+      "url": "https://snowrunner.org/",
+      "finalUrl": "https://snowrunner.org/",
+      "status": 200,
+      "bytes": 300387,
+      "title": "Snow Rider 3D Unblocked — Sled Run, Free Online",
+      "frames": [],
+      "scripts": [
+        "/_next/static/chunks/0it3w44km8_qq.js",
+        "/_next/static/chunks/26gk24fn7384n.js",
+        "/_next/static/chunks/turbopack-3gv96z7pq08ox.js",
+        "/_next/static/chunks/3kataknt2smlx.js",
+        "/_next/static/chunks/1z_y55s4rj02c.js",
+        "/_next/static/chunks/27w2x_cvxb8i2.js",
+        "/_next/static/chunks/3-9_xoq3f0o0n.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/11_hhi30jnkfs.js"
+      ],
+      "canvasTags": 0,
+      "signals": [
+        "d(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loadin"
+      ]
+    },
+    {
+      "url": "https://snowrider.com/",
+      "finalUrl": "https://snowrider.com/",
+      "status": 200,
+      "bytes": 59185,
+      "title": "Snow Rider 3D – Play Free Online Sled Game",
+      "frames": [
+        {
+          "src": "",
+          "dataSrc": null,
+          "id": "game-iframe",
+          "title": "Snow Rider 3D"
+        }
+      ],
+      "scripts": [
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js",
+        "https://www.googletagmanager.com/gtag/js?id=G-LTBNBMNMX5",
+        "https://cmp.gatekeeperconsent.com/min.js",
+        "https://the.gatekeeperconsent.com/cmp.min.js",
+        "//www.ezojs.com/ezoic/sa.min.js",
+        "https://platform-api.sharethis.com/js/sharethis.js#property=692f31d24074e79bf67d8a99&product=sop",
+        "https://snowrider.com/assets/js/vendor.min.js?v1.58",
+        "https://snowrider.com/assets/js/app.js?v1.58",
+        "https://snowrider.com/assets/js/gallery.js?v1.58"
+      ],
+      "canvasTags": 0,
+      "signals": []
+    },
+    {
+      "url": "https://dnrweqffuwjtx.cloudfront.net/snow-rider-3d/",
+      "finalUrl": "https://dnrweqffuwjtx.cloudfront.net/snow-rider-3d/",
+      "status": 200,
+      "bytes": 44095,
+      "title": "Snow Rider 3D Unblocked - Classroom Games",
+      "frames": [
+        {
+          "src": "https://dnrweqffuwjtx.cloudfront.net/games/2025/unity2/snow-rider-3d/classroomgames/index.html",
+          "dataSrc": null,
+          "id": "gameFrame",
+          "title": null
+        }
+      ],
+      "scripts": [
+        "/assets/scripts/index.js",
+        "./../assets/js/infinite-scroll.pkgd.min.js?v=014df05a95a4e2d99b39516b72cfea1f",
+        "./../assets/js/scripts.min.js?v=f38d0d176b831ac1c3053faa12bb916d",
+        "./../media/plugins/staticSearch/flexsearch.bundle.js",
+        "./../media/plugins/staticSearch/static.search.min.js"
+      ],
+      "canvasTags": 0,
+      "signals": []
+    },
+    {
+      "url": "https://hoparcade.com/",
+      "finalUrl": "https://hoparcade.com/",
+      "status": 200,
+      "bytes": 52358,
+      "title": "Snow Rider 3D - Play Free Online | HopArcade",
+      "frames": [],
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-B3J4DJ7N5B",
+        "/_astro/Search.astro_astro_type_script_index_0_lang.CLvGKUA0.js",
+        "/_astro/GameFrame.astro_astro_type_script_index_0_lang.CaErCdQg.js",
+        "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.V5ZVk1zb.js"
+      ],
+      "canvasTags": 0,
+      "signals": [
+        "=\"aspect-ratio: 16 / 9; max-height: 80vh;\" data-src=\"https://snowrider-unblocked.github.io/game/\" data-title=\"Snow Rider 3D\" data-game-id=\"2\" data-embed-type=\"iframe\" data-slug=\"snow-rider-3d\" data-thumb=\"https://api.hoparcade.com/assets/covers/iframe/d1c3e2cc-a0f9-"
+      ]
+    },
+    {
+      "url": "https://snow-rider-3d.gitlab.io/",
+      "finalUrl": "https://snow-rider-3d.gitlab.io/",
+      "status": 200,
+      "bytes": 23964,
+      "title": "Snow Rider 3D: Fullscreen, Unblocked",
+      "frames": [
+        {
+          "src": "file/",
+          "dataSrc": null,
+          "id": "game-area",
+          "title": null
+        }
+      ],
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-XBMD80DJHP",
+        "js/jquery-3.6.2.min.js",
+        "js/lazysizes.min.js",
+        "js/popper.min.js",
+        "js/bootstrap.min.js",
+        "js/script.js",
+        "js/custom.js"
+      ],
+      "canvasTags": 0,
+      "signals": []
+    },
+    {
+      "url": "https://snow-rider3d.github.io/",
+      "finalUrl": "https://snow-rider3d.github.io/",
+      "status": 200,
+      "bytes": 23961,
+      "title": "Snow Rider 3D: Fullscreen, Unblocked",
+      "frames": [
+        {
+          "src": "file/",
+          "dataSrc": null,
+          "id": "game-area",
+          "title": null
+        }
+      ],
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-1HY2Z9DE2L",
+        "js/jquery-3.6.2.min.js",
+        "js/lazysizes.min.js",
+        "js/popper.min.js",
+        "js/bootstrap.min.js",
+        "js/script.js",
+        "js/custom.js"
+      ],
+      "canvasTags": 0,
+      "signals": []
+    },
+    {
+      "url": "https://topvaz.com/go/snow-rider-3d/",
+      "finalUrl": "https://topvaz.com/go/snow-rider-3d/",
+      "status": 200,
+      "bytes": 70418,
+      "title": "Snow Rider 3D Unblocked  - topVAZ.com",
+      "frames": [
+        {
+          "src": "https://class811.github.io/g8/snow-rider-3d",
+          "dataSrc": null,
+          "id": "game-area",
+          "title": null
+        }
+      ],
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-1W6RME3LMS",
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8208497861050002",
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8208497861050002",
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8208497861050002",
+        "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8208497861050002",
+        "/js/jquery-3.6.2.min.js",
+        "/js/lazysizes.min.js",
+        "/js/popper.min.js",
+        "/js/bootstrap.min.js",
+        "/js/script.js",
+        "/js/custom.js"
+      ],
+      "canvasTags": 0,
+      "signals": []
+    },
+    {
+      "url": "https://catninja.co/snow-rider",
+      "finalUrl": "https://catninja.co/snow-rider",
+      "status": 200,
+      "bytes": 204776,
+      "title": "Snow Rider 3D Unblocked — Play Free Online | Cat Ninja",
+      "frames": [],
+      "scripts": [
+        "/_next/static/chunks/0it3w44km8_qq.js",
+        "/_next/static/chunks/17w6pxxp_qpor.js",
+        "/_next/static/chunks/turbopack-3m44jfhf4afx-.js",
+        "/_next/static/chunks/3trlynv04drg1.js",
+        "/_next/static/chunks/1_-ggo17ncht1.js",
+        "/_next/static/chunks/0qx9kforzel6a.js",
+        "/_next/static/chunks/2gztztal_mmnk.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/11_hhi30jnkfs.js"
+      ],
+      "canvasTags": 0,
+      "signals": [
+        "d(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loadin"
+      ]
+    },
+    {
+      "url": "https://snowrider3dunblocked.me/?play=1",
+      "finalUrl": "https://snowrider3dunblocked.me/?play=1",
+      "status": 200,
+      "bytes": 26412,
+      "title": "Snow Rider 3D Unblocked – Play Free Online",
+      "frames": [
+        {
+          "src": "/game/",
+          "dataSrc": "/game/",
+          "id": "game-frame",
+          "title": "Snow Rider 3D online game"
+        }
+      ],
+      "scripts": [
+        "/analytics-consent-20260828.js",
+        "/site-ui-20260828.js",
+        "/script.js?v=20260926-1"
+      ],
+      "canvasTags": 0,
+      "signals": [
+        "                      <iframe id=\"game-frame\" title=\"Snow Rider 3D online game\" data-src=\"/game/\" allow=\"fullscreen\" allowfullscreen hidden></iframe>",
+        "                        <a class=\"secondary-button game-direct-link\" href=\"/game/\">Open game in its own tab</a>",
+        "                    <noscript><p><a href=\"/game/\">Open Snow Rider 3D directly</a>. JavaScript is required for the inline player controls.</p></noscript>",
+        "r one change. If the browser check passes but the player above stays blank, open <a href=\"/game/\">the standalone game page</a> or test another current browser.</p>"
+      ]
+    },
+    {
+      "url": "https://www.hoodamath.com/games/snowrider3d.html",
+      "finalUrl": "https://www.hoodamath.com/games/snowrider3d.html",
+      "status": 200,
+      "bytes": 98497,
+      "title": "Snow Rider 3D - Free Unblocked Game on Hooda Math",
+      "frames": [
+        {
+          "src": "https://www.hoodamath.com/mobile/games/snow-rider-3d/game.html?nocheckorient=1",
+          "dataSrc": null,
+          "id": "game",
+          "title": "Snow Rider 3D"
+        }
+      ],
+      "scripts": [
+        "https://apis.google.com/js/platform.js",
+        "https://www.googletagmanager.com/gtag/js?id=G-3BZ4H7DK1G",
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6495588245871342",
+        "https://cse.google.com/cse.js?cx=a8b533bb0e5cc0f42",
+        "https://www.hoodamath.com/game-votes.js"
+      ],
+      "canvasTags": 0,
+      "signals": [
+        "getGameSaveHash() { const slots = getAllGameSlots(); return slots.map(s => s.key + ':' + s.data).join('|'); }",
+        "tion/json' }, body: JSON.stringify({ username: username, gameKey: slot.key, saveData: slot.data, gameName: GAME_NAME }) }); const data = await response.json(); if (data.success) { savedCount++; } } catch (error) { console.error(`Error saving ${slot.key}:`, error); ",
+        "ME_SAVE_API}/save`, JSON.stringify({ username: username, gameKey: slot.key, saveData: slot.data, gameName: GAME_NAME })); }); } });"
+      ]
+    },
+    {
+      "url": "https://snowrider3d.com/",
+      "finalUrl": "https://snowrider3d.com/",
+      "status": 200,
+      "bytes": 140163,
+      "title": "Snow Rider 3D | Play Snow Rider Online",
+      "frames": [
+        {
+          "src": "https://snowrider3d.com/embed/snow-rider-3d?gd_sdk_referrer_url=https://snowrider3d.com/snow-rider-3d&amp;pub_id=ca-pub-5636557392151555&amp;preroll=0",
+          "dataSrc": null,
+          "id": "game-area",
+          "title": null
+        }
+      ],
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=UA-212027750-1",
+        "https://www.googletagmanager.com/gtag/js?id=G-RL9L2VP56S",
+        "https://events.snowrider3d.com/js/gm-collect-2.js",
+        "https://pm.azerioncircle.com/p/focus/",
+        "/ads/ads.min.js?v1.1",
+        "/themes/snowrider3d.com_v2/resources/js/jquery.min.js",
+        "/themes/snowrider3d.com_v2/resources/js/swiper.min.js",
+        "/themes/snowrider3d.com_v2/resources/js/ga_tracking.js?v2",
+        "/themes/snowrider3d.com_v2/resources/js/tracking_event.js?v1.1",
+        "/themes/snowrider3d.com_v2/resources/js/scripts.min.js?v1.2"
+      ],
+      "canvasTags": 0,
+      "signals": [
+        "me\" content=\"Snow Rider 3D\"><link rel=\"image_src\" href=\"https://snowrider3d.com/data/image/game/snow-rider-3d/snow-rider-3d.png\" /><meta property=\"og:type\" content=\"article\" /><meta property=\"og:url\" content=\"https://snowrider3d.com\" /><meta property=\"og:description",
+        "ow surrounds you.\" /><meta property=\"og:image\" content=\"https://snowrider3d.com/data/image/game/snow-rider-3d/snow-rider-3d.png\" /><link rel=\"apple-touch-icon\" href=\"https://snowrider3d.com/data/image/game/snow-rider-3d/snow-rider-3d.png\"/> <meta name=\"robots\" conte",
+        "ory\":\"GameApplication\",\"operatingSystem\":\"any\",\"image\":\"https://snowrider3d.com/data/image/game/snow-rider-3d/banner/snow-rider-3d.png\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"worstRating\":1,\"bestRating\":10,\"ratingValue\":8.4,\"ratingCount\":61811},\"offers\":{\"@ty",
+        " if (e.data && (e.data.type === 'preroll_ad_break_done' || e.data.type === 'game_loaded')) {",
+        " if (e.data && e.data.type === 'play_clicked' && window._isMobile) {",
+        " src=\"/cache/data/image/game/snow-rider-3d/snow-rider-3d-m250x250.webp\"",
+        " data-image=\"/cache/data/image/game/snow-rider-3d/snow-rider-3d-m250x250.webp\"><span class=\"svg-icon\" aria-hidden=\"true\"><svg class=\"svg-icon__link\"><use",
+        " src=\"/cache/data/image/game/wacky-walk/wacky-walk-m250x250.webp\"",
+        " src=\"/cache/data/image/game/shape-rush/shape-rush-game-m250x250.webp\"",
+        " src=\"/cache/data/image/game/joy-garden/joy-garden-m250x250.webp\"",
+        " src=\"/cache/data/image/game/wheelie-spooky/wheelie-spooky-1-m250x250.webp\"",
+        " src=\"/cache/data/image/game/marble-shooter/marble-shooter-m250x250.webp\"",
+        " src=\"/cache/data/image/game/granny-horror-3/granny-horror-3-m250x250.webp\"",
+        " src=\"/cache/data/image/game/rivals/rival-m250x250.webp\"",
+        " src=\"/cache/data/image/game/golf-hit/golf-hit-m250x250.webp\"",
+        " src=\"/cache/data/image/game/capybara-mart/capybara-mart-game-m250x250.webp\""
+      ]
+    }
+  ]
+}

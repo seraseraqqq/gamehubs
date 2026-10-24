@@ -1,0 +1,381 @@
+{
+  "checkedAt": "2026-10-24T02:29:54.851Z",
+  "results": [
+    {
+      "parent": "https://snowrider.app/",
+      "type": "script",
+      "url": "https://snowrider.app/_next/static/chunks/18ksjhqskv366.js",
+      "status": 200,
+      "bytes": 29468,
+      "signals": {
+        "iframe": [],
+        "engine": []
+      }
+    },
+    {
+      "parent": "https://snowrider.app/",
+      "type": "script",
+      "url": "https://snowrider.app/_next/static/chunks/36lm--m0zwqtj.js",
+      "error": "fetch failed"
+    },
+    {
+      "parent": "https://snowrider.app/",
+      "type": "script",
+      "url": "https://snowrider.app/_next/static/chunks/1wv0mvl5jms-e.js",
+      "status": 200,
+      "bytes": 163757,
+      "signals": {
+        "iframe": [],
+        "engine": []
+      }
+    },
+    {
+      "parent": "https://snowrider.app/",
+      "type": "script",
+      "url": "https://snowrider.app/_next/static/chunks/turbopack-1-2mk_t3a3wzb.js",
+      "error": "fetch failed"
+    },
+    {
+      "parent": "https://snowrider.app/",
+      "type": "script",
+      "url": "https://snowrider.app/_next/static/chunks/2gpj7-c-itm2y.js",
+      "status": 200,
+      "bytes": 18121,
+      "signals": {
+        "iframe": [],
+        "engine": []
+      }
+    },
+    {
+      "parent": "https://snowrider.app/",
+      "type": "script",
+      "url": "https://snowrider.app/_next/static/chunks/12dv3s7uaexlg.js",
+      "status": 200,
+      "bytes": 39278,
+      "signals": {
+        "iframe": [],
+        "engine": [
+          "ariants\",0,re],67881),e.s([\"siteConfig\",0,{name:\"Snow Rider 3D\",shortName:\"Snow Rider\",url:\"https://snowrider.app\",domain:\"snowrider.app\",description:\"Play Snow Rider 3D free in your browser. Steer your sled down an endless snowy slope, dodge trees and obstacles, grab gifts and chase a ne"
+        ]
+      }
+    },
+    {
+      "parent": "https://snowrider.app/",
+      "type": "script",
+      "url": "https://snowrider.app/_next/static/chunks/3fntmmi971322.js",
+      "status": 200,
+      "bytes": 14375,
+      "signals": {
+        "iframe": [],
+        "engine": []
+      }
+    },
+    {
+      "parent": "https://snowrider.app/",
+      "type": "script",
+      "url": "https://snowrider.app/_next/static/chunks/1ykdf3zazq-wn.js",
+      "status": 200,
+      "bytes": 4994,
+      "signals": {
+        "iframe": [],
+        "engine": [
+          ",e=>{\"use strict\";var t=e.i(43476);e.i(47706);let r=(0,e.i(70703).default)(()=>e.A(56006).then(e=>e.SnowRiderGame),{loadableGenerated:{modules:[1592]},ssr:!1,loading:()=>(0,t.jsx)(\"div\",{className:\"flex aspect-auto h-[min(78dvh,580px)] max-h-[85dvh] w-full items-center justify-center roun"
+        ]
+      }
+    },
+    {
+      "parent": "https://snowrider.app/",
+      "type": "script",
+      "url": "https://snowrider.app/_next/static/chunks/3fyhqsbxntf_u.js",
+      "error": "fetch failed"
+    },
+    {
+      "parent": "https://snowrider.app/",
+      "type": "script",
+      "url": "https://snowrider.app/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "error": "fetch failed"
+    },
+    {
+      "parent": "https://snowrider.app/",
+      "type": "script",
+      "url": "https://snowrider.app/_next/static/chunks/0jvhpaew_uadu.js",
+      "error": "fetch failed"
+    },
+    {
+      "parent": "https://snowrunner.org/",
+      "type": "script",
+      "url": "https://snowrunner.org/_next/static/chunks/0it3w44km8_qq.js",
+      "error": "fetch failed"
+    },
+    {
+      "parent": "https://snowrunner.org/",
+      "type": "script",
+      "url": "https://snowrunner.org/_next/static/chunks/26gk24fn7384n.js",
+      "status": 200,
+      "bytes": 234478,
+      "signals": {
+        "iframe": [
+          "ype,r=e.memoizedProps;switch(t[eq]=e,t[eK]=r,n){case\"dialog\":s2(\"cancel\",t),s2(\"close\",t);break;case\"iframe\":case\"object\":case\"embed\":s2(\"load\",t);break;case\"video\":case\"audio\":for(n=0;n<sZ.length;n++)s2(sZ[n],t);break;case\"source\":s2(\"error\",t);break;case\"img\":case\"image\":case\"link\":s2(",
+          "ll));return;case\"dialog\":s2(\"beforetoggle\",e),s2(\"toggle\",e),s2(\"cancel\",e),s2(\"close\",e);break;case\"iframe\":case\"object\":s2(\"load\",e);break;case\"video\":case\"audio\":for(l=0;l<sZ.length;l++)s2(sZ[l],e);break;case\"image\":s2(\"error\",e),s2(\"load\",e);break;case\"details\":s2(\"toggle\",e);break;c"
+        ],
+        "engine": []
+      }
+    },
+    {
+      "parent": "https://snowrunner.org/",
+      "type": "script",
+      "url": "https://snowrunner.org/_next/static/chunks/turbopack-3gv96z7pq08ox.js",
+      "status": 200,
+      "bytes": 9886,
+      "signals": {
+        "iframe": [],
+        "engine": []
+      }
+    },
+    {
+      "parent": "https://snowrunner.org/",
+      "type": "script",
+      "url": "https://snowrunner.org/_next/static/chunks/3kataknt2smlx.js",
+      "status": 200,
+      "bytes": 33190,
+      "signals": {
+        "iframe": [],
+        "engine": []
+      }
+    },
+    {
+      "parent": "https://snowrunner.org/",
+      "type": "script",
+      "url": "https://snowrunner.org/_next/static/chunks/1z_y55s4rj02c.js",
+      "status": 200,
+      "bytes": 27795,
+      "signals": {
+        "iframe": [
+          "assName:\"absolute inset-0 overflow-hidden\",children:f?(0,t.jsxs)(t.Fragment,{children:[y&&(0,t.jsx)(\"iframe\",{src:y,title:i,className:\"absolute inset-0 h-full w-full border-0\",allow:\"fullscreen; autoplay; pointer-lock; gamepad; clipboard-write\",allowFullScreen:!0,loading:\"eager\",onLoad:(",
+          "\"]}),n.push(()=>{a.disconnect(),e.classList.remove(t)})}let d=new WeakMap;function u(e){let t,n=e&&(\"IFRAME\"===e.tagName?e:e.querySelector(\"iframe\"));if(!n)return;clearTimeout(d.get(n)),n.style.opacity=\"0\";let a=Date.now(),r=0,i=()=>{let e=function(e){try{let t=null,n=0;for(let a of e.co",
+          ",n),d.push(()=>{removeEventListener(\"popstate\",t),removeEventListener(\"keydown\",n)})}(\"pseudo\"===t||\"IFRAME\"!==e.tagName)&&(u.btn=function(e){let t=document.createElement(\"button\");t.type=\"button\",t.className=\"w3fs-close\",t.setAttribute(\"aria-label\",\"Exit fullscreen (drag to move)\"),t.ti",
+          "width=\"2.5\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M6 6l12 12M18 6L6 18\"/></svg>';let a=\"IFRAME\"!==e.tagName;a||t.classList.add(\"w3fs-fixed\");let r=e=>{e&&(t.style.left=100*e.fx+(a?\"%\":\"vw\"),t.style.top=100*e.fy+(a?\"%\":\"vh\"),t.style.right=\"auto\")};try{r(JSON.parse(localStorag",
+          "tDefault(),e.stopPropagation(),s){s=!1;return}p()}),(a?e:document.body).appendChild(t),t}(e));let m=\"IFRAME\"===e.tagName?e:e.querySelector(\"iframe\");try{m?.focus()}catch{}i.onChange?.(!0),\"pseudo\"===t&&s()}function p(){let e=r;if(e)if(u(e.box),\"native\"===e.mode){let e=document;try{e.full",
+          "s.some(e=>t.startsWith(e))&&(a[t]=localStorage.getItem(t)??\"\")}}catch{}let i=document.createElement(\"iframe\");i.src=\"https://g.w3technic.com/games/_iso/bridge.html\",i.title=\"save\",i.setAttribute(\"aria-hidden\",\"true\"),i.style.cssText=\"position:absolute;width:1px;height:1px;left:-9999px;to"
+        ],
+        "engine": []
+      }
+    },
+    {
+      "parent": "https://snowrunner.org/",
+      "type": "script",
+      "url": "https://snowrunner.org/_next/static/chunks/27w2x_cvxb8i2.js",
+      "error": "fetch failed"
+    },
+    {
+      "parent": "https://snowrunner.org/",
+      "type": "script",
+      "url": "https://snowrunner.org/_next/static/chunks/3-9_xoq3f0o0n.js",
+      "status": 200,
+      "bytes": 2830,
+      "signals": {
+        "iframe": [],
+        "engine": []
+      }
+    },
+    {
+      "parent": "https://snowrunner.org/",
+      "type": "script",
+      "url": "https://snowrunner.org/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "error": "fetch failed"
+    },
+    {
+      "parent": "https://snowrunner.org/",
+      "type": "script",
+      "url": "https://snowrunner.org/_next/static/chunks/11_hhi30jnkfs.js",
+      "status": 200,
+      "bytes": 28549,
+      "signals": {
+        "iframe": [],
+        "engine": []
+      }
+    },
+    {
+      "parent": "https://catninja.co/snow-rider",
+      "type": "script",
+      "url": "https://catninja.co/_next/static/chunks/0it3w44km8_qq.js",
+      "status": 200,
+      "bytes": 166375,
+      "signals": {
+        "iframe": [],
+        "engine": []
+      }
+    },
+    {
+      "parent": "https://catninja.co/snow-rider",
+      "type": "script",
+      "url": "https://catninja.co/_next/static/chunks/17w6pxxp_qpor.js",
+      "status": 200,
+      "bytes": 234478,
+      "signals": {
+        "iframe": [
+          "ype,r=e.memoizedProps;switch(t[eq]=e,t[eK]=r,n){case\"dialog\":s2(\"cancel\",t),s2(\"close\",t);break;case\"iframe\":case\"object\":case\"embed\":s2(\"load\",t);break;case\"video\":case\"audio\":for(n=0;n<sZ.length;n++)s2(sZ[n],t);break;case\"source\":s2(\"error\",t);break;case\"img\":case\"image\":case\"link\":s2(",
+          "ll));return;case\"dialog\":s2(\"beforetoggle\",e),s2(\"toggle\",e),s2(\"cancel\",e),s2(\"close\",e);break;case\"iframe\":case\"object\":s2(\"load\",e);break;case\"video\":case\"audio\":for(l=0;l<sZ.length;l++)s2(sZ[l],e);break;case\"image\":s2(\"error\",e),s2(\"load\",e);break;case\"details\":s2(\"toggle\",e);break;c"
+        ],
+        "engine": []
+      }
+    },
+    {
+      "parent": "https://catninja.co/snow-rider",
+      "type": "script",
+      "url": "https://catninja.co/_next/static/chunks/turbopack-3m44jfhf4afx-.js",
+      "status": 200,
+      "bytes": 9886,
+      "signals": {
+        "iframe": [],
+        "engine": []
+      }
+    },
+    {
+      "parent": "https://catninja.co/snow-rider",
+      "type": "script",
+      "url": "https://catninja.co/_next/static/chunks/3trlynv04drg1.js",
+      "error": "fetch failed"
+    },
+    {
+      "parent": "https://catninja.co/snow-rider",
+      "type": "script",
+      "url": "https://catninja.co/_next/static/chunks/1_-ggo17ncht1.js",
+      "error": "fetch failed"
+    },
+    {
+      "parent": "https://catninja.co/snow-rider",
+      "type": "script",
+      "url": "https://catninja.co/_next/static/chunks/0qx9kforzel6a.js",
+      "status": 200,
+      "bytes": 3558,
+      "signals": {
+        "iframe": [],
+        "engine": []
+      }
+    },
+    {
+      "parent": "https://catninja.co/snow-rider",
+      "type": "script",
+      "url": "https://catninja.co/_next/static/chunks/2gztztal_mmnk.js",
+      "status": 200,
+      "bytes": 2830,
+      "signals": {
+        "iframe": [],
+        "engine": []
+      }
+    },
+    {
+      "parent": "https://catninja.co/snow-rider",
+      "type": "script",
+      "url": "https://catninja.co/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "status": 200,
+      "bytes": 112541,
+      "signals": {
+        "iframe": [
+          "ct(\"htmlfile\")}catch(t){}var t,e,r;Ge=\"undefined\"!=typeof document?document.domain&&re?Ke(re):(e=Et(\"iframe\"),r=\"java\"+We+\":\",e.style.display=\"none\",De.appendChild(e),e.src=String(r),(t=e.contentWindow.document).open(),t.write($e(\"document.F=Object\")),t.close(),t.F):Ke(re);for(var n=Se.l"
+        ],
+        "engine": []
+      }
+    },
+    {
+      "parent": "https://catninja.co/snow-rider",
+      "type": "script",
+      "url": "https://catninja.co/_next/static/chunks/11_hhi30jnkfs.js",
+      "status": 200,
+      "bytes": 28549,
+      "signals": {
+        "iframe": [],
+        "engine": []
+      }
+    },
+    {
+      "parent": "https://snow-rider3d.github.io/",
+      "url": "https://snow-rider3d.github.io/file/",
+      "type": "frame",
+      "error": "fetch failed"
+    },
+    {
+      "parent": "https://snow-rider-3d.gitlab.io/",
+      "url": "https://snow-rider-3d.gitlab.io/file/",
+      "type": "frame",
+      "error": "fetch failed"
+    },
+    {
+      "parent": "https://snowrider3dunblocked.me/?play=1",
+      "url": "https://snowrider3dunblocked.me/game/",
+      "type": "frame",
+      "error": "fetch failed"
+    },
+    {
+      "parent": "https://www.hoodamath.com/games/snowrider3d.html",
+      "url": "https://www.hoodamath.com/mobile/games/snow-rider-3d/game.html?nocheckorient=1",
+      "type": "frame",
+      "status": 200,
+      "bytes": 1594,
+      "signals": {
+        "iframe": [],
+        "engine": [
+          "    <script src=\"Build/UnityLoader.js\"></script>",
+          "        var gameInstance = UnityLoader.instantiate(\"gameContainer\", \"Build/SnowRider3D-gd-1.json\", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, \"complete\")}}});"
+        ]
+      }
+    },
+    {
+      "parent": "https://snowrider3d.com/",
+      "url": "https://snowrider3d.com/embed/snow-rider-3d?gd_sdk_referrer_url=https://snowrider3d.com/snow-rider-3d",
+      "type": "frame",
+      "status": 200,
+      "bytes": 14961,
+      "signals": {
+        "iframe": [
+          "pointer;transition:box-shadow .15s,background-color .15s,transform .1s,opacity .1s}#preroll-loader,.game-iframe,.game__video{top:0;left:0;width:100%;height:100%}.play-btn__ctrl[disabled=disabled]{opacity:.5}.play-btn__ctrl:hover{animation:1s ease-in-out infinite pulse-glow;box-shadow:0 0 2r",
+          "shadow:0 0 2.5rem 0 #fff,0 8px 30px rgb(255 56 20 / .6)}}.game-frame,.game-frame iframe{width:100%}.game-iframe{position:absolute;bottom:0;right:0;border:0}.game__preview{position:absolute;inset:0;cursor:pointer}.game__video{position:absolute;object-fit:cover;object-position:bottom center;z",
+          "y:none\"></div></div></div></div></div><div id=\"game-code\" class=\"game-frame\" style=\"display: none;\"><iframe class=\"game-iframe\" id=\"game-area\" src=\"about:blank\"",
+          " var iframe = gameCode.querySelector(\"iframe\");",
+          " if (!iframe.src || iframe.src === 'about:blank' || iframe.src === '') {",
+          " iframe.src = link_iframe;",
+          " src: gameIframe.src",
+          " src: gameIframe.src,"
+        ],
+        "engine": [
+          "rity-Policy\" content=\"upgrade-insecure-requests\"><link rel=\"icon\" type=\"image/x-icon\" href=\"https://snowrider3d.com/favicon.ico?v=1\"><style>.game-preview,.game_area_frame{z-index:1;overflow:hidden}#preroll-loader,.game_area_frame{position:fixed;background:#0a0a0a;display:flex}body,html{ma",
+          "e=\"https://html5.gamedistribution.com/3b79a8537ebc414fb4f9672a9b8c68c8/?gd_sdk_referrer_url=https://snowrider3d.com/snow-rider-3d\""
+        ]
+      }
+    },
+    {
+      "parent": "https://dnrweqffuwjtx.cloudfront.net/snow-rider-3d/",
+      "url": "https://dnrweqffuwjtx.cloudfront.net/games/2025/unity2/snow-rider-3d/classroomgames/index.html",
+      "type": "frame",
+      "error": "fetch failed"
+    },
+    {
+      "parent": "https://snowrider.com/",
+      "url": "https://snowrider.com/assets/js/app.js?v1.58",
+      "type": "script",
+      "status": 200,
+      "bytes": 20606,
+      "signals": {
+        "iframe": [
+          "        const gameIframe = document.getElementById('game-iframe');",
+          "            gameIframe.src = 'https://snowrider.com/game/?v=9';"
+        ],
+        "engine": [
+          "            gameIframe.src = 'https://snowrider.com/game/?v=9';"
+        ]
+      }
+    },
+    {
+      "parent": "https://hoparcade.com/",
+      "url": "https://hoparcade.com/_astro/GameFrame.astro_astro_type_script_index_0_lang.CaErCdQg.js",
+      "type": "script",
+      "status": 200,
+      "bytes": 2227,
+      "signals": {
+        "iframe": [],
+        "engine": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-24T04:06:12.633Z",
+  "results": [
+    {
+      "name": "head-soccer-2026",
+      "origin": "https://playheadsoccer.com",
+      "canonical": true,
+      "indexable": true,
+      "robots": true,
+      "sitemap": true
+    },
+    {
+      "name": "snow-rider-3d-unblocked",
+      "origin": "https://snowrider3d.top",
+      "canonical": true,
+      "indexable": true,
+      "robots": true,
+      "sitemap": true
+    }
+  ]
+}

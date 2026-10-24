@@ -1,0 +1,77 @@
+{
+  "checkedAt": "2026-10-24T02:27:39.729Z",
+  "checks": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 6782
+    },
+    {
+      "path": "snow-rider-3d-controls.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 4067
+    },
+    {
+      "path": "about.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 2925
+    },
+    {
+      "path": "engine.js",
+      "status": 200,
+      "type": "text/javascript; charset=utf-8",
+      "bytes": 2768
+    },
+    {
+      "path": "scene.js",
+      "status": 200,
+      "type": "text/javascript; charset=utf-8",
+      "bytes": 6593
+    },
+    {
+      "path": "game.js",
+      "status": 200,
+      "type": "text/javascript; charset=utf-8",
+      "bytes": 8225
+    },
+    {
+      "path": "assets/social-card.jpg",
+      "status": 200,
+      "type": "image/jpeg; charset=utf-8",
+      "bytes": 51595
+    },
+    {
+      "path": "assets/icon-192.png",
+      "status": 200,
+      "type": "image/png; charset=utf-8",
+      "bytes": 1417
+    },
+    {
+      "path": "vendor/three.module.min.js",
+      "status": 200,
+      "type": "text/javascript; charset=utf-8",
+      "bytes": 338908
+    },
+    {
+      "path": "vendor/three.core.min.js",
+      "status": 200,
+      "type": "text/javascript; charset=utf-8",
+      "bytes": 381124
+    },
+    {
+      "path": "robots.txt",
+      "status": 200,
+      "type": "text/plain; charset=utf-8",
+      "bytes": 26
+    },
+    {
+      "path": "dist/robots.txt",
+      "status": 200,
+      "type": "text/plain; charset=utf-8",
+      "bytes": 26
+    }
+  ]
+}

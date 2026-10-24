@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-10-24T02:10:30.193Z",
+  "caveat": "404 is absence in registry, not registrar availability, price, clean history or legal clearance.",
+  "domains": [
+    {
+      "domain": "snowrider3dunblocked.com",
+      "url": "https://rdap.verisign.com/com/v1/domain/snowrider3dunblocked.com",
+      "httpStatus": 200,
+      "status": "registered",
+      "registeredAt": "2026-01-27T03:57:55Z",
+      "registryStatus": [
+        "client transfer prohibited"
+      ],
+      "error": null
+    },
+    {
+      "domain": "snowrider3dunblocked.net",
+      "url": "https://rdap.verisign.com/net/v1/domain/snowrider3dunblocked.net",
+      "httpStatus": 200,
+      "status": "registered",
+      "registeredAt": "2025-11-10T17:11:54Z",
+      "registryStatus": [
+        "client transfer prohibited"
+      ],
+      "error": null
+    },
+    {
+      "domain": "snowrider3dunblocked.org",
+      "url": "https://rdap.publicinterestregistry.org/rdap/domain/snowrider3dunblocked.org",
+      "httpStatus": 200,
+      "status": "registered",
+      "registeredAt": "2025-09-07T20:08:43.825Z",
+      "registryStatus": [
+        "client transfer prohibited",
+        "redemption period"
+      ],
+      "error": null
+    },
+    {
+      "domain": "playsnowrider3d.com",
+      "url": "https://rdap.verisign.com/com/v1/domain/playsnowrider3d.com",
+      "httpStatus": 200,
+      "status": "registered",
+      "registeredAt": "2026-09-24T13:03:08Z",
+      "registryStatus": [
+        "client transfer prohibited"
+      ],
+      "error": null
+    },
+    {
+      "domain": "snowrider3dplay.com",
+      "url": "https://rdap.verisign.com/com/v1/domain/snowrider3dplay.com",
+      "httpStatus": 404,
+      "status": "registry-not-found-candidate",
+      "registeredAt": null,
+      "registryStatus": [],
+      "error": null
+    },
+    {
+      "domain": "snowrider3donline.com",
+      "url": "https://rdap.verisign.com/com/v1/domain/snowrider3donline.com",
+      "httpStatus": 404,
+      "status": "registry-not-found-candidate",
+      "registeredAt": null,
+      "registryStatus": [],
+      "error": null
+    },
+    {
+      "domain": "snowrider3dunblocked.xyz",
+      "url": "https://rdap.centralnic.com/xyz/domain/snowrider3dunblocked.xyz",
+      "httpStatus": 200,
+      "status": "registered",
+      "registeredAt": "2025-08-30T01:44:45.0Z",
+      "registryStatus": [
+        "server hold",
+        "server transfer prohibited",
+        "client transfer prohibited",
+        "pending delete",
+        "redemption period"
+      ],
+      "error": null
+    },
+    {
+      "domain": "snowrider3dfree.com",
+      "url": "https://rdap.verisign.com/com/v1/domain/snowrider3dfree.com",
+      "httpStatus": 200,
+      "status": "registered",
+      "registeredAt": "2024-12-02T03:47:52Z",
+      "registryStatus": [
+        "client transfer prohibited"
+      ],
+      "error": null
+    }
+  ],
+  "suggestions": [
+    "snow rider 3d unblocked",
+    []
+  ]
+}
