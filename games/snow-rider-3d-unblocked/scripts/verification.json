@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-24T04:05:26.182Z",
+  "checkedAt": "2026-10-24T04:12:37.901Z",
   "checks": [
     {
       "name": "index.html: one H1",
@@ -185,7 +185,7 @@
       "pass": true
     },
     {
-      "name": "CSP permits the selected publisher frame only",
+      "name": "CSP permits the selected publisher and its official SDK frame",
       "pass": true
     },
     {

@@ -15,7 +15,7 @@ check('homepage loads publisher wrapper, no original simulation',home.includes('
 check('publisher and third-party privacy are disclosed',home.includes('GameDistribution')&&home.includes('privacy prompt'));
 const wrapper=await read('player.js');check('wrapper uses existing publisher game ID',wrapper.includes('https://html5.gamedistribution.com/3b79a8537ebc414fb4f9672a9b8c68c8/'));
 check('SDK referrer uses actual page URL',wrapper.includes('page.origin+page.pathname'));
-const config=JSON.parse(await read('vercel.json')),policy=config.headers[0].headers.find(h=>h.key==='Content-Security-Policy').value;check('CSP permits the selected publisher frame only',policy.includes('frame-src https://html5.gamedistribution.com;')&&!policy.includes('frame-src *'));
+const config=JSON.parse(await read('vercel.json')),policy=config.headers[0].headers.find(h=>h.key==='Content-Security-Policy').value;check('CSP permits the selected publisher and its official SDK frame',policy.includes('frame-src https://html5.gamedistribution.com https://html5.api.gamedistribution.com;')&&!policy.includes('frame-src *'));
 const descriptions=await Promise.all(pages.map(async p=>(await read(p)).match(/name="description" content="([^"]+)"/)[1]));check('unique page descriptions',new Set(descriptions).size===pages.length);
 build();check('preview blocks indexing',(await read('dist/robots.txt')).includes('Disallow: /'));check('preview omits canonical',!(await read('dist/index.html')).includes('rel="canonical"'));
 for(const old of ['engine.js','scene.js','game.js','vendor','assets/social-card.jpg'])check('export excludes superseded original file '+old,await stat(new URL('dist/'+old,root)).then(()=>false,()=>true));
