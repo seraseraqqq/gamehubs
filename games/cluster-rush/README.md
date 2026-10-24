@@ -1,5 +1,7 @@
 # Cluster Rush
 
+**Migrated:** [independent private repository](https://github.com/seraseraqqq/gamehubs-cluster-rush). This directory is a transitional snapshot; see [MIGRATED.md](MIGRATED.md).
+
 Dependency-free static site around the **existing Unity game**, matching the iframe architecture observed on competitors. No original gameplay engine or copied Unity binaries. Research and screenshots: `../../research/2026-10-24-cluster-rush/README.md`.
 
 ```powershell

@@ -1,0 +1,375 @@
+{
+  "checkedAt": "2026-10-24T07:05:47.416Z",
+  "projects": [
+    {
+      "id": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+      "name": "gamehubs-head-soccer-2026",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792814800107,
+      "updatedAt": 1792818383336,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_3b6gV7wMJdZF9Sgb8ni7b6gkLFzE",
+        "url": "gamehubs-head-soccer-2026-me7o048jg-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792817577206,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "domains": [
+        "playheadsoccer.com",
+        "gamehubs-head-soccer-2026.vercel.app",
+        "www.playheadsoccer.com",
+        "gamehubs-head-soccer-2026-gx03410-8651s-projects.vercel.app",
+        "gamehubs-head-soccer-2026-git-main-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    },
+    {
+      "id": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+      "name": "block-blast-unblocked",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792672742647,
+      "updatedAt": 1792817591509,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_5VZ2JEnrTPihkezw9fBkYBQnwbdY",
+        "url": "block-blast-unblocked-78ru52uuy-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792817577204,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "domains": [
+        "playblockblastunblocked.com",
+        "www.playblockblastunblocked.com",
+        "block-blast-unblocked-gx03410-8651s-projects.vercel.app",
+        "block-blast-unblocked-git-main-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    },
+    {
+      "id": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+      "name": "gamehubs-summit-unlimited",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792720757957,
+      "updatedAt": 1792817586578,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_GMi33nrBmRBqgKzeTXBw2YAhwtXh",
+        "url": "gamehubs-summit-unlimited-1sf8o44gs-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792817577199,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "domains": [
+        "krilliononline.com",
+        "www.krilliononline.com",
+        "gamehubs-summit-unlimited-gx03410-8651s-projects.vercel.app",
+        "gamehubs-summit-unlimited-git-main-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    },
+    {
+      "id": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
+      "name": "gamehubs-minute-cryptic-unlimited",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792806760870,
+      "updatedAt": 1792817582976,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_34zGpyftYeGro26f82HuJADWsxgP",
+        "url": "gamehubs-minute-cryptic-unlimited-pd1caxjcm.vercel.app",
+        "createdAt": 1792817577170,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "domains": [
+        "gamehubs-minute-cryptic-unlimited.vercel.app",
+        "gamehubs-minute-cryptic-unlimited-gx03410-8651s-projects.vercel.app",
+        "gamehubs-minute-cryptic-unlim-git-2d7172-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    },
+    {
+      "id": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
+      "name": "gamehubs-coreball",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792806729110,
+      "updatedAt": 1792817582004,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_5HXGDs41bmFbm7wYu2LD6ZiDHTDk",
+        "url": "gamehubs-coreball-e9mku8p7k-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792817577205,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "domains": [
+        "gamehubs-coreball.vercel.app",
+        "gamehubs-coreball-gx03410-8651s-projects.vercel.app",
+        "gamehubs-coreball-git-main-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    },
+    {
+      "id": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+      "name": "costcodle-unlimited",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792675185180,
+      "updatedAt": 1792817129299,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_FWAKmu4yHrGw6YAYhLQaYMeA8i6K",
+        "url": "costcodle-unlimited-eiof5f6sy-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792817099365,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "domains": [
+        "costcodle-unlimited.vercel.app",
+        "costcodle-unlimited-gx03410-8651s-projects.vercel.app",
+        "costcodle-unlimited-git-main-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    },
+    {
+      "id": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+      "name": "gamehubs-spacebar-counter",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792751059030,
+      "updatedAt": 1792817124866,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_AZ7Br8QSvT6R3vQpwQTPvvcYxjqc",
+        "url": "gamehubs-spacebar-counter-5kbetryv9-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792817099353,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "domains": [
+        "www.spacebarcounter.xyz",
+        "spacebarcounter.xyz",
+        "gamehubs-spacebar-counter-gx03410-8651s-projects.vercel.app",
+        "gamehubs-spacebar-counter-git-main-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    },
+    {
+      "id": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+      "name": "gulperio-game",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792684511667,
+      "updatedAt": 1792817116725,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_BdVsESQ3tAru4cRAneRMzytGyDpM",
+        "url": "gulperio-game-nxl175x4a-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792817099345,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "domains": [
+        "gulperio.com",
+        "www.gulperio.com",
+        "gulperio-game-gx03410-8651s-projects.vercel.app",
+        "gulperio-game-git-main-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    },
+    {
+      "id": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+      "name": "gamehubs-2048-cupcakes",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792751050278,
+      "updatedAt": 1792817112193,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_8qmAkYzsNLg2pY8yxs1J2ucmByZk",
+        "url": "gamehubs-2048-cupcakes-kte3r8djn-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792817099344,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "domains": [
+        "www.2048cupcakes.xyz",
+        "2048cupcakes.xyz",
+        "gamehubs-2048-cupcakes-gx03410-8651s-projects.vercel.app",
+        "gamehubs-2048-cupcakes-git-main-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    },
+    {
+      "id": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+      "name": "gamehubs-snow-rider-3d",
+      "framework": null,
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "createdAt": 1792814807219,
+      "updatedAt": 1792817108012,
+      "nodeVersion": "24.x",
+      "live": false,
+      "latestDeployment": {
+        "id": "dpl_AJ7j1EWmkwdfAgegzcnexGQywtW3",
+        "url": "gamehubs-snow-rider-3d-cipl7jakv-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792817099321,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "domains": [
+        "snowrider3d.top",
+        "gamehubs-snow-rider-3d.vercel.app",
+        "www.snowrider3d.top",
+        "gamehubs-snow-rider-3d-gx03410-8651s-projects.vercel.app",
+        "gamehubs-snow-rider-3d-git-main-gx03410-8651s-projects.vercel.app"
+      ],
+      "passwordProtection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "ssoProtection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "trustedIps": {
+        "enabled": false,
+        "deploymentType": null,
+        "addresses": [],
+        "protectionMode": null
+      }
+    }
+  ],
+  "note": "Connector project snapshots omit Ignored Build Step. Prior behavior was verified by c6034dc triggering10 READY builds."
+}

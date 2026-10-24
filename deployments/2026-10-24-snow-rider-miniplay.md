@@ -6,6 +6,8 @@ Target: Vercel team team_yFBRBoOUaKz5Kjg6nxC3skZF; project gamehubs-snow-rider-3
 
 Status: implementation in progress. Existing production noindex is retained. The build requires PUBLISHER_DOMAIN_STATUS=verified before exporting indexable pages. Set that flag only after actual-domain gameplay acceptance. Source/default/preview builds remain noindex.
 
+Audit update at 2026-10-24 13:17 Asia/Shanghai: Miniplay replacement is deployed as production READY, deployment dpl_AJ7j1EWmkwdfAgegzcnexGQywtW3, commit c6034dc0f5e6fafbee20e2a3514c29e98baa5b0a. Public homepage200 and live player.js uses the advertised Miniplay embed. Noindex remains. Formal gameplay acceptance was interrupted when Computer Use could not reliably identify the Windows browser URL; a complete run/restart was not verified. Do not enable indexing from the HTTP-only audit.
+
 Provider URL: https://www.miniplay.com/embed/snow-rider-3d, exactly as advertised by https://www.miniplay.com/game/snow-rider-3d. Its internal game distribution remains provider-managed. Preserve its branding, ads, privacy controls and scripts. No copied package or extracted inner URL is used.
 
 Acceptance: actual HTTPS origin; initial Play; correct game canvas/title; enter a run, steering/jump, game over and restart; ad recovery; wrapper reload; fullscreen enter/exit; canonical/robots/sitemap and assets after acceptance. Report any untested physical-device limits explicitly.

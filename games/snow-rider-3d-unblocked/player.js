@@ -1,5 +1,5 @@
 // Publisher-provided Snow Rider 3D player. No original game simulation is imported.
-// Use Miniplay's advertised public embed; its own player manages distribution.
+// The Miniplay public embed manages game distribution inside the publisher player.
 const GAME_URL='https://www.miniplay.com/embed/snow-rider-3d';
 const $=id=>document.getElementById(id),stage=$('game'),mount=$('player-mount'),status=$('player-status');
 $('direct').href=GAME_URL;

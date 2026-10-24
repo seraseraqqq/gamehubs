@@ -1,0 +1,66 @@
+{
+  "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+  "applied": [
+    {
+      "slug": "head-soccer-2026",
+      "projectId": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+      "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/head-soccer-2026",
+      "apiAccepted": true
+    },
+    {
+      "slug": "block-blast-unblocked",
+      "projectId": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+      "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/block-blast-unblocked",
+      "apiAccepted": true
+    },
+    {
+      "slug": "summit-unlimited",
+      "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+      "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/summit-unlimited",
+      "apiAccepted": true
+    },
+    {
+      "slug": "minute-cryptic-unlimited",
+      "projectId": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
+      "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/minute-cryptic-unlimited",
+      "apiAccepted": true
+    },
+    {
+      "slug": "coreball",
+      "projectId": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
+      "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/coreball",
+      "apiAccepted": true
+    },
+    {
+      "slug": "costcodle",
+      "projectId": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+      "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/costcodle",
+      "apiAccepted": true
+    },
+    {
+      "slug": "spacebar-counter",
+      "projectId": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+      "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/spacebar-counter",
+      "apiAccepted": true
+    },
+    {
+      "slug": "gulperio",
+      "projectId": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+      "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/gulperio",
+      "apiAccepted": true
+    },
+    {
+      "slug": "2048-cupcakes",
+      "projectId": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+      "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/2048-cupcakes",
+      "apiAccepted": true
+    },
+    {
+      "slug": "snow-rider-3d-unblocked",
+      "projectId": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+      "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/snow-rider-3d-unblocked",
+      "apiAccepted": true
+    }
+  ],
+  "scope": "Only commandForIgnoringBuildStep updated; connector compact response does not echo this property. Live build logs required for acceptance."
+}

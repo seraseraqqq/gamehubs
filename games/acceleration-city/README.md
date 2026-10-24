@@ -1,5 +1,7 @@
 # Acceleration City — independent local player prototype
 
+**Migrated:** [independent private repository](https://github.com/seraseraqqq/gamehubs-acceleration-city). This directory is a transitional snapshot; see [MIGRATED.md](MIGRATED.md).
+
 Original-game iframe + a focused dark static wrapper. No runtime packages, copied Unity build, account token, ad SDK or analytics. Original game: Carnegie Mellon Robotics Academy / CS2N. This page is not endorsed by them.
 
 ## Run locally

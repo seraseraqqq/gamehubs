@@ -1,0 +1,110 @@
+{
+  "checkedAt": "2026-10-24T05:17:59.844Z",
+  "head": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+  "remote": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+  "allGameDirsPushed": true,
+  "remoteGameDirectories": [
+    "2048-cupcakes",
+    "acceleration-city",
+    "block-blast-unblocked",
+    "cluster-rush",
+    "coreball",
+    "costcodle",
+    "gulperio",
+    "head-soccer-2026",
+    "minute-cryptic-unlimited",
+    "snow-rider-3d-unblocked",
+    "spacebar-counter",
+    "summit-unlimited"
+  ],
+  "results": [
+    {
+      "project": "gamehubs-head-soccer-2026",
+      "path": "games/head-soccer-2026",
+      "deployedCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+      "remoteGameTree": "ad1e6fc10aca717e6fb118a2b4a9681398ddfb5b",
+      "deployedGameTree": "ad1e6fc10aca717e6fb118a2b4a9681398ddfb5b",
+      "matchesRemoteGameSource": true
+    },
+    {
+      "project": "block-blast-unblocked",
+      "path": "games/block-blast-unblocked",
+      "deployedCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+      "remoteGameTree": "ab667d73dbc5418e09dde3f63c6bdb1fd2dd979e",
+      "deployedGameTree": "ab667d73dbc5418e09dde3f63c6bdb1fd2dd979e",
+      "matchesRemoteGameSource": true
+    },
+    {
+      "project": "gamehubs-summit-unlimited",
+      "path": "games/summit-unlimited",
+      "deployedCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+      "remoteGameTree": "3508bca954bc156d1eb119fb2f456327df937a52",
+      "deployedGameTree": "3508bca954bc156d1eb119fb2f456327df937a52",
+      "matchesRemoteGameSource": true
+    },
+    {
+      "project": "gamehubs-minute-cryptic-unlimited",
+      "path": "games/minute-cryptic-unlimited",
+      "deployedCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+      "remoteGameTree": "2fcc29019ab46c0c402dac9dc49f85986f3adc73",
+      "deployedGameTree": "2fcc29019ab46c0c402dac9dc49f85986f3adc73",
+      "matchesRemoteGameSource": true
+    },
+    {
+      "project": "gamehubs-coreball",
+      "path": "games/coreball",
+      "deployedCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+      "remoteGameTree": "886d5e2d88722994b273892c4ad31f7ff7f3e088",
+      "deployedGameTree": "886d5e2d88722994b273892c4ad31f7ff7f3e088",
+      "matchesRemoteGameSource": true
+    },
+    {
+      "project": "costcodle-unlimited",
+      "path": "games/costcodle",
+      "deployedCommit": "c6034dc0f5e6fafbee20e2a3514c29e98baa5b0a",
+      "remoteGameTree": "d9360ead8ece6dd628601e23cfcbf1e9a515546c",
+      "deployedGameTree": "d9360ead8ece6dd628601e23cfcbf1e9a515546c",
+      "matchesRemoteGameSource": true
+    },
+    {
+      "project": "gamehubs-spacebar-counter",
+      "path": "games/spacebar-counter",
+      "deployedCommit": "c6034dc0f5e6fafbee20e2a3514c29e98baa5b0a",
+      "remoteGameTree": "9adb84765790bda782b6e5e5ce6bdfb7992a0a1e",
+      "deployedGameTree": "9adb84765790bda782b6e5e5ce6bdfb7992a0a1e",
+      "matchesRemoteGameSource": true
+    },
+    {
+      "project": "gulperio-game",
+      "path": "games/gulperio",
+      "deployedCommit": "c6034dc0f5e6fafbee20e2a3514c29e98baa5b0a",
+      "remoteGameTree": "5aef40f31264939941cbf7dd0c2e42bd58452c44",
+      "deployedGameTree": "5aef40f31264939941cbf7dd0c2e42bd58452c44",
+      "matchesRemoteGameSource": true
+    },
+    {
+      "project": "gamehubs-2048-cupcakes",
+      "path": "games/2048-cupcakes",
+      "deployedCommit": "c6034dc0f5e6fafbee20e2a3514c29e98baa5b0a",
+      "remoteGameTree": "add5e0303ee7602221d19d5ebe5c7acb8e921acb",
+      "deployedGameTree": "add5e0303ee7602221d19d5ebe5c7acb8e921acb",
+      "matchesRemoteGameSource": true
+    },
+    {
+      "project": "gamehubs-snow-rider-3d",
+      "path": "games/snow-rider-3d-unblocked",
+      "deployedCommit": "c6034dc0f5e6fafbee20e2a3514c29e98baa5b0a",
+      "remoteGameTree": "8a16dc2f78ac0b51500d928fb0ffaa3ef8df548d",
+      "deployedGameTree": "8a16dc2f78ac0b51500d928fb0ffaa3ef8df548d",
+      "matchesRemoteGameSource": true
+    }
+  ],
+  "undeployedDirectories": [
+    "acceleration-city",
+    "cluster-rush"
+  ],
+  "headSoccerRedirect": {
+    "status": 301,
+    "location": "https://www.playheadsoccer.com/"
+  }
+}

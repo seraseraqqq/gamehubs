@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-24T04:45:34.753Z",
+  "status": 200,
+  "noindex": true,
+  "canonical": null,
+  "provider": "https://www.miniplay.com/embed/snow-rider-3d",
+  "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src https://www.miniplay.com; object-src 'none'; base-uri 'self'; frame-ancestors 'self'",
+  "robots": "User-agent: *\nDisallow: /\n",
+  "sitemapStatus": 404
+}

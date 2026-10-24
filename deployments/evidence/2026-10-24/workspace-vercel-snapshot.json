@@ -1,0 +1,582 @@
+{
+  "checkedAt": "2026-10-24T05:17:07.721Z",
+  "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+  "repoId": 1429727092,
+  "rows": [
+    {
+      "id": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+      "name": "gamehubs-head-soccer-2026",
+      "latestDeployment": {
+        "id": "dpl_3b6gV7wMJdZF9Sgb8ni7b6gkLFzE",
+        "url": "gamehubs-head-soccer-2026-me7o048jg-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792817577206,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "protection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "domains": [
+        {
+          "name": "www.playheadsoccer.com",
+          "apexName": "playheadsoccer.com",
+          "projectId": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "customEnvironmentId": null,
+          "updatedAt": 1792818370972,
+          "createdAt": 1792814820169,
+          "verified": true
+        },
+        {
+          "name": "playheadsoccer.com",
+          "apexName": "playheadsoccer.com",
+          "projectId": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+          "redirect": "www.playheadsoccer.com",
+          "redirectStatusCode": 301,
+          "gitBranch": null,
+          "customEnvironmentId": null,
+          "updatedAt": 1792818377224,
+          "createdAt": 1792814819119,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+      "name": "block-blast-unblocked",
+      "latestDeployment": {
+        "id": "dpl_5VZ2JEnrTPihkezw9fBkYBQnwbdY",
+        "url": "block-blast-unblocked-78ru52uuy-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792817577204,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "protection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "domains": [
+        {
+          "name": "playblockblastunblocked.com",
+          "apexName": "playblockblastunblocked.com",
+          "projectId": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "customEnvironmentId": null,
+          "updatedAt": 1792678683713,
+          "createdAt": 1792678630456,
+          "verified": true
+        },
+        {
+          "name": "www.playblockblastunblocked.com",
+          "apexName": "playblockblastunblocked.com",
+          "projectId": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+          "redirect": "playblockblastunblocked.com",
+          "redirectStatusCode": 301,
+          "gitBranch": null,
+          "customEnvironmentId": null,
+          "updatedAt": 1792678728293,
+          "createdAt": 1792678629917,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+      "name": "gamehubs-summit-unlimited",
+      "latestDeployment": {
+        "id": "dpl_GMi33nrBmRBqgKzeTXBw2YAhwtXh",
+        "url": "gamehubs-summit-unlimited-1sf8o44gs-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792817577199,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "protection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "domains": [
+        {
+          "name": "krilliononline.com",
+          "apexName": "krilliononline.com",
+          "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "customEnvironmentId": null,
+          "updatedAt": 1792721326979,
+          "createdAt": 1792721315743,
+          "verified": true
+        },
+        {
+          "name": "www.krilliononline.com",
+          "apexName": "krilliononline.com",
+          "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+          "redirect": "krilliononline.com",
+          "redirectStatusCode": 301,
+          "gitBranch": null,
+          "customEnvironmentId": null,
+          "updatedAt": 1792721336254,
+          "createdAt": 1792721315288,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
+      "name": "gamehubs-minute-cryptic-unlimited",
+      "latestDeployment": {
+        "id": "dpl_34zGpyftYeGro26f82HuJADWsxgP",
+        "url": "gamehubs-minute-cryptic-unlimited-pd1caxjcm.vercel.app",
+        "createdAt": 1792817577170,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "protection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "domains": [
+        {
+          "name": "gamehubs-minute-cryptic-unlimited.vercel.app",
+          "apexName": "vercel.app",
+          "projectId": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
+          "redirect": null,
+          "gitBranch": null,
+          "customEnvironmentId": null,
+          "updatedAt": 1792806760781,
+          "createdAt": 1792806760781,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
+      "name": "gamehubs-coreball",
+      "latestDeployment": {
+        "id": "dpl_5HXGDs41bmFbm7wYu2LD6ZiDHTDk",
+        "url": "gamehubs-coreball-e9mku8p7k-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792817577205,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "protection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "domains": [
+        {
+          "name": "gamehubs-coreball.vercel.app",
+          "apexName": "vercel.app",
+          "projectId": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
+          "redirect": null,
+          "gitBranch": null,
+          "customEnvironmentId": null,
+          "updatedAt": 1792806729028,
+          "createdAt": 1792806729028,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+      "name": "costcodle-unlimited",
+      "latestDeployment": {
+        "id": "dpl_FWAKmu4yHrGw6YAYhLQaYMeA8i6K",
+        "url": "costcodle-unlimited-eiof5f6sy-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792817099365,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "protection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "domains": [
+        {
+          "name": "costcodle-unlimited.vercel.app",
+          "apexName": "vercel.app",
+          "projectId": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+          "redirect": null,
+          "gitBranch": null,
+          "customEnvironmentId": null,
+          "updatedAt": 1792675185180,
+          "createdAt": 1792675185180,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+      "name": "gamehubs-spacebar-counter",
+      "latestDeployment": {
+        "id": "dpl_AZ7Br8QSvT6R3vQpwQTPvvcYxjqc",
+        "url": "gamehubs-spacebar-counter-5kbetryv9-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792817099353,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "protection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "domains": [
+        {
+          "name": "www.spacebarcounter.xyz",
+          "apexName": "spacebarcounter.xyz",
+          "projectId": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "customEnvironmentId": null,
+          "updatedAt": 1792752301424,
+          "createdAt": 1792751128308,
+          "verified": true
+        },
+        {
+          "name": "spacebarcounter.xyz",
+          "apexName": "spacebarcounter.xyz",
+          "projectId": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+          "redirect": "www.spacebarcounter.xyz",
+          "redirectStatusCode": 301,
+          "gitBranch": null,
+          "customEnvironmentId": null,
+          "updatedAt": 1792752308586,
+          "createdAt": 1792751126604,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+      "name": "gulperio-game",
+      "latestDeployment": {
+        "id": "dpl_BdVsESQ3tAru4cRAneRMzytGyDpM",
+        "url": "gulperio-game-nxl175x4a-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792817099345,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "protection": {
+        "enabled": false,
+        "deploymentType": null
+      },
+      "domains": [
+        {
+          "name": "gulperio.com",
+          "apexName": "gulperio.com",
+          "projectId": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "customEnvironmentId": null,
+          "updatedAt": 1792685193318,
+          "createdAt": 1792685164618,
+          "verified": true
+        },
+        {
+          "name": "www.gulperio.com",
+          "apexName": "gulperio.com",
+          "projectId": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+          "redirect": "gulperio.com",
+          "redirectStatusCode": 301,
+          "gitBranch": null,
+          "customEnvironmentId": null,
+          "updatedAt": 1792685207262,
+          "createdAt": 1792685163836,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+      "name": "gamehubs-2048-cupcakes",
+      "latestDeployment": {
+        "id": "dpl_8qmAkYzsNLg2pY8yxs1J2ucmByZk",
+        "url": "gamehubs-2048-cupcakes-kte3r8djn-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792817099344,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "protection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "domains": [
+        {
+          "name": "www.2048cupcakes.xyz",
+          "apexName": "2048cupcakes.xyz",
+          "projectId": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "customEnvironmentId": null,
+          "updatedAt": 1792752325581,
+          "createdAt": 1792751124753,
+          "verified": true
+        },
+        {
+          "name": "2048cupcakes.xyz",
+          "apexName": "2048cupcakes.xyz",
+          "projectId": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+          "redirect": "www.2048cupcakes.xyz",
+          "redirectStatusCode": 301,
+          "gitBranch": null,
+          "customEnvironmentId": null,
+          "updatedAt": 1792752334685,
+          "createdAt": 1792751123052,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+      "name": "gamehubs-snow-rider-3d",
+      "latestDeployment": {
+        "id": "dpl_AJ7j1EWmkwdfAgegzcnexGQywtW3",
+        "url": "gamehubs-snow-rider-3d-cipl7jakv-gx03410-8651s-projects.vercel.app",
+        "createdAt": 1792817099321,
+        "readyState": "READY",
+        "target": "production"
+      },
+      "protection": {
+        "enabled": true,
+        "deploymentType": "all_except_custom_domains"
+      },
+      "domains": [
+        {
+          "name": "www.snowrider3d.top",
+          "apexName": "snowrider3d.top",
+          "projectId": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+          "redirect": "snowrider3d.top",
+          "redirectStatusCode": 301,
+          "gitBranch": null,
+          "customEnvironmentId": null,
+          "updatedAt": 1792814825370,
+          "createdAt": 1792814825370,
+          "verified": true
+        },
+        {
+          "name": "snowrider3d.top",
+          "apexName": "snowrider3d.top",
+          "projectId": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "customEnvironmentId": null,
+          "updatedAt": 1792814823455,
+          "createdAt": 1792814823455,
+          "verified": true
+        },
+        {
+          "name": "gamehubs-snow-rider-3d.vercel.app",
+          "apexName": "vercel.app",
+          "projectId": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+          "redirect": null,
+          "gitBranch": null,
+          "customEnvironmentId": null,
+          "updatedAt": 1792814807139,
+          "createdAt": 1792814807139,
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "deployments": [
+    {
+      "project": "gamehubs-head-soccer-2026",
+      "id": "dpl_3b6gV7wMJdZF9Sgb8ni7b6gkLFzE",
+      "state": "READY",
+      "target": "production",
+      "sha": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+      "ref": "main",
+      "source": "git",
+      "domains": [
+        "playheadsoccer.com",
+        "gamehubs-head-soccer-2026.vercel.app",
+        "www.playheadsoccer.com",
+        "gamehubs-head-soccer-2026-gx03410-8651s-projects.vercel.app",
+        "gamehubs-head-soccer-2026-git-main-gx03410-8651s-projects.vercel.app"
+      ]
+    },
+    {
+      "project": "block-blast-unblocked",
+      "id": "dpl_5VZ2JEnrTPihkezw9fBkYBQnwbdY",
+      "state": "READY",
+      "target": "production",
+      "sha": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+      "ref": "main",
+      "source": "git",
+      "domains": [
+        "playblockblastunblocked.com",
+        "www.playblockblastunblocked.com",
+        "block-blast-unblocked-gx03410-8651s-projects.vercel.app",
+        "block-blast-unblocked-git-main-gx03410-8651s-projects.vercel.app"
+      ]
+    },
+    {
+      "project": "gamehubs-summit-unlimited",
+      "id": "dpl_GMi33nrBmRBqgKzeTXBw2YAhwtXh",
+      "state": "READY",
+      "target": "production",
+      "sha": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+      "ref": "main",
+      "source": "git",
+      "domains": [
+        "krilliononline.com",
+        "www.krilliononline.com",
+        "gamehubs-summit-unlimited-gx03410-8651s-projects.vercel.app",
+        "gamehubs-summit-unlimited-git-main-gx03410-8651s-projects.vercel.app"
+      ]
+    },
+    {
+      "project": "gamehubs-minute-cryptic-unlimited",
+      "id": "dpl_34zGpyftYeGro26f82HuJADWsxgP",
+      "state": "READY",
+      "target": "production",
+      "sha": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+      "ref": "main",
+      "source": "git",
+      "domains": [
+        "gamehubs-minute-cryptic-unlimited.vercel.app",
+        "gamehubs-minute-cryptic-unlimited-gx03410-8651s-projects.vercel.app",
+        "gamehubs-minute-cryptic-unlim-git-2d7172-gx03410-8651s-projects.vercel.app"
+      ]
+    },
+    {
+      "project": "gamehubs-coreball",
+      "id": "dpl_5HXGDs41bmFbm7wYu2LD6ZiDHTDk",
+      "state": "READY",
+      "target": "production",
+      "sha": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+      "ref": "main",
+      "source": "git",
+      "domains": [
+        "gamehubs-coreball.vercel.app",
+        "gamehubs-coreball-gx03410-8651s-projects.vercel.app",
+        "gamehubs-coreball-git-main-gx03410-8651s-projects.vercel.app"
+      ]
+    },
+    {
+      "project": "costcodle-unlimited",
+      "id": "dpl_FWAKmu4yHrGw6YAYhLQaYMeA8i6K",
+      "state": "READY",
+      "target": "production",
+      "sha": "c6034dc0f5e6fafbee20e2a3514c29e98baa5b0a",
+      "ref": "main",
+      "source": "git",
+      "domains": [
+        "costcodle-unlimited.vercel.app",
+        "costcodle-unlimited-gx03410-8651s-projects.vercel.app",
+        "costcodle-unlimited-git-main-gx03410-8651s-projects.vercel.app"
+      ]
+    },
+    {
+      "project": "gamehubs-spacebar-counter",
+      "id": "dpl_AZ7Br8QSvT6R3vQpwQTPvvcYxjqc",
+      "state": "READY",
+      "target": "production",
+      "sha": "c6034dc0f5e6fafbee20e2a3514c29e98baa5b0a",
+      "ref": "main",
+      "source": "git",
+      "domains": [
+        "www.spacebarcounter.xyz",
+        "spacebarcounter.xyz",
+        "gamehubs-spacebar-counter-gx03410-8651s-projects.vercel.app",
+        "gamehubs-spacebar-counter-git-main-gx03410-8651s-projects.vercel.app"
+      ]
+    },
+    {
+      "project": "gulperio-game",
+      "id": "dpl_BdVsESQ3tAru4cRAneRMzytGyDpM",
+      "state": "READY",
+      "target": "production",
+      "sha": "c6034dc0f5e6fafbee20e2a3514c29e98baa5b0a",
+      "ref": "main",
+      "source": "git",
+      "domains": [
+        "gulperio.com",
+        "www.gulperio.com",
+        "gulperio-game-gx03410-8651s-projects.vercel.app",
+        "gulperio-game-git-main-gx03410-8651s-projects.vercel.app"
+      ]
+    },
+    {
+      "project": "gamehubs-2048-cupcakes",
+      "id": "dpl_8qmAkYzsNLg2pY8yxs1J2ucmByZk",
+      "state": "READY",
+      "target": "production",
+      "sha": "c6034dc0f5e6fafbee20e2a3514c29e98baa5b0a",
+      "ref": "main",
+      "source": "git",
+      "domains": [
+        "www.2048cupcakes.xyz",
+        "2048cupcakes.xyz",
+        "gamehubs-2048-cupcakes-gx03410-8651s-projects.vercel.app",
+        "gamehubs-2048-cupcakes-git-main-gx03410-8651s-projects.vercel.app"
+      ]
+    },
+    {
+      "project": "gamehubs-snow-rider-3d",
+      "id": "dpl_AJ7j1EWmkwdfAgegzcnexGQywtW3",
+      "state": "READY",
+      "target": "production",
+      "sha": "c6034dc0f5e6fafbee20e2a3514c29e98baa5b0a",
+      "ref": "main",
+      "source": "git",
+      "domains": [
+        "snowrider3d.top",
+        "gamehubs-snow-rider-3d.vercel.app",
+        "www.snowrider3d.top",
+        "gamehubs-snow-rider-3d-gx03410-8651s-projects.vercel.app",
+        "gamehubs-snow-rider-3d-git-main-gx03410-8651s-projects.vercel.app"
+      ]
+    }
+  ],
+  "publicCandidates": [
+    {
+      "project": "gamehubs-head-soccer-2026",
+      "url": "https://www.playheadsoccer.com/"
+    },
+    {
+      "project": "block-blast-unblocked",
+      "url": "https://playblockblastunblocked.com/"
+    },
+    {
+      "project": "gamehubs-summit-unlimited",
+      "url": "https://krilliononline.com/"
+    },
+    {
+      "project": "gamehubs-minute-cryptic-unlimited",
+      "url": "https://gamehubs-minute-cryptic-unlimited.vercel.app/"
+    },
+    {
+      "project": "gamehubs-coreball",
+      "url": "https://gamehubs-coreball.vercel.app/"
+    },
+    {
+      "project": "costcodle-unlimited",
+      "url": "https://costcodle-unlimited.vercel.app/"
+    },
+    {
+      "project": "gamehubs-spacebar-counter",
+      "url": "https://www.spacebarcounter.xyz/"
+    },
+    {
+      "project": "gulperio-game",
+      "url": "https://gulperio.com/"
+    },
+    {
+      "project": "gamehubs-2048-cupcakes",
+      "url": "https://www.2048cupcakes.xyz/"
+    },
+    {
+      "project": "gamehubs-snow-rider-3d",
+      "url": "https://snowrider3d.top/"
+    }
+  ]
+}

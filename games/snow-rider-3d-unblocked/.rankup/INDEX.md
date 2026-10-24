@@ -2,11 +2,11 @@
 
 Updated 2026-10-24 (Asia/Shanghai). Website wrapper deployed at https://snowrider3d.top/; Vercel project gamehubs-snow-rider-3d. DNS/HTTPS/www301 verified.
 
-- Owner confirmed no GameDistribution publisher account and chose to retain deployment and record a todo. Publisher onboarding is deferred; no account creation is authorized now.
-- Actual game is blocked by the provider: domain=snowrider3d.top, unregistered=true. Keep production PUBLISHER_DOMAIN_STATUS=unregistered, noindex and the approval notice.
-- Future steps: owner creates an account, registers the domain and obtains approval; then redeploy, verify actual gameplay and SEO before indexing. [Todo checklist](plan.md).
-- Existing publisher iframe remains the selected game source. A complete Unity package was located without an established self-hosting license; the earlier custom engine is superseded and excluded from delivery.
-- Local checks: 68 static/export and 9 shell checks; local title/menu/tutorial observed. Actual-domain gameplay failed; full-round/physical-mobile/fullscreen-exit remain unverified.
+- Owner authorized replacement with Miniplay, real-domain gameplay testing and indexing only after acceptance. No publisher-account signup is requested.
+- Miniplay public embed is deployed, production READY at c6034dc0f5e6fafbee20e2a3514c29e98baa5b0a. Live player.js confirms the Miniplay URL. The previous direct GameDistribution blocker is historical.
+- Formal gameplay acceptance was interrupted by Computer Use URL verification on Windows. A full actual-domain run/restart is unverified. Keep noindex and leave PUBLISHER_DOMAIN_STATUS unverified until acceptance. [Todo checklist](plan.md).
+- Existing game is supplied through Miniplay's advertised public embed. A Unity package was located without established original-author distribution permission; no package or custom engine is shipped.
+- Current checks:70 static/export checks passed; Miniplay local title/menu observed; production HTTP200 and noindex verified. Physical-mobile/full-round/fullscreen-exit remain unverified.
 - Preserve publisher UI/SDK and actual parent referrer. Do not spoof another site or copy unlicensed binaries.
-- [Release and owner decision](../../../deployments/2026-10-24-owned-game-domains.md), [provider blocker](../../../deployments/evidence/2026-10-24/snow-rider-provider-blocked.txt), [sourcing](../../../research/2026-10-24-snow-rider/PACKAGE-SOURCING.md).
-- Alternative research: [three locally rendered public embeds and package checks](../../../research/2026-10-24-snow-rider/alternatives/README.md). Miniplay is the first existing-game candidate; Neo/Rush are distinct games. Production unchanged; actual-domain and full-round checks pending.
+- [Current release](../../../deployments/2026-10-24-snow-rider-miniplay.md), [workspace status](../../../DEPLOYMENT_STATUS.md), [historical direct-provider blocker](../../../deployments/evidence/2026-10-24/snow-rider-provider-blocked.txt).
+- [Alternative research](../../../research/2026-10-24-snow-rider/alternatives/README.md) led to the owner-authorized Miniplay deployment. Actual-domain gameplay acceptance remains pending.

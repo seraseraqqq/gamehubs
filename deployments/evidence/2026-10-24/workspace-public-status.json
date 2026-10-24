@@ -1,0 +1,116 @@
+{
+  "checkedAt": "2026-10-24T05:17:09.386Z",
+  "results": [
+    {
+      "project": "gamehubs-head-soccer-2026",
+      "url": "https://www.playheadsoccer.com/",
+      "status": 200,
+      "finalURL": "https://www.playheadsoccer.com/",
+      "title": "Head Soccer 2026 — Play Free Online, Solo & 2 Player",
+      "canonical": "https://playheadsoccer.com/",
+      "noindex": false,
+      "authenticationRequired": false,
+      "server": "Vercel"
+    },
+    {
+      "project": "block-blast-unblocked",
+      "url": "https://playblockblastunblocked.com/",
+      "status": 200,
+      "finalURL": "https://playblockblastunblocked.com/",
+      "title": "Block Blast Unblocked — Free 8×8 Block Puzzle",
+      "canonical": "https://playblockblastunblocked.com/",
+      "noindex": false,
+      "authenticationRequired": false,
+      "server": "Vercel"
+    },
+    {
+      "project": "gamehubs-summit-unlimited",
+      "url": "https://krilliononline.com/",
+      "status": 200,
+      "finalURL": "https://krilliononline.com/",
+      "title": "STARLING — Free Space Word Game &amp; Rare Answer Challenge",
+      "canonical": "https://krilliononline.com/",
+      "noindex": false,
+      "authenticationRequired": false,
+      "server": "Vercel"
+    },
+    {
+      "project": "gamehubs-minute-cryptic-unlimited",
+      "url": "https://gamehubs-minute-cryptic-unlimited.vercel.app/",
+      "status": 200,
+      "finalURL": "https://gamehubs-minute-cryptic-unlimited.vercel.app/",
+      "title": "Minute Cryptic Unlimited – Free Cryptic Practice",
+      "canonical": null,
+      "noindex": true,
+      "authenticationRequired": false,
+      "server": "Vercel"
+    },
+    {
+      "project": "gamehubs-coreball",
+      "url": "https://gamehubs-coreball.vercel.app/",
+      "status": 200,
+      "finalURL": "https://gamehubs-coreball.vercel.app/",
+      "title": "Coreball – Play Free Online | 30 Levels",
+      "canonical": null,
+      "noindex": true,
+      "authenticationRequired": false,
+      "server": "Vercel"
+    },
+    {
+      "project": "costcodle-unlimited",
+      "url": "https://costcodle-unlimited.vercel.app/",
+      "status": 200,
+      "finalURL": "https://costcodle-unlimited.vercel.app/",
+      "title": "Costcodle Unlimited — Daily Price Guessing Game",
+      "canonical": "https://costcodle-unlimited.vercel.app/",
+      "noindex": false,
+      "authenticationRequired": false,
+      "server": "Vercel"
+    },
+    {
+      "project": "gamehubs-spacebar-counter",
+      "url": "https://www.spacebarcounter.xyz/",
+      "status": 200,
+      "finalURL": "https://www.spacebarcounter.xyz/",
+      "title": "Spacebar Counter — A Simple Spacebar Speed Test",
+      "canonical": "https://www.spacebarcounter.xyz/",
+      "noindex": false,
+      "authenticationRequired": false,
+      "server": "Vercel"
+    },
+    {
+      "project": "gulperio-game",
+      "url": "https://gulperio.com/",
+      "status": 200,
+      "finalURL": "https://gulperio.com/",
+      "title": "Gulper.io-Inspired Snake Arena — Solo Bot Game",
+      "canonical": "https://gulperio.com/",
+      "noindex": false,
+      "authenticationRequired": false,
+      "server": "Vercel"
+    },
+    {
+      "project": "gamehubs-2048-cupcakes",
+      "url": "https://www.2048cupcakes.xyz/",
+      "status": 200,
+      "finalURL": "https://www.2048cupcakes.xyz/",
+      "title": "2048 Cupcakes — A Cozy Cupcake Merge Game | Crumb",
+      "canonical": "https://www.2048cupcakes.xyz/",
+      "noindex": false,
+      "authenticationRequired": false,
+      "server": "Vercel"
+    },
+    {
+      "project": "gamehubs-snow-rider-3d",
+      "url": "https://snowrider3d.top/",
+      "status": 200,
+      "finalURL": "https://snowrider3d.top/",
+      "title": "Snow Rider 3D Unblocked — Play Free Online",
+      "canonical": null,
+      "noindex": true,
+      "authenticationRequired": false,
+      "server": "Vercel"
+    }
+  ],
+  "snowProvider": "https://www.miniplay.com/embed/snow-rider-3d"
+}

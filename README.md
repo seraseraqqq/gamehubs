@@ -1,5 +1,7 @@
 # GameHubs
 
+Repository management: [REPOSITORIES.md](REPOSITORIES.md). Cluster Rush and Acceleration City now have independent private repositories; their directories here are migration snapshots. Ten existing Vercel projects remain linked here with per-game selective builds. [Deployment inventory](DEPLOYMENT_STATUS.md) · [Refactor record](REPOSITORY_REFACTOR.md).
+
 ## Cluster Rush — 2026-10-24
 
 `games/cluster-rush` uses the existing Unity game through a direct iframe, matching the observed competitor architecture. Local preview: http://127.0.0.1:4202/ . Includes focused desktop play, keyboard controls checked in the first level, fullscreen fallback, inline reload confirmation and original control/loading guides. [Research, real competitor screenshots, difficulty and registrar-verified domains](research/2026-10-24-cluster-rush/README.md); [screenshot gallery](research/2026-10-24-cluster-rush/gallery.html). Static export checks pass; not deployed. Commercial embedding rights, owned domain, production/physical-device performance and mobile touch play remain unconfirmed. No ranking improvement is claimed.
@@ -12,7 +14,7 @@ A collection of lightweight, high-performance, SEO-optimized browser mini-games.
 
 ## Repository Structure
 
-All game implementations are organized in secondary directories under `games/`:
+Ten deployed game implementations remain in secondary directories under `games/`; migrated prototypes are retained as snapshots:
 
 ```
 gamehubs/
