@@ -490,10 +490,10 @@
         "snow rider 3d tips"
       ],
       "path": "games/snow-rider-3d-unblocked",
-      "domain": null,
-      "url": null,
+      "domain": "https://snowrider3d.top",
+      "url": "https://snowrider3d.top/",
       "canonical": null,
-      "status": "built-local-publisher-iframe",
+      "status": "deployed-publisher-domain-blocked",
       "targetMarket": {
         "country": "US",
         "language": "en"
@@ -508,7 +508,7 @@
         "selfHostedPackage": "located-but-license-not-established",
         "record": "research/2026-10-24-snow-rider/PACKAGE-SOURCING.md"
       },
-      "indexingState": "noindex-awaiting-owned-origin",
+      "indexingState": "noindex-pending-publisher-domain-registration",
       "adsEnabled": false,
       "analyticsState": "first-party-not-installed; publisher-in-game-tracking-disclosed",
       "searchConsoleState": "not-connected",
@@ -527,12 +527,85 @@
         "browserShellChecks": 9,
         "gameRuntimeObserved": "publisher title, sled menu and tutorial; full round not certified",
         "finalVisualVerification": "default IAB; physical mobile and fullscreen exit pending",
-        "record": "research/2026-10-24-snow-rider/PACKAGE-SOURCING.md"
+        "record": "research/2026-10-24-snow-rider/PACKAGE-SOURCING.md",
+        "productionGameRuntime": "GameDistribution blocked.html explicitly returns domain=snowrider3d.top and unregistered=true. Local title/menu observation does not establish production availability."
       },
       "createdAt": "2026-10-24",
       "updatedAt": "2026-10-24",
-      "nextDecision": "Select owned domain, complete required publisher/domain onboarding, deploy when authorized and verify actual-origin game plus physical mobile before indexing.",
-      "releaseState": "local-integration-verified-no-owned-origin"
+      "nextDecision": "Owner must log into GameDistribution and register/enable snowrider3d.top for this game. Do not spoof another referrer or copy unlicensed binaries. After approval, remove PUBLISHER_DOMAIN_STATUS=unregistered, redeploy and verify actual gameplay before indexing.",
+      "releaseState": "public-wrapper-verified-game-blocked",
+      "registeredDomain": "snowrider3d.top",
+      "domainOwnership": "owner-confirmed-purchased-2026-10-24",
+      "registrar": "Spaceship",
+      "dnsState": "verified",
+      "deployment": {
+        "platform": "Vercel",
+        "projectId": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+        "projectName": "gamehubs-snow-rider-3d",
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+        "rootDirectory": "games/snow-rider-3d-unblocked",
+        "target": "production",
+        "state": "READY",
+        "verifiedGameSourceCommit": "b4dbe7c8bf9cc8811eaa0ec2396a1a9151197b38",
+        "latestVerifiedDeploymentId": "dpl_2yWHt6yjZEtSEVpJRsmLB7V1ZTBH",
+        "productionOrigin": "https://snowrider3d.top",
+        "record": "deployments/2026-10-24-owned-game-domains.md",
+        "verifiedPublicAt": "2026-10-24T04:19:34.278Z"
+      }
+    },
+    {
+      "siteId": "head-soccer-2026",
+      "unitType": "game",
+      "primaryKeyword": "head soccer 2026",
+      "path": "games/head-soccer-2026",
+      "repo": "https://github.com/seraseraqqq/gamehubs",
+      "createdAt": "2026-10-24",
+      "adsEnabled": false,
+      "searchConsoleState": "not-connected",
+      "gameSource": {
+        "type": "publisher-iframe",
+        "provider": "GamePix",
+        "iframeUrl": "https://play.gamepix.com/head-soccer-2026/embed?sid=1"
+      },
+      "domain": "https://playheadsoccer.com",
+      "url": "https://playheadsoccer.com/",
+      "canonical": "https://playheadsoccer.com/",
+      "registeredDomain": "playheadsoccer.com",
+      "status": "deployed",
+      "releaseState": "public-domain-verified",
+      "indexingState": "indexable-gsc-not-connected",
+      "domainOwnership": "owner-confirmed-purchased-2026-10-24",
+      "registrar": "Spaceship",
+      "dnsState": "verified",
+      "updatedAt": "2026-10-24",
+      "deployment": {
+        "platform": "Vercel",
+        "projectId": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+        "projectName": "gamehubs-head-soccer-2026",
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+        "rootDirectory": "games/head-soccer-2026",
+        "target": "production",
+        "state": "READY",
+        "verifiedGameSourceCommit": "4fe4c038e080a9078d830d31dce3dfd61a62f2a4",
+        "latestVerifiedDeploymentId": "dpl_3CSozsx588uEUVcv629zoiTPUCjs",
+        "productionOrigin": "https://playheadsoccer.com",
+        "record": "deployments/2026-10-24-owned-game-domains.md"
+      },
+      "nextDecision": "Complete physical-device/full-round checks; publisher monetization onboarding and Search Console remain separate follow-up work."
+    },
+    {
+      "siteId": "acceleration-city",
+      "path": "games/acceleration-city",
+      "primaryKeyword": "acceleration city",
+      "unitType": "game",
+      "domain": "https://playaccelerationcity.com",
+      "url": null,
+      "registeredDomain": "playaccelerationcity.com",
+      "status": "publication-deferred-by-owner",
+      "indexingState": "noindex-embedding-permission-pending",
+      "domainOwnership": "owner-confirmed-purchased-2026-10-24",
+      "updatedAt": "2026-10-24",
+      "nextDecision": "Owner explicitly deferred publication until game embedding permission is obtained. Do not set GAME_EMBED_LICENSE_CONFIRMED=true."
     }
   ]
 }

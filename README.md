@@ -2,7 +2,7 @@
 
 ## Head Soccer 2026 — 2026-10-24
 
-`games/head-soccer-2026` is a static site around the official GamePix public-feed iframe, matching the direct competitor's architecture. Includes responsive game-first layout, accurate control references, focus mode, fullscreen fallback, supporting guide and domain-configured SEO export. Preview: http://127.0.0.1:4201/. No new deployment or purchase. [Research, screenshot gallery, difficulty and verified domain shortlist](research/2026-10-24-head-soccer-2026/README.md).
+`games/head-soccer-2026` is a static site around the official GamePix public-feed iframe, matching the direct competitor's architecture. Includes responsive game-first layout, accurate control references, focus mode, fullscreen fallback, supporting guide and domain-configured SEO export. Preview: http://127.0.0.1:4201/. Published at https://playheadsoccer.com/ using the owner’s purchased domain; release record: deployments/2026-10-24-owned-game-domains.md. [Research, screenshot gallery, difficulty and verified domain shortlist](research/2026-10-24-head-soccer-2026/README.md).
 
 A collection of lightweight, high-performance, SEO-optimized browser mini-games.
 
@@ -108,4 +108,4 @@ Both are dependency-free static apps with local assets and safe browser-local pr
 
 The owner replaced original development with the existing game. games/snow-rider-3d-unblocked now loads the GameDistribution Snow Rider 3D iframe. A complete Unity package was found but self-hosting rights were not established. The original engine/vendor are excluded from delivery. Preview: http://127.0.0.1:4197/ .
 
-68 static/export and 9 browser-shell checks pass; existing game title/menu/tutorial rendered. Full-round, physical-mobile and persistent fullscreen-exit validation remain outside the verified scope. No domain or deployment is configured. [Current sourcing and integration evidence](research/2026-10-24-snow-rider/PACKAGE-SOURCING.md).
+68 static/export and 9 browser-shell checks pass; existing game title/menu/tutorial rendered. Full-round, physical-mobile and persistent fullscreen-exit validation remain outside the verified scope. Website wrapper: https://snowrider3d.top/ using the owner’s purchased domain. The actual game is blocked by GameDistribution as unregistered; production stays noindex pending publisher onboarding; release record: deployments/2026-10-24-owned-game-domains.md. [Current sourcing and integration evidence](research/2026-10-24-snow-rider/PACKAGE-SOURCING.md).

@@ -1,0 +1,46 @@
+Browser tab: 1958315538, Title: "Snow Rider 3D Unblocked — Play Free Online", URL: "https://snowrider3d.top/".
+0 AXWebArea Snow Rider 3D Unblocked — Play Free Online, URL: snowrider3d.top/
+	1 container
+		2 link Description: Skip to game, Value: snowrider3d.top/#game
+		3 link Description: Snow Rider home, Value: snowrider3d.top/
+		4 container Main
+			5 link Description: How to play, Value: snowrider3d.top/#how-to-play
+			6 link Description: Controls & tips , Value: snowrider3d.top/snow-rider-3d-controls.html
+		7 heading Snow Rider 3D Unblocked, Value: 1
+			8 text Snow Rider 3D Unblocked
+		9 text Play the sledding game online. No download needed.
+		10 container Description: Snow Rider 3D player, ID: game
+			11 container Description: Snow Rider 3D — GameDistribution player, ID: publisher-game
+				36 AXWebArea Blocked, URL: html5.api.gamedistribution.com/blocked.html?domain=snowrider3d.top&id=3b79a8537ebc414fb4f9672a9b8c68c8&img=https%3A%2F%2Fimg.gamedistribution.com%2F3b79a8537ebc414fb4f9672a9b8c68c8-512x512.jpg&title=Snow%20Rider%203D&unregistered=true&utm_source=snowrider3d.top&utm_medium=snow-rider-3d&utm_campaign=block-and-redirect
+					37 container gdsdk-blocked__
+						38 heading SNOW RIDER 3D IS NOT AVAILABLE HERE., Value: 1
+							39 text SNOW RIDER 3D IS NOT AVAILABLE HERE.
+						40 heading IF YOU WANT TO PLAY SNOW RIDER 3D, CLICK HERE TO PLAY , Value: 2
+							41 text IF YOU WANT TO PLAY  SNOW RIDER 3D , 
+							42 link Description: CLICK HERE TO PLAY , Value: html5.gamedistribution.com/3b79a8537ebc414fb4f9672a9b8c68c8/?utm_source=snowrider3d.top&utm_medium=snow-rider-3d&utm_campaign=block-and-redirect
+						43 link Description: PLAY , Value: html5.gamedistribution.com/3b79a8537ebc414fb4f9672a9b8c68c8/?utm_source=snowrider3d.top&utm_medium=snow-rider-3d&utm_campaign=block-and-redirect
+		13 text ← → Steer ↑ / W Jump
+		14 button Reload game, ID: reload
+		15 button Description: Enter fullscreen, ID: fullscreen
+		16 link Description: Open game, ID: direct, Value: html5.gamedistribution.com/3b79a8537ebc414fb4f9672a9b8c68c8/?gd_sdk_referrer_url=https%3A%2F%2Fsnowrider3d.top%2F
+		44 text Player page opened. Choose Play inside the player if shown; the game may still be loading.
+		18 container how-to-play
+			19 heading How to play, Value: 2
+				20 text How to play
+			21 text Use ← / → or A / D to steer. Press ↑ or W to jump. Avoid obstacles, collect gifts and use the game’s menu to choose a sled.
+			22 link Description: Controls & loading help , Value: snowrider3d.top/snow-rider-3d-controls.html
+		23 container Frequently asked questions
+			24 button (collapsed) Which game is this?, Secondary Actions: Expand
+				25 text Which game is this?
+			26 button (collapsed) Can I play on mobile?, Secondary Actions: Expand
+				27 text Can I play on mobile?
+			28 button (collapsed) Why might the game not load?, Secondary Actions: Expand
+				29 text Why might the game not load?
+		30 container
+			31 text Game delivered by 
+			32 link Description: GameDistribution, Value: gamedistribution.com/games/snow-rider-3d/
+			33 text .
+		34 link Description: About & privacy, Value: snowrider3d.top/about.html
+		35 text Independent game page · © 2026
+
+The focused UI element is 11 container Description: Snow Rider 3D — GameDistribution player, ID: publisher-game

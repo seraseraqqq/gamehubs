@@ -1,0 +1,182 @@
+{
+  "checkedAt": "2026-10-24T04:20:24.005Z",
+  "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+  "snowDeployment": {
+    "id": "dpl_2yWHt6yjZEtSEVpJRsmLB7V1ZTBH",
+    "name": "gamehubs-snow-rider-3d",
+    "url": "gamehubs-snow-rider-3d-8ewn6xt2k-gx03410-8651s-projects.vercel.app",
+    "type": "LAMBDAS",
+    "state": "READY",
+    "createdAt": 1792815526933,
+    "creator": {
+      "uid": "hnBoZslKPVHPN4tsXyPY67fY",
+      "username": "gx03410-8651"
+    },
+    "project": {
+      "id": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+      "name": "gamehubs-snow-rider-3d",
+      "framework": null
+    },
+    "meta": {
+      "githubCommitRef": "main",
+      "githubCommitSha": "b4dbe7c8bf9cc8811eaa0ec2396a1a9151197b38",
+      "githubCommitMessage": "fix(snow-rider): hold indexing while publisher domain is unregistered",
+      "githubRepo": "gamehubs",
+      "githubOrg": "seraseraqqq"
+    },
+    "alias": [
+      "snowrider3d.top",
+      "gamehubs-snow-rider-3d.vercel.app",
+      "www.snowrider3d.top",
+      "gamehubs-snow-rider-3d-gx03410-8651s-projects.vercel.app",
+      "gamehubs-snow-rider-3d-git-main-gx03410-8651s-projects.vercel.app"
+    ],
+    "target": "production",
+    "regions": [
+      "iad1"
+    ],
+    "buildingAt": 1792815550802,
+    "ready": 1792815554176,
+    "readyState": "READY",
+    "source": "git",
+    "aliasError": null
+  },
+  "headInitialProject": {
+    "id": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+    "name": "gamehubs-head-soccer-2026",
+    "framework": null,
+    "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+    "createdAt": 1792814800107,
+    "updatedAt": 1792814843548,
+    "nodeVersion": "24.x",
+    "live": false,
+    "latestDeployment": {
+      "id": "dpl_3CSozsx588uEUVcv629zoiTPUCjs",
+      "url": "gamehubs-head-soccer-2026-inlbia904-gx03410-8651s-projects.vercel.app",
+      "createdAt": 1792814839010,
+      "readyState": "READY",
+      "target": "production"
+    },
+    "domains": [
+      "playheadsoccer.com",
+      "gamehubs-head-soccer-2026.vercel.app",
+      "www.playheadsoccer.com",
+      "gamehubs-head-soccer-2026-gx03410-8651s-projects.vercel.app",
+      "gamehubs-head-soccer-2026-git-main-gx03410-8651s-projects.vercel.app"
+    ],
+    "passwordProtection": {
+      "enabled": false,
+      "deploymentType": null
+    },
+    "ssoProtection": {
+      "enabled": true,
+      "deploymentType": "all_except_custom_domains"
+    },
+    "trustedIps": {
+      "enabled": false,
+      "deploymentType": null,
+      "addresses": [],
+      "protectionMode": null
+    }
+  },
+  "domainConfig": {
+    "headWWW": {
+      "configuredBy": "CNAME",
+      "nameservers": [
+        "launch2.spaceship.net",
+        "launch1.spaceship.net"
+      ],
+      "serviceType": "external",
+      "cnames": [
+        "744c75b0c0f00bf8.vercel-dns-017.com."
+      ],
+      "aValues": [
+        "216.198.79.65",
+        "64.29.17.65"
+      ],
+      "conflicts": [],
+      "acceptedChallenges": [
+        "http-01"
+      ],
+      "recommendedIPv4": [
+        {
+          "rank": 1,
+          "value": [
+            "216.198.79.1",
+            "64.29.17.1"
+          ]
+        },
+        {
+          "rank": 2,
+          "value": [
+            "76.76.21.21"
+          ]
+        }
+      ],
+      "recommendedCNAME": [
+        {
+          "rank": 1,
+          "value": "744c75b0c0f00bf8.vercel-dns-017.com."
+        },
+        {
+          "rank": 2,
+          "value": "cname.vercel-dns.com."
+        }
+      ],
+      "ipStatus": "no-change",
+      "misconfigured": false
+    },
+    "snowWWW": {
+      "configuredBy": "CNAME",
+      "nameservers": [
+        "launch1.spaceship.net",
+        "launch2.spaceship.net"
+      ],
+      "serviceType": "external",
+      "cnames": [
+        "575342d45dca2a14.vercel-dns-017.com."
+      ],
+      "aValues": [
+        "216.198.79.65",
+        "64.29.17.65"
+      ],
+      "conflicts": [],
+      "acceptedChallenges": [
+        "http-01"
+      ],
+      "recommendedIPv4": [
+        {
+          "rank": 1,
+          "value": [
+            "216.198.79.1",
+            "64.29.17.1"
+          ]
+        },
+        {
+          "rank": 2,
+          "value": [
+            "76.76.21.21"
+          ]
+        }
+      ],
+      "recommendedCNAME": [
+        {
+          "rank": 1,
+          "value": "575342d45dca2a14.vercel-dns-017.com."
+        },
+        {
+          "rank": 2,
+          "value": "cname.vercel-dns.com."
+        }
+      ],
+      "ipStatus": "no-change",
+      "misconfigured": false
+    }
+  },
+  "limits": {
+    "snowGameplayPassed": false,
+    "snowPublisherDomain": "unregistered",
+    "headGameTitleObserved": true,
+    "physicalMobileVerified": false
+  }
+}
