@@ -6,6 +6,7 @@ import csv
 import hashlib
 import io
 import json
+import math
 import os
 from pathlib import Path
 import re
@@ -24,12 +25,44 @@ REPO = ROOT
 QUALIFICATIONS = ['qualified', 'rejected', 'needs_review', 'unknown']
 DECISIONS = ['build', 'defer', 'abandon', 'unset']
 STAGES = ['idea', 'planned', 'building', 'awaiting_release', 'blocked', 'deployed', 'abandoned']
+KEYWORD_STATUSES = ['observing', 'abandoned', 'building', 'live']
+
+def check_metrics(metrics):
+    if not isinstance(metrics,dict) or set(metrics)-{'volume','kd','intitle'}:
+        raise ValueError('指标只支持 volume、kd、intitle')
+    for key,value in metrics.items():
+        if value is None:continue
+        if isinstance(value,bool) or not isinstance(value,(int,float)) or not math.isfinite(value) or value<0:
+            raise ValueError('指标必须是非负有限数字或 null')
+        if key in ['volume','intitle'] and value!=int(value):raise ValueError('Volume 和 intitle 数必须是整数')
+        if key=='kd' and value>100:raise ValueError('KD 必须在 0–100 之间')
+
+def metric_summary(observations, events):
+    """Manual corrections are independent events; original observations stay immutable."""
+    values=dict.fromkeys(['volume','kd','intitle']);sources={}
+    aliases={'volume':['volume','search_volume'],'kd':['kd','keyword_difficulty'],'intitle':['intitle','intitle_count','intitleCount']}
+    for observation in observations:
+        for provider,metrics in observation.get('metrics',{}).items():
+            if not isinstance(metrics,dict):continue
+            for key,keys in aliases.items():
+                value=next((metrics[k] for k in keys if metrics.get(k) is not None),None)
+                if isinstance(value,(int,float)) and not isinstance(value,bool) and math.isfinite(value) and value>=0:
+                    values[key]=value;sources[key]={'provider':provider,'batchId':observation['batchId']}
+    for key in values:
+        corrections=[e for e in events if e.get('kind')=='keyword_edit' and e['actorType']=='human' and key in e.get('metrics',{})]
+        heads=review_heads(corrections,events)
+        if len(heads)==1:
+            event=next(e for e in corrections if e['id']==heads[0])
+            values[key]=event['metrics'][key];sources[key]={'provider':'manual','reviewId':event['id'],'at':event['createdAt']}
+        elif len(heads)>1:
+            values[key]=None;sources[key]={'provider':'conflict','heads':heads}
+    return {**values,'ratio':values['intitle']/values['volume'] if values['intitle'] is not None and values['volume'] else None,'sources':sources}
 
 def now():
     return datetime.now(timezone.utc).isoformat()
 
 def encoded(value):
-    return (json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2) + '\n').encode()
+    return (json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2) + '\n').encode('utf-8')
 
 def digest(value):
     return hashlib.sha256(encoded(value)).hexdigest()
@@ -100,7 +133,7 @@ def validate_schema(obj, schema, at='$'):
     return errors
 
 def schema_for(kind):
-    return json.loads((ROOT/'data/schemas'/f'{kind}.schema.json').read_text())
+    return json.loads((ROOT/'data/schemas'/f'{kind}.schema.json').read_text(encoding='utf-8'))
 
 def checked(obj, kind):
     issues=validate_schema(obj, schema_for(kind))
@@ -109,20 +142,31 @@ def checked(obj, kind):
         try:datetime.strptime(obj['date'],'%Y-%m-%d')
         except ValueError:issues.append('batch.date must be YYYY-MM-DD or unknown')
     if kind=='site':
+        if obj.get('createdAt'):
+            try:datetime.strptime(obj['createdAt'],'%Y-%m-%d')
+            except ValueError:issues.append('createdAt must be YYYY-MM-DD or null')
         directory=obj['source']['directory']
         if directory!='.' and (directory.startswith(('/','\\')) or ':' in directory or any(p in ['','..','.'] for p in directory.split('/'))):
             issues.append('source.directory must be a repository-relative directory, never a device path')
         for mapping in obj['keywordMappings']:
+            if 'metrics' in mapping:
+                try:check_metrics(mapping['metrics'])
+                except ValueError as e:issues.append(str(e))
             if mapping['keywordId']!=keyword_id(mapping['term'],mapping['country'],mapping['language']):issues.append('keyword mapping identity mismatch')
         for url in obj['urls'].values():
             if url is not None and (urlparse(url).scheme not in ['http','https'] or not urlparse(url).netloc):issues.append('invalid site URL')
+    if kind=='review' and 'metrics' in obj:
+        try:check_metrics(obj['metrics'])
+        except ValueError as e:issues.append(str(e))
+        if obj.get('kind')!='keyword_edit':issues.append('metrics require keyword_edit event')
+    if kind=='review' and 'keywordStatus' in obj and obj.get('kind')!='keyword_edit':issues.append('keywordStatus requires keyword_edit event')
     return issues
 
 def read_records(root):
     batches, observations, reviews, sites, errors = [], [], [], [], []
     def load(path, kind, line=None):
         try:
-            value = json.loads(line if line is not None else path.read_text())
+            value = json.loads(line if line is not None else path.read_text(encoding='utf-8'))
             issues = checked(value, kind)
             if issues: raise ValueError('; '.join(issues))
             return value
@@ -137,7 +181,7 @@ def read_records(root):
             continue
         batches.append(batch)
         try:
-            lines = (directory/'keywords.jsonl').read_text().splitlines()
+            lines = (directory/'keywords.jsonl').read_text(encoding='utf-8').splitlines()
         except OSError as e:
             errors.append({'path':str(directory/'keywords.jsonl'), 'error':str(e)})
             continue
@@ -205,7 +249,8 @@ def aggregate(root=ROOT):
         events=events_by_keyword.get(row['id'],[])
         row['history']=sorted(events,key=lambda e:(e['createdAt'],e['id']))
         row['heads']=review_heads(events)
-        human=[e for e in events if e['actorType']=='human']
+        row['metrics']=metric_summary(row['observations'],events)
+        human=[e for e in events if e['actorType']=='human' and e.get('kind')!='keyword_edit']
         chosen=human
         heads=review_heads(chosen,events)
         if len(heads)>1 or any(byreview[x].get('conflict') for x in heads):
@@ -214,7 +259,7 @@ def aggregate(root=ROOT):
         elif heads:
             e=byreview[heads[0]]
             row['reviewState']=e['state'];row['decision']=e['decision']
-        ai=[e for e in events if e['actorType']=='ai']
+        ai=[e for e in events if e['actorType']=='ai' and e.get('kind')!='keyword_edit']
         aiheads=review_heads(ai,events)
         if aiheads:
             row['aiReview']={'state':'conflict' if len(aiheads)>1 else byreview[aiheads[0]]['state'],
@@ -241,6 +286,15 @@ def aggregate(root=ROOT):
             if kid not in pool and mapping.get('poolLinked',True):
                 errors.append({'path':f"data/sites/{site['id']}.json",'error':f'unknown keyword {kid}'})
             elif kid in pool: pool[kid]['sites'].append({'id':site['id'],'name':site['name'],'stage':site['stage'],'hasBlockers':bool(site['blockers']),**mapping})
+    for row in pool.values():
+        dates=[bybatch[b]['date'] for b in row['batches'] if bybatch[b]['date']!='unknown' and bybatch[b].get('kind','research')=='research']
+        row['batchDate']=max(dates) if dates else None
+        status='abandoned' if row['decision']=='abandon' else 'live' if any(s['stage']=='deployed' for s in row['sites']) else 'building' if row['decision']=='build' or any(s['stage'] in ['building','awaiting_release','blocked'] for s in row['sites']) else 'observing'
+        edits=[e for e in row['history'] if e.get('kind')=='keyword_edit' and e['actorType']=='human' and 'keywordStatus' in e]
+        heads=review_heads(edits,row['history'])
+        row['statusOverride']=next((e['keywordStatus'] for e in edits if len(heads)==1 and e['id']==heads[0]),None)
+        row['keywordStatus']=row['statusOverride'] or status
+        if len(heads)>1:row['conflicts'].append('关键词状态修改存在并发分支，需重新保存合并')
     return {'keywords':sorted(pool.values(),key=lambda r:(r['term'],r['country'],r['language'])),
         'batches':batches,'sites':sites,'errors':errors,
         'counts':{'keywords':len(pool),'observations':len(observations),'batches':len(batches),'reviews':len(reviews),'sites':len(sites)},
@@ -256,7 +310,7 @@ def regenerate(root=ROOT):
     for s in state['sites']:
         source=s['source'];summary.append(f"| {s['name']} | {s['stage']} | {s['urls'].get('production') or s['urls'].get('preview') or '待定'} | {source['repository']} / {source['directory']} | {'；'.join(s['blockers']) or '未记录'} |")
     summary += ['',f"校验问题：{len(state['errors'])}。详细记录见 generated/hub.json；未知、历史记录与冲突不代表当前验收通过。",'']
-    atomic(root/'INDEX.md','\n'.join(summary).encode())
+    atomic(root/'INDEX.md','\n'.join(summary).encode('utf-8'))
     export_compatibility(root,state)
     return state
 
@@ -267,9 +321,9 @@ def export_compatibility(root,state):
     matrix_path=directory/'source-matrix-sites.json'
     if not registry_path.exists() or not matrix_path.exists():return
     refs_path=directory/'registry-sources.json'
-    refs=json.loads(refs_path.read_text()) if refs_path.exists() else {}
-    registry=json.loads((root/refs['repositories']).read_text()) if refs.get('repositories') else json.loads(registry_path.read_text())
-    matrix=json.loads(matrix_path.read_text())
+    refs=json.loads(refs_path.read_text(encoding='utf-8')) if refs_path.exists() else {}
+    registry=json.loads((root/refs['repositories']).read_text(encoding='utf-8')) if refs.get('repositories') else json.loads(registry_path.read_text(encoding='utf-8'))
+    matrix=json.loads(matrix_path.read_text(encoding='utf-8'))
     sites={s['id']:s for s in state['sites']}
     note={'generatedFrom':'data/sites/*.json','command':'python3 scripts/hub.py generate',
           'note':'兼容视图，勿手填。保留原工具字段；源码、映射与进度由正式站点记录生成。'}
@@ -305,6 +359,18 @@ def export_compatibility(root,state):
                     entry['migrationState']='independent-repository-verified'
                     entry.setdefault('vercel',{}).update(migration['vercel'])
                     entry['migrationEvidence']=migration['evidencePath']
+                latest=development.get('vercelRelease')
+                if latest:
+                    vercel=dict(entry.get('vercel') or {})
+                    vercel.update(projectId=latest['projectId'],projectName=latest['projectName'],
+                        productionBranch=latest.get('branch',site['source']['branch']),
+                        productionDeployment={'id':latest['deploymentId'],'readyState':latest['state'],
+                            'url':latest.get('deploymentUrl') or site['urls']['production']},
+                        productionUrl=site['urls']['production'],sourceCommit=latest.get('sourceCommit'))
+                    entry['vercel']=vercel
+                    entry['releaseState']=site['release']['deployment']
+                if development.get('webAnalytics'):entry['webAnalytics']=development['webAnalytics']
+                if development.get('domainConfiguration'):entry['domainConfiguration']=development['domainConfiguration']
         registry[group]=list(entries.values())
     if any(s.get('development',{}).get('deploymentMigration') for s in sites.values()):
         if all(s['source']['directory']=='.' for s in sites.values() if s.get('legacyGroup')=='games'):
@@ -341,8 +407,8 @@ def import_batch(root, batch, rows):
         except (ValueError,KeyError,TypeError) as e:
             rejected.append({'line':number,'raw':raw,'error':str(e)})
     batch=dict(batch,acceptedRowCount=len(accepted),rejectedRowCount=len(rejected))
-    payload={'batch.json':encoded(batch),'keywords.jsonl':b''.join((json.dumps(o,ensure_ascii=False,sort_keys=True)+'\n').encode() for o in accepted)}
-    if rejected: payload['errors.jsonl']=b''.join((json.dumps(o,ensure_ascii=False)+'\n').encode() for o in rejected)
+    payload={'batch.json':encoded(batch),'keywords.jsonl':b''.join((json.dumps(o,ensure_ascii=False,sort_keys=True)+'\n').encode('utf-8') for o in accepted)}
+    if rejected: payload['errors.jsonl']=b''.join((json.dumps(o,ensure_ascii=False)+'\n').encode('utf-8') for o in rejected)
     with write_lock(root):
         destination=root/'data/batches'/batch['id']
         if destination.exists():
@@ -390,6 +456,32 @@ def save_reviews(root, payload):
         regenerate(root)
     return {'saved':len(pending),'conflicts':[e['keywordId'] for e in pending if e['conflict']], 'ids':[e['id'] for e in pending]}
 
+def save_keyword(root,payload):
+    for key in ['actor','reason']:
+        if not isinstance(payload.get(key),str) or not payload[key].strip():raise ValueError(key+' is required')
+    if payload.get('actorType','human')!='human':raise ValueError('手动编辑仅接受 human；AI 建议请使用审核接口')
+    metrics=payload.get('metrics',{})
+    check_metrics(metrics)
+    if 'keywordStatus' in payload and payload['keywordStatus'] not in KEYWORD_STATUSES+[None]:raise ValueError('invalid keyword status')
+    if not metrics and 'keywordStatus' not in payload:raise ValueError('没有要保存的修改')
+    with write_lock(root):
+        row=next((r for r in aggregate(root)['keywords'] if r['id']==payload.get('keywordId')),None)
+        if not row:raise ValueError('unknown keyword')
+        if payload.get('expectedHeads')!=row['heads']:
+            return {'conflict':True,'message':'关键词已被修改，请刷新后重试；本次未覆盖'}
+        evidence=payload.get('basedOnBatches')
+        if not isinstance(evidence,list) or not evidence or any(b not in row['batches'] for b in evidence):raise ValueError('invalid evidence batches')
+        event={'schemaVersion':1,'id':'rev-'+uuid.uuid4().hex,'keywordId':row['id'],
+            'kind':'keyword_edit','actorType':'human','actor':payload['actor'].strip(),
+            'state':'hold','decision':'unset','reason':payload['reason'].strip(),
+            'createdAt':now(),'parents':row['heads'],'basedOnBatches':sorted(set(evidence)),
+            'conflict':False,'metrics':metrics}
+        if 'keywordStatus' in payload:event['keywordStatus']=payload['keywordStatus']
+        issues=checked(event,'review')
+        if issues:raise ValueError('; '.join(issues))
+        atomic(root/f"data/reviews/{event['id']}.json",encoded(event));regenerate(root)
+    return {'saved':event['id']}
+
 def save_site(root,payload):
     site=payload.get('site')
     issues=checked(site,'site')
@@ -397,7 +489,7 @@ def save_site(root,payload):
     if not re.fullmatch('[a-z0-9-]+',site['id']):raise ValueError('invalid site id')
     with write_lock(root):
         path=root/f"data/sites/{site['id']}.json"
-        current=json.loads(path.read_text()) if path.exists() else None
+        current=json.loads(path.read_text(encoding='utf-8')) if path.exists() else None
         if payload.get('expectedRevision')!=(digest(current) if current else None):
             return {'conflict':True,'message':'站点已由另一会话修改，请重新读取；本次内容未覆盖','current':current}
         state=aggregate(root);kids={r['id'] for r in state['keywords']}
@@ -411,14 +503,15 @@ def save_site(root,payload):
 
 def csv_export(rows):
     stream=io.StringIO(newline='');writer=csv.writer(stream)
-    writer.writerow(['关键词','国家','语言','研究资格','人工审核','建站决定','站点/页面','批次','研究冲突','历史观察(JSON)'])
+    writer.writerow(['关键词','国家','语言','研究资格','人工审核','建站决定','站点/页面','批次','研究冲突','历史观察(JSON)','Volume','KD','intitle数','竞争度/Volume','关键词状态'])
     def safe(value):
         text=str(value)
         return "'"+text if text.lstrip().startswith(('=','+','-','@','\t','\r')) else text
     for r in rows:
         writer.writerow([safe(x) for x in [r['term'],r['country'],r['language'],r['qualification'],r['reviewState'],r['decision'],
-            '; '.join(s['id']+s['page'] for s in r['sites']),'; '.join(r['batches']),'; '.join(r['conflicts']),json.dumps(r['observations'],ensure_ascii=False)]])
-    return b'\xef\xbb\xbf'+stream.getvalue().encode()
+            '; '.join(s['id']+s['page'] for s in r['sites']),'; '.join(r['batches']),'; '.join(r['conflicts']),json.dumps(r['observations'],ensure_ascii=False),
+            *[r['metrics'][k] if r['metrics'][k] is not None else '' for k in ['volume','kd','intitle','ratio']],r['keywordStatus']]])
+    return b'\xef\xbb\xbf'+stream.getvalue().encode('utf-8')
 
 def serve(root,port):
     token=secrets.token_urlsafe(32)
@@ -471,6 +564,7 @@ def serve(root,port):
                     ids=set(ids)
                     return self.reply(200,csv_export([r for r in aggregate(root)['keywords'] if r['id'] in ids]),'text/csv; charset=utf-8',{'Content-Disposition':'attachment; filename="gamehubs-keywords.csv"'})
                 if self.path=='/api/reviews': result=save_reviews(root,payload)
+                elif self.path=='/api/keywords':result=save_keyword(root,payload)
                 elif self.path=='/api/sites':result=save_site(root,payload)
                 else:return self.reply(404,{'error':'not found'})
                 return self.reply(409 if result.get('conflict') else 200,result)
@@ -497,9 +591,9 @@ def main():
     try:
         if args.command=='serve':return serve(root,args.port)
         if args.command=='import':
-            print(json.dumps(import_batch(root,json.loads(args.batch.read_text()),args.keywords.read_text().splitlines()),ensure_ascii=False));regenerate(root);return
-        if args.command=='review':print(json.dumps(save_reviews(root,json.loads(args.payload.read_text())),ensure_ascii=False));return
-        if args.command=='site':print(json.dumps(save_site(root,json.loads(args.payload.read_text())),ensure_ascii=False));return
+            print(json.dumps(import_batch(root,json.loads(args.batch.read_text(encoding='utf-8')),args.keywords.read_text(encoding='utf-8').splitlines()),ensure_ascii=False));regenerate(root);return
+        if args.command=='review':print(json.dumps(save_reviews(root,json.loads(args.payload.read_text(encoding='utf-8'))),ensure_ascii=False));return
+        if args.command=='site':print(json.dumps(save_site(root,json.loads(args.payload.read_text(encoding='utf-8'))),ensure_ascii=False));return
         state=regenerate(root) if args.command=='generate' else aggregate(root)
         if args.command=='query':
             rows=state['keywords' if args.kind=='keyword' else 'sites']

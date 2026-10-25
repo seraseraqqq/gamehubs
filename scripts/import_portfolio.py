@@ -8,7 +8,7 @@ RESEARCH='research/2026-10-24-keyword-opportunities/keyword-ledger.json'
 PLAN='research/2026-10-24-game-build-plan/plan.json'
 DISPOSITIONS='research/2026-10-24-game-build-plan/dispositions.json'
 
-def load(path):return json.loads((REPO/path).read_text())
+def load(path):return json.loads((REPO/path).read_text(encoding='utf-8'))
 
 def ingest(root,key,label,kind,rows,sources,notes,date='2026-10-24'):
     bid=date+'-'+key+'-'+digest([rows,sources])[:12]
@@ -26,10 +26,10 @@ def obs(term,path,raw,qualification='unknown',metrics=None,cluster=None):
 def migrate(root=ROOT):
     ledger=load(RESEARCH);plan=load(PLAN);dispositions=load(DISPOSITIONS)
     metadata=root/'data/migration/registry-sources.json'
-    refs=json.loads(metadata.read_text()) if metadata.exists() else {'repositories':'data/migration/source-repositories.json'}
+    refs=json.loads(metadata.read_text(encoding='utf-8')) if metadata.exists() else {'repositories':'data/migration/source-repositories.json'}
     registry_ref=refs['repositories']
-    registry=json.loads((root/registry_ref).read_text())
-    matrix=json.loads((root/'data/migration/source-matrix-sites.json').read_text())
+    registry=json.loads((root/registry_ref).read_text(encoding='utf-8'))
+    matrix=json.loads((root/'data/migration/source-matrix-sites.json').read_text(encoding='utf-8'))
     terms={r['keyword'] for r in ledger['keywords']}
     rows=[]
     for r in ledger['keywords']:

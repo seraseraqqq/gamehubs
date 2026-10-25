@@ -82,6 +82,50 @@
     },
     "conflict": {
       "type": "boolean"
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "review",
+        "keyword_edit"
+      ]
+    },
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "volume": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "kd": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "intitle": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "keywordStatus": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "observing",
+        "abandoned",
+        "building",
+        "live",
+        null
+      ]
     }
   },
   "$schema": "https://json-schema.org/draft/2020-12/schema",

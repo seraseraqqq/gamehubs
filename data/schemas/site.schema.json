@@ -79,13 +79,34 @@
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["repository", "directory", "commit", "removedAt", "evidence"],
+            "required": [
+              "repository",
+              "directory",
+              "commit",
+              "removedAt",
+              "evidence"
+            ],
             "properties": {
-              "repository": {"type": "string", "pattern": "^https://github.com/[^/]+/[^/]+$"},
-              "directory": {"type": "string", "minLength": 1},
-              "commit": {"type": "string", "pattern": "^[a-f0-9]{40}$"},
-              "removedAt": {"type": "string", "minLength": 1},
-              "evidence": {"type": "string", "minLength": 1}
+              "repository": {
+                "type": "string",
+                "pattern": "^https://github.com/[^/]+/[^/]+$"
+              },
+              "directory": {
+                "type": "string",
+                "minLength": 1
+              },
+              "commit": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{40}$"
+              },
+              "removedAt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "evidence": {
+                "type": "string",
+                "minLength": 1
+              }
             },
             "additionalProperties": false
           }
@@ -161,6 +182,30 @@
           },
           "poolLinked": {
             "type": "boolean"
+          },
+          "metrics": {
+            "type": "object",
+            "properties": {
+              "volume": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "kd": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "intitle": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "additionalProperties": false
           }
         }
       }
@@ -264,6 +309,12 @@
       "enum": [
         "games",
         "plannedGames"
+      ]
+    },
+    "createdAt": {
+      "type": [
+        "string",
+        "null"
       ]
     }
   },

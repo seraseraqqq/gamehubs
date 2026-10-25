@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-25",
+  "scope": "local management dashboard; no game release",
+  "verification": {
+    "pythonRegressionTests": 23,
+    "pythonResult": "passed",
+    "nodeCommand": "node scripts/test_dashboard.mjs",
+    "nodeResult": "passed",
+    "designDetectorFindings": 0,
+    "browser": "Chrome extension for isolated writes; IAB for 1440x900 and 390x844 responsive checks",
+    "isolatedFlows": [
+      "keyword metrics/status saved and reloaded",
+      "site URL/repository/createdAt saved and reloaded",
+      "standalone primary metrics saved and reloaded",
+      "directory edits reflected in keyword-pool metrics"
+    ],
+    "viewportChecks": [
+      {
+        "width": 1440,
+        "height": 900,
+        "surfaces": [
+          "keywords",
+          "sites"
+        ],
+        "pageOverflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "surfaces": [
+          "keywords",
+          "sites"
+        ],
+        "pageOverflow": false
+      }
+    ],
+    "productionStateReadback": {
+      "batches": 6,
+      "keywords": 127,
+      "observations": 254,
+      "reviews": 0,
+      "sites": 17
+    },
+    "validationErrors": 0,
+    "formalTestWrites": 0
+  },
+  "rules": {
+    "batchDate": "latest research batch; project_registry/build_plan/dispositions excluded",
+    "createdAt": "explicit site creation date or null; no inferred import/verification date",
+    "intitle": "exact intitle count only; unknown remains null; allintitle is not substituted",
+    "metrics": "human keyword_edit events in data/reviews; original observations retained; pooled site primary shares keyword metrics; standalone primary uses keywordMappings.metrics",
+    "status": "manual observing/abandoned/building/live or automatic from site/decision; release acceptance remains separate",
+    "sorting": "missing last in both directions; ratio unknown when volume zero/missing"
+  },
+  "scripts": [
+    "scripts/test_dashboard.mjs",
+    "scripts/qa-dashboard-cua.mjs"
+  ],
+  "optionalLocalPreviews": "generated/previews/dashboard-refresh/ (ignored; screenshots are local QA outputs)",
+  "delivery": {
+    "repository": "https://github.com/seraseraqqq/gamehubs",
+    "branch": "main",
+    "scope": "dashboard, read/save dependencies, documentation; other chats research and release records excluded",
+    "validationCountsScope": "local working data snapshot at implementation verification; not new research included in this commit",
+    "stagedSnapshotCounts": {
+      "keywords": 117,
+      "observations": 244,
+      "batches": 5,
+      "reviews": 0,
+      "sites": 17
+    },
+    "stagedSnapshotValidation": "23 Python tests, Node checks and validate/generate passed in isolated checkout of staged files"
+  }
+}

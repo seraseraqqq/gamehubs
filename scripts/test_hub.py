@@ -7,8 +7,9 @@ import shutil
 import tempfile
 import threading
 import unittest
+from unittest.mock import patch
 from hub import (ROOT, aggregate, atomic, checked, csv_export, digest, encoded,
-                 import_batch, keyword_id, read_records, regenerate, save_reviews, save_site)
+                 import_batch, keyword_id, read_records, regenerate, save_reviews, save_site, save_keyword)
 from import_portfolio import migrate
 
 class HubTest(unittest.TestCase):
@@ -21,6 +22,20 @@ class HubTest(unittest.TestCase):
         self.kid=keyword_id('coreball','US','en')
     def tearDown(self):self.temp.cleanup()
     def row_state(self,kid=None):return next(r for r in aggregate(self.root)['keywords'] if r['id']==(kid or self.kid))
+    def test_registry_and_review_round_trip_with_gbk_default(self):
+        read_text = Path.read_text
+        def gbk_read_text(path, encoding=None, errors=None):
+            return read_text(path, encoding=encoding or 'gbk', errors=errors)
+        with patch.object(Path, 'read_text', gbk_read_text):
+            registry_root=self.root/'registry'
+            shutil.copytree(ROOT/'data/migration',registry_root/'data/migration')
+            migrate(registry_root)
+            state=aggregate(registry_root)
+            self.assertFalse(state['errors'])
+            self.assertEqual(state['counts'],{'keywords':117,'observations':239,'batches':4,'reviews':0,'sites':17})
+            self.review(reason='中文审核依据 · 保留原始证据 🧩')
+            self.assertEqual(self.row_state()['history'][0]['reason'],'中文审核依据 · 保留原始证据 🧩')
+            self.assertFalse(aggregate(self.root)['errors'])
     def review(self,heads=None,**options):
         payload={'actor':'test-owner','actorType':'human','reason':'实测依据与产品方案已复核','state':'approved','decision':'build',
                  'items':[{'keywordId':self.kid,'expectedHeads':self.row_state()['heads'] if heads is None else heads}]}
@@ -39,10 +54,10 @@ class HubTest(unittest.TestCase):
     def test_invalid_rows_preserved_and_valid_rows_survive(self):
         result=import_batch(self.root,dict(self.batch,id='broken-input'),[self.row,'{broken',dict(self.row,term='')])
         self.assertEqual(result['accepted'],1);self.assertEqual(result['rejected'],2)
-        self.assertEqual(len((self.root/'data/batches/broken-input/errors.jsonl').read_text().splitlines()),2)
+        self.assertEqual(len((self.root/'data/batches/broken-input/errors.jsonl').read_text(encoding='utf-8').splitlines()),2)
         self.assertEqual(aggregate(self.root)['counts']['observations'],2)
         path=self.root/'data/batches/broken-input/keywords.jsonl'
-        with path.open('a') as f:f.write('{corrupt\n')
+        with path.open('a', encoding='utf-8') as f:f.write('{corrupt\n')
         self.assertEqual(aggregate(self.root)['counts']['observations'],2)
         self.assertTrue(aggregate(self.root)['errors'])
     def test_review_persistence_and_research_independence(self):
@@ -61,7 +76,7 @@ class HubTest(unittest.TestCase):
         self.review(heads=[])
         self.review(heads=[],state='hold')
         for path in (self.root/'data/reviews').glob('*.json'):
-            obj=json.loads(path.read_text());obj['conflict']=False;atomic(path,encoded(obj))
+            obj=json.loads(path.read_text(encoding='utf-8'));obj['conflict']=False;atomic(path,encoded(obj))
         self.assertEqual(self.row_state()['reviewState'],'conflict')
     def test_human_priority_across_ai_intermediates(self):
         self.review()
@@ -95,7 +110,54 @@ class HubTest(unittest.TestCase):
         self.assertTrue(result.startswith(b'\xef\xbb\xbf'))
         parsed=list(csv.reader(io.StringIO(result.decode('utf-8-sig'))))
         self.assertEqual(len(parsed),3);self.assertTrue(any(r[0].startswith("'=") for r in parsed[1:]))
-        self.assertTrue(all(len(r)==10 for r in parsed))
+        self.assertTrue(all(len(r)==15 for r in parsed))
+    def edit(self,**options):
+        payload={'keywordId':self.kid,'expectedHeads':self.row_state()['heads'],'basedOnBatches':[self.batch['id']],
+            'actor':'owner','actorType':'human','reason':'纠正手动核对值','metrics':{'volume':100,'kd':20,'intitle':5}}
+        payload.update(options);return save_keyword(self.root,payload)
+    def test_keyword_edit_round_trip_preserves_research_and_review(self):
+        self.review();original=(self.root/f"data/batches/{self.batch['id']}/keywords.jsonl").read_bytes()
+        self.edit(keywordStatus='abandoned');row=self.row_state()
+        self.assertEqual((row['metrics']['volume'],row['metrics']['kd'],row['metrics']['intitle'],row['metrics']['ratio']),(100,20,5,.05))
+        self.assertEqual(row['keywordStatus'],'abandoned');self.assertEqual(row['decision'],'build');self.assertEqual(row['reviewState'],'approved')
+        self.assertEqual(row['metrics']['sources']['volume']['provider'],'manual')
+        self.assertEqual(original,(self.root/f"data/batches/{self.batch['id']}/keywords.jsonl").read_bytes())
+        import_batch(self.root,dict(self.batch,id='later-research',date='2026-10-25'),[dict(self.row,metrics={'semrush':{'volume':999,'kd':30}})])
+        self.assertEqual(self.row_state()['metrics']['volume'],100)
+        self.edit(metrics={'volume':None,'intitle':0},keywordStatus=None)
+        row=self.row_state();self.assertIsNone(row['metrics']['volume']);self.assertIsNone(row['metrics']['ratio']);self.assertEqual(row['metrics']['intitle'],0)
+        self.assertEqual(row['keywordStatus'],'building');self.assertFalse(aggregate(self.root)['errors'])
+    def test_keyword_edit_stale_and_invalid_values_never_write(self):
+        self.edit();count=aggregate(self.root)['counts']['reviews']
+        self.assertTrue(self.edit(expectedHeads=[])['conflict'])
+        for metrics in [{'kd':101},{'volume':-1},{'intitle':1.5},{'volume':True},{'kd':float('nan')},{'volume':float('inf')},{'wrong':1}]:
+            with self.assertRaises(ValueError):self.edit(metrics=metrics)
+        for options in [{'keywordStatus':'deployed'},{'actorType':'ai'},{'basedOnBatches':['missing']}]:
+            with self.assertRaises(ValueError):self.edit(**options)
+        self.assertEqual(aggregate(self.root)['counts']['reviews'],count)
+    def test_manual_metric_conflicts_do_not_pick_a_branch(self):
+        self.edit();first=self.row_state()['history'][0]
+        branch=dict(first,id='rev-parallel',metrics={'volume':500},parents=[])
+        atomic(self.root/'data/reviews/rev-parallel.json',encoded(branch))
+        row=self.row_state();self.assertIsNone(row['metrics']['volume']);self.assertEqual(row['metrics']['sources']['volume']['provider'],'conflict')
+        self.edit(metrics={'volume':200});self.assertEqual(self.row_state()['metrics']['volume'],200)
+    def test_metric_sources_and_exact_intitle_semantics(self):
+        import_batch(self.root,dict(self.batch,id='metrics'),[dict(self.row,metrics={'semrush':{'search_volume':200,'keyword_difficulty':0,'allintitle':99}})])
+        row=self.row_state();self.assertEqual(row['metrics']['volume'],200);self.assertEqual(row['metrics']['kd'],0);self.assertIsNone(row['metrics']['intitle'])
+        self.edit(metrics={'volume':0,'intitle':5});self.assertIsNone(self.row_state()['metrics']['ratio'])
+        import_batch(self.root,dict(self.batch,id='registry-snapshot',date='2026-10-25',kind='project_registry'),[self.row])
+        self.assertEqual(self.row_state()['batchDate'],'2026-10-24')
+    def test_site_creation_date_and_standalone_metrics_round_trip(self):
+        site=json.loads((ROOT/'data/sites/coreball.json').read_text(encoding='utf-8'))
+        site['id']='standalone';site['createdAt']='2026-10-20';site['history']=[]
+        site['keywordMappings']=[{'keywordId':keyword_id('standalone','US','en'),'term':'standalone','country':'US','language':'en',
+            'page':'/','role':'primary','poolLinked':False,'metrics':{'volume':10000,'kd':15,'intitle':50}}]
+        save_site(self.root,{'site':site,'expectedRevision':None,'actor':'owner'})
+        saved=aggregate(self.root)['sites'][0]
+        self.assertEqual(saved['createdAt'],'2026-10-20');self.assertEqual(saved['keywordMappings'][0]['metrics']['intitle'],50)
+        self.assertEqual(len(aggregate(self.root)['keywords']),1)
+        site['createdAt']='2026-02-30';self.assertTrue(checked(site,'site'))
+        site['createdAt']=None;site['keywordMappings'][0]['metrics']['kd']=101;self.assertTrue(checked(site,'site'))
     def test_site_mapping_persistence_and_revision_conflict(self):
         site={'schemaVersion':1,'id':'test-site','name':'测试站','source':{'repository':'https://github.com/test/test-site','directory':'.','branch':'main','frozenSnapshots':[]},
             'stage':'planned','blockers':[],'nextAction':'完成原型','urls':{'production':None,'preview':None},
@@ -104,12 +166,12 @@ class HubTest(unittest.TestCase):
             'verification':{'recordedAt':None,'recheckedAt':None,'scope':'本地测试'},'notes':[],'history':[]}
         save_site(self.root,{'site':site,'expectedRevision':None})
         self.assertEqual(self.row_state()['sites'][0]['page'],'/guide/')
-        current=json.loads((self.root/'data/sites/test-site.json').read_text())
+        current=json.loads((self.root/'data/sites/test-site.json').read_text(encoding='utf-8'))
         changed=dict(current,stage='building')
         self.assertTrue(save_site(self.root,{'site':changed,'expectedRevision':None})['conflict'])
-        self.assertEqual(json.loads((self.root/'data/sites/test-site.json').read_text())['stage'],'planned')
+        self.assertEqual(json.loads((self.root/'data/sites/test-site.json').read_text(encoding='utf-8'))['stage'],'planned')
         save_site(self.root,{'site':changed,'expectedRevision':digest(current)})
-        self.assertEqual(len(json.loads((self.root/'data/sites/test-site.json').read_text())['history']),2)
+        self.assertEqual(len(json.loads((self.root/'data/sites/test-site.json').read_text(encoding='utf-8'))['history']),2)
     def test_full_migration_idempotence_and_holds(self):
         shutil.copytree(ROOT/'data/migration',self.root/'data/migration')
         report=migrate(self.root);before=aggregate(self.root)
@@ -127,39 +189,56 @@ class HubTest(unittest.TestCase):
     def test_verified_repository_migration_replaces_stale_vercel_compatibility(self):
         shutil.copytree(ROOT/'data/migration',self.root/'data/migration')
         migrate(self.root)
-        path=self.root/'data/sites/coreball.json';current=json.loads(path.read_text())
-        site=json.loads(path.read_text())
+        path=self.root/'data/sites/coreball.json';current=json.loads(path.read_text(encoding='utf-8'))
+        site=json.loads(path.read_text(encoding='utf-8'))
         site['source']={'repository':'https://github.com/test/gameshub-coreball','directory':'.','branch':'main','frozenSnapshots':['games/coreball']}
         site['development']={'implementationPushed':True,'recordedHead':'1'*40,'deploymentMigration':{
             'evidencePath':'deployments/test/coreball-final.json','vercel':{
                 'projectId':'original-project','rootDirectory':None,'ignoreCommand':None,
                 'repository':'https://github.com/test/gameshub-coreball','productionBranch':'main'}}}
         self.assertEqual(save_site(self.root,{'site':site,'expectedRevision':digest(current),'actor':'test-ai'})['saved'],'coreball')
-        recorded=json.loads(path.read_text())
+        recorded=json.loads(path.read_text(encoding='utf-8'))
         self.assertEqual(recorded['history'][-1]['previous']['source'],current['source'])
-        registry=json.loads((self.root/'data/repositories.json').read_text())
+        registry=json.loads((self.root/'data/repositories.json').read_text(encoding='utf-8'))
         entry=next(x for x in registry['games'] if x['siteId']=='coreball')
         self.assertEqual(entry['repo'],site['source']['repository']);self.assertEqual(entry['rootDirectory'],'.')
         self.assertIsNone(entry['vercel']['rootDirectory']);self.assertIsNone(entry['vercel']['ignoreCommand'])
         self.assertEqual(entry['vercel']['projectId'],'original-project')
         self.assertEqual(entry['migrationState'],'independent-repository-verified')
-        matrix=json.loads((self.root/'data/matrix-sites.json').read_text())
+        matrix=json.loads((self.root/'data/matrix-sites.json').read_text(encoding='utf-8'))
         entry=next(x for x in matrix['sites'] if x['siteId']=='coreball')
         self.assertEqual(entry['path'],'.');self.assertEqual(entry['canonicalSource'],site['source'])
         self.assertEqual(entry['pathScope'],'relative-to-canonical-repository')
         # Removing the management snapshot must retain provenance without recreating a local path.
-        current=json.loads(path.read_text());site=json.loads(path.read_text())
+        current=json.loads(path.read_text(encoding='utf-8'));site=json.loads(path.read_text(encoding='utf-8'))
         site['source']['frozenSnapshots']=[]
         site['source']['archivedSnapshots']=[{'repository':'https://github.com/test/management','directory':'games/coreball',
             'commit':'2'*40,'removedAt':'2026-10-25T00:00:00Z','evidence':'docs/history/removal.json'}]
         saved=save_site(self.root,{'site':site,'expectedRevision':digest(current),'actor':'test-ai'})
         self.assertEqual(saved['saved'],'coreball')
-        registry=json.loads((self.root/'data/repositories.json').read_text())
+        registry=json.loads((self.root/'data/repositories.json').read_text(encoding='utf-8'))
         entry=next(x for x in registry['games'] if x['siteId']=='coreball')
         self.assertNotIn('frozenSnapshot',entry);self.assertNotIn('legacyPath',entry)
         self.assertEqual(entry['archivedSnapshots'],site['source']['archivedSnapshots'])
         self.assertIsNone(entry['vercel']['rootDirectory']);self.assertIsNone(entry['vercel']['ignoreCommand'])
-        self.assertEqual(json.loads(path.read_text())['release'],current['release'])
+        self.assertEqual(json.loads(path.read_text(encoding='utf-8'))['release'],current['release'])
+        # A later verified release must replace the migration snapshot in generated views.
+        current=json.loads(path.read_text(encoding='utf-8'));site=json.loads(path.read_text(encoding='utf-8'))
+        site['urls']['production']='https://coreball.example/'
+        site['release']['deployment']='recorded_deployed'
+        site['development']['vercelRelease']={'projectId':'original-project','projectName':'coreball',
+            'deploymentId':'new-release','state':'READY','sourceCommit':'3'*40,'branch':'main'}
+        site['development']['webAnalytics']={'projectEnabled':True,'pageviewVerified':True}
+        site['development']['domainConfiguration']={'primaryOrigin':'https://coreball.example','redirectStatusCode':301}
+        save_site(self.root,{'site':site,'expectedRevision':digest(current),'actor':'test-ai'})
+        registry=json.loads((self.root/'data/repositories.json').read_text(encoding='utf-8'))
+        entry=next(x for x in registry['games'] if x['siteId']=='coreball')
+        self.assertEqual(entry['vercel']['productionDeployment']['id'],'new-release')
+        self.assertEqual(entry['vercel']['productionUrl'],'https://coreball.example/')
+        self.assertEqual(entry['vercel']['sourceCommit'],'3'*40)
+        self.assertTrue(entry['webAnalytics']['pageviewVerified'])
+        self.assertEqual(entry['domainConfiguration']['redirectStatusCode'],301)
+        self.assertIsNone(entry['vercel']['ignoreCommand'])
     def test_primary_remote_data_scope_and_compatibility(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory);shutil.copytree(ROOT/'data/migration',root/'data/migration')
@@ -175,11 +254,11 @@ class HubTest(unittest.TestCase):
             projects=[s for s in state['sites'] if s.get('legacyGroup')=='plannedGames']
             self.assertEqual(len(projects),5);self.assertTrue(all(s['stage']=='awaiting_release' and s['release']['deployment']=='not_deployed' for s in projects))
             self.assertTrue(all(s['development']['implementationPushed'] for s in projects))
-            registry=json.loads((root/'data/repositories.json').read_text());self.assertEqual(len(registry['games']),12);self.assertEqual(len(registry['plannedGames']),5)
+            registry=json.loads((root/'data/repositories.json').read_text(encoding='utf-8'));self.assertEqual(len(registry['games']),12);self.assertEqual(len(registry['plannedGames']),5)
             self.assertIn('_management',registry)
             self.assertTrue(all('localPath' in r and 'recorded-source-device-only' in r['localPathScope'] for r in registry['plannedGames']))
     def test_source_device_paths_rejected_and_portfolio_metadata_not_auto_pooled(self):
-        site=json.loads((ROOT/'data/sites/coreball.json').read_text())
+        site=json.loads((ROOT/'data/sites/coreball.json').read_text(encoding='utf-8'))
         site['source']['directory']='E:/Projects/coreball'
         self.assertTrue(checked(site,'site'))
         site['source']['directory']='../coreball'

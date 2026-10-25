@@ -406,6 +406,7 @@
       "aliases": [
         "2v2io"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -419,7 +420,24 @@
       "heads": [],
       "history": [],
       "id": "kw-02a15ef568b989792bc8",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 31,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 49500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -897,6 +915,7 @@
       "qualification": "qualified",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "2v2io"
     },
     {
@@ -904,6 +923,7 @@
       "aliases": [
         "67 clicker"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -917,7 +937,24 @@
       "heads": [],
       "history": [],
       "id": "kw-6db7b3c3867aefa5a4f6",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 35,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 49500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -1311,6 +1348,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "67 clicker"
     },
     {
@@ -1318,6 +1356,7 @@
       "aliases": [
         "baseball bros"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -1331,7 +1370,24 @@
       "heads": [],
       "history": [],
       "id": "kw-0340639b770a0847a1fe",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 35,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 165000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -1825,6 +1881,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "baseball bros"
     },
     {
@@ -1832,6 +1889,7 @@
       "aliases": [
         "baseball random"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -1845,7 +1903,24 @@
       "heads": [],
       "history": [],
       "id": "kw-beac6c999826f9f7ee6f",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 60,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 590
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -1946,6 +2021,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "baseball random"
     },
     {
@@ -1953,6 +2029,7 @@
       "aliases": [
         "basket bros"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -1966,7 +2043,24 @@
       "heads": [],
       "history": [],
       "id": "kw-a05edd9157965301e224",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 44,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 49500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -2423,6 +2517,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "basket bros"
     },
     {
@@ -2430,6 +2525,7 @@
       "aliases": [
         "basket random"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -2443,7 +2539,24 @@
       "heads": [],
       "history": [],
       "id": "kw-bca151b9f03398420e74",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 60,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 165000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -2825,6 +2938,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "basket random"
     },
     {
@@ -2832,6 +2946,7 @@
       "aliases": [
         "basketball stars"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -2845,7 +2960,24 @@
       "heads": [],
       "history": [],
       "id": "kw-5dba1a4c873783553d2b",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 89,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 201000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -3214,6 +3346,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "basketball stars"
     },
     {
@@ -3221,6 +3354,7 @@
       "aliases": [
         "best browser game"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -3234,7 +3368,24 @@
       "heads": [],
       "history": [],
       "id": "kw-4d0dc38fed860c57b4b2",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 64,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 320
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -3331,6 +3482,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "best browser game"
     },
     {
@@ -3338,6 +3490,7 @@
       "aliases": [
         "bike hero"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -3351,7 +3504,24 @@
       "heads": [],
       "history": [],
       "id": "kw-c12b920b6daeaf21998f",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 38,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 14800
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -3540,6 +3710,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "bike hero"
     },
     {
@@ -3547,6 +3718,7 @@
       "aliases": [
         "boxing bros"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -3560,7 +3732,24 @@
       "heads": [],
       "history": [],
       "id": "kw-9930733a1b321dba5aee",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 25,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 6600
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -3745,6 +3934,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "boxing bros"
     },
     {
@@ -3752,6 +3942,7 @@
       "aliases": [
         "boxing random"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -3765,7 +3956,24 @@
       "heads": [],
       "history": [],
       "id": "kw-95c73b019d2ca5120ddd",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 19,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 9900
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -4222,6 +4430,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "boxing random"
     },
     {
@@ -4229,6 +4438,7 @@
       "aliases": [
         "boxing random game"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -4242,7 +4452,24 @@
       "heads": [],
       "history": [],
       "id": "kw-fa8270f85edb1258aae3",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 34,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 110
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -4343,6 +4570,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "boxing random game"
     },
     {
@@ -4350,6 +4578,7 @@
       "aliases": [
         "bracket city"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -4363,7 +4592,24 @@
       "heads": [],
       "history": [],
       "id": "kw-96571fd7ca2e3f94fd38",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 38,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 135000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -4548,6 +4794,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "bracket city"
     },
     {
@@ -4555,6 +4802,7 @@
       "aliases": [
         "brainrot clicker"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -4568,7 +4816,24 @@
       "heads": [],
       "history": [],
       "id": "kw-21f144ef10e5bd2f9cea",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 39,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 40500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -4950,6 +5215,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "brainrot clicker"
     },
     {
@@ -4957,6 +5223,7 @@
       "aliases": [
         "bullseye game"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -4970,7 +5237,24 @@
       "heads": [],
       "history": [],
       "id": "kw-6a7e8bc3b51793bb8630",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 12,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 2400
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -5155,6 +5439,7 @@
       "qualification": "rejected",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "bullseye game"
     },
     {
@@ -5162,6 +5447,7 @@
       "aliases": [
         "candy clicker"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -5175,7 +5461,24 @@
       "heads": [],
       "history": [],
       "id": "kw-1c9b80f1f8cfffaa92a3",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 40,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 27100
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -5632,6 +5935,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "candy clicker"
     },
     {
@@ -5639,6 +5943,7 @@
       "aliases": [
         "color run game"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -5652,7 +5957,24 @@
       "heads": [],
       "history": [],
       "id": "kw-87ff43f572970913390e",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 21,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 390
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -5753,6 +6075,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "color run game"
     },
     {
@@ -5760,6 +6083,7 @@
       "aliases": [
         "color rush game"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -5773,7 +6097,24 @@
       "heads": [],
       "history": [],
       "id": "kw-bb6cda6893927d29cbc8",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 4,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 4400
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -6243,6 +6584,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "color rush game"
     },
     {
@@ -6250,6 +6592,7 @@
       "aliases": [
         "colordle"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-build-plan-96e00d03240b",
         "2026-10-24-keyword-research-e0d44f9c7d6f",
@@ -6265,7 +6608,24 @@
       "heads": [],
       "history": [],
       "id": "kw-534084c658d60e7ff0d0",
+      "keywordStatus": "building",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 25,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 74000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-build-plan-96e00d03240b",
@@ -7002,6 +7362,7 @@
           "term": "colordle"
         }
       ],
+      "statusOverride": null,
       "term": "colordle"
     },
     {
@@ -7009,6 +7370,7 @@
       "aliases": [
         "contexto"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -7022,7 +7384,24 @@
       "heads": [],
       "history": [],
       "id": "kw-abf456a95e194a118d00",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 50,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 450000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -7219,6 +7598,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "contexto"
     },
     {
@@ -7226,6 +7606,7 @@
       "aliases": [
         "crossy road"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -7239,7 +7620,24 @@
       "heads": [],
       "history": [],
       "id": "kw-2565dd9e7063220dd941",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 90,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 165000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -7340,6 +7738,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "crossy road"
     },
     {
@@ -7347,6 +7746,7 @@
       "aliases": [
         "curve rush"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -7360,7 +7760,24 @@
       "heads": [],
       "history": [],
       "id": "kw-8eaded613b5330e1e3f9",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 49,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 74000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -7549,6 +7966,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "curve rush"
     },
     {
@@ -7556,6 +7974,7 @@
       "aliases": [
         "curve rush 2"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -7569,7 +7988,24 @@
       "heads": [],
       "history": [],
       "id": "kw-30dd71429a06f6422e7f",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 15,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 27100
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -8035,6 +8471,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "curve rush 2"
     },
     {
@@ -8042,6 +8479,7 @@
       "aliases": [
         "cutle"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-build-plan-96e00d03240b",
         "2026-10-24-keyword-research-e0d44f9c7d6f",
@@ -8057,7 +8495,24 @@
       "heads": [],
       "history": [],
       "id": "kw-a547207062167aae1ebb",
+      "keywordStatus": "building",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 8,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 12100
+      },
       "observations": [
         {
           "batchId": "2026-10-24-build-plan-96e00d03240b",
@@ -8784,6 +9239,7 @@
           "term": "cutle"
         }
       ],
+      "statusOverride": null,
       "term": "cutle"
     },
     {
@@ -8791,6 +9247,7 @@
       "aliases": [
         "daily games"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -8804,7 +9261,24 @@
       "heads": [],
       "history": [],
       "id": "kw-4edfbbec0d6bc503b702",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 62,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 14800
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -8901,6 +9375,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "daily games"
     },
     {
@@ -8908,6 +9383,7 @@
       "aliases": [
         "dashmetry"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -8921,7 +9397,24 @@
       "heads": [],
       "history": [],
       "id": "kw-1f10376c3689c811ed7d",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 16,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 90500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -9399,6 +9892,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "dashmetry"
     },
     {
@@ -9406,6 +9900,7 @@
       "aliases": [
         "dashmetry.io"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -9419,7 +9914,24 @@
       "heads": [],
       "history": [],
       "id": "kw-b09c89d779c8394cc876",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 15,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 1300
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -9516,6 +10028,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "dashmetry.io"
     },
     {
@@ -9523,6 +10036,7 @@
       "aliases": [
         "dinosaur game"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -9536,7 +10050,24 @@
       "heads": [],
       "history": [],
       "id": "kw-b11dfcb5b9c9c8d01c6d",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 32,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 673000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -9721,6 +10252,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "dinosaur game"
     },
     {
@@ -9728,6 +10260,7 @@
       "aliases": [
         "drift boss"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -9741,7 +10274,24 @@
       "heads": [],
       "history": [],
       "id": "kw-f091318c0803205af7ec",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 60,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 1830000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -10123,6 +10673,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "drift boss"
     },
     {
@@ -10130,6 +10681,7 @@
       "aliases": [
         "drift boss game"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -10143,7 +10695,24 @@
       "heads": [],
       "history": [],
       "id": "kw-537a6b7b4505371820bc",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 55,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 22200
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -10244,6 +10813,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "drift boss game"
     },
     {
@@ -10251,6 +10821,7 @@
       "aliases": [
         "drift hunters"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -10264,7 +10835,24 @@
       "heads": [],
       "history": [],
       "id": "kw-d9b44b47a5d3a84fad91",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 68,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 135000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -10633,6 +11221,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "drift hunters"
     },
     {
@@ -10640,6 +11229,7 @@
       "aliases": [
         "drift hunters unblock"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -10653,7 +11243,24 @@
       "heads": [],
       "history": [],
       "id": "kw-48d350c04ae04071df3a",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 29,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 50
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -10754,6 +11361,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "drift hunters unblock"
     },
     {
@@ -10761,6 +11369,7 @@
       "aliases": [
         "drive mad"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -10774,7 +11383,24 @@
       "heads": [],
       "history": [],
       "id": "kw-50525c834e956ca2131b",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 64,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 301000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -11143,6 +11769,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "drive mad"
     },
     {
@@ -11150,6 +11777,7 @@
       "aliases": [
         "duck life 10"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -11163,7 +11791,24 @@
       "heads": [],
       "history": [],
       "id": "kw-3a5fa12f95f11dfd3819",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 30,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 480
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -11264,6 +11909,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "duck life 10"
     },
     {
@@ -11271,6 +11917,7 @@
       "aliases": [
         "duck life 4"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -11284,7 +11931,24 @@
       "heads": [],
       "history": [],
       "id": "kw-0e22c2620e82b325f1c6",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 54,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 27100
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -11653,6 +12317,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "duck life 4"
     },
     {
@@ -11660,6 +12325,7 @@
       "aliases": [
         "duck life 4 mathplayground"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -11673,7 +12339,24 @@
       "heads": [],
       "history": [],
       "id": "kw-e96d2983707349b606e1",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 35,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 90
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -11774,6 +12457,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "duck life 4 mathplayground"
     },
     {
@@ -11781,6 +12465,7 @@
       "aliases": [
         "eggy car"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -11794,7 +12479,24 @@
       "heads": [],
       "history": [],
       "id": "kw-b053c95a8b385d06d13d",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 53,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 135000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -12163,6 +12865,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "eggy car"
     },
     {
@@ -12170,6 +12873,7 @@
       "aliases": [
         "electron dash"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -12183,7 +12887,24 @@
       "heads": [],
       "history": [],
       "id": "kw-ae9a8ca3194f36e5a406",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 34,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 40500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -12640,6 +13361,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "electron dash"
     },
     {
@@ -12647,6 +13369,7 @@
       "aliases": [
         "electron dash math playground game"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -12660,7 +13383,24 @@
       "heads": [],
       "history": [],
       "id": "kw-41cf7c2ef1797fc7b8e2",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 21,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 70
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -12761,6 +13501,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "electron dash math playground game"
     },
     {
@@ -12768,6 +13509,7 @@
       "aliases": [
         "elementle"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -12781,7 +13523,24 @@
       "heads": [],
       "history": [],
       "id": "kw-ef2920674470fb0dfeaa",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 5,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 210
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -12902,6 +13661,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "elementle"
     },
     {
@@ -12909,6 +13669,7 @@
       "aliases": [
         "flag guesser"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -12922,7 +13683,24 @@
       "heads": [],
       "history": [],
       "id": "kw-ac7efec507868cb873d3",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 41,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 9900
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -13023,6 +13801,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "flag guesser"
     },
     {
@@ -13030,6 +13809,7 @@
       "aliases": [
         "flag guessing game"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -13043,7 +13823,24 @@
       "heads": [],
       "history": [],
       "id": "kw-51245c407af45f2bbe61",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 43,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 3600
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -13140,6 +13937,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "flag guessing game"
     },
     {
@@ -13147,6 +13945,7 @@
       "aliases": [
         "flagle"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -13160,7 +13959,24 @@
       "heads": [],
       "history": [],
       "id": "kw-fe8174d2ac015d733351",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 60,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 74000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -13554,6 +14370,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "flagle"
     },
     {
@@ -13561,6 +14378,7 @@
       "aliases": [
         "flagpie"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -13574,7 +14392,24 @@
       "heads": [],
       "history": [],
       "id": "kw-241a8c3fe1466730225d",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 28,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 1300
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -13759,6 +14594,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "flagpie"
     },
     {
@@ -13766,6 +14602,7 @@
       "aliases": [
         "fnf"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -13779,7 +14616,24 @@
       "heads": [],
       "history": [],
       "id": "kw-452fd06123f501fc6437",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 91,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 450000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -13876,6 +14730,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "fnf"
     },
     {
@@ -13883,6 +14738,7 @@
       "aliases": [
         "football bros"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -13896,7 +14752,24 @@
       "heads": [],
       "history": [],
       "id": "kw-61416edbe4afb4cb29a8",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 50,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 368000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -14366,6 +15239,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "football bros"
     },
     {
@@ -14373,6 +15247,7 @@
       "aliases": [
         "football random"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -14386,7 +15261,24 @@
       "heads": [],
       "history": [],
       "id": "kw-4cc3d61ab0d79b21550b",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 24,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 1300
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -14487,6 +15379,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "football random"
     },
     {
@@ -14494,6 +15387,7 @@
       "aliases": [
         "geodle"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -14507,7 +15401,24 @@
       "heads": [],
       "history": [],
       "id": "kw-4ca4f00a480fda91fa32",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 15,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 2400
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -14692,6 +15603,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "geodle"
     },
     {
@@ -14699,6 +15611,7 @@
       "aliases": [
         "geography games"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -14712,7 +15625,24 @@
       "heads": [],
       "history": [],
       "id": "kw-cd5f3c4463b214e26d95",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 71,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 27100
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -14809,6 +15739,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "geography games"
     },
     {
@@ -14816,6 +15747,7 @@
       "aliases": [
         "geometry dash free"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -14829,7 +15761,24 @@
       "heads": [],
       "history": [],
       "id": "kw-5b461be4415afba92397",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 73,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 12100
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -14926,6 +15875,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "geometry dash free"
     },
     {
@@ -14933,6 +15883,7 @@
       "aliases": [
         "geometry dash lite"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -14946,7 +15897,24 @@
       "heads": [],
       "history": [],
       "id": "kw-2268592f205d50b7b5fe",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 75,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 368000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -15103,6 +16071,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "geometry dash lite"
     },
     {
@@ -15110,6 +16079,7 @@
       "aliases": [
         "geometry game"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -15123,7 +16093,24 @@
       "heads": [],
       "history": [],
       "id": "kw-d972868c1441bb96a2df",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 29,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 8100
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -15224,6 +16211,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "geometry game"
     },
     {
@@ -15231,6 +16219,7 @@
       "aliases": [
         "getaway shootout"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -15244,7 +16233,24 @@
       "heads": [],
       "history": [],
       "id": "kw-45b48ee35153ff580774",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 43,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 33100
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -15701,6 +16707,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "getaway shootout"
     },
     {
@@ -15708,6 +16715,7 @@
       "aliases": [
         "globle"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -15721,7 +16729,24 @@
       "heads": [],
       "history": [],
       "id": "kw-5de52beab1bf8b945bdf",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 52,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 246000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -16111,6 +17136,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "globle"
     },
     {
@@ -16118,6 +17144,7 @@
       "aliases": [
         "globle game"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -16131,7 +17158,24 @@
       "heads": [],
       "history": [],
       "id": "kw-5a91b9d54646d598660a",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 32,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 12100
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -16236,6 +17280,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "globle game"
     },
     {
@@ -16243,6 +17288,7 @@
       "aliases": [
         "halo browser game"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -16256,7 +17302,20 @@
       "heads": [],
       "history": [],
       "id": "kw-650b40c20d4f6e063158",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 20
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -16353,6 +17412,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "halo browser game"
     },
     {
@@ -16360,6 +17420,7 @@
       "aliases": [
         "horsle"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -16373,7 +17434,24 @@
       "heads": [],
       "history": [],
       "id": "kw-a32133311499e2b9e6d7",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 10,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 18100
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -16839,6 +17917,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "horsle"
     },
     {
@@ -16846,6 +17925,7 @@
       "aliases": [
         "idle breakout"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -16859,7 +17939,24 @@
       "heads": [],
       "history": [],
       "id": "kw-4a4ac6143ebac022eb66",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 67,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 49500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -17228,6 +18325,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "idle breakout"
     },
     {
@@ -17235,6 +18333,7 @@
       "aliases": [
         "idle breakout mobile"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -17248,7 +18347,24 @@
       "heads": [],
       "history": [],
       "id": "kw-3af10a4312227ae7779e",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 51,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 50
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -17349,6 +18465,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "idle breakout mobile"
     },
     {
@@ -17356,6 +18473,7 @@
       "aliases": [
         "idle breakout strategy"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -17369,7 +18487,24 @@
       "heads": [],
       "history": [],
       "id": "kw-0f26d65ed1c8f61f7d1a",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 32,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 70
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -17470,6 +18605,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "idle breakout strategy"
     },
     {
@@ -17477,6 +18613,7 @@
       "aliases": [
         "kart bros"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -17490,7 +18627,24 @@
       "heads": [],
       "history": [],
       "id": "kw-1e9900be20c0c3800be1",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 29,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 165000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -17980,6 +19134,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "kart bros"
     },
     {
@@ -17987,6 +19142,7 @@
       "aliases": [
         "low's adventures 3"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -18000,7 +19156,24 @@
       "heads": [],
       "history": [],
       "id": "kw-eb31c3903a41e75eae4b",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 25,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 2900
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -18457,6 +19630,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "low's adventures 3"
     },
     {
@@ -18464,6 +19638,7 @@
       "aliases": [
         "map tap"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -18477,7 +19652,24 @@
       "heads": [],
       "history": [],
       "id": "kw-6601759312774dad5a1b",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 36,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 27100
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -18598,6 +19790,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "map tap"
     },
     {
@@ -18605,6 +19798,7 @@
       "aliases": [
         "maptap"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-build-plan-96e00d03240b",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -18618,7 +19812,24 @@
       "heads": [],
       "history": [],
       "id": "kw-fe05e9cfa75f5ff04ec6",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 31,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 40500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-build-plan-96e00d03240b",
@@ -19228,6 +20439,7 @@
       "qualification": "qualified",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "maptap"
     },
     {
@@ -19235,6 +20447,7 @@
       "aliases": [
         "mathplayground duck life"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -19248,7 +20461,20 @@
       "heads": [],
       "history": [],
       "id": "kw-9a0949f13f7f0eee9c42",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 0
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -19349,6 +20575,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "mathplayground duck life"
     },
     {
@@ -19356,6 +20583,7 @@
       "aliases": [
         "mathplayground electron dash"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -19369,7 +20597,24 @@
       "heads": [],
       "history": [],
       "id": "kw-a653eca7f40be3f74e49",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 27,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 2400
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -19470,6 +20715,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "mathplayground electron dash"
     },
     {
@@ -19477,6 +20723,7 @@
       "aliases": [
         "metazooa"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-build-plan-96e00d03240b",
         "2026-10-24-keyword-research-e0d44f9c7d6f",
@@ -19492,7 +20739,24 @@
       "heads": [],
       "history": [],
       "id": "kw-87edb316733c6d0f33a6",
+      "keywordStatus": "building",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 23,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 12100
+      },
       "observations": [
         {
           "batchId": "2026-10-24-build-plan-96e00d03240b",
@@ -20238,6 +21502,7 @@
           "term": "metazooa"
         }
       ],
+      "statusOverride": null,
       "term": "metazooa"
     },
     {
@@ -20245,6 +21510,7 @@
       "aliases": [
         "murdle"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -20258,7 +21524,24 @@
       "heads": [],
       "history": [],
       "id": "kw-51f2f1adb0e1abcb2644",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 46,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 49500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -20451,6 +21734,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "murdle"
     },
     {
@@ -20458,6 +21742,7 @@
       "aliases": [
         "ovo game"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -20471,7 +21756,24 @@
       "heads": [],
       "history": [],
       "id": "kw-9c300e0cee653d4d48b3",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 57,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 165000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -20877,6 +22179,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "ovo game"
     },
     {
@@ -20884,6 +22187,7 @@
       "aliases": [
         "pips"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -20897,7 +22201,24 @@
       "heads": [],
       "history": [],
       "id": "kw-ef0d191651efceed4585",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 70,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 550000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -20994,6 +22315,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "pips"
     },
     {
@@ -21001,6 +22323,7 @@
       "aliases": [
         "planet clicker"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -21014,7 +22337,24 @@
       "heads": [],
       "history": [],
       "id": "kw-bd3388cfb5a4741f34f0",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 40,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 90500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -21484,6 +22824,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "planet clicker"
     },
     {
@@ -21491,6 +22832,7 @@
       "aliases": [
         "poetl"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -21504,7 +22846,24 @@
       "heads": [],
       "history": [],
       "id": "kw-fe9fabc9010b69cbcb73",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 29,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 27100
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -21970,6 +23329,7 @@
       "qualification": "rejected",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "poetl"
     },
     {
@@ -21977,6 +23337,7 @@
       "aliases": [
         "polytrack"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -21990,7 +23351,24 @@
       "heads": [],
       "history": [],
       "id": "kw-aba0e5dc9fdc7ab5728d",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 64,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 368000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -22359,6 +23737,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "polytrack"
     },
     {
@@ -22366,6 +23745,7 @@
       "aliases": [
         "poople"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-build-plan-96e00d03240b",
         "2026-10-24-keyword-research-e0d44f9c7d6f",
@@ -22381,7 +23761,24 @@
       "heads": [],
       "history": [],
       "id": "kw-34020416e5ed9a7ad2f2",
+      "keywordStatus": "building",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 26,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 33100
+      },
       "observations": [
         {
           "batchId": "2026-10-24-build-plan-96e00d03240b",
@@ -23186,6 +24583,7 @@
           "term": "poople"
         }
       ],
+      "statusOverride": null,
       "term": "poople"
     },
     {
@@ -23193,6 +24591,7 @@
       "aliases": [
         "poor bunny"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -23206,7 +24605,24 @@
       "heads": [],
       "history": [],
       "id": "kw-0b94fb61bd8b0e1398cd",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 39,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 135000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -23660,6 +25076,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "poor bunny"
     },
     {
@@ -23667,6 +25084,7 @@
       "aliases": [
         "poor bunny poki"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -23680,7 +25098,24 @@
       "heads": [],
       "history": [],
       "id": "kw-bf6671f44d4d3e14fddf",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 55,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 5400
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -23781,6 +25216,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "poor bunny poki"
     },
     {
@@ -23788,6 +25224,7 @@
       "aliases": [
         "puppet hockey"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -23801,7 +25238,24 @@
       "heads": [],
       "history": [],
       "id": "kw-6f787a5b1ca576801b5b",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 38,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 33100
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -24258,6 +25712,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "puppet hockey"
     },
     {
@@ -24265,6 +25720,7 @@
       "aliases": [
         "quordle"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -24278,7 +25734,24 @@
       "heads": [],
       "history": [],
       "id": "kw-9de0b230135e7178ab6e",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 68,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 1830000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -24375,6 +25848,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "quordle"
     },
     {
@@ -24382,6 +25856,7 @@
       "aliases": [
         "ragdoll archers"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -24395,7 +25870,24 @@
       "heads": [],
       "history": [],
       "id": "kw-aca3b8de862431ded5a5",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 51,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 74000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -24777,6 +26269,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "ragdoll archers"
     },
     {
@@ -24784,6 +26277,7 @@
       "aliases": [
         "ragdoll hit"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -24797,7 +26291,24 @@
       "heads": [],
       "history": [],
       "id": "kw-76fa13758c63e40f2a02",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 45,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 90500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -25254,6 +26765,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "ragdoll hit"
     },
     {
@@ -25261,6 +26773,7 @@
       "aliases": [
         "rocket goal"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -25274,7 +26787,24 @@
       "heads": [],
       "history": [],
       "id": "kw-e68d914fcc999d30bf67",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 56,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 60500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -25383,6 +26913,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "rocket goal"
     },
     {
@@ -25390,6 +26921,7 @@
       "aliases": [
         "rocket league browser game"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -25403,7 +26935,24 @@
       "heads": [],
       "history": [],
       "id": "kw-78fd7062f764dedf7ce3",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 63,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 210
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -25500,6 +27049,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "rocket league browser game"
     },
     {
@@ -25507,6 +27057,7 @@
       "aliases": [
         "rodha"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -25520,7 +27071,24 @@
       "heads": [],
       "history": [],
       "id": "kw-03e2a9da9df796848660",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 22,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 60500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -26002,6 +27570,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "rodha"
     },
     {
@@ -26009,6 +27578,7 @@
       "aliases": [
         "rooftop snipers"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -26022,7 +27592,24 @@
       "heads": [],
       "history": [],
       "id": "kw-f2b485e0a8f163ee31bd",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 44,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 22200
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -26479,6 +28066,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "rooftop snipers"
     },
     {
@@ -26486,6 +28074,7 @@
       "aliases": [
         "rooftop snipers game"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -26499,7 +28088,24 @@
       "heads": [],
       "history": [],
       "id": "kw-59d499634136cf1959f6",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 33,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 590
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -26600,6 +28206,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "rooftop snipers game"
     },
     {
@@ -26607,6 +28214,7 @@
       "aliases": [
         "run 3 unblocked"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -26620,7 +28228,24 @@
       "heads": [],
       "history": [],
       "id": "kw-fa6002fa4206cb8a971e",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 36,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 40500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -27077,6 +28702,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "run 3 unblocked"
     },
     {
@@ -27084,6 +28710,7 @@
       "aliases": [
         "scrandle"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-build-plan-96e00d03240b",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -27097,7 +28724,24 @@
       "heads": [],
       "history": [],
       "id": "kw-c9c2dd3b1773f94b5065",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 15,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 90500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-build-plan-96e00d03240b",
@@ -27635,6 +29279,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "scrandle"
     },
     {
@@ -27642,6 +29287,7 @@
       "aliases": [
         "slope 2"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -27655,7 +29301,24 @@
       "heads": [],
       "history": [],
       "id": "kw-b71fcf2dc5f932f9bdb4",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 72,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 110000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -27756,6 +29419,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "slope 2"
     },
     {
@@ -27763,6 +29427,7 @@
       "aliases": [
         "slope rider"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -27776,7 +29441,24 @@
       "heads": [],
       "history": [],
       "id": "kw-68f26fa07e4adf73d30c",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 75,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 74000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -27941,6 +29623,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "slope rider"
     },
     {
@@ -27948,6 +29631,7 @@
       "aliases": [
         "slope rider 3d"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -27961,7 +29645,24 @@
       "heads": [],
       "history": [],
       "id": "kw-dafabb83dc1e831bcc46",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 39,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 22200
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -28158,6 +29859,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "slope rider 3d"
     },
     {
@@ -28165,6 +29867,7 @@
       "aliases": [
         "slope unblocked"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -28178,7 +29881,24 @@
       "heads": [],
       "history": [],
       "id": "kw-8216d936a23102ad8ab6",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 52,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 246000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -28547,6 +30267,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "slope unblocked"
     },
     {
@@ -28554,6 +30275,7 @@
       "aliases": [
         "soccer random"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -28567,7 +30289,24 @@
       "heads": [],
       "history": [],
       "id": "kw-4268fa704ba10e1b730b",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 46,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 40500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -29024,6 +30763,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "soccer random"
     },
     {
@@ -29031,6 +30771,7 @@
       "aliases": [
         "soflo wheelie life"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -29044,7 +30785,24 @@
       "heads": [],
       "history": [],
       "id": "kw-eabec2e862888e7b05ae",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 41,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 40500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -29233,6 +30991,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "soflo wheelie life"
     },
     {
@@ -29240,6 +30999,7 @@
       "aliases": [
         "songless"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-build-plan-96e00d03240b",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -29253,7 +31013,24 @@
       "heads": [],
       "history": [],
       "id": "kw-bf9bebd96266a6fcd931",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 21,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 74000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-build-plan-96e00d03240b",
@@ -29791,6 +31568,7 @@
       "qualification": "qualified",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "songless"
     },
     {
@@ -29798,6 +31576,7 @@
       "aliases": [
         "space waves"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -29811,7 +31590,24 @@
       "heads": [],
       "history": [],
       "id": "kw-9b883b872d9a7cb8952e",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 86,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 368000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -30261,6 +32057,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "space waves"
     },
     {
@@ -30268,6 +32065,7 @@
       "aliases": [
         "spotle"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-build-plan-96e00d03240b",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -30281,7 +32079,24 @@
       "heads": [],
       "history": [],
       "id": "kw-b7ad1b32e38d19fd255e",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 23,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 110000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-build-plan-96e00d03240b",
@@ -30834,6 +32649,7 @@
       "qualification": "qualified",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "spotle"
     },
     {
@@ -30841,6 +32657,7 @@
       "aliases": [
         "stickman clash"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -30854,7 +32671,24 @@
       "heads": [],
       "history": [],
       "id": "kw-69a2087b6a64b9b2903c",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 49,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 12100
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -31043,6 +32877,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "stickman clash"
     },
     {
@@ -31050,6 +32885,7 @@
       "aliases": [
         "stickman hook"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -31063,7 +32899,24 @@
       "heads": [],
       "history": [],
       "id": "kw-be723cb66d07b9f829c1",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 75,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 165000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -31432,6 +33285,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "stickman hook"
     },
     {
@@ -31439,6 +33293,7 @@
       "aliases": [
         "tap road"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -31452,7 +33307,24 @@
       "heads": [],
       "history": [],
       "id": "kw-399758c88c036485be00",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 27,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 90500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -31930,6 +33802,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "tap road"
     },
     {
@@ -31937,6 +33810,7 @@
       "aliases": [
         "tap road beat"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -31950,7 +33824,24 @@
       "heads": [],
       "history": [],
       "id": "kw-19ccc98c14d69197b570",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 8,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 1300
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -32135,6 +34026,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "tap road beat"
     },
     {
@@ -32142,6 +34034,7 @@
       "aliases": [
         "time shooter 2"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -32155,7 +34048,24 @@
       "heads": [],
       "history": [],
       "id": "kw-9d9746b5c8609b0788a8",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 22,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 5400
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -32612,6 +34522,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "time shooter 2"
     },
     {
@@ -32619,6 +34530,7 @@
       "aliases": [
         "time shooter 3"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -32632,7 +34544,24 @@
       "heads": [],
       "history": [],
       "id": "kw-d5c1ad96c49f51e40f98",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 20,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 5400
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -33089,6 +35018,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "time shooter 3"
     },
     {
@@ -33096,6 +35026,7 @@
       "aliases": [
         "time shooter 3 swat"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -33109,7 +35040,24 @@
       "heads": [],
       "history": [],
       "id": "kw-7dbae4203886a91f5f30",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 9,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 1000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -33210,6 +35158,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "time shooter 3 swat"
     },
     {
@@ -33217,6 +35166,7 @@
       "aliases": [
         "top road"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -33230,7 +35180,24 @@
       "heads": [],
       "history": [],
       "id": "kw-09d8ad60944ad2601264",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 56,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 720
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -33327,6 +35294,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "top road"
     },
     {
@@ -33334,6 +35302,7 @@
       "aliases": [
         "traffic road"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-build-plan-96e00d03240b",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -33347,7 +35316,24 @@
       "heads": [],
       "history": [],
       "id": "kw-1e7f14a5edeb44b5779c",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 29,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 14800
+      },
       "observations": [
         {
           "batchId": "2026-10-24-build-plan-96e00d03240b",
@@ -33910,6 +35896,7 @@
       "qualification": "qualified",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "traffic road"
     },
     {
@@ -33917,6 +35904,7 @@
       "aliases": [
         "travle"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-build-plan-96e00d03240b",
         "2026-10-24-keyword-research-e0d44f9c7d6f",
@@ -33932,7 +35920,24 @@
       "heads": [],
       "history": [],
       "id": "kw-eb68753f1183a20c1f18",
+      "keywordStatus": "building",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 31,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 40500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-build-plan-96e00d03240b",
@@ -34651,6 +36656,7 @@
           "term": "travle"
         }
       ],
+      "statusOverride": null,
       "term": "travle"
     },
     {
@@ -34658,6 +36664,7 @@
       "aliases": [
         "tunnel rush"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -34671,7 +36678,24 @@
       "heads": [],
       "history": [],
       "id": "kw-600b709584703c111e79",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 54,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 49500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -35040,6 +37064,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "tunnel rush"
     },
     {
@@ -35047,6 +37072,7 @@
       "aliases": [
         "tunnel rush game"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -35060,7 +37086,24 @@
       "heads": [],
       "history": [],
       "id": "kw-3348dd1c6aa495ce0f09",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 41,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 720
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -35161,6 +37204,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "tunnel rush game"
     },
     {
@@ -35168,6 +37212,7 @@
       "aliases": [
         "volley random"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -35181,7 +37226,24 @@
       "heads": [],
       "history": [],
       "id": "kw-1aafea837394d8e2da48",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 30,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 8100
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -35651,6 +37713,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "volley random"
     },
     {
@@ -35658,6 +37721,7 @@
       "aliases": [
         "wacky flip"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -35671,7 +37735,24 @@
       "heads": [],
       "history": [],
       "id": "kw-fea3c4c92606f6ebdf95",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 72,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 110000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -35824,6 +37905,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "wacky flip"
     },
     {
@@ -35831,6 +37913,7 @@
       "aliases": [
         "wave rider"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -35844,7 +37927,24 @@
       "heads": [],
       "history": [],
       "id": "kw-f6e2d5ae095d8e50f612",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 27,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 12100
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -36322,6 +38422,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "wave rider"
     },
     {
@@ -36329,6 +38430,7 @@
       "aliases": [
         "weddle"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -36342,7 +38444,24 @@
       "heads": [],
       "history": [],
       "id": "kw-be5676a3642983a4e25f",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 45,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 60500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -36535,6 +38654,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "weddle"
     },
     {
@@ -36542,6 +38662,7 @@
       "aliases": [
         "word hurdle"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -36555,7 +38676,24 @@
       "heads": [],
       "history": [],
       "id": "kw-e9c7fa1ae509e85f80bc",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 89,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 110000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -36924,6 +39062,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "word hurdle"
     },
     {
@@ -36931,6 +39070,7 @@
       "aliases": [
         "worldguessr"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -36944,7 +39084,24 @@
       "heads": [],
       "history": [],
       "id": "kw-3631ca365b0f2df5a58a",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 63,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 110000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -37041,6 +39198,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "worldguessr"
     },
     {
@@ -37048,6 +39206,7 @@
       "aliases": [
         "worldle"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -37061,7 +39220,24 @@
       "heads": [],
       "history": [],
       "id": "kw-2dcf776a2928c1ff0429",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 90,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 450000
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -37443,6 +39619,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "worldle"
     },
     {
@@ -37450,6 +39627,7 @@
       "aliases": [
         "worldle unlimited"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-dispositions-7861f07f756d",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -37463,7 +39641,24 @@
       "heads": [],
       "history": [],
       "id": "kw-e99dedca0570d3e38f3f",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 71,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 18100
+      },
       "observations": [
         {
           "batchId": "2026-10-24-dispositions-7861f07f756d",
@@ -37560,6 +39755,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "worldle unlimited"
     },
     {
@@ -37567,6 +39763,7 @@
       "aliases": [
         "x trench run"
       ],
+      "batchDate": "2026-10-24",
       "batches": [
         "2026-10-24-build-plan-96e00d03240b",
         "2026-10-24-keyword-research-e0d44f9c7d6f"
@@ -37580,7 +39777,24 @@
       "heads": [],
       "history": [],
       "id": "kw-6bf1043d43cd7f5de3d9",
+      "keywordStatus": "observing",
       "language": "en",
+      "metrics": {
+        "intitle": null,
+        "kd": 9,
+        "ratio": null,
+        "sources": {
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 49500
+      },
       "observations": [
         {
           "batchId": "2026-10-24-build-plan-96e00d03240b",
@@ -38136,6 +40350,7 @@
       "qualification": "needs_review",
       "reviewState": "pending",
       "sites": [],
+      "statusOverride": null,
       "term": "x trench run"
     }
   ],
