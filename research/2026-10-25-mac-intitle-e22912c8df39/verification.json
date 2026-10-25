@@ -1,0 +1,34 @@
+{
+  "batchId": "2026-10-25-mac-intitle-e22912c8df39",
+  "before": {
+    "keywords": 117,
+    "observations": 244,
+    "batches": 5,
+    "reviews": 0,
+    "sites": 17
+  },
+  "after": {
+    "keywords": 117,
+    "observations": 361,
+    "batches": 6,
+    "reviews": 0,
+    "sites": 17
+  },
+  "measured": 117,
+  "unknown": 0,
+  "manualDecisionsAndStatusesUnchanged": true,
+  "volumeAndKDUnchanged": true,
+  "siteRecordsUnchanged": true,
+  "errors": [],
+  "liveDashboardAPI": {
+    "httpStatus": 200,
+    "keywords": 117,
+    "intitleValues": 117,
+    "derivedRatiosVerified": true
+  },
+  "csvExport": {
+    "rows": 117,
+    "filledIntitleCells": 117
+  },
+  "zeroValues": 2
+}

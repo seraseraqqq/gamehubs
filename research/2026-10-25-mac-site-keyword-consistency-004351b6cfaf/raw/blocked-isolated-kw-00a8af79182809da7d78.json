@@ -1,0 +1,18 @@
+{
+  "keywordId": "kw-00a8af79182809da7d78",
+  "term": "2048 cupcakes",
+  "country": "US",
+  "language": "en",
+  "query": "intitle:\"2048 cupcakes\"",
+  "requestedURL": "https://www.google.com/search?q=intitle%3A%222048+cupcakes%22&gl=us&hl=en&pws=0",
+  "observedAt": "2026-10-25T08:54:50.514386+00:00",
+  "status": "blocked_captcha",
+  "intitle": null,
+  "displayedResultStats": null,
+  "queryParameters": null,
+  "queryVerified": false,
+  "estimate": true,
+  "physicalUSLocationVerified": false,
+  "topResults": [],
+  "visibleText": "\n\nAbout this page\n\nOur systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot. Why did this happen?\n\n\n\nIP address: [IP redacted]\nTime: 2026-10-25T08:54:48Z\nURL: [URL redacted]\n"
+}

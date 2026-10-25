@@ -2,6 +2,7 @@
   "blockers": [
     "正式域名实际游玩验收前保持noindex"
   ],
+  "createdAt": "2026-10-24",
   "development": {
     "deploymentMigration": {
       "evidencePath": "deployments/evidence/2026-10-25-repository-migration/snow-rider-3d-unblocked-final.json",
@@ -264,6 +265,307 @@
         }
       },
       "previousRevision": "ae006d180f0cd4f95d1436009f04dba8ced7b8bfd4a35f0df17e7fef7b0f8f83"
+    },
+    {
+      "actor": "codex-ai:restore-recorded-site-creation-date",
+      "at": "2026-10-25T09:09:47.904172+00:00",
+      "previous": {
+        "blockers": [
+          "正式域名实际游玩验收前保持noindex"
+        ],
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/snow-rider-3d-unblocked-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_J1EWyqDV8HE2f9hqWRu4gtG5Vs4b",
+              "readyState": "READY",
+              "url": "gamehubs-snow-rider-3d-mlteytdpx-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/snow-rider-3d-unblocked",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_HXF2m9uNwvzTs1ufjymw2hdhuTng",
+                "readyState": "READY",
+                "url": "gamehubs-snow-rider-3d-6rr13e34q-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+              "projectName": "gamehubs-snow-rider-3d",
+              "repository": "https://github.com/seraseraqqq/gameshub-snow-rider-3d-unblocked",
+              "repositoryId": 1432763661,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedHead": "d86a93bf1fa2f726aae71d0447c73b592a7ed3d3",
+          "state": "independent-repository-deployed"
+        },
+        "id": "snow-rider-3d-unblocked",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-1ba7b5cb5f3b8f8c5e13",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "snow rider 3d unblocked"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-4ed172dd9e502a86eae8",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "snow rider 3d online"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-3a144b6d1faab6428af0",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "snow rider 3d controls"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-0f46dfc13c9949e5800a",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "snow rider 3d tips"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Snow Rider 3D Unblocked",
+        "nextAction": "Complete actual snowrider3d.top gameplay, controls, game over/restart, reload/ad recovery and fullscreen checks; then set PUBLISHER_DOMAIN_STATUS=verified, deploy and verify indexing metadata.",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/snow-rider-3d-unblocked曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "pending",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/snow-rider-3d-unblocked",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-snow-rider-3d-unblocked"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#snow-rider-3d-unblocked"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/snow-rider-3d-unblocked-final.json"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://snowrider3d.top/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+        }
+      },
+      "previousRevision": "cd797130c04da040b9e265df5e50cceb9bffa6368beed8d56dbc6b8ddb47f2b4"
+    },
+    {
+      "actor": "codex-ai:site-primary-keyword-consistency",
+      "at": "2026-10-25T09:25:00.911768+00:00",
+      "previous": {
+        "blockers": [
+          "正式域名实际游玩验收前保持noindex"
+        ],
+        "createdAt": "2026-10-24",
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/snow-rider-3d-unblocked-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_J1EWyqDV8HE2f9hqWRu4gtG5Vs4b",
+              "readyState": "READY",
+              "url": "gamehubs-snow-rider-3d-mlteytdpx-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/snow-rider-3d-unblocked",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_HXF2m9uNwvzTs1ufjymw2hdhuTng",
+                "readyState": "READY",
+                "url": "gamehubs-snow-rider-3d-6rr13e34q-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+              "projectName": "gamehubs-snow-rider-3d",
+              "repository": "https://github.com/seraseraqqq/gameshub-snow-rider-3d-unblocked",
+              "repositoryId": 1432763661,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedHead": "d86a93bf1fa2f726aae71d0447c73b592a7ed3d3",
+          "state": "independent-repository-deployed"
+        },
+        "id": "snow-rider-3d-unblocked",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-1ba7b5cb5f3b8f8c5e13",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "snow rider 3d unblocked"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-4ed172dd9e502a86eae8",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "snow rider 3d online"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-3a144b6d1faab6428af0",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "snow rider 3d controls"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-0f46dfc13c9949e5800a",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "snow rider 3d tips"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Snow Rider 3D Unblocked",
+        "nextAction": "Complete actual snowrider3d.top gameplay, controls, game over/restart, reload/ad recovery and fullscreen checks; then set PUBLISHER_DOMAIN_STATUS=verified, deploy and verify indexing metadata.",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/snow-rider-3d-unblocked曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "pending",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/snow-rider-3d-unblocked",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-snow-rider-3d-unblocked"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#snow-rider-3d-unblocked"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/snow-rider-3d-unblocked-final.json"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "恢复导入时遗漏的明确createdAt：2026-10-24；没有用部署/研究/核验时间替代",
+            "path": "data/migration/source-matrix-sites.json#snow-rider-3d-unblocked"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://snowrider3d.top/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+        }
+      },
+      "previousRevision": "dccad3d3e1db2cea87209a9674af8ed9571360f685548ce3138069f2cd654b99"
     }
   ],
   "id": "snow-rider-3d-unblocked",
@@ -273,7 +575,7 @@
       "keywordId": "kw-1ba7b5cb5f3b8f8c5e13",
       "language": "en",
       "page": "/",
-      "poolLinked": false,
+      "poolLinked": true,
       "role": "primary",
       "term": "snow rider 3d unblocked"
     },
@@ -313,7 +615,8 @@
     "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/snow-rider-3d-unblocked曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
     "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
     "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
-    "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+    "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+    "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。"
   ],
   "release": {
     "deployment": "recorded_deployed",
@@ -352,6 +655,14 @@
     {
       "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
       "path": "docs/history/2026-10-25-management-only-cleanup.json"
+    },
+    {
+      "note": "恢复导入时遗漏的明确createdAt：2026-10-24；没有用部署/研究/核验时间替代",
+      "path": "data/migration/source-matrix-sites.json#snow-rider-3d-unblocked"
+    },
+    {
+      "note": "旧站主词纳入统一词池；US/en由本轮截图数据库与查询参数明确，旧市场/映射保留在历史",
+      "path": "research/2026-10-25-mac-site-keyword-consistency-004351b6cfaf/README.md"
     }
   ],
   "stage": "deployed",

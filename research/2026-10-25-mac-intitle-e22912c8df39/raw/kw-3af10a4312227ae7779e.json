@@ -1,0 +1,23 @@
+{
+  "keywordId": "kw-3af10a4312227ae7779e",
+  "term": "idle breakout mobile",
+  "country": "US",
+  "language": "en",
+  "query": "intitle:\"idle breakout mobile\"",
+  "requestedURL": "https://www.google.com/search?q=intitle%3A%22idle+breakout+mobile%22&gl=us&hl=en&pws=0",
+  "observedAt": "2026-10-25T07:54:52.882714+00:00",
+  "status": "observed",
+  "intitle": 0,
+  "displayedResultStats": "About 0 results (0.19s)",
+  "queryParameters": {
+    "gl": "us",
+    "hl": "en",
+    "pws": "0",
+    "q": "intitle:\"idle breakout mobile\""
+  },
+  "queryVerified": true,
+  "estimate": true,
+  "physicalUSLocationVerified": false,
+  "topResults": [],
+  "visibleText": "Skip to main content\nAccessibility help\nSign in\nAI Mode\nAll\nImages\nVideos\nShopping\nForums\nShort videos\nMore\nTools\nSearch Results\nSearching\nThinking a little longer\nFooter Links\nUnknown - Can't determine location\n - Update location\nHelp\nSend feedback\nPrivacy\nTerms\nAny time\nAll results\nAdvanced Search\nAbout 0 results (0.19s) "
+}

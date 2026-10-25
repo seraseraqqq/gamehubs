@@ -26,6 +26,12 @@ document.getElementById('site-filter').value='';document.getElementById('search'
 run(`data.sites=[{id:'s',keywordMappings:[{keywordId:'b',role:'primary'}]},{id:'standalone',keywordMappings:[{keywordId:'missing',role:'primary',metrics:{volume:200,kd:12,intitle:20}}]}]`);
 assert.equal(run('siteMetrics(data.sites[0]).volume'),100);assert.equal(run('siteMetrics(data.sites[1]).ratio'),.1);
 assert.equal(run('siteBatchDate(data.sites[0])'),'2026-10-25');assert.equal(run('siteBatchDate(data.sites[1])'),null);
+assert.equal(run('siteMetrics(data.sites[0])===data.keywords[1].metrics'),true,'linked sites must read the same metric object as the keyword pool');
+run('data.sites[0].keywordMappings[0].metrics={volume:999,intitle:999};data.keywords[1].metrics.intitle=0');
+assert.equal(run('siteMetrics(data.sites[0]).volume'),100,'stale mapping copies must not override the pool');
+assert.equal(run('siteMetrics(data.sites[0]).intitle'),0,'zero must propagate to the site directory');
+assert.match(run('sitePrimaryLabel(data.sites[1])'),/未入词池/);
+assert.match(run('siteMetricReason(data.sites[1])'),/不能套用其他词/);
 assert.equal(run("siteStatus({stage:'deployed'})"),'live');assert.equal(run("siteStatus({stage:'planned'})"),'observing');
 assert.notEqual(run('ratio(.00000001)'), '0');
 run("post=async (path,payload)=>{saved=payload;return{}}; data.keywords[0].statusOverride=null;");

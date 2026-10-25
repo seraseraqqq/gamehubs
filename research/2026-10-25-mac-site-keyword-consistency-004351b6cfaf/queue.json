@@ -1,0 +1,262 @@
+{
+  "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+  "queryParameters": {
+    "gl": "us",
+    "hl": "en",
+    "pws": "0"
+  },
+  "keywords": [
+    {
+      "siteId": "2048-cupcakes",
+      "term": "2048 cupcakes",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "US",
+        "keywordId": "kw-00a8af79182809da7d78",
+        "language": "en",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "2048 cupcakes"
+      },
+      "query": "intitle:\"2048 cupcakes\"",
+      "status": "observed",
+      "keywordId": "kw-00a8af79182809da7d78",
+      "intitle": 3780,
+      "evidence": "raw/google-kw-00a8af79182809da7d78.json",
+      "observedAt": "2026-10-25T09:06:00.593202+00:00"
+    },
+    {
+      "siteId": "acceleration-city",
+      "term": "acceleration city",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "unknown",
+        "keywordId": "kw-d59316934af74d730639",
+        "language": "unknown",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "acceleration city"
+      },
+      "query": "intitle:\"acceleration city\"",
+      "status": "observed",
+      "keywordId": "kw-c35b41413e1a0dce7da9",
+      "intitle": 312,
+      "evidence": "raw/google-kw-c35b41413e1a0dce7da9.json",
+      "observedAt": "2026-10-25T09:06:07.893274+00:00"
+    },
+    {
+      "siteId": "block-blast-unblocked",
+      "term": "block blast unblocked",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "unknown",
+        "keywordId": "kw-d44ee32584558b2cda51",
+        "language": "unknown",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "block blast unblocked"
+      },
+      "query": "intitle:\"block blast unblocked\"",
+      "status": "observed",
+      "keywordId": "kw-f0a36fbc2ce7fd08ce78",
+      "intitle": 10,
+      "evidence": "raw/google-kw-f0a36fbc2ce7fd08ce78.json",
+      "observedAt": "2026-10-25T09:06:14.870393+00:00"
+    },
+    {
+      "siteId": "cluster-rush",
+      "term": "cluster rush",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "unknown",
+        "keywordId": "kw-7a90cffd5dc57e8ea03b",
+        "language": "unknown",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "cluster rush"
+      },
+      "query": "intitle:\"cluster rush\"",
+      "status": "observed",
+      "keywordId": "kw-7165b3fd3f5acf81bd14",
+      "intitle": 976,
+      "evidence": "raw/google-kw-7165b3fd3f5acf81bd14.json",
+      "observedAt": "2026-10-25T09:06:21.984611+00:00"
+    },
+    {
+      "siteId": "coreball",
+      "term": "coreball",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "US",
+        "keywordId": "kw-f8b1e50d9e8d50940f7d",
+        "language": "en",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "coreball"
+      },
+      "query": "intitle:\"coreball\"",
+      "status": "observed",
+      "keywordId": "kw-f8b1e50d9e8d50940f7d",
+      "intitle": 1510,
+      "evidence": "raw/google-kw-f8b1e50d9e8d50940f7d.json",
+      "observedAt": "2026-10-25T09:06:28.875986+00:00"
+    },
+    {
+      "siteId": "costcodle",
+      "term": "costcodle",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "unknown",
+        "keywordId": "kw-e3f44fc4d5db2ddc40ea",
+        "language": "unknown",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "costcodle"
+      },
+      "query": "intitle:\"costcodle\"",
+      "status": "observed",
+      "keywordId": "kw-009cbf1dce9b43adf82c",
+      "intitle": 536,
+      "evidence": "raw/google-kw-009cbf1dce9b43adf82c.json",
+      "observedAt": "2026-10-25T09:06:35.830901+00:00"
+    },
+    {
+      "siteId": "gulper-io",
+      "term": "gulper.io game",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "unknown",
+        "keywordId": "kw-58cafee7c88120a29efe",
+        "language": "unknown",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "gulper.io game"
+      },
+      "query": "intitle:\"gulper.io game\"",
+      "status": "observed",
+      "keywordId": "kw-50ff48f16b02f7554321",
+      "intitle": 10,
+      "evidence": "raw/google-kw-50ff48f16b02f7554321.json",
+      "observedAt": "2026-10-25T09:06:42.849670+00:00"
+    },
+    {
+      "siteId": "head-soccer-2026",
+      "term": "head soccer 2026",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "unknown",
+        "keywordId": "kw-db15679b6deebf6c3820",
+        "language": "unknown",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "head soccer 2026"
+      },
+      "query": "intitle:\"head soccer 2026\"",
+      "status": "observed",
+      "keywordId": "kw-d41c59ef6dce1ba78684",
+      "intitle": 1310,
+      "evidence": "raw/google-kw-d41c59ef6dce1ba78684.json",
+      "observedAt": "2026-10-25T09:06:50.286061+00:00"
+    },
+    {
+      "siteId": "krillion-unlimited",
+      "term": "krillion unlimited",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "unknown",
+        "keywordId": "kw-029d5c6f2a97479788cb",
+        "language": "unknown",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "krillion unlimited"
+      },
+      "query": "intitle:\"krillion unlimited\"",
+      "status": "observed",
+      "keywordId": "kw-12078588080da360358a",
+      "intitle": 520,
+      "evidence": "raw/google-kw-12078588080da360358a.json",
+      "observedAt": "2026-10-25T09:12:06.886451+00:00"
+    },
+    {
+      "siteId": "minute-cryptic-unlimited",
+      "term": "minute cryptic unlimited",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "US",
+        "keywordId": "kw-750b4869a66dd671b0ff",
+        "language": "en",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "minute cryptic unlimited"
+      },
+      "query": "intitle:\"minute cryptic unlimited\"",
+      "status": "observed",
+      "keywordId": "kw-750b4869a66dd671b0ff",
+      "intitle": 8,
+      "evidence": "raw/google-kw-750b4869a66dd671b0ff.json",
+      "observedAt": "2026-10-25T09:12:13.830707+00:00"
+    },
+    {
+      "siteId": "snow-rider-3d-unblocked",
+      "term": "snow rider 3d unblocked",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "US",
+        "keywordId": "kw-1ba7b5cb5f3b8f8c5e13",
+        "language": "en",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "snow rider 3d unblocked"
+      },
+      "query": "intitle:\"snow rider 3d unblocked\"",
+      "status": "observed",
+      "keywordId": "kw-1ba7b5cb5f3b8f8c5e13",
+      "intitle": 2010,
+      "evidence": "raw/google-kw-1ba7b5cb5f3b8f8c5e13.json",
+      "observedAt": "2026-10-25T09:12:20.724185+00:00"
+    },
+    {
+      "siteId": "spacebar-counter",
+      "term": "spacebar counter",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "US",
+        "keywordId": "kw-1c049d3efce6f91cba37",
+        "language": "en",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "spacebar counter"
+      },
+      "query": "intitle:\"spacebar counter\"",
+      "status": "observed",
+      "keywordId": "kw-1c049d3efce6f91cba37",
+      "intitle": 799,
+      "evidence": "raw/google-kw-1c049d3efce6f91cba37.json",
+      "observedAt": "2026-10-25T09:12:28.018609+00:00"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "database": "us",
+  "path": "/analytics/keywordoverview/bulk/",
+  "rows": [
+    {
+      "cells": [
+        "选择关键词",
+        "关键词",
+        "意图",
+        "搜索量",
+        "趋势",
+        "潜在流量",
+        "PKD %",
+        "KD (%)",
+        "CPC (USD)",
+        "竞争程度",
+        "SF",
+        "结果",
+        "已更新"
+      ],
+      "text": "选择关键词\n关键词\n意图\n搜索量\n趋势\nKD (%)\nCPC (USD)\nSF\n已更新"
+    },
+    {
+      "cells": [
+        "2048 cupcakes",
+        "2048 cupcakes",
+        "信息\nI",
+        "110,000",
+        "",
+        "不可用",
+        "不可用",
+        "28",
+        "0.00",
+        "0.33",
+        "7",
+        "111",
+        "1 个月"
+      ],
+      "text": "2048 cupcakes\n2048 cupcakes\n信息\nI\n110,000\n28\n0.00\n7\n1 个月"
+    },
+    {
+      "cells": [
+        "acceleration city",
+        "acceleration city",
+        "信息\nI",
+        "90,500",
+        "",
+        "不可用",
+        "不可用",
+        "12",
+        "0.00",
+        "0.33",
+        "9",
+        "44.7K",
+        "1 个月"
+      ],
+      "text": "acceleration city\nacceleration city\n信息\nI\n90,500\n12\n0.00\n9\n1 个月"
+    },
+    {
+      "cells": [
+        "coreball",
+        "coreball",
+        "信息\nI",
+        "49,500",
+        "",
+        "不可用",
+        "不可用",
+        "29",
+        "0.35",
+        "0.01",
+        "3",
+        "108",
+        "1 个月"
+      ],
+      "text": "coreball\ncoreball\n信息\nI\n49,500\n29\n0.35\n3\n1 个月"
+    },
+    {
+      "cells": [
+        "snow rider 3d unblocked",
+        "snow rider 3d unblocked",
+        "不可用",
+        "49,500",
+        "",
+        "不可用",
+        "不可用",
+        "16",
+        "0.00",
+        "0.33",
+        "6",
+        "83",
+        "4 周"
+      ],
+      "text": "snow rider 3d unblocked\nsnow rider 3d unblocked\n不可用\n49,500\n16\n0.00\n6\n4 周"
+    },
+    {
+      "cells": [
+        "block blast unblocked",
+        "block blast unblocked",
+        "信息\nI",
+        "22,200",
+        "",
+        "不可用",
+        "不可用",
+        "21",
+        "0.43",
+        "0.33",
+        "5",
+        "124",
+        "1 个月"
+      ],
+      "text": "block blast unblocked\nblock blast unblocked\n信息\nI\n22,200\n21\n0.43\n5\n1 个月"
+    },
+    {
+      "cells": [
+        "cluster rush",
+        "cluster rush",
+        "信息\nI",
+        "22,200",
+        "",
+        "不可用",
+        "不可用",
+        "8",
+        "0.00",
+        "0.33",
+        "6",
+        "89",
+        "1 个月"
+      ],
+      "text": "cluster rush\ncluster rush\n信息\nI\n22,200\n8\n0.00\n6\n1 个月"
+    },
+    {
+      "cells": [
+        "costcodle",
+        "costcodle",
+        "不可用",
+        "18,100",
+        "",
+        "不可用",
+        "不可用",
+        "23",
+        "0.00",
+        "0.33",
+        "6",
+        "74",
+        "1 个月"
+      ],
+      "text": "costcodle\ncostcodle\n不可用\n18,100\n23\n0.00\n6\n1 个月"
+    },
+    {
+      "cells": [
+        "head soccer 2026",
+        "head soccer 2026",
+        "信息\nI",
+        "18,100",
+        "",
+        "不可用",
+        "不可用",
+        "20",
+        "0.00",
+        "0.33",
+        "3",
+        "2.6K",
+        "1 个月"
+      ],
+      "text": "head soccer 2026\nhead soccer 2026\n信息\nI\n18,100\n20\n0.00\n3\n1 个月"
+    },
+    {
+      "cells": [
+        "spacebar counter",
+        "spacebar counter",
+        "不可用",
+        "5,400",
+        "",
+        "不可用",
+        "不可用",
+        "28",
+        "0.00",
+        "0.33",
+        "5",
+        "48",
+        "1 个月"
+      ],
+      "text": "spacebar counter\nspacebar counter\n不可用\n5,400\n28\n0.00\n5\n1 个月"
+    },
+    {
+      "cells": [
+        "minute cryptic unlimited",
+        "minute cryptic unlimited",
+        "信息\nI",
+        "2,900",
+        "",
+        "不可用",
+        "不可用",
+        "25",
+        "0.37",
+        "0.06",
+        "3",
+        "95.5K",
+        "4 周"
+      ],
+      "text": "minute cryptic unlimited\nminute cryptic unlimited\n信息\nI\n2,900\n25\n0.37\n3\n4 周"
+    },
+    {
+      "cells": [
+        "gulper.io game",
+        "gulper.io game",
+        "不可用",
+        "30",
+        "",
+        "不可用",
+        "不可用",
+        "不可用",
+        "0.00",
+        "0.33",
+        "",
+        "不可用",
+        "要更新指标数据，请刷新"
+      ],
+      "text": "gulper.io game\ngulper.io game\n不可用\n30\n不可用\n0.00\n要更新指标数据，请刷新"
+    },
+    {
+      "cells": [
+        "krillion unlimited",
+        "krillion unlimited",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "要更新指标数据，请刷新"
+      ],
+      "text": "krillion unlimited\nkrillion unlimited\n要更新指标数据，请刷新"
+    }
+  ],
+  "visibleText": "首页\nSEO\n关键词概览\n关键词研究课程\n用户手册\n发送反馈\n关键词概览:\n2048 cupcakes\n美国\nUSD\n概览\n批量分析\n关键词\n12/100\n清除全部\n1.\n2048 cupcakes\n2.\nacceleration city\n3.\nblock blast unblocked\n4.\ncluster rush\n5.\ncoreball\n6.\ncostcodle\n7.\ngulper.io game\n8.\nhead soccer 2026\n9.\nkrillion unlimited\n10.\nminute cryptic unlimited\n11.\nsnow rider 3d unblocked\n12.\nspacebar counter\n13.\n﻿\n\n示例\nloans, movies, how to buy audible books\n分析\n批量关键词分析\n12\n发送关键词\n选择关键词\n关键词\n意图\n搜索量\n趋势\nKD (%)\nCPC (USD)\nSF\n已更新\n已选定:\n0\n取消全选\n复制\n2048 cupcakes\n2048 cupcakes\n信息\nI\n110,000\n28\n0.00\n7\n1 个月\nacceleration city\nacceleration city\n信息\nI\n90,500\n12\n0.00\n9\n1 个月\ncoreball\ncoreball\n信息\nI\n49,500\n29\n0.35\n3\n1 个月\nsnow rider 3d unblocked\nsnow rider 3d unblocked\n不可用\n49,500\n16\n0.00\n6\n4 周\nblock blast unblocked\nblock blast unblocked\n信息\nI\n22,200\n21\n0.43\n5\n1 个月\ncluster rush\ncluster rush\n信息\nI\n22,200\n8\n0.00\n6\n1 个月\ncostcodle\ncostcodle\n不可用\n18,100\n23\n0.00\n6\n1 个月\nhead soccer 2026\nhead soccer 2026\n信息\nI\n18,100\n20\n0.00\n3\n1 个月\nspacebar counter\nspacebar counter\n不可用\n5,400\n28\n0.00\n5\n1 个月\nminute cryptic unlimited\nminute cryptic unlimited\n信息\nI\n2,900\n25\n0.37\n3\n4 周\ngulper.io game\ngulper.io game\n不可用\n30\n不可用\n0.00\n要更新指标数据，请刷新\nkrillion unlimited\nkrillion unlimited\n要更新指标数据，请刷新",
+  "observedAt": "2026-10-25T09:21:09.332687+00:00",
+  "sourcePage": "https://sem.3ue.com/analytics/keywordoverview/bulk/",
+  "sourceType": "User-provided free Semrush mirror; displayed estimates, not independently verified official live metrics"
+}

@@ -23,7 +23,7 @@ const siteStatus=s=>s.stage==='abandoned'?'abandoned':s.stage==='deployed'?'live
 function matchesSite(r,filter){return !filter||filter==='linked'&&r.sites.length>0||filter==='unlinked'&&!r.sites.length||r.sites.some(s=>s.id===filter);}
 function comparator(value){return(a,b)=>{const x=value(a),y=value(b);if(x==null||y==null)return x==null?(y==null?String(a.id).localeCompare(b.id):1):-1;const c=typeof x==='number'?x-y:String(x).localeCompare(String(y));return (direction==='asc'?c:-c)||String(a.id).localeCompare(b.id);};}
 function configureSort(){
-  const old=$('sort').value,options=[...(view==='sites'?[['createdAt','建站时间']]:[]),['batchDate','关键词批次时间'],['volume','Volume'],['kd','KD'],['intitle','intitle 数（竞争度）'],['ratio','竞争度 / Volume']];
+  const old=$('sort').value,options=[...(view==='sites'?[['createdAt','建站时间']]:[]),['batchDate','关键词批次时间'],['volume','Volume'],['kd','KD'],['intitle','intitle 标题页数'],['ratio','标题页数 / Volume']];
   $('sort').innerHTML=options.map(([v,n])=>`<option value="${v}">${n}</option>`).join('');
   if(options.some(([v])=>v===old))$('sort').value=old;
   $('direction').textContent=direction==='asc'?'升序 ↑':'降序 ↓';$('direction').setAttribute('aria-label',direction==='asc'?'切换为降序':'切换为升序');
@@ -43,7 +43,9 @@ function pagination(list){
   $('previous').onclick=()=>{page--;render();};$('next').onclick=()=>{page++;render();};
   return list.slice(page*size,(page+1)*size);
 }
-function metricCells(m){return `<td class="numeric">${fmt(m.volume)}</td><td class="numeric">${fmt(m.kd)}</td><td class="numeric">${fmt(m.intitle)}</td><td class="numeric">${ratio(m.ratio)}</td>`;}
+function metricCells(m,missingReason){
+  return ['volume','kd','intitle','ratio'].map(key=>`<td class="numeric"${m[key]==null&&missingReason?` title="${esc(key==='ratio'?'需要intitle数和大于0的Volume才能计算':missingReason)}"`:''}>${key==='ratio'?ratio(m[key]):fmt(m[key])}</td>`).join('');
+}
 function render(){
   if(!data)return;stats();configureSort();
   const labels={keywords:'关键词池',builds:'建站清单',sites:'网站目录'};
@@ -52,7 +54,7 @@ function render(){
   $('bulk').hidden=!(selected.size&&['keywords','builds'].includes(view));$('selected-count').textContent=`已选 ${selected.size} 个词`;$('export').hidden=view==='sites';
   if(view==='sites')return renderSites();if(view==='builds')return renderBuilds();
   rendered=rows();const slice=pagination(rendered);$('result-count').textContent=`${rendered.length} 个关键词`;
-  $('content').innerHTML=slice.length?`<table><thead><tr><th><input id="select-page" type="checkbox" aria-label="选择当前页" ${slice.every(r=>selected.has(r.id))?'checked':''}></th><th>关键词</th><th class="numeric">Volume</th><th class="numeric">KD</th><th class="numeric">intitle 数</th><th class="numeric">竞争度 / Volume</th><th>建站状态</th><th>站点与页面</th><th>批次时间</th><th></th></tr></thead><tbody>${slice.map(r=>`<tr><td><input type="checkbox" data-select="${r.id}" aria-label="选择 ${esc(r.term)}" ${selected.has(r.id)?'checked':''}></td><td><button class="term" data-keyword="${r.id}">${esc(r.term)}</button></td>${metricCells(r.metrics)}<td>${tag(r.keywordStatus)}</td><td>${r.sites.length?r.sites.map(s=>`<button class="term" data-site="${s.id}">${esc(s.name)}</button><small>${esc(s.page)}</small>`).join(''):'<span class="muted">未关联</span>'}</td><td class="date">${esc(r.batchDate||'未知')}</td><td><button class="edit-link" data-keyword="${r.id}">编辑</button></td></tr>`).join('')}</tbody></table>`:'<div class="empty">没有匹配的关键词</div>';
+  $('content').innerHTML=slice.length?`<table><thead><tr><th><input id="select-page" type="checkbox" aria-label="选择当前页" ${slice.every(r=>selected.has(r.id))?'checked':''}></th><th>关键词</th><th class="numeric">Volume</th><th class="numeric">KD</th><th class="numeric" title="Google标题匹配页面估算数，不是独立竞品网站数">intitle 页数</th><th class="numeric" title="标题匹配页数除以月搜索量；自定义粗筛参考，不是排名难度或成功概率">标题页数 / Volume</th><th>建站状态</th><th>站点与页面</th><th>批次时间</th><th></th></tr></thead><tbody>${slice.map(r=>`<tr><td><input type="checkbox" data-select="${r.id}" aria-label="选择 ${esc(r.term)}" ${selected.has(r.id)?'checked':''}></td><td><button class="term" data-keyword="${r.id}">${esc(r.term)}</button></td>${metricCells(r.metrics)}<td>${tag(r.keywordStatus)}</td><td>${r.sites.length?r.sites.map(s=>`<button class="term" data-site="${s.id}">${esc(s.name)}</button><small>${esc(s.page)}</small>`).join(''):'<span class="muted">未关联</span>'}</td><td class="date">${esc(r.batchDate||'未知')}</td><td><button class="edit-link" data-keyword="${r.id}">编辑</button></td></tr>`).join('')}</tbody></table>`:'<div class="empty">没有匹配的关键词</div>';
   if($('select-page'))$('select-page').onchange=e=>{slice.forEach(r=>choose(r.id,e.target.checked));render();};
   document.querySelectorAll('[data-select]').forEach(c=>c.onchange=()=>{choose(c.dataset.select,c.checked);render();});bindDetails();
 }
@@ -81,19 +83,21 @@ function sitePrimary(s){return s.keywordMappings.find(m=>m.role==='primary')||s.
 function siteKeyword(s){const m=sitePrimary(s);return data.keywords.find(r=>r.id===m?.keywordId);}
 function siteMetrics(s){const r=siteKeyword(s);if(r)return r.metrics;const m=sitePrimary(s)?.metrics||{};return {...m,ratio:m.intitle!=null&&m.volume?m.intitle/m.volume:null};}
 function siteBatchDate(s){return siteKeyword(s)?.batchDate||null;}
+function siteMetricReason(s){const r=siteKeyword(s);return r?(['volume','kd','intitle'].some(k=>r.metrics[k]==null)?'主词已关联关键词池；部分来源未提供可用值':'指标与关键词池共用同一记录'):'主词尚未纳入关键词池，不能套用其他词的指标';}
+function sitePrimaryLabel(s){return (sitePrimary(s)?.term||'未登记主词')+(siteKeyword(s)?'':' · 未入词池');}
 function renderSites(){
   const q=$('search').value.trim().toLowerCase(),status=$('status-filter').value,filter=$('site-filter').value;
   let list=data.sites.filter(s=>(!q||JSON.stringify([s.name,s.id,s.urls,s.source.repository,s.keywordMappings]).toLowerCase().includes(q))&&(!status||siteStatus(s)===status)&&(!filter||filter==='linked'&&s.keywordMappings.length||filter==='unlinked'&&!s.keywordMappings.length||s.id===filter));
   const key=$('sort').value;list.sort(comparator(s=>key==='createdAt'?s.createdAt||null:key==='batchDate'?siteBatchDate(s):siteMetrics(s)[key]));
   const slice=pagination(list);$('result-count').textContent=`${list.length} 个站点`;
-  $('content').innerHTML=list.length?`<table class="sites-table"><thead><tr><th>站点与关键词</th><th>站点 URL / 仓库</th><th class="numeric">Volume</th><th class="numeric">KD</th><th class="numeric">intitle 数</th><th class="numeric">竞争度 / Volume</th><th>建站状态</th><th>建站时间</th><th>关键词批次</th><th></th></tr></thead><tbody>${slice.map(s=>`<tr><td><button class="term" data-site="${s.id}">${esc(s.name)}</button><small>${esc(sitePrimary(s)?.term||'未关联关键词')}</small></td><td class="site-links">${urlLink(s.urls.production||s.urls.preview)}<small>${urlLink(s.source.repository,s.source.repository.split('/').at(-1))}</small></td>${metricCells(siteMetrics(s))}<td>${tag(siteStatus(s))}</td><td class="date">${esc(s.createdAt||'未知')}</td><td class="date">${esc(siteBatchDate(s)||'未知')}</td><td><button class="edit-link" data-site="${s.id}">编辑</button></td></tr>`).join('')}</tbody></table>`:'<div class="empty">没有匹配的站点</div>';bindDetails();
+  $('content').innerHTML=list.length?`<table class="sites-table"><thead><tr><th>站点与关键词</th><th>站点 URL / 仓库</th><th class="numeric">Volume</th><th class="numeric">KD</th><th class="numeric" title="Google标题匹配页面估算数，不是独立竞品网站数">intitle 页数</th><th class="numeric" title="标题匹配页数除以月搜索量；自定义粗筛参考，不是排名难度或成功概率">标题页数 / Volume</th><th>建站状态</th><th>建站时间</th><th>关键词批次</th><th></th></tr></thead><tbody>${slice.map(s=>`<tr><td><button class="term" data-site="${s.id}">${esc(s.name)}</button><small title="${esc(siteMetricReason(s))}">${esc(sitePrimaryLabel(s))}</small></td><td class="site-links">${urlLink(s.urls.production||s.urls.preview)}<small>${urlLink(s.source.repository,s.source.repository.split('/').at(-1))}</small></td>${metricCells(siteMetrics(s),siteMetricReason(s))}<td>${tag(siteStatus(s))}</td><td class="date"${!s.createdAt?' title="原始登记未明确记录建站日期"':''}>${esc(s.createdAt||'未记录')}</td><td class="date">${esc(siteBatchDate(s)||'未知')}</td><td><button class="edit-link" data-site="${s.id}">编辑</button></td></tr>`).join('')}</tbody></table>`:'<div class="empty">没有匹配的站点</div>';bindDetails();
 }
 
 function openDetail(html){$('dialog-status').textContent='';$('detail-content').innerHTML=html;if(!$('detail').open)$('detail').showModal();}
 function evidenceList(refs){return `<div>${refs.map(r=>`<div class="evidence"><code>${esc(r.path)}</code><p>${esc(r.note)}</p>${/^(research|deployments|data|docs)\//.test(r.path)?`<button data-evidence="${esc(r.path)}">读取原始证据</button>`:''}</div>`).join('')}</div>`;}
 function bindEvidence(){document.querySelectorAll('[data-evidence]').forEach(b=>b.onclick=async()=>{try{const res=await fetch('/api/evidence?path='+encodeURIComponent(b.dataset.evidence));const text=await res.text();const pre=document.createElement('pre');pre.textContent=text;b.parentElement.append(pre);b.disabled=true;}catch(e){message(e.message,true);}});}
 
-function metricForm(m,prefix){return ['volume','kd','intitle'].map(k=>`<label>${{volume:'Volume',kd:'KD',intitle:'intitle 数（竞争度）'}[k]}<input id="${prefix}-${k}" type="number" min="0" ${k==='kd'?'max="100" step="any"':'step="1"'} value="${esc(m[k]??'')}" placeholder="未知"></label>`).join('');}
+function metricForm(m,prefix){return ['volume','kd','intitle'].map(k=>`<label>${{volume:'Volume',kd:'KD',intitle:'intitle 标题页数'}[k]}<input id="${prefix}-${k}" type="number" min="0" ${k==='kd'?'max="100" step="any"':'step="1"'} value="${esc(m[k]??'')}" placeholder="未知"></label>`).join('');}
 function readMetrics(prefix){
   return Object.fromEntries(['volume','kd','intitle'].map(k=>{const input=$(prefix+'-'+k),text=input.value.trim();if(!input.checkValidity())throw Error('请检查 '+k+'：需填写非负数字，KD 范围为 0–100');return[k,text===''?null:Number(text)];}));
 }

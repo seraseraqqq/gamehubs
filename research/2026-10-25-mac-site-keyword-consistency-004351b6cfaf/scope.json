@@ -1,0 +1,210 @@
+{
+  "createdAt": "2026-10-25T08:53:52.933501+00:00",
+  "scope": "12 explicitly registered site primary keywords absent from the current research pool; do not merge the legacy 122-identity pool.",
+  "sites": [
+    {
+      "siteId": "2048-cupcakes",
+      "term": "2048 cupcakes",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "US",
+        "keywordId": "kw-00a8af79182809da7d78",
+        "language": "en",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "2048 cupcakes"
+      },
+      "query": "intitle:\"2048 cupcakes\"",
+      "status": "pending"
+    },
+    {
+      "siteId": "acceleration-city",
+      "term": "acceleration city",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "unknown",
+        "keywordId": "kw-d59316934af74d730639",
+        "language": "unknown",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "acceleration city"
+      },
+      "query": "intitle:\"acceleration city\"",
+      "status": "pending"
+    },
+    {
+      "siteId": "block-blast-unblocked",
+      "term": "block blast unblocked",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "unknown",
+        "keywordId": "kw-d44ee32584558b2cda51",
+        "language": "unknown",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "block blast unblocked"
+      },
+      "query": "intitle:\"block blast unblocked\"",
+      "status": "pending"
+    },
+    {
+      "siteId": "cluster-rush",
+      "term": "cluster rush",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "unknown",
+        "keywordId": "kw-7a90cffd5dc57e8ea03b",
+        "language": "unknown",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "cluster rush"
+      },
+      "query": "intitle:\"cluster rush\"",
+      "status": "pending"
+    },
+    {
+      "siteId": "coreball",
+      "term": "coreball",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "US",
+        "keywordId": "kw-f8b1e50d9e8d50940f7d",
+        "language": "en",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "coreball"
+      },
+      "query": "intitle:\"coreball\"",
+      "status": "pending"
+    },
+    {
+      "siteId": "costcodle",
+      "term": "costcodle",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "unknown",
+        "keywordId": "kw-e3f44fc4d5db2ddc40ea",
+        "language": "unknown",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "costcodle"
+      },
+      "query": "intitle:\"costcodle\"",
+      "status": "pending"
+    },
+    {
+      "siteId": "gulper-io",
+      "term": "gulper.io game",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "unknown",
+        "keywordId": "kw-58cafee7c88120a29efe",
+        "language": "unknown",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "gulper.io game"
+      },
+      "query": "intitle:\"gulper.io game\"",
+      "status": "pending"
+    },
+    {
+      "siteId": "head-soccer-2026",
+      "term": "head soccer 2026",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "unknown",
+        "keywordId": "kw-db15679b6deebf6c3820",
+        "language": "unknown",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "head soccer 2026"
+      },
+      "query": "intitle:\"head soccer 2026\"",
+      "status": "pending"
+    },
+    {
+      "siteId": "krillion-unlimited",
+      "term": "krillion unlimited",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "unknown",
+        "keywordId": "kw-029d5c6f2a97479788cb",
+        "language": "unknown",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "krillion unlimited"
+      },
+      "query": "intitle:\"krillion unlimited\"",
+      "status": "pending"
+    },
+    {
+      "siteId": "minute-cryptic-unlimited",
+      "term": "minute cryptic unlimited",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "US",
+        "keywordId": "kw-750b4869a66dd671b0ff",
+        "language": "en",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "minute cryptic unlimited"
+      },
+      "query": "intitle:\"minute cryptic unlimited\"",
+      "status": "pending"
+    },
+    {
+      "siteId": "snow-rider-3d-unblocked",
+      "term": "snow rider 3d unblocked",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "US",
+        "keywordId": "kw-1ba7b5cb5f3b8f8c5e13",
+        "language": "en",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "snow rider 3d unblocked"
+      },
+      "query": "intitle:\"snow rider 3d unblocked\"",
+      "status": "pending"
+    },
+    {
+      "siteId": "spacebar-counter",
+      "term": "spacebar counter",
+      "country": "US",
+      "language": "en",
+      "originalMapping": {
+        "country": "US",
+        "keywordId": "kw-1c049d3efce6f91cba37",
+        "language": "en",
+        "page": "/",
+        "poolLinked": false,
+        "role": "primary",
+        "term": "spacebar counter"
+      },
+      "query": "intitle:\"spacebar counter\"",
+      "status": "pending"
+    }
+  ]
+}

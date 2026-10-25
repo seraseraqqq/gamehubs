@@ -1,0 +1,3176 @@
+{
+  "batchId": "2026-10-25-mac-intitle-e22912c8df39",
+  "createdAt": "2026-10-25T07:41:50.887592+00:00",
+  "scope": "Existing keyword pool: exact-phrase Google intitle enrichment only; no volume/KD/qualification or human-decision changes.",
+  "queryParameters": {
+    "gl": "us",
+    "hl": "en",
+    "pws": "0"
+  },
+  "physicalUSLocationVerified": false,
+  "keywords": [
+    {
+      "keywordId": "kw-02a15ef568b989792bc8",
+      "term": "2v2io",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 49500,
+        "kd": 31,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"2v2io\"",
+      "status": "observed",
+      "intitle": 155,
+      "evidence": "raw/kw-02a15ef568b989792bc8.json",
+      "observedAt": "2026-10-25T07:44:59.597014+00:00"
+    },
+    {
+      "keywordId": "kw-6db7b3c3867aefa5a4f6",
+      "term": "67 clicker",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 49500,
+        "kd": 35,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"67 clicker\"",
+      "status": "observed",
+      "intitle": 1630,
+      "evidence": "raw/kw-6db7b3c3867aefa5a4f6.json",
+      "observedAt": "2026-10-25T07:45:04.125979+00:00"
+    },
+    {
+      "keywordId": "kw-0340639b770a0847a1fe",
+      "term": "baseball bros",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 165000,
+        "kd": 35,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"baseball bros\"",
+      "status": "observed",
+      "intitle": 4210,
+      "evidence": "raw/kw-0340639b770a0847a1fe.json",
+      "observedAt": "2026-10-25T07:45:08.612126+00:00"
+    },
+    {
+      "keywordId": "kw-beac6c999826f9f7ee6f",
+      "term": "baseball random",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 590,
+        "kd": 60,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"baseball random\"",
+      "status": "observed",
+      "intitle": 618,
+      "evidence": "raw/kw-beac6c999826f9f7ee6f.json",
+      "observedAt": "2026-10-25T07:45:13.267535+00:00"
+    },
+    {
+      "keywordId": "kw-a05edd9157965301e224",
+      "term": "basket bros",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 49500,
+        "kd": 44,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"basket bros\"",
+      "status": "observed",
+      "intitle": 1390,
+      "evidence": "raw/kw-a05edd9157965301e224.json",
+      "observedAt": "2026-10-25T07:45:25.861804+00:00"
+    },
+    {
+      "keywordId": "kw-bca151b9f03398420e74",
+      "term": "basket random",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 165000,
+        "kd": 60,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"basket random\"",
+      "status": "observed",
+      "intitle": 17800,
+      "evidence": "raw/kw-bca151b9f03398420e74.json",
+      "observedAt": "2026-10-25T07:45:29.578730+00:00"
+    },
+    {
+      "keywordId": "kw-5dba1a4c873783553d2b",
+      "term": "basketball stars",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 201000,
+        "kd": 89,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"basketball stars\"",
+      "status": "observed",
+      "intitle": 54600,
+      "evidence": "raw/kw-5dba1a4c873783553d2b.json",
+      "observedAt": "2026-10-25T07:45:34.171630+00:00"
+    },
+    {
+      "keywordId": "kw-4d0dc38fed860c57b4b2",
+      "term": "best browser game",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 320,
+        "kd": 64,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"best browser game\"",
+      "status": "observed",
+      "intitle": 851,
+      "evidence": "raw/kw-4d0dc38fed860c57b4b2.json",
+      "observedAt": "2026-10-25T07:45:38.575935+00:00"
+    },
+    {
+      "keywordId": "kw-c12b920b6daeaf21998f",
+      "term": "bike hero",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 14800,
+        "kd": 38,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"bike hero\"",
+      "status": "observed",
+      "intitle": 50800,
+      "evidence": "raw/kw-c12b920b6daeaf21998f.json",
+      "observedAt": "2026-10-25T07:45:43.213947+00:00"
+    },
+    {
+      "keywordId": "kw-9930733a1b321dba5aee",
+      "term": "boxing bros",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 6600,
+        "kd": 25,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"boxing bros\"",
+      "status": "observed",
+      "intitle": 331,
+      "evidence": "raw/kw-9930733a1b321dba5aee.json",
+      "observedAt": "2026-10-25T07:47:09.091613+00:00"
+    },
+    {
+      "keywordId": "kw-95c73b019d2ca5120ddd",
+      "term": "boxing random",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 9900,
+        "kd": 19,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"boxing random\"",
+      "status": "observed",
+      "intitle": 1940,
+      "evidence": "raw/kw-95c73b019d2ca5120ddd.json",
+      "observedAt": "2026-10-25T07:47:13.857391+00:00"
+    },
+    {
+      "keywordId": "kw-fa8270f85edb1258aae3",
+      "term": "boxing random game",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 110,
+        "kd": 34,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"boxing random game\"",
+      "status": "observed",
+      "intitle": 35,
+      "evidence": "raw/kw-fa8270f85edb1258aae3.json",
+      "observedAt": "2026-10-25T07:47:18.074522+00:00"
+    },
+    {
+      "keywordId": "kw-96571fd7ca2e3f94fd38",
+      "term": "bracket city",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 135000,
+        "kd": 38,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"bracket city\"",
+      "status": "observed",
+      "intitle": 1750,
+      "evidence": "raw/kw-96571fd7ca2e3f94fd38.json",
+      "observedAt": "2026-10-25T07:47:22.593037+00:00"
+    },
+    {
+      "keywordId": "kw-21f144ef10e5bd2f9cea",
+      "term": "brainrot clicker",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 40500,
+        "kd": 39,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"brainrot clicker\"",
+      "status": "observed",
+      "intitle": 4650,
+      "evidence": "raw/kw-21f144ef10e5bd2f9cea.json",
+      "observedAt": "2026-10-25T07:47:27.620975+00:00"
+    },
+    {
+      "keywordId": "kw-6a7e8bc3b51793bb8630",
+      "term": "bullseye game",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 2400,
+        "kd": 12,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"bullseye game\"",
+      "status": "observed",
+      "intitle": 1250,
+      "evidence": "raw/kw-6a7e8bc3b51793bb8630.json",
+      "observedAt": "2026-10-25T07:47:32.271321+00:00"
+    },
+    {
+      "keywordId": "kw-1c9b80f1f8cfffaa92a3",
+      "term": "candy clicker",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 27100,
+        "kd": 40,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"candy clicker\"",
+      "status": "observed",
+      "intitle": 5330,
+      "evidence": "raw/kw-1c9b80f1f8cfffaa92a3.json",
+      "observedAt": "2026-10-25T07:47:36.719787+00:00"
+    },
+    {
+      "keywordId": "kw-87ff43f572970913390e",
+      "term": "color run game",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 390,
+        "kd": 21,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"color run game\"",
+      "status": "observed",
+      "intitle": 149,
+      "evidence": "raw/kw-87ff43f572970913390e.json",
+      "observedAt": "2026-10-25T07:47:41.186065+00:00"
+    },
+    {
+      "keywordId": "kw-bb6cda6893927d29cbc8",
+      "term": "color rush game",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 4400,
+        "kd": 4,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"color rush game\"",
+      "status": "observed",
+      "intitle": 960,
+      "evidence": "raw/kw-bb6cda6893927d29cbc8.json",
+      "observedAt": "2026-10-25T07:47:45.669691+00:00"
+    },
+    {
+      "keywordId": "kw-534084c658d60e7ff0d0",
+      "term": "colordle",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 74000,
+        "kd": 25,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"colordle\"",
+      "status": "observed",
+      "intitle": 1500,
+      "evidence": "raw/kw-534084c658d60e7ff0d0.json",
+      "observedAt": "2026-10-25T07:47:49.798930+00:00"
+    },
+    {
+      "keywordId": "kw-abf456a95e194a118d00",
+      "term": "contexto",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 450000,
+        "kd": 50,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"contexto\"",
+      "status": "observed",
+      "intitle": 2540000,
+      "evidence": "raw/kw-abf456a95e194a118d00.json",
+      "observedAt": "2026-10-25T07:47:53.488777+00:00"
+    },
+    {
+      "keywordId": "kw-2565dd9e7063220dd941",
+      "term": "crossy road",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 165000,
+        "kd": 90,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"crossy road\"",
+      "status": "observed",
+      "intitle": 116000,
+      "evidence": "raw/kw-2565dd9e7063220dd941.json",
+      "observedAt": "2026-10-25T07:47:57.918207+00:00"
+    },
+    {
+      "keywordId": "kw-8eaded613b5330e1e3f9",
+      "term": "curve rush",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 74000,
+        "kd": 49,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"curve rush\"",
+      "status": "observed",
+      "intitle": 978,
+      "evidence": "raw/kw-8eaded613b5330e1e3f9.json",
+      "observedAt": "2026-10-25T07:48:02.111570+00:00"
+    },
+    {
+      "keywordId": "kw-30dd71429a06f6422e7f",
+      "term": "curve rush 2",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 27100,
+        "kd": 15,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"curve rush 2\"",
+      "status": "observed",
+      "intitle": 253,
+      "evidence": "raw/kw-30dd71429a06f6422e7f.json",
+      "observedAt": "2026-10-25T07:48:05.746154+00:00"
+    },
+    {
+      "keywordId": "kw-a547207062167aae1ebb",
+      "term": "cutle",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 12100,
+        "kd": 8,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"cutle\"",
+      "status": "observed",
+      "intitle": 3980,
+      "evidence": "raw/kw-a547207062167aae1ebb.json",
+      "observedAt": "2026-10-25T07:44:55.693478+00:00"
+    },
+    {
+      "keywordId": "kw-4edfbbec0d6bc503b702",
+      "term": "daily games",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 14800,
+        "kd": 62,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"daily games\"",
+      "status": "observed",
+      "intitle": 20100,
+      "evidence": "raw/kw-4edfbbec0d6bc503b702.json",
+      "observedAt": "2026-10-25T07:48:10.034760+00:00"
+    },
+    {
+      "keywordId": "kw-1f10376c3689c811ed7d",
+      "term": "dashmetry",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 90500,
+        "kd": 16,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"dashmetry\"",
+      "status": "observed",
+      "intitle": 1920,
+      "evidence": "raw/kw-1f10376c3689c811ed7d.json",
+      "observedAt": "2026-10-25T07:48:14.205843+00:00"
+    },
+    {
+      "keywordId": "kw-b09c89d779c8394cc876",
+      "term": "dashmetry.io",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 1300,
+        "kd": 15,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"dashmetry.io\"",
+      "status": "observed",
+      "intitle": 1,
+      "evidence": "raw/kw-b09c89d779c8394cc876.json",
+      "observedAt": "2026-10-25T07:48:18.429902+00:00"
+    },
+    {
+      "keywordId": "kw-b11dfcb5b9c9c8d01c6d",
+      "term": "dinosaur game",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 673000,
+        "kd": 32,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"dinosaur game\"",
+      "status": "observed",
+      "intitle": 75600,
+      "evidence": "raw/kw-b11dfcb5b9c9c8d01c6d.json",
+      "observedAt": "2026-10-25T07:48:22.695810+00:00"
+    },
+    {
+      "keywordId": "kw-f091318c0803205af7ec",
+      "term": "drift boss",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 1830000,
+        "kd": 60,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"drift boss\"",
+      "status": "observed",
+      "intitle": 35100,
+      "evidence": "raw/kw-f091318c0803205af7ec.json",
+      "observedAt": "2026-10-25T07:48:27.239040+00:00"
+    },
+    {
+      "keywordId": "kw-537a6b7b4505371820bc",
+      "term": "drift boss game",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 22200,
+        "kd": 55,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"drift boss game\"",
+      "status": "observed",
+      "intitle": 508,
+      "evidence": "raw/kw-537a6b7b4505371820bc.json",
+      "observedAt": "2026-10-25T07:48:31.908967+00:00"
+    },
+    {
+      "keywordId": "kw-d9b44b47a5d3a84fad91",
+      "term": "drift hunters",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 135000,
+        "kd": 68,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"drift hunters\"",
+      "status": "observed",
+      "intitle": 16900,
+      "evidence": "raw/kw-d9b44b47a5d3a84fad91.json",
+      "observedAt": "2026-10-25T07:48:36.271365+00:00"
+    },
+    {
+      "keywordId": "kw-48d350c04ae04071df3a",
+      "term": "drift hunters unblock",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 50,
+        "kd": 29,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"drift hunters unblock\"",
+      "status": "observed",
+      "intitle": 9,
+      "evidence": "raw/kw-48d350c04ae04071df3a.json",
+      "observedAt": "2026-10-25T07:48:40.586379+00:00"
+    },
+    {
+      "keywordId": "kw-50525c834e956ca2131b",
+      "term": "drive mad",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 301000,
+        "kd": 64,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"drive mad\"",
+      "status": "observed",
+      "intitle": 66200,
+      "evidence": "raw/kw-50525c834e956ca2131b.json",
+      "observedAt": "2026-10-25T07:48:45.221380+00:00"
+    },
+    {
+      "keywordId": "kw-3a5fa12f95f11dfd3819",
+      "term": "duck life 10",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 480,
+        "kd": 30,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"duck life 10\"",
+      "status": "observed",
+      "intitle": 88,
+      "evidence": "raw/kw-3a5fa12f95f11dfd3819.json",
+      "observedAt": "2026-10-25T07:48:55.793651+00:00"
+    },
+    {
+      "keywordId": "kw-0e22c2620e82b325f1c6",
+      "term": "duck life 4",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 27100,
+        "kd": 54,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"duck life 4\"",
+      "status": "observed",
+      "intitle": 5390,
+      "evidence": "raw/kw-0e22c2620e82b325f1c6.json",
+      "observedAt": "2026-10-25T07:48:59.944401+00:00"
+    },
+    {
+      "keywordId": "kw-e96d2983707349b606e1",
+      "term": "duck life 4 mathplayground",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 90,
+        "kd": 35,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"duck life 4 mathplayground\"",
+      "status": "observed",
+      "intitle": 2,
+      "evidence": "raw/kw-e96d2983707349b606e1.json",
+      "observedAt": "2026-10-25T07:49:03.533594+00:00"
+    },
+    {
+      "keywordId": "kw-b053c95a8b385d06d13d",
+      "term": "eggy car",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 135000,
+        "kd": 53,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"eggy car\"",
+      "status": "observed",
+      "intitle": 8900,
+      "evidence": "raw/kw-b053c95a8b385d06d13d.json",
+      "observedAt": "2026-10-25T07:49:07.087518+00:00"
+    },
+    {
+      "keywordId": "kw-ae9a8ca3194f36e5a406",
+      "term": "electron dash",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 40500,
+        "kd": 34,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"electron dash\"",
+      "status": "observed",
+      "intitle": 999,
+      "evidence": "raw/kw-ae9a8ca3194f36e5a406.json",
+      "observedAt": "2026-10-25T07:49:11.643231+00:00"
+    },
+    {
+      "keywordId": "kw-41cf7c2ef1797fc7b8e2",
+      "term": "electron dash math playground game",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 70,
+        "kd": 21,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"electron dash math playground game\"",
+      "status": "observed",
+      "intitle": 0,
+      "evidence": "raw/kw-41cf7c2ef1797fc7b8e2.json",
+      "observedAt": "2026-10-25T07:49:15.184601+00:00"
+    },
+    {
+      "keywordId": "kw-ef2920674470fb0dfeaa",
+      "term": "elementle",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 210,
+        "kd": 5,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"elementle\"",
+      "status": "observed",
+      "intitle": 1040,
+      "evidence": "raw/kw-ef2920674470fb0dfeaa.json",
+      "observedAt": "2026-10-25T07:49:19.448532+00:00"
+    },
+    {
+      "keywordId": "kw-ac7efec507868cb873d3",
+      "term": "flag guesser",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 9900,
+        "kd": 41,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"flag guesser\"",
+      "status": "observed",
+      "intitle": 384,
+      "evidence": "raw/kw-ac7efec507868cb873d3.json",
+      "observedAt": "2026-10-25T07:49:59.885260+00:00"
+    },
+    {
+      "keywordId": "kw-51245c407af45f2bbe61",
+      "term": "flag guessing game",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 3600,
+        "kd": 43,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"flag guessing game\"",
+      "status": "observed",
+      "intitle": 482,
+      "evidence": "raw/kw-51245c407af45f2bbe61.json",
+      "observedAt": "2026-10-25T07:50:05.646416+00:00"
+    },
+    {
+      "keywordId": "kw-fe8174d2ac015d733351",
+      "term": "flagle",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 74000,
+        "kd": 60,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"flagle\"",
+      "status": "observed",
+      "intitle": 5560,
+      "evidence": "raw/kw-fe8174d2ac015d733351.json",
+      "observedAt": "2026-10-25T07:50:09.551009+00:00"
+    },
+    {
+      "keywordId": "kw-241a8c3fe1466730225d",
+      "term": "flagpie",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 1300,
+        "kd": 28,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"flagpie\"",
+      "status": "observed",
+      "intitle": 465,
+      "evidence": "raw/kw-241a8c3fe1466730225d.json",
+      "observedAt": "2026-10-25T07:50:13.938602+00:00"
+    },
+    {
+      "keywordId": "kw-452fd06123f501fc6437",
+      "term": "fnf",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 450000,
+        "kd": 91,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"fnf\"",
+      "status": "observed",
+      "intitle": 3600000,
+      "evidence": "raw/kw-452fd06123f501fc6437.json",
+      "observedAt": "2026-10-25T07:50:18.386490+00:00"
+    },
+    {
+      "keywordId": "kw-61416edbe4afb4cb29a8",
+      "term": "football bros",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 368000,
+        "kd": 50,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"football bros\"",
+      "status": "observed",
+      "intitle": 4640,
+      "evidence": "raw/kw-61416edbe4afb4cb29a8.json",
+      "observedAt": "2026-10-25T07:50:22.604207+00:00"
+    },
+    {
+      "keywordId": "kw-4cc3d61ab0d79b21550b",
+      "term": "football random",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 1300,
+        "kd": 24,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"football random\"",
+      "status": "observed",
+      "intitle": 1150,
+      "evidence": "raw/kw-4cc3d61ab0d79b21550b.json",
+      "observedAt": "2026-10-25T07:50:27.578414+00:00"
+    },
+    {
+      "keywordId": "kw-4ca4f00a480fda91fa32",
+      "term": "geodle",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 2400,
+        "kd": 15,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"geodle\"",
+      "status": "observed",
+      "intitle": 1310,
+      "evidence": "raw/kw-4ca4f00a480fda91fa32.json",
+      "observedAt": "2026-10-25T07:53:56.324739+00:00",
+      "previousFailureEvidence": "raw/blocked-kw-4ca4f00a480fda91fa32.json"
+    },
+    {
+      "keywordId": "kw-cd5f3c4463b214e26d95",
+      "term": "geography games",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 27100,
+        "kd": 71,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"geography games\"",
+      "status": "observed",
+      "intitle": 35900,
+      "evidence": "raw/kw-cd5f3c4463b214e26d95.json",
+      "observedAt": "2026-10-25T07:54:01.573013+00:00"
+    },
+    {
+      "keywordId": "kw-5b461be4415afba92397",
+      "term": "geometry dash free",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 12100,
+        "kd": 73,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"geometry dash free\"",
+      "status": "observed",
+      "intitle": 2130,
+      "evidence": "raw/kw-5b461be4415afba92397.json",
+      "observedAt": "2026-10-25T07:54:07.190467+00:00"
+    },
+    {
+      "keywordId": "kw-2268592f205d50b7b5fe",
+      "term": "geometry dash lite",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 368000,
+        "kd": 75,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"geometry dash lite\"",
+      "status": "observed",
+      "intitle": 50300,
+      "evidence": "raw/kw-2268592f205d50b7b5fe.json",
+      "observedAt": "2026-10-25T07:54:12.512515+00:00"
+    },
+    {
+      "keywordId": "kw-d972868c1441bb96a2df",
+      "term": "geometry game",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 8100,
+        "kd": 29,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"geometry game\"",
+      "status": "observed",
+      "intitle": 3780,
+      "evidence": "raw/kw-d972868c1441bb96a2df.json",
+      "observedAt": "2026-10-25T07:54:17.587258+00:00"
+    },
+    {
+      "keywordId": "kw-45b48ee35153ff580774",
+      "term": "getaway shootout",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 33100,
+        "kd": 43,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"getaway shootout\"",
+      "status": "observed",
+      "intitle": 10200,
+      "evidence": "raw/kw-45b48ee35153ff580774.json",
+      "observedAt": "2026-10-25T07:54:22.772604+00:00"
+    },
+    {
+      "keywordId": "kw-5de52beab1bf8b945bdf",
+      "term": "globle",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 246000,
+        "kd": 52,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"globle\"",
+      "status": "observed",
+      "intitle": 45300,
+      "evidence": "raw/kw-5de52beab1bf8b945bdf.json",
+      "observedAt": "2026-10-25T07:54:27.973273+00:00"
+    },
+    {
+      "keywordId": "kw-5a91b9d54646d598660a",
+      "term": "globle game",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 12100,
+        "kd": 32,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"globle game\"",
+      "status": "observed",
+      "intitle": 507,
+      "evidence": "raw/kw-5a91b9d54646d598660a.json",
+      "observedAt": "2026-10-25T07:54:32.938744+00:00"
+    },
+    {
+      "keywordId": "kw-650b40c20d4f6e063158",
+      "term": "halo browser game",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 20,
+        "kd": null,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"halo browser game\"",
+      "status": "observed",
+      "intitle": 3,
+      "evidence": "raw/kw-650b40c20d4f6e063158.json",
+      "observedAt": "2026-10-25T07:54:38.739671+00:00"
+    },
+    {
+      "keywordId": "kw-a32133311499e2b9e6d7",
+      "term": "horsle",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 18100,
+        "kd": 10,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"horsle\"",
+      "status": "observed",
+      "intitle": 711,
+      "evidence": "raw/kw-a32133311499e2b9e6d7.json",
+      "observedAt": "2026-10-25T07:54:43.517792+00:00"
+    },
+    {
+      "keywordId": "kw-4a4ac6143ebac022eb66",
+      "term": "idle breakout",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 49500,
+        "kd": 67,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"idle breakout\"",
+      "status": "observed",
+      "intitle": 6700,
+      "evidence": "raw/kw-4a4ac6143ebac022eb66.json",
+      "observedAt": "2026-10-25T07:54:48.353512+00:00"
+    },
+    {
+      "keywordId": "kw-3af10a4312227ae7779e",
+      "term": "idle breakout mobile",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 50,
+        "kd": 51,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"idle breakout mobile\"",
+      "status": "observed",
+      "intitle": 0,
+      "evidence": "raw/kw-3af10a4312227ae7779e.json",
+      "observedAt": "2026-10-25T07:54:52.882714+00:00"
+    },
+    {
+      "keywordId": "kw-0f26d65ed1c8f61f7d1a",
+      "term": "idle breakout strategy",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 70,
+        "kd": 32,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"idle breakout strategy\"",
+      "status": "observed",
+      "intitle": 3,
+      "evidence": "raw/kw-0f26d65ed1c8f61f7d1a.json",
+      "observedAt": "2026-10-25T07:54:57.501741+00:00"
+    },
+    {
+      "keywordId": "kw-1e9900be20c0c3800be1",
+      "term": "kart bros",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 165000,
+        "kd": 29,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"kart bros\"",
+      "status": "observed",
+      "intitle": 2110,
+      "evidence": "raw/kw-1e9900be20c0c3800be1.json",
+      "observedAt": "2026-10-25T07:55:02.940849+00:00"
+    },
+    {
+      "keywordId": "kw-eb31c3903a41e75eae4b",
+      "term": "low's adventures 3",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 2900,
+        "kd": 25,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"low's adventures 3\"",
+      "status": "observed",
+      "intitle": 107,
+      "evidence": "raw/kw-eb31c3903a41e75eae4b.json",
+      "observedAt": "2026-10-25T07:55:08.122584+00:00"
+    },
+    {
+      "keywordId": "kw-6601759312774dad5a1b",
+      "term": "map tap",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 27100,
+        "kd": 36,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"map tap\"",
+      "status": "observed",
+      "intitle": 2940,
+      "evidence": "raw/kw-6601759312774dad5a1b.json",
+      "observedAt": "2026-10-25T07:55:12.782551+00:00"
+    },
+    {
+      "keywordId": "kw-fe05e9cfa75f5ff04ec6",
+      "term": "maptap",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 40500,
+        "kd": 31,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"maptap\"",
+      "status": "observed",
+      "intitle": 13100,
+      "evidence": "raw/kw-fe05e9cfa75f5ff04ec6.json",
+      "observedAt": "2026-10-25T07:55:17.377452+00:00"
+    },
+    {
+      "keywordId": "kw-9a0949f13f7f0eee9c42",
+      "term": "mathplayground duck life",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 0,
+        "kd": null,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"mathplayground duck life\"",
+      "status": "observed",
+      "intitle": 2,
+      "evidence": "raw/kw-9a0949f13f7f0eee9c42.json",
+      "observedAt": "2026-10-25T07:55:23.114299+00:00"
+    },
+    {
+      "keywordId": "kw-a653eca7f40be3f74e49",
+      "term": "mathplayground electron dash",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 2400,
+        "kd": 27,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"mathplayground electron dash\"",
+      "status": "observed",
+      "intitle": 1,
+      "evidence": "raw/kw-a653eca7f40be3f74e49.json",
+      "observedAt": "2026-10-25T07:55:28.127638+00:00"
+    },
+    {
+      "keywordId": "kw-87edb316733c6d0f33a6",
+      "term": "metazooa",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 12100,
+        "kd": 23,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"metazooa\"",
+      "status": "observed",
+      "intitle": 1490,
+      "evidence": "raw/kw-87edb316733c6d0f33a6.json",
+      "observedAt": "2026-10-25T07:55:34.228287+00:00"
+    },
+    {
+      "keywordId": "kw-51f2f1adb0e1abcb2644",
+      "term": "murdle",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 49500,
+        "kd": 46,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"murdle\"",
+      "status": "observed",
+      "intitle": 54500,
+      "evidence": "raw/kw-51f2f1adb0e1abcb2644.json",
+      "observedAt": "2026-10-25T07:55:39.030966+00:00"
+    },
+    {
+      "keywordId": "kw-9c300e0cee653d4d48b3",
+      "term": "ovo game",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 165000,
+        "kd": 57,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"ovo game\"",
+      "status": "observed",
+      "intitle": 13400,
+      "evidence": "raw/kw-9c300e0cee653d4d48b3.json",
+      "observedAt": "2026-10-25T07:55:44.253544+00:00"
+    },
+    {
+      "keywordId": "kw-ef0d191651efceed4585",
+      "term": "pips",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 550000,
+        "kd": 70,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"pips\"",
+      "status": "observed",
+      "intitle": 401000,
+      "evidence": "raw/kw-ef0d191651efceed4585.json",
+      "observedAt": "2026-10-25T07:55:49.802518+00:00"
+    },
+    {
+      "keywordId": "kw-bd3388cfb5a4741f34f0",
+      "term": "planet clicker",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 90500,
+        "kd": 40,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"planet clicker\"",
+      "status": "observed",
+      "intitle": 3290,
+      "evidence": "raw/kw-bd3388cfb5a4741f34f0.json",
+      "observedAt": "2026-10-25T07:55:55.339196+00:00"
+    },
+    {
+      "keywordId": "kw-fe9fabc9010b69cbcb73",
+      "term": "poetl",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 27100,
+        "kd": 29,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"poetl\"",
+      "status": "observed",
+      "intitle": 759,
+      "evidence": "raw/kw-fe9fabc9010b69cbcb73.json",
+      "observedAt": "2026-10-25T07:56:00.284746+00:00"
+    },
+    {
+      "keywordId": "kw-aba0e5dc9fdc7ab5728d",
+      "term": "polytrack",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 368000,
+        "kd": 64,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"polytrack\"",
+      "status": "observed",
+      "intitle": 15700,
+      "evidence": "raw/kw-aba0e5dc9fdc7ab5728d.json",
+      "observedAt": "2026-10-25T07:56:04.931027+00:00"
+    },
+    {
+      "keywordId": "kw-34020416e5ed9a7ad2f2",
+      "term": "poople",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 33100,
+        "kd": 26,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"poople\"",
+      "status": "observed",
+      "intitle": 6460,
+      "evidence": "raw/kw-34020416e5ed9a7ad2f2.json",
+      "observedAt": "2026-10-25T07:56:10.130437+00:00"
+    },
+    {
+      "keywordId": "kw-0b94fb61bd8b0e1398cd",
+      "term": "poor bunny",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 135000,
+        "kd": 39,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"poor bunny\"",
+      "status": "observed",
+      "intitle": 6860,
+      "evidence": "raw/kw-0b94fb61bd8b0e1398cd.json",
+      "observedAt": "2026-10-25T07:56:14.827293+00:00"
+    },
+    {
+      "keywordId": "kw-bf6671f44d4d3e14fddf",
+      "term": "poor bunny poki",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 5400,
+        "kd": 55,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"poor bunny poki\"",
+      "status": "observed",
+      "intitle": 3,
+      "evidence": "raw/kw-bf6671f44d4d3e14fddf.json",
+      "observedAt": "2026-10-25T07:56:19.810934+00:00"
+    },
+    {
+      "keywordId": "kw-6f787a5b1ca576801b5b",
+      "term": "puppet hockey",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 33100,
+        "kd": 38,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"puppet hockey\"",
+      "status": "observed",
+      "intitle": 1920,
+      "evidence": "raw/kw-6f787a5b1ca576801b5b.json",
+      "observedAt": "2026-10-25T07:56:25.339020+00:00"
+    },
+    {
+      "keywordId": "kw-9de0b230135e7178ab6e",
+      "term": "quordle",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 1830000,
+        "kd": 68,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"quordle\"",
+      "status": "observed",
+      "intitle": 31900,
+      "evidence": "raw/kw-9de0b230135e7178ab6e.json",
+      "observedAt": "2026-10-25T07:56:30.604546+00:00"
+    },
+    {
+      "keywordId": "kw-aca3b8de862431ded5a5",
+      "term": "ragdoll archers",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 74000,
+        "kd": 51,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"ragdoll archers\"",
+      "status": "observed",
+      "intitle": 5220,
+      "evidence": "raw/kw-aca3b8de862431ded5a5.json",
+      "observedAt": "2026-10-25T07:56:35.403491+00:00"
+    },
+    {
+      "keywordId": "kw-76fa13758c63e40f2a02",
+      "term": "ragdoll hit",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 90500,
+        "kd": 45,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"ragdoll hit\"",
+      "status": "observed",
+      "intitle": 7300,
+      "evidence": "raw/kw-76fa13758c63e40f2a02.json",
+      "observedAt": "2026-10-25T07:56:40.840577+00:00"
+    },
+    {
+      "keywordId": "kw-e68d914fcc999d30bf67",
+      "term": "rocket goal",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 60500,
+        "kd": 56,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"rocket goal\"",
+      "status": "observed",
+      "intitle": 7300,
+      "evidence": "raw/kw-e68d914fcc999d30bf67.json",
+      "observedAt": "2026-10-25T07:56:46.293544+00:00"
+    },
+    {
+      "keywordId": "kw-78fd7062f764dedf7ce3",
+      "term": "rocket league browser game",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 210,
+        "kd": 63,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"rocket league browser game\"",
+      "status": "observed",
+      "intitle": 2,
+      "evidence": "raw/kw-78fd7062f764dedf7ce3.json",
+      "observedAt": "2026-10-25T07:56:51.579886+00:00"
+    },
+    {
+      "keywordId": "kw-03e2a9da9df796848660",
+      "term": "rodha",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 60500,
+        "kd": 22,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"rodha\"",
+      "status": "observed",
+      "intitle": 13500,
+      "evidence": "raw/kw-03e2a9da9df796848660.json",
+      "observedAt": "2026-10-25T07:57:13.808545+00:00"
+    },
+    {
+      "keywordId": "kw-f2b485e0a8f163ee31bd",
+      "term": "rooftop snipers",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 22200,
+        "kd": 44,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"rooftop snipers\"",
+      "status": "observed",
+      "intitle": 12300,
+      "evidence": "raw/kw-f2b485e0a8f163ee31bd.json",
+      "observedAt": "2026-10-25T07:57:18.734678+00:00"
+    },
+    {
+      "keywordId": "kw-59d499634136cf1959f6",
+      "term": "rooftop snipers game",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 590,
+        "kd": 33,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"rooftop snipers game\"",
+      "status": "observed",
+      "intitle": 43,
+      "evidence": "raw/kw-59d499634136cf1959f6.json",
+      "observedAt": "2026-10-25T07:57:23.769960+00:00"
+    },
+    {
+      "keywordId": "kw-fa6002fa4206cb8a971e",
+      "term": "run 3 unblocked",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 40500,
+        "kd": 36,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"run 3 unblocked\"",
+      "status": "observed",
+      "intitle": 2410,
+      "evidence": "raw/kw-fa6002fa4206cb8a971e.json",
+      "observedAt": "2026-10-25T07:57:29.205583+00:00"
+    },
+    {
+      "keywordId": "kw-c9c2dd3b1773f94b5065",
+      "term": "scrandle",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 90500,
+        "kd": 15,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"scrandle\"",
+      "status": "observed",
+      "intitle": 2220,
+      "evidence": "raw/kw-c9c2dd3b1773f94b5065.json",
+      "observedAt": "2026-10-25T07:57:34.125260+00:00"
+    },
+    {
+      "keywordId": "kw-b71fcf2dc5f932f9bdb4",
+      "term": "slope 2",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 110000,
+        "kd": 72,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"slope 2\"",
+      "status": "observed",
+      "intitle": 8770,
+      "evidence": "raw/kw-b71fcf2dc5f932f9bdb4.json",
+      "observedAt": "2026-10-25T07:57:39.292447+00:00"
+    },
+    {
+      "keywordId": "kw-68f26fa07e4adf73d30c",
+      "term": "slope rider",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 74000,
+        "kd": 75,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"slope rider\"",
+      "status": "observed",
+      "intitle": 1340,
+      "evidence": "raw/kw-68f26fa07e4adf73d30c.json",
+      "observedAt": "2026-10-25T07:57:43.976538+00:00"
+    },
+    {
+      "keywordId": "kw-dafabb83dc1e831bcc46",
+      "term": "slope rider 3d",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 22200,
+        "kd": 39,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"slope rider 3d\"",
+      "status": "observed",
+      "intitle": 284,
+      "evidence": "raw/kw-dafabb83dc1e831bcc46.json",
+      "observedAt": "2026-10-25T07:57:48.553446+00:00"
+    },
+    {
+      "keywordId": "kw-8216d936a23102ad8ab6",
+      "term": "slope unblocked",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 246000,
+        "kd": 52,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"slope unblocked\"",
+      "status": "observed",
+      "intitle": 5000,
+      "evidence": "raw/kw-8216d936a23102ad8ab6.json",
+      "observedAt": "2026-10-25T07:57:53.604659+00:00"
+    },
+    {
+      "keywordId": "kw-4268fa704ba10e1b730b",
+      "term": "soccer random",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 40500,
+        "kd": 46,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"soccer random\"",
+      "status": "observed",
+      "intitle": 8270,
+      "evidence": "raw/kw-4268fa704ba10e1b730b.json",
+      "observedAt": "2026-10-25T07:57:59.025388+00:00"
+    },
+    {
+      "keywordId": "kw-eabec2e862888e7b05ae",
+      "term": "soflo wheelie life",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 40500,
+        "kd": 41,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"soflo wheelie life\"",
+      "status": "observed",
+      "intitle": 763,
+      "evidence": "raw/kw-eabec2e862888e7b05ae.json",
+      "observedAt": "2026-10-25T07:58:03.674419+00:00"
+    },
+    {
+      "keywordId": "kw-bf9bebd96266a6fcd931",
+      "term": "songless",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 74000,
+        "kd": 21,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"songless\"",
+      "status": "observed",
+      "intitle": 6250,
+      "evidence": "raw/kw-bf9bebd96266a6fcd931.json",
+      "observedAt": "2026-10-25T07:58:08.724335+00:00"
+    },
+    {
+      "keywordId": "kw-9b883b872d9a7cb8952e",
+      "term": "space waves",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 368000,
+        "kd": 86,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"space waves\"",
+      "status": "observed",
+      "intitle": 13000,
+      "evidence": "raw/kw-9b883b872d9a7cb8952e.json",
+      "observedAt": "2026-10-25T08:03:28.721789+00:00",
+      "previousFailureEvidence": "raw/blocked-kw-9b883b872d9a7cb8952e.json"
+    },
+    {
+      "keywordId": "kw-b7ad1b32e38d19fd255e",
+      "term": "spotle",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 110000,
+        "kd": 23,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"spotle\"",
+      "status": "observed",
+      "intitle": 5330,
+      "evidence": "raw/kw-b7ad1b32e38d19fd255e.json",
+      "observedAt": "2026-10-25T08:03:33.325756+00:00"
+    },
+    {
+      "keywordId": "kw-69a2087b6a64b9b2903c",
+      "term": "stickman clash",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 12100,
+        "kd": 49,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"stickman clash\"",
+      "status": "observed",
+      "intitle": 5830,
+      "evidence": "raw/kw-69a2087b6a64b9b2903c.json",
+      "observedAt": "2026-10-25T08:03:39.298448+00:00"
+    },
+    {
+      "keywordId": "kw-be723cb66d07b9f829c1",
+      "term": "stickman hook",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 165000,
+        "kd": 75,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"stickman hook\"",
+      "status": "observed",
+      "intitle": 36700,
+      "evidence": "raw/kw-be723cb66d07b9f829c1.json",
+      "observedAt": "2026-10-25T08:03:45.002435+00:00"
+    },
+    {
+      "keywordId": "kw-399758c88c036485be00",
+      "term": "tap road",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 90500,
+        "kd": 27,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"tap road\"",
+      "status": "observed",
+      "intitle": 5290,
+      "evidence": "raw/kw-399758c88c036485be00.json",
+      "observedAt": "2026-10-25T08:03:49.655389+00:00"
+    },
+    {
+      "keywordId": "kw-19ccc98c14d69197b570",
+      "term": "tap road beat",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 1300,
+        "kd": 8,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"tap road beat\"",
+      "status": "observed",
+      "intitle": 70,
+      "evidence": "raw/kw-19ccc98c14d69197b570.json",
+      "observedAt": "2026-10-25T08:03:54.860795+00:00"
+    },
+    {
+      "keywordId": "kw-9d9746b5c8609b0788a8",
+      "term": "time shooter 2",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 5400,
+        "kd": 22,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"time shooter 2\"",
+      "status": "observed",
+      "intitle": 1040,
+      "evidence": "raw/kw-9d9746b5c8609b0788a8.json",
+      "observedAt": "2026-10-25T08:04:00.308452+00:00"
+    },
+    {
+      "keywordId": "kw-d5c1ad96c49f51e40f98",
+      "term": "time shooter 3",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 5400,
+        "kd": 20,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"time shooter 3\"",
+      "status": "observed",
+      "intitle": 1300,
+      "evidence": "raw/kw-d5c1ad96c49f51e40f98.json",
+      "observedAt": "2026-10-25T08:04:05.659397+00:00"
+    },
+    {
+      "keywordId": "kw-7dbae4203886a91f5f30",
+      "term": "time shooter 3 swat",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 1000,
+        "kd": 9,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"time shooter 3 swat\"",
+      "status": "observed",
+      "intitle": 533,
+      "evidence": "raw/kw-7dbae4203886a91f5f30.json",
+      "observedAt": "2026-10-25T08:04:10.994171+00:00"
+    },
+    {
+      "keywordId": "kw-09d8ad60944ad2601264",
+      "term": "top road",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 720,
+        "kd": 56,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"top road\"",
+      "status": "observed",
+      "intitle": 91200,
+      "evidence": "raw/kw-09d8ad60944ad2601264.json",
+      "observedAt": "2026-10-25T08:04:15.672778+00:00"
+    },
+    {
+      "keywordId": "kw-1e7f14a5edeb44b5779c",
+      "term": "traffic road",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 14800,
+        "kd": 29,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"traffic road\"",
+      "status": "observed",
+      "intitle": 43800,
+      "evidence": "raw/kw-1e7f14a5edeb44b5779c.json",
+      "observedAt": "2026-10-25T08:04:20.261612+00:00"
+    },
+    {
+      "keywordId": "kw-eb68753f1183a20c1f18",
+      "term": "travle",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 40500,
+        "kd": 31,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"travle\"",
+      "status": "observed",
+      "intitle": 33300,
+      "evidence": "raw/kw-eb68753f1183a20c1f18.json",
+      "observedAt": "2026-10-25T08:04:25.240480+00:00"
+    },
+    {
+      "keywordId": "kw-600b709584703c111e79",
+      "term": "tunnel rush",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 49500,
+        "kd": 54,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"tunnel rush\"",
+      "status": "observed",
+      "intitle": 26200,
+      "evidence": "raw/kw-600b709584703c111e79.json",
+      "observedAt": "2026-10-25T08:04:30.106940+00:00"
+    },
+    {
+      "keywordId": "kw-3348dd1c6aa495ce0f09",
+      "term": "tunnel rush game",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 720,
+        "kd": 41,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"tunnel rush game\"",
+      "status": "observed",
+      "intitle": 259,
+      "evidence": "raw/kw-3348dd1c6aa495ce0f09.json",
+      "observedAt": "2026-10-25T08:04:35.709175+00:00"
+    },
+    {
+      "keywordId": "kw-1aafea837394d8e2da48",
+      "term": "volley random",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 8100,
+        "kd": 30,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"volley random\"",
+      "status": "observed",
+      "intitle": 1450,
+      "evidence": "raw/kw-1aafea837394d8e2da48.json",
+      "observedAt": "2026-10-25T08:04:40.720257+00:00"
+    },
+    {
+      "keywordId": "kw-fea3c4c92606f6ebdf95",
+      "term": "wacky flip",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 110000,
+        "kd": 72,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"wacky flip\"",
+      "status": "observed",
+      "intitle": 1440,
+      "evidence": "raw/kw-fea3c4c92606f6ebdf95.json",
+      "observedAt": "2026-10-25T08:04:45.410866+00:00"
+    },
+    {
+      "keywordId": "kw-f6e2d5ae095d8e50f612",
+      "term": "wave rider",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 12100,
+        "kd": 27,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"wave rider\"",
+      "status": "observed",
+      "intitle": 387000,
+      "evidence": "raw/kw-f6e2d5ae095d8e50f612.json",
+      "observedAt": "2026-10-25T08:04:50.135282+00:00"
+    },
+    {
+      "keywordId": "kw-be5676a3642983a4e25f",
+      "term": "weddle",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 60500,
+        "kd": 45,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"weddle\"",
+      "status": "observed",
+      "intitle": 59700,
+      "evidence": "raw/kw-be5676a3642983a4e25f.json",
+      "observedAt": "2026-10-25T08:04:55.478831+00:00"
+    },
+    {
+      "keywordId": "kw-e9c7fa1ae509e85f80bc",
+      "term": "word hurdle",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 110000,
+        "kd": 89,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"word hurdle\"",
+      "status": "observed",
+      "intitle": 4490,
+      "evidence": "raw/kw-e9c7fa1ae509e85f80bc.json",
+      "observedAt": "2026-10-25T08:05:00.429041+00:00"
+    },
+    {
+      "keywordId": "kw-3631ca365b0f2df5a58a",
+      "term": "worldguessr",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 110000,
+        "kd": 63,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"worldguessr\"",
+      "status": "observed",
+      "intitle": 10200,
+      "evidence": "raw/kw-3631ca365b0f2df5a58a.json",
+      "observedAt": "2026-10-25T08:05:05.335278+00:00"
+    },
+    {
+      "keywordId": "kw-2dcf776a2928c1ff0429",
+      "term": "worldle",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 450000,
+        "kd": 90,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"worldle\"",
+      "status": "observed",
+      "intitle": 14700,
+      "evidence": "raw/kw-2dcf776a2928c1ff0429.json",
+      "observedAt": "2026-10-25T08:05:10.429375+00:00"
+    },
+    {
+      "keywordId": "kw-e99dedca0570d3e38f3f",
+      "term": "worldle unlimited",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 18100,
+        "kd": 71,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"worldle unlimited\"",
+      "status": "observed",
+      "intitle": 70,
+      "evidence": "raw/kw-e99dedca0570d3e38f3f.json",
+      "observedAt": "2026-10-25T08:05:15.321620+00:00"
+    },
+    {
+      "keywordId": "kw-6bf1043d43cd7f5de3d9",
+      "term": "x trench run",
+      "country": "US",
+      "language": "en",
+      "existingMetrics": {
+        "volume": 49500,
+        "kd": 9,
+        "intitle": null,
+        "ratio": null,
+        "sources": {
+          "volume": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          },
+          "kd": {
+            "provider": "semrush_mirror",
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f"
+          }
+        }
+      },
+      "query": "intitle:\"x trench run\"",
+      "status": "observed",
+      "intitle": 1610,
+      "evidence": "raw/kw-6bf1043d43cd7f5de3d9.json",
+      "observedAt": "2026-10-25T08:05:20.293209+00:00"
+    }
+  ],
+  "humanVerificationReports": [
+    {
+      "reportedAt": "2026-10-25T07:53:55.553719+00:00",
+      "source": "User explicitly reported completing the Google verification; resume from geodle."
+    },
+    {
+      "reportedAt": "2026-10-25T08:03:27.935714+00:00",
+      "source": "User explicitly reported completing Google verification; resume from space waves."
+    }
+  ]
+}

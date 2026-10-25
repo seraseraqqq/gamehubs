@@ -92,6 +92,7 @@ def migrate(root=ROOT):
             site={'schemaVersion':1,'id':sid,'name':name,'legacyGroup':group,
                 'source':{'repository':r['repo'],'directory':r['rootDirectory'],'branch':r.get('defaultBranch','main'),
                     'frozenSnapshots':[r['legacyPath']] if r.get('legacyState')=='frozen-migration-snapshot' else []},
+                'createdAt':s.get('createdAt'),
                 'stage':'awaiting_release' if planned else 'deployed' if deployed else 'blocked' if blockers else 'planned',
                 'blockers':blockers,'nextAction':'补实体设备、跨浏览器与玩家验收；之后按用户授权处理源码审查和发布门槛。' if planned else s.get('nextDecision') or '依据当前发布记录复核下一步，保留既有门禁。',
                 'urls':{'production':production,'preview':preview},'keywordMappings':mappings,
@@ -100,7 +101,8 @@ def migrate(root=ROOT):
                     'indexingPermission':'hold' if planned or sid in ['coreball','minute-cryptic-unlimited','snow-rider-3d-unblocked','cluster-rush','acceleration-city'] else 'unknown'},
                 'verification':{'recordedAt':r.get('verifiedAt') if planned else audit.get('checkedAt'),'recheckedAt':None,'scope':'历史记录导入；未进行本次实时核验。'},
                 'sources':[{'path':registry_ref+'#'+sid,'note':'最新远端原始仓库登记快照'},
-                    {'path':'docs/NEW_GAME_PROJECTS.md' if planned else 'docs/DEPLOYMENT_STATUS.md','note':'最新远端项目/发布记录'}],
+                    {'path':'docs/NEW_GAME_PROJECTS.md' if planned else 'docs/DEPLOYMENT_STATUS.md','note':'最新远端项目/发布记录'},
+                    {'path':'data/migration/source-matrix-sites.json#'+sid,'note':'原站点登记；明确记录的createdAt保留，缺失不从部署或核验日期推测'}],
                 'notes':notes,'history':[]}
             if planned:site['development']={'state':r['developmentState'],'implementationPushed':pushed,'recordedHead':r.get('verifiedHead'),'pushRecordedAt':r.get('verifiedAt'),'optimizationValidation':r.get('optimizationValidation'),'localValidation':r.get('localValidation'), 'evidence':'research/2026-10-24-five-game-development/STATUS.md'}
             issues=checked(site,'site')

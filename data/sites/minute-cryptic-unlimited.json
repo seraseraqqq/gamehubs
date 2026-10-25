@@ -2,6 +2,7 @@
   "blockers": [
     "等待独立域名，保留noindex"
   ],
+  "createdAt": "2026-10-23",
   "development": {
     "deploymentMigration": {
       "evidencePath": "deployments/evidence/2026-10-25-repository-migration/minute-cryptic-unlimited-final.json",
@@ -282,6 +283,325 @@
         }
       },
       "previousRevision": "bd05c581b157f5e059a121aaf9bd6680297b828d57d9e9322f53daa4bb834fe2"
+    },
+    {
+      "actor": "codex-ai:restore-recorded-site-creation-date",
+      "at": "2026-10-25T09:09:47.776874+00:00",
+      "previous": {
+        "blockers": [
+          "等待独立域名，保留noindex"
+        ],
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/minute-cryptic-unlimited-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_2NQyRtjmmHTwfJBQ77RNS2SMTUUo",
+              "readyState": "READY",
+              "url": "gamehubs-minute-cryptic-unlimited-9m7svbuga.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/minute-cryptic-unlimited",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_FfbRYyHpyQsvQvPnPQmtGquuXTMW",
+                "readyState": "READY",
+                "url": "gamehubs-minute-cryptic-unlimited-376wvot9a.vercel.app"
+              },
+              "projectId": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
+              "projectName": "gamehubs-minute-cryptic-unlimited",
+              "repository": "https://github.com/seraseraqqq/gameshub-minute-cryptic-unlimited",
+              "repositoryId": 1432763581,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedHead": "b5d18ddb0a0f7bf057037b7860f18b255da6af84",
+          "state": "independent-repository-deployed"
+        },
+        "id": "minute-cryptic-unlimited",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-750b4869a66dd671b0ff",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "minute cryptic unlimited"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-ec160d9dd4d8cdd95c71",
+            "language": "en",
+            "page": "/how-to-solve-cryptic-clues.html",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "how to solve cryptic clues"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-710c7fa9eff26d29e7c6",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cryptic clue practice"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-9a44c60fa4d292de15a6",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cryptic crossword practice"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-49d6c2ca780a9d62a676",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cryptic clues with answers"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Minute Cryptic Unlimited",
+        "nextAction": "Owner chooses and purchases a domain; configure approved SITE_ORIGIN and verify production before indexing. Trends evidence remains incomplete.",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/minute-cryptic-unlimited曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/minute-cryptic-unlimited",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-minute-cryptic-unlimited"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#minute-cryptic-unlimited"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/minute-cryptic-unlimited-final.json"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": "https://gamehubs-minute-cryptic-unlimited.vercel.app/",
+          "production": null
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+        }
+      },
+      "previousRevision": "a284bfd1dd1879fea19013e86185c31dd9a41a5a1cb093bf390c108ab4837603"
+    },
+    {
+      "actor": "codex-ai:site-primary-keyword-consistency",
+      "at": "2026-10-25T09:25:00.758506+00:00",
+      "previous": {
+        "blockers": [
+          "等待独立域名，保留noindex"
+        ],
+        "createdAt": "2026-10-23",
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/minute-cryptic-unlimited-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_2NQyRtjmmHTwfJBQ77RNS2SMTUUo",
+              "readyState": "READY",
+              "url": "gamehubs-minute-cryptic-unlimited-9m7svbuga.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/minute-cryptic-unlimited",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_FfbRYyHpyQsvQvPnPQmtGquuXTMW",
+                "readyState": "READY",
+                "url": "gamehubs-minute-cryptic-unlimited-376wvot9a.vercel.app"
+              },
+              "projectId": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
+              "projectName": "gamehubs-minute-cryptic-unlimited",
+              "repository": "https://github.com/seraseraqqq/gameshub-minute-cryptic-unlimited",
+              "repositoryId": 1432763581,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedHead": "b5d18ddb0a0f7bf057037b7860f18b255da6af84",
+          "state": "independent-repository-deployed"
+        },
+        "id": "minute-cryptic-unlimited",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-750b4869a66dd671b0ff",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "minute cryptic unlimited"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-ec160d9dd4d8cdd95c71",
+            "language": "en",
+            "page": "/how-to-solve-cryptic-clues.html",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "how to solve cryptic clues"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-710c7fa9eff26d29e7c6",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cryptic clue practice"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-9a44c60fa4d292de15a6",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cryptic crossword practice"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-49d6c2ca780a9d62a676",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cryptic clues with answers"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Minute Cryptic Unlimited",
+        "nextAction": "Owner chooses and purchases a domain; configure approved SITE_ORIGIN and verify production before indexing. Trends evidence remains incomplete.",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/minute-cryptic-unlimited曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/minute-cryptic-unlimited",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-minute-cryptic-unlimited"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#minute-cryptic-unlimited"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/minute-cryptic-unlimited-final.json"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "恢复导入时遗漏的明确createdAt：2026-10-23；没有用部署/研究/核验时间替代",
+            "path": "data/migration/source-matrix-sites.json#minute-cryptic-unlimited"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": "https://gamehubs-minute-cryptic-unlimited.vercel.app/",
+          "production": null
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+        }
+      },
+      "previousRevision": "988e7c01ac6153070f9e4d5371580c1cff9d4ab1da3ac8cb67886910d5f1d269"
     }
   ],
   "id": "minute-cryptic-unlimited",
@@ -291,7 +611,7 @@
       "keywordId": "kw-750b4869a66dd671b0ff",
       "language": "en",
       "page": "/",
-      "poolLinked": false,
+      "poolLinked": true,
       "role": "primary",
       "term": "minute cryptic unlimited"
     },
@@ -340,7 +660,8 @@
     "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/minute-cryptic-unlimited曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
     "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
     "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
-    "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+    "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+    "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。"
   ],
   "release": {
     "deployment": "recorded_deployed",
@@ -379,6 +700,14 @@
     {
       "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
       "path": "docs/history/2026-10-25-management-only-cleanup.json"
+    },
+    {
+      "note": "恢复导入时遗漏的明确createdAt：2026-10-23；没有用部署/研究/核验时间替代",
+      "path": "data/migration/source-matrix-sites.json#minute-cryptic-unlimited"
+    },
+    {
+      "note": "旧站主词纳入统一词池；US/en由本轮截图数据库与查询参数明确，旧市场/映射保留在历史",
+      "path": "research/2026-10-25-mac-site-keyword-consistency-004351b6cfaf/README.md"
     }
   ],
   "stage": "deployed",

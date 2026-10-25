@@ -18,7 +18,7 @@ export async function editFixture(tab){
  await tab.playwright.getByRole('button',{name:'保存关键词',exact:true}).waitFor({state:'visible',timeoutMs:2000});
  await tab.playwright.getByLabel('Volume',{exact:true}).fill('2400');
  await tab.playwright.getByLabel('KD',{exact:true}).fill('47');
- await tab.playwright.getByLabel('intitle 数（竞争度）',{exact:true}).fill('120');
+ await tab.playwright.getByLabel('intitle 标题页数',{exact:true}).fill('120');
  await tab.playwright.getByLabel('关键词状态',{exact:true}).selectOption('abandoned');
  await tab.playwright.getByRole('button',{name:'保存关键词',exact:true}).click();
  await tab.playwright.getByText('关键词已保存',{exact:true}).waitFor({state:'visible',timeoutMs:8000});
@@ -41,7 +41,7 @@ export async function editFixture(tab){
  assert.equal(await tab.playwright.locator('#detail-content h2').innerText(),'Coreball');
  await tab.playwright.getByLabel('Volume',{exact:true}).fill('10000');
  await tab.playwright.getByLabel('KD',{exact:true}).fill('15');
- await tab.playwright.getByLabel('intitle 数（竞争度）',{exact:true}).fill('50');
+ await tab.playwright.getByLabel('intitle 标题页数',{exact:true}).fill('50');
  await tab.playwright.getByRole('button',{name:'保存关键词指标',exact:true}).click();
  await tab.playwright.locator('dialog').waitFor({state:'hidden',timeoutMs:8000});
  await tab.reload();await tab.playwright.getByRole('button',{name:'Coreball',exact:true}).waitFor({state:'visible',timeoutMs:8000});
@@ -53,7 +53,7 @@ export async function editFixture(tab){
  assert.equal(await tab.playwright.locator('#detail-content h2').innerText(),'Cutle');
  await tab.playwright.getByLabel('Volume',{exact:true}).fill('13000');
  await tab.playwright.getByLabel('KD',{exact:true}).fill('9');
- await tab.playwright.getByLabel('intitle 数（竞争度）',{exact:true}).fill('26');
+ await tab.playwright.getByLabel('intitle 标题页数',{exact:true}).fill('26');
  await tab.playwright.getByRole('button',{name:'保存关键词指标',exact:true}).click();
  await tab.playwright.getByText('关键词指标已保存',{exact:true}).waitFor({state:'visible',timeoutMs:8000});
  await tab.playwright.getByRole('button',{name:'编辑关键词状态 / 查看批次',exact:true}).click();

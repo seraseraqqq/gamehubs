@@ -1,0 +1,41 @@
+{
+  "acceptedRowCount": 12,
+  "date": "2026-10-25",
+  "device": "mac-xg",
+  "id": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+  "kind": "research",
+  "label": "12个旧站主词 · 截图指标补录与统一关联",
+  "market": {
+    "country": "US",
+    "language": "en"
+  },
+  "notes": [
+    "用户要求目录与关键词池数据保持一致；12个旧站主词单独补录，原117词研究不覆盖、不重建。",
+    "3个缺失单元格保留未知：gulper.io game KD，krillion unlimited Volume/KD。",
+    "用户要求停止浏览器连接后，仅依据提供的截图读取Volume/KD；没有继续访问链接。",
+    "建站日期只恢复原登记明确的createdAt；未记录的不从研究、核验、部署日期推断。"
+  ],
+  "rejectedRowCount": 0,
+  "schemaVersion": 1,
+  "seeds": [
+    "2048 cupcakes",
+    "acceleration city",
+    "block blast unblocked",
+    "cluster rush",
+    "coreball",
+    "costcodle",
+    "gulper.io game",
+    "head soccer 2026",
+    "krillion unlimited",
+    "minute cryptic unlimited",
+    "snow rider 3d unblocked",
+    "spacebar counter"
+  ],
+  "sources": [
+    {
+      "note": "目录/词池关联核对、截图读值及缺失说明",
+      "path": "research/2026-10-25-mac-site-keyword-consistency-004351b6cfaf/README.md"
+    }
+  ],
+  "status": "partial"
+}

@@ -1,8 +1,8 @@
 {
   "_management": {
     "command": "python3 scripts/hub.py generate",
-    "generatedFrom": "data/sites/*.json",
-    "note": "兼容视图，勿手填。保留原工具字段；源码、映射与进度由正式站点记录生成。"
+    "generatedFrom": "data/sites/*.json + data/batches/* + data/reviews/*.json",
+    "note": "兼容视图，勿手填。源码/阶段来自站点记录，已关联主词的指标及批次来自同一关键词池。"
   },
   "sites": [
     {
@@ -58,11 +58,35 @@
         "vercelDeployed": true
       },
       "domain": "https://playblockblastunblocked.com",
-      "kd": 7,
+      "intitle": 10,
+      "kd": 21,
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-f0a36fbc2ce7fd08ce78",
+      "keywordMetrics": {
+        "intitle": 10,
+        "kd": 21,
+        "ratio": 0.00045045045045045046,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 22200
+      },
+      "keywordMetricsSource": "keyword_pool",
       "keywordPages": [
         {
-          "country": "unknown",
-          "language": "unknown",
+          "country": "US",
+          "language": "en",
           "path": "/",
           "primaryKeyword": "block blast unblocked"
         },
@@ -127,6 +151,7 @@
       "path": ".",
       "pathScope": "relative-to-canonical-repository",
       "primaryKeyword": "block blast unblocked",
+      "ratio": 0.00045045045045045046,
       "repo": "https://github.com/seraseraqqq/gameshub-block-blast-unblocked",
       "secondaryKeywords": [
         "blockblast unblocked",
@@ -218,11 +243,35 @@
         "record": "deployments/2026-10-24-costcodle-domain.md",
         "sourceState": "corrected-locally-awaiting-push"
       },
-      "kd": 0,
+      "intitle": 536,
+      "kd": 23,
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-009cbf1dce9b43adf82c",
+      "keywordMetrics": {
+        "intitle": 536,
+        "kd": 23,
+        "ratio": 0.029613259668508286,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 18100
+      },
+      "keywordMetricsSource": "keyword_pool",
       "keywordPages": [
         {
-          "country": "unknown",
-          "language": "unknown",
+          "country": "US",
+          "language": "en",
           "path": "/",
           "primaryKeyword": "costcodle"
         },
@@ -275,6 +324,7 @@
       "path": ".",
       "pathScope": "relative-to-canonical-repository",
       "primaryKeyword": "costcodle",
+      "ratio": 0.029613259668508286,
       "registeredDomain": "costcodle.cc",
       "repo": "https://github.com/seraseraqqq/gameshub-costcodle",
       "secondaryKeywords": [
@@ -357,11 +407,31 @@
         "vercelDeployed": true
       },
       "domain": "https://gulperio.com",
-      "kd": 7,
+      "intitle": 10,
+      "kd": null,
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-50ff48f16b02f7554321",
+      "keywordMetrics": {
+        "intitle": 10,
+        "kd": null,
+        "ratio": 0.3333333333333333,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 30
+      },
+      "keywordMetricsSource": "keyword_pool",
       "keywordPages": [
         {
-          "country": "unknown",
-          "language": "unknown",
+          "country": "US",
+          "language": "en",
           "path": "/",
           "primaryKeyword": "gulper.io game"
         },
@@ -423,6 +493,7 @@
         "productionChanged": null,
         "record": "research/2026-10-23-existing-games/gulper-personality.md"
       },
+      "ratio": 0.3333333333333333,
       "repo": "https://github.com/seraseraqqq/gameshub-gulper-io",
       "secondaryKeywords": [
         "gulper io",
@@ -439,7 +510,7 @@
       "techStack": "HTML5 Canvas 2D / Vanilla JS / Web Audio API / local fonts and original neon vector art",
       "updatedAt": "2026-10-23",
       "url": "https://gulperio.com/",
-      "volume": 12100,
+      "volume": 30,
       "workspaceReview": {
         "date": "2026-10-23",
         "keywordMetrics": "Historical volume/KD retained; not revalidated in this workspace SEO/UI review.",
@@ -504,11 +575,27 @@
         "vercelDeployed": true
       },
       "domain": "https://krilliononline.com",
-      "kd": 0,
+      "intitle": 520,
+      "kd": null,
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-12078588080da360358a",
+      "keywordMetrics": {
+        "intitle": 520,
+        "kd": null,
+        "ratio": null,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          }
+        },
+        "volume": null
+      },
+      "keywordMetricsSource": "keyword_pool",
       "keywordPages": [
         {
-          "country": "unknown",
-          "language": "unknown",
+          "country": "US",
+          "language": "en",
           "path": "/",
           "primaryKeyword": "krillion unlimited"
         },
@@ -567,6 +654,7 @@
       "path": ".",
       "pathScope": "relative-to-canonical-repository",
       "primaryKeyword": "krillion unlimited",
+      "ratio": null,
       "repo": "https://github.com/seraseraqqq/gameshub-krillion-unlimited",
       "secondaryKeywords": [
         "krillion",
@@ -584,7 +672,7 @@
       "techStack": "Static HTML/CSS / JavaScript / local Canvas pixel art and font / localStorage / optional synthesized audio",
       "updatedAt": "2026-10-23",
       "url": "https://krilliononline.com/",
-      "volume": 4400,
+      "volume": null,
       "workspaceReview": {
         "date": "2026-10-23",
         "keywordMetrics": "Historical volume/KD retained; not revalidated in this workspace SEO/UI review.",
@@ -664,6 +752,9 @@
         "type": "original"
       },
       "indexingState": "indexable-gsc-not-connected",
+      "intitle": 799,
+      "kd": 28,
+      "keywordBatchDate": "2026-10-25",
       "keywordEvidence": {
         "ahrefsUserSupplied": {
           "kd": 5,
@@ -683,6 +774,28 @@
         },
         "trends": "not-yet-verified"
       },
+      "keywordId": "kw-1c049d3efce6f91cba37",
+      "keywordMetrics": {
+        "intitle": 799,
+        "kd": 28,
+        "ratio": 0.14796296296296296,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 5400
+      },
+      "keywordMetricsSource": "keyword_pool",
       "keywordPages": [
         {
           "country": "US",
@@ -717,6 +830,7 @@
         "productionHttpChecks": 5,
         "record": "deployments/2026-10-23-games.md"
       },
+      "ratio": 0.14796296296296296,
       "recurringCostUsd": null,
       "registeredDomain": "spacebarcounter.xyz",
       "registrar": "Spaceship",
@@ -736,7 +850,8 @@
       },
       "unitType": "game",
       "updatedAt": "2026-10-23",
-      "url": "https://www.spacebarcounter.xyz/"
+      "url": "https://www.spacebarcounter.xyz/",
+      "volume": 5400
     },
     {
       "adApprovalState": "not-requested",
@@ -808,6 +923,9 @@
         "type": "original"
       },
       "indexingState": "indexable-gsc-not-connected",
+      "intitle": 3780,
+      "kd": 28,
+      "keywordBatchDate": "2026-10-25",
       "keywordEvidence": {
         "ahrefsUserSupplied": {
           "kd": 1,
@@ -827,6 +945,28 @@
         },
         "trends": "not-yet-verified"
       },
+      "keywordId": "kw-00a8af79182809da7d78",
+      "keywordMetrics": {
+        "intitle": 3780,
+        "kd": 28,
+        "ratio": 0.03436363636363637,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 110000
+      },
+      "keywordMetricsSource": "keyword_pool",
       "keywordPages": [
         {
           "country": "US",
@@ -870,6 +1010,7 @@
         "productionHttpChecks": 7,
         "record": "games/2048-cupcakes/QA.md"
       },
+      "ratio": 0.03436363636363637,
       "recurringCostUsd": null,
       "registeredDomain": "2048cupcakes.xyz",
       "registrar": "Spaceship",
@@ -891,7 +1032,8 @@
       "techStack": "Static HTML/CSS / original JavaScript ES-module engine / localStorage / optional Web Audio",
       "unitType": "game",
       "updatedAt": "2026-10-23",
-      "url": "https://www.2048cupcakes.xyz/"
+      "url": "https://www.2048cupcakes.xyz/",
+      "volume": 110000
     },
     {
       "adsEnabled": false,
@@ -948,6 +1090,31 @@
         "type": "original"
       },
       "indexingState": "noindex-awaiting-owned-origin",
+      "intitle": 1510,
+      "kd": 29,
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-f8b1e50d9e8d50940f7d",
+      "keywordMetrics": {
+        "intitle": 1510,
+        "kd": 29,
+        "ratio": 0.030505050505050504,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 49500
+      },
+      "keywordMetricsSource": "keyword_pool",
       "keywordPages": [
         {
           "country": "US",
@@ -981,6 +1148,7 @@
       "path": ".",
       "pathScope": "relative-to-canonical-repository",
       "primaryKeyword": "coreball",
+      "ratio": 0.030505050505050504,
       "releaseState": "vercel-default-domain-live",
       "repo": "https://github.com/seraseraqqq/gameshub-coreball",
       "researchSeedKeyword": "coreball",
@@ -1011,7 +1179,8 @@
         "productionVerified": false,
         "record": "research/2026-10-23-coreball-cats/README.md",
         "theme": "Smooth 3D peach fur ball, flat overhead cat paws, filled ivory toy pins, local impact feedback"
-      }
+      },
+      "volume": 49500
     },
     {
       "adsEnabled": false,
@@ -1068,6 +1237,31 @@
         "type": "original"
       },
       "indexingState": "noindex-awaiting-owned-origin",
+      "intitle": 8,
+      "kd": 25,
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-750b4869a66dd671b0ff",
+      "keywordMetrics": {
+        "intitle": 8,
+        "kd": 25,
+        "ratio": 0.002758620689655172,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 2900
+      },
+      "keywordMetricsSource": "keyword_pool",
       "keywordPages": [
         {
           "country": "US",
@@ -1107,6 +1301,7 @@
       "path": ".",
       "pathScope": "relative-to-canonical-repository",
       "primaryKeyword": "minute cryptic unlimited",
+      "ratio": 0.002758620689655172,
       "releaseState": "vercel-default-domain-live",
       "repo": "https://github.com/seraseraqqq/gameshub-minute-cryptic-unlimited",
       "researchSeedKeyword": "minute cryptic unlimited",
@@ -1132,7 +1327,8 @@
       "unitType": "game",
       "updatedAt": "2026-10-23",
       "url": "https://gamehubs-minute-cryptic-unlimited.vercel.app/",
-      "verificationRecord": "research/2026-10-23-two-new-games/README.md"
+      "verificationRecord": "research/2026-10-23-two-new-games/README.md",
+      "volume": 2900
     },
     {
       "adsEnabled": false,
@@ -1197,6 +1393,9 @@
         "underlyingProvider": "GameDistribution"
       },
       "indexingState": "noindex-awaiting-actual-domain-gameplay",
+      "intitle": 2010,
+      "kd": 16,
+      "keywordBatchDate": "2026-10-25",
       "keywordEvidence": {
         "asOf": "2026-10-24",
         "kd": null,
@@ -1204,6 +1403,28 @@
         "trends": "US 12-month same-chart raw tables; not calibrated monthly volume",
         "volume": null
       },
+      "keywordId": "kw-1ba7b5cb5f3b8f8c5e13",
+      "keywordMetrics": {
+        "intitle": 2010,
+        "kd": 16,
+        "ratio": 0.040606060606060604,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 49500
+      },
+      "keywordMetricsSource": "keyword_pool",
       "keywordPages": [
         {
           "country": "US",
@@ -1255,6 +1476,7 @@
         "record": "deployments/2026-10-24-snow-rider-miniplay.md",
         "staticExportChecks": 70
       },
+      "ratio": 0.040606060606060604,
       "registeredDomain": "snowrider3d.top",
       "registrar": "Spaceship",
       "releaseState": "miniplay-deployed-noindex-testing",
@@ -1274,7 +1496,8 @@
       },
       "unitType": "game",
       "updatedAt": "2026-10-24",
-      "url": "https://snowrider3d.top/"
+      "url": "https://snowrider3d.top/",
+      "volume": 49500
     },
     {
       "adsEnabled": false,
@@ -1335,10 +1558,35 @@
         "type": "publisher-iframe"
       },
       "indexingState": "indexable-gsc-not-connected",
+      "intitle": 1310,
+      "kd": 20,
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-d41c59ef6dce1ba78684",
+      "keywordMetrics": {
+        "intitle": 1310,
+        "kd": 20,
+        "ratio": 0.07237569060773481,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 18100
+      },
+      "keywordMetricsSource": "keyword_pool",
       "keywordPages": [
         {
-          "country": "unknown",
-          "language": "unknown",
+          "country": "US",
+          "language": "en",
           "path": "/",
           "primaryKeyword": "head soccer 2026"
         }
@@ -1349,6 +1597,7 @@
       "path": ".",
       "pathScope": "relative-to-canonical-repository",
       "primaryKeyword": "head soccer 2026",
+      "ratio": 0.07237569060773481,
       "registeredDomain": "playheadsoccer.com",
       "registrar": "Spaceship",
       "releaseState": "public-domain-verified",
@@ -1358,7 +1607,8 @@
       "status": "deployed",
       "unitType": "game",
       "updatedAt": "2026-10-24",
-      "url": "https://www.playheadsoccer.com/"
+      "url": "https://www.playheadsoccer.com/",
+      "volume": 18100
     },
     {
       "canonicalSource": {
@@ -1376,6 +1626,7 @@
         "frozenSnapshots": [],
         "repository": "https://github.com/seraseraqqq/gamehubs-acceleration-city"
       },
+      "createdAt": null,
       "deploymentAudit": {
         "checkedAt": "2026-10-24T05:17:09.386Z",
         "githubCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
@@ -1386,10 +1637,35 @@
       "domain": "https://playaccelerationcity.com",
       "domainOwnership": "owner-confirmed-purchased-2026-10-24",
       "indexingState": "noindex-embedding-permission-pending",
+      "intitle": 312,
+      "kd": 12,
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-c35b41413e1a0dce7da9",
+      "keywordMetrics": {
+        "intitle": 312,
+        "kd": 12,
+        "ratio": 0.003447513812154696,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 90500
+      },
+      "keywordMetricsSource": "keyword_pool",
       "keywordPages": [
         {
-          "country": "unknown",
-          "language": "unknown",
+          "country": "US",
+          "language": "en",
           "path": "/",
           "primaryKeyword": "acceleration city"
         }
@@ -1400,13 +1676,15 @@
       "path": ".",
       "pathScope": "relative-to-canonical-repository",
       "primaryKeyword": "acceleration city",
+      "ratio": 0.003447513812154696,
       "registeredDomain": "playaccelerationcity.com",
       "repo": "https://github.com/seraseraqqq/gamehubs-acceleration-city",
       "siteId": "acceleration-city",
       "status": "publication-deferred-by-owner",
       "unitType": "game",
       "updatedAt": "2026-10-24",
-      "url": null
+      "url": null,
+      "volume": 90500
     },
     {
       "canonicalSource": {
@@ -1440,10 +1718,35 @@
         "type": "external-unity-iframe"
       },
       "indexingState": "preview-noindex",
+      "intitle": 976,
+      "kd": 8,
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-7165b3fd3f5acf81bd14",
+      "keywordMetrics": {
+        "intitle": 976,
+        "kd": 8,
+        "ratio": 0.043963963963963966,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 22200
+      },
+      "keywordMetricsSource": "keyword_pool",
       "keywordPages": [
         {
-          "country": "unknown",
-          "language": "unknown",
+          "country": "US",
+          "language": "en",
           "path": "/",
           "primaryKeyword": "cluster rush"
         },
@@ -1472,6 +1775,7 @@
       "path": ".",
       "pathScope": "relative-to-canonical-repository",
       "primaryKeyword": "cluster rush",
+      "ratio": 0.043963963963963966,
       "recommendedDomain": "playclusterrush.com",
       "repo": "https://github.com/seraseraqqq/gamehubs-cluster-rush",
       "research": "research/2026-10-24-cluster-rush/README.md",
@@ -1484,7 +1788,8 @@
       "status": "github-pushed-awaiting-deployment",
       "unitType": "game",
       "updatedAt": "2026-10-24",
-      "url": null
+      "url": null,
+      "volume": 22200
     }
   ],
   "updatedAt": "2026-10-24"

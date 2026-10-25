@@ -1,0 +1,19 @@
+{
+  "siteId": "krillion-unlimited",
+  "keywordId": "kw-12078588080da360358a",
+  "term": "krillion unlimited",
+  "country": "US",
+  "language": "en",
+  "query": "intitle:\"krillion unlimited\"",
+  "requestedURL": "https://www.google.com/search?q=intitle%3A%22krillion+unlimited%22&gl=us&hl=en&pws=0",
+  "observedAt": "2026-10-25T09:06:56.036516+00:00",
+  "status": "blocked_captcha",
+  "intitle": null,
+  "displayedResultStats": null,
+  "queryParameters": null,
+  "queryVerified": false,
+  "estimate": true,
+  "physicalUSLocationVerified": false,
+  "method": "OpenCLI in owner-authorized existing Chrome profile; Google visible result stats",
+  "visibleText": ""
+}

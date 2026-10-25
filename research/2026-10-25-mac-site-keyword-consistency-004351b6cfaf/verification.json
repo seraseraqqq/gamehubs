@@ -1,0 +1,215 @@
+{
+  "before": {
+    "keywords": 117,
+    "observations": 361,
+    "batches": 6,
+    "reviews": 0,
+    "sites": 17
+  },
+  "after": {
+    "keywords": 129,
+    "observations": 373,
+    "batches": 7,
+    "reviews": 0,
+    "sites": 17
+  },
+  "sitesLinkedToSamePool": 17,
+  "intitleCoverage": 129,
+  "sitePrimaryVolumeCoverage": 16,
+  "sitePrimaryKDCoverage": 15,
+  "siteCreationDates": 11,
+  "creationDatesUnrecorded": 6,
+  "missingScreenshotCells": [
+    {
+      "term": "gulper.io game",
+      "fields": [
+        "kd"
+      ],
+      "reason": "Screenshot KD cell says unavailable"
+    },
+    {
+      "term": "krillion unlimited",
+      "fields": [
+        "volume",
+        "kd"
+      ],
+      "reason": "Screenshot provides no values; prompts metric refresh"
+    }
+  ],
+  "original117MetricsAndDecisionsUnchanged": true,
+  "siteSourcesURLsStagesAndReleaseHoldsUnchanged": true,
+  "compatibilityViewsConsistent": true,
+  "errors": [],
+  "localHTTP": {
+    "status": 200,
+    "counts": {
+      "batches": 7,
+      "keywords": 129,
+      "observations": 373,
+      "reviews": 0,
+      "sites": 17
+    },
+    "sitePrimaryMetrics": [
+      {
+        "site": "2048-cupcakes",
+        "term": "2048 cupcakes",
+        "volume": 110000,
+        "kd": 28,
+        "intitle": 3780,
+        "ratio": 0.03436363636363637,
+        "createdAt": "2026-10-23"
+      },
+      {
+        "site": "acceleration-city",
+        "term": "acceleration city",
+        "volume": 90500,
+        "kd": 12,
+        "intitle": 312,
+        "ratio": 0.003447513812154696,
+        "createdAt": null
+      },
+      {
+        "site": "block-blast-unblocked",
+        "term": "block blast unblocked",
+        "volume": 22200,
+        "kd": 21,
+        "intitle": 10,
+        "ratio": 0.00045045045045045046,
+        "createdAt": "2026-10-22"
+      },
+      {
+        "site": "cluster-rush",
+        "term": "cluster rush",
+        "volume": 22200,
+        "kd": 8,
+        "intitle": 976,
+        "ratio": 0.043963963963963966,
+        "createdAt": "2026-10-24"
+      },
+      {
+        "site": "colordle",
+        "term": "colordle",
+        "volume": 74000,
+        "kd": 25,
+        "intitle": 1500,
+        "ratio": 0.02027027027027027,
+        "createdAt": null
+      },
+      {
+        "site": "coreball",
+        "term": "coreball",
+        "volume": 49500,
+        "kd": 29,
+        "intitle": 1510,
+        "ratio": 0.030505050505050504,
+        "createdAt": "2026-10-23"
+      },
+      {
+        "site": "costcodle",
+        "term": "costcodle",
+        "volume": 18100,
+        "kd": 23,
+        "intitle": 536,
+        "ratio": 0.029613259668508286,
+        "createdAt": "2026-10-22"
+      },
+      {
+        "site": "cutle",
+        "term": "cutle",
+        "volume": 12100,
+        "kd": 8,
+        "intitle": 3980,
+        "ratio": 0.32892561983471075,
+        "createdAt": null
+      },
+      {
+        "site": "gulper-io",
+        "term": "gulper.io game",
+        "volume": 30,
+        "kd": null,
+        "intitle": 10,
+        "ratio": 0.3333333333333333,
+        "createdAt": "2026-10-22"
+      },
+      {
+        "site": "head-soccer-2026",
+        "term": "head soccer 2026",
+        "volume": 18100,
+        "kd": 20,
+        "intitle": 1310,
+        "ratio": 0.07237569060773481,
+        "createdAt": "2026-10-24"
+      },
+      {
+        "site": "krillion-unlimited",
+        "term": "krillion unlimited",
+        "volume": null,
+        "kd": null,
+        "intitle": 520,
+        "ratio": null,
+        "createdAt": "2026-10-23"
+      },
+      {
+        "site": "metazooa",
+        "term": "metazooa",
+        "volume": 12100,
+        "kd": 23,
+        "intitle": 1490,
+        "ratio": 0.1231404958677686,
+        "createdAt": null
+      },
+      {
+        "site": "minute-cryptic-unlimited",
+        "term": "minute cryptic unlimited",
+        "volume": 2900,
+        "kd": 25,
+        "intitle": 8,
+        "ratio": 0.002758620689655172,
+        "createdAt": "2026-10-23"
+      },
+      {
+        "site": "poople",
+        "term": "poople",
+        "volume": 33100,
+        "kd": 26,
+        "intitle": 6460,
+        "ratio": 0.19516616314199395,
+        "createdAt": null
+      },
+      {
+        "site": "snow-rider-3d-unblocked",
+        "term": "snow rider 3d unblocked",
+        "volume": 49500,
+        "kd": 16,
+        "intitle": 2010,
+        "ratio": 0.040606060606060604,
+        "createdAt": "2026-10-24"
+      },
+      {
+        "site": "spacebar-counter",
+        "term": "spacebar counter",
+        "volume": 5400,
+        "kd": 28,
+        "intitle": 799,
+        "ratio": 0.14796296296296296,
+        "createdAt": "2026-10-23"
+      },
+      {
+        "site": "travle",
+        "term": "travle",
+        "volume": 40500,
+        "kd": 31,
+        "intitle": 33300,
+        "ratio": 0.8222222222222222,
+        "createdAt": null
+      }
+    ]
+  },
+  "checks": {
+    "pythonTests": 24,
+    "dashboardJavaScriptTests": "passed",
+    "schemaValidation": "passed",
+    "newServerLoaded": true,
+    "browserUseStopped": true
+  }
+}

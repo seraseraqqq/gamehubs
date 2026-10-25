@@ -1,5 +1,6 @@
 {
   "blockers": [],
+  "createdAt": "2026-10-23",
   "development": {
     "deploymentMigration": {
       "evidencePath": "deployments/evidence/2026-10-25-repository-migration/spacebar-counter-final.json",
@@ -240,6 +241,285 @@
         }
       },
       "previousRevision": "7c17550e20dda4d46a43478449001c26348f3081403deedfb23b15aa46fde213"
+    },
+    {
+      "actor": "codex-ai:restore-recorded-site-creation-date",
+      "at": "2026-10-25T09:09:48.038626+00:00",
+      "previous": {
+        "blockers": [],
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/spacebar-counter-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_DSneY7Uc8SDsMjNNbmvFwMZ24iDF",
+              "readyState": "READY",
+              "url": "gamehubs-spacebar-counter-cqnj2t7xr-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/spacebar-counter",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_BizhMsF44EjvQMupzC4fqtyeBmPt",
+                "readyState": "READY",
+                "url": "gamehubs-spacebar-counter-nbjwdpqbb-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+              "projectName": "gamehubs-spacebar-counter",
+              "repository": "https://github.com/seraseraqqq/gameshub-spacebar-counter",
+              "repositoryId": 1432763331,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedHead": "34f02d435684c22fd53fa8f8102f6d75b242f30c",
+          "state": "independent-repository-deployed"
+        },
+        "id": "spacebar-counter",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-1c049d3efce6f91cba37",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "spacebar counter"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-e96916c04e18b5c2437a",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "space bar counter"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-4fa5d7ad83bf0c5b98aa",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "spacebar test"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Spacebar Counter",
+        "nextAction": "Connect Search Console and submit the www sitemap; enable Vercel Web Analytics in the dashboard and verify page views; consider gameplay events separately; finish real-device/performance checks; retain the Google Trends evidence gap and keep ads disabled pending approval.",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/spacebar-counter曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/spacebar-counter",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-spacebar-counter"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#spacebar-counter"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/spacebar-counter-final.json"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://www.spacebarcounter.xyz/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+        }
+      },
+      "previousRevision": "b2ecf561b30397491611845ef8f842763552012115924c3a5c872a47937e5dee"
+    },
+    {
+      "actor": "codex-ai:site-primary-keyword-consistency",
+      "at": "2026-10-25T09:25:01.040099+00:00",
+      "previous": {
+        "blockers": [],
+        "createdAt": "2026-10-23",
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/spacebar-counter-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_DSneY7Uc8SDsMjNNbmvFwMZ24iDF",
+              "readyState": "READY",
+              "url": "gamehubs-spacebar-counter-cqnj2t7xr-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/spacebar-counter",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_BizhMsF44EjvQMupzC4fqtyeBmPt",
+                "readyState": "READY",
+                "url": "gamehubs-spacebar-counter-nbjwdpqbb-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+              "projectName": "gamehubs-spacebar-counter",
+              "repository": "https://github.com/seraseraqqq/gameshub-spacebar-counter",
+              "repositoryId": 1432763331,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedHead": "34f02d435684c22fd53fa8f8102f6d75b242f30c",
+          "state": "independent-repository-deployed"
+        },
+        "id": "spacebar-counter",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-1c049d3efce6f91cba37",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "spacebar counter"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-e96916c04e18b5c2437a",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "space bar counter"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-4fa5d7ad83bf0c5b98aa",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "spacebar test"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Spacebar Counter",
+        "nextAction": "Connect Search Console and submit the www sitemap; enable Vercel Web Analytics in the dashboard and verify page views; consider gameplay events separately; finish real-device/performance checks; retain the Google Trends evidence gap and keep ads disabled pending approval.",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/spacebar-counter曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/spacebar-counter",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-spacebar-counter"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#spacebar-counter"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/spacebar-counter-final.json"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "恢复导入时遗漏的明确createdAt：2026-10-23；没有用部署/研究/核验时间替代",
+            "path": "data/migration/source-matrix-sites.json#spacebar-counter"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://www.spacebarcounter.xyz/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+        }
+      },
+      "previousRevision": "8c535df4e1ef358477742df0ee9b15cabf83cef9182379ca424f43008de02ece"
     }
   ],
   "id": "spacebar-counter",
@@ -249,7 +529,7 @@
       "keywordId": "kw-1c049d3efce6f91cba37",
       "language": "en",
       "page": "/",
-      "poolLinked": false,
+      "poolLinked": true,
       "role": "primary",
       "term": "spacebar counter"
     },
@@ -280,7 +560,8 @@
     "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/spacebar-counter曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
     "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
     "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
-    "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+    "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+    "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。"
   ],
   "release": {
     "deployment": "recorded_deployed",
@@ -319,6 +600,14 @@
     {
       "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
       "path": "docs/history/2026-10-25-management-only-cleanup.json"
+    },
+    {
+      "note": "恢复导入时遗漏的明确createdAt：2026-10-23；没有用部署/研究/核验时间替代",
+      "path": "data/migration/source-matrix-sites.json#spacebar-counter"
+    },
+    {
+      "note": "旧站主词纳入统一词池；US/en由本轮截图数据库与查询参数明确，旧市场/映射保留在历史",
+      "path": "research/2026-10-25-mac-site-keyword-consistency-004351b6cfaf/README.md"
     }
   ],
   "stage": "deployed",

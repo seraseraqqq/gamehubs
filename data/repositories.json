@@ -1,8 +1,8 @@
 {
   "_management": {
     "command": "python3 scripts/hub.py generate",
-    "generatedFrom": "data/sites/*.json",
-    "note": "兼容视图，勿手填。保留原工具字段；源码、映射与进度由正式站点记录生成。"
+    "generatedFrom": "data/sites/*.json + data/batches/* + data/reviews/*.json",
+    "note": "兼容视图，勿手填。源码/阶段来自站点记录，已关联主词的指标及批次来自同一关键词池。"
   },
   "games": [
     {
@@ -15,13 +15,38 @@
           "repository": "https://github.com/seraseraqqq/gamehubs"
         }
       ],
+      "createdAt": "2026-10-22",
       "developmentState": "independent-repository-deployed",
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-f0a36fbc2ce7fd08ce78",
+      "keywordMetrics": {
+        "intitle": 10,
+        "kd": 21,
+        "ratio": 0.00045045045045045046,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 22200
+      },
+      "keywordMetricsSource": "keyword_pool",
       "legacyState": "removed-from-management-checkout; available-in-git-history",
       "localWorktreeState": "clean-pushed",
       "managementRecord": "data/sites/block-blast-unblocked.json",
       "managementStage": "deployed",
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/block-blast-unblocked-final.json",
       "migrationState": "independent-repository-verified",
+      "primaryKeyword": "block blast unblocked",
       "releaseState": "deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-block-blast-unblocked",
       "rootDirectory": ".",
@@ -55,13 +80,38 @@
           "repository": "https://github.com/seraseraqqq/gamehubs"
         }
       ],
+      "createdAt": "2026-10-22",
       "developmentState": "independent-repository-deployed",
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-009cbf1dce9b43adf82c",
+      "keywordMetrics": {
+        "intitle": 536,
+        "kd": 23,
+        "ratio": 0.029613259668508286,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 18100
+      },
+      "keywordMetricsSource": "keyword_pool",
       "legacyState": "removed-from-management-checkout; available-in-git-history",
       "localWorktreeState": "clean-pushed",
       "managementRecord": "data/sites/costcodle.json",
       "managementStage": "deployed",
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/costcodle-final.json",
       "migrationState": "independent-repository-verified",
+      "primaryKeyword": "costcodle",
       "releaseState": "deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-costcodle",
       "rootDirectory": ".",
@@ -95,13 +145,34 @@
           "repository": "https://github.com/seraseraqqq/gamehubs"
         }
       ],
+      "createdAt": "2026-10-22",
       "developmentState": "independent-repository-deployed",
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-50ff48f16b02f7554321",
+      "keywordMetrics": {
+        "intitle": 10,
+        "kd": null,
+        "ratio": 0.3333333333333333,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 30
+      },
+      "keywordMetricsSource": "keyword_pool",
       "legacyState": "removed-from-management-checkout; available-in-git-history",
       "localWorktreeState": "clean-pushed",
       "managementRecord": "data/sites/gulper-io.json",
       "managementStage": "deployed",
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/gulper-io-final.json",
       "migrationState": "independent-repository-verified",
+      "primaryKeyword": "gulper.io game",
       "releaseState": "deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-gulper-io",
       "rootDirectory": ".",
@@ -135,13 +206,30 @@
           "repository": "https://github.com/seraseraqqq/gamehubs"
         }
       ],
+      "createdAt": "2026-10-23",
       "developmentState": "independent-repository-deployed",
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-12078588080da360358a",
+      "keywordMetrics": {
+        "intitle": 520,
+        "kd": null,
+        "ratio": null,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          }
+        },
+        "volume": null
+      },
+      "keywordMetricsSource": "keyword_pool",
       "legacyState": "removed-from-management-checkout; available-in-git-history",
       "localWorktreeState": "clean-pushed",
       "managementRecord": "data/sites/krillion-unlimited.json",
       "managementStage": "deployed",
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/krillion-unlimited-final.json",
       "migrationState": "independent-repository-verified",
+      "primaryKeyword": "krillion unlimited",
       "releaseState": "deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-krillion-unlimited",
       "rootDirectory": ".",
@@ -175,13 +263,38 @@
           "repository": "https://github.com/seraseraqqq/gamehubs"
         }
       ],
+      "createdAt": "2026-10-23",
       "developmentState": "independent-repository-deployed",
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-1c049d3efce6f91cba37",
+      "keywordMetrics": {
+        "intitle": 799,
+        "kd": 28,
+        "ratio": 0.14796296296296296,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 5400
+      },
+      "keywordMetricsSource": "keyword_pool",
       "legacyState": "removed-from-management-checkout; available-in-git-history",
       "localWorktreeState": "clean-pushed",
       "managementRecord": "data/sites/spacebar-counter.json",
       "managementStage": "deployed",
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/spacebar-counter-final.json",
       "migrationState": "independent-repository-verified",
+      "primaryKeyword": "spacebar counter",
       "releaseState": "deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-spacebar-counter",
       "rootDirectory": ".",
@@ -215,13 +328,38 @@
           "repository": "https://github.com/seraseraqqq/gamehubs"
         }
       ],
+      "createdAt": "2026-10-23",
       "developmentState": "independent-repository-deployed",
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-00a8af79182809da7d78",
+      "keywordMetrics": {
+        "intitle": 3780,
+        "kd": 28,
+        "ratio": 0.03436363636363637,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 110000
+      },
+      "keywordMetricsSource": "keyword_pool",
       "legacyState": "removed-from-management-checkout; available-in-git-history",
       "localWorktreeState": "clean-pushed",
       "managementRecord": "data/sites/2048-cupcakes.json",
       "managementStage": "deployed",
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/2048-cupcakes-final.json",
       "migrationState": "independent-repository-verified",
+      "primaryKeyword": "2048 cupcakes",
       "releaseState": "deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-2048-cupcakes",
       "rootDirectory": ".",
@@ -255,13 +393,38 @@
           "repository": "https://github.com/seraseraqqq/gamehubs"
         }
       ],
+      "createdAt": "2026-10-23",
       "developmentState": "independent-repository-deployed",
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-f8b1e50d9e8d50940f7d",
+      "keywordMetrics": {
+        "intitle": 1510,
+        "kd": 29,
+        "ratio": 0.030505050505050504,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 49500
+      },
+      "keywordMetricsSource": "keyword_pool",
       "legacyState": "removed-from-management-checkout; available-in-git-history",
       "localWorktreeState": "clean-pushed",
       "managementRecord": "data/sites/coreball.json",
       "managementStage": "deployed",
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/coreball-final.json",
       "migrationState": "independent-repository-verified",
+      "primaryKeyword": "coreball",
       "releaseState": "deployed-noindex-awaiting-domain",
       "repo": "https://github.com/seraseraqqq/gameshub-coreball",
       "rootDirectory": ".",
@@ -295,13 +458,38 @@
           "repository": "https://github.com/seraseraqqq/gamehubs"
         }
       ],
+      "createdAt": "2026-10-23",
       "developmentState": "independent-repository-deployed",
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-750b4869a66dd671b0ff",
+      "keywordMetrics": {
+        "intitle": 8,
+        "kd": 25,
+        "ratio": 0.002758620689655172,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 2900
+      },
+      "keywordMetricsSource": "keyword_pool",
       "legacyState": "removed-from-management-checkout; available-in-git-history",
       "localWorktreeState": "clean-pushed",
       "managementRecord": "data/sites/minute-cryptic-unlimited.json",
       "managementStage": "deployed",
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/minute-cryptic-unlimited-final.json",
       "migrationState": "independent-repository-verified",
+      "primaryKeyword": "minute cryptic unlimited",
       "releaseState": "deployed-noindex-awaiting-domain",
       "repo": "https://github.com/seraseraqqq/gameshub-minute-cryptic-unlimited",
       "rootDirectory": ".",
@@ -335,13 +523,38 @@
           "repository": "https://github.com/seraseraqqq/gamehubs"
         }
       ],
+      "createdAt": "2026-10-24",
       "developmentState": "independent-repository-deployed",
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-1ba7b5cb5f3b8f8c5e13",
+      "keywordMetrics": {
+        "intitle": 2010,
+        "kd": 16,
+        "ratio": 0.040606060606060604,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 49500
+      },
+      "keywordMetricsSource": "keyword_pool",
       "legacyState": "removed-from-management-checkout; available-in-git-history",
       "localWorktreeState": "clean-pushed",
       "managementRecord": "data/sites/snow-rider-3d-unblocked.json",
       "managementStage": "deployed",
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/snow-rider-3d-unblocked-final.json",
       "migrationState": "independent-repository-verified",
+      "primaryKeyword": "snow rider 3d unblocked",
       "releaseState": "deployed-awaiting-gameplay-verification",
       "repo": "https://github.com/seraseraqqq/gameshub-snow-rider-3d-unblocked",
       "rootDirectory": ".",
@@ -375,13 +588,38 @@
           "repository": "https://github.com/seraseraqqq/gamehubs"
         }
       ],
+      "createdAt": "2026-10-24",
       "developmentState": "independent-repository-deployed",
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-d41c59ef6dce1ba78684",
+      "keywordMetrics": {
+        "intitle": 1310,
+        "kd": 20,
+        "ratio": 0.07237569060773481,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 18100
+      },
+      "keywordMetricsSource": "keyword_pool",
       "legacyState": "removed-from-management-checkout; available-in-git-history",
       "localWorktreeState": "clean-pushed",
       "managementRecord": "data/sites/head-soccer-2026.json",
       "managementStage": "deployed",
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/head-soccer-2026-final.json",
       "migrationState": "independent-repository-verified",
+      "primaryKeyword": "head soccer 2026",
       "releaseState": "deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-head-soccer-2026",
       "rootDirectory": ".",
@@ -415,7 +653,31 @@
           "repository": "https://github.com/seraseraqqq/gamehubs"
         }
       ],
+      "createdAt": null,
       "historicalLocalPath": "E:/Projects/game-sites/acceleration-city",
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-c35b41413e1a0dce7da9",
+      "keywordMetrics": {
+        "intitle": 312,
+        "kd": 12,
+        "ratio": 0.003447513812154696,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 90500
+      },
+      "keywordMetricsSource": "keyword_pool",
       "legacyState": "removed-from-management-checkout; available-in-git-history",
       "localPath": "E:/Projects/game-sites/acceleration-city",
       "localPathScope": "recorded-source-device-only; not a portable source identity",
@@ -423,6 +685,7 @@
       "managementStage": "blocked",
       "migrationCommit": "04ee594d9c9a8c1b41c6be1603269951e0d8ef22",
       "migrationState": "independent-repository",
+      "primaryKeyword": "acceleration city",
       "private": true,
       "releaseState": "publication-deferred-by-owner",
       "repo": "https://github.com/seraseraqqq/gamehubs-acceleration-city",
@@ -443,7 +706,31 @@
           "repository": "https://github.com/seraseraqqq/gamehubs"
         }
       ],
+      "createdAt": "2026-10-24",
       "historicalLocalPath": "E:/Projects/game-sites/cluster-rush",
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-7165b3fd3f5acf81bd14",
+      "keywordMetrics": {
+        "intitle": 976,
+        "kd": 8,
+        "ratio": 0.043963963963963966,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          },
+          "volume": {
+            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
+            "provider": "semrush_mirror_screenshot"
+          }
+        },
+        "volume": 22200
+      },
+      "keywordMetricsSource": "keyword_pool",
       "legacyState": "removed-from-management-checkout; available-in-git-history",
       "localPath": "E:/Projects/game-sites/cluster-rush",
       "localPathScope": "recorded-source-device-only; not a portable source identity",
@@ -451,6 +738,7 @@
       "managementStage": "blocked",
       "migrationCommit": "69e0068c166e28f3ecf21992ae3ce59c0c445e76",
       "migrationState": "independent-repository",
+      "primaryKeyword": "cluster rush",
       "private": true,
       "releaseState": "github-pushed-awaiting-deployment",
       "repo": "https://github.com/seraseraqqq/gamehubs-cluster-rush",
@@ -467,6 +755,7 @@
   "plannedGames": [
     {
       "cohort": "P0 · 首批",
+      "createdAt": null,
       "defaultBranch": "main",
       "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
       "displayName": "Cutle",
@@ -480,6 +769,29 @@
       "domainOwned": false,
       "githubRepositoryId": 1432163348,
       "historicalLocalPath": "E:/Projects/game-sites/cutle",
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-a547207062167aae1ebb",
+      "keywordMetrics": {
+        "intitle": 3980,
+        "kd": 8,
+        "ratio": 0.32892561983471075,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-intitle-e22912c8df39",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 12100
+      },
+      "keywordMetricsSource": "keyword_pool",
       "localPath": "E:/Projects/game-sites/cutle",
       "localPathScope": "recorded-source-device-only; not a portable source identity",
       "localPreview": "http://127.0.0.1:4311",
@@ -505,6 +817,7 @@
         "review": "ship-local-prototype"
       },
       "plannedDomain": "cutleunlimited.com",
+      "primaryKeyword": "cutle",
       "priority": 1,
       "private": true,
       "releaseState": "not-deployed",
@@ -518,6 +831,7 @@
     },
     {
       "cohort": "P0 · 首批",
+      "createdAt": null,
       "defaultBranch": "main",
       "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
       "displayName": "Poople",
@@ -531,6 +845,29 @@
       "domainOwned": false,
       "githubRepositoryId": 1432163572,
       "historicalLocalPath": "E:/Projects/game-sites/poople",
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-34020416e5ed9a7ad2f2",
+      "keywordMetrics": {
+        "intitle": 6460,
+        "kd": 26,
+        "ratio": 0.19516616314199395,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-intitle-e22912c8df39",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 33100
+      },
+      "keywordMetricsSource": "keyword_pool",
       "localPath": "E:/Projects/game-sites/poople",
       "localPathScope": "recorded-source-device-only; not a portable source identity",
       "localPreview": "http://127.0.0.1:4312",
@@ -556,6 +893,7 @@
         "review": "ship-local-prototype"
       },
       "plannedDomain": "pooplepractice.com",
+      "primaryKeyword": "poople",
       "priority": 2,
       "private": true,
       "releaseState": "not-deployed",
@@ -569,6 +907,7 @@
     },
     {
       "cohort": "P0 · 首批",
+      "createdAt": null,
       "defaultBranch": "main",
       "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
       "displayName": "Colordle",
@@ -582,6 +921,29 @@
       "domainOwned": false,
       "githubRepositoryId": 1432163806,
       "historicalLocalPath": "E:/Projects/game-sites/colordle",
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-534084c658d60e7ff0d0",
+      "keywordMetrics": {
+        "intitle": 1500,
+        "kd": 25,
+        "ratio": 0.02027027027027027,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-intitle-e22912c8df39",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 74000
+      },
+      "keywordMetricsSource": "keyword_pool",
       "localPath": "E:/Projects/game-sites/colordle",
       "localPathScope": "recorded-source-device-only; not a portable source identity",
       "localPreview": "http://127.0.0.1:4313",
@@ -607,6 +969,7 @@
         "review": "ship-local-prototype"
       },
       "plannedDomain": "colordleunlimited.com",
+      "primaryKeyword": "colordle",
       "priority": 3,
       "private": true,
       "releaseState": "not-deployed",
@@ -620,6 +983,7 @@
     },
     {
       "cohort": "P1 · 第二批",
+      "createdAt": null,
       "defaultBranch": "main",
       "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
       "displayName": "Metazooa",
@@ -633,6 +997,29 @@
       "domainOwned": false,
       "githubRepositoryId": 1432163965,
       "historicalLocalPath": "E:/Projects/game-sites/metazooa",
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-87edb316733c6d0f33a6",
+      "keywordMetrics": {
+        "intitle": 1490,
+        "kd": 23,
+        "ratio": 0.1231404958677686,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-intitle-e22912c8df39",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 12100
+      },
+      "keywordMetricsSource": "keyword_pool",
       "localPath": "E:/Projects/game-sites/metazooa",
       "localPathScope": "recorded-source-device-only; not a portable source identity",
       "localPreview": "http://127.0.0.1:4314",
@@ -658,6 +1045,7 @@
         "review": "ship-local-prototype"
       },
       "plannedDomain": "metazooapractice.com",
+      "primaryKeyword": "metazooa",
       "priority": 4,
       "private": true,
       "releaseState": "not-deployed",
@@ -671,6 +1059,7 @@
     },
     {
       "cohort": "P1 · 第二批",
+      "createdAt": null,
       "defaultBranch": "main",
       "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
       "displayName": "Travle",
@@ -684,6 +1073,29 @@
       "domainOwned": false,
       "githubRepositoryId": 1432164130,
       "historicalLocalPath": "E:/Projects/game-sites/travle",
+      "keywordBatchDate": "2026-10-25",
+      "keywordId": "kw-eb68753f1183a20c1f18",
+      "keywordMetrics": {
+        "intitle": 33300,
+        "kd": 31,
+        "ratio": 0.8222222222222222,
+        "sources": {
+          "intitle": {
+            "batchId": "2026-10-25-mac-intitle-e22912c8df39",
+            "provider": "google_intitle"
+          },
+          "kd": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          },
+          "volume": {
+            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "provider": "semrush_mirror"
+          }
+        },
+        "volume": 40500
+      },
+      "keywordMetricsSource": "keyword_pool",
       "localPath": "E:/Projects/game-sites/travle",
       "localPathScope": "recorded-source-device-only; not a portable source identity",
       "localPreview": "http://127.0.0.1:4315",
@@ -709,6 +1121,7 @@
         "review": "ship-local-prototype"
       },
       "plannedDomain": "travleunlimited.com",
+      "primaryKeyword": "travle",
       "priority": 5,
       "private": true,
       "releaseState": "not-deployed",

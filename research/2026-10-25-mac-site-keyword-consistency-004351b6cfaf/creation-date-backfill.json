@@ -1,0 +1,50 @@
+{
+  "restored": [
+    {
+      "siteId": "2048-cupcakes",
+      "createdAt": "2026-10-23"
+    },
+    {
+      "siteId": "block-blast-unblocked",
+      "createdAt": "2026-10-22"
+    },
+    {
+      "siteId": "cluster-rush",
+      "createdAt": "2026-10-24"
+    },
+    {
+      "siteId": "coreball",
+      "createdAt": "2026-10-23"
+    },
+    {
+      "siteId": "costcodle",
+      "createdAt": "2026-10-22"
+    },
+    {
+      "siteId": "gulper-io",
+      "createdAt": "2026-10-22"
+    },
+    {
+      "siteId": "head-soccer-2026",
+      "createdAt": "2026-10-24"
+    },
+    {
+      "siteId": "krillion-unlimited",
+      "createdAt": "2026-10-23"
+    },
+    {
+      "siteId": "minute-cryptic-unlimited",
+      "createdAt": "2026-10-23"
+    },
+    {
+      "siteId": "snow-rider-3d-unblocked",
+      "createdAt": "2026-10-24"
+    },
+    {
+      "siteId": "spacebar-counter",
+      "createdAt": "2026-10-23"
+    }
+  ],
+  "count": 11,
+  "unrecorded": "Keep null when the original site record did not explicitly give createdAt."
+}

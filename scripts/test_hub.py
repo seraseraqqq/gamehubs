@@ -256,7 +256,26 @@ class HubTest(unittest.TestCase):
             self.assertTrue(all(s['development']['implementationPushed'] for s in projects))
             registry=json.loads((root/'data/repositories.json').read_text(encoding='utf-8'));self.assertEqual(len(registry['games']),12);self.assertEqual(len(registry['plannedGames']),5)
             self.assertIn('_management',registry)
+            matrix=json.loads((root/'data/migration/source-matrix-sites.json').read_text(encoding='utf-8'))
+            for original in matrix['sites']:
+                site=next(s for s in state['sites'] if s['id']==original['siteId'])
+                self.assertEqual(site.get('createdAt'),original.get('createdAt'),'preserve explicit creation dates during import')
+            self.assertIsNone(next(s for s in state['sites'] if s['id']=='acceleration-city')['createdAt'],'updated/deployment dates are not creation dates')
             self.assertTrue(all('localPath' in r and 'recorded-source-device-only' in r['localPathScope'] for r in registry['plannedGames']))
+    def test_compatibility_metrics_follow_the_shared_keyword_and_creation_date(self):
+        shutil.copytree(ROOT/'data/migration',self.root/'data/migration');migrate(self.root)
+        path=self.root/'data/sites/coreball.json';site=json.loads(path.read_text(encoding='utf-8'));revision=digest(site)
+        site['createdAt']='2026-10-21';save_site(self.root,{'site':site,'expectedRevision':revision})
+        import_batch(self.root,dict(self.batch,id='test-metrics'),[dict(self.row,metrics={'google':{'volume':100,'kd':2,'intitle':0}})])
+        regenerate(self.root)
+        matrix=json.loads((self.root/'data/matrix-sites.json').read_text(encoding='utf-8'))
+        entry=next(x for x in matrix['sites'] if x['siteId']=='coreball')
+        self.assertEqual((entry['volume'],entry['kd'],entry['intitle'],entry['ratio']),(100,2,0,0))
+        self.assertEqual(entry['createdAt'],'2026-10-21');self.assertEqual(entry['keywordMetricsSource'],'keyword_pool')
+        self.edit(metrics={'intitle':25})
+        registry=json.loads((self.root/'data/repositories.json').read_text(encoding='utf-8'))
+        entry=next(x for x in registry['games'] if x['siteId']=='coreball')
+        self.assertEqual(entry['keywordMetrics']['intitle'],25);self.assertEqual(entry['keywordMetrics']['ratio'],.25)
     def test_source_device_paths_rejected_and_portfolio_metadata_not_auto_pooled(self):
         site=json.loads((ROOT/'data/sites/coreball.json').read_text(encoding='utf-8'))
         site['source']['directory']='E:/Projects/coreball'

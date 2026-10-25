@@ -1,0 +1,18 @@
+{
+  "keywordId": "kw-4ca4f00a480fda91fa32",
+  "term": "geodle",
+  "country": "US",
+  "language": "en",
+  "query": "intitle:\"geodle\"",
+  "requestedURL": "https://www.google.com/search?q=intitle%3A%22geodle%22&gl=us&hl=en&pws=0",
+  "observedAt": "2026-10-25T07:50:30.654338+00:00",
+  "status": "blocked_captcha",
+  "intitle": null,
+  "displayedResultStats": null,
+  "queryParameters": null,
+  "queryVerified": false,
+  "estimate": true,
+  "physicalUSLocationVerified": false,
+  "topResults": [],
+  "visibleText": "\n\nAbout this page\n\nOur systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot. Why did this happen?\n\n\n\nIP address: [IP redacted]\nTime: 2026-10-25T07:50:30Z\nURL: [URL redacted]\n"
+}

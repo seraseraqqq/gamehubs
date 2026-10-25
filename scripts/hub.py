@@ -325,14 +325,24 @@ def export_compatibility(root,state):
     registry=json.loads((root/refs['repositories']).read_text(encoding='utf-8')) if refs.get('repositories') else json.loads(registry_path.read_text(encoding='utf-8'))
     matrix=json.loads(matrix_path.read_text(encoding='utf-8'))
     sites={s['id']:s for s in state['sites']}
-    note={'generatedFrom':'data/sites/*.json','command':'python3 scripts/hub.py generate',
-          'note':'兼容视图，勿手填。保留原工具字段；源码、映射与进度由正式站点记录生成。'}
+    pool={r['id']:r for r in state['keywords']}
+    def keyword_view(site):
+        mappings=site['keywordMappings'];mapping=next((m for m in mappings if m['role']=='primary'),mappings[0] if mappings else {})
+        row=pool.get(mapping.get('keywordId'))
+        metrics=row['metrics'] if row else {**dict.fromkeys(['volume','kd','intitle','ratio']),**mapping.get('metrics',{})}
+        if not row:metrics['ratio']=metrics['intitle']/metrics['volume'] if metrics['intitle'] is not None and metrics['volume'] else None
+        return {'primaryKeyword':mapping.get('term'),'keywordId':mapping.get('keywordId'),
+            'keywordMetrics':metrics,'keywordMetricsSource':'keyword_pool' if row else 'site_mapping',
+            'keywordBatchDate':row['batchDate'] if row else None,'createdAt':site.get('createdAt')}
+    note={'generatedFrom':'data/sites/*.json + data/batches/* + data/reviews/*.json','command':'python3 scripts/hub.py generate',
+          'note':'兼容视图，勿手填。源码/阶段来自站点记录，已关联主词的指标及批次来自同一关键词池。'}
     for group in ['games','plannedGames']:
         entries={r['siteId']:r for r in registry.get(group,[])}
         for sid,site in sites.items():
             if site.get('legacyGroup','plannedGames')!=group:continue
             entry=entries.setdefault(sid,{'siteId':sid})
             entry.update(repo=site['source']['repository'],rootDirectory=site['source']['directory'])
+            entry.update(keyword_view(site))
             entry['sourceBranch']=site['source']['branch']
             if site['source']['frozenSnapshots']:
                 entry['frozenSnapshot']=site['source']['frozenSnapshots'][0]
@@ -383,6 +393,8 @@ def export_compatibility(root,state):
         entry.update(repo=site['source']['repository'],path=site['source']['directory'],pathScope='relative-to-canonical-repository',
             url=site['urls']['production'] or site['urls']['preview'] or entry.get('url'),nextDecision=site['nextAction'])
         entry['canonicalSource']=site['source']
+        entry.update(keyword_view(site))
+        entry.update({k:entry['keywordMetrics'][k] for k in ['volume','kd','intitle','ratio']})
         entry['managementStage']=site['stage'];entry['managementRecord']='data/sites/'+site['id']+'.json'
         entry['keywordPages']=[{'path':m['page'],'primaryKeyword':m['term'],'country':m['country'],'language':m['language']} for m in site['keywordMappings']]
     registry['_management']=note;matrix['_management']=note

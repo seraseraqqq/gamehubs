@@ -1,0 +1,86 @@
+{
+  "source": "User-provided Semrush mirror screenshot; transcribed visible values only, no further browser connection",
+  "screenshot": "semrush-user-screenshot.png",
+  "database": "us",
+  "recordedAt": "2026-10-25T17:24:59.157442+08:00",
+  "underlyingMetricsAsOf": "not visible in screenshot crop",
+  "rows": [
+    {
+      "term": "2048 cupcakes",
+      "volume": 110000,
+      "kd": 28
+    },
+    {
+      "term": "acceleration city",
+      "volume": 90500,
+      "kd": 12
+    },
+    {
+      "term": "coreball",
+      "volume": 49500,
+      "kd": 29
+    },
+    {
+      "term": "snow rider 3d unblocked",
+      "volume": 49500,
+      "kd": 16
+    },
+    {
+      "term": "block blast unblocked",
+      "volume": 22200,
+      "kd": 21
+    },
+    {
+      "term": "cluster rush",
+      "volume": 22200,
+      "kd": 8
+    },
+    {
+      "term": "costcodle",
+      "volume": 18100,
+      "kd": 23
+    },
+    {
+      "term": "head soccer 2026",
+      "volume": 18100,
+      "kd": 20
+    },
+    {
+      "term": "spacebar counter",
+      "volume": 5400,
+      "kd": 28
+    },
+    {
+      "term": "minute cryptic unlimited",
+      "volume": 2900,
+      "kd": 25
+    },
+    {
+      "term": "gulper.io game",
+      "volume": 30,
+      "kd": null
+    },
+    {
+      "term": "krillion unlimited",
+      "volume": null,
+      "kd": null
+    }
+  ],
+  "unknowns": [
+    {
+      "term": "gulper.io game",
+      "fields": [
+        "kd"
+      ],
+      "reason": "Screenshot KD cell says unavailable"
+    },
+    {
+      "term": "krillion unlimited",
+      "fields": [
+        "volume",
+        "kd"
+      ],
+      "reason": "Screenshot provides no values; prompts metric refresh"
+    }
+  ]
+}

@@ -2,6 +2,10 @@
 
 ## 当前入口
 
+- [网站目录与关键词池一致性](2026-10-25-mac-site-keyword-consistency-004351b6cfaf/README.md)：12个旧站主词截图指标、统一关联与11个明确建站日期恢复；缺失保留未知。
+
+- [117词Google intitle补采](2026-10-25-mac-intitle-e22912c8df39/README.md)：2026-10-25实际浏览器结果数、逐词证据和口径；只补intitle，原Volume/KD和人工决定保持。
+
 - [117词机会库与排名](2026-10-24-keyword-opportunities/SHORTLIST.md)：美国英文、Trends、镜像指标与SERP证据。
 - [11个建站方案与72项任务](2026-10-24-game-build-plan/README.md)：实现路线、关键词变体、许可与域名候选。
 - [5个独立项目初始化证据](2026-10-24-game-project-init/verification.json)：实际开发资料入口见[项目总览](../docs/NEW_GAME_PROJECTS.md)。
