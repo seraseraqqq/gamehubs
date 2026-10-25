@@ -1,0 +1,580 @@
+{
+  "terms": [
+    "sedecordle",
+    "dordle",
+    "tradle",
+    "feudle",
+    "gpts"
+  ],
+  "url": "https://trends.google.com/trends/explore?geo=US&q=sedecordle,dordle,tradle,feudle,gpts&hl=en",
+  "observedAt": "2026-10-25T10:27:37.296Z",
+  "country": "US",
+  "language": "en",
+  "timeframe": "Past 12 months",
+  "queryVerified": true,
+  "status": "observed",
+  "partialPolicy": "Drop last row conservatively; partial flag not in DOM.",
+  "related": [
+    {
+      "href": "/trends/explore?q=quordle.com&date=today+12-m&geo=US",
+      "text": "1\nquordle.com\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=poople&date=today+12-m&geo=US",
+      "text": "2\npoople\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=16+wordle+sedecordle&date=today+12-m&geo=US",
+      "text": "3\n16 wordle sedecordle\n+250%"
+    },
+    {
+      "href": "/trends/explore?q=sedecordle+answers+today&date=today+12-m&geo=US",
+      "text": "4\nsedecordle answers today\n+250%"
+    },
+    {
+      "href": "/trends/explore?q=scrabble+word+finder&date=today+12-m&geo=US",
+      "text": "5\nscrabble word finder\n+120%"
+    },
+    {
+      "href": "/trends/explore?q=dordle+miniplay&date=today+12-m&geo=US",
+      "text": "1\ndordle miniplay\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=dordle+io&date=today+12-m&geo=US",
+      "text": "2\ndordle io\n+500%"
+    },
+    {
+      "href": "/trends/explore?q=krillion&date=today+12-m&geo=US",
+      "text": "1\nkrillion\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=maptap&date=today+12-m&geo=US",
+      "text": "2\nmaptap\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=poople&date=today+12-m&geo=US",
+      "text": "3\npoople\n+800%"
+    },
+    {
+      "href": "/trends/explore?q=immaculate+grid&date=today+12-m&geo=US",
+      "text": "4\nimmaculate grid\n+300%"
+    },
+    {
+      "href": "/trends/explore?q=tokelau&date=today+12-m&geo=US",
+      "text": "5\ntokelau\n+140%"
+    },
+    {
+      "href": "/trends/explore?q=nerdle&date=today+12-m&geo=US",
+      "text": "1\nnerdle\n+1,650%"
+    },
+    {
+      "href": "/trends/explore?q=chat+gpts+company+nyt&date=today+12-m&geo=US",
+      "text": "1\nchat gpts company nyt\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=cheapest+flights+to+tokyo&date=today+12-m&geo=US",
+      "text": "2\ncheapest flights to tokyo\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=how+to+bake+a+cake&date=today+12-m&geo=US",
+      "text": "3\nhow to bake a cake\n+2,800%"
+    },
+    {
+      "href": "/trends/explore?q=ai+news&date=today+12-m&geo=US",
+      "text": "4\nai news\n+750%"
+    },
+    {
+      "href": "/trends/explore?q=new+york+times&date=today+12-m&geo=US",
+      "text": "5\nnew york times\n+650%"
+    }
+  ],
+  "tables": [
+    [
+      [
+        "x1",
+        "sedecordle",
+        "dordle",
+        "tradle",
+        "feudle",
+        "gpts"
+      ],
+      [
+        "Average",
+        "20",
+        "38",
+        "31",
+        "1",
+        "67"
+      ]
+    ],
+    [
+      [
+        "x",
+        "y1",
+        "y2",
+        "y3",
+        "y4",
+        "y5"
+      ],
+      [
+        "‪Oct 19, 2025‬",
+        "22",
+        "48",
+        "32",
+        "0",
+        "44"
+      ],
+      [
+        "‪Oct 26, 2025‬",
+        "25",
+        "45",
+        "33",
+        "0",
+        "63"
+      ],
+      [
+        "‪Nov 2, 2025‬",
+        "26",
+        "44",
+        "33",
+        "0",
+        "83"
+      ],
+      [
+        "‪Nov 9, 2025‬",
+        "21",
+        "51",
+        "32",
+        "4",
+        "80"
+      ],
+      [
+        "‪Nov 16, 2025‬",
+        "26",
+        "51",
+        "34",
+        "0",
+        "63"
+      ],
+      [
+        "‪Nov 23, 2025‬",
+        "27",
+        "38",
+        "27",
+        "0",
+        "55"
+      ],
+      [
+        "‪Nov 30, 2025‬",
+        "24",
+        "45",
+        "35",
+        "3",
+        "69"
+      ],
+      [
+        "‪Dec 7, 2025‬",
+        "26",
+        "43",
+        "29",
+        "0",
+        "71"
+      ],
+      [
+        "‪Dec 14, 2025‬",
+        "20",
+        "42",
+        "27",
+        "0",
+        "81"
+      ],
+      [
+        "‪Dec 21, 2025‬",
+        "22",
+        "44",
+        "27",
+        "0",
+        "70"
+      ],
+      [
+        "‪Dec 28, 2025‬",
+        "23",
+        "45",
+        "27",
+        "0",
+        "71"
+      ],
+      [
+        "‪Jan 4, 2026‬",
+        "27",
+        "40",
+        "34",
+        "5",
+        "76"
+      ],
+      [
+        "‪Jan 11, 2026‬",
+        "22",
+        "38",
+        "34",
+        "0",
+        "76"
+      ],
+      [
+        "‪Jan 18, 2026‬",
+        "22",
+        "40",
+        "26",
+        "3",
+        "87"
+      ],
+      [
+        "‪Jan 25, 2026‬",
+        "21",
+        "40",
+        "27",
+        "0",
+        "98"
+      ],
+      [
+        "‪Feb 1, 2026‬",
+        "22",
+        "33",
+        "32",
+        "0",
+        "93"
+      ],
+      [
+        "‪Feb 8, 2026‬",
+        "22",
+        "36",
+        "34",
+        "0",
+        "88"
+      ],
+      [
+        "‪Feb 15, 2026‬",
+        "21",
+        "40",
+        "28",
+        "0",
+        "99"
+      ],
+      [
+        "‪Feb 22, 2026‬",
+        "20",
+        "39",
+        "33",
+        "0",
+        "96"
+      ],
+      [
+        "‪Mar 1, 2026‬",
+        "25",
+        "39",
+        "31",
+        "0",
+        "99"
+      ],
+      [
+        "‪Mar 8, 2026‬",
+        "25",
+        "42",
+        "32",
+        "0",
+        "85"
+      ],
+      [
+        "‪Mar 15, 2026‬",
+        "20",
+        "40",
+        "33",
+        "0",
+        "92"
+      ],
+      [
+        "‪Mar 22, 2026‬",
+        "22",
+        "41",
+        "37",
+        "4",
+        "87"
+      ],
+      [
+        "‪Mar 29, 2026‬",
+        "21",
+        "40",
+        "29",
+        "0",
+        "75"
+      ],
+      [
+        "‪Apr 5, 2026‬",
+        "19",
+        "39",
+        "27",
+        "4",
+        "87"
+      ],
+      [
+        "‪Apr 12, 2026‬",
+        "18",
+        "32",
+        "30",
+        "0",
+        "66"
+      ],
+      [
+        "‪Apr 19, 2026‬",
+        "22",
+        "38",
+        "33",
+        "5",
+        "84"
+      ],
+      [
+        "‪Apr 26, 2026‬",
+        "21",
+        "37",
+        "30",
+        "0",
+        "71"
+      ],
+      [
+        "‪May 3, 2026‬",
+        "21",
+        "36",
+        "26",
+        "3",
+        "69"
+      ],
+      [
+        "‪May 10, 2026‬",
+        "16",
+        "33",
+        "24",
+        "4",
+        "62"
+      ],
+      [
+        "‪May 17, 2026‬",
+        "19",
+        "36",
+        "19",
+        "0",
+        "78"
+      ],
+      [
+        "‪May 24, 2026‬",
+        "17",
+        "41",
+        "23",
+        "0",
+        "85"
+      ],
+      [
+        "‪May 31, 2026‬",
+        "17",
+        "33",
+        "27",
+        "0",
+        "99"
+      ],
+      [
+        "‪Jun 7, 2026‬",
+        "18",
+        "31",
+        "25",
+        "0",
+        "96"
+      ],
+      [
+        "‪Jun 14, 2026‬",
+        "19",
+        "34",
+        "22",
+        "0",
+        "100"
+      ],
+      [
+        "‪Jun 21, 2026‬",
+        "17",
+        "33",
+        "26",
+        "0",
+        "77"
+      ],
+      [
+        "‪Jun 28, 2026‬",
+        "17",
+        "36",
+        "23",
+        "0",
+        "75"
+      ],
+      [
+        "‪Jul 5, 2026‬",
+        "21",
+        "38",
+        "30",
+        "0",
+        "67"
+      ],
+      [
+        "‪Jul 12, 2026‬",
+        "14",
+        "36",
+        "31",
+        "0",
+        "55"
+      ],
+      [
+        "‪Jul 19, 2026‬",
+        "16",
+        "35",
+        "31",
+        "0",
+        "40"
+      ],
+      [
+        "‪Jul 26, 2026‬",
+        "19",
+        "38",
+        "31",
+        "0",
+        "34"
+      ],
+      [
+        "‪Aug 2, 2026‬",
+        "18",
+        "38",
+        "30",
+        "0",
+        "31"
+      ],
+      [
+        "‪Aug 9, 2026‬",
+        "19",
+        "41",
+        "32",
+        "0",
+        "35"
+      ],
+      [
+        "‪Aug 16, 2026‬",
+        "19",
+        "32",
+        "30",
+        "0",
+        "31"
+      ],
+      [
+        "‪Aug 23, 2026‬",
+        "20",
+        "38",
+        "29",
+        "0",
+        "26"
+      ],
+      [
+        "‪Aug 30, 2026‬",
+        "19",
+        "31",
+        "30",
+        "0",
+        "32"
+      ],
+      [
+        "‪Sep 6, 2026‬",
+        "16",
+        "31",
+        "34",
+        "0",
+        "41"
+      ],
+      [
+        "‪Sep 13, 2026‬",
+        "20",
+        "35",
+        "38",
+        "0",
+        "52"
+      ],
+      [
+        "‪Sep 20, 2026‬",
+        "18",
+        "30",
+        "43",
+        "0",
+        "42"
+      ],
+      [
+        "‪Sep 27, 2026‬",
+        "20",
+        "32",
+        "40",
+        "0",
+        "31"
+      ],
+      [
+        "‪Oct 4, 2026‬",
+        "20",
+        "32",
+        "44",
+        "0",
+        "32"
+      ],
+      [
+        "‪Oct 11, 2026‬",
+        "20",
+        "33",
+        "41",
+        "2",
+        "28"
+      ],
+      [
+        "‪Oct 18, 2026‬",
+        "19",
+        "37",
+        "43",
+        "2",
+        "31"
+      ],
+      [
+        "‪Oct 25, 2026‬",
+        "18",
+        "25",
+        "28",
+        "0",
+        "38"
+      ]
+    ],
+    [
+      [
+        "Term",
+        "Value"
+      ],
+      [
+        "sedecordle",
+        "0"
+      ],
+      [
+        "dordle",
+        "0"
+      ],
+      [
+        "tradle",
+        "0"
+      ],
+      [
+        "feudle",
+        "6"
+      ],
+      [
+        "gpts",
+        "94"
+      ]
+    ]
+  ],
+  "visibleText": "Home\nExplore\nTrending Now\nshare\nfeedback\ninfo\nTry the new experience!\nExplore search trends with Gemini. A quick and easy way to find search terms and discover trends.\nGo to new Explore\nclose_24px\n•\nSearch term\n•\nSearch term\n•\nSearch term\n•\nSearch term\n•\nSearch term\nUnited States\nPast 12 months\nAll categories\nWeb Search\nsedecordle\ndordle\ntradle\nfeudle\ngpts\nUnited States, Past 12 months\nInterest over time help_outline\nfile_download\ncode\nshare\nAverage\nx1\tsedecordle\tdordle\ttradle\tfeudle\tgpts\nAverage\t20\t38\t31\t1\t67\n‪Oct 19, 2025‬\n‪Mar 1, 2026‬\n‪Jul 12, 2026‬\n25\n50\n75\n100\nx\ty1\ty2\ty3\ty4\ty5\n‪Oct 19, 2025‬\t22\t48\t32\t0\t44\n‪Oct 26, 2025‬\t25\t45\t33\t0\t63\n‪Nov 2, 2025‬\t26\t44\t33\t0\t83\n‪Nov 9, 2025‬\t21\t51\t32\t4\t80\n‪Nov 16, 2025‬\t26\t51\t34\t0\t63\n‪Nov 23, 2025‬\t27\t38\t27\t0\t55\n‪Nov 30, 2025‬\t24\t45\t35\t3\t69\n‪Dec 7, 2025‬\t26\t43\t29\t0\t71\n‪Dec 14, 2025‬\t20\t42\t27\t0\t81\n‪Dec 21, 2025‬\t22\t44\t27\t0\t70\n‪Dec 28, 2025‬\t23\t45\t27\t0\t71\n‪Jan 4, 2026‬\t27\t40\t34\t5\t76\n‪Jan 11, 2026‬\t22\t38\t34\t0\t76\n‪Jan 18, 2026‬\t22\t40\t26\t3\t87\n‪Jan 25, 2026‬\t21\t40\t27\t0\t98\n‪Feb 1, 2026‬\t22\t33\t32\t0\t93\n‪Feb 8, 2026‬\t22\t36\t34\t0\t88\n‪Feb 15, 2026‬\t21\t40\t28\t0\t99\n‪Feb 22, 2026‬\t20\t39\t33\t0\t96\n‪Mar 1, 2026‬\t25\t39\t31\t0\t99\n‪Mar 8, 2026‬\t25\t42\t32\t0\t85\n‪Mar 15, 2026‬\t20\t40\t33\t0\t92\n‪Mar 22, 2026‬\t22\t41\t37\t4\t87\n‪Mar 29, 2026‬\t21\t40\t29\t0\t75\n‪Apr 5, 2026‬\t19\t39\t27\t4\t87\n‪Apr 12, 2026‬\t18\t32\t30\t0\t66\n‪Apr 19, 2026‬\t22\t38\t33\t5\t84\n‪Apr 26, 2026‬\t21\t37\t30\t0\t71\n‪May 3, 2026‬\t21\t36\t26\t3\t69\n‪May 10, 2026‬\t16\t33\t24\t4\t62\n‪May 17, 2026‬\t19\t36\t19\t0\t78\n‪May 24, 2026‬\t17\t41\t23\t0\t85\n‪May 31, 2026‬\t17\t33\t27\t0\t99\n‪Jun 7, 2026‬\t18\t31\t25\t0\t96\n‪Jun 14, 2026‬\t19\t34\t22\t0\t100\n‪Jun 21, 2026‬\t17\t33\t26\t0\t77\n‪Jun 28, 2026‬\t17\t36\t23\t0\t75\n‪Jul 5, 2026‬\t21\t38\t30\t0\t67\n‪Jul 12, 2026‬\t14\t36\t31\t0\t55\n‪Jul 19, 2026‬\t16\t35\t31\t0\t40\n‪Jul 26, 2026‬\t19\t38\t31\t0\t34\n‪Aug 2, 2026‬\t18\t38\t30\t0\t31\n‪Aug 9, 2026‬\t19\t41\t32\t0\t35\n‪Aug 16, 2026‬\t19\t32\t30\t0\t31\n‪Aug 23, 2026‬\t20\t38\t29\t0\t26\n‪Aug 30, 2026‬\t19\t31\t30\t0\t32\n‪Sep 6, 2026‬\t16\t31\t34\t0\t41\n‪Sep 13, 2026‬\t20\t35\t38\t0\t52\n‪Sep 20, 2026‬\t18\t30\t43\t0\t42\n‪Sep 27, 2026‬\t20\t32\t40\t0\t31\n‪Oct 4, 2026‬\t20\t32\t44\t0\t32\n‪Oct 11, 2026‬\t20\t33\t41\t2\t28\n‪Oct 18, 2026‬\t19\t37\t43\t2\t31\n‪Oct 25, 2026‬\t18\t25\t28\t0\t38\nCompared breakdown by subregion\nSubregion\nfile_download\ncode\nshare\nsedecordle\ndordle\ntradle\nfeudle\ngpts\nColor intensity represents percentage of searches \nLEARN MORE\nSort:\nInterest for sedecordle\n1\nMontana\n2\nHawaii\n3\nWest Virginia\n4\nNebraska\n5\nConnecticut\n Showing 1-5 of 51 subregions \nsedecordle\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nquordle.com\nBreakout\nmore_vert\n2\npoople\nBreakout\nmore_vert\n3\n16 wordle sedecordle\n+250%\nmore_vert\n4\nsedecordle answers today\n+250%\nmore_vert\n5\nscrabble word finder\n+120%\nmore_vert\n Showing 1-5 of 6 queries \ndordle\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\ndordle miniplay\nBreakout\nmore_vert\n2\ndordle io\n+500%\nmore_vert\ntradle\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nkrillion\nBreakout\nmore_vert\n2\nmaptap\nBreakout\nmore_vert\n3\npoople\n+800%\nmore_vert\n4\nimmaculate grid\n+300%\nmore_vert\n5\ntokelau\n+140%\nmore_vert\n Showing 1-5 of 6 queries \nfeudle\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nnerdle\n+1,650%\nmore_vert\ngpts\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nchat gpts company nyt\nBreakout\nmore_vert\n2\ncheapest flights to tokyo\nBreakout\nmore_vert\n3\nhow to bake a cake\n+2,800%\nmore_vert\n4\nai news\n+750%\nmore_vert\n5\nnew york times\n+650%\nmore_vert\n Showing 1-5 of 18 queries "
+}

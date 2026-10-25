@@ -1,0 +1,432 @@
+{
+  "results": [
+    {
+      "siteId": "block-blast-unblocked",
+      "checkedAt": "2026-10-25T05:22:50.390Z",
+      "url": "https://playblockblastunblocked.com/?analytics_check=20261025",
+      "title": "Block Blast Unblocked \u2014 Free 8\u00d78 Block Puzzle",
+      "h1": "\n          BLOCK\n          BLAST\n          UNBLOCKED\n        ",
+      "scripts": [
+        "https://playblockblastunblocked.com/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://playblockblastunblocked.com/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 81.10000002384186
+        },
+        {
+          "url": "https://playblockblastunblocked.com/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 176.60000002384186
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "costcodle",
+      "checkedAt": "2026-10-25T05:22:53.918Z",
+      "url": "https://costcodle.cc/?analytics_check=20261025",
+      "title": "Costcodle Unlimited \u2014 Daily Price Guessing Game",
+      "h1": "\n          COST\n          CODLE\n          UNLIMITED\n        ",
+      "scripts": [
+        "https://costcodle.cc/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://costcodle.cc/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 74.5
+        },
+        {
+          "url": "https://costcodle.cc/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 178
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "gulper-io",
+      "checkedAt": "2026-10-25T05:22:57.422Z",
+      "url": "https://gulperio.com/?analytics_check=20261025",
+      "title": "Gulper.io Snake Game \u2014 Play Online Free",
+      "h1": "\n          GULPER\n          .IO\n          SOLO ARENA\n        ",
+      "scripts": [
+        "https://gulperio.com/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://gulperio.com/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 86.79999995231628
+        },
+        {
+          "url": "https://gulperio.com/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 163.80000007152557
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "krillion-unlimited",
+      "checkedAt": "2026-10-25T05:23:00.873Z",
+      "url": "https://krilliononline.com/?analytics_check=20261025",
+      "title": "STARLING \u2014 Free Space Word Game & Rare Answer Challenge",
+      "h1": "STARLING SIGNAL TO THE STARS",
+      "scripts": [
+        "https://krilliononline.com/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://krilliononline.com/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 74.39999997615814
+        },
+        {
+          "url": "https://krilliononline.com/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 182.60000002384186
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "spacebar-counter",
+      "checkedAt": "2026-10-25T05:23:03.764Z",
+      "url": "https://spacebarcounter.xyz/?analytics_check=20261025",
+      "title": "Spacebar Counter \u2014 A Simple Spacebar Speed Test",
+      "h1": "Spacebar counter.",
+      "scripts": [
+        "https://spacebarcounter.xyz/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://spacebarcounter.xyz/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 97.29999995231628
+        },
+        {
+          "url": "https://spacebarcounter.xyz/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 194.30000007152557
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "2048-cupcakes",
+      "checkedAt": "2026-10-25T05:23:06.858Z",
+      "url": "https://2048cupcakes.xyz/?analytics_check=20261025",
+      "title": "2048 Cupcakes \u2014 A Cozy Cupcake Merge Game | Crumb",
+      "h1": "2048 Cupcakes\u2733",
+      "scripts": [
+        "https://2048cupcakes.xyz/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://2048cupcakes.xyz/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 126.30000007152557
+        },
+        {
+          "url": "https://2048cupcakes.xyz/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 173
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "coreball",
+      "checkedAt": "2026-10-25T05:23:11.844Z",
+      "url": "https://gamehubs-coreball.vercel.app/?analytics_check=20261025",
+      "title": "Coreball \u2013 Play Free Online | 30 Levels",
+      "h1": "Coreball",
+      "scripts": [
+        "https://gamehubs-coreball.vercel.app/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://gamehubs-coreball.vercel.app/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 87
+        },
+        {
+          "url": "https://gamehubs-coreball.vercel.app/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 185.10000002384186
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "minute-cryptic-unlimited",
+      "checkedAt": "2026-10-25T05:23:14.773Z",
+      "url": "https://gamehubs-minute-cryptic-unlimited.vercel.app/?analytics_check=20261025",
+      "title": "Minute Cryptic Unlimited \u2013 Free Cryptic Practice",
+      "h1": "Minute Cryptic Unlimited",
+      "scripts": [
+        "https://gamehubs-minute-cryptic-unlimited.vercel.app/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://gamehubs-minute-cryptic-unlimited.vercel.app/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 100.5
+        },
+        {
+          "url": "https://gamehubs-minute-cryptic-unlimited.vercel.app/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 177.29999995231628
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "snow-rider-3d-unblocked",
+      "checkedAt": "2026-10-25T05:23:17.861Z",
+      "url": "https://snowrider3d.top/?analytics_check=20261025",
+      "title": "Snow Rider 3D Unblocked \u2014 Play Free Online",
+      "h1": "Snow Rider 3D Unblocked",
+      "scripts": [
+        "https://snowrider3d.top/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://snowrider3d.top/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 93.10000002384186
+        },
+        {
+          "url": "https://snowrider3d.top/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 186.10000002384186
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "head-soccer-2026",
+      "checkedAt": "2026-10-25T05:23:20.659Z",
+      "url": "https://playheadsoccer.com/?analytics_check=20261025",
+      "title": "Head Soccer 2026 \u2014 Play Free Online, Solo & 2 Player",
+      "h1": "Head Soccer 2026",
+      "scripts": [
+        "https://playheadsoccer.com/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://playheadsoccer.com/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 112.39999997615814
+        },
+        {
+          "url": "https://playheadsoccer.com/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 174.5
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "acceleration-city",
+      "checkedAt": "2026-10-25T05:23:23.389Z",
+      "url": "https://playaccelerationcity.com/?analytics_check=20261025",
+      "title": "Acceleration City \u2014 Play the CoBot Driving Game",
+      "h1": "Acceleration City",
+      "scripts": [
+        "https://playaccelerationcity.com/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://playaccelerationcity.com/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 111.19999992847443
+        },
+        {
+          "url": "https://playaccelerationcity.com/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 186.89999997615814
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "cluster-rush",
+      "checkedAt": "2026-10-25T05:23:27.378Z",
+      "url": "https://playclusterrush.online/?analytics_check=20261025",
+      "title": "Cluster Rush \u2014 Play the Truck Jumping Game Online",
+      "h1": "Cluster Rush",
+      "scripts": [
+        "https://playclusterrush.online/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://playclusterrush.online/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 104.89999997615814
+        },
+        {
+          "url": "https://playclusterrush.online/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 199.30000007152557
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "colordle",
+      "checkedAt": "2026-10-25T05:23:51.360Z",
+      "url": "https://gameshub-colordle.vercel.app/?analytics_check=20261025",
+      "title": "Colordle Unlimited \u2013 Guess the Color by Name",
+      "h1": "Colordle Unlimited",
+      "scripts": [
+        "https://gameshub-colordle.vercel.app/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://gameshub-colordle.vercel.app/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 102.19999992847443
+        },
+        {
+          "url": "https://gameshub-colordle.vercel.app/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 171.20000004768372
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "cutle",
+      "checkedAt": "2026-10-25T05:23:54.656Z",
+      "url": "https://gameshub-cutle.vercel.app/?analytics_check=20261025",
+      "title": "Cutle Unlimited \u2013 Play the Shape Cutting Game",
+      "h1": "Cutle Unlimited",
+      "scripts": [
+        "https://gameshub-cutle.vercel.app/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://gameshub-cutle.vercel.app/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 2.0999999046325684
+        },
+        {
+          "url": "https://gameshub-cutle.vercel.app/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 183.5
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "metazooa",
+      "checkedAt": "2026-10-25T05:23:57.889Z",
+      "url": "https://gameshub-metazooa.vercel.app/?analytics_check=20261025",
+      "title": "Metazooa Practice \u2013 Animal Taxonomy Guessing Game",
+      "h1": "Metazooa Practice",
+      "scripts": [
+        "https://gameshub-metazooa.vercel.app/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://gameshub-metazooa.vercel.app/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 197
+        },
+        {
+          "url": "https://gameshub-metazooa.vercel.app/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 184.89999997615814
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "poople",
+      "checkedAt": "2026-10-25T05:24:01.433Z",
+      "url": "https://gameshub-poople.vercel.app/?analytics_check=20261025",
+      "title": "Poople Practice \u2013 Unlimited Word Ladder Puzzles",
+      "h1": "Poople Practice",
+      "scripts": [
+        "https://gameshub-poople.vercel.app/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://gameshub-poople.vercel.app/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 598
+        },
+        {
+          "url": "https://gameshub-poople.vercel.app/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 176.10000002384186
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "travle",
+      "checkedAt": "2026-10-25T05:25:17.461Z",
+      "url": "https://gameshub-travle.vercel.app/?analytics_check=20261025",
+      "title": "Travle Unlimited \u2013 Play the Country Path Game",
+      "h1": "Travle Unlimited",
+      "scripts": [
+        "https://gameshub-travle.vercel.app/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://gameshub-travle.vercel.app/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 1.6999999284744263
+        },
+        {
+          "url": "https://gameshub-travle.vercel.app/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 176.39999997615814
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "count": 17,
+  "scope": "Owner real Chrome; each origin loaded its production app and generated a genuine /_vercel/insights/view HTTP 200. No synthetic events were posted."
+}

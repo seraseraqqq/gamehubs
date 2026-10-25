@@ -1,0 +1,227 @@
+{
+  "checkedAt": "2026-10-25T04:28:30.746Z",
+  "origin": "https://gameshub-metazooa.vercel.app",
+  "checks": [
+    {
+      "url": "https://gameshub-metazooa.vercel.app/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Metazooa Practice – Animal Taxonomy Guessing Game",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/taxonomy-guide",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Metazooa Taxonomy Guide – Animal Names and Shared Ancestors",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/how-to-play",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "How to Play Metazooa – Rules and Controls",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/about",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "About Metazooa Practice",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/privacy",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Privacy and Local Progress",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/credits",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Sources, Data and Credits",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/assets/styles-C2-Hw_9W.css",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/css; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/assets/index-CSmjNM2W.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/assets/routes-B-0cOPjS.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/assets/engine-eXL_QRR3.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/favicon.svg",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "image/svg+xml",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/favicon-32.png",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "image/png",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/apple-touch-icon.png",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "image/png",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/site.webmanifest",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/manifest+json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/assets/taxonomy-guide-D2Hmfimh.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/assets/how-to-play-B7arOxaW.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/assets/about-Dym8fac5.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/assets/privacy-oXwHbxeC.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/assets/credits-CX0wtErR.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/robots.txt",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/plain; charset=utf-8",
+      "body": "User-agent: *\nAllow: /\n",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/sitemap.xml",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/xml",
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"></urlset>",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-metazooa.vercel.app/__gamehubs_missing_release_check__",
+      "status": 404,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/plain; charset=utf-8",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limits": [
+    "HTTP and metadata checks do not prove complete game loading or gameplay.",
+    "No search-engine indexing, physical-device or performance acceptance is inferred."
+  ]
+}

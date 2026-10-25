@@ -1,0 +1,409 @@
+{
+  "url": "https://poki.com/zh/g/ragdoll-drop#utm_source=redirect-en-zh",
+  "observedAt": "2026-10-25T11:48:50.104Z",
+  "scope": "Visible public game page; no claim of licence or comprehensive gameplay acceptance",
+  "controls": [
+    {
+      "label": "Profile",
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": "搜索结果",
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "你今天要玩什么呢？"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "174.8K\n喜欢"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "21.1K\n不喜欢"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "报告错误"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "查看更多"
+    },
+    {
+      "label": "点击访问Poki (宝玩)的公司页面",
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Let the world play"
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "url": "https://poki.com/zh"
+    },
+    {
+      "text": "Ragdoll Hit",
+      "url": "https://poki.com/zh/g/ragdoll-hit"
+    },
+    {
+      "text": "JollyWorld",
+      "url": "https://poki.com/zh/g/jollyworld"
+    },
+    {
+      "text": "No Pain No Gain",
+      "url": "https://poki.com/zh/g/no-pain-no-gain"
+    },
+    {
+      "text": "Zeepkist: Crash 2D",
+      "url": "https://poki.com/zh/g/zeepkist-crash-2d"
+    },
+    {
+      "text": "Ragdoll Bonk",
+      "url": "https://poki.com/zh/g/ragdoll-bonk"
+    },
+    {
+      "text": "Planet Destruction",
+      "url": "https://poki.com/zh/g/planet-destruction"
+    },
+    {
+      "text": "Noob Archer 2",
+      "url": "https://poki.com/zh/g/noob-archer-2"
+    },
+    {
+      "text": "The Superhero League 2",
+      "url": "https://poki.com/zh/g/the-superhero-league-2"
+    },
+    {
+      "text": "SUPERHOT Prototype",
+      "url": "https://poki.com/zh/g/superhot-prototype"
+    },
+    {
+      "text": "Kick The Buddy",
+      "url": "https://poki.com/zh/g/kick-the-buddy"
+    },
+    {
+      "text": "Whip & Flip",
+      "url": "https://poki.com/zh/g/whip-flip"
+    },
+    {
+      "text": "Ragdoll Chaos",
+      "url": "https://poki.com/zh/g/ragdoll-chaos"
+    },
+    {
+      "text": "Magic Battleground",
+      "url": "https://poki.com/zh/g/magic-battleground"
+    },
+    {
+      "text": "Buck Bounce",
+      "url": "https://poki.com/zh/g/buck-bounce"
+    },
+    {
+      "text": "Draw The Road",
+      "url": "https://poki.com/zh/g/draw-the-road"
+    },
+    {
+      "text": "Wreck The Robot",
+      "url": "https://poki.com/zh/g/wreck-the-robot"
+    },
+    {
+      "text": "Woody Sort",
+      "url": "https://poki.com/zh/g/woody-sort"
+    },
+    {
+      "text": "Mad Stick",
+      "url": "https://poki.com/zh/g/mad-stick"
+    },
+    {
+      "text": "Theft City",
+      "url": "https://poki.com/zh/g/theft-city"
+    },
+    {
+      "text": "Drive Mad",
+      "url": "https://poki.com/zh/g/drive-mad"
+    },
+    {
+      "text": "Family Sort",
+      "url": "https://poki.com/zh/g/family-sort"
+    },
+    {
+      "text": "Ragdoll Soccer",
+      "url": "https://poki.com/zh/g/ragdoll-soccer"
+    },
+    {
+      "text": "Flip Bros",
+      "url": "https://poki.com/zh/g/flip-bros"
+    },
+    {
+      "text": "War of Sticks",
+      "url": "https://poki.com/zh/g/war-of-sticks"
+    },
+    {
+      "text": "Fancy Pants 2",
+      "url": "https://poki.com/zh/g/fancy-pants-2"
+    },
+    {
+      "text": "Blast Buddies",
+      "url": "https://poki.com/zh/g/blast-buddies"
+    },
+    {
+      "text": "Iron Snout",
+      "url": "https://poki.com/zh/g/iron-snout"
+    },
+    {
+      "text": "You Monster!",
+      "url": "https://poki.com/zh/g/you-monster"
+    },
+    {
+      "text": "Unicycle Hero",
+      "url": "https://poki.com/zh/g/unicycle-hero"
+    },
+    {
+      "text": "Puppet Master",
+      "url": "https://poki.com/zh/g/puppet-master"
+    },
+    {
+      "text": "Speed Stars",
+      "url": "https://poki.com/zh/g/speed-stars"
+    },
+    {
+      "text": "Stickman Escape",
+      "url": "https://poki.com/zh/g/stickman-escape"
+    },
+    {
+      "text": "The Spear Stickman",
+      "url": "https://poki.com/zh/g/the-spear-stickman"
+    },
+    {
+      "text": "Stick Fighter",
+      "url": "https://poki.com/zh/g/stick-fighter"
+    },
+    {
+      "text": "Tank Stars",
+      "url": "https://poki.com/zh/g/tank-stars"
+    },
+    {
+      "text": "Repuls.io",
+      "url": "https://poki.com/zh/g/repuls-io"
+    },
+    {
+      "text": "Stickman Parkour 2: Lucky Block",
+      "url": "https://poki.com/zh/g/stickman-parkour-2-lucky-block"
+    },
+    {
+      "text": "Samurai Sam",
+      "url": "https://poki.com/zh/g/samurai-sam"
+    },
+    {
+      "text": "Stickman Archero Fight",
+      "url": "https://poki.com/zh/g/stickman-archero-fight"
+    },
+    {
+      "text": "Blumgi Soccer",
+      "url": "https://poki.com/zh/g/blumgi-soccer"
+    },
+    {
+      "text": "Short Life",
+      "url": "https://poki.com/zh/g/short-life"
+    },
+    {
+      "text": "Knife Merge",
+      "url": "https://poki.com/zh/g/knife-merge"
+    },
+    {
+      "text": "Stickman Kingdom Clash",
+      "url": "https://poki.com/zh/g/stickman-kingdom-clash"
+    },
+    {
+      "text": "Level Devil",
+      "url": "https://poki.com/zh/g/level-devil"
+    },
+    {
+      "text": "MineFun.io",
+      "url": "https://poki.com/zh/g/minefun-io"
+    },
+    {
+      "text": "Escape From Spider",
+      "url": "https://poki.com/zh/g/escape-from-spider"
+    },
+    {
+      "text": "Hole.io",
+      "url": "https://poki.com/zh/g/hole-io"
+    },
+    {
+      "text": "Hide and Paint",
+      "url": "https://poki.com/zh/g/hide-and-paint"
+    },
+    {
+      "text": "We Become What We Behold",
+      "url": "https://poki.com/zh/g/we-become-what-we-behold"
+    },
+    {
+      "text": "Bullet Bros",
+      "url": "https://poki.com/zh/g/bullet-bros"
+    },
+    {
+      "text": "Aquapark.io",
+      "url": "https://poki.com/zh/g/aquaparkio"
+    },
+    {
+      "text": "Murder",
+      "url": "https://poki.com/zh/g/murder"
+    },
+    {
+      "text": "Backroom Bill",
+      "url": "https://poki.com/zh/g/backroom-bill"
+    },
+    {
+      "text": "Puppetman: Ragdoll Puzzle",
+      "url": "https://poki.com/zh/g/puppetman-ragdoll-puzzle"
+    },
+    {
+      "text": "Stickman Hook",
+      "url": "https://poki.com/zh/g/stickman-hook"
+    },
+    {
+      "text": "Blacktop Police Chase",
+      "url": "https://poki.com/zh/g/blacktop-police-chase"
+    },
+    {
+      "text": "Stickman Battle",
+      "url": "https://poki.com/zh/g/stickman-battle"
+    },
+    {
+      "text": "格斗游戏",
+      "url": "https://poki.com/zh/%E6%A0%BC%E6%96%97"
+    },
+    {
+      "text": "汽车游戏",
+      "url": "https://poki.com/zh/%E6%B1%BD%E8%BD%A6"
+    },
+    {
+      "text": "双人游戏",
+      "url": "https://poki.com/zh/%E5%8F%8C%E4%BA%BA"
+    },
+    {
+      "text": "手机游戏",
+      "url": "https://poki.com/zh/%E6%89%8B%E6%9C%BA"
+    },
+    {
+      "text": "火柴人游戏",
+      "url": "https://poki.com/zh/%E7%81%AB%E6%9F%B4%E4%BA%BA"
+    },
+    {
+      "text": "经典游戏",
+      "url": "https://poki.com/zh/%E7%BB%8F%E5%85%B8"
+    },
+    {
+      "text": "动作游戏",
+      "url": "https://poki.com/zh/%E5%8A%A8%E4%BD%9C"
+    },
+    {
+      "text": "街机游戏",
+      "url": "https://poki.com/zh/%E8%A1%97%E6%9C%BA"
+    },
+    {
+      "text": "3D游戏",
+      "url": "https://poki.com/zh/3d"
+    },
+    {
+      "text": "游戏",
+      "url": "https://poki.com/zh"
+    },
+    {
+      "text": "动作游戏",
+      "url": "https://poki.com/zh/%E5%8A%A8%E4%BD%9C"
+    },
+    {
+      "text": "Ragdoll Hit",
+      "url": "https://poki.com/zh/g/ragdoll-hit"
+    },
+    {
+      "text": "动作游戏590",
+      "url": "https://poki.com/zh/%E5%8A%A8%E4%BD%9C"
+    },
+    {
+      "text": "火柴人游戏81",
+      "url": "https://poki.com/zh/%E7%81%AB%E6%9F%B4%E4%BA%BA"
+    },
+    {
+      "text": "Ragdoll Hit",
+      "url": "https://poki.com/zh/g/ragdoll-hit"
+    },
+    {
+      "text": "",
+      "url": "https://poki.com/zh"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@poki_games"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/poki__games"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/@Poki"
+    },
+    {
+      "text": "汽车游戏",
+      "url": "https://poki.com/zh/%E6%B1%BD%E8%BD%A6"
+    },
+    {
+      "text": "双人游戏",
+      "url": "https://poki.com/zh/%E5%8F%8C%E4%BA%BA"
+    },
+    {
+      "text": "益智游戏",
+      "url": "https://poki.com/zh/%E7%9B%8A%E6%99%BA"
+    },
+    {
+      "text": "所有游戏",
+      "url": "https://poki.com/zh/all-games"
+    },
+    {
+      "text": "常见问题解答",
+      "url": "https://poki.com/zh/c/faq"
+    },
+    {
+      "text": "联系",
+      "url": "https://poki.com/zh/c/contact"
+    },
+    {
+      "text": "隐私中心",
+      "url": "https://poki.com/zh/privacy"
+    },
+    {
+      "text": "关于我们",
+      "url": "https://about.poki.com/"
+    },
+    {
+      "text": "Poki for Developers",
+      "url": "https://developers.poki.com/"
+    },
+    {
+      "text": "Poki Kids",
+      "url": "https://kids.poki.com/"
+    },
+    {
+      "text": "Blog",
+      "url": "https://poki.com/blog/"
+    },
+    {
+      "text": "加入我们",
+      "url": "https://poki.com/jobs"
+    }
+  ],
+  "text": "你今天要玩什么呢？\nRagdoll Drop\n制作方: Ericetto\n174.8K\n喜欢\n21.1K\n不喜欢\n报告错误\n短暂休息后，我们就会回来\n准备中……\nRagdoll Hit\nJollyWorld\nNo Pain No Gain\nZeepkist: Crash 2D\nRagdoll Bonk\nPlanet Destruction\nNoob Archer 2\nThe Superhero League 2\nSUPERHOT Prototype\nKick The Buddy\nWhip & Flip\nRagdoll Chaos\nMagic Battleground\nBuck Bounce\nDraw The Road\nWreck The Robot\nWoody Sort\nMad Stick\nTheft City\nDrive Mad\nFamily Sort\nRagdoll Soccer\nFlip Bros\nWar of Sticks\nFancy Pants 2\nBlast Buddies\nIron Snout\nYou Monster!\nUnicycle Hero\nPuppet Master\nSpeed Stars\nStickman Escape\nThe Spear Stickman\nStick Fighter\nTank Stars\nRepuls.io\nStickman Parkour 2: Lucky Block\nSamurai Sam\nStickman Archero Fight\nBlumgi Soccer\nShort Life\nKnife Merge\nStickman Kingdom Clash\nLevel Devil\nMineFun.io\nEscape From Spider\nHole.io\nHide and Paint\nWe Become What We Behold\nBullet Bros\nAquapark.io\nMurder\nBackroom Bill\nPuppetman: Ragdoll Puzzle\nStickman Hook\nBlacktop Police Chase\nStickman Battle\n格斗游戏\n汽车游戏\n双人游戏\n手机游戏\n火柴人游戏\n经典游戏\n动作游戏\n街机游戏\n3D游戏\n广告\n广告\n广告\n游戏\n动作游戏\nRagdoll Drop\n制作方: Ericetto\nRagdoll Drop：一款趣味十足的动作游戏！15个关卡等你挑战，尽情投掷你的布娃娃，火箭、手雷、刀剑齐上阵，花式搞破坏，冲击更高伤害分数！\n查看更多\n\nRagdoll Drop 是一款以混乱为目标的物理游戏！把你摇摇晃晃的角色扔进坑里，撞到墙上，让他们在疯狂的过山车上旋转，或者用火箭把他们发射出去——一切皆有可能！试试购物车和弹射器等各种奇葩载具，完成任务，解锁隐藏皮肤，探索无穷无尽的滑稽方法来“摧毁”你的布娃娃。凭借简单的操作、滑稽的幽默和意想不到的乐趣， Ragdoll Drop 带来纯粹的弹跳混乱！准备好投入这场疯狂了吗？\n\n如何玩 Ragdoll Drop？\n\n点击或轻触即可开始游戏！\n\nRagdoll Drop是谁开发的？\n\nRagdoll Drop 由 Ericetto 制作。玩他们的其他游戏： Poki (宝玩)： Ragdoll Hit！\n\n如何免费玩《Ragdoll Drop》？\n\n你可以在 Poki 上免费玩 Ragdoll Drop。\n\n我可以在手机和电脑上玩《Ragdoll Drop》吗？\n\nRagdoll Drop 可以在电脑和移动设备（如手机和平板电脑）上玩。\n\n评分\n4.6\n已更新\n2025年11月\n关于此游戏\n操作\n鼠标点击或轻触即可开始游戏。\n支持的设备\n电脑, 手机和平板\n开发者\nEricetto\n类型\n动作游戏\n发布日期\n2025年11月\n最新更新\n2025年11月\n评分\n4.6 (195,915 次投票)\n相关类别\n动作游戏590\n火柴人游戏81\n该开发者的更多游戏\nRagdoll Hit\nLet the world play\n热门\n汽车游戏\n双人游戏\n益智游戏\n所有游戏\n帮助和支持\n常见问题解答\n联系\n隐私中心\n了解我们\n关于我们\nPoki for Developers\nPoki Kids\nBlog\n加入我们",
+  "title": "Ragdoll Drop - 免费在线玩! | Poki (宝玩)"
+}

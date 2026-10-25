@@ -1,9 +1,39 @@
 {
   "blockers": [
-    "实体设备/玩家/生产性能仍待验收；源码主分支SHA已在本机只读核实",
-    "域名未购买，未建立Vercel项目、未部署"
+    "实体手机、五人对照、跨浏览器/读屏与生产性能验收仍待完成；Vercel部署与本轮浏览器冒烟已通过"
   ],
   "development": {
+    "domainConfiguration": {
+      "canonicalVerified": null,
+      "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+      "customDomain": null,
+      "evidence": [
+        "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+      ],
+      "httpsVerified": true,
+      "pathAndQueryPreserved": null,
+      "primaryOrigin": "https://gameshub-metazooa.vercel.app",
+      "projectBindingVerified": true,
+      "redirectStatusCode": null,
+      "wwwRedirectTo": null
+    },
+    "domainResearch": {
+      "availabilityProvider": "Vercel Registrar API",
+      "available": true,
+      "budgetCandidates": [
+        "metazooa.xyz",
+        "metazooa.top",
+        "metazooa.online"
+      ],
+      "checkedAt": "2026-10-25T04:32:25.483936+00:00",
+      "comCandidate": "metazooaunlimited.com",
+      "evidence": "research/2026-10-25-windows-domain-matching-4f7b8e21/README.md",
+      "premium": false,
+      "priceNotice": "域名查询JSON为Vercel报价；Spaceship后缀价参考见报告，以实际结账为准。",
+      "purchased": false,
+      "recommendation": "可考虑.com：主词估值12100/KD23，持续需求且近期增长；原站较强。"
+    },
     "evidence": "research/2026-10-24-five-game-development/STATUS.md",
     "implementationPushed": true,
     "localValidation": {
@@ -23,9 +53,63 @@
       "productionPerformanceAcceptance": false,
       "review": "ship-local-prototype"
     },
-    "pushRecordedAt": "2026-10-24T16:40:38.347Z",
-    "recordedHead": "2e504e89c85b7f24a963881f39d69632b44fd29e",
-    "state": "local-optimized-verified-pending-device-and-player-acceptance"
+    "ownerReleaseApproved": true,
+    "pushRecordedAt": "2026-10-25T05:27:45.967795+00:00",
+    "recordedHead": "32c7737666ff41480535ebfae5c194037b0a5fde",
+    "state": "deployed-pending-external-acceptance",
+    "vercelRelease": {
+      "branch": "main",
+      "customDomain": null,
+      "deploymentId": "dpl_4iYfsgUXtctfB96mPrkNnLHY7A9K",
+      "deploymentUrl": "gameshub-metazooa-e6t5wpzl5-gx03410-8651s-projects.vercel.app",
+      "evidence": "deployments/2026-10-25-portfolio-analytics.md",
+      "projectId": "prj_Jf18eJkWESULNxxU1lkcVl39ii9R",
+      "projectName": "gameshub-metazooa",
+      "siteIndexable": false,
+      "sourceCommit": "32c7737666ff41480535ebfae5c194037b0a5fde",
+      "state": "READY",
+      "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+    },
+    "vercelWiringAudit": {
+      "buildCommand": "pnpm build",
+      "checkedAt": "2026-10-25T07:04:54.499541+00:00",
+      "duplicateImportSuggestionDismissed": true,
+      "duplicateProjectDisconnected": false,
+      "evidence": [
+        "research/2026-10-25-vercel-deployment-history/FIXES.md",
+        "research/2026-10-25-vercel-deployment-history/five-existing-projects.json"
+      ],
+      "httpAssetsVerified": 4,
+      "httpPagesVerified": 6,
+      "liveCommit": "32c7737666ff41480535ebfae5c194037b0a5fde",
+      "outputDirectory": "apps/web/dist/client",
+      "preparedSeoCommit": "7325cc7a2d048600ecfe1a49f7d34c995f007cf5",
+      "preparedSeoCommitLive": false,
+      "productionState": "READY",
+      "projectId": "prj_Jf18eJkWESULNxxU1lkcVl39ii9R",
+      "repositoryMatched": true,
+      "rootDirectory": null
+    },
+    "webAnalytics": {
+      "analyticsId": "NdwaVlHMW30yiFgVAbBR25zjQ",
+      "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+      "clientIntegrated": true,
+      "dashboardReceived": true,
+      "evidence": [
+        "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+      ],
+      "integrationMethod": "@vercel/analytics/react",
+      "pageviewStatus": 200,
+      "pageviewVerified": true,
+      "projectEnabled": true,
+      "provider": "Vercel Web Analytics",
+      "queryAndHashFiltered": true,
+      "receiptSource": "Vercel project.webAnalytics.hasData=true",
+      "sdkInstalled": true,
+      "sdkVersion": "2.0.1"
+    }
   },
   "history": [
     {
@@ -149,6 +233,516 @@
         }
       },
       "previousRevision": "1fff23a4d5bc5109660f68145ba6132402a93592103c3486b0dc35f3bac2a7fe"
+    },
+    {
+      "actor": "codex-ai:owner-approved-five-game-release-domain-research",
+      "at": "2026-10-25T04:32:25.566499+00:00",
+      "previous": {
+        "blockers": [
+          "实体设备/玩家/生产性能仍待验收；源码主分支SHA已在本机只读核实",
+          "域名未购买，未建立Vercel项目、未部署"
+        ],
+        "development": {
+          "evidence": "research/2026-10-24-five-game-development/STATUS.md",
+          "implementationPushed": true,
+          "localValidation": {
+            "chromeCompletedRounds": 10,
+            "date": "2026-10-24",
+            "engineTests": 4,
+            "physicalDeviceAcceptance": false,
+            "playerComparisonAcceptance": false,
+            "review": "ship-at-local-prototype-scope"
+          },
+          "optimizationValidation": {
+            "chromeFlowsPassed": true,
+            "date": "2026-10-25",
+            "engineTests": 4,
+            "physicalDeviceAcceptance": false,
+            "playerComparisonAcceptance": false,
+            "productionPerformanceAcceptance": false,
+            "review": "ship-local-prototype"
+          },
+          "pushRecordedAt": "2026-10-24T16:40:38.347Z",
+          "recordedHead": "2e504e89c85b7f24a963881f39d69632b44fd29e",
+          "state": "local-optimized-verified-pending-device-and-player-acceptance"
+        },
+        "id": "metazooa",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-87edb316733c6d0f33a6",
+            "language": "en",
+            "page": "/",
+            "poolLinked": true,
+            "role": "primary",
+            "term": "metazooa"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-ccf9a7068d8907eb29cf",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "metazooa game"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-1d2df971dc7b0540a05f",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "metazooa unlimited"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-6674ed896746614abc08",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "metazooa practice"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-00dcae365574d10077e9",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "metazooa hints"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-4c3931050bab6d8790af",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "animal taxonomy game"
+          }
+        ],
+        "legacyGroup": "plannedGames",
+        "name": "Metazooa",
+        "nextAction": "补实体设备、跨浏览器、玩家及生产发布条件验收；进入正式仓库继续，不重复建仓或推送已完成版本。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "原设备预览地址 http://127.0.0.1:4314 不代表本机已有该服务。"
+        ],
+        "release": {
+          "deployment": "not_deployed",
+          "gameplayAcceptance": "pending",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-metazooa"
+        },
+        "sources": [
+          {
+            "note": "最新远端登记与本机只读主分支SHA核对",
+            "path": "data/migration/source-repositories-dc5994e.json#metazooa"
+          },
+          {
+            "note": "其他设备交付的优化、推送和验收范围记录",
+            "path": "research/2026-10-24-five-game-development/optimization-delivery.md"
+          }
+        ],
+        "stage": "awaiting_release",
+        "urls": {
+          "preview": null,
+          "production": null
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25",
+          "recordedAt": "2026-10-24T16:40:38.347Z",
+          "scope": "本机只读git ls-remote核对独立仓库main与登记SHA一致；未验收线上部署或实际游玩。"
+        }
+      },
+      "previousRevision": "3563e9eab538edc7f67b0d3a09854f1d67ed5c42f6166a2849c46b6be37ada47"
+    },
+    {
+      "actor": "ai-owner-authorized-analytics-rollout",
+      "at": "2026-10-25T05:27:49.832571+00:00",
+      "previous": {
+        "blockers": [
+          "实体手机、五人对照、跨浏览器/读屏与生产性能验收仍待完成；Vercel部署与本轮浏览器冒烟已通过"
+        ],
+        "development": {
+          "domainResearch": {
+            "availabilityProvider": "Vercel Registrar API",
+            "available": true,
+            "budgetCandidates": [
+              "metazooa.xyz",
+              "metazooa.top",
+              "metazooa.online"
+            ],
+            "checkedAt": "2026-10-25T04:32:25.483936+00:00",
+            "comCandidate": "metazooaunlimited.com",
+            "evidence": "research/2026-10-25-windows-domain-matching-4f7b8e21/README.md",
+            "premium": false,
+            "priceNotice": "域名查询JSON为Vercel报价；Spaceship后缀价参考见报告，以实际结账为准。",
+            "purchased": false,
+            "recommendation": "可考虑.com：主词估值12100/KD23，持续需求且近期增长；原站较强。"
+          },
+          "evidence": "research/2026-10-24-five-game-development/STATUS.md",
+          "implementationPushed": true,
+          "localValidation": {
+            "chromeCompletedRounds": 10,
+            "date": "2026-10-24",
+            "engineTests": 4,
+            "physicalDeviceAcceptance": false,
+            "playerComparisonAcceptance": false,
+            "review": "ship-at-local-prototype-scope"
+          },
+          "optimizationValidation": {
+            "chromeFlowsPassed": true,
+            "date": "2026-10-25",
+            "engineTests": 4,
+            "physicalDeviceAcceptance": false,
+            "playerComparisonAcceptance": false,
+            "productionPerformanceAcceptance": false,
+            "review": "ship-local-prototype"
+          },
+          "ownerReleaseApproved": true,
+          "pushRecordedAt": "2026-10-25T04:32:25.483936+00:00",
+          "recordedHead": "bf51cf666218691c4f767e30a9a2b20039a99174",
+          "state": "deployed-pending-external-acceptance",
+          "vercelRelease": {
+            "branch": "main",
+            "customDomain": null,
+            "deploymentId": "dpl_GiKAYXZQAfaVaPHtrRQXKaV8ZUkm",
+            "evidence": "deployments/2026-10-25-five-game-release.md",
+            "projectId": "prj_Jf18eJkWESULNxxU1lkcVl39ii9R",
+            "projectName": "gameshub-metazooa",
+            "siteIndexable": false,
+            "sourceCommit": "bf51cf666218691c4f767e30a9a2b20039a99174",
+            "state": "READY"
+          }
+        },
+        "id": "metazooa",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-87edb316733c6d0f33a6",
+            "language": "en",
+            "page": "/",
+            "poolLinked": true,
+            "role": "primary",
+            "term": "metazooa"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-ccf9a7068d8907eb29cf",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "metazooa game"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-1d2df971dc7b0540a05f",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "metazooa unlimited"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-6674ed896746614abc08",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "metazooa practice"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-00dcae365574d10077e9",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "metazooa hints"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-4c3931050bab6d8790af",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "animal taxonomy game"
+          }
+        ],
+        "legacyGroup": "plannedGames",
+        "name": "Metazooa",
+        "nextAction": "在已部署Vercel地址完成外部验收；按域名研究选择候选，购买/绑定需另行明确范围。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "原设备预览地址 http://127.0.0.1:4314 不代表本机已有该服务。",
+          "2026-10-25可注册域名候选：metazooaunlimited.com；低成本：metazooa.xyz / metazooa.top / metazooa.online。均已返回可注册、非溢价；未购买。可考虑.com：主词估值12100/KD23，持续需求且近期增长；原站较强。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "pending",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-metazooa"
+        },
+        "sources": [
+          {
+            "note": "最新远端登记与本机只读主分支SHA核对",
+            "path": "data/migration/source-repositories-dc5994e.json#metazooa"
+          },
+          {
+            "note": "其他设备交付的优化、推送和验收范围记录",
+            "path": "research/2026-10-24-five-game-development/optimization-delivery.md"
+          },
+          {
+            "note": "2026-10-25域名匹配、可注册性全量结果、需求证据边界与价格来源",
+            "path": "research/2026-10-25-windows-domain-matching-4f7b8e21/README.md"
+          },
+          {
+            "note": "用户明确部署授权、生产版本及本轮验收证据",
+            "path": "deployments/2026-10-25-five-game-release.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://gameshub-metazooa.vercel.app/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T04:32:25.483936+00:00",
+          "recordedAt": "2026-10-24T16:40:38.347Z",
+          "scope": "本轮pnpm类型检查/引擎测试/构建、Vercel生产READY及Git版本回读，每站22项HTTP与真实Edge浏览器交互冒烟通过；真机/五人对照/性能未验收。"
+        }
+      },
+      "previousRevision": "f22b48ea206cfb304f251f7328ae8c59f4954127a1068c5597ea33b8822925b6"
+    },
+    {
+      "actor": "ai-vercel-wiring-fix",
+      "at": "2026-10-25T07:07:37.261639+00:00",
+      "previous": {
+        "blockers": [
+          "实体手机、五人对照、跨浏览器/读屏与生产性能验收仍待完成；Vercel部署与本轮浏览器冒烟已通过"
+        ],
+        "development": {
+          "domainConfiguration": {
+            "canonicalVerified": null,
+            "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+            "customDomain": null,
+            "evidence": [
+              "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+            ],
+            "httpsVerified": true,
+            "pathAndQueryPreserved": null,
+            "primaryOrigin": "https://gameshub-metazooa.vercel.app",
+            "projectBindingVerified": true,
+            "redirectStatusCode": null,
+            "wwwRedirectTo": null
+          },
+          "domainResearch": {
+            "availabilityProvider": "Vercel Registrar API",
+            "available": true,
+            "budgetCandidates": [
+              "metazooa.xyz",
+              "metazooa.top",
+              "metazooa.online"
+            ],
+            "checkedAt": "2026-10-25T04:32:25.483936+00:00",
+            "comCandidate": "metazooaunlimited.com",
+            "evidence": "research/2026-10-25-windows-domain-matching-4f7b8e21/README.md",
+            "premium": false,
+            "priceNotice": "域名查询JSON为Vercel报价；Spaceship后缀价参考见报告，以实际结账为准。",
+            "purchased": false,
+            "recommendation": "可考虑.com：主词估值12100/KD23，持续需求且近期增长；原站较强。"
+          },
+          "evidence": "research/2026-10-24-five-game-development/STATUS.md",
+          "implementationPushed": true,
+          "localValidation": {
+            "chromeCompletedRounds": 10,
+            "date": "2026-10-24",
+            "engineTests": 4,
+            "physicalDeviceAcceptance": false,
+            "playerComparisonAcceptance": false,
+            "review": "ship-at-local-prototype-scope"
+          },
+          "optimizationValidation": {
+            "chromeFlowsPassed": true,
+            "date": "2026-10-25",
+            "engineTests": 4,
+            "physicalDeviceAcceptance": false,
+            "playerComparisonAcceptance": false,
+            "productionPerformanceAcceptance": false,
+            "review": "ship-local-prototype"
+          },
+          "ownerReleaseApproved": true,
+          "pushRecordedAt": "2026-10-25T05:27:45.967795+00:00",
+          "recordedHead": "32c7737666ff41480535ebfae5c194037b0a5fde",
+          "state": "deployed-pending-external-acceptance",
+          "vercelRelease": {
+            "branch": "main",
+            "customDomain": null,
+            "deploymentId": "dpl_4iYfsgUXtctfB96mPrkNnLHY7A9K",
+            "deploymentUrl": "gameshub-metazooa-e6t5wpzl5-gx03410-8651s-projects.vercel.app",
+            "evidence": "deployments/2026-10-25-portfolio-analytics.md",
+            "projectId": "prj_Jf18eJkWESULNxxU1lkcVl39ii9R",
+            "projectName": "gameshub-metazooa",
+            "siteIndexable": false,
+            "sourceCommit": "32c7737666ff41480535ebfae5c194037b0a5fde",
+            "state": "READY",
+            "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+          },
+          "webAnalytics": {
+            "analyticsId": "NdwaVlHMW30yiFgVAbBR25zjQ",
+            "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+            "clientIntegrated": true,
+            "dashboardReceived": true,
+            "evidence": [
+              "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+            ],
+            "integrationMethod": "@vercel/analytics/react",
+            "pageviewStatus": 200,
+            "pageviewVerified": true,
+            "projectEnabled": true,
+            "provider": "Vercel Web Analytics",
+            "queryAndHashFiltered": true,
+            "receiptSource": "Vercel project.webAnalytics.hasData=true",
+            "sdkInstalled": true,
+            "sdkVersion": "2.0.1"
+          }
+        },
+        "id": "metazooa",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-87edb316733c6d0f33a6",
+            "language": "en",
+            "page": "/",
+            "poolLinked": true,
+            "role": "primary",
+            "term": "metazooa"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-ccf9a7068d8907eb29cf",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "metazooa game"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-1d2df971dc7b0540a05f",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "metazooa unlimited"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-6674ed896746614abc08",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "metazooa practice"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-00dcae365574d10077e9",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "metazooa hints"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-4c3931050bab6d8790af",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "animal taxonomy game"
+          }
+        ],
+        "legacyGroup": "plannedGames",
+        "name": "Metazooa",
+        "nextAction": "在已部署Vercel地址完成外部验收；按域名研究选择候选，购买/绑定需另行明确范围。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "原设备预览地址 http://127.0.0.1:4314 不代表本机已有该服务。",
+          "2026-10-25可注册域名候选：metazooaunlimited.com；低成本：metazooa.xyz / metazooa.top / metazooa.online。均已返回可注册、非溢价；未购买。可考虑.com：主词估值12100/KD23，持续需求且近期增长；原站较强。",
+          "2026-10-25：Vercel Web Analytics已接入并开启，真实Chrome浏览记录请求200且后台已收数；当前使用Vercel默认域，无独立域名。 当前源码与发布证据见 deployments/2026-10-25-portfolio-analytics.md。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "pending",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-metazooa"
+        },
+        "sources": [
+          {
+            "note": "最新远端登记与本机只读主分支SHA核对",
+            "path": "data/migration/source-repositories-dc5994e.json#metazooa"
+          },
+          {
+            "note": "其他设备交付的优化、推送和验收范围记录",
+            "path": "research/2026-10-24-five-game-development/optimization-delivery.md"
+          },
+          {
+            "note": "2026-10-25域名匹配、可注册性全量结果、需求证据边界与价格来源",
+            "path": "research/2026-10-25-windows-domain-matching-4f7b8e21/README.md"
+          },
+          {
+            "note": "用户明确部署授权、生产版本及本轮验收证据",
+            "path": "deployments/2026-10-25-five-game-release.md"
+          },
+          {
+            "note": "本轮17站Analytics接入/开启/真实发送/后台收数、独立域名apex与www301验收",
+            "path": "deployments/2026-10-25-portfolio-analytics.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://gameshub-metazooa.vercel.app/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T05:27:45.967795+00:00",
+          "recordedAt": "2026-10-24T16:40:38.347Z",
+          "scope": "2026-10-25：独立仓库main与实际Vercel生产READY/SHA一致；Web Analytics客户端/项目开启/真实Chrome POST view 200/后台hasData均通过。已有独立域名apex主站、www301、TLS/路径查询参数/canonical核验通过；8站index与9站noindex实际输出保持。未将完整游戏、真机、性能、许可或搜索收录记为通过。"
+        }
+      },
+      "previousRevision": "4f91ffc0b46cf1178cc1a425db404c223abbdf0d5c505336027d5e785c517e63"
     }
   ],
   "id": "metazooa",
@@ -210,14 +804,17 @@
   ],
   "legacyGroup": "plannedGames",
   "name": "Metazooa",
-  "nextAction": "补实体设备、跨浏览器、玩家及生产发布条件验收；进入正式仓库继续，不重复建仓或推送已完成版本。",
+  "nextAction": "在已部署Vercel地址完成外部验收；按域名研究选择候选，购买/绑定需另行明确范围。",
   "notes": [
     "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
     "原设备工作路径保留在来源快照，不能当作本机可用路径。",
-    "原设备预览地址 http://127.0.0.1:4314 不代表本机已有该服务。"
+    "原设备预览地址 http://127.0.0.1:4314 不代表本机已有该服务。",
+    "2026-10-25可注册域名候选：metazooaunlimited.com；低成本：metazooa.xyz / metazooa.top / metazooa.online。均已返回可注册、非溢价；未购买。可考虑.com：主词估值12100/KD23，持续需求且近期增长；原站较强。",
+    "2026-10-25：Vercel Web Analytics已接入并开启，真实Chrome浏览记录请求200且后台已收数；当前使用Vercel默认域，无独立域名。 当前源码与发布证据见 deployments/2026-10-25-portfolio-analytics.md。",
+    "2026-10-25：已核对现有独立Vercel项目READY、仓库根目录pnpm build及apps/web/dist/client输出；Git Import中的apps/web为重复导入建议，已移除。当前线上为已成功发布版本；后续SEO提交已推送但仍待部署，不能误记为未建站。"
   ],
   "release": {
-    "deployment": "not_deployed",
+    "deployment": "recorded_deployed",
     "gameplayAcceptance": "pending",
     "indexingPermission": "hold"
   },
@@ -236,16 +833,32 @@
     {
       "note": "其他设备交付的优化、推送和验收范围记录",
       "path": "research/2026-10-24-five-game-development/optimization-delivery.md"
+    },
+    {
+      "note": "2026-10-25域名匹配、可注册性全量结果、需求证据边界与价格来源",
+      "path": "research/2026-10-25-windows-domain-matching-4f7b8e21/README.md"
+    },
+    {
+      "note": "用户明确部署授权、生产版本及本轮验收证据",
+      "path": "deployments/2026-10-25-five-game-release.md"
+    },
+    {
+      "note": "本轮17站Analytics接入/开启/真实发送/后台收数、独立域名apex与www301验收",
+      "path": "deployments/2026-10-25-portfolio-analytics.md"
+    },
+    {
+      "note": "用户授权修复重复Git关联与导入建议；现有正式项目配置及HTTP复核",
+      "path": "research/2026-10-25-vercel-deployment-history/FIXES.md"
     }
   ],
-  "stage": "awaiting_release",
+  "stage": "deployed",
   "urls": {
     "preview": null,
-    "production": null
+    "production": "https://gameshub-metazooa.vercel.app/"
   },
   "verification": {
-    "recheckedAt": "2026-10-25",
+    "recheckedAt": "2026-10-25T05:27:45.967795+00:00",
     "recordedAt": "2026-10-24T16:40:38.347Z",
-    "scope": "本机只读git ls-remote核对独立仓库main与登记SHA一致；未验收线上部署或实际游玩。"
+    "scope": "2026-10-25：独立仓库main与实际Vercel生产READY/SHA一致；Web Analytics客户端/项目开启/真实Chrome POST view 200/后台hasData均通过。已有独立域名apex主站、www301、TLS/路径查询参数/canonical核验通过；8站index与9站noindex实际输出保持。未将完整游戏、真机、性能、许可或搜索收录记为通过。"
   }
 }

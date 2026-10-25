@@ -1,0 +1,165 @@
+[
+  {
+    "siteId": "block-blast-unblocked",
+    "files": []
+  },
+  {
+    "siteId": "costcodle",
+    "files": []
+  },
+  {
+    "siteId": "gulper-io",
+    "files": []
+  },
+  {
+    "siteId": "krillion-unlimited",
+    "files": [
+      "scripts/build_site.py",
+      "README.md"
+    ]
+  },
+  {
+    "siteId": "spacebar-counter",
+    "files": [
+      "analytics.js",
+      "index.html",
+      "scripts/build.mjs",
+      "vercel.json",
+      "README.md"
+    ]
+  },
+  {
+    "siteId": "2048-cupcakes",
+    "files": [
+      "analytics.js",
+      "index.html",
+      "scripts/build.mjs",
+      "vercel.json",
+      "README.md"
+    ]
+  },
+  {
+    "siteId": "coreball",
+    "files": [
+      "analytics.js",
+      "coreball-tips.html",
+      "index.html",
+      "scripts/build.mjs",
+      "README.md"
+    ]
+  },
+  {
+    "siteId": "minute-cryptic-unlimited",
+    "files": [
+      "analytics.js",
+      "how-to-solve-cryptic-clues.html",
+      "index.html",
+      "scripts/build.mjs",
+      "README.md"
+    ]
+  },
+  {
+    "siteId": "snow-rider-3d-unblocked",
+    "files": [
+      "analytics.js",
+      "about.html",
+      "index.html",
+      "snow-rider-3d-controls.html",
+      "scripts/build.mjs",
+      "README.md",
+      ".rankup/INDEX.md",
+      ".rankup/plan.md"
+    ]
+  },
+  {
+    "siteId": "head-soccer-2026",
+    "files": [
+      "analytics.js",
+      "404.html",
+      "about.html",
+      "how-to-play.html",
+      "index.html",
+      "privacy.html",
+      "scripts/build.mjs",
+      "README.md"
+    ]
+  },
+  {
+    "siteId": "acceleration-city",
+    "files": [
+      "analytics.js",
+      "404.html",
+      "about.html",
+      "guide.html",
+      "index.html",
+      "scripts/build.mjs",
+      "README.md"
+    ]
+  },
+  {
+    "siteId": "cluster-rush",
+    "files": [
+      "analytics.js",
+      "404.html",
+      "about.html",
+      "how-to-play.html",
+      "index.html",
+      "not-loading.html",
+      "privacy.html",
+      "scripts/build.mjs",
+      "README.md",
+      ".rankup/INDEX.md",
+      ".rankup/plan.md"
+    ]
+  },
+  {
+    "siteId": "colordle",
+    "files": [
+      "apps/web/src/routes/__root.tsx",
+      "apps\\web\\src\\routes\\privacy.tsx",
+      "README.md",
+      ".rankup/INDEX.md",
+      ".rankup/plan.md"
+    ]
+  },
+  {
+    "siteId": "cutle",
+    "files": [
+      "apps/web/src/routes/__root.tsx",
+      "apps\\web\\src\\routes\\privacy.tsx",
+      "README.md",
+      ".rankup/INDEX.md",
+      ".rankup/plan.md"
+    ]
+  },
+  {
+    "siteId": "metazooa",
+    "files": [
+      "apps/web/src/routes/__root.tsx",
+      "apps\\web\\src\\routes\\privacy.tsx",
+      "README.md",
+      ".rankup/INDEX.md",
+      ".rankup/plan.md"
+    ]
+  },
+  {
+    "siteId": "poople",
+    "files": [
+      "apps/web/src/routes/__root.tsx",
+      "apps\\web\\src\\routes\\privacy.tsx",
+      "README.md",
+      ".rankup/INDEX.md",
+      ".rankup/plan.md"
+    ]
+  },
+  {
+    "siteId": "travle",
+    "files": [
+      "apps/web/src/routes/__root.tsx",
+      "apps\\web\\src\\routes\\privacy.tsx",
+      "README.md",
+      ".rankup/INDEX.md",
+      ".rankup/plan.md"
+    ]
+  }
+]

@@ -1,0 +1,125 @@
+{
+  "checkedAt": "2026-10-25T05:24:09.540Z",
+  "profileScope": "owner real Chrome; OpenCLI connected profile",
+  "results": [
+    {
+      "siteId": "colordle",
+      "checkedAt": "2026-10-25T05:23:51.360Z",
+      "url": "https://gameshub-colordle.vercel.app/?analytics_check=20261025",
+      "title": "Colordle Unlimited – Guess the Color by Name",
+      "h1": "Colordle Unlimited",
+      "scripts": [
+        "https://gameshub-colordle.vercel.app/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://gameshub-colordle.vercel.app/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 102.19999992847443
+        },
+        {
+          "url": "https://gameshub-colordle.vercel.app/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 171.20000004768372
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "cutle",
+      "checkedAt": "2026-10-25T05:23:54.656Z",
+      "url": "https://gameshub-cutle.vercel.app/?analytics_check=20261025",
+      "title": "Cutle Unlimited – Play the Shape Cutting Game",
+      "h1": "Cutle Unlimited",
+      "scripts": [
+        "https://gameshub-cutle.vercel.app/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://gameshub-cutle.vercel.app/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 2.0999999046325684
+        },
+        {
+          "url": "https://gameshub-cutle.vercel.app/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 183.5
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "metazooa",
+      "checkedAt": "2026-10-25T05:23:57.889Z",
+      "url": "https://gameshub-metazooa.vercel.app/?analytics_check=20261025",
+      "title": "Metazooa Practice – Animal Taxonomy Guessing Game",
+      "h1": "Metazooa Practice",
+      "scripts": [
+        "https://gameshub-metazooa.vercel.app/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://gameshub-metazooa.vercel.app/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 197
+        },
+        {
+          "url": "https://gameshub-metazooa.vercel.app/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 184.89999997615814
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "poople",
+      "checkedAt": "2026-10-25T05:24:01.433Z",
+      "url": "https://gameshub-poople.vercel.app/?analytics_check=20261025",
+      "title": "Poople Practice – Unlimited Word Ladder Puzzles",
+      "h1": "Poople Practice",
+      "scripts": [
+        "https://gameshub-poople.vercel.app/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://gameshub-poople.vercel.app/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 598
+        },
+        {
+          "url": "https://gameshub-poople.vercel.app/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 176.10000002384186
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "travle",
+      "checkedAt": "2026-10-25T05:24:09.540Z",
+      "url": "https://gameshub-travle.vercel.app/?analytics_check=20261025",
+      "title": "Travle Unlimited – Play the Country Path Game",
+      "h1": "Travle Unlimited",
+      "scripts": [
+        "https://gameshub-travle.vercel.app/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://gameshub-travle.vercel.app/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 96.19999992847443
+        }
+      ],
+      "passed": false
+    }
+  ]
+}

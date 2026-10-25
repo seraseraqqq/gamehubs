@@ -36,10 +36,58 @@
       },
       "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
     },
+    "domainConfiguration": {
+      "canonicalVerified": true,
+      "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+      "customDomain": "krilliononline.com",
+      "evidence": [
+        "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+      ],
+      "httpsVerified": true,
+      "pathAndQueryPreserved": true,
+      "primaryOrigin": "https://krilliononline.com",
+      "projectBindingVerified": true,
+      "redirectStatusCode": 301,
+      "wwwRedirectTo": "https://krilliononline.com/"
+    },
     "implementationPushed": true,
-    "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
-    "recordedHead": "b602921f27aa53df7a8db37b7f13d89031575835",
-    "state": "independent-repository-deployed"
+    "pushRecordedAt": "2026-10-25T05:27:45.967795+00:00",
+    "recordedHead": "91fc881885a24cd0ec3122322347ba1dc5386da8",
+    "state": "independent-repository-deployed",
+    "vercelRelease": {
+      "branch": "main",
+      "customDomain": "krilliononline.com",
+      "deploymentId": "dpl_9APpmKnwjqu8s83zPFJfgjq8CxTd",
+      "deploymentUrl": "gamehubs-summit-unlimited-52jo4ibcs-gx03410-8651s-projects.vercel.app",
+      "evidence": "deployments/2026-10-25-portfolio-analytics.md",
+      "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+      "projectName": "gamehubs-summit-unlimited",
+      "sourceCommit": "91fc881885a24cd0ec3122322347ba1dc5386da8",
+      "state": "READY",
+      "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+    },
+    "webAnalytics": {
+      "analyticsId": "jB0q0bZZH3u7pGK1OxAyIoihe",
+      "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+      "clientIntegrated": true,
+      "dashboardReceived": true,
+      "evidence": [
+        "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+      ],
+      "integrationMethod": "official-static-html-script",
+      "pageviewStatus": 200,
+      "pageviewVerified": true,
+      "projectEnabled": true,
+      "provider": "Vercel Web Analytics",
+      "queryAndHashFiltered": true,
+      "receiptSource": "Vercel project.webAnalytics.hasData=true",
+      "sdkInstalled": false,
+      "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+      "sdkVersion": null
+    }
   },
   "history": [
     {
@@ -736,6 +784,641 @@
         }
       },
       "previousRevision": "45f72256cdc93c9c1372cf0b9877461b986c429d009f7033922c80863f92e380"
+    },
+    {
+      "actor": "ai-owner-authorized-analytics-rollout",
+      "at": "2026-10-25T05:27:46.926885+00:00",
+      "previous": {
+        "blockers": [],
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/krillion-unlimited-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_DZYuY4BEhrcP9382VqG9eNaMZNqd",
+              "readyState": "READY",
+              "url": "gamehubs-summit-unlimited-lxo2pe5mx-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/summit-unlimited",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_AJ1aUmkkFnkKhJurkka68HxcHUse",
+                "readyState": "READY",
+                "url": "gamehubs-summit-unlimited-bhtatlmab-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+              "projectName": "gamehubs-summit-unlimited",
+              "repository": "https://github.com/seraseraqqq/gameshub-krillion-unlimited",
+              "repositoryId": 1432763180,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedHead": "b602921f27aa53df7a8db37b7f13d89031575835",
+          "state": "independent-repository-deployed"
+        },
+        "id": "krillion-unlimited",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-029d5c6f2a97479788cb",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "krillion unlimited"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-7fbbc9a60aea71dc2c94",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-056a1541d07651ffd516",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion game"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-e1b8de2bc23e6c3276e7",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion io"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-4e0727ed71ca856bf95a",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "one in a krillion"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-e9676dd18c32e85eb64e",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion online free"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-66f6e0eb0d1d40220a55",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "play krillion unlimited"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-4fab68433d9def1ec2ea",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "deep sea rarity trivia"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-4ccc9ffa9c530c62588e",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "reverse trivia game"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Krillion Unlimited",
+        "nextAction": "依据当前发布记录复核下一步，保留既有门禁。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/summit-unlimited曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/summit-unlimited",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-krillion-unlimited"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#krillion-unlimited"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/krillion-unlimited-final.json"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://krilliononline.com/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+        }
+      },
+      "previousRevision": "a14e9700870261fa4a3fcf7c882d81087f0957e372ae8cede1c14e343a3dcdba"
+    },
+    {
+      "actor": "codex-sync",
+      "actorType": "ai",
+      "at": "2026-10-25T09:41:06.615774+00:00",
+      "localPrevious": {
+        "blockers": [],
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/krillion-unlimited-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_DZYuY4BEhrcP9382VqG9eNaMZNqd",
+              "readyState": "READY",
+              "url": "gamehubs-summit-unlimited-lxo2pe5mx-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/summit-unlimited",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_AJ1aUmkkFnkKhJurkka68HxcHUse",
+                "readyState": "READY",
+                "url": "gamehubs-summit-unlimited-bhtatlmab-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+              "projectName": "gamehubs-summit-unlimited",
+              "repository": "https://github.com/seraseraqqq/gameshub-krillion-unlimited",
+              "repositoryId": 1432763180,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "domainConfiguration": {
+            "canonicalVerified": true,
+            "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+            "customDomain": "krilliononline.com",
+            "evidence": [
+              "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+            ],
+            "httpsVerified": true,
+            "pathAndQueryPreserved": true,
+            "primaryOrigin": "https://krilliononline.com",
+            "projectBindingVerified": true,
+            "redirectStatusCode": 301,
+            "wwwRedirectTo": "https://krilliononline.com/"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T05:27:45.967795+00:00",
+          "recordedHead": "91fc881885a24cd0ec3122322347ba1dc5386da8",
+          "state": "independent-repository-deployed",
+          "vercelRelease": {
+            "branch": "main",
+            "customDomain": "krilliononline.com",
+            "deploymentId": "dpl_9APpmKnwjqu8s83zPFJfgjq8CxTd",
+            "deploymentUrl": "gamehubs-summit-unlimited-52jo4ibcs-gx03410-8651s-projects.vercel.app",
+            "evidence": "deployments/2026-10-25-portfolio-analytics.md",
+            "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+            "projectName": "gamehubs-summit-unlimited",
+            "sourceCommit": "91fc881885a24cd0ec3122322347ba1dc5386da8",
+            "state": "READY",
+            "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+          },
+          "webAnalytics": {
+            "analyticsId": "jB0q0bZZH3u7pGK1OxAyIoihe",
+            "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+            "clientIntegrated": true,
+            "dashboardReceived": true,
+            "evidence": [
+              "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+            ],
+            "integrationMethod": "official-static-html-script",
+            "pageviewStatus": 200,
+            "pageviewVerified": true,
+            "projectEnabled": true,
+            "provider": "Vercel Web Analytics",
+            "queryAndHashFiltered": true,
+            "receiptSource": "Vercel project.webAnalytics.hasData=true",
+            "sdkInstalled": false,
+            "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+            "sdkVersion": null
+          }
+        },
+        "id": "krillion-unlimited",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-029d5c6f2a97479788cb",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "krillion unlimited"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-7fbbc9a60aea71dc2c94",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-056a1541d07651ffd516",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion game"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-e1b8de2bc23e6c3276e7",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion io"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-4e0727ed71ca856bf95a",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "one in a krillion"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-e9676dd18c32e85eb64e",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion online free"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-66f6e0eb0d1d40220a55",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "play krillion unlimited"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-4fab68433d9def1ec2ea",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "deep sea rarity trivia"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-4ccc9ffa9c530c62588e",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "reverse trivia game"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Krillion Unlimited",
+        "nextAction": "依据当前发布记录复核下一步，保留既有门禁。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/summit-unlimited曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25：Vercel Web Analytics已接入并开启，真实Chrome浏览记录请求200且后台已收数；独立域名已统一不带www主站，www301跳转。 当前源码与发布证据见 deployments/2026-10-25-portfolio-analytics.md。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/summit-unlimited",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-krillion-unlimited"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#krillion-unlimited"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/krillion-unlimited-final.json"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "本轮17站Analytics接入/开启/真实发送/后台收数、独立域名apex与www301验收",
+            "path": "deployments/2026-10-25-portfolio-analytics.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://krilliononline.com/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T05:27:45.967795+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25：独立仓库main与实际Vercel生产READY/SHA一致；Web Analytics客户端/项目开启/真实Chrome POST view 200/后台hasData均通过。已有独立域名apex主站、www301、TLS/路径查询参数/canonical核验通过；8站index与9站noindex实际输出保持。未将完整游戏、真机、性能、许可或搜索收录记为通过。"
+        }
+      },
+      "localRevision": "5d178c03fdc78cbc0ba6d4542583474cefe03fc684b04ccc15af0823535aecda",
+      "previous": {
+        "blockers": [],
+        "createdAt": "2026-10-23",
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/krillion-unlimited-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_DZYuY4BEhrcP9382VqG9eNaMZNqd",
+              "readyState": "READY",
+              "url": "gamehubs-summit-unlimited-lxo2pe5mx-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/summit-unlimited",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_AJ1aUmkkFnkKhJurkka68HxcHUse",
+                "readyState": "READY",
+                "url": "gamehubs-summit-unlimited-bhtatlmab-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+              "projectName": "gamehubs-summit-unlimited",
+              "repository": "https://github.com/seraseraqqq/gameshub-krillion-unlimited",
+              "repositoryId": 1432763180,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedHead": "b602921f27aa53df7a8db37b7f13d89031575835",
+          "state": "independent-repository-deployed"
+        },
+        "id": "krillion-unlimited",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-12078588080da360358a",
+            "language": "en",
+            "page": "/",
+            "poolLinked": true,
+            "role": "primary",
+            "term": "krillion unlimited"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-7fbbc9a60aea71dc2c94",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-056a1541d07651ffd516",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion game"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-e1b8de2bc23e6c3276e7",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion io"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-4e0727ed71ca856bf95a",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "one in a krillion"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-e9676dd18c32e85eb64e",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion online free"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-66f6e0eb0d1d40220a55",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "play krillion unlimited"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-4fab68433d9def1ec2ea",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "deep sea rarity trivia"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-4ccc9ffa9c530c62588e",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "reverse trivia game"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Krillion Unlimited",
+        "nextAction": "依据当前发布记录复核下一步，保留既有门禁。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/summit-unlimited曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/summit-unlimited",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-krillion-unlimited"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#krillion-unlimited"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/krillion-unlimited-final.json"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "恢复导入时遗漏的明确createdAt：2026-10-23；没有用部署/研究/核验时间替代",
+            "path": "data/migration/source-matrix-sites.json#krillion-unlimited"
+          },
+          {
+            "note": "旧站主词纳入统一词池；US/en由本轮截图数据库与查询参数明确，旧市场/映射保留在历史",
+            "path": "research/2026-10-25-mac-site-keyword-consistency-004351b6cfaf/README.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://krilliononline.com/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+        }
+      },
+      "previousRevision": "c4e57c13f69f5da947c0e65ee47bf47e30f35be66b27c8fc01cb93caec293ae3",
+      "reason": "Pull latest main while retaining local deployment records and remote primary-keyword/date enrichment; preserve both histories.",
+      "upstreamCommit": "8a42a11c0af16434a3c1ed2b48acca0198508b7f"
     }
   ],
   "id": "krillion-unlimited",
@@ -830,8 +1513,8 @@
     "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/summit-unlimited曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
     "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
     "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
-    "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
-    "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。"
+    "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。",
+    "2026-10-25：Vercel Web Analytics已接入并开启，真实Chrome浏览记录请求200且后台已收数；独立域名已统一不带www主站，www301跳转。 当前源码与发布证据见 deployments/2026-10-25-portfolio-analytics.md。"
   ],
   "release": {
     "deployment": "recorded_deployed",
@@ -878,6 +1561,10 @@
     {
       "note": "旧站主词纳入统一词池；US/en由本轮截图数据库与查询参数明确，旧市场/映射保留在历史",
       "path": "research/2026-10-25-mac-site-keyword-consistency-004351b6cfaf/README.md"
+    },
+    {
+      "note": "本轮17站Analytics接入/开启/真实发送/后台收数、独立域名apex与www301验收",
+      "path": "deployments/2026-10-25-portfolio-analytics.md"
     }
   ],
   "stage": "deployed",
@@ -886,8 +1573,8 @@
     "production": "https://krilliononline.com/"
   },
   "verification": {
-    "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+    "recheckedAt": "2026-10-25T05:27:45.967795+00:00",
     "recordedAt": "2026-10-24T05:17:09.386Z",
-    "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+    "scope": "2026-10-25：独立仓库main与实际Vercel生产READY/SHA一致；Web Analytics客户端/项目开启/真实Chrome POST view 200/后台hasData均通过。已有独立域名apex主站、www301、TLS/路径查询参数/canonical核验通过；8站index与9站noindex实际输出保持。未将完整游戏、真机、性能、许可或搜索收录记为通过。"
   }
 }

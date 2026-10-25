@@ -1,0 +1,82 @@
+{
+  "capturedDate": "2026-10-25",
+  "market": {"country": "US", "language": "en"},
+  "method": "Manual transcription of observed browser DOM and image comparison; not an API export. Authentication parameters removed. No paid calls.",
+  "identification": {
+    "userImageObserved": "Blue sea, orange/white clownfish, seaweed, boxed header displaying 1P 4 / 总分3339 / 2P 0.",
+    "conclusion": "Looks like a Chinese old two-player Flash fish-eating game. Exact edition and official English name unconfirmed. Fish Eat Fish is a related English search target, not a confirmed translation of this precise build.",
+    "sources": [
+      {"url": "https://www.4399.com/flash/121925_1.htm", "title": "双人版大鱼吃小鱼", "observed": "2013-08-19; original-game/4399 second game-development contest tags; single/two-player choice; WASD and arrow controls. Text match only; no exact screenshot verification."},
+      {"url": "https://z.easygame.tw/g5814.html", "title": "双人Flash版大鱼吃小鱼2", "image": "https://assets.easygame.tw/site_media/uploads/pic1/6ccb80e1-1d5c-4714-ad2a-85b48a048a87.png", "observed": "Reference image viewed: yellow 1P×0 / 总分88 / 2P×3 text, coral and yellow fish. Header and art differ from user screenshot; this is not an exact match."},
+      {"url": "https://www.y8.com/games/fish_eat_fish_3_players", "title": "Fish Eat Fish 3 Players", "observed": "Y8 Studio; added 2014-12-21. Different named edition; not proven to match the screenshot."}
+    ]
+  },
+  "googleTrends": {
+    "url": "https://trends.google.com/trends/explore?date=today%2012-m&geo=US&q=fish%20eat%20fish,feeding%20frenzy,big%20fish%20eat%20small%20fish,gpts&hl=en",
+    "visibleSettings": ["United States", "Past 12 months", "All categories", "Web Search"],
+    "averageIndex": {"fish eat fish": 76, "feeding frenzy": 1, "big fish eat small fish": 0, "gpts": 7},
+    "fishEatFishTopQueries": ["what do fish eat", "good fish to eat", "best fish to eat", "what does fish eat", "tuna"],
+    "bigFishRelatedQueries": "Hmm, your search doesn't have enough data to show here.",
+    "interpretation": "Unquoted broad search term is heavily contaminated by non-game fish/food intent. No monthly-volume estimate derived from gpts. Displayed rounded zero does not establish zero searches. No game-specific trend conclusion."
+  },
+  "googleSerp": [
+    {
+      "query": "big fish eat small fish game",
+      "url": "https://www.google.com/search?q=big+fish+eat+small+fish+game&gl=us&hl=en&pws=0",
+      "organicResultsInVisibleOrder": [
+        "Google Play — Big Fish Eat Small Fish",
+        "Apple App Store — Let Me Eat: Big Fish Eat Small",
+        "CrazyGames — Let Me Eat: Big Fish Eat Smaller",
+        "Google Play — Let Me Eat :Big fish eat small",
+        "Google Play — Big Fish Eat Small: Fish Games",
+        "Apple App Store — Big fish eat Small fish Game",
+        "Keygames — Fishy Games",
+        "TwoPlayerGames — Fish Eat Getting Big"
+      ],
+      "modules": ["AI Overview", "Videos", "People also ask", "Images"],
+      "coverage": "8 visible web results, not a verified complete top ten."
+    },
+    {
+      "query": "fish eat fish game",
+      "url": "https://www.google.com/search?q=fish+eat+fish+game&gl=us&hl=en&pws=0",
+      "organicResultsInVisibleOrder": [
+        "Google Play — Fish Eat Fish.io",
+        "Poki — Fish Eat Fish",
+        "Apple — Fish Eat Fish.io:Hunger Games",
+        "fisheatfish.io — Fish Eat Fish",
+        "Google Play — Fish Eat Fish And Grow",
+        "Y8 — Fish Eat Fish 3 Players",
+        "fisheatfish.app — Fish Eat Fish Game Online",
+        "TwoPlayerGames — Fish Eat Fish"
+      ],
+      "modules": ["AI Overview", "People also ask", "Images", "People also search for"],
+      "coverage": "8 visible web results. Independent sites are visible alongside major portals; their income and traffic not verified.",
+      "extensionMetric": {"provider": "Keyword Surfer browser extension", "displayedQueryVolume": 1300, "fishEatFishSuggestionVolume": 2900, "dateBasis": "not visible", "use": "supplementary conflict retained; not substituted for Semrush values"}
+    }
+  ],
+  "serpLimit": "gl=us, hl=en, pws=0 set. Footer says Results are not personalized / Unknown - Can't determine location. Physical US location not established. AI Overview is not a ChatGPT GEO test. Extension result counts/traffic excluded from conclusions.",
+  "semrushMirror": {
+    "provider": "User free Semrush mirror display; non-official, no independent live verification",
+    "url": "https://sem.3ue.com/analytics/keywordoverview/?q=fish%20eat%20fish&db=us",
+    "database": "us",
+    "visibleOverviewDate": "Oct 25, 2026",
+    "overviewDevice": "Desktop",
+    "bulkLinkDate": "202610",
+    "rootOverview": {"volume": 2400, "kd": 47, "globalVolume": 21200, "cpcUsd": 0.21},
+    "columns": ["term", "volume", "kd", "cpcUsd", "competition", "updated"],
+    "rows": [
+      ["feeding frenzy", 4400, 48, 1.61, 0.01, "1 month"],
+      ["fish eat fish", 2400, 47, 0.21, 0.11, "4 weeks"],
+      ["fish eat fish game", 590, 45, 0.51, 0.05, "1 month"],
+      ["fish eating game", 590, 48, 0.23, 0.04, "1 month"],
+      ["big fish eat small fish", 170, 27, 0.00, 0.33, "1 month"],
+      ["feeding frenzy online", 90, 31, 0.00, 0.33, "1 month"],
+      ["fish eat fish unblocked", 50, 29, 0.00, 0.33, "1 month"],
+      ["big fish eat small fish game", 20, null, 0.00, 0.01, "For metrics, refresh"],
+      ["fish eat fish 3 players", 20, null, 0.00, 0.33, "For metrics, refresh"],
+      ["fish eat fish 2 player", 0, null, 0.00, 0.33, "For metrics, refresh"]
+    ],
+    "caveats": ["Null KD was visibly n/a; not zero.", "Displayed volume zero is retained as an observed mirror readout, not proof of zero demand. That row also requests refresh.", "Unrelated keyword suggestions and a grid with placeholder-like domains appeared on the mirror. Only labeled keyword-summary/bulk cells were transcribed. This increases the need for official cross-check before investment."]
+  },
+  "gaps": ["Exact screenshot version and English title", "Independent official KD cross-check", "Game-specific Trends series", "KD for 3 rows", "Full per-longtail SERP coverage", "Rights/source feasibility", "ChatGPT GEO sampling outside current narrow scope"]
+}

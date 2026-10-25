@@ -7,6 +7,8 @@ description: "Plan, validate, build, and operate SEO-focused browser-game sites.
 
 Use this workflow to find a real search need, ship a useful and legally usable browser game, and decide from observed results whether to expand. The business objective is sustainable, policy-compliant revenue, not a site-count target by itself. A five-month/200-site target is a capacity constraint to test, not a guarantee or a reason to bypass release gates.
 
+For GameHubs projects, apply the owner defaults in [game management rules](../../../docs/GAME_MANAGEMENT_RULES.md): prefer the free Semrush mirror for supplementary metrics; self-hosted OpenSEO and DataForSEO are allowed; keep credentials out of plaintext Git; use apex Production plus www 301; integrate and enable Vercel Web Analytics by default for new Vercel game builds.
+
 ## Operating Rules
 
 - Define the unit before planning: an independent domain, a branded site, a game, and an indexable URL are different units. Prefer related games as genuinely useful pages on a coherent site unless a separate brand/domain has a distinct audience, product, or business case.
@@ -29,7 +31,7 @@ Estimate the workload honestly: include research, rights review, gameplay adapta
 
 Use the relevant procedure in [sop-new-words.md](references/sop-new-words.md) or [sop-old-words.md](references/sop-old-words.md). Inspect current SERPs for the target market and device; record the date, intent, result types, competing solutions, and what the proposed game will do better or differently.
 
-Use this evidence order for both new and established queries: **Google Trends first, current Google SERPs second, DataForSEO keyword metrics only as supplementary validation. Do not use OpenSEO in this workflow.** Review Trends in the target country over 12 months, with a five-year or recent 90-day view when seasonality, novelty, or decline matters. Save the actual series and partial-period flags. Trends is normalized interest, not monthly search volume; separately normalized charts cannot establish relative market size. A missing/blocked Trends response is unknown, not zero demand, and third-party monthly volume is not a substitute.
+Use this evidence order for both new and established queries: **Google Trends first, current Google SERPs second, supplementary metrics with the owner's free Semrush mirror preferred; the owner's self-hosted OpenSEO and DataForSEO API are also allowed.** Read [research workflow](../../../docs/KEYWORD_WORKFLOW.md) for exact entry points and evidence provenance. Review Trends in the target country over 12 months, with a five-year or recent 90-day view when seasonality, novelty, or decline matters. Save the actual series and partial-period flags. Trends is normalized interest, not monthly search volume; separately normalized charts cannot establish relative market size. A missing/blocked Trends response is unknown, not zero demand, and third-party monthly volume is not a substitute.
 
 Inspect current Google SERPs and representative playable results to establish intent, incumbents, and a concrete product gap. DataForSEO can retrieve Google SERPs when direct browsing is unavailable; distinguish those observed results from its modeled keyword metrics. Treat DataForSEO volume and KD conservatively: the user's experience is that these estimates can be optimistic. High volume or KD 0 must not override flat/declining Trends, saturated playable results, ambiguous intent, or unresolved rights. Do not apply an invented universal discount to its estimates. If the decision still depends on the absolute demand or difficulty, ask the user for a same-market, same-period Ahrefs or Semrush check; do not claim access or invent their values. Record disagreements and keep uncertain candidates on hold. Cluster queries with substantially the same intent into one useful page; do not create one page per spelling or modifier.
 
@@ -67,6 +69,8 @@ If any blocking item fails, do not mark the site ready. Fix it, narrow scope, or
 ### 6. Measure and decide whether to expand
 
 Register and verify the property in Search Console and analytics when authorized and available. Track each cohort by launch date and market: build/maintenance cost, index coverage, organic impressions/clicks, engaged play or equivalent interaction, ad approval/policy status, revenue, and revenue per session/page where data exists. Separate missing data from zero performance.
+
+For GameHubs Vercel releases, the owner default includes the client SDK and ordinary Web Analytics enablement within the existing plan. Verify SDK integration, project enablement, real pageview delivery and dashboard receipt separately. Do not mark existing sites enabled without inspection or purchase paid upgrades under this default.
 
 Review at a consistent interval and compare like with like. First diagnose crawl/indexing, query fit, page usefulness, game engagement, and policy constraints; then decide to improve, hold, or stop. Expand only when a cohort has repeatable evidence and the marginal maintenance/economic case remains acceptable. If ranking or revenue has not matured within five months, report that plainly; do not manufacture success from deploy count.
 

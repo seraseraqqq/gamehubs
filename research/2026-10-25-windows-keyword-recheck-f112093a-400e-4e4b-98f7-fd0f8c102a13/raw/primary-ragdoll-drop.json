@@ -1,0 +1,37 @@
+{
+  "url": "https://ragdolldrop.com/",
+  "observedAt": "2026-10-25T11:43:52.508Z",
+  "scope": "Visible public game page; no claim of licence or comprehensive gameplay acceptance",
+  "controls": [
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Yes"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "No"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Click to reveal"
+    }
+  ],
+  "links": [
+    {
+      "text": "https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1005/",
+      "url": "https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1005/"
+    },
+    {
+      "text": "Cloudflare",
+      "url": "https://www.cloudflare.com/5xx-error-landing"
+    }
+  ],
+  "text": "Error 1005 Ray ID: a500f74a385c9d5f • 2026-10-25 11:43:51 UTC\nAccess denied\nWhat happened?\n\nThe owner of this website (ragdolldrop.com) has banned the autonomous system number (ASN) your IP address is in (132203) from accessing this website.\n\nPlease see https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1005/ for more details.\n\nWas this page helpful? Yes No\n\nCloudflare Ray ID: a500f74a385c9d5f • Your IP: Click to reveal • Performance & security by Cloudflare",
+  "title": "Access denied | ragdolldrop.com used Cloudflare to restrict access | ragdolldrop.com | Cloudflare"
+}

@@ -1,0 +1,26 @@
+{
+  "counts": {
+    "batches": 12,
+    "keywords": 290,
+    "observations": 800,
+    "reviews": 0,
+    "sites": 17
+  },
+  "supplementRows": 150,
+  "tiers": {
+    "S": 0,
+    "A": 1,
+    "B": 2,
+    "C": 0,
+    "REJECT": 117,
+    "PENDING": 30
+  },
+  "poolMissingVolumeOrKd": 37,
+  "apiReadbackPassed": true,
+  "csvGradeAndKgrPassed": true,
+  "idempotentReimport": "unchanged",
+  "managementTestsPassed": 27,
+  "browserPoolVerified": true,
+  "screenshot": "keyword-pool-verified.png",
+  "humanReviewsUnchanged": true
+}

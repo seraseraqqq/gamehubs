@@ -1,0 +1,138 @@
+[
+  {
+    "googleRecheckStatus": "blocked",
+    "kd": 28,
+    "newIntitle": null,
+    "siteId": "2048-cupcakes",
+    "term": "2048 cupcakes",
+    "volume": 110000
+  },
+  {
+    "googleRecheckStatus": "unknown",
+    "kd": 12,
+    "newIntitle": null,
+    "siteId": "acceleration-city",
+    "term": "acceleration city",
+    "volume": 90500
+  },
+  {
+    "googleRecheckStatus": "unknown",
+    "kd": 21,
+    "newIntitle": null,
+    "siteId": "block-blast-unblocked",
+    "term": "block blast unblocked",
+    "volume": 22200
+  },
+  {
+    "googleRecheckStatus": "unknown",
+    "kd": 8,
+    "newIntitle": null,
+    "siteId": "cluster-rush",
+    "term": "cluster rush",
+    "volume": 22200
+  },
+  {
+    "googleRecheckStatus": "not_attempted",
+    "kd": 25,
+    "newIntitle": null,
+    "siteId": "colordle",
+    "term": "colordle",
+    "volume": 74000
+  },
+  {
+    "googleRecheckStatus": "not_attempted",
+    "kd": 29,
+    "newIntitle": null,
+    "siteId": "coreball",
+    "term": "coreball",
+    "volume": 49500
+  },
+  {
+    "googleRecheckStatus": "not_attempted",
+    "kd": 23,
+    "newIntitle": null,
+    "siteId": "costcodle",
+    "term": "costcodle",
+    "volume": 18100
+  },
+  {
+    "googleRecheckStatus": "not_attempted",
+    "kd": 8,
+    "newIntitle": null,
+    "siteId": "cutle",
+    "term": "cutle",
+    "volume": 12100
+  },
+  {
+    "googleRecheckStatus": "observed",
+    "kd": 28,
+    "newIntitle": 3180,
+    "siteId": "gulper-io",
+    "term": "gulper io",
+    "volume": 9900
+  },
+  {
+    "googleRecheckStatus": "not_attempted",
+    "kd": 20,
+    "newIntitle": null,
+    "siteId": "head-soccer-2026",
+    "term": "head soccer 2026",
+    "volume": 18100
+  },
+  {
+    "googleRecheckStatus": "not_attempted",
+    "kd": null,
+    "newIntitle": null,
+    "siteId": "krillion-unlimited",
+    "term": "krillion unlimited",
+    "volume": null
+  },
+  {
+    "googleRecheckStatus": "not_attempted",
+    "kd": 23,
+    "newIntitle": null,
+    "siteId": "metazooa",
+    "term": "metazooa",
+    "volume": 12100
+  },
+  {
+    "googleRecheckStatus": "not_attempted",
+    "kd": 25,
+    "newIntitle": null,
+    "siteId": "minute-cryptic-unlimited",
+    "term": "minute cryptic unlimited",
+    "volume": 2900
+  },
+  {
+    "googleRecheckStatus": "not_attempted",
+    "kd": 26,
+    "newIntitle": null,
+    "siteId": "poople",
+    "term": "poople",
+    "volume": 33100
+  },
+  {
+    "googleRecheckStatus": "not_attempted",
+    "kd": 16,
+    "newIntitle": null,
+    "siteId": "snow-rider-3d-unblocked",
+    "term": "snow rider 3d unblocked",
+    "volume": 49500
+  },
+  {
+    "googleRecheckStatus": "not_attempted",
+    "kd": 28,
+    "newIntitle": null,
+    "siteId": "spacebar-counter",
+    "term": "spacebar counter",
+    "volume": 5400
+  },
+  {
+    "googleRecheckStatus": "not_attempted",
+    "kd": 31,
+    "newIntitle": null,
+    "siteId": "travle",
+    "term": "travle",
+    "volume": 40500
+  }
+]

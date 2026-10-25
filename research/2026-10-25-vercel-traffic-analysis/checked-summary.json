@@ -1,0 +1,52 @@
+{
+  "pageviews": 328,
+  "visitor_metric_sum_not_unique_people": 208,
+  "sources_pv": {
+    "": 302,
+    "google.com": 15,
+    "vercel.com": 9,
+    "com.google.android.googlequicksearchbox": 1,
+    "playblockblastunblocked.com": 1
+  },
+  "devices_pv": {
+    "desktop": 263,
+    "mobile": 65
+  },
+  "countries_pv": {
+    "JP": 94,
+    "US": 112,
+    "FR": 27,
+    "NL": 16,
+    "CN": 2,
+    "AU": 2,
+    "GB": 14,
+    "PL": 19,
+    "PT": 1,
+    "ES": 2,
+    "CA": 7,
+    "CH": 3,
+    "HK": 1,
+    "BR": 7,
+    "DE": 7,
+    "AR": 1,
+    "SG": 2,
+    "AE": 1,
+    "AT": 1,
+    "BA": 1,
+    "NZ": 1,
+    "IN": 4,
+    "DK": 1,
+    "IL": 1,
+    "IT": 1
+  },
+  "daily_pv_utc": {
+    "2026-10-25T00:00:00.000Z": 182,
+    "2026-10-23T00:00:00.000Z": 28,
+    "2026-10-24T00:00:00.000Z": 118
+  },
+  "google_related_pv": 16,
+  "unknown_source_share": 0.9207317073170732,
+  "mobile_pv_share": 0.19817073170731708,
+  "reconciled_checks": 85,
+  "later_hourly_snapshot_differences": []
+}

@@ -1,0 +1,592 @@
+{
+  "terms": [
+    "cowboy safari",
+    "ragdoll playground",
+    "slide down",
+    "bucket smash",
+    "gpts"
+  ],
+  "url": "https://trends.google.com/trends/explore?geo=US&q=cowboy%20safari,ragdoll%20playground,slide%20down,bucket%20smash,gpts&hl=en",
+  "observedAt": "2026-10-25T10:14:42.659Z",
+  "country": "US",
+  "language": "en",
+  "timeframe": "Past 12 months",
+  "queryVerified": true,
+  "status": "observed",
+  "partialPolicy": "Drop last row conservatively; partial flag not in DOM.",
+  "related": [
+    {
+      "href": "/trends/explore?q=az+games&date=today+12-m&geo=US",
+      "text": "1\naz games\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=slope&date=today+12-m&geo=US",
+      "text": "2\nslope\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=geometry+dash&date=today+12-m&geo=US",
+      "text": "3\ngeometry dash\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=slope+rider&date=today+12-m&geo=US",
+      "text": "4\nslope rider\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=azgames&date=today+12-m&geo=US",
+      "text": "5\nazgames\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=wacky+flip&date=today+12-m&geo=US",
+      "text": "1\nwacky flip\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=ragdoll+drop&date=today+12-m&geo=US",
+      "text": "2\nragdoll drop\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=az+games&date=today+12-m&geo=US",
+      "text": "3\naz games\n+60%"
+    },
+    {
+      "href": "/trends/explore?q=sprunki&date=today+12-m&geo=US",
+      "text": "4\nsprunki\n+50%"
+    },
+    {
+      "href": "/trends/explore?q=geometry+dash&date=today+12-m&geo=US",
+      "text": "1\ngeometry dash\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=oofos+ooahh+slide&date=today+12-m&geo=US",
+      "text": "2\noofos ooahh slide\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=hoka+ora+recovery+slide+3&date=today+12-m&geo=US",
+      "text": "3\nhoka ora recovery slide 3\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=az+games&date=today+12-m&geo=US",
+      "text": "4\naz games\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=crimson+desert+how+to+slide+down+a+slope&date=today+12-m&geo=US",
+      "text": "5\ncrimson desert how to slide down a slope\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=az+games&date=today+12-m&geo=US",
+      "text": "1\naz games\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=games&date=today+12-m&geo=US",
+      "text": "2\ngames\n+250%"
+    },
+    {
+      "href": "/trends/explore?q=ai+news+today&date=today+12-m&geo=US",
+      "text": "1\nai news today\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=walmart+near+me&date=today+12-m&geo=US",
+      "text": "2\nwalmart near me\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=nvidia+news+today&date=today+12-m&geo=US",
+      "text": "3\nnvidia news today\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=artificial+intelligence+news&date=today+12-m&geo=US",
+      "text": "4\nartificial intelligence news\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=technology+news+today&date=today+12-m&geo=US",
+      "text": "5\ntechnology news today\nBreakout"
+    }
+  ],
+  "tables": [
+    [
+      [
+        "x1",
+        "cowboy safari",
+        "ragdoll playground",
+        "slide down",
+        "bucket smash",
+        "gpts"
+      ],
+      [
+        "Average",
+        "7",
+        "7",
+        "61",
+        "2",
+        "29"
+      ]
+    ],
+    [
+      [
+        "x",
+        "y1",
+        "y2",
+        "y3",
+        "y4",
+        "y5"
+      ],
+      [
+        "‪Oct 19, 2025‬",
+        "0",
+        "9",
+        "48",
+        "0",
+        "20"
+      ],
+      [
+        "‪Oct 26, 2025‬",
+        "0",
+        "11",
+        "48",
+        "0",
+        "28"
+      ],
+      [
+        "‪Nov 2, 2025‬",
+        "4",
+        "9",
+        "48",
+        "0",
+        "36"
+      ],
+      [
+        "‪Nov 9, 2025‬",
+        "15",
+        "9",
+        "51",
+        "0",
+        "35"
+      ],
+      [
+        "‪Nov 16, 2025‬",
+        "23",
+        "12",
+        "52",
+        "0",
+        "28"
+      ],
+      [
+        "‪Nov 23, 2025‬",
+        "11",
+        "7",
+        "43",
+        "0",
+        "24"
+      ],
+      [
+        "‪Nov 30, 2025‬",
+        "16",
+        "9",
+        "49",
+        "0",
+        "31"
+      ],
+      [
+        "‪Dec 7, 2025‬",
+        "18",
+        "12",
+        "52",
+        "0",
+        "30"
+      ],
+      [
+        "‪Dec 14, 2025‬",
+        "17",
+        "15",
+        "45",
+        "0",
+        "36"
+      ],
+      [
+        "‪Dec 21, 2025‬",
+        "4",
+        "2",
+        "36",
+        "0",
+        "30"
+      ],
+      [
+        "‪Dec 28, 2025‬",
+        "0",
+        "2",
+        "35",
+        "0",
+        "31"
+      ],
+      [
+        "‪Jan 4, 2026‬",
+        "9",
+        "9",
+        "44",
+        "0",
+        "33"
+      ],
+      [
+        "‪Jan 11, 2026‬",
+        "12",
+        "11",
+        "56",
+        "0",
+        "33"
+      ],
+      [
+        "‪Jan 18, 2026‬",
+        "11",
+        "9",
+        "54",
+        "0",
+        "38"
+      ],
+      [
+        "‪Jan 25, 2026‬",
+        "10",
+        "9",
+        "57",
+        "0",
+        "43"
+      ],
+      [
+        "‪Feb 1, 2026‬",
+        "12",
+        "9",
+        "57",
+        "1",
+        "40"
+      ],
+      [
+        "‪Feb 8, 2026‬",
+        "11",
+        "10",
+        "60",
+        "9",
+        "39"
+      ],
+      [
+        "‪Feb 15, 2026‬",
+        "10",
+        "9",
+        "55",
+        "10",
+        "43"
+      ],
+      [
+        "‪Feb 22, 2026‬",
+        "10",
+        "10",
+        "65",
+        "11",
+        "41"
+      ],
+      [
+        "‪Mar 1, 2026‬",
+        "11",
+        "9",
+        "66",
+        "9",
+        "44"
+      ],
+      [
+        "‪Mar 8, 2026‬",
+        "11",
+        "12",
+        "69",
+        "5",
+        "37"
+      ],
+      [
+        "‪Mar 15, 2026‬",
+        "9",
+        "10",
+        "59",
+        "5",
+        "40"
+      ],
+      [
+        "‪Mar 22, 2026‬",
+        "12",
+        "8",
+        "74",
+        "3",
+        "38"
+      ],
+      [
+        "‪Mar 29, 2026‬",
+        "10",
+        "9",
+        "80",
+        "4",
+        "32"
+      ],
+      [
+        "‪Apr 5, 2026‬",
+        "9",
+        "9",
+        "89",
+        "5",
+        "38"
+      ],
+      [
+        "‪Apr 12, 2026‬",
+        "10",
+        "8",
+        "100",
+        "4",
+        "29"
+      ],
+      [
+        "‪Apr 19, 2026‬",
+        "11",
+        "9",
+        "96",
+        "4",
+        "36"
+      ],
+      [
+        "‪Apr 26, 2026‬",
+        "11",
+        "11",
+        "79",
+        "3",
+        "31"
+      ],
+      [
+        "‪May 3, 2026‬",
+        "10",
+        "11",
+        "82",
+        "3",
+        "30"
+      ],
+      [
+        "‪May 10, 2026‬",
+        "11",
+        "13",
+        "94",
+        "3",
+        "27"
+      ],
+      [
+        "‪May 17, 2026‬",
+        "12",
+        "8",
+        "84",
+        "2",
+        "34"
+      ],
+      [
+        "‪May 24, 2026‬",
+        "6",
+        "6",
+        "75",
+        "2",
+        "38"
+      ],
+      [
+        "‪May 31, 2026‬",
+        "6",
+        "6",
+        "75",
+        "0",
+        "43"
+      ],
+      [
+        "‪Jun 7, 2026‬",
+        "4",
+        "6",
+        "78",
+        "2",
+        "43"
+      ],
+      [
+        "‪Jun 14, 2026‬",
+        "4",
+        "3",
+        "71",
+        "0",
+        "44"
+      ],
+      [
+        "‪Jun 21, 2026‬",
+        "2",
+        "3",
+        "62",
+        "2",
+        "33"
+      ],
+      [
+        "‪Jun 28, 2026‬",
+        "2",
+        "3",
+        "51",
+        "0",
+        "33"
+      ],
+      [
+        "‪Jul 5, 2026‬",
+        "1",
+        "3",
+        "48",
+        "0",
+        "29"
+      ],
+      [
+        "‪Jul 12, 2026‬",
+        "2",
+        "2",
+        "44",
+        "0",
+        "23"
+      ],
+      [
+        "‪Jul 19, 2026‬",
+        "0",
+        "2",
+        "50",
+        "0",
+        "19"
+      ],
+      [
+        "‪Jul 26, 2026‬",
+        "0",
+        "2",
+        "47",
+        "0",
+        "15"
+      ],
+      [
+        "‪Aug 2, 2026‬",
+        "2",
+        "0",
+        "49",
+        "0",
+        "14"
+      ],
+      [
+        "‪Aug 9, 2026‬",
+        "2",
+        "4",
+        "44",
+        "0",
+        "15"
+      ],
+      [
+        "‪Aug 16, 2026‬",
+        "2",
+        "4",
+        "49",
+        "0",
+        "13"
+      ],
+      [
+        "‪Aug 23, 2026‬",
+        "3",
+        "5",
+        "55",
+        "0",
+        "11"
+      ],
+      [
+        "‪Aug 30, 2026‬",
+        "4",
+        "6",
+        "54",
+        "1",
+        "13"
+      ],
+      [
+        "‪Sep 6, 2026‬",
+        "4",
+        "5",
+        "60",
+        "2",
+        "18"
+      ],
+      [
+        "‪Sep 13, 2026‬",
+        "4",
+        "8",
+        "63",
+        "1",
+        "23"
+      ],
+      [
+        "‪Sep 20, 2026‬",
+        "7",
+        "7",
+        "70",
+        "0",
+        "18"
+      ],
+      [
+        "‪Sep 27, 2026‬",
+        "6",
+        "6",
+        "62",
+        "0",
+        "13"
+      ],
+      [
+        "‪Oct 4, 2026‬",
+        "6",
+        "6",
+        "61",
+        "0",
+        "14"
+      ],
+      [
+        "‪Oct 11, 2026‬",
+        "4",
+        "6",
+        "56",
+        "1",
+        "12"
+      ],
+      [
+        "‪Oct 18, 2026‬",
+        "5",
+        "6",
+        "59",
+        "1",
+        "13"
+      ],
+      [
+        "‪Oct 25, 2026‬",
+        "0",
+        "3",
+        "63",
+        "0",
+        "17"
+      ]
+    ],
+    [
+      [
+        "Term",
+        "Value"
+      ],
+      [
+        "cowboy safari",
+        "0"
+      ],
+      [
+        "ragdoll playground",
+        "0"
+      ],
+      [
+        "slide down",
+        "51"
+      ],
+      [
+        "bucket smash",
+        "0"
+      ],
+      [
+        "gpts",
+        "49"
+      ]
+    ]
+  ],
+  "visibleText": "Home\nExplore\nTrending Now\nshare\nfeedback\ninfo\nTry the new experience!\nExplore search trends with Gemini. A quick and easy way to find search terms and discover trends.\nGo to new Explore\nclose_24px\n•\nSearch term\n•\nSearch term\n•\nSearch term\n•\nSearch term\n•\nSearch term\nUnited States\nPast 12 months\nAll categories\nWeb Search\ncowboy safari\nragdoll playground\nslide down\nbucket smash\ngpts\nUnited States, Past 12 months\nInterest over time help_outline\nfile_download\ncode\nshare\nAverage\nx1\tcowboy safari\tragdoll playground\tslide down\tbucket smash\tgpts\nAverage\t7\t7\t61\t2\t29\n‪Oct 19, 2025‬\n‪Mar 1, 2026‬\n‪Jul 12, 2026‬\n25\n50\n75\n100\nx\ty1\ty2\ty3\ty4\ty5\n‪Oct 19, 2025‬\t0\t9\t48\t0\t20\n‪Oct 26, 2025‬\t0\t11\t48\t0\t28\n‪Nov 2, 2025‬\t4\t9\t48\t0\t36\n‪Nov 9, 2025‬\t15\t9\t51\t0\t35\n‪Nov 16, 2025‬\t23\t12\t52\t0\t28\n‪Nov 23, 2025‬\t11\t7\t43\t0\t24\n‪Nov 30, 2025‬\t16\t9\t49\t0\t31\n‪Dec 7, 2025‬\t18\t12\t52\t0\t30\n‪Dec 14, 2025‬\t17\t15\t45\t0\t36\n‪Dec 21, 2025‬\t4\t2\t36\t0\t30\n‪Dec 28, 2025‬\t0\t2\t35\t0\t31\n‪Jan 4, 2026‬\t9\t9\t44\t0\t33\n‪Jan 11, 2026‬\t12\t11\t56\t0\t33\n‪Jan 18, 2026‬\t11\t9\t54\t0\t38\n‪Jan 25, 2026‬\t10\t9\t57\t0\t43\n‪Feb 1, 2026‬\t12\t9\t57\t1\t40\n‪Feb 8, 2026‬\t11\t10\t60\t9\t39\n‪Feb 15, 2026‬\t10\t9\t55\t10\t43\n‪Feb 22, 2026‬\t10\t10\t65\t11\t41\n‪Mar 1, 2026‬\t11\t9\t66\t9\t44\n‪Mar 8, 2026‬\t11\t12\t69\t5\t37\n‪Mar 15, 2026‬\t9\t10\t59\t5\t40\n‪Mar 22, 2026‬\t12\t8\t74\t3\t38\n‪Mar 29, 2026‬\t10\t9\t80\t4\t32\n‪Apr 5, 2026‬\t9\t9\t89\t5\t38\n‪Apr 12, 2026‬\t10\t8\t100\t4\t29\n‪Apr 19, 2026‬\t11\t9\t96\t4\t36\n‪Apr 26, 2026‬\t11\t11\t79\t3\t31\n‪May 3, 2026‬\t10\t11\t82\t3\t30\n‪May 10, 2026‬\t11\t13\t94\t3\t27\n‪May 17, 2026‬\t12\t8\t84\t2\t34\n‪May 24, 2026‬\t6\t6\t75\t2\t38\n‪May 31, 2026‬\t6\t6\t75\t0\t43\n‪Jun 7, 2026‬\t4\t6\t78\t2\t43\n‪Jun 14, 2026‬\t4\t3\t71\t0\t44\n‪Jun 21, 2026‬\t2\t3\t62\t2\t33\n‪Jun 28, 2026‬\t2\t3\t51\t0\t33\n‪Jul 5, 2026‬\t1\t3\t48\t0\t29\n‪Jul 12, 2026‬\t2\t2\t44\t0\t23\n‪Jul 19, 2026‬\t0\t2\t50\t0\t19\n‪Jul 26, 2026‬\t0\t2\t47\t0\t15\n‪Aug 2, 2026‬\t2\t0\t49\t0\t14\n‪Aug 9, 2026‬\t2\t4\t44\t0\t15\n‪Aug 16, 2026‬\t2\t4\t49\t0\t13\n‪Aug 23, 2026‬\t3\t5\t55\t0\t11\n‪Aug 30, 2026‬\t4\t6\t54\t1\t13\n‪Sep 6, 2026‬\t4\t5\t60\t2\t18\n‪Sep 13, 2026‬\t4\t8\t63\t1\t23\n‪Sep 20, 2026‬\t7\t7\t70\t0\t18\n‪Sep 27, 2026‬\t6\t6\t62\t0\t13\n‪Oct 4, 2026‬\t6\t6\t61\t0\t14\n‪Oct 11, 2026‬\t4\t6\t56\t1\t12\n‪Oct 18, 2026‬\t5\t6\t59\t1\t13\n‪Oct 25, 2026‬\t0\t3\t63\t0\t17\nCompared breakdown by subregion\nSubregion\nfile_download\ncode\nshare\ncowboy safari\nragdoll playground\nslide down\nbucket smash\ngpts\nColor intensity represents percentage of searches \nLEARN MORE\nSort:\nInterest for cowboy safari\n1\nNorth Dakota\n2\nAlabama\n3\nIowa\n4\nMinnesota\n5\nUtah\n Showing 1-5 of 51 subregions \ncowboy safari\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\naz games\nBreakout\nmore_vert\n2\nslope\nBreakout\nmore_vert\n3\ngeometry dash\nBreakout\nmore_vert\n4\nslope rider\nBreakout\nmore_vert\n5\nazgames\nBreakout\nmore_vert\n Showing 1-5 of 12 queries \nragdoll playground\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nwacky flip\nBreakout\nmore_vert\n2\nragdoll drop\nBreakout\nmore_vert\n3\naz games\n+60%\nmore_vert\n4\nsprunki\n+50%\nmore_vert\nslide down\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\ngeometry dash\nBreakout\nmore_vert\n2\noofos ooahh slide\nBreakout\nmore_vert\n3\nhoka ora recovery slide 3\nBreakout\nmore_vert\n4\naz games\nBreakout\nmore_vert\n5\ncrimson desert how to slide down a slope\nBreakout\nmore_vert\n Showing 1-5 of 7 queries \nbucket smash\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\naz games\nBreakout\nmore_vert\n2\ngames\n+250%\nmore_vert\ngpts\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nai news today\nBreakout\nmore_vert\n2\nwalmart near me\nBreakout\nmore_vert\n3\nnvidia news today\nBreakout\nmore_vert\n4\nartificial intelligence news\nBreakout\nmore_vert\n5\ntechnology news today\nBreakout\nmore_vert\n Showing 1-5 of 19 queries "
+}

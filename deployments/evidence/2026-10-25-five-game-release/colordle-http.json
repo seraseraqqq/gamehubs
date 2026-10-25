@@ -1,0 +1,227 @@
+{
+  "checkedAt": "2026-10-25T04:28:31.146Z",
+  "origin": "https://gameshub-colordle.vercel.app",
+  "checks": [
+    {
+      "url": "https://gameshub-colordle.vercel.app/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Colordle Unlimited – Guess the Color by Name",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/color-guide",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Colordle Color Names – Search 184 Colors and Hex Values",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/how-to-play",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "How to Play Colordle – Rules and Controls",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/about",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "About Colordle Practice",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/privacy",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Privacy and Local Progress",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/credits",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Sources, Data and Credits",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/assets/styles-BGqPnCGH.css",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/css; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/assets/index-BEQKQry1.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/assets/routes-CZLL9ZUO.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/assets/engine-Bhlz_XZ3.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/favicon.svg",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "image/svg+xml",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/favicon-32.png",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "image/png",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/apple-touch-icon.png",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "image/png",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/site.webmanifest",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/manifest+json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/assets/color-guide-DpzTK329.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/assets/how-to-play-D05viQau.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/assets/about-CHezsYHk.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/assets/privacy-6hsSjwRs.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/assets/credits-CMfqS-W5.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/robots.txt",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/plain; charset=utf-8",
+      "body": "User-agent: *\nAllow: /\n",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/sitemap.xml",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/xml",
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"></urlset>",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-colordle.vercel.app/__gamehubs_missing_release_check__",
+      "status": 404,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/plain; charset=utf-8",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limits": [
+    "HTTP and metadata checks do not prove complete game loading or gameplay.",
+    "No search-engine indexing, physical-device or performance acceptance is inferred."
+  ]
+}

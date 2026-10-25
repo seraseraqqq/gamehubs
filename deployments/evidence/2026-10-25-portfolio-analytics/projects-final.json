@@ -1,0 +1,535 @@
+{
+  "checkedAt": "2026-10-25T05:25:11.208Z",
+  "action": "inspect",
+  "results": [
+    {
+      "siteId": "block-blast-unblocked",
+      "projectId": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+      "projectName": "block-blast-unblocked",
+      "webAnalytics": {
+        "id": "FA7OyWTp9TbpmBI6Asoq3iDTt",
+        "enabledAt": 1792678605659,
+        "hasData": true
+      },
+      "buildCommand": null,
+      "production": {
+        "id": "dpl_7bRPcdPF3o2kjC5heVVFRaCqUTTo",
+        "url": "block-blast-unblocked-dxfz8881b-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "gitCommitSha": "12fc14528da097f23af513cbb3c6affe925a3f2f"
+      },
+      "domains": [
+        {
+          "name": "playblockblastunblocked.com",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "verified": true
+        },
+        {
+          "name": "www.playblockblastunblocked.com",
+          "redirect": "playblockblastunblocked.com",
+          "redirectStatusCode": 301,
+          "gitBranch": null,
+          "verified": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "costcodle",
+      "projectId": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+      "projectName": "costcodle-unlimited",
+      "webAnalytics": {
+        "id": "SN4DLntsWCLVu8Z2WBnoaISOn",
+        "enabledAt": 1792675295560,
+        "hasData": true
+      },
+      "buildCommand": null,
+      "production": {
+        "id": "dpl_HhgdMneaUfT7uEY1SRVHc8Qzs2vB",
+        "url": "costcodle-unlimited-jrdie3aig-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "gitCommitSha": "0fe0d68c1989a40aa370c74a5c276264012af061"
+      },
+      "domains": [
+        {
+          "name": "costcodle.cc",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "verified": true
+        },
+        {
+          "name": "www.costcodle.cc",
+          "redirect": "costcodle.cc",
+          "redirectStatusCode": 301,
+          "gitBranch": null,
+          "verified": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "gulper-io",
+      "projectId": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+      "projectName": "gulperio-game",
+      "webAnalytics": {
+        "id": "NClfRaxbVaLfaAVEYnyOpRGCL",
+        "enabledAt": 1792754759634,
+        "hasData": true
+      },
+      "buildCommand": null,
+      "production": {
+        "id": "dpl_GcsL6LiomU42tfCsUYkCSx6Xzya9",
+        "url": "gulperio-game-78idgct4u-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "gitCommitSha": "b2261def42070882274e12093de85cb4aa2172c9"
+      },
+      "domains": [
+        {
+          "name": "gulperio.com",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "verified": true
+        },
+        {
+          "name": "www.gulperio.com",
+          "redirect": "gulperio.com",
+          "redirectStatusCode": 301,
+          "gitBranch": null,
+          "verified": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "krillion-unlimited",
+      "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+      "projectName": "gamehubs-summit-unlimited",
+      "webAnalytics": {
+        "id": "jB0q0bZZH3u7pGK1OxAyIoihe",
+        "enabledAt": 1792720790879,
+        "hasData": true
+      },
+      "buildCommand": null,
+      "production": {
+        "id": "dpl_9APpmKnwjqu8s83zPFJfgjq8CxTd",
+        "url": "gamehubs-summit-unlimited-52jo4ibcs-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "gitCommitSha": "91fc881885a24cd0ec3122322347ba1dc5386da8"
+      },
+      "domains": [
+        {
+          "name": "krilliononline.com",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "verified": true
+        },
+        {
+          "name": "www.krilliononline.com",
+          "redirect": "krilliononline.com",
+          "redirectStatusCode": 301,
+          "gitBranch": null,
+          "verified": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "spacebar-counter",
+      "projectId": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+      "projectName": "gamehubs-spacebar-counter",
+      "webAnalytics": {
+        "id": "NvFjL9ms62SB42eqRH3TZQBOQ",
+        "enabledAt": 1792752286478,
+        "hasData": true
+      },
+      "buildCommand": "node scripts/build.mjs --origin https://spacebarcounter.xyz",
+      "production": {
+        "id": "dpl_EFS9LcTjxBqiegBZfZs2fxtY127S",
+        "url": "gamehubs-spacebar-counter-2x1v87fw7-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "gitCommitSha": "883bd507b5475959f6d92f03e4ff3cdc37732d95"
+      },
+      "domains": [
+        {
+          "name": "www.spacebarcounter.xyz",
+          "redirect": "spacebarcounter.xyz",
+          "redirectStatusCode": 301,
+          "gitBranch": null,
+          "verified": true
+        },
+        {
+          "name": "spacebarcounter.xyz",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "verified": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "2048-cupcakes",
+      "projectId": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+      "projectName": "gamehubs-2048-cupcakes",
+      "webAnalytics": {
+        "id": "PtgEJDrE5PwfgvLMhQZQnL6XE",
+        "enabledAt": 1792768495123,
+        "hasData": true
+      },
+      "buildCommand": "node scripts/build.mjs --origin https://2048cupcakes.xyz",
+      "production": {
+        "id": "dpl_E1dHRWAYNmznkrScBj9SHukZmMn4",
+        "url": "gamehubs-2048-cupcakes-gqnriz3m3-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "gitCommitSha": "d872928507b6b5f8ccfd062c65c7a3f935ce492a"
+      },
+      "domains": [
+        {
+          "name": "www.2048cupcakes.xyz",
+          "redirect": "2048cupcakes.xyz",
+          "redirectStatusCode": 301,
+          "gitBranch": null,
+          "verified": true
+        },
+        {
+          "name": "2048cupcakes.xyz",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "verified": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "coreball",
+      "projectId": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
+      "projectName": "gamehubs-coreball",
+      "webAnalytics": {
+        "id": "rfordDTar6U0263EcmdZjT1Gb",
+        "enabledAt": 1792806801701,
+        "hasData": true
+      },
+      "buildCommand": "node scripts/build.mjs",
+      "production": {
+        "id": "dpl_5UztbBETRGG5aVC4x3BQ3tXRj5sF",
+        "url": "gamehubs-coreball-194xs83oh-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "gitCommitSha": "f0db273c7ccd24e2a4a445aa89f2693dfaa1f920"
+      },
+      "domains": [
+        {
+          "name": "gamehubs-coreball.vercel.app",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "verified": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "minute-cryptic-unlimited",
+      "projectId": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
+      "projectName": "gamehubs-minute-cryptic-unlimited",
+      "webAnalytics": {
+        "id": "ZqPbeso0kDuvLpD8rB8shGy7S",
+        "enabledAt": 1792806776714,
+        "hasData": true
+      },
+      "buildCommand": null,
+      "production": {
+        "id": "dpl_21uCKsjMv85LR2puYcDADAopcDzG",
+        "url": "gamehubs-minute-cryptic-unlimited-1es2mmare.vercel.app",
+        "readyState": "READY",
+        "gitCommitSha": "591ba8347bfeec55279dda52f5e2d64b59415bac"
+      },
+      "domains": [
+        {
+          "name": "gamehubs-minute-cryptic-unlimited.vercel.app",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "verified": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "snow-rider-3d-unblocked",
+      "projectId": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+      "projectName": "gamehubs-snow-rider-3d",
+      "webAnalytics": {
+        "id": "4jzR8FxQTfdsP2M2pXPoZjGRi",
+        "enabledAt": 1792854954368,
+        "hasData": true
+      },
+      "buildCommand": "node scripts/build.mjs",
+      "production": {
+        "id": "dpl_754NvYryYwYik7yoyScLBnp4oJfb",
+        "url": "gamehubs-snow-rider-3d-3c9yxpxwa-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "gitCommitSha": "642f2728442e81b4ee1f919e1c4d19a43eb0a9cd"
+      },
+      "domains": [
+        {
+          "name": "www.snowrider3d.top",
+          "redirect": "snowrider3d.top",
+          "redirectStatusCode": 301,
+          "gitBranch": null,
+          "verified": true
+        },
+        {
+          "name": "snowrider3d.top",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "verified": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "head-soccer-2026",
+      "projectId": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+      "projectName": "gamehubs-head-soccer-2026",
+      "webAnalytics": {
+        "id": "ISCUVsZIrAUZiXEImne39MyQi",
+        "enabledAt": 1792818383328,
+        "hasData": true
+      },
+      "buildCommand": "node scripts/build.mjs",
+      "production": {
+        "id": "dpl_7YZufjDogQ9Y1VXaFYipLhv8shd8",
+        "url": "gamehubs-head-soccer-2026-pcyuda06d-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "gitCommitSha": "238582e12406e2880011b8dc99a033e34ac9c2b8"
+      },
+      "domains": [
+        {
+          "name": "www.playheadsoccer.com",
+          "redirect": "playheadsoccer.com",
+          "redirectStatusCode": 301,
+          "gitBranch": null,
+          "verified": true
+        },
+        {
+          "name": "playheadsoccer.com",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "verified": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "acceleration-city",
+      "projectId": "prj_9Xu3Dk2dZKyougmAWZyddtI1TsEz",
+      "projectName": "gamehubs-acceleration-city",
+      "webAnalytics": {
+        "id": "RAf0641Kqp8Qx46UP0uUWXFs0",
+        "enabledAt": 1792905095680,
+        "hasData": true
+      },
+      "buildCommand": "node scripts/build.mjs",
+      "production": {
+        "id": "dpl_Mk9s2PHTmJ1j4ShRs4xbKe9NzWvJ",
+        "url": "gamehubs-acceleration-city-9hcdv3giq-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "gitCommitSha": "dd77286748c3ea3ba71fb766a6e2c1f4e6abbc99"
+      },
+      "domains": [
+        {
+          "name": "www.playaccelerationcity.com",
+          "redirect": "playaccelerationcity.com",
+          "redirectStatusCode": 301,
+          "gitBranch": null,
+          "verified": true
+        },
+        {
+          "name": "playaccelerationcity.com",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "verified": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "cluster-rush",
+      "projectId": "prj_S11s0HbRdKMAiWjAdOkKE438olI8",
+      "projectName": "gamehubs-cluster-rush",
+      "webAnalytics": {
+        "id": "EaAEXU5CbrL5iFCe5KAsuORy6",
+        "enabledAt": 1792905099168,
+        "hasData": true
+      },
+      "buildCommand": "node scripts/build.mjs",
+      "production": {
+        "id": "dpl_qeRRxNUgPPCpAnTdHMBUCe2681kA",
+        "url": "gamehubs-cluster-rush-8bntp6zfb-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "gitCommitSha": "d13c6efb129d218726234884775abd07fa510d31"
+      },
+      "domains": [
+        {
+          "name": "playclusterrush.online",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "verified": true
+        },
+        {
+          "name": "www.playclusterrush.online",
+          "redirect": "playclusterrush.online",
+          "redirectStatusCode": 301,
+          "gitBranch": null,
+          "verified": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "colordle",
+      "projectId": "prj_MO2mqYcaGJjLqrYaocxZDwpjEmyr",
+      "projectName": "gameshub-colordle",
+      "webAnalytics": {
+        "id": "31Zf4LVqsgO29yMTQTopberlw",
+        "enabledAt": 1792905102669,
+        "hasData": true
+      },
+      "buildCommand": "pnpm build",
+      "production": {
+        "id": "dpl_HVrNpxxPz26KmJCNdcEqm4Swvy46",
+        "url": "gameshub-colordle-3pxv7l1cp-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "gitCommitSha": "00d3cb92c9ec6fa61cf7b940e8d6fb0af4ade129"
+      },
+      "domains": [
+        {
+          "name": "gameshub-colordle.vercel.app",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "verified": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "cutle",
+      "projectId": "prj_GsfEJjROGzjNVTKWZzUIsEMmZl9O",
+      "projectName": "gameshub-cutle",
+      "webAnalytics": {
+        "id": "XSYWwzhaz4J4BsYMMOxDs6GVY",
+        "enabledAt": 1792905009850,
+        "hasData": true
+      },
+      "buildCommand": "pnpm build",
+      "production": {
+        "id": "dpl_DDV4HUEf8XtHPPXvHs76WXfAYphf",
+        "url": "gameshub-cutle-n09i9mcqc-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "gitCommitSha": "45ad74cb27e95662798dcdfcbb56d689faeaeafe"
+      },
+      "domains": [
+        {
+          "name": "gameshub-cutle.vercel.app",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "verified": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "metazooa",
+      "projectId": "prj_Jf18eJkWESULNxxU1lkcVl39ii9R",
+      "projectName": "gameshub-metazooa",
+      "webAnalytics": {
+        "id": "NdwaVlHMW30yiFgVAbBR25zjQ",
+        "enabledAt": 1792905109535,
+        "hasData": true
+      },
+      "buildCommand": "pnpm build",
+      "production": {
+        "id": "dpl_4iYfsgUXtctfB96mPrkNnLHY7A9K",
+        "url": "gameshub-metazooa-e6t5wpzl5-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "gitCommitSha": "32c7737666ff41480535ebfae5c194037b0a5fde"
+      },
+      "domains": [
+        {
+          "name": "gameshub-metazooa.vercel.app",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "verified": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "poople",
+      "projectId": "prj_9q0dNtkD2iDZhLYNDV45mdtHR6nz",
+      "projectName": "gameshub-poople",
+      "webAnalytics": {
+        "id": "BPj3FrwIkbdI7OZUunvSfaNhw",
+        "enabledAt": 1792905113036,
+        "hasData": true
+      },
+      "buildCommand": "pnpm build",
+      "production": {
+        "id": "dpl_DnnZfrA2yZM7ndCcoNnkGPWbjADY",
+        "url": "gameshub-poople-kczuwlsak-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "gitCommitSha": "6d60d527c19cc3232505c80c577d1ed1d0e39530"
+      },
+      "domains": [
+        {
+          "name": "gameshub-poople.vercel.app",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "verified": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "travle",
+      "projectId": "prj_eO2dPfqIs1Wx5KPim0I52tlnWlVP",
+      "projectName": "gameshub-travle",
+      "webAnalytics": {
+        "id": "z7Vu5KoUFCC3rdvziGm5oimcQ",
+        "enabledAt": 1792905116527,
+        "hasData": true
+      },
+      "buildCommand": "pnpm build",
+      "production": {
+        "id": "dpl_389QaG1AFTWjrSVsvY1Mr2i8EMfW",
+        "url": "gameshub-travle-o22y56fup-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "gitCommitSha": "257b1108b8e6fac5cf22223ac84c8670617f211d"
+      },
+      "domains": [
+        {
+          "name": "gameshub-travle.vercel.app",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "gitBranch": null,
+          "verified": true
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "allGatesConfirmed": 3,
+  "discovered": 150,
+  "errors": [],
+  "hubCounts": {
+    "batches": 12,
+    "keywords": 290,
+    "observations": 800,
+    "reviews": 0,
+    "sites": 17
+  },
+  "importResult": {
+    "accepted": 150,
+    "rejected": 0,
+    "status": "unchanged"
+  },
+  "intitleObserved": 33,
+  "pending": 30,
+  "rejected": 117,
+  "risingObserved": 21,
+  "serpObserved": 6,
+  "tiers": {
+    "A": 1,
+    "B": 2,
+    "C": 0,
+    "PENDING": 30,
+    "REJECT": 117,
+    "S": 0
+  },
+  "trendAttempted": 150,
+  "trendObserved": 149,
+  "volumeKdAttempted": 150,
+  "volumeKdComplete": 120,
+  "volumeKdPass": 33
+}

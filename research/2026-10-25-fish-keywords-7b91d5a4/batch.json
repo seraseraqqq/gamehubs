@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-10-25-windows-7b91d5a4-9d6a-40f2-92f0-d896f05dc722",
+  "date": "2026-10-25",
+  "device": "windows",
+  "market": {"country": "US", "language": "en"},
+  "status": "partial",
+  "kind": "research",
+  "label": "截图大鱼吃小鱼：版本识别与10词KD核查",
+  "seeds": ["fish eat fish", "big fish eat small fish", "feeding frenzy"],
+  "competitors": ["https://poki.com/en/g/fish-eat-fish", "https://www.y8.com/games/fish_eat_fish_3_players", "https://fisheatfish.io/", "https://fisheatfish.app/"],
+  "sources": [
+    {"path": "research/2026-10-25-fish-keywords-7b91d5a4/evidence.json", "note": "浏览器可见指标/趋势/真实Google结果的脱敏摘录；镜像未获官方交叉核验"},
+    {"path": "research/2026-10-25-fish-keywords-7b91d5a4/README.md", "note": "完整十词表、版本识别边界与待补项"}
+  ],
+  "notes": ["仅调研与本地回填；无付费API调用、建设、部署或人工决定。", "10词均待复核，3词KD为n/a；不能判为0。截图具体发行版本及英文正式名尚未确认。", "沿用仓库指定GT→真实Google SERP→免费Semrush镜像顺序；范围为识别关键词/KD，未执行完整立项或GEO研究。"]
+}

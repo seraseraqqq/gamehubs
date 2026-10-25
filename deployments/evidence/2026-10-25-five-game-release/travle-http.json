@@ -1,0 +1,227 @@
+{
+  "checkedAt": "2026-10-25T04:28:31.632Z",
+  "origin": "https://gameshub-travle.vercel.app",
+  "checks": [
+    {
+      "url": "https://gameshub-travle.vercel.app/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Travle Unlimited – Play the Country Path Game",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/strategy",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Travle Strategy – Country Routes, Borders and Shortest Paths",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/how-to-play",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "How to Play Travle – Rules and Controls",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/about",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "About Travle Practice",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/privacy",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Privacy and Local Progress",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/credits",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Sources, Data and Credits",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/assets/styles-CmfIOhWM.css",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/css; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/assets/index-C5QurAU7.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/assets/routes-BHyNvg4p.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/assets/engine-BiC0xzHW.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/favicon.svg",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "image/svg+xml",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/favicon-32.png",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "image/png",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/apple-touch-icon.png",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "image/png",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/site.webmanifest",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/manifest+json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/assets/strategy-j5acvqqG.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/assets/how-to-play-DAe4sR7t.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/assets/about-DOubnvJ1.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/assets/privacy-DwUijJal.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/assets/credits-BJBaGBut.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/robots.txt",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/plain; charset=utf-8",
+      "body": "User-agent: *\nAllow: /\n",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/sitemap.xml",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/xml",
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"></urlset>",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-travle.vercel.app/__gamehubs_missing_release_check__",
+      "status": 404,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/plain; charset=utf-8",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limits": [
+    "HTTP and metadata checks do not prove complete game loading or gameplay.",
+    "No search-engine indexing, physical-device or performance acceptance is inferred."
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "url": "https://orbitkick.io/",
+  "observedAt": "2026-10-25T11:48:54.591Z",
+  "scope": "Visible public game page; no claim of licence or comprehensive gameplay acceptance",
+  "controls": [
+    {
+      "label": null,
+      "placeholder": "Search here...",
+      "tag": "INPUT",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "SELECT",
+      "text": "Newest\nOldest\nPopular"
+    },
+    {
+      "label": null,
+      "placeholder": "Name",
+      "tag": "INPUT",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": "Email",
+      "tag": "INPUT",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "INPUT",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "INPUT",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "INPUT",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "SELECT",
+      "text": "What's the issue?\nThe game don't load\nThe game is not working\nI lost my progress\nI saw something inappropriate\nI need help with an in-game purchase\nI have a suggestion\nOther"
+    },
+    {
+      "label": null,
+      "placeholder": "your@email.com",
+      "tag": "INPUT",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Send Report"
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "url": "https://orbitkick.io/"
+    },
+    {
+      "text": "ORBIT BEATS",
+      "url": "https://orbitkick.io/orbit-beats"
+    },
+    {
+      "text": "CAR GAMES",
+      "url": "https://cargames.co/"
+    },
+    {
+      "text": "LEVEL DEVIL - NOT A TROLL GAME",
+      "url": "https://trollgames.io/"
+    },
+    {
+      "text": "GOLF HIT",
+      "url": "https://orbitkick.io/golf-hit"
+    },
+    {
+      "text": "NOOMICLONE",
+      "url": "https://noomiclone.io/"
+    },
+    {
+      "text": "Ball Orbit",
+      "url": "https://orbitkick.io/ball-orbit"
+    },
+    {
+      "text": "Slide Down",
+      "url": "https://orbitkick.io/slide-down"
+    },
+    {
+      "text": "Wheelie Party",
+      "url": "https://orbitkick.io/wheelie-party"
+    },
+    {
+      "text": "Head Soccer 2026",
+      "url": "https://orbitkick.io/head-soccer-2026"
+    },
+    {
+      "text": "Perfect Orbit",
+      "url": "https://orbitkick.io/perfect-orbit"
+    },
+    {
+      "text": "Football Bros",
+      "url": "https://orbitkick.io/football-bros"
+    },
+    {
+      "text": "Golf Hit",
+      "url": "https://orbitkick.io/golf-hit"
+    },
+    {
+      "text": "Orbit Kick Unblocked",
+      "url": "https://orbitkick.io/orbit-kick-unblocked"
+    },
+    {
+      "text": "Rocket Goal",
+      "url": "https://orbitkick.io/rocket-goal"
+    },
+    {
+      "text": "Soccer Skills Champions League",
+      "url": "https://orbitkick.io/soccer-skills-champions-league"
+    },
+    {
+      "text": "Orbit Beats",
+      "url": "https://orbitkick.io/orbit-beats"
+    },
+    {
+      "text": "Rocket Soccer Derby",
+      "url": "https://orbitkick.io/rocket-soccer-derby"
+    },
+    {
+      "text": "Home",
+      "url": "https://orbitkick.io/"
+    },
+    {
+      "text": "Soccer Games",
+      "url": "https://orbitkick.io/games/soccer-games"
+    },
+    {
+      "text": "Orbitkick.io",
+      "url": "https://orbitkick.io/"
+    },
+    {
+      "text": "What is Orbit Kick?",
+      "url": "https://orbitkick.io/#what-is-orbit-kick"
+    },
+    {
+      "text": "How to Play Orbit Kick",
+      "url": "https://orbitkick.io/#how-to-play-orbit-kick"
+    },
+    {
+      "text": "Timing is everything",
+      "url": "https://orbitkick.io/#timing-is-everything"
+    },
+    {
+      "text": "Earn coins and unlock upgrades",
+      "url": "https://orbitkick.io/#earn-coins-and-unlock-upgrades"
+    },
+    {
+      "text": "Level up and continue the journey in Orbit Kick",
+      "url": "https://orbitkick.io/#level-up-and-continue-the-journey-in-orbit-kick"
+    },
+    {
+      "text": "Pro Hacks to Strike the Ball Farther",
+      "url": "https://orbitkick.io/#pro-hacks-to-strike-the-ball-farther"
+    },
+    {
+      "text": "Orbit Kicks vs Other Games",
+      "url": "https://orbitkick.io/#orbit-kicks-vs-other-games"
+    },
+    {
+      "text": "FAQs",
+      "url": "https://orbitkick.io/#faqs"
+    },
+    {
+      "text": "How do I play Orbit Kick unblocked?",
+      "url": "https://orbitkick.io/#how-do-i-play-orbit-kick-unblocked"
+    },
+    {
+      "text": "Does Orbit Kick have leaderboards?",
+      "url": "https://orbitkick.io/#does-orbit-kick-have-leaderboards"
+    },
+    {
+      "text": "Can I pause or save progress in Orbit Kick?",
+      "url": "https://orbitkick.io/#can-i-pause-or-save-progress-in-orbit-kick"
+    },
+    {
+      "text": "How do I get higher scores in Orbit Kick?",
+      "url": "https://orbitkick.io/#how-do-i-get-higher-scores-in-orbit-kick"
+    },
+    {
+      "text": "Ready to Kick the Ball?",
+      "url": "https://orbitkick.io/#ready-to-kick-the-ball"
+    },
+    {
+      "text": "casual",
+      "url": "https://orbitkick.io/games/casual-games"
+    },
+    {
+      "text": "soccer game",
+      "url": "https://orbitkick.io/games/soccer-games"
+    },
+    {
+      "text": "Orbit Kick",
+      "url": "https://orbitkick.io/"
+    },
+    {
+      "text": "sports game",
+      "url": "https://orbitkick.io/games/sports-games"
+    },
+    {
+      "text": "Soccer Skills Euro Cup",
+      "url": "https://orbitkick.io/soccer-skills-euro-cup"
+    },
+    {
+      "text": "Football Legends",
+      "url": "https://orbitkick.io/football-legends"
+    },
+    {
+      "text": "Ball Orbit",
+      "url": "https://orbitkick.io/ball-orbit"
+    },
+    {
+      "text": "Perfect Orbit",
+      "url": "https://orbitkick.io/perfect-orbit"
+    },
+    {
+      "text": "Soccer Games",
+      "url": "https://orbitkick.io/games/soccer-games"
+    },
+    {
+      "text": "Sports Games",
+      "url": "https://orbitkick.io/games/sports-games"
+    },
+    {
+      "text": "Casual Games",
+      "url": "https://orbitkick.io/games/casual-games"
+    },
+    {
+      "text": "Ball Games",
+      "url": "https://orbitkick.io/games/ball-games"
+    },
+    {
+      "text": "Unblocked",
+      "url": "https://orbitkick.io/tag/unblocked"
+    },
+    {
+      "text": "Reply",
+      "url": "javascript:;"
+    },
+    {
+      "text": "3",
+      "url": "javascript:;"
+    },
+    {
+      "text": "2",
+      "url": "javascript:;"
+    },
+    {
+      "text": "Reply",
+      "url": "javascript:;"
+    },
+    {
+      "text": "1",
+      "url": "javascript:;"
+    },
+    {
+      "text": "2",
+      "url": "javascript:;"
+    },
+    {
+      "text": "Reply",
+      "url": "javascript:;"
+    },
+    {
+      "text": "4",
+      "url": "javascript:;"
+    },
+    {
+      "text": "2",
+      "url": "javascript:;"
+    },
+    {
+      "text": "Golf Hit",
+      "url": "https://orbitkick.io/golf-hit"
+    },
+    {
+      "text": "Orbit Kick Unblocked",
+      "url": "https://orbitkick.io/orbit-kick-unblocked"
+    },
+    {
+      "text": "Rocket Goal",
+      "url": "https://orbitkick.io/rocket-goal"
+    },
+    {
+      "text": "Soccer Skills Champions League",
+      "url": "https://orbitkick.io/soccer-skills-champions-league"
+    },
+    {
+      "text": "Orbit Beats",
+      "url": "https://orbitkick.io/orbit-beats"
+    },
+    {
+      "text": "Ball Orbit",
+      "url": "https://orbitkick.io/ball-orbit"
+    },
+    {
+      "text": "Rocket Soccer Derby",
+      "url": "https://orbitkick.io/rocket-soccer-derby"
+    },
+    {
+      "text": "Slide Down",
+      "url": "https://orbitkick.io/slide-down"
+    },
+    {
+      "text": "Punchers",
+      "url": "https://orbitkick.io/punchers"
+    },
+    {
+      "text": "Wheelie Party",
+      "url": "https://orbitkick.io/wheelie-party"
+    },
+    {
+      "text": "Soccer Random",
+      "url": "https://orbitkick.io/soccer-random"
+    },
+    {
+      "text": "Head Soccer 2026",
+      "url": "https://orbitkick.io/head-soccer-2026"
+    },
+    {
+      "text": "Perfect Orbit",
+      "url": "https://orbitkick.io/perfect-orbit"
+    },
+    {
+      "text": "Football Bros",
+      "url": "https://orbitkick.io/football-bros"
+    },
+    {
+      "text": "Soccer Skills Euro Cup",
+      "url": "https://orbitkick.io/soccer-skills-euro-cup"
+    },
+    {
+      "text": "Wacky Flip",
+      "url": "https://orbitkick.io/wacky-flip"
+    },
+    {
+      "text": "Baseball Bros IO",
+      "url": "https://orbitkick.io/baseball-bros-io"
+    },
+    {
+      "text": "Football Duel",
+      "url": "https://orbitkick.io/football-duel"
+    },
+    {
+      "text": "Golf Hit",
+      "url": "https://orbitkick.io/golf-hit"
+    },
+    {
+      "text": "Orbit Kick Unblocked",
+      "url": "https://orbitkick.io/orbit-kick-unblocked"
+    },
+    {
+      "text": "Soccer Skills Champions League",
+      "url": "https://orbitkick.io/soccer-skills-champions-league"
+    },
+    {
+      "text": "Slide Down",
+      "url": "https://orbitkick.io/slide-down"
+    },
+    {
+      "text": "Wheelie Party",
+      "url": "https://orbitkick.io/wheelie-party"
+    },
+    {
+      "text": "Soccer Random",
+      "url": "https://orbitkick.io/soccer-random"
+    },
+    {
+      "text": "Soccer Skills Euro Cup",
+      "url": "https://orbitkick.io/soccer-skills-euro-cup"
+    },
+    {
+      "text": "Wacky Flip",
+      "url": "https://orbitkick.io/wacky-flip"
+    },
+    {
+      "text": "Baseball Bros IO",
+      "url": "https://orbitkick.io/baseball-bros-io"
+    },
+    {
+      "text": "eFootball",
+      "url": "https://orbitkick.io/efootball"
+    },
+    {
+      "text": "Flip Bros",
+      "url": "https://orbitkick.io/flip-bros"
+    },
+    {
+      "text": "Baseball 9",
+      "url": "https://orbitkick.io/baseball-9"
+    },
+    {
+      "text": "Soccer Bros",
+      "url": "https://orbitkick.io/soccer-bros"
+    },
+    {
+      "text": "Orbit Kick 2",
+      "url": "https://orbitkick.io/orbit-kick-2"
+    },
+    {
+      "text": "Flat Baseball",
+      "url": "https://orbitkick.io/flat-baseball"
+    },
+    {
+      "text": "Rocket League",
+      "url": "https://orbitkick.io/rocket-league"
+    },
+    {
+      "text": "Baseball",
+      "url": "https://orbitkick.io/baseball"
+    },
+    {
+      "text": "Orbit Kick Soccer",
+      "url": "https://orbitkick.io/orbit-kick-soccer"
+    },
+    {
+      "text": "Dummies World Cup",
+      "url": "https://orbitkick.io/dummies-world-cup"
+    },
+    {
+      "text": "Futbol11",
+      "url": "https://orbitkick.io/futbol11"
+    },
+    {
+      "text": "Flat Baseball",
+      "url": "https://orbitkick.io/flat-baseball"
+    },
+    {
+      "text": "Puppet Hockey",
+      "url": "https://orbitkick.io/puppet-hockey"
+    },
+    {
+      "text": "Boxing Random",
+      "url": "https://orbitkick.io/boxing-random"
+    },
+    {
+      "text": "Return Man",
+      "url": "https://orbitkick.io/return-man"
+    },
+    {
+      "text": "Basket And Ball",
+      "url": "https://orbitkick.io/basket-and-ball"
+    },
+    {
+      "text": "Baseball",
+      "url": "https://orbitkick.io/baseball"
+    },
+    {
+      "text": "Soccer Caps League",
+      "url": "https://orbitkick.io/soccer-caps-league"
+    },
+    {
+      "text": "Skip It!",
+      "url": "https://orbitkick.io/skip-it"
+    },
+    {
+      "text": "Return Man 2: Zombies",
+      "url": "https://orbitkick.io/return-man-2-zombies"
+    },
+    {
+      "text": "Ragdoll Flip",
+      "url": "https://orbitkick.io/ragdoll-flip"
+    },
+    {
+      "text": "Puppet Soccer: Zoo",
+      "url": "https://orbitkick.io/puppet-soccer-zoo"
+    },
+    {
+      "text": "Orbit Rush",
+      "url": "https://orbitkick.io/orbit-rush"
+    },
+    {
+      "text": "Pool Club",
+      "url": "https://orbitkick.io/pool-club"
+    },
+    {
+      "text": "Cricket World Cup",
+      "url": "https://orbitkick.io/cricket-world-cup"
+    },
+    {
+      "text": "Tag",
+      "url": "https://orbitkick.io/tag"
+    },
+    {
+      "text": "Billiards",
+      "url": "https://orbitkick.io/billiards"
+    },
+    {
+      "text": "About Us",
+      "url": "https://orbitkick.io/about-us"
+    },
+    {
+      "text": "Copyright Infringement Notice Procedure",
+      "url": "https://orbitkick.io/copyright-infringement-notice-procedure"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://orbitkick.io/contact-us"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://orbitkick.io/privacy-policy"
+    },
+    {
+      "text": "Term Of Use",
+      "url": "https://orbitkick.io/term-of-use"
+    }
+  ],
+  "text": "ORBIT BEATS\nCAR GAMES\nLEVEL DEVIL - NOT A TROLL GAME\nGOLF HIT\nNOOMICLONE\nYour favorite games\nAdd games to your favorites by clicking on the ♡ icon on a game page.\nBall Orbit\nSlide Down\nWheelie Party\nHead Soccer 2026\nPerfect Orbit\nFootball Bros\nORBIT KICK\n \n \n \n \n416 votes\n4.3/5\n1094\nGolf Hit\nOrbit Kick Unblocked\nRocket Goal\nSoccer Skills Champions League\nOrbit Beats\nRocket Soccer Derby\nHome\nSoccer Games\nOrbit Kick\nAbout Orbit Kick\n\nTravelling around the world with your ball, why not? Play Orbit Kick on Orbitkick.io now, send your ball as far as possible through beautiful landmarks, and watch it soar over the skies or even go into orbit!\n\nHere's a quick look at the Orbit Kick game:\nWhat is Orbit Kick?\nHow to Play Orbit Kick\nTiming is everything\nEarn coins and unlock upgrades\nLevel up and continue the journey in Orbit Kick\nPro Hacks to Strike the Ball Farther\nOrbit Kicks vs Other Games\nFAQs\nHow do I play Orbit Kick unblocked?\nDoes Orbit Kick have leaderboards?\nCan I pause or save progress in Orbit Kick?\nHow do I get higher scores in Orbit Kick?\nReady to Kick the Ball?\nWhat is Orbit Kick?\n\nOrbit Kick is a casual one-button soccer game where the goal isn’t to win matches but to kick the ball as far as possible. Aim to kick perfect shots to send the ball the greatest distance possible, earn coins based on distances covered, and purchase upgrades to send the ball even further. Each time you hit milestones like 1000 m, 2000 m, or 3000 m, you unlock a new level with exciting landmarks revealed, like Russia, Egypt, Brazil, and more, adding extra fun to the journey!\n\nGame Overview\nKey Features\tDetails\nGame genre\tCasual one-button soccer game\nDeveloper\tAzgames\nRelease Date\tNovember 2025\nGameplay and Objective\tKick the soccer ball as far as you can using precise timing and physics.\nOne‑click control. Timing determines power, angle, and trajectory.\n3 Upgrade Options\t\nPower: Boost kick strength\nBounce: Increase the ball’s bounciness\nOffline earnings: Boost coin earnings when not active\n\nLevels and Progression\tMultiple levels, each unlocked when you reach a distance milestone.\nEach new level unlocks fresh ball skins and boosts to power shots and coin earnings.\nObstacles\tTrees, buildings, vehicles, and many others\nDaily Missions\tAvailable\nGame controls\t\nClick or tap to kick the ball.\nClick or tap to select upgrades.\n\nPlatform\tWeb-browsers\nHow to Play Orbit Kick\n\nThe game revolves primarily around this loop: kick or shoot the ball, earn coins based on its distance, and purchase upgrades with those coins. Keep kicking the ball and spending on upgrades to send the ball farther, soaring above the skies and ultimately reaching orbit.\n\nTiming is everything\n\nEach round begins with your character stepping up to kick the soccer ball. Keep an eye on the power meter, aiming to click or tap at the right moment to let it fly with the maximum power and the perfect straight angle. This ensures minimal risk of colliding with obstacles along the path that could stop its movement. Again, remember that the better your timing, the farther the ball will soar across the field.\n\nEarn coins and unlock upgrades\n\nThe distance your ball travels is instantly converted into coins. These coins are your key to progress, allowing you to purchase powerful upgrades between kicks. In Orbit Kick, upgrades focus on 3 key things: kick power, the ball’s bounciness, and even offline earnings. Spend your coins strategically to help the ball hit the best distance ever.\n\nLevel up and continue the journey in Orbit Kick\n\nAs you hit distance milestones, you’ll level up your player. Each level unlocks new cities to explore and improved stats, such as stronger shot power and higher earnings for upcoming attempts.\n\nPro Hacks to Strike the Ball Farther\n\nThe farther your ball goes in Orbit Kick, the more exciting the journey becomes. Keep pushing your limits, unlock fresh areas, and discover new challenges that make every kick more rewarding. Here are some tips that help send the ball incredible distances:\n\nMaster timing. Observe the power meter and aim for the perfect zone. It doesn't depend entirely on luck but on your sense of timing when you click.\n\nUpgrade smartly. Boosting kick strength gives the biggest early advantage, so prioritize it, then bounciness, before focusing on offline earnings.\n\nAim to hit the goal. Score goals to earn double coins! This helps you rack up points faster and unlock upgrades more quickly, though you’ll need a bit of luck to make it happen.\n\nStay consistent. Keep playing, and then you will boost your speed and other stats to reach farther and farther distances after all. Be patient and focus on improving your timing to let the ball soar up.\n\nOrbit Kicks vs Other Games\n\nLooking for an arcade sports game that’s simple, unique, relaxing, and perfect for both quick breaks and long sessions? Orbit Kicks is exactly the game. No competitive matches or opponents; it's just you, your ball, and the thrill of kicking it as far as you can.\n\nIf you love Orbit Kick or are simply a big fan of soccer games, here are some titles to consider. Each, of course, delivers unique gameplay features:\n\nSoccer Skills Euro Cup: Focuses on competitive matches and strategy.\nFootball Legends: Multiplayer battles with characters and special moves.\nBall Orbit and Perfect Orbit: The two casual games with similar gameplay to Orbit Kick, but they feature baseball and golf mechanics, respectively.\n\nFAQs\nHow do I play Orbit Kick unblocked?\n\nJust head to Orbitkick.io and enjoy the game for free online right away; no downloads, sign-ups, or installs are needed.\n\nDoes Orbit Kick have leaderboards?\n\nNo, the game doesn’t currently have a leaderboard. It’s all about your farthest distance reached.\n\nCan I pause or save progress in Orbit Kick?\n\nYes. You can stop the game anytime by closing the browser. Your progress is saved automatically, so you can continue your journey later on the same browser and device.\n\nHow do I get higher scores in Orbit Kick?\n\nTime your kick at peak power and the perfect angle to launch the ball excellently. Upgrading your character early is also key.\n\nReady to Kick the Ball?\n\nAre you ready to explore exotic landmarks across the globe? Start kicking your ball in Orbit Kick, push past obstacles, and see how far you can go! Play now on Orbitkick.io and have fun!\n\nSoccer Games\nSports Games\nCasual Games\nBall Games\nUnblocked\nComments\n(3)\nSort by\nNewest\nOldest\nPopular\nS\nStorm\n10 month ago\n\nI kick the ball to the Effiel Tower!\n\nReply\n3\n2\nO\nOrbitKick1\n10 month ago\nOrbit Kick is so addictive! I love trying to hit distance milestones to unlock new levels.\nReply\n1\n2\nC\nChristopher\n10 month ago\nThe feeling of the ball soaring far is amazing, and the upgrades help me reach new distances more easily!\nReply\n4\n2\nI'd read and agree to the terms and conditions.\nRelated Games\nGolf Hit\nOrbit Kick Unblocked\nRocket Goal\nSoccer Skills Champions League\nOrbit Beats\nBall Orbit\nRocket Soccer Derby\nSlide Down\nPunchers\nWheelie Party\nSoccer Random\nHead Soccer 2026\nPerfect Orbit\nFootball Bros\nSoccer Skills Euro Cup\nWacky Flip\nBaseball Bros IO\nFootball Duel\nHot Games\nGolf Hit\nOrbit Kick Unblocked\nSoccer Skills Champions League\nSlide Down\nWheelie Party\nSoccer Random\nSoccer Skills Euro Cup\nWacky Flip\nBaseball Bros IO\neFootball\nFlip Bros\nBaseball 9\nSoccer Bros\nOrbit Kick 2\nFlat Baseball\nRocket League\nBaseball\nOrbit Kick Soccer\nNew Games\nDummies World Cup\nFutbol11\nFlat Baseball\nPuppet Hockey\nBoxing Random\nReturn Man\nBasket And Ball\nBaseball\nSoccer Caps League\nSkip It!\nReturn Man 2: Zombies\nRagdoll Flip\nPuppet Soccer: Zoo\nOrbit Rush\nPool Club\nCricket World Cup\nTag\nBilliards\nShare Orbit Kick\nReport a bug\nWhat's the issue?\nThe game don't load\nThe game is not working\nI lost my progress\nI saw something inappropriate\nI need help with an in-game purchase\nI have a suggestion\nOther\nSend Report\nAbout Us\nCopyright Infringement Notice Procedure\nContact Us\nPrivacy Policy\nTerm Of Use",
+  "title": "Orbit Kick"
+}

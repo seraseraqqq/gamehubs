@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-25T05:25:17.462Z",
+  "profileScope": "owner real Chrome; OpenCLI connected profile",
+  "results": [
+    {
+      "siteId": "travle",
+      "checkedAt": "2026-10-25T05:25:17.461Z",
+      "url": "https://gameshub-travle.vercel.app/?analytics_check=20261025",
+      "title": "Travle Unlimited – Play the Country Path Game",
+      "h1": "Travle Unlimited",
+      "scripts": [
+        "https://gameshub-travle.vercel.app/_vercel/insights/script.js"
+      ],
+      "requests": [
+        {
+          "url": "https://gameshub-travle.vercel.app/_vercel/insights/script.js",
+          "status": 200,
+          "initiator": "script",
+          "duration": 1.6999999284744263
+        },
+        {
+          "url": "https://gameshub-travle.vercel.app/_vercel/insights/view",
+          "status": 200,
+          "initiator": "fetch",
+          "duration": 176.39999997615814
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

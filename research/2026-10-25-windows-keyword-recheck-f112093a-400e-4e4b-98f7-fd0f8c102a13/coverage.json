@@ -1,0 +1,22 @@
+{
+  "allGatesConfirmed": 3,
+  "discovered": 150,
+  "intitleObserved": 33,
+  "pending": 30,
+  "rejected": 117,
+  "risingObserved": 21,
+  "serpObserved": 6,
+  "tiers": {
+    "A": 1,
+    "B": 2,
+    "C": 0,
+    "PENDING": 30,
+    "REJECT": 117,
+    "S": 0
+  },
+  "trendAttempted": 150,
+  "trendObserved": 149,
+  "volumeKdAttempted": 150,
+  "volumeKdComplete": 120,
+  "volumeKdPass": 33
+}

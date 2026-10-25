@@ -36,10 +36,58 @@
       },
       "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
     },
+    "domainConfiguration": {
+      "canonicalVerified": true,
+      "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+      "customDomain": "playblockblastunblocked.com",
+      "evidence": [
+        "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+      ],
+      "httpsVerified": true,
+      "pathAndQueryPreserved": true,
+      "primaryOrigin": "https://playblockblastunblocked.com",
+      "projectBindingVerified": true,
+      "redirectStatusCode": 301,
+      "wwwRedirectTo": "https://playblockblastunblocked.com/"
+    },
     "implementationPushed": true,
-    "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
-    "recordedHead": "07cf140be88943ee8516a6f21c1cfbd902bb3c4d",
-    "state": "independent-repository-deployed"
+    "pushRecordedAt": "2026-10-25T05:27:45.967795+00:00",
+    "recordedHead": "12fc14528da097f23af513cbb3c6affe925a3f2f",
+    "state": "independent-repository-deployed",
+    "vercelRelease": {
+      "branch": "main",
+      "customDomain": "playblockblastunblocked.com",
+      "deploymentId": "dpl_7bRPcdPF3o2kjC5heVVFRaCqUTTo",
+      "deploymentUrl": "block-blast-unblocked-dxfz8881b-gx03410-8651s-projects.vercel.app",
+      "evidence": "deployments/2026-10-25-portfolio-analytics.md",
+      "projectId": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+      "projectName": "block-blast-unblocked",
+      "sourceCommit": "12fc14528da097f23af513cbb3c6affe925a3f2f",
+      "state": "READY",
+      "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+    },
+    "webAnalytics": {
+      "analyticsId": "FA7OyWTp9TbpmBI6Asoq3iDTt",
+      "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+      "clientIntegrated": true,
+      "dashboardReceived": true,
+      "evidence": [
+        "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+      ],
+      "integrationMethod": "official-static-html-script",
+      "pageviewStatus": 200,
+      "pageviewVerified": true,
+      "projectEnabled": true,
+      "provider": "Vercel Web Analytics",
+      "queryAndHashFiltered": true,
+      "receiptSource": "Vercel project.webAnalytics.hasData=true",
+      "sdkInstalled": false,
+      "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+      "sdkVersion": null
+    }
   },
   "history": [
     {
@@ -772,6 +820,668 @@
         }
       },
       "previousRevision": "914f2ad509dc3d4e1a901a6f7f9563f3d74462fb4728acadb7b65de9c9eb830e"
+    },
+    {
+      "actor": "ai-owner-authorized-analytics-rollout",
+      "at": "2026-10-25T05:27:46.052887+00:00",
+      "previous": {
+        "blockers": [],
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/block-blast-unblocked-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_GHcNjE4XQDrqzMuqdm87iZqgTxEc",
+              "readyState": "READY",
+              "url": "block-blast-unblocked-m3ovz32r6-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/block-blast-unblocked",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_C7fqqTghDjgMxUFegbzg7pb4WhoE",
+                "readyState": "READY",
+                "url": "block-blast-unblocked-7aq6h3qh0-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+              "projectName": "block-blast-unblocked",
+              "repository": "https://github.com/seraseraqqq/gameshub-block-blast-unblocked",
+              "repositoryId": 1432762961,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedHead": "07cf140be88943ee8516a6f21c1cfbd902bb3c4d",
+          "state": "independent-repository-deployed"
+        },
+        "id": "block-blast-unblocked",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-d44ee32584558b2cda51",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "block blast unblocked"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-65372a4d323748650c26",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "blockblast unblocked"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-9ce5f57a41addb218e17",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "block blast unblocked 76"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-c6bc5ee4678487c530a6",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "block blast unblocked 66"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-a6d182992b0d914b4b7d",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "bloc blast unblocked"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-1f579cb03baf358c00dd",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "block blast online free"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-ea02f43f65b85d9b7a2b",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "block blast no download"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-f45452e5d87dd121f78f",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "8x8 block puzzle"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8157de5e790f6a3768b5",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "block blast unblock"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8215354bbdbb2ff7b30f",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "block blast chromebook"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Block Blast Unblocked",
+        "nextAction": "依据当前发布记录复核下一步，保留既有门禁。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/block-blast-unblocked曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/block-blast-unblocked",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-block-blast-unblocked"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#block-blast-unblocked"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/block-blast-unblocked-final.json"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://playblockblastunblocked.com/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+        }
+      },
+      "previousRevision": "38c0fb364d5bf4e08398d8a61f33714ffba6b383ce257a049fbf05306a09f516"
+    },
+    {
+      "actor": "codex-sync",
+      "actorType": "ai",
+      "at": "2026-10-25T09:41:05.839731+00:00",
+      "localPrevious": {
+        "blockers": [],
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/block-blast-unblocked-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_GHcNjE4XQDrqzMuqdm87iZqgTxEc",
+              "readyState": "READY",
+              "url": "block-blast-unblocked-m3ovz32r6-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/block-blast-unblocked",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_C7fqqTghDjgMxUFegbzg7pb4WhoE",
+                "readyState": "READY",
+                "url": "block-blast-unblocked-7aq6h3qh0-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+              "projectName": "block-blast-unblocked",
+              "repository": "https://github.com/seraseraqqq/gameshub-block-blast-unblocked",
+              "repositoryId": 1432762961,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "domainConfiguration": {
+            "canonicalVerified": true,
+            "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+            "customDomain": "playblockblastunblocked.com",
+            "evidence": [
+              "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+            ],
+            "httpsVerified": true,
+            "pathAndQueryPreserved": true,
+            "primaryOrigin": "https://playblockblastunblocked.com",
+            "projectBindingVerified": true,
+            "redirectStatusCode": 301,
+            "wwwRedirectTo": "https://playblockblastunblocked.com/"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T05:27:45.967795+00:00",
+          "recordedHead": "12fc14528da097f23af513cbb3c6affe925a3f2f",
+          "state": "independent-repository-deployed",
+          "vercelRelease": {
+            "branch": "main",
+            "customDomain": "playblockblastunblocked.com",
+            "deploymentId": "dpl_7bRPcdPF3o2kjC5heVVFRaCqUTTo",
+            "deploymentUrl": "block-blast-unblocked-dxfz8881b-gx03410-8651s-projects.vercel.app",
+            "evidence": "deployments/2026-10-25-portfolio-analytics.md",
+            "projectId": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+            "projectName": "block-blast-unblocked",
+            "sourceCommit": "12fc14528da097f23af513cbb3c6affe925a3f2f",
+            "state": "READY",
+            "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+          },
+          "webAnalytics": {
+            "analyticsId": "FA7OyWTp9TbpmBI6Asoq3iDTt",
+            "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+            "clientIntegrated": true,
+            "dashboardReceived": true,
+            "evidence": [
+              "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+            ],
+            "integrationMethod": "official-static-html-script",
+            "pageviewStatus": 200,
+            "pageviewVerified": true,
+            "projectEnabled": true,
+            "provider": "Vercel Web Analytics",
+            "queryAndHashFiltered": true,
+            "receiptSource": "Vercel project.webAnalytics.hasData=true",
+            "sdkInstalled": false,
+            "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+            "sdkVersion": null
+          }
+        },
+        "id": "block-blast-unblocked",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-d44ee32584558b2cda51",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "block blast unblocked"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-65372a4d323748650c26",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "blockblast unblocked"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-9ce5f57a41addb218e17",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "block blast unblocked 76"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-c6bc5ee4678487c530a6",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "block blast unblocked 66"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-a6d182992b0d914b4b7d",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "bloc blast unblocked"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-1f579cb03baf358c00dd",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "block blast online free"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-ea02f43f65b85d9b7a2b",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "block blast no download"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-f45452e5d87dd121f78f",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "8x8 block puzzle"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8157de5e790f6a3768b5",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "block blast unblock"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8215354bbdbb2ff7b30f",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "block blast chromebook"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Block Blast Unblocked",
+        "nextAction": "依据当前发布记录复核下一步，保留既有门禁。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/block-blast-unblocked曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25：Vercel Web Analytics已接入并开启，真实Chrome浏览记录请求200且后台已收数；独立域名已统一不带www主站，www301跳转。 当前源码与发布证据见 deployments/2026-10-25-portfolio-analytics.md。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/block-blast-unblocked",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-block-blast-unblocked"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#block-blast-unblocked"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/block-blast-unblocked-final.json"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "本轮17站Analytics接入/开启/真实发送/后台收数、独立域名apex与www301验收",
+            "path": "deployments/2026-10-25-portfolio-analytics.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://playblockblastunblocked.com/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T05:27:45.967795+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25：独立仓库main与实际Vercel生产READY/SHA一致；Web Analytics客户端/项目开启/真实Chrome POST view 200/后台hasData均通过。已有独立域名apex主站、www301、TLS/路径查询参数/canonical核验通过；8站index与9站noindex实际输出保持。未将完整游戏、真机、性能、许可或搜索收录记为通过。"
+        }
+      },
+      "localRevision": "7ae2ae660148f922c81d13d6f619f68b60fc972639b4c4f42356722e1e9042ca",
+      "previous": {
+        "blockers": [],
+        "createdAt": "2026-10-22",
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/block-blast-unblocked-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_GHcNjE4XQDrqzMuqdm87iZqgTxEc",
+              "readyState": "READY",
+              "url": "block-blast-unblocked-m3ovz32r6-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/block-blast-unblocked",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_C7fqqTghDjgMxUFegbzg7pb4WhoE",
+                "readyState": "READY",
+                "url": "block-blast-unblocked-7aq6h3qh0-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+              "projectName": "block-blast-unblocked",
+              "repository": "https://github.com/seraseraqqq/gameshub-block-blast-unblocked",
+              "repositoryId": 1432762961,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedHead": "07cf140be88943ee8516a6f21c1cfbd902bb3c4d",
+          "state": "independent-repository-deployed"
+        },
+        "id": "block-blast-unblocked",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-f0a36fbc2ce7fd08ce78",
+            "language": "en",
+            "page": "/",
+            "poolLinked": true,
+            "role": "primary",
+            "term": "block blast unblocked"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-65372a4d323748650c26",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "blockblast unblocked"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-9ce5f57a41addb218e17",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "block blast unblocked 76"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-c6bc5ee4678487c530a6",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "block blast unblocked 66"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-a6d182992b0d914b4b7d",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "bloc blast unblocked"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-1f579cb03baf358c00dd",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "block blast online free"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-ea02f43f65b85d9b7a2b",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "block blast no download"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-f45452e5d87dd121f78f",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "8x8 block puzzle"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8157de5e790f6a3768b5",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "block blast unblock"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8215354bbdbb2ff7b30f",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "block blast chromebook"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Block Blast Unblocked",
+        "nextAction": "依据当前发布记录复核下一步，保留既有门禁。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/block-blast-unblocked曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/block-blast-unblocked",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-block-blast-unblocked"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#block-blast-unblocked"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/block-blast-unblocked-final.json"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "恢复导入时遗漏的明确createdAt：2026-10-22；没有用部署/研究/核验时间替代",
+            "path": "data/migration/source-matrix-sites.json#block-blast-unblocked"
+          },
+          {
+            "note": "旧站主词纳入统一词池；US/en由本轮截图数据库与查询参数明确，旧市场/映射保留在历史",
+            "path": "research/2026-10-25-mac-site-keyword-consistency-004351b6cfaf/README.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://playblockblastunblocked.com/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+        }
+      },
+      "previousRevision": "1562206d6d12be89553a718afe23efdaf8fa65f88649b49cc98127d47f9b91a9",
+      "reason": "Pull latest main while retaining local deployment records and remote primary-keyword/date enrichment; preserve both histories.",
+      "upstreamCommit": "8a42a11c0af16434a3c1ed2b48acca0198508b7f"
     }
   ],
   "id": "block-blast-unblocked",
@@ -875,8 +1585,8 @@
     "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/block-blast-unblocked曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
     "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
     "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
-    "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
-    "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。"
+    "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。",
+    "2026-10-25：Vercel Web Analytics已接入并开启，真实Chrome浏览记录请求200且后台已收数；独立域名已统一不带www主站，www301跳转。 当前源码与发布证据见 deployments/2026-10-25-portfolio-analytics.md。"
   ],
   "release": {
     "deployment": "recorded_deployed",
@@ -923,6 +1633,10 @@
     {
       "note": "旧站主词纳入统一词池；US/en由本轮截图数据库与查询参数明确，旧市场/映射保留在历史",
       "path": "research/2026-10-25-mac-site-keyword-consistency-004351b6cfaf/README.md"
+    },
+    {
+      "note": "本轮17站Analytics接入/开启/真实发送/后台收数、独立域名apex与www301验收",
+      "path": "deployments/2026-10-25-portfolio-analytics.md"
     }
   ],
   "stage": "deployed",
@@ -931,8 +1645,8 @@
     "production": "https://playblockblastunblocked.com/"
   },
   "verification": {
-    "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+    "recheckedAt": "2026-10-25T05:27:45.967795+00:00",
     "recordedAt": "2026-10-24T05:17:09.386Z",
-    "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+    "scope": "2026-10-25：独立仓库main与实际Vercel生产READY/SHA一致；Web Analytics客户端/项目开启/真实Chrome POST view 200/后台hasData均通过。已有独立域名apex主站、www301、TLS/路径查询参数/canonical核验通过；8站index与9站noindex实际输出保持。未将完整游戏、真机、性能、许可或搜索收录记为通过。"
   }
 }

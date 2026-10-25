@@ -36,10 +36,58 @@
       },
       "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
     },
+    "domainConfiguration": {
+      "canonicalVerified": true,
+      "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+      "customDomain": "costcodle.cc",
+      "evidence": [
+        "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+      ],
+      "httpsVerified": true,
+      "pathAndQueryPreserved": true,
+      "primaryOrigin": "https://costcodle.cc",
+      "projectBindingVerified": true,
+      "redirectStatusCode": 301,
+      "wwwRedirectTo": "https://costcodle.cc/"
+    },
     "implementationPushed": true,
-    "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
-    "recordedHead": "a2af21d0e74622a8a35098ea29b4700dd20f848d",
-    "state": "independent-repository-deployed"
+    "pushRecordedAt": "2026-10-25T05:27:45.967795+00:00",
+    "recordedHead": "0fe0d68c1989a40aa370c74a5c276264012af061",
+    "state": "independent-repository-deployed",
+    "vercelRelease": {
+      "branch": "main",
+      "customDomain": "costcodle.cc",
+      "deploymentId": "dpl_HhgdMneaUfT7uEY1SRVHc8Qzs2vB",
+      "deploymentUrl": "costcodle-unlimited-jrdie3aig-gx03410-8651s-projects.vercel.app",
+      "evidence": "deployments/2026-10-25-portfolio-analytics.md",
+      "projectId": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+      "projectName": "costcodle-unlimited",
+      "sourceCommit": "0fe0d68c1989a40aa370c74a5c276264012af061",
+      "state": "READY",
+      "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+    },
+    "webAnalytics": {
+      "analyticsId": "SN4DLntsWCLVu8Z2WBnoaISOn",
+      "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+      "clientIntegrated": true,
+      "dashboardReceived": true,
+      "evidence": [
+        "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+      ],
+      "integrationMethod": "official-static-html-script",
+      "pageviewStatus": 200,
+      "pageviewVerified": true,
+      "projectEnabled": true,
+      "provider": "Vercel Web Analytics",
+      "queryAndHashFiltered": true,
+      "receiptSource": "Vercel project.webAnalytics.hasData=true",
+      "sdkInstalled": false,
+      "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+      "sdkVersion": null
+    }
   },
   "history": [
     {
@@ -704,6 +752,617 @@
         }
       },
       "previousRevision": "91101230b5c1eea9c7294a87fb91e7fc147bfce7c4a7fe104d72767df3645ef7"
+    },
+    {
+      "actor": "ai-owner-authorized-analytics-rollout",
+      "at": "2026-10-25T05:27:46.413823+00:00",
+      "previous": {
+        "blockers": [],
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/costcodle-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_3ws9eAQVWmA3UbmxJ8hzyRGQFSv5",
+              "readyState": "READY",
+              "url": "costcodle-unlimited-eaxuys2uw-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/costcodle",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_XDeaVpd4JfB9A2KuTiV67jD8ReH4",
+                "readyState": "READY",
+                "url": "costcodle-unlimited-q890kgt4e-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+              "projectName": "costcodle-unlimited",
+              "repository": "https://github.com/seraseraqqq/gameshub-costcodle",
+              "repositoryId": 1432763012,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedHead": "a2af21d0e74622a8a35098ea29b4700dd20f848d",
+          "state": "independent-repository-deployed"
+        },
+        "id": "costcodle",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-e3f44fc4d5db2ddc40ea",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "costcodle"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-416eb024b60abdbe180e",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "costcodle unlimited"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-386465cf6b7bfe4b5a20",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "costcodle game"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-ca29ec0035db3ba8cb67",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "costcodle today"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-f1b4fc495cb274f7c696",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "guess costco price game"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-7ebd192e0614ac19e797",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "play costcodle free"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-a72e1f4da5f1d4fd24f5",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "costcodle archive"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-729b61a1bd70d19e6285",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "costcodle daily"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Costcodle",
+        "nextAction": "依据当前发布记录复核下一步，保留既有门禁。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "当前登记地址 https://costcodle.cc/；旧核验快照地址 https://costcodle-unlimited.vercel.app/。保留时间差，当前地址以最新matrix.url为准，本次未重新线上核实。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/costcodle曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/costcodle",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-costcodle"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#costcodle"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/costcodle-final.json"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://costcodle.cc/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+        }
+      },
+      "previousRevision": "4f8080c9c079a060beb4c03cffa737381d26c1b0af4e7a3a885463e567b83c14"
+    },
+    {
+      "actor": "codex-sync",
+      "actorType": "ai",
+      "at": "2026-10-25T09:41:06.209503+00:00",
+      "localPrevious": {
+        "blockers": [],
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/costcodle-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_3ws9eAQVWmA3UbmxJ8hzyRGQFSv5",
+              "readyState": "READY",
+              "url": "costcodle-unlimited-eaxuys2uw-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/costcodle",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_XDeaVpd4JfB9A2KuTiV67jD8ReH4",
+                "readyState": "READY",
+                "url": "costcodle-unlimited-q890kgt4e-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+              "projectName": "costcodle-unlimited",
+              "repository": "https://github.com/seraseraqqq/gameshub-costcodle",
+              "repositoryId": 1432763012,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "domainConfiguration": {
+            "canonicalVerified": true,
+            "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+            "customDomain": "costcodle.cc",
+            "evidence": [
+              "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+            ],
+            "httpsVerified": true,
+            "pathAndQueryPreserved": true,
+            "primaryOrigin": "https://costcodle.cc",
+            "projectBindingVerified": true,
+            "redirectStatusCode": 301,
+            "wwwRedirectTo": "https://costcodle.cc/"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T05:27:45.967795+00:00",
+          "recordedHead": "0fe0d68c1989a40aa370c74a5c276264012af061",
+          "state": "independent-repository-deployed",
+          "vercelRelease": {
+            "branch": "main",
+            "customDomain": "costcodle.cc",
+            "deploymentId": "dpl_HhgdMneaUfT7uEY1SRVHc8Qzs2vB",
+            "deploymentUrl": "costcodle-unlimited-jrdie3aig-gx03410-8651s-projects.vercel.app",
+            "evidence": "deployments/2026-10-25-portfolio-analytics.md",
+            "projectId": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+            "projectName": "costcodle-unlimited",
+            "sourceCommit": "0fe0d68c1989a40aa370c74a5c276264012af061",
+            "state": "READY",
+            "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+          },
+          "webAnalytics": {
+            "analyticsId": "SN4DLntsWCLVu8Z2WBnoaISOn",
+            "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+            "clientIntegrated": true,
+            "dashboardReceived": true,
+            "evidence": [
+              "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+            ],
+            "integrationMethod": "official-static-html-script",
+            "pageviewStatus": 200,
+            "pageviewVerified": true,
+            "projectEnabled": true,
+            "provider": "Vercel Web Analytics",
+            "queryAndHashFiltered": true,
+            "receiptSource": "Vercel project.webAnalytics.hasData=true",
+            "sdkInstalled": false,
+            "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+            "sdkVersion": null
+          }
+        },
+        "id": "costcodle",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-e3f44fc4d5db2ddc40ea",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "costcodle"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-416eb024b60abdbe180e",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "costcodle unlimited"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-386465cf6b7bfe4b5a20",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "costcodle game"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-ca29ec0035db3ba8cb67",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "costcodle today"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-f1b4fc495cb274f7c696",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "guess costco price game"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-7ebd192e0614ac19e797",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "play costcodle free"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-a72e1f4da5f1d4fd24f5",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "costcodle archive"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-729b61a1bd70d19e6285",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "costcodle daily"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Costcodle",
+        "nextAction": "依据当前发布记录复核下一步，保留既有门禁。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "当前登记地址 https://costcodle.cc/；旧核验快照地址 https://costcodle-unlimited.vercel.app/。保留时间差，当前地址以最新matrix.url为准，本次未重新线上核实。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/costcodle曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25：Vercel Web Analytics已接入并开启，真实Chrome浏览记录请求200且后台已收数；独立域名已统一不带www主站，www301跳转。 当前源码与发布证据见 deployments/2026-10-25-portfolio-analytics.md。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/costcodle",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-costcodle"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#costcodle"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/costcodle-final.json"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "本轮17站Analytics接入/开启/真实发送/后台收数、独立域名apex与www301验收",
+            "path": "deployments/2026-10-25-portfolio-analytics.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://costcodle.cc/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T05:27:45.967795+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25：独立仓库main与实际Vercel生产READY/SHA一致；Web Analytics客户端/项目开启/真实Chrome POST view 200/后台hasData均通过。已有独立域名apex主站、www301、TLS/路径查询参数/canonical核验通过；8站index与9站noindex实际输出保持。未将完整游戏、真机、性能、许可或搜索收录记为通过。"
+        }
+      },
+      "localRevision": "e20e533d8a98e285cdb8fd80fbfe95da883ea0f20b9a3d6675ccc0be40f41f84",
+      "previous": {
+        "blockers": [],
+        "createdAt": "2026-10-22",
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/costcodle-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_3ws9eAQVWmA3UbmxJ8hzyRGQFSv5",
+              "readyState": "READY",
+              "url": "costcodle-unlimited-eaxuys2uw-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/costcodle",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_XDeaVpd4JfB9A2KuTiV67jD8ReH4",
+                "readyState": "READY",
+                "url": "costcodle-unlimited-q890kgt4e-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+              "projectName": "costcodle-unlimited",
+              "repository": "https://github.com/seraseraqqq/gameshub-costcodle",
+              "repositoryId": 1432763012,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedHead": "a2af21d0e74622a8a35098ea29b4700dd20f848d",
+          "state": "independent-repository-deployed"
+        },
+        "id": "costcodle",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-009cbf1dce9b43adf82c",
+            "language": "en",
+            "page": "/",
+            "poolLinked": true,
+            "role": "primary",
+            "term": "costcodle"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-416eb024b60abdbe180e",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "costcodle unlimited"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-386465cf6b7bfe4b5a20",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "costcodle game"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-ca29ec0035db3ba8cb67",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "costcodle today"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-f1b4fc495cb274f7c696",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "guess costco price game"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-7ebd192e0614ac19e797",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "play costcodle free"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-a72e1f4da5f1d4fd24f5",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "costcodle archive"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-729b61a1bd70d19e6285",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "costcodle daily"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Costcodle",
+        "nextAction": "依据当前发布记录复核下一步，保留既有门禁。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "当前登记地址 https://costcodle.cc/；旧核验快照地址 https://costcodle-unlimited.vercel.app/。保留时间差，当前地址以最新matrix.url为准，本次未重新线上核实。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/costcodle曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/costcodle",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-costcodle"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#costcodle"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/costcodle-final.json"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "恢复导入时遗漏的明确createdAt：2026-10-22；没有用部署/研究/核验时间替代",
+            "path": "data/migration/source-matrix-sites.json#costcodle"
+          },
+          {
+            "note": "旧站主词纳入统一词池；US/en由本轮截图数据库与查询参数明确，旧市场/映射保留在历史",
+            "path": "research/2026-10-25-mac-site-keyword-consistency-004351b6cfaf/README.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://costcodle.cc/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+        }
+      },
+      "previousRevision": "6e1cf6c881e885c0aeb69a87c020df5017175afa4a65d1d8fd71c80f0be8219c",
+      "reason": "Pull latest main while retaining local deployment records and remote primary-keyword/date enrichment; preserve both histories.",
+      "upstreamCommit": "8a42a11c0af16434a3c1ed2b48acca0198508b7f"
     }
   ],
   "id": "costcodle",
@@ -790,8 +1449,8 @@
     "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/costcodle曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
     "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
     "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
-    "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
-    "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。"
+    "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。",
+    "2026-10-25：Vercel Web Analytics已接入并开启，真实Chrome浏览记录请求200且后台已收数；独立域名已统一不带www主站，www301跳转。 当前源码与发布证据见 deployments/2026-10-25-portfolio-analytics.md。"
   ],
   "release": {
     "deployment": "recorded_deployed",
@@ -838,6 +1497,10 @@
     {
       "note": "旧站主词纳入统一词池；US/en由本轮截图数据库与查询参数明确，旧市场/映射保留在历史",
       "path": "research/2026-10-25-mac-site-keyword-consistency-004351b6cfaf/README.md"
+    },
+    {
+      "note": "本轮17站Analytics接入/开启/真实发送/后台收数、独立域名apex与www301验收",
+      "path": "deployments/2026-10-25-portfolio-analytics.md"
     }
   ],
   "stage": "deployed",
@@ -846,8 +1509,8 @@
     "production": "https://costcodle.cc/"
   },
   "verification": {
-    "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+    "recheckedAt": "2026-10-25T05:27:45.967795+00:00",
     "recordedAt": "2026-10-24T05:17:09.386Z",
-    "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+    "scope": "2026-10-25：独立仓库main与实际Vercel生产READY/SHA一致；Web Analytics客户端/项目开启/真实Chrome POST view 200/后台hasData均通过。已有独立域名apex主站、www301、TLS/路径查询参数/canonical核验通过；8站index与9站noindex实际输出保持。未将完整游戏、真机、性能、许可或搜索收录记为通过。"
   }
 }

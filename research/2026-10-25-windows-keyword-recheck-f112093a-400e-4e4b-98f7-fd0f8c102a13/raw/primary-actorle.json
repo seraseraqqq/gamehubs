@@ -1,0 +1,277 @@
+{
+  "url": "https://actorle.com/",
+  "observedAt": "2026-10-25T11:51:08.827Z",
+  "scope": "Visible public game page; no claim of licence or comprehensive gameplay acceptance",
+  "controls": [
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Share an idea"
+    },
+    {
+      "label": "Toggle dark mode",
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": "Browse all games",
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Sign in"
+    },
+    {
+      "label": "Edit favorite games",
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": "Search for an actor",
+      "placeholder": "Search for an actor...",
+      "tag": "INPUT",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "How to play?"
+    },
+    {
+      "label": "Cinephile mode",
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": "How the movie list works",
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "?"
+    }
+  ],
+  "links": [
+    {
+      "text": "Actorle",
+      "url": "https://actorle.com/"
+    },
+    {
+      "text": "",
+      "url": "https://actorle.com/archive/"
+    },
+    {
+      "text": "Expert Daily\nPLUS",
+      "url": "https://actorle.com/expert/"
+    },
+    {
+      "text": "",
+      "url": "https://actorle.com/expert-archive/"
+    },
+    {
+      "text": "Fill The Grid",
+      "url": "https://actorle.com/fill-the-grid/"
+    },
+    {
+      "text": "",
+      "url": "https://actorle.com/fill-the-grid-archive/"
+    },
+    {
+      "text": "Storyboard",
+      "url": "https://actorle.com/storyboard/"
+    },
+    {
+      "text": "",
+      "url": "https://actorle.com/storyboard-archive/"
+    },
+    {
+      "text": "StarWords",
+      "url": "https://actorle.com/starwords/"
+    },
+    {
+      "text": "",
+      "url": "https://actorle.com/starwords-archive/"
+    },
+    {
+      "text": "Cinections",
+      "url": "https://actorle.com/cinections/"
+    },
+    {
+      "text": "",
+      "url": "https://actorle.com/cinections-archive/"
+    },
+    {
+      "text": "Board Game",
+      "url": "https://actorle.com/board-game/"
+    },
+    {
+      "text": "Profile",
+      "url": "https://actorle.com/profile/"
+    },
+    {
+      "text": "Groups",
+      "url": "https://actorle.com/groups/"
+    },
+    {
+      "text": "Actorle Plus",
+      "url": "https://actorle.com/plus/"
+    },
+    {
+      "text": "How to play",
+      "url": "https://actorle.com/how-to/"
+    },
+    {
+      "text": "moviedle.xyz",
+      "url": "https://moviedle.xyz/?ref=actorle_menu"
+    },
+    {
+      "text": "actorle.tv",
+      "url": "https://actorle.tv/?ref=actorle_menu"
+    },
+    {
+      "text": "",
+      "url": "https://actorle.com/"
+    },
+    {
+      "text": "Actorle",
+      "url": "https://actorle.com/"
+    },
+    {
+      "text": "Plus",
+      "url": "https://actorle.com/plus/?from=header"
+    },
+    {
+      "text": "Actorle",
+      "url": "https://actorle.com/"
+    },
+    {
+      "text": "Fill The Grid",
+      "url": "https://actorle.com/fill-the-grid/"
+    },
+    {
+      "text": "Storyboard",
+      "url": "https://actorle.com/storyboard/"
+    },
+    {
+      "text": "StarWords",
+      "url": "https://actorle.com/starwords/"
+    },
+    {
+      "text": "Cinections",
+      "url": "https://actorle.com/cinections/"
+    },
+    {
+      "text": "Moviedle",
+      "url": "https://moviedle.xyz/?ref=actorle"
+    },
+    {
+      "text": "Moviedle Fill The Grid",
+      "url": "https://moviedle.xyz/fill-the-grid/?ref=actorle"
+    },
+    {
+      "text": "Moviemoji",
+      "url": "https://moviedle.xyz/moviemoji/?ref=actorle"
+    },
+    {
+      "text": "Moviedle Classic",
+      "url": "https://moviedle.xyz/classic/?ref=actorle"
+    },
+    {
+      "text": "Actorle.tv",
+      "url": "https://actorle.tv/?ref=actorle"
+    },
+    {
+      "text": "PickOrPick",
+      "url": "https://pickorpick.com/?ref=actorle"
+    },
+    {
+      "text": "🎥 Actorle",
+      "url": "https://actorle.com/archive/"
+    },
+    {
+      "text": "boxofficega.me",
+      "url": "https://boxofficega.me/?utm_medium=referral&utm_source=actorle"
+    },
+    {
+      "text": "Which Country to Move To",
+      "url": "https://whichcountrytomoveto.com/"
+    },
+    {
+      "text": "Moviedle",
+      "url": "https://froggyhop.com/api/r/cc78154a-3583-464c-bbdc-d235c272d21e?k=eyJraWQiOjF9.eyJmIjoiYWFhYTUzZTgtOTcxZi00OWExLTkyYmEtZmNmN2JiMjlmOWRiIiwidCI6ImNjNzgxNTRhLTM1ODMtNDY0Yy1iYmRjLWQyMzVjMjcyZDIxZSIsImkiOjE3OTI5MjkwNjYsIm4iOiJtR2FLa08wd0dGZyIsInAiOiI0Yjk4ZThkMCIsIm8iOjB9.x7Aee0RwHT5twVfnSxLdpGLItoLK20TPIasb0Y6KpI8"
+    },
+    {
+      "text": "Actorle TV",
+      "url": "https://froggyhop.com/api/r/ad00fe59-8bb1-4e2d-a1c0-2db1ccf7afba?k=eyJraWQiOjF9.eyJmIjoiYWFhYTUzZTgtOTcxZi00OWExLTkyYmEtZmNmN2JiMjlmOWRiIiwidCI6ImFkMDBmZTU5LThiYjEtNGUyZC1hMWMwLTJkYjFjY2Y3YWZiYSIsImkiOjE3OTI5MjkwNjYsIm4iOiJJcVdxLUNzWWdEayIsInAiOiI0Yjk4ZThkMCIsIm8iOjF9.GJNrRn9Sv-dP9c4zygTioGEszDM3NkjNk3TP-Zec4JY"
+    },
+    {
+      "text": "Decodex",
+      "url": "https://froggyhop.com/api/r/894a6168-4fac-4002-8a8c-e6d39d6eb657?k=eyJraWQiOjF9.eyJmIjoiYWFhYTUzZTgtOTcxZi00OWExLTkyYmEtZmNmN2JiMjlmOWRiIiwidCI6Ijg5NGE2MTY4LTRmYWMtNDAwMi04YThjLWU2ZDM5ZDZlYjY1NyIsImkiOjE3OTI5MjkwNjYsIm4iOiI3WmJmaFdIcnZpQSIsInAiOiI0Yjk4ZThkMCIsIm8iOjJ9.VszTrStzXy6UlAS1w8bYFwuifO-9ok6GahIq34YIo8s"
+    },
+    {
+      "text": "Have a game? Get it listed here via froggyhop.com",
+      "url": "https://froggyhop.com/?utm_medium=referral&utm_source=actorle"
+    },
+    {
+      "text": "",
+      "url": "https://apps.apple.com/app/actorle/id1620858489"
+    },
+    {
+      "text": "contact@actorle.com",
+      "url": "mailto:contact@actorle.com"
+    },
+    {
+      "text": "Reddit",
+      "url": "https://www.reddit.com/r/actorle/"
+    },
+    {
+      "text": "Instagram",
+      "url": "https://instagram.com/actorlegame"
+    },
+    {
+      "text": "TikTok",
+      "url": "https://www.tiktok.com/@actorlegame"
+    },
+    {
+      "text": "YouTube",
+      "url": "https://www.youtube.com/@actorle"
+    },
+    {
+      "text": "Facebook",
+      "url": "https://www.facebook.com/actorlegame"
+    },
+    {
+      "text": "For creators",
+      "url": "https://actorle.com/creators/"
+    },
+    {
+      "text": "Privacy policy",
+      "url": "https://actorle.com/privacy/"
+    },
+    {
+      "text": "Terms of Service",
+      "url": "https://actorle.com/terms/"
+    },
+    {
+      "text": "",
+      "url": "https://autosmoke.dev/?utm_medium=referral&utm_source=actorle"
+    },
+    {
+      "text": "",
+      "url": "https://www.playwire.com/"
+    },
+    {
+      "text": "Advertise on this site",
+      "url": "https://www.playwire.com/contact-direct-sales"
+    }
+  ],
+  "text": "PLAY TODAY\nActorle\nExpert Daily\nPLUS\nFill The Grid\nStoryboard\nStarWords\nCinections\nBoard Game\nProfile\nGroups\nActorle Plus\nHow to play\nShare an idea\nSISTER SITES\nmoviedle.xyz\nactorle.tv\nActorle\nPlus\nSign in\nActorle\nFill The Grid\nStoryboard\nStarWords\nCinections\nMoviedle\nMoviedle Fill The Grid\nMoviemoji\nMoviedle Classic\nActorle.tv\nPickOrPick\n🎥 Actorle/Oct 25\n\nGuess today's featured actor based on their movies. Each time you guess an actor who starred in one of the movies, that movie's title will be revealed.\n\nHow to play?\n? years\n<\n<\n? years\nCinephile mode\n?\nMOVIE TITLE\tGENRES\tIMDB\n\n×××××× ×××××××××\n1988\n\tDRAMAFAMILY\t\n6.5\n\n\n××× ××× ×× ××× ×××××××\n1989\n\tROMANCECOMEDY\t\n5.8\n\n\n××××× ××××\n1989\n\tCOMEDYDRAMAFAMILY\t\n7.1\n\n\n×××× ×××××\n1990\n\tCOMEDYFAMILY\t\n7.8\n\n\n×××× ××× ××××××\n1991\n\tCOMEDYROMANCE\t\n6.4\n\n\n×× ××××\n1991\n\tCOMEDYDRAMA\t\n6.9\n\n\n×××× ××××× ×: ×××× ×× ××× ××××\n1992\n\tCOMEDYFAMILYADVENTURE\t\n6.9\n\n\n××× ×××× ×××\n1993\n\tDRAMATHRILLERHORROR\t\n6.4\n\n\n××× ××××××××××\n1993\n\tFANTASYMUSICFAMILY\t\n5.9\n\n\n××××××× ×××× ×××× ×××\n1994\n\tCOMEDYCRIMEFAMILY\t\n4.9\n\n\n××× ××××××××××\n1994\n\tFAMILYFANTASYANIMATION\t\n6.2\n\n\n××¢××× ××¢×\n1994\n\tCOMEDYFAMILY\t\n5.5\n\n\n××××× ×××××××\n2003\n\tCOMEDYDRAMACRIMETHRILLER\t\n6.2\n\n\n×××××!\n2004\n\tCOMEDY\t\n6.7\n\n\n××××××××× ××××××××\n2004\n\tDRAMA\t\n3.6\n\n\n××× ××× ×××××××××\n2007\n\tCOMEDYDRAMAROMANCE\t\n4.8\n\n\n××× ××××× ×××××××\n2011\n\tCOMEDYDRAMAMUSIC\t\n6.2\n\n\n××××××××× ×\n2016\n\tACTIONADVENTURECOMEDY\t\n4.7\n\n\n×××× ×××××'× ×××××××\n2016\n\tCOMEDYFANTASYDRAMA\t\n6.1\n\n\n××××××××××\n2019\n\tCOMEDYDRAMA\t\n5.7\n\n\n×××××××××××××\n2022\n\tANIMATIONROMANCEMUSICCOMEDY\t\n7.4\n\n\n××× ×××××× ××××! ××××××××× ×××××××!\n2022\n\tANIMATIONCOMEDYHORROR\t\n6.2\n\n\n×××××××× ×\n2025\n\tANIMATIONADVENTURECOMEDYMYSTERYFAMILY\t\n7.3\nA box office game you may enjoy: boxofficega.me\nMORE GAMES YOU MAY ENJOY\nWhich Country to Move To\nMoviedle\nActorle TV\nDecodex\nHave a game? Get it listed here via froggyhop.com\nACTORLE FOR IPHONE AND IPAD\ncontact@actorle.com\nReddit\nInstagram\nTikTok\nYouTube\nFacebook\nFor creators\nPrivacy policy\nTerms of Service\nAdvertise on this site\nThis product uses the TMDB API but is not endorsed or certified by TMDB.",
+  "title": "Actorle - Daily Actor Guessing Game"
+}

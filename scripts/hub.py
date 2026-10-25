@@ -39,8 +39,9 @@ def check_metrics(metrics):
 
 def metric_summary(observations, events):
     """Manual corrections are independent events; original observations stay immutable."""
-    values=dict.fromkeys(['volume','kd','intitle']);sources={}
-    aliases={'volume':['volume','search_volume'],'kd':['kd','keyword_difficulty'],'intitle':['intitle','intitle_count','intitleCount']}
+    values=dict.fromkeys(['volume','kd','intitle','allintitle']);sources={}
+    aliases={'volume':['volume','search_volume'],'kd':['kd','keyword_difficulty'],
+        'intitle':['intitle','intitle_count','intitleCount'],'allintitle':['allintitle','allintitle_count','allintitleCount']}
     for observation in observations:
         for provider,metrics in observation.get('metrics',{}).items():
             if not isinstance(metrics,dict):continue
@@ -48,6 +49,8 @@ def metric_summary(observations, events):
                 value=next((metrics[k] for k in keys if metrics.get(k) is not None),None)
                 if isinstance(value,(int,float)) and not isinstance(value,bool) and math.isfinite(value) and value>=0:
                     values[key]=value;sources[key]={'provider':provider,'batchId':observation['batchId']}
+                    for source_key in ['query','queryMode']:
+                        if isinstance(metrics.get(source_key),str):sources[key][source_key]=metrics[source_key]
     for key in values:
         corrections=[e for e in events if e.get('kind')=='keyword_edit' and e['actorType']=='human' and key in e.get('metrics',{})]
         heads=review_heads(corrections,events)
@@ -56,7 +59,30 @@ def metric_summary(observations, events):
             values[key]=event['metrics'][key];sources[key]={'provider':'manual','reviewId':event['id'],'at':event['createdAt']}
         elif len(heads)>1:
             values[key]=None;sources[key]={'provider':'conflict','heads':heads}
-    return {**values,'ratio':values['intitle']/values['volume'] if values['intitle'] is not None and values['volume'] else None,'sources':sources}
+    return {**values,
+        'ratio':values['intitle']/values['volume'] if values['intitle'] is not None and values['volume'] else None,
+        'kgr':values['allintitle']/values['volume'] if values['allintitle'] is not None and values['volume'] else None,
+        'kgrBasis':'allintitle' if values['allintitle'] is not None else None,'sources':sources}
+
+def research_assessment(observations, batches):
+    """Research tiers are evidence summaries, independent from owner decisions."""
+    candidates=[]
+    for observation in observations:
+        assessment=observation.get('raw',{}).get('assessment') if isinstance(observation.get('raw'),dict) else None
+        batch=batches[observation['batchId']]
+        if batch.get('kind','research')!='research' or not isinstance(assessment,dict):continue
+        if assessment.get('tier') not in ['S','A','B','C','PENDING','REJECT']:continue
+        candidates.append((observation,assessment,batch))
+    if not candidates:return None
+    def order(item):
+        observation,_,batch=item
+        try:
+            stamp=datetime.fromisoformat((observation.get('observedAt') or '').replace('Z','+00:00'))
+            observed=(stamp if stamp.tzinfo else stamp.replace(tzinfo=timezone.utc)).timestamp()
+        except (ValueError,OverflowError,OSError):observed=float('-inf')
+        return (batch['date']!='unknown',batch['date'],observed,observation['batchId'],observation['id'])
+    observation,assessment,batch=max(candidates,key=order)
+    return {**assessment,'batchId':observation['batchId'],'observedAt':observation.get('observedAt'),'batchDate':batch['date']}
 
 def now():
     return datetime.now(timezone.utc).isoformat()
@@ -250,6 +276,7 @@ def aggregate(root=ROOT):
         row['history']=sorted(events,key=lambda e:(e['createdAt'],e['id']))
         row['heads']=review_heads(events)
         row['metrics']=metric_summary(row['observations'],events)
+        row['researchAssessment']=research_assessment(row['observations'],bybatch)
         human=[e for e in events if e['actorType']=='human' and e.get('kind')!='keyword_edit']
         chosen=human
         heads=review_heads(chosen,events)
@@ -515,14 +542,17 @@ def save_site(root,payload):
 
 def csv_export(rows):
     stream=io.StringIO(newline='');writer=csv.writer(stream)
-    writer.writerow(['关键词','国家','语言','研究资格','人工审核','建站决定','站点/页面','批次','研究冲突','历史观察(JSON)','Volume','KD','intitle数','竞争度/Volume','关键词状态'])
+    writer.writerow(['关键词','国家','语言','研究资格','人工审核','建站决定','站点/页面','批次','研究冲突','历史观察(JSON)','Volume','KD','intitle数','KGR','allintitle数','allintitle KGR（对照）','KGR口径','关键词状态','研究分级','确定性','分级批次'])
     def safe(value):
         text=str(value)
         return "'"+text if text.lstrip().startswith(('=','+','-','@','\t','\r')) else text
     for r in rows:
         writer.writerow([safe(x) for x in [r['term'],r['country'],r['language'],r['qualification'],r['reviewState'],r['decision'],
             '; '.join(s['id']+s['page'] for s in r['sites']),'; '.join(r['batches']),'; '.join(r['conflicts']),json.dumps(r['observations'],ensure_ascii=False),
-            *[r['metrics'][k] if r['metrics'][k] is not None else '' for k in ['volume','kd','intitle','ratio']],r['keywordStatus']]])
+            *[r['metrics'].get(k) if r['metrics'].get(k) is not None else '' for k in ['volume','kd','intitle','ratio','allintitle','kgr']],
+            'intitle_exact_phrase' if r['metrics'].get('intitle') is not None else '',r['keywordStatus'],
+            (r.get('researchAssessment') or {}).get('tier',''),(r.get('researchAssessment') or {}).get('certainty',''),
+            (r.get('researchAssessment') or {}).get('batchId','')]])
     return b'\xef\xbb\xbf'+stream.getvalue().encode('utf-8')
 
 def serve(root,port):

@@ -1,0 +1,309 @@
+{
+  "url": "https://duotrigordle.org/",
+  "observedAt": "2026-10-25T11:51:02.512Z",
+  "scope": "Visible public game page; no claim of licence or comprehensive gameplay acceptance",
+  "controls": [
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Practice"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Q"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "W"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "E"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "R"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "T"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Y"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "U"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "I"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "O"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "P"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "A"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "S"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "D"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "F"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "G"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "H"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "J"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "K"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "L"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "⌫"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Z"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "X"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "C"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "V"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "B"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "N"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "M"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "⏎"
+    }
+  ],
+  "links": [
+    {
+      "text": "Squares\nWord Search Game",
+      "url": "https://squares.org/"
+    },
+    {
+      "text": "Combinations\nBest Word Game",
+      "url": "https://combinations.org/"
+    },
+    {
+      "text": "Strands NYT\nNew Word Game",
+      "url": "https://strands.game/"
+    },
+    {
+      "text": "Connections\nNew NYT Game",
+      "url": "https://connectionsgame.com/"
+    },
+    {
+      "text": "Spelling Bee\nOnline Game",
+      "url": "https://spellsbee.com/"
+    },
+    {
+      "text": "Infinite Craft\nMixing Elements",
+      "url": "https://infinite-craft.com/"
+    },
+    {
+      "text": "Quordle\nGuess 4 Wordles at once",
+      "url": "https://quordly.org/"
+    },
+    {
+      "text": "Weaver Game\nWord Ladder",
+      "url": "https://weavergame.org/"
+    },
+    {
+      "text": "Sudoku\nSolve Sudoku Online",
+      "url": "https://onlinesudoku.org/"
+    },
+    {
+      "text": "Crosswordle\nCrossword + Wordle Together!",
+      "url": "https://crosswordle.org/"
+    },
+    {
+      "text": "Solitaire Online\nSolitaire Klondike Card Game",
+      "url": "https://online-solitaire.org/"
+    },
+    {
+      "text": "Mahjong\nTile Matching Solitaire",
+      "url": "https://mahjongonline.io/"
+    },
+    {
+      "text": "Waffle\nDrag & Swap Wordle",
+      "url": "https://wordwaffle.org/"
+    },
+    {
+      "text": "Globle\nMap Wordle Game",
+      "url": "https://globlegame.org/"
+    },
+    {
+      "text": "Octordle\nGuess 8 Wordles at once",
+      "url": "https://octordly.org/"
+    },
+    {
+      "text": "Sedecordle\nGuess 16 Wordles at once",
+      "url": "https://sedecordlewordle.com/"
+    },
+    {
+      "text": "see more games ▶",
+      "url": "https://wordleplay.com/wordle-games"
+    },
+    {
+      "text": "Terms",
+      "url": "https://duotrigordle.org/terms"
+    },
+    {
+      "text": "Privacy",
+      "url": "https://duotrigordle.org/privacy-policy"
+    },
+    {
+      "text": "Contact",
+      "url": "https://duotrigordle.org/contact"
+    },
+    {
+      "text": "DMCA",
+      "url": "https://duotrigordle.org/dmca"
+    },
+    {
+      "text": "About us",
+      "url": "https://duotrigordle.org/about-us"
+    }
+  ],
+  "text": "Practice\n\nDaily Duotrigordle #1698\n\nBoards Complete: 0/32\n\nGuesses Used: 0/37 (+5)\n\nQ\nW\nE\nR\nT\nY\nU\nI\nO\nP\nA\nS\nD\nF\nG\nH\nJ\nK\nL\n⌫\nZ\nX\nC\nV\nB\nN\nM\n⏎\n3k\nShares\n Share Post Share Pin Share Share Snap\nPlay Other Games\nSquares\nWord Search Game\nCombinations\nBest Word Game\nStrands NYT\nNew Word Game\nConnections\nNew NYT Game\nSpelling Bee\nOnline Game\nInfinite Craft\nMixing Elements\nQuordle\nGuess 4 Wordles at once\nWeaver Game\nWord Ladder\nSudoku\nSolve Sudoku Online\nCrosswordle\nCrossword + Wordle Together!\nSolitaire Online\nSolitaire Klondike Card Game\nMahjong\nTile Matching Solitaire\nWaffle\nDrag & Swap Wordle\nGloble\nMap Wordle Game\nOctordle\nGuess 8 Wordles at once\nSedecordle\nGuess 16 Wordles at once\nsee more games ▶\nDuotrigordle Game\nDo you love challenging word puzzles? Then Duotrigordle is perfect for you! In this game you have to guess 32 words using no more than 37 guesses. The difficulty with Duotrigordle is that you can only focus on one word at a time as it spreads across the other four boards. Use the colored hints to find as many words as possible and solve all the boards block by block.\nHow to play Duotrigordle?\n1\n\nUse the on-screen keyboard to type the first letter. It will be used for four words simultaneously.\n\n2\n\nType a valid 5-letter word and click the “Enter” button.\n\n3\n\nUse colored hints to advance in the game. Green tiles mean that you have chosen the correct letters and placed them in the correct places. If you see yellow tiles, then the selected letters are correct, but in the wrong places. Gray tiles mean that these letters are not used anywhere in the word.\n\n4\n\nThere are four boards and 32 hidden words. Scroll down to see them all. You have 37 attempts to guess as many words as possible.\n\n5\n\nFind the words in the minimum time and share your best results on social networks!\n\nDid you like Duotrigordle Game?\n\nThis word guessing game appeared in early 2022. Brian Chen, creator of Duotrigordle, took inspiration from Wordle, Dordle, Quordle, Octordle and tried to make them more complex. So, in this game, we already have 32 hidden words and only 37 attempts to find them! There are two ways to play Duotrigordle. You can play it an unlimited number of times in practice mode. In challenge mode, this word puzzle game is updated daily. The game quickly became a hit among fans of difficult puzzles. Play Duotrigordle online, train your brain and enjoy your time!\n\n3k\nShares\n Share Post Share Pin Share Share Snap\n\n© 2026 Duotrigordle.org\n\nTerms | Privacy | Contact | DMCA | About us\n3k\nShares\n Share\n Post\n Share\n Pin\n Share\n Snap",
+  "title": "Duotrigordle Wordle - Play Duotrigordle Game Online"
+}

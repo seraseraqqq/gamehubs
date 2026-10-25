@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-10-25T04:28:34.552Z",
+  "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+  "deployments": [
+    {
+      "name": "gameshub-travle",
+      "id": "dpl_4e4ihqXtFFqmj2zgtFm9uzpowk3d",
+      "state": "READY",
+      "target": "production",
+      "url": "gameshub-travle-32iczv1e8-gx03410-8651s-projects.vercel.app",
+      "sourceCommit": "c4beed9defbbb241d961f3b0229bbc1973061daf",
+      "sourceRepository": "https://github.com/seraseraqqq/gameshub-travle"
+    },
+    {
+      "name": "gameshub-metazooa",
+      "id": "dpl_GiKAYXZQAfaVaPHtrRQXKaV8ZUkm",
+      "state": "READY",
+      "target": "production",
+      "url": "gameshub-metazooa-gpzgb5hfl-gx03410-8651s-projects.vercel.app",
+      "sourceCommit": "bf51cf666218691c4f767e30a9a2b20039a99174",
+      "sourceRepository": "https://github.com/seraseraqqq/gameshub-metazooa"
+    },
+    {
+      "name": "gameshub-colordle",
+      "id": "dpl_GMLTbbRHRV5P7uznKYuneRkHCubj",
+      "state": "READY",
+      "target": "production",
+      "url": "gameshub-colordle-1pj8k4o63-gx03410-8651s-projects.vercel.app",
+      "sourceCommit": "15c6fcc700d91867973e09d099c8b24776cffa24",
+      "sourceRepository": "https://github.com/seraseraqqq/gameshub-colordle"
+    },
+    {
+      "name": "gameshub-poople",
+      "id": "dpl_CGvXmCjx8txsH54Eko9eLwLYRfRd",
+      "state": "READY",
+      "target": "production",
+      "url": "gameshub-poople-5udjh0gws-gx03410-8651s-projects.vercel.app",
+      "sourceCommit": "6ce5a6fa47dc2ad599244c2b1fc072bddf35307a",
+      "sourceRepository": "https://github.com/seraseraqqq/gameshub-poople"
+    },
+    {
+      "name": "gameshub-cutle",
+      "id": "dpl_3dsPT9QnsS5jTiFed5scYEzGqDc3",
+      "state": "READY",
+      "target": "production",
+      "url": "gameshub-cutle-gjetfoa0v-gx03410-8651s-projects.vercel.app",
+      "sourceCommit": "ad22343eea1b16d2d864f1485ba6dd4c66735bcf",
+      "sourceRepository": "https://github.com/seraseraqqq/gameshub-cutle"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "checkedAt": "2026-10-25T07:03:32.467Z",
+  "scope": "gx03410-8651s-projects",
+  "before": {
+    "duplicate": {
+      "id": "prj_udzq0gqczTg3PIf9vw8S5Mz30Lsc",
+      "name": "web",
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "git": {
+        "owner": "seraseraqqq",
+        "repository": "gameshub-travle",
+        "branch": "main"
+      },
+      "rootDirectory": "apps/web",
+      "buildCommand": null,
+      "outputDirectory": null,
+      "production": {
+        "id": "dpl_4Q3Q7AePkjdhFNSeq8TGdzs7AZkw",
+        "url": "web-d1vyulqvh-gx03410-8651s-projects.vercel.app",
+        "readyState": "ERROR",
+        "sha": "257b1108b8e6fac5cf22223ac84c8670617f211d"
+      }
+    },
+    "canonical": {
+      "id": "prj_eO2dPfqIs1Wx5KPim0I52tlnWlVP",
+      "name": "gameshub-travle",
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "git": {
+        "owner": "seraseraqqq",
+        "repository": "gameshub-travle",
+        "branch": "main"
+      },
+      "rootDirectory": null,
+      "buildCommand": "pnpm build",
+      "outputDirectory": "apps/web/dist/client",
+      "production": {
+        "id": "dpl_389QaG1AFTWjrSVsvY1Mr2i8EMfW",
+        "url": "gameshub-travle-o22y56fup-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "sha": "257b1108b8e6fac5cf22223ac84c8670617f211d"
+      }
+    }
+  },
+  "applied": true,
+  "commandResult": {
+    "stdout": "",
+    "stderr": "Vercel CLI 65.2.0 (Node.js 22.23.2)\nYour Vercel project will no longer create deployments when you push to this repository.\n> Disconnected seraseraqqq/gameshub-travle."
+  },
+  "after": {
+    "duplicate": {
+      "id": "prj_udzq0gqczTg3PIf9vw8S5Mz30Lsc",
+      "name": "web",
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "git": null,
+      "rootDirectory": "apps/web",
+      "buildCommand": null,
+      "outputDirectory": null,
+      "production": {
+        "id": "dpl_4Q3Q7AePkjdhFNSeq8TGdzs7AZkw",
+        "url": "web-d1vyulqvh-gx03410-8651s-projects.vercel.app",
+        "readyState": "ERROR",
+        "sha": "257b1108b8e6fac5cf22223ac84c8670617f211d"
+      }
+    },
+    "canonical": {
+      "id": "prj_eO2dPfqIs1Wx5KPim0I52tlnWlVP",
+      "name": "gameshub-travle",
+      "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+      "git": {
+        "owner": "seraseraqqq",
+        "repository": "gameshub-travle",
+        "branch": "main"
+      },
+      "rootDirectory": null,
+      "buildCommand": "pnpm build",
+      "outputDirectory": "apps/web/dist/client",
+      "production": {
+        "id": "dpl_389QaG1AFTWjrSVsvY1Mr2i8EMfW",
+        "url": "gameshub-travle-o22y56fup-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "sha": "257b1108b8e6fac5cf22223ac84c8670617f211d"
+      }
+    }
+  },
+  "passed": true
+}

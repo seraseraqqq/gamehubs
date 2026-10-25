@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-10-25T03:31:08.384151+00:00",
+  "clusterDomainOrder": {
+    "cartHandling": "owner-will-handle; agent-stopped",
+    "cartRemovalConfirmed": false,
+    "currency": "USD",
+    "decisionRecordedAt": "2026-10-25T04:07:43.248181+00:00",
+    "domain": "playclusterrush.com",
+    "icann": 0.2,
+    "purchased": false,
+    "registrar": "Spaceship",
+    "registration": 8.88,
+    "renewalBase": 9.98,
+    "status": "owner-declined-purchase-keep-vercel-address",
+    "total": 9.08,
+    "years": 1
+  },
+  "releases": [
+    {
+      "checks": 91,
+      "deploymentId": "dpl_CKb6dzPxG7nx1ih78wkeBmvWtSAG",
+      "domain": "playaccelerationcity.com",
+      "head": "3ca08244e464ee03ed3ba5e87e642500fe66b159",
+      "id": "acceleration-city",
+      "initialRelease": {
+        "deploymentId": "dpl_kqGMHqqnz3u5nUjbcgs7txH9jSCL",
+        "head": "2a68f40ca94fae56b9721e9184c35b5cf56de540"
+      },
+      "origin": "https://playaccelerationcity.com/",
+      "projectId": "prj_9Xu3Dk2dZKyougmAWZyddtI1TsEz"
+    },
+    {
+      "checks": 107,
+      "deploymentId": "dpl_9XrPiveMryPL1FjjVB4gaw2TWdyt",
+      "domain": null,
+      "head": "3ee20ab4330e785b2c3e642d805b4295a5f90757",
+      "id": "cluster-rush",
+      "initialRelease": {
+        "deploymentId": "dpl_75XjLSFqrhWEbCpiS9jeKrhDsABN",
+        "head": "c6216e4af040f6de335d5b36c29c8e4d3d9af19b"
+      },
+      "origin": "https://gamehubs-cluster-rush.vercel.app/",
+      "projectId": "prj_S11s0HbRdKMAiWjAdOkKE438olI8"
+    }
+  ],
+  "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+}

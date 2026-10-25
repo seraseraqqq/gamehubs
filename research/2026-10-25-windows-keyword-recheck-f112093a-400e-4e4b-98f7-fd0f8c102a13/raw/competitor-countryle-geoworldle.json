@@ -1,0 +1,386 @@
+{
+  "url": "https://geoworldle.com/countryle",
+  "observedAt": "2026-10-25T11:43:51.084Z",
+  "scope": "Visible public game page; no claim of licence or comprehensive gameplay acceptance",
+  "controls": [
+    {
+      "label": "open menu",
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "🌇 Countryle"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "0"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": "Enter country name",
+      "tag": "INPUT",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "📋 Daily"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "📅 Weekly"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "📆 October Rankings"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Last\n\n7 days"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Last\n\n14 days"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Last\n\n30 days"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play Geo Palettle"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play Geo Connections"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play City Zoom"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play Oceandle"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play Pathle"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play Pathle USA"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play Geo Reveal"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play Geo Cross"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play Map Meal"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play Flag Zoom"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play State Grid"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play Geo Grid"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play Flag Grid"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play Old Flagle"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play Flaggle"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play Countryle"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play Worldle"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play Globle"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play Pic to Nation"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play Pic to Capital"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Play Timedle"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "What is Countryle??"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "When does the daily Countryle game restart?"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "How can I play more than one Countryle game a day?"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "What is the statistics feature of the Countryle game?"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "How can I save my data?"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "How can I share my results?"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Can I play Countryle on my mobile device?"
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": "Close",
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "Close"
+    }
+  ],
+  "links": [
+    {
+      "text": "Geo Palettle\n\nA flag scrambled into a mosaic of its own colors. Read the paint, guess the country and watch the tiles fall back into place.\n\nPlay Geo Palettle",
+      "url": "https://geoworldle.com/geo-palettle"
+    },
+    {
+      "text": "Geo Connections\n\nSort 16 flags into four groups of four with a hidden link: neighbours, seas, unions, flag symbols and more.\n\nPlay Geo Connections",
+      "url": "https://geoworldle.com/geo-connections"
+    },
+    {
+      "text": "City Zoom\n\nGuess the mystery capital city from real satellite imagery. The map zooms out with each wrong guess, with distance and direction hints.\n\nPlay City Zoom",
+      "url": "https://geoworldle.com/city-zoom"
+    },
+    {
+      "text": "Oceandle\n\nGuess the mystery sea of the day on an interactive globe. The hotter the colour, the closer your guess.\n\nPlay Oceandle",
+      "url": "https://geoworldle.com/oceandle"
+    },
+    {
+      "text": "Pathle\n\nTravel between two countries by chaining bordering nations. Connect the dots in as few guesses as possible.\n\nPlay Pathle",
+      "url": "https://geoworldle.com/pathle"
+    },
+    {
+      "text": "Pathle USA\n\nTravel between two US states by chaining bordering states. Alaska and Hawaii reachable via sea hops.\n\nPlay Pathle USA",
+      "url": "https://geoworldle.com/pathle-usa"
+    },
+    {
+      "text": "Geo Reveal\n\nUse geographic hints and pick only 3 letters strategically to reveal the answer. Can you solve it in one shot?\n\nPlay Geo Reveal",
+      "url": "https://geoworldle.com/geo-reveal"
+    },
+    {
+      "text": "Geo Cross\n\nSolve the crossword by filling in country names in the horizontal rows. Use hints if you get stuck.\n\nPlay Geo Cross",
+      "url": "https://geoworldle.com/geo-cross"
+    },
+    {
+      "text": "Map Meal\n\nGuess the country based on its cuisine and famous dishes. A delicious challenge for foodies and geography enthusiasts alike.\n\nPlay Map Meal",
+      "url": "https://geoworldle.com/map-meal"
+    },
+    {
+      "text": "Flag Zoom\n\nGuess the country based on its zoomed-in flag. Use hints like the year, continent. Perfect for flag enthusiasts.\n\nPlay Flag Zoom",
+      "url": "https://geoworldle.com/flag-zoom"
+    },
+    {
+      "text": "State Grid\n\nGuess the US state based on its map silhouette. You'll receive helpful clues such as distance, direction.\n\nPlay State Grid",
+      "url": "https://geoworldle.com/stategrid"
+    },
+    {
+      "text": "Geo Grid\n\nGroup countries by geography, demographics, economy, and more. Complete the immaculate grid puzzle.\n\nPlay Geo Grid",
+      "url": "https://geoworldle.com/geogrid"
+    },
+    {
+      "text": "Flag Grid\n\nIdentify and match country flags, grouping by patterns, colors, symbols, and more\n\nPlay Flag Grid",
+      "url": "https://geoworldle.com/flaggrid"
+    },
+    {
+      "text": "Old Flagle\n\nGuess the country based on its old flag! Use hints like the year, continent. Perfect for history and geography fans.\n\nPlay Old Flagle",
+      "url": "https://geoworldle.com/old-flaggle"
+    },
+    {
+      "text": "Flaggle\n\nGuess the flag of a country or territory. After each guess, you will receive a clue to find the mystery flag.\n\nPlay Flaggle",
+      "url": "https://geoworldle.com/flaggle"
+    },
+    {
+      "text": "Countryle\n\nGuess the country's name. After each guess, compare statistics with the answer to help you find the mysterious country.\n\nPlay Countryle",
+      "url": "https://geoworldle.com/countryle"
+    },
+    {
+      "text": "Worldle\n\nGuess the country based on its map silhouette in Worldle game. You'll receive helpful clues such as distance, direction.\n\nPlay Worldle",
+      "url": "https://geoworldle.com/worldle"
+    },
+    {
+      "text": "Globle\n\nFind the country on the global map. Hotter colors on the globe map indicate proximity to the hidden country.\n\nPlay Globle",
+      "url": "https://geoworldle.com/globle"
+    },
+    {
+      "text": "Pic to Nation\n\nGuess the country from iconic scenes and landmarks. How well do you know the world's nations?\n\nPlay Pic to Nation",
+      "url": "https://geoworldle.com/pic-to-nation"
+    },
+    {
+      "text": "Pic to Capital\n\nGuess the Capital city based on iconic images and famous landmarks. Test your knowledge of world capitals.\n\nPlay Pic to Capital",
+      "url": "https://geoworldle.com/pic-to-capital"
+    },
+    {
+      "text": "Timedle\n\nHistory Games for History Lovers: Your gateway to learning history in a fun and engaging way.\n\nPlay Timedle",
+      "url": "https://timedle.com/"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://geoworldle.com/privacy-policy"
+    },
+    {
+      "text": "Facebook",
+      "url": "https://www.facebook.com/geoworldle"
+    },
+    {
+      "text": "Twitter",
+      "url": "https://x.com/geoworldle"
+    },
+    {
+      "text": "Instagram",
+      "url": "https://www.instagram.com/geoworldle/"
+    },
+    {
+      "text": "",
+      "url": "https://geoworldle.com/countryle-unlimited"
+    }
+  ],
+  "text": "🌇 Countryle\n0\nGDP\n\t\nLIFE EXPECTANCY\n\t\nELEVATION\n\t\nCONTINENT\n\t\nCOORD\n\n[Public leaderboard and usernames omitted; game clue labels and visible controls retained.]",
+  "title": "Countryle - Guess The Countries Everyday",
+  "redaction": "Public leaderboard omitted as unrelated to keyword/variant analysis."
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://games.oec.world/en/tradle/",
+  "observedAt": "2026-10-25T11:35:40.683Z",
+  "scope": "Visible public game page; no claim of licence or comprehensive gameplay acceptance",
+  "controls": [
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": "Pick a location",
+      "tag": "INPUT",
+      "text": ""
+    },
+    {
+      "label": null,
+      "placeholder": null,
+      "tag": "BUTTON",
+      "text": "🌍 Guess"
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "url": "https://oec.world/"
+    },
+    {
+      "text": "Buy Tradle Merch! 👕",
+      "url": "https://oecworld.threadless.com/mens/t-shirt/regular"
+    }
+  ],
+  "text": "Hi! Guess which country exports these products!\n🌍 Guess\nBuy Tradle Merch! 👕",
+  "title": "OEC Tradle"
+}

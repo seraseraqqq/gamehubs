@@ -1,0 +1,556 @@
+{
+  "terms": [
+    "soccer real",
+    "bugs io",
+    "backroom bill",
+    "pilot life",
+    "gpts"
+  ],
+  "url": "https://trends.google.com/trends/explore?geo=US&q=soccer%20real,bugs%20io,backroom%20bill,pilot%20life,gpts&hl=en",
+  "observedAt": "2026-10-25T11:24:14.465Z",
+  "country": "US",
+  "language": "en",
+  "timeframe": "Past 12 months",
+  "queryVerified": true,
+  "status": "observed",
+  "partialPolicy": "Drop last row conservatively; partial flag not in DOM.",
+  "related": [
+    {
+      "href": "/trends/explore?q=shop+deals+on+real+madrid+soccer+jersey&date=today+12-m&geo=US",
+      "text": "1\nshop deals on real madrid soccer jersey\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=erling+haaland&date=today+12-m&geo=US",
+      "text": "2\nerling haaland\n+190%"
+    },
+    {
+      "href": "/trends/explore?q=io+moth&date=today+12-m&geo=US",
+      "text": "1\nio moth\n100"
+    },
+    {
+      "href": "/trends/explore?q=pilot+life+insurance&date=today+12-m&geo=US",
+      "text": "1\npilot life insurance\n100"
+    },
+    {
+      "href": "/trends/explore?q=pilot+life+insurance+company&date=today+12-m&geo=US",
+      "text": "2\npilot life insurance company\n19"
+    },
+    {
+      "href": "/trends/explore?q=jet+pilot+life+jacket&date=today+12-m&geo=US",
+      "text": "3\njet pilot life jacket\n10"
+    },
+    {
+      "href": "/trends/explore?q=jet+pilot+life+vest&date=today+12-m&geo=US",
+      "text": "4\njet pilot life vest\n9"
+    },
+    {
+      "href": "/trends/explore?q=nvidia+news+today&date=today+12-m&geo=US",
+      "text": "1\nnvidia news today\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=artificial+intelligence+news&date=today+12-m&geo=US",
+      "text": "2\nartificial intelligence news\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=technology+news+today&date=today+12-m&geo=US",
+      "text": "3\ntechnology news today\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=chat+gpts+company+nyt&date=today+12-m&geo=US",
+      "text": "4\nchat gpts company nyt\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=openai+news+today&date=today+12-m&geo=US",
+      "text": "5\nopenai news today\n+2,250%"
+    }
+  ],
+  "tables": [
+    [
+      [
+        "x1",
+        "soccer real",
+        "bugs io",
+        "backroom bill",
+        "pilot life",
+        "gpts"
+      ],
+      [
+        "Average",
+        "50",
+        "0",
+        "0",
+        "16",
+        "13"
+      ]
+    ],
+    [
+      [
+        "x",
+        "y1",
+        "y2",
+        "y3",
+        "y4",
+        "y5"
+      ],
+      [
+        "‪Oct 19, 2025‬",
+        "35",
+        "0",
+        "0",
+        "8",
+        "9"
+      ],
+      [
+        "‪Oct 26, 2025‬",
+        "46",
+        "0",
+        "0",
+        "9",
+        "12"
+      ],
+      [
+        "‪Nov 2, 2025‬",
+        "37",
+        "0",
+        "0",
+        "12",
+        "16"
+      ],
+      [
+        "‪Nov 9, 2025‬",
+        "32",
+        "0",
+        "0",
+        "12",
+        "15"
+      ],
+      [
+        "‪Nov 16, 2025‬",
+        "32",
+        "0",
+        "0",
+        "14",
+        "12"
+      ],
+      [
+        "‪Nov 23, 2025‬",
+        "39",
+        "0",
+        "0",
+        "13",
+        "11"
+      ],
+      [
+        "‪Nov 30, 2025‬",
+        "48",
+        "0",
+        "0",
+        "15",
+        "13"
+      ],
+      [
+        "‪Dec 7, 2025‬",
+        "57",
+        "0",
+        "0",
+        "15",
+        "13"
+      ],
+      [
+        "‪Dec 14, 2025‬",
+        "43",
+        "0",
+        "0",
+        "13",
+        "16"
+      ],
+      [
+        "‪Dec 21, 2025‬",
+        "27",
+        "0",
+        "0",
+        "12",
+        "13"
+      ],
+      [
+        "‪Dec 28, 2025‬",
+        "25",
+        "0",
+        "0",
+        "14",
+        "13"
+      ],
+      [
+        "‪Jan 4, 2026‬",
+        "49",
+        "0",
+        "0",
+        "14",
+        "14"
+      ],
+      [
+        "‪Jan 11, 2026‬",
+        "71",
+        "0",
+        "0",
+        "16",
+        "14"
+      ],
+      [
+        "‪Jan 18, 2026‬",
+        "49",
+        "0",
+        "0",
+        "15",
+        "16"
+      ],
+      [
+        "‪Jan 25, 2026‬",
+        "47",
+        "0",
+        "0",
+        "17",
+        "19"
+      ],
+      [
+        "‪Feb 1, 2026‬",
+        "44",
+        "0",
+        "0",
+        "18",
+        "18"
+      ],
+      [
+        "‪Feb 8, 2026‬",
+        "46",
+        "0",
+        "0",
+        "18",
+        "17"
+      ],
+      [
+        "‪Feb 15, 2026‬",
+        "52",
+        "0",
+        "0",
+        "20",
+        "19"
+      ],
+      [
+        "‪Feb 22, 2026‬",
+        "50",
+        "0",
+        "0",
+        "21",
+        "18"
+      ],
+      [
+        "‪Mar 1, 2026‬",
+        "51",
+        "0",
+        "0",
+        "21",
+        "19"
+      ],
+      [
+        "‪Mar 8, 2026‬",
+        "50",
+        "0",
+        "0",
+        "18",
+        "16"
+      ],
+      [
+        "‪Mar 15, 2026‬",
+        "49",
+        "0",
+        "0",
+        "19",
+        "18"
+      ],
+      [
+        "‪Mar 22, 2026‬",
+        "46",
+        "0",
+        "0",
+        "19",
+        "17"
+      ],
+      [
+        "‪Mar 29, 2026‬",
+        "46",
+        "0",
+        "0",
+        "24",
+        "14"
+      ],
+      [
+        "‪Apr 5, 2026‬",
+        "57",
+        "0",
+        "0",
+        "33",
+        "16"
+      ],
+      [
+        "‪Apr 12, 2026‬",
+        "71",
+        "0",
+        "0",
+        "29",
+        "12"
+      ],
+      [
+        "‪Apr 19, 2026‬",
+        "55",
+        "0",
+        "0",
+        "24",
+        "16"
+      ],
+      [
+        "‪Apr 26, 2026‬",
+        "44",
+        "0",
+        "0",
+        "21",
+        "13"
+      ],
+      [
+        "‪May 3, 2026‬",
+        "50",
+        "0",
+        "0",
+        "22",
+        "13"
+      ],
+      [
+        "‪May 10, 2026‬",
+        "63",
+        "0",
+        "0",
+        "24",
+        "12"
+      ],
+      [
+        "‪May 17, 2026‬",
+        "52",
+        "0",
+        "0",
+        "26",
+        "15"
+      ],
+      [
+        "‪May 24, 2026‬",
+        "47",
+        "0",
+        "0",
+        "22",
+        "16"
+      ],
+      [
+        "‪May 31, 2026‬",
+        "54",
+        "0",
+        "0",
+        "22",
+        "19"
+      ],
+      [
+        "‪Jun 7, 2026‬",
+        "77",
+        "0",
+        "0",
+        "23",
+        "18"
+      ],
+      [
+        "‪Jun 14, 2026‬",
+        "91",
+        "0",
+        "0",
+        "23",
+        "19"
+      ],
+      [
+        "‪Jun 21, 2026‬",
+        "84",
+        "0",
+        "0",
+        "22",
+        "15"
+      ],
+      [
+        "‪Jun 28, 2026‬",
+        "92",
+        "0",
+        "0",
+        "17",
+        "14"
+      ],
+      [
+        "‪Jul 5, 2026‬",
+        "100",
+        "0",
+        "0",
+        "18",
+        "13"
+      ],
+      [
+        "‪Jul 12, 2026‬",
+        "72",
+        "0",
+        "0",
+        "13",
+        "10"
+      ],
+      [
+        "‪Jul 19, 2026‬",
+        "61",
+        "0",
+        "0",
+        "10",
+        "8"
+      ],
+      [
+        "‪Jul 26, 2026‬",
+        "40",
+        "0",
+        "0",
+        "11",
+        "6"
+      ],
+      [
+        "‪Aug 2, 2026‬",
+        "35",
+        "0",
+        "0",
+        "10",
+        "6"
+      ],
+      [
+        "‪Aug 9, 2026‬",
+        "37",
+        "0",
+        "0",
+        "11",
+        "7"
+      ],
+      [
+        "‪Aug 16, 2026‬",
+        "38",
+        "0",
+        "0",
+        "9",
+        "6"
+      ],
+      [
+        "‪Aug 23, 2026‬",
+        "43",
+        "0",
+        "0",
+        "8",
+        "5"
+      ],
+      [
+        "‪Aug 30, 2026‬",
+        "41",
+        "0",
+        "0",
+        "8",
+        "6"
+      ],
+      [
+        "‪Sep 6, 2026‬",
+        "48",
+        "0",
+        "0",
+        "10",
+        "8"
+      ],
+      [
+        "‪Sep 13, 2026‬",
+        "42",
+        "0",
+        "0",
+        "9",
+        "10"
+      ],
+      [
+        "‪Sep 20, 2026‬",
+        "39",
+        "0",
+        "0",
+        "8",
+        "8"
+      ],
+      [
+        "‪Sep 27, 2026‬",
+        "33",
+        "0",
+        "0",
+        "11",
+        "6"
+      ],
+      [
+        "‪Oct 4, 2026‬",
+        "35",
+        "0",
+        "0",
+        "10",
+        "6"
+      ],
+      [
+        "‪Oct 11, 2026‬",
+        "37",
+        "0",
+        "0",
+        "8",
+        "5"
+      ],
+      [
+        "‪Oct 18, 2026‬",
+        "45",
+        "0",
+        "0",
+        "8",
+        "6"
+      ],
+      [
+        "‪Oct 25, 2026‬",
+        "50",
+        "0",
+        "0",
+        "7",
+        "7"
+      ]
+    ],
+    [
+      [
+        "Term",
+        "Value"
+      ],
+      [
+        "soccer real",
+        "53"
+      ],
+      [
+        "bugs io",
+        "0"
+      ],
+      [
+        "backroom bill",
+        "0"
+      ],
+      [
+        "pilot life",
+        "47"
+      ],
+      [
+        "gpts",
+        "0"
+      ]
+    ]
+  ],
+  "visibleText": "Home\nExplore\nTrending Now\nshare\nfeedback\ninfo\nTry the new experience!\nExplore search trends with Gemini. A quick and easy way to find search terms and discover trends.\nGo to new Explore\nclose_24px\n•\nSearch term\n•\nSearch term\n•\nSearch term\n•\nSearch term\n•\nSearch term\nUnited States\nPast 12 months\nAll categories\nWeb Search\nsoccer real\nbugs io\nbackroom bill\npilot life\ngpts\nUnited States, Past 12 months\nInterest over time help_outline\nfile_download\ncode\nshare\nAverage\nx1\tsoccer real\tbugs io\tbackroom bill\tpilot life\tgpts\nAverage\t50\t0\t0\t16\t13\n‪Oct 19, 2025‬\n‪Mar 1, 2026‬\n‪Jul 12, 2026‬\n25\n50\n75\n100\nx\ty1\ty2\ty3\ty4\ty5\n‪Oct 19, 2025‬\t35\t0\t0\t8\t9\n‪Oct 26, 2025‬\t46\t0\t0\t9\t12\n‪Nov 2, 2025‬\t37\t0\t0\t12\t16\n‪Nov 9, 2025‬\t32\t0\t0\t12\t15\n‪Nov 16, 2025‬\t32\t0\t0\t14\t12\n‪Nov 23, 2025‬\t39\t0\t0\t13\t11\n‪Nov 30, 2025‬\t48\t0\t0\t15\t13\n‪Dec 7, 2025‬\t57\t0\t0\t15\t13\n‪Dec 14, 2025‬\t43\t0\t0\t13\t16\n‪Dec 21, 2025‬\t27\t0\t0\t12\t13\n‪Dec 28, 2025‬\t25\t0\t0\t14\t13\n‪Jan 4, 2026‬\t49\t0\t0\t14\t14\n‪Jan 11, 2026‬\t71\t0\t0\t16\t14\n‪Jan 18, 2026‬\t49\t0\t0\t15\t16\n‪Jan 25, 2026‬\t47\t0\t0\t17\t19\n‪Feb 1, 2026‬\t44\t0\t0\t18\t18\n‪Feb 8, 2026‬\t46\t0\t0\t18\t17\n‪Feb 15, 2026‬\t52\t0\t0\t20\t19\n‪Feb 22, 2026‬\t50\t0\t0\t21\t18\n‪Mar 1, 2026‬\t51\t0\t0\t21\t19\n‪Mar 8, 2026‬\t50\t0\t0\t18\t16\n‪Mar 15, 2026‬\t49\t0\t0\t19\t18\n‪Mar 22, 2026‬\t46\t0\t0\t19\t17\n‪Mar 29, 2026‬\t46\t0\t0\t24\t14\n‪Apr 5, 2026‬\t57\t0\t0\t33\t16\n‪Apr 12, 2026‬\t71\t0\t0\t29\t12\n‪Apr 19, 2026‬\t55\t0\t0\t24\t16\n‪Apr 26, 2026‬\t44\t0\t0\t21\t13\n‪May 3, 2026‬\t50\t0\t0\t22\t13\n‪May 10, 2026‬\t63\t0\t0\t24\t12\n‪May 17, 2026‬\t52\t0\t0\t26\t15\n‪May 24, 2026‬\t47\t0\t0\t22\t16\n‪May 31, 2026‬\t54\t0\t0\t22\t19\n‪Jun 7, 2026‬\t77\t0\t0\t23\t18\n‪Jun 14, 2026‬\t91\t0\t0\t23\t19\n‪Jun 21, 2026‬\t84\t0\t0\t22\t15\n‪Jun 28, 2026‬\t92\t0\t0\t17\t14\n‪Jul 5, 2026‬\t100\t0\t0\t18\t13\n‪Jul 12, 2026‬\t72\t0\t0\t13\t10\n‪Jul 19, 2026‬\t61\t0\t0\t10\t8\n‪Jul 26, 2026‬\t40\t0\t0\t11\t6\n‪Aug 2, 2026‬\t35\t0\t0\t10\t6\n‪Aug 9, 2026‬\t37\t0\t0\t11\t7\n‪Aug 16, 2026‬\t38\t0\t0\t9\t6\n‪Aug 23, 2026‬\t43\t0\t0\t8\t5\n‪Aug 30, 2026‬\t41\t0\t0\t8\t6\n‪Sep 6, 2026‬\t48\t0\t0\t10\t8\n‪Sep 13, 2026‬\t42\t0\t0\t9\t10\n‪Sep 20, 2026‬\t39\t0\t0\t8\t8\n‪Sep 27, 2026‬\t33\t0\t0\t11\t6\n‪Oct 4, 2026‬\t35\t0\t0\t10\t6\n‪Oct 11, 2026‬\t37\t0\t0\t8\t5\n‪Oct 18, 2026‬\t45\t0\t0\t8\t6\n‪Oct 25, 2026‬\t50\t0\t0\t7\t7\nCompared breakdown by subregion\nSubregion\nfile_download\ncode\nshare\nsoccer real\nbugs io\nbackroom bill\npilot life\ngpts\nColor intensity represents percentage of searches \nLEARN MORE\nSort:\nInterest for soccer real\n1\nUtah\n2\nNew Jersey\n3\nTexas\n4\nNevada\n5\nCalifornia\n Showing 1-5 of 51 subregions \nsoccer real\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nshop deals on real madrid soccer jersey\nBreakout\nmore_vert\n2\nerling haaland\n+190%\nmore_vert\nbugs io\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nTop\nfile_download\ncode\nshare\n1\nio moth\n100\nmore_vert\nbackroom bill\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nfile_download\ncode\nshare\nwarning\n\nHmm, your search doesn't have enough data to show here.\n\nPlease make sure everything is spelled correctly, or try a more general term.\n\npilot life\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nTop\nfile_download\ncode\nshare\n1\npilot life insurance\n100\nmore_vert\n2\npilot life insurance company\n19\nmore_vert\n3\njet pilot life jacket\n10\nmore_vert\n4\njet pilot life vest\n9\nmore_vert\ngpts\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nnvidia news today\nBreakout\nmore_vert\n2\nartificial intelligence news\nBreakout\nmore_vert\n3\ntechnology news today\nBreakout\nmore_vert\n4\nchat gpts company nyt\nBreakout\nmore_vert\n5\nopenai news today\n+2,250%\nmore_vert\n Showing 1-5 of 20 queries "
+}

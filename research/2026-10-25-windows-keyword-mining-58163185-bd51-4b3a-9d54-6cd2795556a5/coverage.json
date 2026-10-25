@@ -1,0 +1,13 @@
+{
+  "allGatesConfirmed": 0,
+  "discovered": 150,
+  "intitleObserved": 1,
+  "pending": 101,
+  "rejected": 49,
+  "risingObserved": 13,
+  "trendAttempted": 100,
+  "trendObserved": 88,
+  "volumeKdAttempted": 60,
+  "volumeKdComplete": 57,
+  "volumeKdPass": 18
+}

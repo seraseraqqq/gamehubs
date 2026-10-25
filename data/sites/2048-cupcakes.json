@@ -36,10 +36,58 @@
       },
       "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
     },
+    "domainConfiguration": {
+      "canonicalVerified": true,
+      "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+      "customDomain": "2048cupcakes.xyz",
+      "evidence": [
+        "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+      ],
+      "httpsVerified": true,
+      "pathAndQueryPreserved": true,
+      "primaryOrigin": "https://2048cupcakes.xyz",
+      "projectBindingVerified": true,
+      "redirectStatusCode": 301,
+      "wwwRedirectTo": "https://2048cupcakes.xyz/"
+    },
     "implementationPushed": true,
-    "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
-    "recordedHead": "c26b71c763101186775aa3613562a48adc6f0918",
-    "state": "independent-repository-deployed"
+    "pushRecordedAt": "2026-10-25T05:27:45.967795+00:00",
+    "recordedHead": "d872928507b6b5f8ccfd062c65c7a3f935ce492a",
+    "state": "independent-repository-deployed",
+    "vercelRelease": {
+      "branch": "main",
+      "customDomain": "2048cupcakes.xyz",
+      "deploymentId": "dpl_E1dHRWAYNmznkrScBj9SHukZmMn4",
+      "deploymentUrl": "gamehubs-2048-cupcakes-gqnriz3m3-gx03410-8651s-projects.vercel.app",
+      "evidence": "deployments/2026-10-25-portfolio-analytics.md",
+      "projectId": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+      "projectName": "gamehubs-2048-cupcakes",
+      "sourceCommit": "d872928507b6b5f8ccfd062c65c7a3f935ce492a",
+      "state": "READY",
+      "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+    },
+    "webAnalytics": {
+      "analyticsId": "PtgEJDrE5PwfgvLMhQZQnL6XE",
+      "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+      "clientIntegrated": true,
+      "dashboardReceived": true,
+      "evidence": [
+        "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+      ],
+      "integrationMethod": "official-static-html-script",
+      "pageviewStatus": 200,
+      "pageviewVerified": true,
+      "projectEnabled": true,
+      "provider": "Vercel Web Analytics",
+      "queryAndHashFiltered": true,
+      "receiptSource": "Vercel project.webAnalytics.hasData=true",
+      "sdkInstalled": false,
+      "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+      "sdkVersion": null
+    }
   },
   "history": [
     {
@@ -556,6 +604,506 @@
         }
       },
       "previousRevision": "a14cdde11520dabfdc0782c2929dc801c2cefe3abb0a87296dd58fd5cb0c12c6"
+    },
+    {
+      "actor": "ai-owner-authorized-analytics-rollout",
+      "at": "2026-10-25T05:27:47.441621+00:00",
+      "previous": {
+        "blockers": [],
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/2048-cupcakes-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_FPE4DPVRWVVve5WgQMv19a2b83tQ",
+              "readyState": "READY",
+              "url": "gamehubs-2048-cupcakes-5bgv2hpoj-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/2048-cupcakes",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_8pRSPENzV5JHabD2R9Zphkezp7JH",
+                "readyState": "READY",
+                "url": "gamehubs-2048-cupcakes-zt19722jn-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+              "projectName": "gamehubs-2048-cupcakes",
+              "repository": "https://github.com/seraseraqqq/gameshub-2048-cupcakes",
+              "repositoryId": 1432763397,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedHead": "c26b71c763101186775aa3613562a48adc6f0918",
+          "state": "independent-repository-deployed"
+        },
+        "id": "2048-cupcakes",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-00a8af79182809da7d78",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "2048 cupcakes"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-492522f4a9eb436980f5",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cupcake 2048"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-6928b31fd1518658c7ca",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cupcakes 2048"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-a1947bdc83b59b6e19d5",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "2048 cupcake game"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "2048 Cupcakes",
+        "nextAction": "Connect Search Console and submit the www sitemap; enable Vercel Web Analytics in the dashboard and verify page views; consider gameplay events separately; finish real-device/performance checks; retain the Google Trends evidence gap and keep ads disabled pending approval.",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/2048-cupcakes曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/2048-cupcakes",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-2048-cupcakes"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#2048-cupcakes"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/2048-cupcakes-final.json"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://www.2048cupcakes.xyz/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+        }
+      },
+      "previousRevision": "8d025a261574f6e9f8c4a6683666ddb2dfc8d8f7a6c57c1d426b27160dcc21a1"
+    },
+    {
+      "actor": "codex-sync",
+      "actorType": "ai",
+      "at": "2026-10-25T09:41:05.627921+00:00",
+      "localPrevious": {
+        "blockers": [],
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/2048-cupcakes-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_FPE4DPVRWVVve5WgQMv19a2b83tQ",
+              "readyState": "READY",
+              "url": "gamehubs-2048-cupcakes-5bgv2hpoj-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/2048-cupcakes",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_8pRSPENzV5JHabD2R9Zphkezp7JH",
+                "readyState": "READY",
+                "url": "gamehubs-2048-cupcakes-zt19722jn-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+              "projectName": "gamehubs-2048-cupcakes",
+              "repository": "https://github.com/seraseraqqq/gameshub-2048-cupcakes",
+              "repositoryId": 1432763397,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "domainConfiguration": {
+            "canonicalVerified": true,
+            "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+            "customDomain": "2048cupcakes.xyz",
+            "evidence": [
+              "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+            ],
+            "httpsVerified": true,
+            "pathAndQueryPreserved": true,
+            "primaryOrigin": "https://2048cupcakes.xyz",
+            "projectBindingVerified": true,
+            "redirectStatusCode": 301,
+            "wwwRedirectTo": "https://2048cupcakes.xyz/"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T05:27:45.967795+00:00",
+          "recordedHead": "d872928507b6b5f8ccfd062c65c7a3f935ce492a",
+          "state": "independent-repository-deployed",
+          "vercelRelease": {
+            "branch": "main",
+            "customDomain": "2048cupcakes.xyz",
+            "deploymentId": "dpl_E1dHRWAYNmznkrScBj9SHukZmMn4",
+            "deploymentUrl": "gamehubs-2048-cupcakes-gqnriz3m3-gx03410-8651s-projects.vercel.app",
+            "evidence": "deployments/2026-10-25-portfolio-analytics.md",
+            "projectId": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+            "projectName": "gamehubs-2048-cupcakes",
+            "sourceCommit": "d872928507b6b5f8ccfd062c65c7a3f935ce492a",
+            "state": "READY",
+            "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+          },
+          "webAnalytics": {
+            "analyticsId": "PtgEJDrE5PwfgvLMhQZQnL6XE",
+            "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+            "clientIntegrated": true,
+            "dashboardReceived": true,
+            "evidence": [
+              "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+            ],
+            "integrationMethod": "official-static-html-script",
+            "pageviewStatus": 200,
+            "pageviewVerified": true,
+            "projectEnabled": true,
+            "provider": "Vercel Web Analytics",
+            "queryAndHashFiltered": true,
+            "receiptSource": "Vercel project.webAnalytics.hasData=true",
+            "sdkInstalled": false,
+            "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+            "sdkVersion": null
+          }
+        },
+        "id": "2048-cupcakes",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-00a8af79182809da7d78",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "2048 cupcakes"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-492522f4a9eb436980f5",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cupcake 2048"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-6928b31fd1518658c7ca",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cupcakes 2048"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-a1947bdc83b59b6e19d5",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "2048 cupcake game"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "2048 Cupcakes",
+        "nextAction": "Analytics与不带www主站/www301已验；后续单独接入Search Console并提交apex sitemap，补真机/完整游玩/性能检查；广告保持关闭直到获批。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/2048-cupcakes曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25：Vercel Web Analytics已接入并开启，真实Chrome浏览记录请求200且后台已收数；独立域名已统一不带www主站，www301跳转。 当前源码与发布证据见 deployments/2026-10-25-portfolio-analytics.md。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/2048-cupcakes",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-2048-cupcakes"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#2048-cupcakes"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/2048-cupcakes-final.json"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "本轮17站Analytics接入/开启/真实发送/后台收数、独立域名apex与www301验收",
+            "path": "deployments/2026-10-25-portfolio-analytics.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://2048cupcakes.xyz/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T05:27:45.967795+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25：独立仓库main与实际Vercel生产READY/SHA一致；Web Analytics客户端/项目开启/真实Chrome POST view 200/后台hasData均通过。已有独立域名apex主站、www301、TLS/路径查询参数/canonical核验通过；8站index与9站noindex实际输出保持。未将完整游戏、真机、性能、许可或搜索收录记为通过。"
+        }
+      },
+      "localRevision": "a9c963038b6a60e464243a9420476934bb7e2035751c8931445f5ac2cd406ed7",
+      "previous": {
+        "blockers": [],
+        "createdAt": "2026-10-23",
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/2048-cupcakes-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_FPE4DPVRWVVve5WgQMv19a2b83tQ",
+              "readyState": "READY",
+              "url": "gamehubs-2048-cupcakes-5bgv2hpoj-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/2048-cupcakes",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_8pRSPENzV5JHabD2R9Zphkezp7JH",
+                "readyState": "READY",
+                "url": "gamehubs-2048-cupcakes-zt19722jn-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+              "projectName": "gamehubs-2048-cupcakes",
+              "repository": "https://github.com/seraseraqqq/gameshub-2048-cupcakes",
+              "repositoryId": 1432763397,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedHead": "c26b71c763101186775aa3613562a48adc6f0918",
+          "state": "independent-repository-deployed"
+        },
+        "id": "2048-cupcakes",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-00a8af79182809da7d78",
+            "language": "en",
+            "page": "/",
+            "poolLinked": true,
+            "role": "primary",
+            "term": "2048 cupcakes"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-492522f4a9eb436980f5",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cupcake 2048"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-6928b31fd1518658c7ca",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cupcakes 2048"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-a1947bdc83b59b6e19d5",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "2048 cupcake game"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "2048 Cupcakes",
+        "nextAction": "Connect Search Console and submit the www sitemap; enable Vercel Web Analytics in the dashboard and verify page views; consider gameplay events separately; finish real-device/performance checks; retain the Google Trends evidence gap and keep ads disabled pending approval.",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/2048-cupcakes曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/2048-cupcakes",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-2048-cupcakes"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#2048-cupcakes"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/2048-cupcakes-final.json"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "恢复导入时遗漏的明确createdAt：2026-10-23；没有用部署/研究/核验时间替代",
+            "path": "data/migration/source-matrix-sites.json#2048-cupcakes"
+          },
+          {
+            "note": "旧站主词纳入统一词池；US/en由本轮截图数据库与查询参数明确，旧市场/映射保留在历史",
+            "path": "research/2026-10-25-mac-site-keyword-consistency-004351b6cfaf/README.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://www.2048cupcakes.xyz/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+        }
+      },
+      "previousRevision": "f917e607a7a2464e4054040cde89eb1154d08aa5bab7a16dc23725ae02a1b110",
+      "reason": "Pull latest main while retaining local deployment records and remote primary-keyword/date enrichment; preserve both histories.",
+      "upstreamCommit": "8a42a11c0af16434a3c1ed2b48acca0198508b7f"
     }
   ],
   "id": "2048-cupcakes",
@@ -599,14 +1147,14 @@
   ],
   "legacyGroup": "games",
   "name": "2048 Cupcakes",
-  "nextAction": "Connect Search Console and submit the www sitemap; enable Vercel Web Analytics in the dashboard and verify page views; consider gameplay events separately; finish real-device/performance checks; retain the Google Trends evidence gap and keep ads disabled pending approval.",
+  "nextAction": "Analytics与不带www主站/www301已验；后续单独接入Search Console并提交apex sitemap，补真机/完整游玩/性能检查；广告保持关闭直到获批。",
   "notes": [
     "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
     "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/2048-cupcakes曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
     "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
     "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
-    "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
-    "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。"
+    "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。",
+    "2026-10-25：Vercel Web Analytics已接入并开启，真实Chrome浏览记录请求200且后台已收数；独立域名已统一不带www主站，www301跳转。 当前源码与发布证据见 deployments/2026-10-25-portfolio-analytics.md。"
   ],
   "release": {
     "deployment": "recorded_deployed",
@@ -653,16 +1201,20 @@
     {
       "note": "旧站主词纳入统一词池；US/en由本轮截图数据库与查询参数明确，旧市场/映射保留在历史",
       "path": "research/2026-10-25-mac-site-keyword-consistency-004351b6cfaf/README.md"
+    },
+    {
+      "note": "本轮17站Analytics接入/开启/真实发送/后台收数、独立域名apex与www301验收",
+      "path": "deployments/2026-10-25-portfolio-analytics.md"
     }
   ],
   "stage": "deployed",
   "urls": {
     "preview": null,
-    "production": "https://www.2048cupcakes.xyz/"
+    "production": "https://2048cupcakes.xyz/"
   },
   "verification": {
-    "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+    "recheckedAt": "2026-10-25T05:27:45.967795+00:00",
     "recordedAt": "2026-10-24T05:17:09.386Z",
-    "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+    "scope": "2026-10-25：独立仓库main与实际Vercel生产READY/SHA一致；Web Analytics客户端/项目开启/真实Chrome POST view 200/后台hasData均通过。已有独立域名apex主站、www301、TLS/路径查询参数/canonical核验通过；8站index与9站noindex实际输出保持。未将完整游戏、真机、性能、许可或搜索收录记为通过。"
   }
 }

@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "candidate_discovery-independent-serp-review",
+  "createdAt": "2026-10-25T11:31:45.650642+00:00",
+  "methodology": {
+    "inputs": "Only existing local Google normal-search captures + public HTTP/web reads of those observed sites; no Chrome or shared Semrush access.",
+    "evidenceBoundary": "7/8 visible organic heading links are not full top ten. AITDK-injected estimates and Google result-stats are not authority or competition metrics.",
+    "triState": "reasonable true = defensible concrete entry supported; false = specific supported negative for proposed entry; null = partial positive/negative evidence without enough basis for either. Null is not rejection.",
+    "certainty": "Medium describes confidence in this limited evidence and null recommendation, not high certainty of commercial success.",
+    "metrics": "Cached Semrush estimates are distinct from current real Google observations; Volume/KD/Trends/KGR gates delegated to root."
+  },
+  "suggestions": [
+    {
+      "term": "duotrigordle",
+      "reasonable": null,
+      "certainty": "medium",
+      "assessmentScope": "Independent suggestion for same-intent SERP entry; no ranking promise or release approval.",
+      "googleEvidence": {
+        "path": "raw/google-serp-duotrigordle-verified.json",
+        "observedAt": "2026-10-25T11:10:24.365Z",
+        "queryVerified": true,
+        "visibleNaturalResultCount": 7,
+        "completeTopTen": false,
+        "physicalUSLocationVerified": false,
+        "results": [
+          {
+            "title": "Duotrigordle",
+            "url": "https://duotrigordle.com/"
+          },
+          {
+            "title": "Duotrigordle Wordle - Play Duotrigordle Game Online",
+            "url": "https://duotrigordle.org/"
+          },
+          {
+            "title": "Duotrigordle - Apps on Google Play",
+            "url": "https://play.google.com/store/apps/details?id=com.appylux.duotrigordle&hl=en_US"
+          },
+          {
+            "title": "Duotrigordle - Daily 32 Wordles at Once, Free",
+            "url": "https://wordle.global/en/duotrigordle"
+          },
+          {
+            "title": "What are your duotrigordle opening word(s)? : r/wordle",
+            "url": "https://www.reddit.com/r/wordle/comments/u5r86n/what_are_your_duotrigordle_opening_words/"
+          },
+          {
+            "title": "Duotrigordle Wordle - Play Online",
+            "url": "https://wordleplay.com/duotrigordle"
+          },
+          {
+            "title": "Duotrigordle - 32 Wordles At Once! - Can I Do It?",
+            "url": "https://www.youtube.com/watch?v=wzFzvRwk1U0"
+          }
+        ]
+      },
+      "gameVersion": "32个五字母Wordle棋盘共用37次猜测；原站还公开Daily/Practice/Sequence/Jumble/Historic等入口。",
+      "facts": [
+        "真实Google可见7条自然结果，含原站、3个独立游戏入口、Google Play、Reddit和YouTube；并非仅大媒体或应用商店占据。",
+        "原站真实Chrome快照已经显示Practice、Historic、Sequence/Jumble、stats和leaderboard；无限模式/存档不能当新发现空白。",
+        "公开独立页提供同一32/37玩法，但版本精确性与实际可玩性尚未在本分支验证。"
+      ],
+      "reasons": [
+        "存在匹配游戏意图的非原站入口，可争性并非完全没有支持；但这不能从域名大小或论坛出现直接推出低竞争。",
+        "原站与既有独立页已覆盖通常提出的Practice/unlimited/统计等切口；尚未验证一个具体未被满足的体验或策略教学任务。",
+        "已有Google样本只有7条，不能声称完整前十或准确计算独立站占比。"
+      ],
+      "sources": [
+        {
+          "url": "https://duotrigordle.com/",
+          "kind": "primary_game",
+          "observed": "公开HTTP文本为JS占位；真实Chrome快照由主线保存，显示Daily/Practice和Historic、Perfect Challenge、Stats、Leaderboard等控件。",
+          "runtimeVerifiedByThisReviewer": false
+        },
+        {
+          "url": "https://duotrigordle.org/",
+          "kind": "google_visible_independent_page",
+          "observed": "公开页面明确描述32词/37猜，宣称Practice可无限次；文字也出现四棋盘/四词等不一致描述，需实玩核对。",
+          "runtimeVerifiedByThisReviewer": false
+        },
+        {
+          "url": "https://wordle.global/en/duotrigordle",
+          "kind": "google_visible_independent_page",
+          "observed": "公开页面列32个棋盘与键盘，描述37次共享猜测并提供Custom与friends链接；性能优于原站和玩家数是该站自述，未采信。",
+          "runtimeVerifiedByThisReviewer": false
+        },
+        {
+          "url": "https://github.com/thesilican/duotrigordle",
+          "kind": "creator_repository",
+          "observed": "README称当前仓库用于issue追踪、项目maintenance mode；旧frontend在main，后续因backend和广告转closed-source。旧版具体license与素材权利未核实。",
+          "runtimeVerifiedByThisReviewer": false
+        }
+      ],
+      "hypotheses": [
+        "经测量的开局策略解释与可视化训练，需证明优于原站及独立页现有帮助内容。",
+        "可访问性/32盘导航/键盘焦点改进需先实测现有竞品缺陷，而非假定不存在。"
+      ],
+      "neededForTrueOrFalse": [
+        "完成一次对手实际棋盘与Practice流程核验，区别控件存在和模式正常运行。",
+        "验证一个具体用户任务差异与可实现方案，再结合真实Google同问法结果决定可争性。"
+      ],
+      "rightsAndImplementationSeparate": "现版闭源是实施/许可信息，不自动等同SERP不可争；旧版frontend许可与词表/品牌权利仍未知。",
+      "hardThresholdsAndKgrAssessedHere": false
+    },
+    {
+      "term": "tradle",
+      "reasonable": null,
+      "certainty": "medium",
+      "assessmentScope": "Independent suggestion for same-intent SERP entry; no ranking promise or release approval.",
+      "googleEvidence": {
+        "path": "raw/google-serp-tradle.json",
+        "observedAt": "2026-10-25T11:13:22.083Z",
+        "queryVerified": true,
+        "visibleNaturalResultCount": 8,
+        "completeTopTen": false,
+        "physicalUSLocationVerified": false,
+        "results": [
+          {
+            "title": "OEC Tradle",
+            "url": "https://games.oec.world/en/tradle/"
+          },
+          {
+            "title": "Tradle - Guess which country exports these products!",
+            "url": "https://tradle.net/"
+          },
+          {
+            "title": "Tradle - Identify Countries by Their Export Products",
+            "url": "https://tradle.world/"
+          },
+          {
+            "title": "Tradle: Play the Daily Geography Game",
+            "url": "https://playlin.io/game/tradle/"
+          },
+          {
+            "title": "Tradle | Guess the Country by Its Exports - TripMemo",
+            "url": "https://tripmemo.app/tradle"
+          },
+          {
+            "title": "Tradle — Control Intelligence for Global Risk",
+            "url": "https://tradle.io/"
+          },
+          {
+            "title": "Tradle brings Wordle-style game to global exports",
+            "url": "https://www.marketplace.org/story/2023/08/24/tradle-brings-wordle-style-game-to-global-exports"
+          },
+          {
+            "title": "Tradle - Guess Country Exports in this Online Game",
+            "url": "https://likewordle.com/games/tradle"
+          }
+        ]
+      },
+      "gameVersion": "以出口产品treemap识别国家的日更地理/经济游戏，通常6次猜测；与同名风险管理公司tradle.io不同。",
+      "facts": [
+        "真实Google可见8条自然结果，原站之外有多个出口猜国游戏页、1个同名风险管理公司和1个新闻报道；不能把金融公司算作游戏竞争者。",
+        "Google可见的tradle.net和tradle.world均已经提供Unlimited/Practice公开入口，因此仅做无限版没有新颖性证据。",
+        "原站HTTP403不等于真实Chrome不可访问，也不证明原站没有练习模式。"
+      ],
+      "reasons": [
+        "真实可见结果支持存在同意图替代游戏页面，但当前核验未确认这些页面的贸易数据和游戏循环真实可用。",
+        "可以提出数据透明/教育解释切口，但尚未检验它在原站和独立页是否已经满足。",
+        "公开记录不足以把数据来源、年份、许可或原站功能缺项写成已确认事实。"
+      ],
+      "sources": [
+        {
+          "url": "https://games.oec.world/en/tradle/",
+          "kind": "primary_game",
+          "observed": "主线真实Google原站结果明确OEC出口猜国家；本分支直接公开读取返回403，未确认原站当前界面/练习能力。",
+          "runtimeVerifiedByThisReviewer": false
+        },
+        {
+          "url": "https://tradle.net/",
+          "kind": "google_visible_independent_page",
+          "observed": "有国家输入、6次猜测说明、答案/策略文章及Unlimited链接；静态读取Total $0，未验证贸易图数据实际加载。",
+          "runtimeVerifiedByThisReviewer": false
+        },
+        {
+          "url": "https://tradle.net/unlimited/",
+          "kind": "public_practice_page",
+          "observed": "公开有Tradle Unlimited入口及国家输入；未验证完整题库或数据口径。",
+          "runtimeVerifiedByThisReviewer": false
+        },
+        {
+          "url": "https://tradle.world/",
+          "kind": "google_visible_independent_page",
+          "observed": "有出口图加载区、6次猜测输入、Practice链接，页面自述真实经济数据；数据年份/来源/准确性未独立确认。",
+          "runtimeVerifiedByThisReviewer": false
+        },
+        {
+          "url": "https://tradle.world/unlimited.html",
+          "kind": "public_practice_page",
+          "observed": "公开Practice Mode入口，标题明确Unlimited Export Puzzles；未实际提交猜测。",
+          "runtimeVerifiedByThisReviewer": false
+        }
+      ],
+      "hypotheses": [
+        "按明确年份/HS或SITC口径显示来源的经济教学训练与出口结构解释，需核实数据可用权利、现有功能和用户需求。",
+        "错题复盘、产品类目解释或特定地区练习是待验证假设，不能用已有Unlimited入口当唯一差异。"
+      ],
+      "neededForTrueOrFalse": [
+        "浏览器实测原站和至少一个独立页的图表、一次猜测、Daily/Practice循环。",
+        "记录经济数据来源/年份及分类口径，并核对与Google用户想玩的Tradle版本是否一致。"
+      ],
+      "rightsAndImplementationSeparate": "OEC数据/图表/品牌及独立实现权利未知；此风险与SERP竞争判断分开。",
+      "hardThresholdsAndKgrAssessedHere": false
+    },
+    {
+      "term": "countryle",
+      "reasonable": null,
+      "certainty": "medium",
+      "assessmentScope": "Independent suggestion for same-intent SERP entry; no ranking promise or release approval.",
+      "googleEvidence": {
+        "path": "raw/google-serp-countryle.json",
+        "observedAt": "2026-10-25T11:13:25.862Z",
+        "queryVerified": true,
+        "visibleNaturalResultCount": 7,
+        "completeTopTen": false,
+        "physicalUSLocationVerified": false,
+        "results": [
+          {
+            "title": "Countryle - The best wordle game about geography",
+            "url": "https://countryle.com/"
+          },
+          {
+            "title": "Countryle - Guess The Countries Everyday",
+            "url": "https://geoworldle.com/countryle"
+          },
+          {
+            "title": "Countryle Game | Daily Country Guessing Game - TripMemo",
+            "url": "https://tripmemo.app/countryle"
+          },
+          {
+            "title": "Countryle | Guess the Mystery Country",
+            "url": "https://mapguesser.fr/en/game/countryle"
+          },
+          {
+            "title": "Countryle (@countryleapp) / X",
+            "url": "https://x.com/countryleapp?lang=en"
+          },
+          {
+            "title": "Countryle - Dive into Online Country Guessing Adventure",
+            "url": "https://likewordle.com/games/countryle"
+          },
+          {
+            "title": "Countryle",
+            "url": "https://food-le.com/countryle"
+          }
+        ]
+      },
+      "gameVersion": "按国家线索逐步猜测的日更地理游戏；不同Google可见页面使用不同指标，不能视为完全相同规则的原版。",
+      "facts": [
+        "真实Google可见7条自然结果，含原站、多个同意图游戏页和原站X账号；未抓满十条。",
+        "GeoWorldle版已经自述unlimited、统计和存档迁移，默认无限版/存档不是已证实空白。",
+        "MapGuesser版采用GDP等另一组指标；需要核对玩家期望原版还是接受变体，不能将不同规则内容混合。"
+      ],
+      "reasons": [
+        "游戏意图和独立替代入口在真实Google样本中可见，支持进一步研究，但没有足够证据确认具体可实施切口。",
+        "原站功能在本分支未能完整读取，不能以抓取不可见推断原站能力缺失。",
+        "同名变体和不同指标增加版本/内容准确性不确定性；需核对数据年份与线索计算。"
+      ],
+      "sources": [
+        {
+          "url": "https://countryle.com/",
+          "kind": "primary_game",
+          "observed": "主线真实Google将其识别为原站；本分支公开抓取仅见iframe。读取iframe/index.html仅得到推广文字，不能据此认定原站停服或不可玩。",
+          "runtimeVerifiedByThisReviewer": false
+        },
+        {
+          "url": "https://geoworldle.com/countryle",
+          "kind": "google_visible_independent_page",
+          "observed": "页面描述continent/area/temperature/borders/coordinates等提示，并自述unlimited、stats、localStorage export/import；未操作实际棋盘。",
+          "runtimeVerifiedByThisReviewer": false
+        },
+        {
+          "url": "https://mapguesser.fr/en/game/countryle",
+          "kind": "google_visible_independent_page",
+          "observed": "页面给出人口/面积/GDP/大陆提示、Daily Challenge与global ranking；这是同名玩法变体，不足以证明原版规则完全相同。",
+          "runtimeVerifiedByThisReviewer": false
+        },
+        {
+          "url": "https://tripmemo.app/countryle",
+          "kind": "google_visible_page_fetch_failed",
+          "observed": "真实Google可见该结果；公开抓取工具无法读取，未推断其完整功能。",
+          "runtimeVerifiedByThisReviewer": false
+        }
+      ],
+      "hypotheses": [
+        "解释每个国家指标/方向提示并提供可追溯数据年份的教学模式，须先实测已有页面是否已覆盖。",
+        "地区限定、线索可配置或可访问性模式是待验证假设，不能声称原站/竞品均没有。"
+      ],
+      "neededForTrueOrFalse": [
+        "真实浏览器核对原站与一个变体的默认模式、提示字段及一次完整回合。",
+        "确认国家/地区范围、统计数据年份、温度或GDP计算口径以及是否接受变体玩法。"
+      ],
+      "rightsAndImplementationSeparate": "原站品牌、地图/旗帜/数据许可未核实；独立实现可能性不代表取得复制授权。",
+      "hardThresholdsAndKgrAssessedHere": false
+    }
+  ],
+  "blockedHistoricalCapture": {
+    "path": "raw/google-serp-duotrigordle.json",
+    "status": "blocked",
+    "usedAsNormalSerpEvidence": false
+  },
+  "doesNotModify": "serp-assessments.json or formal data/reviews/sites/batches"
+}

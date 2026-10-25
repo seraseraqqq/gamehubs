@@ -1,0 +1,52 @@
+{
+  "counts": {
+    "batches": 9,
+    "keywords": 140,
+    "observations": 400,
+    "reviews": 0,
+    "sites": 17
+  },
+  "errors": [],
+  "gulperMetrics": {
+    "intitle": 3180,
+    "kd": 28,
+    "ratio": 0.3212121212121212,
+    "sources": {
+      "intitle": {
+        "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+        "provider": "google_intitle"
+      },
+      "kd": {
+        "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+        "provider": "semrush_mirror"
+      },
+      "volume": {
+        "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+        "provider": "semrush_mirror"
+      }
+    },
+    "volume": 9900
+  },
+  "newPrimary": {
+    "country": "US",
+    "keywordId": "kw-dcb5ec69e8fb735147d8",
+    "language": "en",
+    "page": "/",
+    "poolLinked": true,
+    "role": "primary",
+    "term": "gulper io"
+  },
+  "oldPrimary": {
+    "country": "US",
+    "keywordId": "kw-50ff48f16b02f7554321",
+    "language": "en",
+    "page": "/",
+    "poolLinked": true,
+    "role": "primary",
+    "term": "gulper.io game"
+  },
+  "siteChange": {
+    "saved": "gulper-io"
+  },
+  "sourceReleaseDevelopmentPreserved": true
+}

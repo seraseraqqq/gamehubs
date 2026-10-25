@@ -1,0 +1,158 @@
+{
+  "checkedAt": "2026-10-25T03:31:16.223Z",
+  "origin": "https://gamehubs-cluster-rush.vercel.app",
+  "checks": [
+    {
+      "url": "https://gamehubs-cluster-rush.vercel.app/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Cluster Rush — Play the Truck Jumping Game Online",
+      "canonical": null,
+      "robots": "noindex, nofollow",
+      "images": [
+        "./assets/social-card.png",
+        "./assets/social-card.png"
+      ],
+      "iframes": [
+        "https://clusterrush.io/game/cluster-rush/"
+      ],
+      "jsonLd": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "url": "https://gamehubs-cluster-rush.vercel.app/how-to-play.html",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "How to Play Cluster Rush — Controls, Climbing & Tips",
+      "canonical": null,
+      "robots": "noindex, nofollow",
+      "images": [
+        "./assets/social-card.png",
+        "./assets/social-card.png"
+      ],
+      "iframes": [],
+      "jsonLd": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "url": "https://gamehubs-cluster-rush.vercel.app/not-loading.html",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Cluster Rush Not Loading? Browser & Keyboard Fixes",
+      "canonical": null,
+      "robots": "noindex, nofollow",
+      "images": [
+        "./assets/social-card.png",
+        "./assets/social-card.png"
+      ],
+      "iframes": [],
+      "jsonLd": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "url": "https://gamehubs-cluster-rush.vercel.app/about.html",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "About This Cluster Rush Fan Site & Game Source",
+      "canonical": null,
+      "robots": "noindex, nofollow",
+      "images": [
+        "./assets/social-card.png",
+        "./assets/social-card.png"
+      ],
+      "iframes": [],
+      "jsonLd": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "url": "https://gamehubs-cluster-rush.vercel.app/privacy.html",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Privacy — Cluster Rush Fan Site",
+      "canonical": null,
+      "robots": "noindex, nofollow",
+      "images": [
+        "./assets/social-card.png",
+        "./assets/social-card.png"
+      ],
+      "iframes": [],
+      "jsonLd": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "url": "https://gamehubs-cluster-rush.vercel.app/app.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gamehubs-cluster-rush.vercel.app/style.css",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/css; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gamehubs-cluster-rush.vercel.app/favicon.svg",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "image/svg+xml",
+      "passed": true
+    },
+    {
+      "url": "https://gamehubs-cluster-rush.vercel.app/robots.txt",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/plain; charset=utf-8",
+      "body": "User-agent: *\nDisallow: /\n",
+      "passed": true
+    },
+    {
+      "url": "https://gamehubs-cluster-rush.vercel.app/sitemap.xml",
+      "status": 404,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "body": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><title>Page Not Found — Cluster Rush</title><meta name=\"description\" content=\"This page could not be found. Return to the Cluster Rush game or open the control guide.\"><meta name=\"robots\" content=\"noindex, nofollow\"><meta name=\"theme-color\" content=\"#191d21\"><meta property=\"og:type\" content=\"website\"><meta property=\"og:title\" content=\"Page Not Found — Cluster Rush\"><meta property=\"og:description\" content=\"This page could not be found. Return to the Cluster Rush game or open the control guide.\"><meta property=\"og:image\" content=\"./assets/social-card.png\"><meta name=\"twitter:card\" content=\"summary_large_image\"><link rel=\"icon\" href=\"./favicon.svg\" type=\"image/svg+xml\"><link rel=\"stylesheet\" href=\"./style.css\"></head><body><a class=\"skip\" href=\"#main\">Skip to content</a><header class=\"site-header\"><a class=\"wordmark\" href=\"./\">Cluster Rush</a><nav aria-label=\"Main\"><a href=\"./how-to-play.html\">How to play</a><a href=\"./not-loading.html\">Game help</a></nav></header><main id=\"main\" class=\"article\"><a class=\"back\" href=\"./\">← Back to game</a><h1>That page missed the truck.</h1><p>The address does not match a page on this site.</p><p><a href=\"./\">Return to the game</a> or read the <a href=\"./how-to-play.html\">control guide</a>.</p></main><footer><span>Cluster Rush · Independent fan page</span><div><a href=\"./about.html\">About &amp; game source</a><a href=\"./privacy.html\">Privacy</a></div></footer></body></html>",
+      "passed": true
+    },
+    {
+      "url": "https://gamehubs-cluster-rush.vercel.app/__gamehubs_missing_release_check__",
+      "status": 404,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limits": [
+    "HTTP and metadata checks do not prove complete game loading or gameplay.",
+    "No search-engine indexing, physical-device or performance acceptance is inferred."
+  ]
+}

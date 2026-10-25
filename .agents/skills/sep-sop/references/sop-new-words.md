@@ -2,7 +2,7 @@
 
 Use this process to discover emerging game concepts. A rising query is a research lead, not proof of durable demand, monthly volume, ranking opportunity, or a viable standalone site.
 
-Provider order is Google Trends → current Google SERPs → supplementary DataForSEO metrics. Do not use OpenSEO. DataForSEO volume/KD may be optimistic and must not promote a weak trend or crowded intent into a build recommendation. If a material disagreement remains, request a same-market, same-period Ahrefs/Semrush check from the user.
+Provider order is Google Trends → current Google SERPs → supplementary metrics, preferring the owner's free Semrush mirror; self-hosted OpenSEO and DataForSEO are also allowed under [GameHubs research rules](../../../../docs/KEYWORD_WORKFLOW.md). Provider volume/KD may be optimistic and must not promote a weak trend or crowded intent into a build recommendation. Preserve disagreements and seek a same-market, same-period cross-check when it changes the decision.
 
 ## 1. Collect Signals
 

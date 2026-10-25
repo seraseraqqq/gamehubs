@@ -63,21 +63,25 @@
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-f0a36fbc2ce7fd08ce78",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 10,
         "kd": 21,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.00045045045045045046,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"block blast unblocked\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 22200
@@ -248,21 +252,25 @@
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-009cbf1dce9b43adf82c",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 536,
         "kd": 23,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.029613259668508286,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"costcodle\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 18100
@@ -407,25 +415,33 @@
         "vercelDeployed": true
       },
       "domain": "https://gulperio.com",
-      "intitle": 10,
-      "kd": null,
+      "intitle": 3180,
+      "kd": 28,
       "keywordBatchDate": "2026-10-25",
-      "keywordId": "kw-50ff48f16b02f7554321",
+      "keywordId": "kw-dcb5ec69e8fb735147d8",
       "keywordMetrics": {
-        "intitle": 10,
-        "kd": null,
-        "ratio": 0.3333333333333333,
+        "allintitle": null,
+        "intitle": 3180,
+        "kd": 28,
+        "kgr": null,
+        "kgrBasis": null,
+        "ratio": 0.3212121212121212,
         "sources": {
           "intitle": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "google_intitle",
+            "query": "intitle:\"gulper io\""
+          },
+          "kd": {
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
-        "volume": 30
+        "volume": 9900
       },
       "keywordMetricsSource": "keyword_pool",
       "keywordPages": [
@@ -433,7 +449,7 @@
           "country": "US",
           "language": "en",
           "path": "/",
-          "primaryKeyword": "gulper.io game"
+          "primaryKeyword": "gulper io"
         },
         {
           "country": "unknown",
@@ -483,7 +499,7 @@
       "nextDecision": "依据当前发布记录复核下一步，保留既有门禁。",
       "path": ".",
       "pathScope": "relative-to-canonical-repository",
-      "primaryKeyword": "gulper.io game",
+      "primaryKeyword": "gulper io",
       "productDecision": {
         "date": "2026-10-23",
         "implementation": "games/gulperio/bot-brain.js",
@@ -493,7 +509,7 @@
         "productionChanged": null,
         "record": "research/2026-10-23-existing-games/gulper-personality.md"
       },
-      "ratio": 0.3333333333333333,
+      "ratio": 0.3212121212121212,
       "repo": "https://github.com/seraseraqqq/gameshub-gulper-io",
       "secondaryKeywords": [
         "gulper io",
@@ -510,7 +526,7 @@
       "techStack": "HTML5 Canvas 2D / Vanilla JS / Web Audio API / local fonts and original neon vector art",
       "updatedAt": "2026-10-23",
       "url": "https://gulperio.com/",
-      "volume": 30,
+      "volume": 9900,
       "workspaceReview": {
         "date": "2026-10-23",
         "keywordMetrics": "Historical volume/KD retained; not revalidated in this workspace SEO/UI review.",
@@ -580,13 +596,17 @@
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-12078588080da360358a",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 520,
         "kd": null,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": null,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"krillion unlimited\""
           }
         },
         "volume": null
@@ -776,21 +796,25 @@
       },
       "keywordId": "kw-1c049d3efce6f91cba37",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 799,
         "kd": 28,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.14796296296296296,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"spacebar counter\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 5400
@@ -818,7 +842,7 @@
       ],
       "managementRecord": "data/sites/spacebar-counter.json",
       "managementStage": "deployed",
-      "nextDecision": "Connect Search Console and submit the www sitemap; enable Vercel Web Analytics in the dashboard and verify page views; consider gameplay events separately; finish real-device/performance checks; retain the Google Trends evidence gap and keep ads disabled pending approval.",
+      "nextDecision": "Analytics与不带www主站/www301已验；后续单独接入Search Console并提交apex sitemap，补真机/完整游玩/性能检查；广告保持关闭直到获批。",
       "owner": "workspace-owner",
       "path": ".",
       "pathScope": "relative-to-canonical-repository",
@@ -850,7 +874,7 @@
       },
       "unitType": "game",
       "updatedAt": "2026-10-23",
-      "url": "https://www.spacebarcounter.xyz/",
+      "url": "https://spacebarcounter.xyz/",
       "volume": 5400
     },
     {
@@ -947,21 +971,25 @@
       },
       "keywordId": "kw-00a8af79182809da7d78",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 3780,
         "kd": 28,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.03436363636363637,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"2048 cupcakes\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 110000
@@ -996,7 +1024,7 @@
       "localPreview": "http://127.0.0.1:4180/",
       "managementRecord": "data/sites/2048-cupcakes.json",
       "managementStage": "deployed",
-      "nextDecision": "Connect Search Console and submit the www sitemap; enable Vercel Web Analytics in the dashboard and verify page views; consider gameplay events separately; finish real-device/performance checks; retain the Google Trends evidence gap and keep ads disabled pending approval.",
+      "nextDecision": "Analytics与不带www主站/www301已验；后续单独接入Search Console并提交apex sitemap，补真机/完整游玩/性能检查；广告保持关闭直到获批。",
       "owner": "workspace-owner",
       "path": ".",
       "pathScope": "relative-to-canonical-repository",
@@ -1032,7 +1060,7 @@
       "techStack": "Static HTML/CSS / original JavaScript ES-module engine / localStorage / optional Web Audio",
       "unitType": "game",
       "updatedAt": "2026-10-23",
-      "url": "https://www.2048cupcakes.xyz/",
+      "url": "https://2048cupcakes.xyz/",
       "volume": 110000
     },
     {
@@ -1095,21 +1123,25 @@
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-f8b1e50d9e8d50940f7d",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 1510,
         "kd": 29,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.030505050505050504,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"coreball\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 49500
@@ -1242,21 +1274,25 @@
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-750b4869a66dd671b0ff",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 8,
         "kd": 25,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.002758620689655172,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"minute cryptic unlimited\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 2900
@@ -1405,21 +1441,25 @@
       },
       "keywordId": "kw-1ba7b5cb5f3b8f8c5e13",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 2010,
         "kd": 16,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.040606060606060604,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"snow rider 3d unblocked\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 49500
@@ -1563,21 +1603,25 @@
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-d41c59ef6dce1ba78684",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 1310,
         "kd": 20,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.07237569060773481,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"head soccer 2026\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 18100
@@ -1593,7 +1637,7 @@
       ],
       "managementRecord": "data/sites/head-soccer-2026.json",
       "managementStage": "deployed",
-      "nextDecision": "Complete physical-device/full-round checks; publisher monetization onboarding and Search Console remain separate follow-up work.",
+      "nextDecision": "apex canonical/www301与Analytics已验；后续单独完成真机/完整回合、发布商变现接入及Search Console。",
       "path": ".",
       "pathScope": "relative-to-canonical-repository",
       "primaryKeyword": "head soccer 2026",
@@ -1607,7 +1651,7 @@
       "status": "deployed",
       "unitType": "game",
       "updatedAt": "2026-10-24",
-      "url": "https://www.playheadsoccer.com/",
+      "url": "https://playheadsoccer.com/",
       "volume": 18100
     },
     {
@@ -1642,21 +1686,25 @@
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-c35b41413e1a0dce7da9",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 312,
         "kd": 12,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.003447513812154696,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"acceleration city\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 90500
@@ -1671,8 +1719,8 @@
         }
       ],
       "managementRecord": "data/sites/acceleration-city.json",
-      "managementStage": "blocked",
-      "nextDecision": "Owner explicitly deferred publication until game embedding permission is obtained. Do not set GAME_EMBED_LICENSE_CONFIRMED=true.",
+      "managementStage": "deployed",
+      "nextDecision": "完成真机、完整游玩及性能验收；GSC 与实际收录单独处理。",
       "path": ".",
       "pathScope": "relative-to-canonical-repository",
       "primaryKeyword": "acceleration city",
@@ -1683,7 +1731,7 @@
       "status": "publication-deferred-by-owner",
       "unitType": "game",
       "updatedAt": "2026-10-24",
-      "url": null,
+      "url": "https://playaccelerationcity.com/",
       "volume": 90500
     },
     {
@@ -1723,21 +1771,25 @@
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-7165b3fd3f5acf81bd14",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 976,
         "kd": 8,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.043963963963963966,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"cluster rush\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 22200
@@ -1770,8 +1822,8 @@
         }
       ],
       "managementRecord": "data/sites/cluster-rush.json",
-      "managementStage": "blocked",
-      "nextDecision": "Confirm embedding rights, choose and own a domain, then verify production loading, real devices and performance before publication.",
+      "managementStage": "deployed",
+      "nextDecision": "playclusterrush.online已配apex canonical/www301与Analytics，保持noindex；后续单独完成完整游玩/真机/性能及第三方许可核实，再决定允许索引。",
       "path": ".",
       "pathScope": "relative-to-canonical-repository",
       "primaryKeyword": "cluster rush",
@@ -1788,7 +1840,7 @@
       "status": "github-pushed-awaiting-deployment",
       "unitType": "game",
       "updatedAt": "2026-10-24",
-      "url": null,
+      "url": "https://playclusterrush.online/",
       "volume": 22200
     }
   ],

@@ -1,8 +1,73 @@
 {
-  "blockers": [
-    "等待嵌入许可与域名决定"
-  ],
+  "blockers": [],
   "createdAt": "2026-10-24",
+  "development": {
+    "domainConfiguration": {
+      "canonicalVerified": true,
+      "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+      "customDomain": "playclusterrush.online",
+      "evidence": [
+        "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+      ],
+      "httpsVerified": true,
+      "pathAndQueryPreserved": true,
+      "primaryOrigin": "https://playclusterrush.online",
+      "projectBindingVerified": true,
+      "redirectStatusCode": 301,
+      "wwwRedirectTo": "https://playclusterrush.online/"
+    },
+    "domainDecision": {
+      "activeUrl": "https://playclusterrush.online/",
+      "decision": "owner-connected-online-domain",
+      "domain": "playclusterrush.online",
+      "recordedAt": "2026-10-25T04:32:26.521844+00:00",
+      "verification": "Vercel project domain verified=true; DNS misconfigured=false; HTTPS and www 301 verified"
+    },
+    "implementationPushed": true,
+    "ownerReleaseApproved": true,
+    "pushRecordedAt": "2026-10-25T05:27:45.967795+00:00",
+    "recordedHead": "d13c6efb129d218726234884775abd07fa510d31",
+    "state": "deployed",
+    "thirdPartyEmbeddingPermission": "unconfirmed",
+    "vercelRelease": {
+      "branch": "main",
+      "customDomain": "playclusterrush.online",
+      "deploymentId": "dpl_qeRRxNUgPPCpAnTdHMBUCe2681kA",
+      "deploymentUrl": "gamehubs-cluster-rush-8bntp6zfb-gx03410-8651s-projects.vercel.app",
+      "evidence": "deployments/2026-10-25-portfolio-analytics.md",
+      "initialRelease": {
+        "deploymentId": "dpl_75XjLSFqrhWEbCpiS9jeKrhDsABN",
+        "sourceCommit": "c6216e4af040f6de335d5b36c29c8e4d3d9af19b"
+      },
+      "projectId": "prj_S11s0HbRdKMAiWjAdOkKE438olI8",
+      "projectName": "gamehubs-cluster-rush",
+      "sourceCommit": "d13c6efb129d218726234884775abd07fa510d31",
+      "state": "READY",
+      "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+    },
+    "webAnalytics": {
+      "analyticsId": "EaAEXU5CbrL5iFCe5KAsuORy6",
+      "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+      "clientIntegrated": true,
+      "dashboardReceived": true,
+      "evidence": [
+        "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+      ],
+      "integrationMethod": "official-static-html-script",
+      "pageviewStatus": 200,
+      "pageviewVerified": true,
+      "projectEnabled": true,
+      "provider": "Vercel Web Analytics",
+      "queryAndHashFiltered": true,
+      "receiptSource": "Vercel project.webAnalytics.hasData=true",
+      "sdkInstalled": false,
+      "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+      "sdkVersion": null
+    }
+  },
   "history": [
     {
       "actor": "codex-ai:user-authorized-games-removal",
@@ -307,6 +372,1140 @@
         }
       },
       "previousRevision": "ca95ecdf69edfbf6f47fb63104e6c2e2d090b68d1388d9afd81de7bd0e5516e1"
+    },
+    {
+      "actor": "codex-ai:explicit-owner-two-game-release",
+      "at": "2026-10-25T03:29:32.505163+00:00",
+      "previous": {
+        "blockers": [
+          "等待嵌入许可与域名决定"
+        ],
+        "id": "cluster-rush",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-7a90cffd5dc57e8ea03b",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "cluster rush"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8561f02f94737b73c1f3",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush online"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8b1cbf6f8286e0c25898",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush controls"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-613126c4fc9967040108",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush not loading"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Cluster Rush",
+        "nextAction": "Confirm embedding rights, choose and own a domain, then verify production loading, real devices and performance before publication.",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "历史差异 sourceDirectory: matrix=games/cluster-rush; registry=.；源码入口采用最新仓库登记。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+        ],
+        "release": {
+          "deployment": "not_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/cluster-rush",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gamehubs-cluster-rush"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#cluster-rush"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          }
+        ],
+        "stage": "blocked",
+        "urls": {
+          "preview": null,
+          "production": null
+        },
+        "verification": {
+          "recheckedAt": null,
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "历史记录导入；未进行本次实时核验。"
+        }
+      },
+      "previousRevision": "9571215aa2896c2389b24cbbbeb7876ba8404a2ca794fb5659924c7fcfae6804"
+    },
+    {
+      "actor": "codex-ai:verify-final-production-source",
+      "at": "2026-10-25T03:31:08.220245+00:00",
+      "previous": {
+        "blockers": [
+          "playclusterrush.com 一年期 US$9.08 订单等待用户购买/条款确认，尚未付款或注册"
+        ],
+        "development": {
+          "implementationPushed": true,
+          "ownerReleaseApproved": true,
+          "pushRecordedAt": "2026-10-25T03:29:32.419761+00:00",
+          "recordedHead": "c6216e4af040f6de335d5b36c29c8e4d3d9af19b",
+          "state": "deployed",
+          "thirdPartyEmbeddingPermission": "unconfirmed",
+          "vercelRelease": {
+            "branch": "main",
+            "customDomain": null,
+            "deploymentId": "dpl_75XjLSFqrhWEbCpiS9jeKrhDsABN",
+            "evidence": "deployments/2026-10-25-two-game-release.md",
+            "projectId": "prj_S11s0HbRdKMAiWjAdOkKE438olI8",
+            "projectName": "gamehubs-cluster-rush",
+            "sourceCommit": "c6216e4af040f6de335d5b36c29c8e4d3d9af19b",
+            "state": "READY",
+            "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+          }
+        },
+        "id": "cluster-rush",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-7a90cffd5dc57e8ea03b",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "cluster rush"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8561f02f94737b73c1f3",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush online"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8b1cbf6f8286e0c25898",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush controls"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-613126c4fc9967040108",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush not loading"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Cluster Rush",
+        "nextAction": "用户确认 Spaceship 域名订单后完成付款/注册，再绑定 playclusterrush.com、设置 SITE_ORIGIN 并重部署验收。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "历史差异 sourceDirectory: matrix=games/cluster-rush; registry=.；源码入口采用最新仓库登记。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25用户明确解除此前发布暂缓并要求 Vercel 部署及匹配 Spaceship 域名。本次已完成独立 Git 生产 READY 部署；站主发布批准与第三方许可分开，第三方嵌入许可仍未确认。",
+          "本轮 Edge 冒烟验收：初次来源加载较慢，重载后进入关卡菜单并启动首关，出现正常失败/重试画面；未声明全关卡或触控验收。默认域保持 noindex。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "pending",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/cluster-rush",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gamehubs-cluster-rush"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#cluster-rush"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "用户后续明确发布授权、源码版本、Vercel READY、DNS/HTTPS/浏览器实测与待确认域名订单",
+            "path": "deployments/2026-10-25-two-game-release.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://gamehubs-cluster-rush.vercel.app/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T03:29:32.419761+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "本机独立源码 SHA、Vercel 生产 READY、公开 HTTPS/页面资源及浏览器游戏冒烟实测；当前仅默认 Vercel 域；候选独立域名尚未付款/注册。完整游玩、真机、性能、GSC和实际收录未验收。"
+        }
+      },
+      "previousRevision": "1aa417c7da813f5f72004493d63d6b754273635f0c3f6327b0be2f6feba3d5c7"
+    },
+    {
+      "actor": "codex-ai:owner-deferred-domain-purchase",
+      "at": "2026-10-25T04:06:57.191862+00:00",
+      "previous": {
+        "blockers": [
+          "playclusterrush.com 一年期 US$9.08 订单等待用户购买/条款确认，尚未付款或注册"
+        ],
+        "development": {
+          "implementationPushed": true,
+          "ownerReleaseApproved": true,
+          "pushRecordedAt": "2026-10-25T03:31:08.140228+00:00",
+          "recordedHead": "3ee20ab4330e785b2c3e642d805b4295a5f90757",
+          "state": "deployed",
+          "thirdPartyEmbeddingPermission": "unconfirmed",
+          "vercelRelease": {
+            "branch": "main",
+            "customDomain": null,
+            "deploymentId": "dpl_9XrPiveMryPL1FjjVB4gaw2TWdyt",
+            "evidence": "deployments/2026-10-25-two-game-release.md",
+            "initialRelease": {
+              "deploymentId": "dpl_75XjLSFqrhWEbCpiS9jeKrhDsABN",
+              "sourceCommit": "c6216e4af040f6de335d5b36c29c8e4d3d9af19b"
+            },
+            "projectId": "prj_S11s0HbRdKMAiWjAdOkKE438olI8",
+            "projectName": "gamehubs-cluster-rush",
+            "sourceCommit": "3ee20ab4330e785b2c3e642d805b4295a5f90757",
+            "state": "READY",
+            "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+          }
+        },
+        "id": "cluster-rush",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-7a90cffd5dc57e8ea03b",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "cluster rush"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8561f02f94737b73c1f3",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush online"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8b1cbf6f8286e0c25898",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush controls"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-613126c4fc9967040108",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush not loading"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Cluster Rush",
+        "nextAction": "用户确认 Spaceship 域名订单后完成付款/注册，再绑定 playclusterrush.com、设置 SITE_ORIGIN 并重部署验收。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "历史差异 sourceDirectory: matrix=games/cluster-rush; registry=.；源码入口采用最新仓库登记。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25用户明确解除此前发布暂缓并要求 Vercel 部署及匹配 Spaceship 域名。本次已完成独立 Git 生产 READY 部署；站主发布批准与第三方许可分开，第三方嵌入许可仍未确认。",
+          "本轮 Edge 冒烟验收：初次来源加载较慢，重载后进入关卡菜单并启动首关，出现正常失败/重试画面；未声明全关卡或触控验收。默认域保持 noindex。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "pending",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/cluster-rush",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gamehubs-cluster-rush"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#cluster-rush"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "用户后续明确发布授权、源码版本、Vercel READY、DNS/HTTPS/浏览器实测与待确认域名订单",
+            "path": "deployments/2026-10-25-two-game-release.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://gamehubs-cluster-rush.vercel.app/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T03:29:32.419761+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "本机独立源码 SHA、Vercel 生产 READY、公开 HTTPS/页面资源及浏览器游戏冒烟实测；当前仅默认 Vercel 域；候选独立域名尚未付款/注册。完整游玩、真机、性能、GSC和实际收录未验收。"
+        }
+      },
+      "previousRevision": "0c3ab2ed3d2bf7d0c6c6a073daf3b2dbc5a70da8842694f71eae300ac742fbfd"
+    },
+    {
+      "actor": "codex-ai:user-requested-cluster-online-address",
+      "at": "2026-10-25T04:32:26.619752+00:00",
+      "previous": {
+        "blockers": [],
+        "development": {
+          "domainDecision": {
+            "activeUrl": "https://gamehubs-cluster-rush.vercel.app/",
+            "candidate": "playclusterrush.com",
+            "decision": "defer-purchase-keep-vercel-domain",
+            "purchased": false,
+            "recordedAt": "2026-10-25T04:06:57.099977+00:00"
+          },
+          "implementationPushed": true,
+          "ownerReleaseApproved": true,
+          "pushRecordedAt": "2026-10-25T03:31:08.140228+00:00",
+          "recordedHead": "3ee20ab4330e785b2c3e642d805b4295a5f90757",
+          "state": "deployed",
+          "thirdPartyEmbeddingPermission": "unconfirmed",
+          "vercelRelease": {
+            "branch": "main",
+            "customDomain": null,
+            "deploymentId": "dpl_9XrPiveMryPL1FjjVB4gaw2TWdyt",
+            "evidence": "deployments/2026-10-25-two-game-release.md",
+            "initialRelease": {
+              "deploymentId": "dpl_75XjLSFqrhWEbCpiS9jeKrhDsABN",
+              "sourceCommit": "c6216e4af040f6de335d5b36c29c8e4d3d9af19b"
+            },
+            "projectId": "prj_S11s0HbRdKMAiWjAdOkKE438olI8",
+            "projectName": "gamehubs-cluster-rush",
+            "sourceCommit": "3ee20ab4330e785b2c3e642d805b4295a5f90757",
+            "state": "READY",
+            "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+          }
+        },
+        "id": "cluster-rush",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-7a90cffd5dc57e8ea03b",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "cluster rush"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8561f02f94737b73c1f3",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush online"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8b1cbf6f8286e0c25898",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush controls"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-613126c4fc9967040108",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush not loading"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Cluster Rush",
+        "nextAction": "按用户决定保留 https://gamehubs-cluster-rush.vercel.app/；暂不购买或绑定独立域名。后续按明确任务处理完整游玩、真机及性能验收。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "历史差异 sourceDirectory: matrix=games/cluster-rush; registry=.；源码入口采用最新仓库登记。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25用户明确解除此前发布暂缓并要求 Vercel 部署及匹配 Spaceship 域名。本次已完成独立 Git 生产 READY 部署；站主发布批准与第三方许可分开，第三方嵌入许可仍未确认。",
+          "本轮 Edge 冒烟验收：初次来源加载较慢，重载后进入关卡菜单并启动首关，出现正常失败/重试画面；未声明全关卡或触控验收。默认域保持 noindex。",
+          "2026-10-25用户明确选择“暂不购买，保留 Vercel 地址”。playclusterrush.com 报价不转成购买任务；未付款、未注册，独立域名不再作为当前待处理阻塞。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "pending",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/cluster-rush",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gamehubs-cluster-rush"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#cluster-rush"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "用户后续明确发布授权、源码版本、Vercel READY、DNS/HTTPS/浏览器实测与待确认域名订单",
+            "path": "deployments/2026-10-25-two-game-release.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://gamehubs-cluster-rush.vercel.app/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T03:29:32.419761+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "本机独立源码 SHA、Vercel 生产 READY、公开 HTTPS/页面资源及浏览器游戏冒烟实测；当前仅默认 Vercel 域；候选独立域名尚未付款/注册。完整游玩、真机、性能、GSC和实际收录未验收。"
+        }
+      },
+      "previousRevision": "0da8a0a3a418d1ae09a4260db63840744e89ac452633f76e71596b747d77d2d3"
+    },
+    {
+      "actor": "ai-owner-authorized-analytics-rollout",
+      "at": "2026-10-25T05:27:49.031070+00:00",
+      "previous": {
+        "blockers": [],
+        "development": {
+          "domainDecision": {
+            "activeUrl": "https://playclusterrush.online/",
+            "decision": "owner-connected-online-domain",
+            "domain": "playclusterrush.online",
+            "recordedAt": "2026-10-25T04:32:26.521844+00:00",
+            "verification": "Vercel project domain verified=true; DNS misconfigured=false; HTTPS and www 301 verified"
+          },
+          "implementationPushed": true,
+          "ownerReleaseApproved": true,
+          "pushRecordedAt": "2026-10-25T03:31:08.140228+00:00",
+          "recordedHead": "3ee20ab4330e785b2c3e642d805b4295a5f90757",
+          "state": "deployed",
+          "thirdPartyEmbeddingPermission": "unconfirmed",
+          "vercelRelease": {
+            "branch": "main",
+            "customDomain": "playclusterrush.online",
+            "deploymentId": "dpl_9XrPiveMryPL1FjjVB4gaw2TWdyt",
+            "evidence": "deployments/2026-10-25-two-game-release.md",
+            "initialRelease": {
+              "deploymentId": "dpl_75XjLSFqrhWEbCpiS9jeKrhDsABN",
+              "sourceCommit": "c6216e4af040f6de335d5b36c29c8e4d3d9af19b"
+            },
+            "projectId": "prj_S11s0HbRdKMAiWjAdOkKE438olI8",
+            "projectName": "gamehubs-cluster-rush",
+            "sourceCommit": "3ee20ab4330e785b2c3e642d805b4295a5f90757",
+            "state": "READY",
+            "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+          }
+        },
+        "id": "cluster-rush",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-7a90cffd5dc57e8ea03b",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "cluster rush"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8561f02f94737b73c1f3",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush online"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8b1cbf6f8286e0c25898",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush controls"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-613126c4fc9967040108",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush not loading"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Cluster Rush",
+        "nextAction": "使用已核验的 playclusterrush.online；当前仍为noindex且canonical未配置，后续按明确SEO/验收范围处理。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "历史差异 sourceDirectory: matrix=games/cluster-rush; registry=.；源码入口采用最新仓库登记。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25用户明确解除此前发布暂缓并要求 Vercel 部署及匹配 Spaceship 域名。本次已完成独立 Git 生产 READY 部署；站主发布批准与第三方许可分开，第三方嵌入许可仍未确认。",
+          "本轮 Edge 冒烟验收：初次来源加载较慢，重载后进入关卡菜单并启动首关，出现正常失败/重试画面；未声明全关卡或触控验收。默认域保持 noindex。",
+          "2026-10-25用户明确选择“暂不购买，保留 Vercel 地址”。playclusterrush.com 报价不转成购买任务；未付款、未注册，独立域名不再作为当前待处理阻塞。",
+          "2026-10-25用户自行处理后，实际已绑定域名为 playclusterrush.online。本轮Vercel域名记录与DNS回读、HTTPS及www 301共12项HTTP检查通过；按请求更新工作台。当前仍noindex，无正式canonical。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "pending",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/cluster-rush",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gamehubs-cluster-rush"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#cluster-rush"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "用户后续明确发布授权、源码版本、Vercel READY、DNS/HTTPS/浏览器实测与待确认域名订单",
+            "path": "deployments/2026-10-25-two-game-release.md"
+          },
+          {
+            "note": "用户新online域名的正常TLS、页面资源与www301跳转核验",
+            "path": "deployments/evidence/2026-10-25-two-game-release/cluster-rush-online-http.json"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": "https://gamehubs-cluster-rush.vercel.app/",
+          "production": "https://playclusterrush.online/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T04:32:26.521844+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "本轮仅追加正式online域名回读与12项HTTP检查；DNS及HTTPS已通过。先前游戏冒烟保留，完整游玩/真机/性能仍待验收。"
+        }
+      },
+      "previousRevision": "ba553d856a445a12ed6387ef89c4f5cab84ca3b8b2da05b2504f75d6cac5e87d"
+    },
+    {
+      "actor": "ai-reconcile-current-canonical-note",
+      "at": "2026-10-25T05:32:11.300004+00:00",
+      "previous": {
+        "blockers": [],
+        "development": {
+          "domainConfiguration": {
+            "canonicalVerified": true,
+            "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+            "customDomain": "playclusterrush.online",
+            "evidence": [
+              "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+            ],
+            "httpsVerified": true,
+            "pathAndQueryPreserved": true,
+            "primaryOrigin": "https://playclusterrush.online",
+            "projectBindingVerified": true,
+            "redirectStatusCode": 301,
+            "wwwRedirectTo": "https://playclusterrush.online/"
+          },
+          "domainDecision": {
+            "activeUrl": "https://playclusterrush.online/",
+            "decision": "owner-connected-online-domain",
+            "domain": "playclusterrush.online",
+            "recordedAt": "2026-10-25T04:32:26.521844+00:00",
+            "verification": "Vercel project domain verified=true; DNS misconfigured=false; HTTPS and www 301 verified"
+          },
+          "implementationPushed": true,
+          "ownerReleaseApproved": true,
+          "pushRecordedAt": "2026-10-25T05:27:45.967795+00:00",
+          "recordedHead": "d13c6efb129d218726234884775abd07fa510d31",
+          "state": "deployed",
+          "thirdPartyEmbeddingPermission": "unconfirmed",
+          "vercelRelease": {
+            "branch": "main",
+            "customDomain": "playclusterrush.online",
+            "deploymentId": "dpl_qeRRxNUgPPCpAnTdHMBUCe2681kA",
+            "deploymentUrl": "gamehubs-cluster-rush-8bntp6zfb-gx03410-8651s-projects.vercel.app",
+            "evidence": "deployments/2026-10-25-portfolio-analytics.md",
+            "initialRelease": {
+              "deploymentId": "dpl_75XjLSFqrhWEbCpiS9jeKrhDsABN",
+              "sourceCommit": "c6216e4af040f6de335d5b36c29c8e4d3d9af19b"
+            },
+            "projectId": "prj_S11s0HbRdKMAiWjAdOkKE438olI8",
+            "projectName": "gamehubs-cluster-rush",
+            "sourceCommit": "d13c6efb129d218726234884775abd07fa510d31",
+            "state": "READY",
+            "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+          },
+          "webAnalytics": {
+            "analyticsId": "EaAEXU5CbrL5iFCe5KAsuORy6",
+            "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+            "clientIntegrated": true,
+            "dashboardReceived": true,
+            "evidence": [
+              "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+            ],
+            "integrationMethod": "official-static-html-script",
+            "pageviewStatus": 200,
+            "pageviewVerified": true,
+            "projectEnabled": true,
+            "provider": "Vercel Web Analytics",
+            "queryAndHashFiltered": true,
+            "receiptSource": "Vercel project.webAnalytics.hasData=true",
+            "sdkInstalled": false,
+            "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+            "sdkVersion": null
+          }
+        },
+        "id": "cluster-rush",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-7a90cffd5dc57e8ea03b",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "cluster rush"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8561f02f94737b73c1f3",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush online"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8b1cbf6f8286e0c25898",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush controls"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-613126c4fc9967040108",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush not loading"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Cluster Rush",
+        "nextAction": "playclusterrush.online已配apex canonical/www301与Analytics，保持noindex；后续单独完成完整游玩/真机/性能及第三方许可核实，再决定允许索引。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "历史差异 sourceDirectory: matrix=games/cluster-rush; registry=.；源码入口采用最新仓库登记。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25用户明确解除此前发布暂缓并要求 Vercel 部署及匹配 Spaceship 域名。本次已完成独立 Git 生产 READY 部署；站主发布批准与第三方许可分开，第三方嵌入许可仍未确认。",
+          "本轮 Edge 冒烟验收：初次来源加载较慢，重载后进入关卡菜单并启动首关，出现正常失败/重试画面；未声明全关卡或触控验收。默认域保持 noindex。",
+          "2026-10-25用户明确选择“暂不购买，保留 Vercel 地址”。playclusterrush.com 报价不转成购买任务；未付款、未注册，独立域名不再作为当前待处理阻塞。",
+          "2026-10-25用户自行处理后，实际已绑定域名为 playclusterrush.online。本轮Vercel域名记录与DNS回读、HTTPS及www 301共12项HTTP检查通过；按请求更新工作台。当前仍noindex，无正式canonical。",
+          "2026-10-25：Vercel Web Analytics已接入并开启，真实Chrome浏览记录请求200且后台已收数；独立域名已统一不带www主站，www301跳转。 当前源码与发布证据见 deployments/2026-10-25-portfolio-analytics.md。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "pending",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/cluster-rush",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gamehubs-cluster-rush"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#cluster-rush"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "用户后续明确发布授权、源码版本、Vercel READY、DNS/HTTPS/浏览器实测与待确认域名订单",
+            "path": "deployments/2026-10-25-two-game-release.md"
+          },
+          {
+            "note": "用户新online域名的正常TLS、页面资源与www301跳转核验",
+            "path": "deployments/evidence/2026-10-25-two-game-release/cluster-rush-online-http.json"
+          },
+          {
+            "note": "本轮17站Analytics接入/开启/真实发送/后台收数、独立域名apex与www301验收",
+            "path": "deployments/2026-10-25-portfolio-analytics.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": "https://gamehubs-cluster-rush.vercel.app/",
+          "production": "https://playclusterrush.online/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T05:27:45.967795+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25：独立仓库main与实际Vercel生产READY/SHA一致；Web Analytics客户端/项目开启/真实Chrome POST view 200/后台hasData均通过。已有独立域名apex主站、www301、TLS/路径查询参数/canonical核验通过；8站index与9站noindex实际输出保持。未将完整游戏、真机、性能、许可或搜索收录记为通过。"
+        }
+      },
+      "previousRevision": "89af45cc0ab7ea38853a41e3567ea8c9eead94c52755eb7fa08b479f123095d6"
+    },
+    {
+      "actor": "codex-sync",
+      "actorType": "ai",
+      "at": "2026-10-25T09:41:05.922322+00:00",
+      "localPrevious": {
+        "blockers": [],
+        "development": {
+          "domainConfiguration": {
+            "canonicalVerified": true,
+            "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+            "customDomain": "playclusterrush.online",
+            "evidence": [
+              "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+            ],
+            "httpsVerified": true,
+            "pathAndQueryPreserved": true,
+            "primaryOrigin": "https://playclusterrush.online",
+            "projectBindingVerified": true,
+            "redirectStatusCode": 301,
+            "wwwRedirectTo": "https://playclusterrush.online/"
+          },
+          "domainDecision": {
+            "activeUrl": "https://playclusterrush.online/",
+            "decision": "owner-connected-online-domain",
+            "domain": "playclusterrush.online",
+            "recordedAt": "2026-10-25T04:32:26.521844+00:00",
+            "verification": "Vercel project domain verified=true; DNS misconfigured=false; HTTPS and www 301 verified"
+          },
+          "implementationPushed": true,
+          "ownerReleaseApproved": true,
+          "pushRecordedAt": "2026-10-25T05:27:45.967795+00:00",
+          "recordedHead": "d13c6efb129d218726234884775abd07fa510d31",
+          "state": "deployed",
+          "thirdPartyEmbeddingPermission": "unconfirmed",
+          "vercelRelease": {
+            "branch": "main",
+            "customDomain": "playclusterrush.online",
+            "deploymentId": "dpl_qeRRxNUgPPCpAnTdHMBUCe2681kA",
+            "deploymentUrl": "gamehubs-cluster-rush-8bntp6zfb-gx03410-8651s-projects.vercel.app",
+            "evidence": "deployments/2026-10-25-portfolio-analytics.md",
+            "initialRelease": {
+              "deploymentId": "dpl_75XjLSFqrhWEbCpiS9jeKrhDsABN",
+              "sourceCommit": "c6216e4af040f6de335d5b36c29c8e4d3d9af19b"
+            },
+            "projectId": "prj_S11s0HbRdKMAiWjAdOkKE438olI8",
+            "projectName": "gamehubs-cluster-rush",
+            "sourceCommit": "d13c6efb129d218726234884775abd07fa510d31",
+            "state": "READY",
+            "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+          },
+          "webAnalytics": {
+            "analyticsId": "EaAEXU5CbrL5iFCe5KAsuORy6",
+            "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+            "clientIntegrated": true,
+            "dashboardReceived": true,
+            "evidence": [
+              "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+            ],
+            "integrationMethod": "official-static-html-script",
+            "pageviewStatus": 200,
+            "pageviewVerified": true,
+            "projectEnabled": true,
+            "provider": "Vercel Web Analytics",
+            "queryAndHashFiltered": true,
+            "receiptSource": "Vercel project.webAnalytics.hasData=true",
+            "sdkInstalled": false,
+            "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+            "sdkVersion": null
+          }
+        },
+        "id": "cluster-rush",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-7a90cffd5dc57e8ea03b",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "cluster rush"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8561f02f94737b73c1f3",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush online"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8b1cbf6f8286e0c25898",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush controls"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-613126c4fc9967040108",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush not loading"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Cluster Rush",
+        "nextAction": "playclusterrush.online已配apex canonical/www301与Analytics，保持noindex；后续单独完成完整游玩/真机/性能及第三方许可核实，再决定允许索引。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "历史差异 sourceDirectory: matrix=games/cluster-rush; registry=.；源码入口采用最新仓库登记。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25用户明确解除此前发布暂缓并要求 Vercel 部署及匹配 Spaceship 域名。本次已完成独立 Git 生产 READY 部署；站主发布批准与第三方许可分开，第三方嵌入许可仍未确认。",
+          "本轮 Edge 冒烟验收：初次来源加载较慢，重载后进入关卡菜单并启动首关，出现正常失败/重试画面；未声明全关卡或触控验收。默认域保持 noindex。",
+          "2026-10-25用户明确选择“暂不购买，保留 Vercel 地址”。playclusterrush.com 报价不转成购买任务；未付款、未注册，独立域名不再作为当前待处理阻塞。",
+          "2026-10-25用户自行处理后，实际已绑定域名为 playclusterrush.online。本轮Vercel域名记录与DNS回读、HTTPS及www 301共12项HTTP检查通过；按请求更新工作台。该次核验仍noindex且未配置canonical；后续Analytics改造已补齐apex canonical，索引暂缓保持。",
+          "2026-10-25：Vercel Web Analytics已接入并开启，真实Chrome浏览记录请求200且后台已收数；独立域名已统一不带www主站，www301跳转。 当前源码与发布证据见 deployments/2026-10-25-portfolio-analytics.md。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "pending",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/cluster-rush",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gamehubs-cluster-rush"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#cluster-rush"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "用户后续明确发布授权、源码版本、Vercel READY、DNS/HTTPS/浏览器实测与待确认域名订单",
+            "path": "deployments/2026-10-25-two-game-release.md"
+          },
+          {
+            "note": "用户新online域名的正常TLS、页面资源与www301跳转核验",
+            "path": "deployments/evidence/2026-10-25-two-game-release/cluster-rush-online-http.json"
+          },
+          {
+            "note": "本轮17站Analytics接入/开启/真实发送/后台收数、独立域名apex与www301验收",
+            "path": "deployments/2026-10-25-portfolio-analytics.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": "https://gamehubs-cluster-rush.vercel.app/",
+          "production": "https://playclusterrush.online/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T05:27:45.967795+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25：独立仓库main与实际Vercel生产READY/SHA一致；Web Analytics客户端/项目开启/真实Chrome POST view 200/后台hasData均通过。已有独立域名apex主站、www301、TLS/路径查询参数/canonical核验通过；8站index与9站noindex实际输出保持。未将完整游戏、真机、性能、许可或搜索收录记为通过。"
+        }
+      },
+      "localRevision": "e2937f7469845b7eeb65fae91ed8646db9b8738f783852f7ea9c3c06a0bd91cf",
+      "previous": {
+        "blockers": [
+          "等待嵌入许可与域名决定"
+        ],
+        "createdAt": "2026-10-24",
+        "id": "cluster-rush",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-7165b3fd3f5acf81bd14",
+            "language": "en",
+            "page": "/",
+            "poolLinked": true,
+            "role": "primary",
+            "term": "cluster rush"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8561f02f94737b73c1f3",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush online"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8b1cbf6f8286e0c25898",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush controls"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-613126c4fc9967040108",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush not loading"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Cluster Rush",
+        "nextAction": "Confirm embedding rights, choose and own a domain, then verify production loading, real devices and performance before publication.",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "历史差异 sourceDirectory: matrix=games/cluster-rush; registry=.；源码入口采用最新仓库登记。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。"
+        ],
+        "release": {
+          "deployment": "not_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/cluster-rush",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gamehubs-cluster-rush"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#cluster-rush"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "恢复导入时遗漏的明确createdAt：2026-10-24；没有用部署/研究/核验时间替代",
+            "path": "data/migration/source-matrix-sites.json#cluster-rush"
+          },
+          {
+            "note": "旧站主词纳入统一词池；US/en由本轮截图数据库与查询参数明确，旧市场/映射保留在历史",
+            "path": "research/2026-10-25-mac-site-keyword-consistency-004351b6cfaf/README.md"
+          }
+        ],
+        "stage": "blocked",
+        "urls": {
+          "preview": null,
+          "production": null
+        },
+        "verification": {
+          "recheckedAt": null,
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "历史记录导入；未进行本次实时核验。"
+        }
+      },
+      "previousRevision": "967d6da42663f2cfe47a94afef8caf200f4399e50ae72058964641ab0a12bb68",
+      "reason": "Pull latest main while retaining local deployment records and remote primary-keyword/date enrichment; preserve both histories.",
+      "upstreamCommit": "8a42a11c0af16434a3c1ed2b48acca0198508b7f"
     }
   ],
   "id": "cluster-rush",
@@ -350,18 +1549,23 @@
   ],
   "legacyGroup": "games",
   "name": "Cluster Rush",
-  "nextAction": "Confirm embedding rights, choose and own a domain, then verify production loading, real devices and performance before publication.",
+  "nextAction": "playclusterrush.online已配apex canonical/www301与Analytics，保持noindex；后续单独完成完整游玩/真机/性能及第三方许可核实，再决定允许索引。",
   "notes": [
     "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
     "原设备工作路径保留在来源快照，不能当作本机可用路径。",
     "历史差异 sourceDirectory: matrix=games/cluster-rush; registry=.；源码入口采用最新仓库登记。",
     "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
     "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
-    "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。"
+    "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。",
+    "2026-10-25用户明确解除此前发布暂缓并要求 Vercel 部署及匹配 Spaceship 域名。本次已完成独立 Git 生产 READY 部署；站主发布批准与第三方许可分开，第三方嵌入许可仍未确认。",
+    "本轮 Edge 冒烟验收：初次来源加载较慢，重载后进入关卡菜单并启动首关，出现正常失败/重试画面；未声明全关卡或触控验收。默认域保持 noindex。",
+    "2026-10-25用户明确选择“暂不购买，保留 Vercel 地址”。playclusterrush.com 报价不转成购买任务；未付款、未注册，独立域名不再作为当前待处理阻塞。",
+    "2026-10-25用户自行处理后，实际已绑定域名为 playclusterrush.online。本轮Vercel域名记录与DNS回读、HTTPS及www 301共12项HTTP检查通过；按请求更新工作台。该次核验仍noindex且未配置canonical；后续Analytics改造已补齐apex canonical，索引暂缓保持。",
+    "2026-10-25：Vercel Web Analytics已接入并开启，真实Chrome浏览记录请求200且后台已收数；独立域名已统一不带www主站，www301跳转。 当前源码与发布证据见 deployments/2026-10-25-portfolio-analytics.md。"
   ],
   "release": {
-    "deployment": "not_deployed",
-    "gameplayAcceptance": "unknown",
+    "deployment": "recorded_deployed",
+    "gameplayAcceptance": "pending",
     "indexingPermission": "hold"
   },
   "schemaVersion": 1,
@@ -400,16 +1604,28 @@
     {
       "note": "旧站主词纳入统一词池；US/en由本轮截图数据库与查询参数明确，旧市场/映射保留在历史",
       "path": "research/2026-10-25-mac-site-keyword-consistency-004351b6cfaf/README.md"
+    },
+    {
+      "note": "用户后续明确发布授权、源码版本、Vercel READY、DNS/HTTPS/浏览器实测与待确认域名订单",
+      "path": "deployments/2026-10-25-two-game-release.md"
+    },
+    {
+      "note": "用户新online域名的正常TLS、页面资源与www301跳转核验",
+      "path": "deployments/evidence/2026-10-25-two-game-release/cluster-rush-online-http.json"
+    },
+    {
+      "note": "本轮17站Analytics接入/开启/真实发送/后台收数、独立域名apex与www301验收",
+      "path": "deployments/2026-10-25-portfolio-analytics.md"
     }
   ],
-  "stage": "blocked",
+  "stage": "deployed",
   "urls": {
-    "preview": null,
-    "production": null
+    "preview": "https://gamehubs-cluster-rush.vercel.app/",
+    "production": "https://playclusterrush.online/"
   },
   "verification": {
-    "recheckedAt": null,
+    "recheckedAt": "2026-10-25T05:27:45.967795+00:00",
     "recordedAt": "2026-10-24T05:17:09.386Z",
-    "scope": "历史记录导入；未进行本次实时核验。"
+    "scope": "2026-10-25：独立仓库main与实际Vercel生产READY/SHA一致；Web Analytics客户端/项目开启/真实Chrome POST view 200/后台hasData均通过。已有独立域名apex主站、www301、TLS/路径查询参数/canonical核验通过；8站index与9站noindex实际输出保持。未将完整游戏、真机、性能、许可或搜索收录记为通过。"
   }
 }

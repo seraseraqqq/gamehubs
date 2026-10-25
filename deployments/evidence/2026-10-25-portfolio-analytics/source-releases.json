@@ -1,0 +1,311 @@
+[
+  {
+    "siteId": "block-blast-unblocked",
+    "projectId": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+    "projectName": "block-blast-unblocked",
+    "repository": "https://github.com/seraseraqqq/gameshub-block-blast-unblocked",
+    "head": "12fc14528da097f23af513cbb3c6affe925a3f2f",
+    "files": [
+      "README.md",
+      "index.html",
+      "scripts/build.mjs",
+      "analytics.js"
+    ],
+    "pushed": true,
+    "clean": true
+  },
+  {
+    "siteId": "costcodle",
+    "projectId": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+    "projectName": "costcodle-unlimited",
+    "repository": "https://github.com/seraseraqqq/gameshub-costcodle",
+    "head": "0fe0d68c1989a40aa370c74a5c276264012af061",
+    "files": [
+      "README.md",
+      "index.html",
+      "scripts/build.mjs",
+      "analytics.js"
+    ],
+    "pushed": true,
+    "clean": true
+  },
+  {
+    "siteId": "gulper-io",
+    "projectId": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+    "projectName": "gulperio-game",
+    "repository": "https://github.com/seraseraqqq/gameshub-gulper-io",
+    "head": "b2261def42070882274e12093de85cb4aa2172c9",
+    "files": [
+      "README.md",
+      "index.html",
+      "scripts/build.mjs",
+      "analytics.js"
+    ],
+    "pushed": true,
+    "clean": true
+  },
+  {
+    "siteId": "krillion-unlimited",
+    "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+    "projectName": "gamehubs-summit-unlimited",
+    "repository": "https://github.com/seraseraqqq/gameshub-krillion-unlimited",
+    "head": "91fc881885a24cd0ec3122322347ba1dc5386da8",
+    "files": [
+      "README.md",
+      "index.html",
+      "scripts/build_site.py",
+      "analytics.js"
+    ],
+    "pushed": true,
+    "clean": true
+  },
+  {
+    "siteId": "spacebar-counter",
+    "projectId": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+    "projectName": "gamehubs-spacebar-counter",
+    "repository": "https://github.com/seraseraqqq/gameshub-spacebar-counter",
+    "head": "883bd507b5475959f6d92f03e4ff3cdc37732d95",
+    "files": [
+      "README.md",
+      "index.html",
+      "scripts/build.mjs",
+      "vercel.json",
+      "analytics.js"
+    ],
+    "pushed": true,
+    "clean": true
+  },
+  {
+    "siteId": "2048-cupcakes",
+    "projectId": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+    "projectName": "gamehubs-2048-cupcakes",
+    "repository": "https://github.com/seraseraqqq/gameshub-2048-cupcakes",
+    "head": "d872928507b6b5f8ccfd062c65c7a3f935ce492a",
+    "files": [
+      "README.md",
+      "index.html",
+      "scripts/build.mjs",
+      "vercel.json",
+      "analytics.js"
+    ],
+    "pushed": true,
+    "clean": true
+  },
+  {
+    "siteId": "coreball",
+    "projectId": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
+    "projectName": "gamehubs-coreball",
+    "repository": "https://github.com/seraseraqqq/gameshub-coreball",
+    "head": "f0db273c7ccd24e2a4a445aa89f2693dfaa1f920",
+    "files": [
+      "README.md",
+      "coreball-tips.html",
+      "index.html",
+      "scripts/build.mjs",
+      "analytics.js"
+    ],
+    "pushed": true,
+    "clean": true
+  },
+  {
+    "siteId": "minute-cryptic-unlimited",
+    "projectId": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
+    "projectName": "gamehubs-minute-cryptic-unlimited",
+    "repository": "https://github.com/seraseraqqq/gameshub-minute-cryptic-unlimited",
+    "head": "591ba8347bfeec55279dda52f5e2d64b59415bac",
+    "files": [
+      "README.md",
+      "how-to-solve-cryptic-clues.html",
+      "index.html",
+      "scripts/build.mjs",
+      "analytics.js"
+    ],
+    "pushed": true,
+    "clean": true
+  },
+  {
+    "siteId": "snow-rider-3d-unblocked",
+    "projectId": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+    "projectName": "gamehubs-snow-rider-3d",
+    "repository": "https://github.com/seraseraqqq/gameshub-snow-rider-3d-unblocked",
+    "head": "642f2728442e81b4ee1f919e1c4d19a43eb0a9cd",
+    "files": [
+      ".rankup/INDEX.md",
+      ".rankup/plan.md",
+      "README.md",
+      "about.html",
+      "index.html",
+      "scripts/build.mjs",
+      "snow-rider-3d-controls.html",
+      "analytics.js"
+    ],
+    "pushed": true,
+    "clean": true
+  },
+  {
+    "siteId": "head-soccer-2026",
+    "projectId": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+    "projectName": "gamehubs-head-soccer-2026",
+    "repository": "https://github.com/seraseraqqq/gameshub-head-soccer-2026",
+    "head": "238582e12406e2880011b8dc99a033e34ac9c2b8",
+    "files": [
+      "404.html",
+      "README.md",
+      "about.html",
+      "how-to-play.html",
+      "index.html",
+      "privacy.html",
+      "scripts/build.mjs",
+      "analytics.js"
+    ],
+    "pushed": true,
+    "clean": true
+  },
+  {
+    "siteId": "acceleration-city",
+    "projectId": "prj_9Xu3Dk2dZKyougmAWZyddtI1TsEz",
+    "projectName": "gamehubs-acceleration-city",
+    "repository": "https://github.com/seraseraqqq/gamehubs-acceleration-city",
+    "head": "dd77286748c3ea3ba71fb766a6e2c1f4e6abbc99",
+    "files": [
+      "404.html",
+      "README.md",
+      "about.html",
+      "guide.html",
+      "index.html",
+      "scripts/build.mjs",
+      "scripts/verify.mjs",
+      "analytics.js"
+    ],
+    "pushed": true,
+    "clean": true
+  },
+  {
+    "siteId": "cluster-rush",
+    "projectId": "prj_S11s0HbRdKMAiWjAdOkKE438olI8",
+    "projectName": "gamehubs-cluster-rush",
+    "repository": "https://github.com/seraseraqqq/gamehubs-cluster-rush",
+    "head": "d13c6efb129d218726234884775abd07fa510d31",
+    "files": [
+      ".rankup/INDEX.md",
+      ".rankup/plan.md",
+      "404.html",
+      "README.md",
+      "about.html",
+      "how-to-play.html",
+      "index.html",
+      "not-loading.html",
+      "privacy.html",
+      "scripts/build.mjs",
+      "scripts/check.mjs",
+      "analytics.js"
+    ],
+    "pushed": true,
+    "clean": true
+  },
+  {
+    "siteId": "colordle",
+    "projectId": "prj_MO2mqYcaGJjLqrYaocxZDwpjEmyr",
+    "projectName": "gameshub-colordle",
+    "repository": "https://github.com/seraseraqqq/gameshub-colordle",
+    "head": "00d3cb92c9ec6fa61cf7b940e8d6fb0af4ade129",
+    "files": [
+      ".rankup/INDEX.md",
+      ".rankup/integrations.md",
+      ".rankup/plan.md",
+      "README.md",
+      "apps/web/package.json",
+      "apps/web/src/routes/__root.tsx",
+      "apps/web/src/routes/privacy.tsx",
+      "pnpm-lock.yaml"
+    ],
+    "pushed": true,
+    "clean": true,
+    "initialAnalyticsHead": "8a976583dbd99cf27f94af83fc02bb8b223392e5",
+    "routeFix": "Supply path with route so the SDK emits actual pageview events"
+  },
+  {
+    "siteId": "cutle",
+    "projectId": "prj_GsfEJjROGzjNVTKWZzUIsEMmZl9O",
+    "projectName": "gameshub-cutle",
+    "repository": "https://github.com/seraseraqqq/gameshub-cutle",
+    "head": "45ad74cb27e95662798dcdfcbb56d689faeaeafe",
+    "files": [
+      ".rankup/INDEX.md",
+      ".rankup/integrations.md",
+      ".rankup/plan.md",
+      "README.md",
+      "apps/web/package.json",
+      "apps/web/src/routes/__root.tsx",
+      "apps/web/src/routes/privacy.tsx",
+      "pnpm-lock.yaml"
+    ],
+    "pushed": true,
+    "clean": true,
+    "initialAnalyticsHead": "cf62947966f02429f9480962bc1382efa66a3183",
+    "routeFix": "Supply path with route so the SDK emits actual pageview events"
+  },
+  {
+    "siteId": "metazooa",
+    "projectId": "prj_Jf18eJkWESULNxxU1lkcVl39ii9R",
+    "projectName": "gameshub-metazooa",
+    "repository": "https://github.com/seraseraqqq/gameshub-metazooa",
+    "head": "32c7737666ff41480535ebfae5c194037b0a5fde",
+    "files": [
+      ".rankup/INDEX.md",
+      ".rankup/integrations.md",
+      ".rankup/plan.md",
+      "README.md",
+      "apps/web/package.json",
+      "apps/web/src/routes/__root.tsx",
+      "apps/web/src/routes/privacy.tsx",
+      "pnpm-lock.yaml"
+    ],
+    "pushed": true,
+    "clean": true,
+    "initialAnalyticsHead": "5221fa0512686ac57b7bc59b57e2c335872241da",
+    "routeFix": "Supply path with route so the SDK emits actual pageview events"
+  },
+  {
+    "siteId": "poople",
+    "projectId": "prj_9q0dNtkD2iDZhLYNDV45mdtHR6nz",
+    "projectName": "gameshub-poople",
+    "repository": "https://github.com/seraseraqqq/gameshub-poople",
+    "head": "6d60d527c19cc3232505c80c577d1ed1d0e39530",
+    "files": [
+      ".rankup/INDEX.md",
+      ".rankup/integrations.md",
+      ".rankup/plan.md",
+      "README.md",
+      "apps/web/package.json",
+      "apps/web/src/routes/__root.tsx",
+      "apps/web/src/routes/privacy.tsx",
+      "pnpm-lock.yaml"
+    ],
+    "pushed": true,
+    "clean": true,
+    "initialAnalyticsHead": "450fb8a803aac9b8d9d126cc7cb8fd697f1f35ae",
+    "routeFix": "Supply path with route so the SDK emits actual pageview events"
+  },
+  {
+    "siteId": "travle",
+    "projectId": "prj_eO2dPfqIs1Wx5KPim0I52tlnWlVP",
+    "projectName": "gameshub-travle",
+    "repository": "https://github.com/seraseraqqq/gameshub-travle",
+    "head": "257b1108b8e6fac5cf22223ac84c8670617f211d",
+    "files": [
+      ".rankup/INDEX.md",
+      ".rankup/integrations.md",
+      ".rankup/plan.md",
+      "README.md",
+      "apps/web/package.json",
+      "apps/web/src/routes/__root.tsx",
+      "apps/web/src/routes/privacy.tsx",
+      "pnpm-lock.yaml"
+    ],
+    "pushed": true,
+    "clean": true,
+    "initialAnalyticsHead": "246208806e95a85536edbf9893495ec0c902131b",
+    "routeFix": "Supply path with route so the SDK emits actual pageview events"
+  }
+]

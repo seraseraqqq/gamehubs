@@ -1,0 +1,227 @@
+{
+  "checkedAt": "2026-10-25T04:27:33.883Z",
+  "origin": "https://gameshub-cutle.vercel.app",
+  "checks": [
+    {
+      "url": "https://gameshub-cutle.vercel.app/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Cutle Unlimited – Play the Shape Cutting Game",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/strategy",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Cutle Strategy: Find the Halfway Line",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/how-to-play",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "How to Play Cutle – Rules and Controls",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/about",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "About Cutle Practice",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/privacy",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Privacy and Local Progress",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/credits",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Sources, Data and Credits",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/assets/styles-ByRZZrdf.css",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/css; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/assets/index-DiujDJPS.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/assets/routes-Bpvwiv1k.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/assets/engine-Du1Xarm4.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/favicon.svg",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "image/svg+xml",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/favicon-32.png",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "image/png",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/apple-touch-icon.png",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "image/png",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/site.webmanifest",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/manifest+json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/assets/strategy-Dooq-K6m.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/assets/how-to-play-Dpd-jzFb.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/assets/about-BWB_V_gt.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/assets/privacy-DeSvapwY.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/assets/credits-BZHAbP5x.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/robots.txt",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/plain; charset=utf-8",
+      "body": "User-agent: *\nAllow: /\n",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/sitemap.xml",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/xml",
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"></urlset>",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-cutle.vercel.app/__gamehubs_missing_release_check__",
+      "status": 404,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/plain; charset=utf-8",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limits": [
+    "HTTP and metadata checks do not prove complete game loading or gameplay.",
+    "No search-engine indexing, physical-device or performance acceptance is inferred."
+  ]
+}

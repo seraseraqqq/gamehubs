@@ -1,0 +1,175 @@
+{
+  "scope": "gx03410-8651s-projects",
+  "projects": [
+    {
+      "siteId": "block-blast-unblocked",
+      "projectId": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+      "projectName": "block-blast-unblocked",
+      "repository": "https://github.com/seraseraqqq/gameshub-block-blast-unblocked",
+      "root": "E:/Projects/game-sites/block-blast-unblocked",
+      "origin": "https://playblockblastunblocked.com",
+      "apex": "playblockblastunblocked.com",
+      "react": false
+    },
+    {
+      "siteId": "costcodle",
+      "projectId": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+      "projectName": "costcodle-unlimited",
+      "repository": "https://github.com/seraseraqqq/gameshub-costcodle",
+      "root": "E:/Projects/game-sites/costcodle",
+      "origin": "https://costcodle.cc",
+      "apex": "costcodle.cc",
+      "react": false
+    },
+    {
+      "siteId": "gulper-io",
+      "projectId": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+      "projectName": "gulperio-game",
+      "repository": "https://github.com/seraseraqqq/gameshub-gulper-io",
+      "root": "E:/Projects/game-sites/gulper-io",
+      "origin": "https://gulperio.com",
+      "apex": "gulperio.com",
+      "react": false
+    },
+    {
+      "siteId": "krillion-unlimited",
+      "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+      "projectName": "gamehubs-summit-unlimited",
+      "repository": "https://github.com/seraseraqqq/gameshub-krillion-unlimited",
+      "root": "E:/Projects/game-sites/krillion-unlimited",
+      "origin": "https://krilliononline.com",
+      "apex": "krilliononline.com",
+      "react": false
+    },
+    {
+      "siteId": "spacebar-counter",
+      "projectId": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+      "projectName": "gamehubs-spacebar-counter",
+      "repository": "https://github.com/seraseraqqq/gameshub-spacebar-counter",
+      "root": "E:/Projects/game-sites/spacebar-counter",
+      "origin": "https://spacebarcounter.xyz",
+      "apex": "spacebarcounter.xyz",
+      "react": false
+    },
+    {
+      "siteId": "2048-cupcakes",
+      "projectId": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+      "projectName": "gamehubs-2048-cupcakes",
+      "repository": "https://github.com/seraseraqqq/gameshub-2048-cupcakes",
+      "root": "E:/Projects/game-sites/2048-cupcakes",
+      "origin": "https://2048cupcakes.xyz",
+      "apex": "2048cupcakes.xyz",
+      "react": false
+    },
+    {
+      "siteId": "coreball",
+      "projectId": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
+      "projectName": "gamehubs-coreball",
+      "repository": "https://github.com/seraseraqqq/gameshub-coreball",
+      "root": "E:/Projects/game-sites/coreball",
+      "origin": "https://gamehubs-coreball.vercel.app",
+      "apex": null,
+      "react": false
+    },
+    {
+      "siteId": "minute-cryptic-unlimited",
+      "projectId": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
+      "projectName": "gamehubs-minute-cryptic-unlimited",
+      "repository": "https://github.com/seraseraqqq/gameshub-minute-cryptic-unlimited",
+      "root": "E:/Projects/game-sites/minute-cryptic-unlimited",
+      "origin": "https://gamehubs-minute-cryptic-unlimited.vercel.app",
+      "apex": null,
+      "react": false
+    },
+    {
+      "siteId": "snow-rider-3d-unblocked",
+      "projectId": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+      "projectName": "gamehubs-snow-rider-3d",
+      "repository": "https://github.com/seraseraqqq/gameshub-snow-rider-3d-unblocked",
+      "root": "E:/Projects/game-sites/snow-rider-3d-unblocked",
+      "origin": "https://snowrider3d.top",
+      "apex": "snowrider3d.top",
+      "react": false
+    },
+    {
+      "siteId": "head-soccer-2026",
+      "projectId": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+      "projectName": "gamehubs-head-soccer-2026",
+      "repository": "https://github.com/seraseraqqq/gameshub-head-soccer-2026",
+      "root": "E:/Projects/game-sites/head-soccer-2026",
+      "origin": "https://playheadsoccer.com",
+      "apex": "playheadsoccer.com",
+      "react": false
+    },
+    {
+      "siteId": "acceleration-city",
+      "projectId": "prj_9Xu3Dk2dZKyougmAWZyddtI1TsEz",
+      "projectName": "gamehubs-acceleration-city",
+      "repository": "https://github.com/seraseraqqq/gamehubs-acceleration-city",
+      "root": "E:/Projects/game-sites/acceleration-city",
+      "origin": "https://playaccelerationcity.com",
+      "apex": "playaccelerationcity.com",
+      "react": false
+    },
+    {
+      "siteId": "cluster-rush",
+      "projectId": "prj_S11s0HbRdKMAiWjAdOkKE438olI8",
+      "projectName": "gamehubs-cluster-rush",
+      "repository": "https://github.com/seraseraqqq/gamehubs-cluster-rush",
+      "root": "E:/Projects/game-sites/cluster-rush",
+      "origin": "https://playclusterrush.online",
+      "apex": "playclusterrush.online",
+      "react": false
+    },
+    {
+      "siteId": "colordle",
+      "projectId": "prj_MO2mqYcaGJjLqrYaocxZDwpjEmyr",
+      "projectName": "gameshub-colordle",
+      "repository": "https://github.com/seraseraqqq/gameshub-colordle",
+      "root": "E:/Projects/game-sites/colordle",
+      "origin": "https://gameshub-colordle.vercel.app",
+      "apex": null,
+      "react": true
+    },
+    {
+      "siteId": "cutle",
+      "projectId": "prj_GsfEJjROGzjNVTKWZzUIsEMmZl9O",
+      "projectName": "gameshub-cutle",
+      "repository": "https://github.com/seraseraqqq/gameshub-cutle",
+      "root": "E:/Projects/game-sites/cutle",
+      "origin": "https://gameshub-cutle.vercel.app",
+      "apex": null,
+      "react": true
+    },
+    {
+      "siteId": "metazooa",
+      "projectId": "prj_Jf18eJkWESULNxxU1lkcVl39ii9R",
+      "projectName": "gameshub-metazooa",
+      "repository": "https://github.com/seraseraqqq/gameshub-metazooa",
+      "root": "E:/Projects/game-sites/metazooa",
+      "origin": "https://gameshub-metazooa.vercel.app",
+      "apex": null,
+      "react": true
+    },
+    {
+      "siteId": "poople",
+      "projectId": "prj_9q0dNtkD2iDZhLYNDV45mdtHR6nz",
+      "projectName": "gameshub-poople",
+      "repository": "https://github.com/seraseraqqq/gameshub-poople",
+      "root": "E:/Projects/game-sites/poople",
+      "origin": "https://gameshub-poople.vercel.app",
+      "apex": null,
+      "react": true
+    },
+    {
+      "siteId": "travle",
+      "projectId": "prj_eO2dPfqIs1Wx5KPim0I52tlnWlVP",
+      "projectName": "gameshub-travle",
+      "repository": "https://github.com/seraseraqqq/gameshub-travle",
+      "root": "E:/Projects/game-sites/travle",
+      "origin": "https://gameshub-travle.vercel.app",
+      "apex": null,
+      "react": true
+    }
+  ]
+}

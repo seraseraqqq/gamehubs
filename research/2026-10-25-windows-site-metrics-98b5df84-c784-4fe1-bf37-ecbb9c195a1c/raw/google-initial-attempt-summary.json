@@ -1,0 +1,30 @@
+{
+  "recordedAt": "2026-10-25T10:00:16.296Z",
+  "method": "Summary of the first collectIntitle call returned in tool output; no page-ready wait, no usable count. Original individual raw files retained except first 2048 attempt superseded by subsequent CAPTCHA capture.",
+  "results": [
+    {
+      "id": "2048-cupcakes",
+      "term": "2048 cupcakes",
+      "intitle": null,
+      "status": "unknown"
+    },
+    {
+      "id": "acceleration-city",
+      "term": "acceleration city",
+      "intitle": null,
+      "status": "unknown"
+    },
+    {
+      "id": "block-blast-unblocked",
+      "term": "block blast unblocked",
+      "intitle": null,
+      "status": "unknown"
+    },
+    {
+      "id": "cluster-rush",
+      "term": "cluster rush",
+      "intitle": null,
+      "status": "unknown"
+    }
+  ]
+}

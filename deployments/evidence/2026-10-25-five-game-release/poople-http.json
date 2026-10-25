@@ -1,0 +1,227 @@
+{
+  "checkedAt": "2026-10-25T04:27:41.366Z",
+  "origin": "https://gameshub-poople.vercel.app",
+  "checks": [
+    {
+      "url": "https://gameshub-poople.vercel.app/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Poople Practice – Unlimited Word Ladder Puzzles",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/solver",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Poople Solver – Find a Shortest Word Ladder",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/how-to-play",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "How to Play Poople – Rules and Controls",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/about",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "About Poople Practice",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/privacy",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Privacy and Local Progress",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/credits",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Sources, Data and Credits",
+      "canonical": null,
+      "robots": "noindex,follow",
+      "images": [],
+      "iframes": [],
+      "jsonLd": [],
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/assets/styles-DU3jLwz5.css",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/css; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/assets/index-Do20bw6-.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/assets/routes-C_YCKFZ0.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/assets/engine-B7bgmiwD.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/favicon.svg",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "image/svg+xml",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/favicon-32.png",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "image/png",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/apple-touch-icon.png",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "image/png",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/site.webmanifest",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/manifest+json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/assets/solver-CbW9Vcij.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/assets/how-to-play-ClhPeU_w.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/assets/about-Bw7dSuHe.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/assets/privacy-fYi1CO23.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/assets/credits-CQ65WN0-.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/robots.txt",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/plain; charset=utf-8",
+      "body": "User-agent: *\nAllow: /\n",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/sitemap.xml",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/xml",
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"></urlset>",
+      "passed": true
+    },
+    {
+      "url": "https://gameshub-poople.vercel.app/__gamehubs_missing_release_check__",
+      "status": 404,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/plain; charset=utf-8",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limits": [
+    "HTTP and metadata checks do not prove complete game loading or gameplay.",
+    "No search-engine indexing, physical-device or performance acceptance is inferred."
+  ]
+}

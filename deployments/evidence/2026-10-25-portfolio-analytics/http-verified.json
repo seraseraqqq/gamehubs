@@ -1,0 +1,1014 @@
+{
+  "checkedAt": "2026-10-25T05:20:53.829Z",
+  "results": [
+    {
+      "siteId": "krillion-unlimited",
+      "origin": "https://krilliononline.com",
+      "csp": null,
+      "passed": true,
+      "checks": [
+        {
+          "kind": "homepage",
+          "status": 200,
+          "passed": true,
+          "canonical": "https://krilliononline.com/",
+          "robots": "index,follow,max-image-preview:large"
+        },
+        {
+          "kind": "bootstrap",
+          "status": 200,
+          "sha256": "022f55bf64f73b975864c90b63b46494069522bc3827bda99321c5a799391731",
+          "passed": true
+        },
+        {
+          "kind": "analytics-script",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "robots",
+          "status": 200,
+          "body": "User-agent: *\nAllow: /\n\nSitemap: https://krilliononline.com/sitemap.xml\n",
+          "passed": true
+        },
+        {
+          "kind": "sitemap",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/",
+          "status": 301,
+          "location": "https://krilliononline.com/",
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/domain-check?source=gamehubs",
+          "status": 301,
+          "location": "https://krilliononline.com/domain-check?source=gamehubs",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "siteId": "gulper-io",
+      "origin": "https://gulperio.com",
+      "csp": null,
+      "passed": true,
+      "checks": [
+        {
+          "kind": "homepage",
+          "status": 200,
+          "passed": true,
+          "canonical": "https://gulperio.com/",
+          "robots": "index, follow, max-image-preview:large"
+        },
+        {
+          "kind": "bootstrap",
+          "status": 200,
+          "sha256": "022f55bf64f73b975864c90b63b46494069522bc3827bda99321c5a799391731",
+          "passed": true
+        },
+        {
+          "kind": "analytics-script",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "robots",
+          "status": 200,
+          "body": "User-agent: *\nAllow: /\nSitemap: https://gulperio.com/sitemap.xml\n",
+          "passed": true
+        },
+        {
+          "kind": "sitemap",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/",
+          "status": 301,
+          "location": "https://gulperio.com/",
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/domain-check?source=gamehubs",
+          "status": 301,
+          "location": "https://gulperio.com/domain-check?source=gamehubs",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "siteId": "costcodle",
+      "origin": "https://costcodle.cc",
+      "csp": null,
+      "passed": true,
+      "checks": [
+        {
+          "kind": "homepage",
+          "status": 200,
+          "passed": true,
+          "canonical": "https://costcodle.cc/",
+          "robots": "index, follow, max-image-preview:large"
+        },
+        {
+          "kind": "bootstrap",
+          "status": 200,
+          "sha256": "022f55bf64f73b975864c90b63b46494069522bc3827bda99321c5a799391731",
+          "passed": true
+        },
+        {
+          "kind": "analytics-script",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "robots",
+          "status": 200,
+          "body": "User-agent: *\nAllow: /\nSitemap: https://costcodle.cc/sitemap.xml\n",
+          "passed": true
+        },
+        {
+          "kind": "sitemap",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/",
+          "status": 301,
+          "location": "https://costcodle.cc/",
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/domain-check?source=gamehubs",
+          "status": 301,
+          "location": "https://costcodle.cc/domain-check?source=gamehubs",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "siteId": "block-blast-unblocked",
+      "origin": "https://playblockblastunblocked.com",
+      "csp": null,
+      "passed": true,
+      "checks": [
+        {
+          "kind": "homepage",
+          "status": 200,
+          "passed": true,
+          "canonical": "https://playblockblastunblocked.com/",
+          "robots": "index, follow, max-image-preview:large"
+        },
+        {
+          "kind": "bootstrap",
+          "status": 200,
+          "sha256": "022f55bf64f73b975864c90b63b46494069522bc3827bda99321c5a799391731",
+          "passed": true
+        },
+        {
+          "kind": "analytics-script",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "robots",
+          "status": 200,
+          "body": "User-agent: *\nAllow: /\nSitemap: https://playblockblastunblocked.com/sitemap.xml\n",
+          "passed": true
+        },
+        {
+          "kind": "sitemap",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/",
+          "status": 301,
+          "location": "https://playblockblastunblocked.com/",
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/domain-check?source=gamehubs",
+          "status": 301,
+          "location": "https://playblockblastunblocked.com/domain-check?source=gamehubs",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "siteId": "coreball",
+      "origin": "https://gamehubs-coreball.vercel.app",
+      "csp": null,
+      "passed": true,
+      "checks": [
+        {
+          "kind": "homepage",
+          "status": 200,
+          "passed": true,
+          "canonical": null,
+          "robots": "noindex, nofollow"
+        },
+        {
+          "kind": "page",
+          "route": "/coreball-tips.html",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "bootstrap",
+          "status": 200,
+          "sha256": "022f55bf64f73b975864c90b63b46494069522bc3827bda99321c5a799391731",
+          "passed": true
+        },
+        {
+          "kind": "analytics-script",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "robots",
+          "status": 200,
+          "body": "User-agent: *\nDisallow: /\n",
+          "passed": true
+        },
+        {
+          "kind": "sitemap",
+          "status": 404,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "siteId": "minute-cryptic-unlimited",
+      "origin": "https://gamehubs-minute-cryptic-unlimited.vercel.app",
+      "csp": null,
+      "passed": true,
+      "checks": [
+        {
+          "kind": "homepage",
+          "status": 200,
+          "passed": true,
+          "canonical": null,
+          "robots": "noindex, nofollow"
+        },
+        {
+          "kind": "page",
+          "route": "/how-to-solve-cryptic-clues.html",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "bootstrap",
+          "status": 200,
+          "sha256": "022f55bf64f73b975864c90b63b46494069522bc3827bda99321c5a799391731",
+          "passed": true
+        },
+        {
+          "kind": "analytics-script",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "robots",
+          "status": 200,
+          "body": "User-agent: *\nDisallow: /\n",
+          "passed": true
+        },
+        {
+          "kind": "sitemap",
+          "status": 404,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "siteId": "spacebar-counter",
+      "origin": "https://spacebarcounter.xyz",
+      "csp": null,
+      "passed": true,
+      "checks": [
+        {
+          "kind": "homepage",
+          "status": 200,
+          "passed": true,
+          "canonical": "https://spacebarcounter.xyz/",
+          "robots": "index, follow, max-image-preview:large"
+        },
+        {
+          "kind": "bootstrap",
+          "status": 200,
+          "sha256": "022f55bf64f73b975864c90b63b46494069522bc3827bda99321c5a799391731",
+          "passed": true
+        },
+        {
+          "kind": "analytics-script",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "robots",
+          "status": 200,
+          "body": "User-agent: *\nAllow: /\nSitemap: https://spacebarcounter.xyz/sitemap.xml\n",
+          "passed": true
+        },
+        {
+          "kind": "sitemap",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/",
+          "status": 301,
+          "location": "https://spacebarcounter.xyz/",
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/domain-check?source=gamehubs",
+          "status": 301,
+          "location": "https://spacebarcounter.xyz/domain-check?source=gamehubs",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "siteId": "2048-cupcakes",
+      "origin": "https://2048cupcakes.xyz",
+      "csp": null,
+      "passed": true,
+      "checks": [
+        {
+          "kind": "homepage",
+          "status": 200,
+          "passed": true,
+          "canonical": "https://2048cupcakes.xyz/",
+          "robots": "index, follow, max-image-preview:large"
+        },
+        {
+          "kind": "bootstrap",
+          "status": 200,
+          "sha256": "022f55bf64f73b975864c90b63b46494069522bc3827bda99321c5a799391731",
+          "passed": true
+        },
+        {
+          "kind": "analytics-script",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "robots",
+          "status": 200,
+          "body": "User-agent: *\nAllow: /\nSitemap: https://2048cupcakes.xyz/sitemap.xml\n",
+          "passed": true
+        },
+        {
+          "kind": "sitemap",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/",
+          "status": 301,
+          "location": "https://2048cupcakes.xyz/",
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/domain-check?source=gamehubs",
+          "status": 301,
+          "location": "https://2048cupcakes.xyz/domain-check?source=gamehubs",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "siteId": "snow-rider-3d-unblocked",
+      "origin": "https://snowrider3d.top",
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src https://www.miniplay.com; object-src 'none'; base-uri 'self'; frame-ancestors 'self'",
+      "passed": true,
+      "checks": [
+        {
+          "kind": "homepage",
+          "status": 200,
+          "passed": true,
+          "canonical": "https://snowrider3d.top/",
+          "robots": "noindex, nofollow"
+        },
+        {
+          "kind": "page",
+          "route": "/about.html",
+          "status": 200,
+          "canonical": "https://snowrider3d.top/about.html",
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/snow-rider-3d-controls.html",
+          "status": 200,
+          "canonical": "https://snowrider3d.top/snow-rider-3d-controls.html",
+          "passed": true
+        },
+        {
+          "kind": "bootstrap",
+          "status": 200,
+          "sha256": "022f55bf64f73b975864c90b63b46494069522bc3827bda99321c5a799391731",
+          "passed": true
+        },
+        {
+          "kind": "analytics-script",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "robots",
+          "status": 200,
+          "body": "User-agent: *\nDisallow: /\n",
+          "passed": true
+        },
+        {
+          "kind": "sitemap",
+          "status": 404,
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/",
+          "status": 301,
+          "location": "https://snowrider3d.top/",
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/domain-check?source=gamehubs",
+          "status": 301,
+          "location": "https://snowrider3d.top/domain-check?source=gamehubs",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "siteId": "head-soccer-2026",
+      "origin": "https://playheadsoccer.com",
+      "csp": null,
+      "passed": true,
+      "checks": [
+        {
+          "kind": "homepage",
+          "status": 200,
+          "passed": true,
+          "canonical": "https://playheadsoccer.com/",
+          "robots": "index, follow, max-image-preview:large"
+        },
+        {
+          "kind": "page",
+          "route": "/about.html",
+          "status": 200,
+          "canonical": "https://playheadsoccer.com/about.html",
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/how-to-play.html",
+          "status": 200,
+          "canonical": "https://playheadsoccer.com/how-to-play.html",
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/privacy.html",
+          "status": 200,
+          "canonical": "https://playheadsoccer.com/privacy.html",
+          "passed": true
+        },
+        {
+          "kind": "bootstrap",
+          "status": 200,
+          "sha256": "022f55bf64f73b975864c90b63b46494069522bc3827bda99321c5a799391731",
+          "passed": true
+        },
+        {
+          "kind": "analytics-script",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "robots",
+          "status": 200,
+          "body": "User-agent: *\nAllow: /\nSitemap: https://playheadsoccer.com/sitemap.xml\n",
+          "passed": true
+        },
+        {
+          "kind": "sitemap",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/",
+          "status": 301,
+          "location": "https://playheadsoccer.com/",
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/domain-check?source=gamehubs",
+          "status": 301,
+          "location": "https://playheadsoccer.com/domain-check?source=gamehubs",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "siteId": "acceleration-city",
+      "origin": "https://playaccelerationcity.com",
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; frame-src https://activities.cs2n.org; object-src 'none'; base-uri 'self'; frame-ancestors 'self'",
+      "passed": true,
+      "checks": [
+        {
+          "kind": "homepage",
+          "status": 200,
+          "passed": true,
+          "canonical": "https://playaccelerationcity.com/",
+          "robots": "index, follow, max-image-preview:large"
+        },
+        {
+          "kind": "page",
+          "route": "/about.html",
+          "status": 200,
+          "canonical": "https://playaccelerationcity.com/about.html",
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/guide.html",
+          "status": 200,
+          "canonical": "https://playaccelerationcity.com/guide.html",
+          "passed": true
+        },
+        {
+          "kind": "bootstrap",
+          "status": 200,
+          "sha256": "022f55bf64f73b975864c90b63b46494069522bc3827bda99321c5a799391731",
+          "passed": true
+        },
+        {
+          "kind": "analytics-script",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "robots",
+          "status": 200,
+          "body": "User-agent: *\nAllow: /\nSitemap: https://playaccelerationcity.com/sitemap.xml\n",
+          "passed": true
+        },
+        {
+          "kind": "sitemap",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/",
+          "status": 301,
+          "location": "https://playaccelerationcity.com/",
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/domain-check?source=gamehubs",
+          "status": 301,
+          "location": "https://playaccelerationcity.com/domain-check?source=gamehubs",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "siteId": "cluster-rush",
+      "origin": "https://playclusterrush.online",
+      "csp": null,
+      "passed": true,
+      "checks": [
+        {
+          "kind": "homepage",
+          "status": 200,
+          "passed": true,
+          "canonical": "https://playclusterrush.online/",
+          "robots": "noindex, nofollow"
+        },
+        {
+          "kind": "page",
+          "route": "/about.html",
+          "status": 200,
+          "canonical": "https://playclusterrush.online/about.html",
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/how-to-play.html",
+          "status": 200,
+          "canonical": "https://playclusterrush.online/how-to-play.html",
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/not-loading.html",
+          "status": 200,
+          "canonical": "https://playclusterrush.online/not-loading.html",
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/privacy.html",
+          "status": 200,
+          "canonical": "https://playclusterrush.online/privacy.html",
+          "passed": true
+        },
+        {
+          "kind": "bootstrap",
+          "status": 200,
+          "sha256": "022f55bf64f73b975864c90b63b46494069522bc3827bda99321c5a799391731",
+          "passed": true
+        },
+        {
+          "kind": "analytics-script",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "robots",
+          "status": 200,
+          "body": "User-agent: *\nDisallow: /\n",
+          "passed": true
+        },
+        {
+          "kind": "sitemap",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/",
+          "status": 301,
+          "location": "https://playclusterrush.online/",
+          "passed": true
+        },
+        {
+          "kind": "www-301",
+          "route": "/domain-check?source=gamehubs",
+          "status": 301,
+          "location": "https://playclusterrush.online/domain-check?source=gamehubs",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "siteId": "colordle",
+      "origin": "https://gameshub-colordle.vercel.app",
+      "csp": null,
+      "passed": true,
+      "checks": [
+        {
+          "kind": "homepage",
+          "status": 200,
+          "passed": true,
+          "canonical": null,
+          "robots": "noindex,follow"
+        },
+        {
+          "kind": "page",
+          "route": "/how-to-play",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/about",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/privacy",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/credits",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/color-guide",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "analytics-script",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "robots",
+          "status": 200,
+          "body": "User-agent: *\nAllow: /\n",
+          "passed": true
+        },
+        {
+          "kind": "sitemap",
+          "status": 200,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "siteId": "cutle",
+      "origin": "https://gameshub-cutle.vercel.app",
+      "csp": null,
+      "passed": true,
+      "checks": [
+        {
+          "kind": "homepage",
+          "status": 200,
+          "passed": true,
+          "canonical": null,
+          "robots": "noindex,follow"
+        },
+        {
+          "kind": "page",
+          "route": "/how-to-play",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/about",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/privacy",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/credits",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/strategy",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "analytics-script",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "robots",
+          "status": 200,
+          "body": "User-agent: *\nAllow: /\n",
+          "passed": true
+        },
+        {
+          "kind": "sitemap",
+          "status": 200,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "siteId": "metazooa",
+      "origin": "https://gameshub-metazooa.vercel.app",
+      "csp": null,
+      "passed": true,
+      "checks": [
+        {
+          "kind": "homepage",
+          "status": 200,
+          "passed": true,
+          "canonical": null,
+          "robots": "noindex,follow"
+        },
+        {
+          "kind": "page",
+          "route": "/how-to-play",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/about",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/privacy",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/credits",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/taxonomy-guide",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "analytics-script",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "robots",
+          "status": 200,
+          "body": "User-agent: *\nAllow: /\n",
+          "passed": true
+        },
+        {
+          "kind": "sitemap",
+          "status": 200,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "siteId": "poople",
+      "origin": "https://gameshub-poople.vercel.app",
+      "csp": null,
+      "passed": true,
+      "checks": [
+        {
+          "kind": "homepage",
+          "status": 200,
+          "passed": true,
+          "canonical": null,
+          "robots": "noindex,follow"
+        },
+        {
+          "kind": "page",
+          "route": "/how-to-play",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/about",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/privacy",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/credits",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/solver",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "analytics-script",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "robots",
+          "status": 200,
+          "body": "User-agent: *\nAllow: /\n",
+          "passed": true
+        },
+        {
+          "kind": "sitemap",
+          "status": 200,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "siteId": "travle",
+      "origin": "https://gameshub-travle.vercel.app",
+      "csp": null,
+      "passed": true,
+      "checks": [
+        {
+          "kind": "homepage",
+          "status": 200,
+          "passed": true,
+          "canonical": null,
+          "robots": "noindex,follow"
+        },
+        {
+          "kind": "page",
+          "route": "/how-to-play",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/about",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/privacy",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/credits",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "page",
+          "route": "/strategy",
+          "status": 200,
+          "canonical": null,
+          "passed": true
+        },
+        {
+          "kind": "analytics-script",
+          "status": 200,
+          "passed": true
+        },
+        {
+          "kind": "robots",
+          "status": 200,
+          "body": "User-agent: *\nAllow: /\n",
+          "passed": true
+        },
+        {
+          "kind": "sitemap",
+          "status": 200,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "HTTP proves exports, script delivery and redirects; real browser pageviews and Vercel receipt are recorded separately.",
+    "Gameplay, real-device acceptance and search-engine indexing are not inferred."
+  ]
+}

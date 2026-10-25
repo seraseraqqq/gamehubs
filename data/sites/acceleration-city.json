@@ -1,7 +1,65 @@
 {
-  "blockers": [
-    "等待嵌入许可；用户暂缓发布"
-  ],
+  "blockers": [],
+  "development": {
+    "domainConfiguration": {
+      "canonicalVerified": true,
+      "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+      "customDomain": "playaccelerationcity.com",
+      "evidence": [
+        "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+      ],
+      "httpsVerified": true,
+      "pathAndQueryPreserved": true,
+      "primaryOrigin": "https://playaccelerationcity.com",
+      "projectBindingVerified": true,
+      "redirectStatusCode": 301,
+      "wwwRedirectTo": "https://playaccelerationcity.com/"
+    },
+    "implementationPushed": true,
+    "ownerReleaseApproved": true,
+    "pushRecordedAt": "2026-10-25T05:27:45.967795+00:00",
+    "recordedHead": "dd77286748c3ea3ba71fb766a6e2c1f4e6abbc99",
+    "state": "deployed",
+    "thirdPartyEmbeddingPermission": "unconfirmed",
+    "vercelRelease": {
+      "branch": "main",
+      "customDomain": "playaccelerationcity.com",
+      "deploymentId": "dpl_Mk9s2PHTmJ1j4ShRs4xbKe9NzWvJ",
+      "deploymentUrl": "gamehubs-acceleration-city-9hcdv3giq-gx03410-8651s-projects.vercel.app",
+      "evidence": "deployments/2026-10-25-portfolio-analytics.md",
+      "initialRelease": {
+        "deploymentId": "dpl_kqGMHqqnz3u5nUjbcgs7txH9jSCL",
+        "sourceCommit": "2a68f40ca94fae56b9721e9184c35b5cf56de540"
+      },
+      "projectId": "prj_9Xu3Dk2dZKyougmAWZyddtI1TsEz",
+      "projectName": "gamehubs-acceleration-city",
+      "sourceCommit": "dd77286748c3ea3ba71fb766a6e2c1f4e6abbc99",
+      "state": "READY",
+      "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+    },
+    "webAnalytics": {
+      "analyticsId": "RAf0641Kqp8Qx46UP0uUWXFs0",
+      "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+      "clientIntegrated": true,
+      "dashboardReceived": true,
+      "evidence": [
+        "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+        "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+      ],
+      "integrationMethod": "official-static-html-script",
+      "pageviewStatus": 200,
+      "pageviewVerified": true,
+      "projectEnabled": true,
+      "provider": "Vercel Web Analytics",
+      "queryAndHashFiltered": true,
+      "receiptSource": "Vercel project.webAnalytics.hasData=true",
+      "sdkInstalled": false,
+      "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+      "sdkVersion": null
+    }
+  },
   "history": [
     {
       "actor": "codex-ai:user-authorized-games-removal",
@@ -143,6 +201,612 @@
         }
       },
       "previousRevision": "cf75ad3165625bccbc1207064d2530f2c0fdfc979ddc62502a5d27e78aebfc71"
+    },
+    {
+      "actor": "codex-ai:owner-requested-local-embedding",
+      "at": "2026-10-25T03:14:23.688933+00:00",
+      "previous": {
+        "blockers": [
+          "等待嵌入许可；用户暂缓发布"
+        ],
+        "id": "acceleration-city",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-d59316934af74d730639",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "acceleration city"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Acceleration City",
+        "nextAction": "Owner explicitly deferred publication until game embedding permission is obtained. Do not set GAME_EMBED_LICENSE_CONFIRMED=true.",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "历史差异 sourceDirectory: matrix=games/acceleration-city; registry=.；源码入口采用最新仓库登记。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+        ],
+        "release": {
+          "deployment": "not_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/acceleration-city",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gamehubs-acceleration-city"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#acceleration-city"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          }
+        ],
+        "stage": "blocked",
+        "urls": {
+          "preview": null,
+          "production": null
+        },
+        "verification": {
+          "recheckedAt": null,
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "历史记录导入；未进行本次实时核验。"
+        }
+      },
+      "previousRevision": "cf75ad3165625bccbc1207064d2530f2c0fdfc979ddc62502a5d27e78aebfc71"
+    },
+    {
+      "actor": "codex-ai:explicit-owner-two-game-release",
+      "at": "2026-10-25T03:29:32.043812+00:00",
+      "previous": {
+        "blockers": [
+          "商业嵌入许可未取得；用户选择暂不申请，当前范围为代码嵌入及本地预览",
+          "正式域名部署、完整游玩与实机验收尚未完成"
+        ],
+        "id": "acceleration-city",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-d59316934af74d730639",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "acceleration city"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Acceleration City",
+        "nextAction": "在本设备打开 http://127.0.0.1:4198/，点击 Play Acceleration City，核验 Unity 菜单、驾驶与 CoBot；发布与索引按后续明确范围处理。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "历史差异 sourceDirectory: matrix=games/acceleration-city; registry=.；源码入口采用最新仓库登记。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25用户后续选择暂不申请许可、先做代码嵌入。原有 app.js 已实现点击加载官方 iframe；本次启动并核验本地预览。此记录不表示权利方授权或已正式发布。"
+        ],
+        "release": {
+          "deployment": "not_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/acceleration-city",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gamehubs-acceleration-city"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#acceleration-city"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "本轮实际验证、用户后续范围和仍未验收事项",
+            "path": "research/2026-10-25-acceleration-city-embedding/README.md"
+          }
+        ],
+        "stage": "building",
+        "urls": {
+          "preview": null,
+          "production": null
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T03:14:23.608108+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25 本机独立仓库及官方来源 HTTP 核验；89 项构建/重载检查通过；本地预览已启动。未验收本轮浏览器内完整游玩、正式域名、移动实机或生产性能。"
+        }
+      },
+      "previousRevision": "7f0a6c5efcd028f8c361ace2d82a458b1c558ec5f8df3d81ae6d6f10a3349097"
+    },
+    {
+      "actor": "codex-ai:verify-final-production-source",
+      "at": "2026-10-25T03:31:07.891786+00:00",
+      "previous": {
+        "blockers": [],
+        "development": {
+          "implementationPushed": true,
+          "ownerReleaseApproved": true,
+          "pushRecordedAt": "2026-10-25T03:29:31.967439+00:00",
+          "recordedHead": "2a68f40ca94fae56b9721e9184c35b5cf56de540",
+          "state": "deployed",
+          "thirdPartyEmbeddingPermission": "unconfirmed",
+          "vercelRelease": {
+            "branch": "main",
+            "customDomain": "playaccelerationcity.com",
+            "deploymentId": "dpl_kqGMHqqnz3u5nUjbcgs7txH9jSCL",
+            "evidence": "deployments/2026-10-25-two-game-release.md",
+            "projectId": "prj_9Xu3Dk2dZKyougmAWZyddtI1TsEz",
+            "projectName": "gamehubs-acceleration-city",
+            "sourceCommit": "2a68f40ca94fae56b9721e9184c35b5cf56de540",
+            "state": "READY",
+            "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+          }
+        },
+        "id": "acceleration-city",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-d59316934af74d730639",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "acceleration city"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Acceleration City",
+        "nextAction": "完成真机、完整游玩及性能验收；GSC 与实际收录单独处理。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "历史差异 sourceDirectory: matrix=games/acceleration-city; registry=.；源码入口采用最新仓库登记。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25用户后续选择暂不申请许可、先做代码嵌入。原有 app.js 已实现点击加载官方 iframe；本次启动并核验本地预览。此记录不表示权利方授权或已正式发布。",
+          "2026-10-25用户明确解除此前发布暂缓并要求 Vercel 部署及匹配 Spaceship 域名。本次已完成独立 Git 生产 READY 部署；站主发布批准与第三方许可分开，第三方嵌入许可仍未确认。",
+          "本轮 Edge 冒烟验收：菜单及驾驶场景已进入，已尝试 W 输入；不等同于完整游玩/手机/性能验收。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "pending",
+          "indexingPermission": "recorded_allowed"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/acceleration-city",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gamehubs-acceleration-city"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#acceleration-city"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "本轮实际验证、用户后续范围和仍未验收事项",
+            "path": "research/2026-10-25-acceleration-city-embedding/README.md"
+          },
+          {
+            "note": "用户后续明确发布授权、源码版本、Vercel READY、DNS/HTTPS/浏览器实测与待确认域名订单",
+            "path": "deployments/2026-10-25-two-game-release.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://playaccelerationcity.com/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T03:29:31.967439+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "本机独立源码 SHA、Vercel 生产 READY、公开 HTTPS/页面资源及浏览器游戏冒烟实测；Spaceship 根域和 www DNS/HTTPS/308 跳转均通过。完整游玩、真机、性能、GSC和实际收录未验收。"
+        }
+      },
+      "previousRevision": "eae2c909a25126e1b0bb1fe1e0016fd16afa8bdc411f0fa476548232f2a228d6"
+    },
+    {
+      "actor": "ai-owner-authorized-analytics-rollout",
+      "at": "2026-10-25T05:27:48.766354+00:00",
+      "previous": {
+        "blockers": [],
+        "development": {
+          "implementationPushed": true,
+          "ownerReleaseApproved": true,
+          "pushRecordedAt": "2026-10-25T03:31:07.813083+00:00",
+          "recordedHead": "3ca08244e464ee03ed3ba5e87e642500fe66b159",
+          "state": "deployed",
+          "thirdPartyEmbeddingPermission": "unconfirmed",
+          "vercelRelease": {
+            "branch": "main",
+            "customDomain": "playaccelerationcity.com",
+            "deploymentId": "dpl_CKb6dzPxG7nx1ih78wkeBmvWtSAG",
+            "evidence": "deployments/2026-10-25-two-game-release.md",
+            "initialRelease": {
+              "deploymentId": "dpl_kqGMHqqnz3u5nUjbcgs7txH9jSCL",
+              "sourceCommit": "2a68f40ca94fae56b9721e9184c35b5cf56de540"
+            },
+            "projectId": "prj_9Xu3Dk2dZKyougmAWZyddtI1TsEz",
+            "projectName": "gamehubs-acceleration-city",
+            "sourceCommit": "3ca08244e464ee03ed3ba5e87e642500fe66b159",
+            "state": "READY",
+            "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+          }
+        },
+        "id": "acceleration-city",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-d59316934af74d730639",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "acceleration city"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Acceleration City",
+        "nextAction": "完成真机、完整游玩及性能验收；GSC 与实际收录单独处理。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "历史差异 sourceDirectory: matrix=games/acceleration-city; registry=.；源码入口采用最新仓库登记。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25用户后续选择暂不申请许可、先做代码嵌入。原有 app.js 已实现点击加载官方 iframe；本次启动并核验本地预览。此记录不表示权利方授权或已正式发布。",
+          "2026-10-25用户明确解除此前发布暂缓并要求 Vercel 部署及匹配 Spaceship 域名。本次已完成独立 Git 生产 READY 部署；站主发布批准与第三方许可分开，第三方嵌入许可仍未确认。",
+          "本轮 Edge 冒烟验收：菜单及驾驶场景已进入，已尝试 W 输入；不等同于完整游玩/手机/性能验收。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "pending",
+          "indexingPermission": "recorded_allowed"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/acceleration-city",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gamehubs-acceleration-city"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#acceleration-city"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "本轮实际验证、用户后续范围和仍未验收事项",
+            "path": "research/2026-10-25-acceleration-city-embedding/README.md"
+          },
+          {
+            "note": "用户后续明确发布授权、源码版本、Vercel READY、DNS/HTTPS/浏览器实测与待确认域名订单",
+            "path": "deployments/2026-10-25-two-game-release.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://playaccelerationcity.com/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T03:29:31.967439+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "本机独立源码 SHA、Vercel 生产 READY、公开 HTTPS/页面资源及浏览器游戏冒烟实测；Spaceship 根域和 www DNS/HTTPS/308 跳转均通过。完整游玩、真机、性能、GSC和实际收录未验收。"
+        }
+      },
+      "previousRevision": "754f5abc4e2ba3c77efa9733d68d19e6f9bc3cc69a7ec1d85178c2250a275e6c"
+    },
+    {
+      "actor": "codex-sync",
+      "actorType": "ai",
+      "at": "2026-10-25T09:41:05.752875+00:00",
+      "localPrevious": {
+        "blockers": [],
+        "development": {
+          "domainConfiguration": {
+            "canonicalVerified": true,
+            "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+            "customDomain": "playaccelerationcity.com",
+            "evidence": [
+              "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+            ],
+            "httpsVerified": true,
+            "pathAndQueryPreserved": true,
+            "primaryOrigin": "https://playaccelerationcity.com",
+            "projectBindingVerified": true,
+            "redirectStatusCode": 301,
+            "wwwRedirectTo": "https://playaccelerationcity.com/"
+          },
+          "implementationPushed": true,
+          "ownerReleaseApproved": true,
+          "pushRecordedAt": "2026-10-25T05:27:45.967795+00:00",
+          "recordedHead": "dd77286748c3ea3ba71fb766a6e2c1f4e6abbc99",
+          "state": "deployed",
+          "thirdPartyEmbeddingPermission": "unconfirmed",
+          "vercelRelease": {
+            "branch": "main",
+            "customDomain": "playaccelerationcity.com",
+            "deploymentId": "dpl_Mk9s2PHTmJ1j4ShRs4xbKe9NzWvJ",
+            "deploymentUrl": "gamehubs-acceleration-city-9hcdv3giq-gx03410-8651s-projects.vercel.app",
+            "evidence": "deployments/2026-10-25-portfolio-analytics.md",
+            "initialRelease": {
+              "deploymentId": "dpl_kqGMHqqnz3u5nUjbcgs7txH9jSCL",
+              "sourceCommit": "2a68f40ca94fae56b9721e9184c35b5cf56de540"
+            },
+            "projectId": "prj_9Xu3Dk2dZKyougmAWZyddtI1TsEz",
+            "projectName": "gamehubs-acceleration-city",
+            "sourceCommit": "dd77286748c3ea3ba71fb766a6e2c1f4e6abbc99",
+            "state": "READY",
+            "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+          },
+          "webAnalytics": {
+            "analyticsId": "RAf0641Kqp8Qx46UP0uUWXFs0",
+            "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+            "clientIntegrated": true,
+            "dashboardReceived": true,
+            "evidence": [
+              "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+              "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+            ],
+            "integrationMethod": "official-static-html-script",
+            "pageviewStatus": 200,
+            "pageviewVerified": true,
+            "projectEnabled": true,
+            "provider": "Vercel Web Analytics",
+            "queryAndHashFiltered": true,
+            "receiptSource": "Vercel project.webAnalytics.hasData=true",
+            "sdkInstalled": false,
+            "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+            "sdkVersion": null
+          }
+        },
+        "id": "acceleration-city",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-d59316934af74d730639",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "acceleration city"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Acceleration City",
+        "nextAction": "完成真机、完整游玩及性能验收；GSC 与实际收录单独处理。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "历史差异 sourceDirectory: matrix=games/acceleration-city; registry=.；源码入口采用最新仓库登记。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25用户后续选择暂不申请许可、先做代码嵌入。原有 app.js 已实现点击加载官方 iframe；本次启动并核验本地预览。此记录不表示权利方授权或已正式发布。",
+          "2026-10-25用户明确解除此前发布暂缓并要求 Vercel 部署及匹配 Spaceship 域名。本次已完成独立 Git 生产 READY 部署；站主发布批准与第三方许可分开，第三方嵌入许可仍未确认。",
+          "本轮 Edge 冒烟验收：菜单及驾驶场景已进入，已尝试 W 输入；不等同于完整游玩/手机/性能验收。",
+          "2026-10-25：Vercel Web Analytics已接入并开启，真实Chrome浏览记录请求200且后台已收数；独立域名已统一不带www主站，www301跳转。 当前源码与发布证据见 deployments/2026-10-25-portfolio-analytics.md。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "pending",
+          "indexingPermission": "recorded_allowed"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/acceleration-city",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gamehubs-acceleration-city"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#acceleration-city"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "本轮实际验证、用户后续范围和仍未验收事项",
+            "path": "research/2026-10-25-acceleration-city-embedding/README.md"
+          },
+          {
+            "note": "用户后续明确发布授权、源码版本、Vercel READY、DNS/HTTPS/浏览器实测与待确认域名订单",
+            "path": "deployments/2026-10-25-two-game-release.md"
+          },
+          {
+            "note": "本轮17站Analytics接入/开启/真实发送/后台收数、独立域名apex与www301验收",
+            "path": "deployments/2026-10-25-portfolio-analytics.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://playaccelerationcity.com/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T05:27:45.967795+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25：独立仓库main与实际Vercel生产READY/SHA一致；Web Analytics客户端/项目开启/真实Chrome POST view 200/后台hasData均通过。已有独立域名apex主站、www301、TLS/路径查询参数/canonical核验通过；8站index与9站noindex实际输出保持。未将完整游戏、真机、性能、许可或搜索收录记为通过。"
+        }
+      },
+      "localRevision": "95cf2834f21b06f7e0c1eda095d8a2f9e8056809f9e1558caec8cd363d0a7d39",
+      "previous": {
+        "blockers": [
+          "等待嵌入许可；用户暂缓发布"
+        ],
+        "id": "acceleration-city",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-c35b41413e1a0dce7da9",
+            "language": "en",
+            "page": "/",
+            "poolLinked": true,
+            "role": "primary",
+            "term": "acceleration city"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Acceleration City",
+        "nextAction": "Owner explicitly deferred publication until game embedding permission is obtained. Do not set GAME_EMBED_LICENSE_CONFIRMED=true.",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "历史差异 sourceDirectory: matrix=games/acceleration-city; registry=.；源码入口采用最新仓库登记。",
+          "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+          "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。"
+        ],
+        "release": {
+          "deployment": "not_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "archivedSnapshots": [
+            {
+              "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+              "directory": "games/acceleration-city",
+              "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+              "removedAt": "2026-10-25T02:55:08.814269+00:00",
+              "repository": "https://github.com/seraseraqqq/gamehubs"
+            }
+          ],
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gamehubs-acceleration-city"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#acceleration-city"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+            "path": "docs/history/2026-10-25-management-only-cleanup.json"
+          },
+          {
+            "note": "旧站主词纳入统一词池；US/en由本轮截图数据库与查询参数明确，旧市场/映射保留在历史",
+            "path": "research/2026-10-25-mac-site-keyword-consistency-004351b6cfaf/README.md"
+          }
+        ],
+        "stage": "blocked",
+        "urls": {
+          "preview": null,
+          "production": null
+        },
+        "verification": {
+          "recheckedAt": null,
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "历史记录导入；未进行本次实时核验。"
+        }
+      },
+      "previousRevision": "987b84e1e16777cb950ef24837a49fea0fcb65b642b72434bca8bc49df9974f6",
+      "reason": "Pull latest main while retaining local deployment records and remote primary-keyword/date enrichment; preserve both histories.",
+      "upstreamCommit": "8a42a11c0af16434a3c1ed2b48acca0198508b7f"
     }
   ],
   "id": "acceleration-city",
@@ -159,19 +823,23 @@
   ],
   "legacyGroup": "games",
   "name": "Acceleration City",
-  "nextAction": "Owner explicitly deferred publication until game embedding permission is obtained. Do not set GAME_EMBED_LICENSE_CONFIRMED=true.",
+  "nextAction": "完成真机、完整游玩及性能验收；GSC 与实际收录单独处理。",
   "notes": [
     "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
     "原设备工作路径保留在来源快照，不能当作本机可用路径。",
     "历史差异 sourceDirectory: matrix=games/acceleration-city; registry=.；源码入口采用最新仓库登记。",
     "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
     "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
-    "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。"
+    "2026-10-25补录本站主词并关联统一词池；Volume/KD来自用户截图，intitle来自本轮证据。缺失字段保持未知，不引用同义词指标。",
+    "2026-10-25用户后续选择暂不申请许可、先做代码嵌入。原有 app.js 已实现点击加载官方 iframe；本次启动并核验本地预览。此记录不表示权利方授权或已正式发布。",
+    "2026-10-25用户明确解除此前发布暂缓并要求 Vercel 部署及匹配 Spaceship 域名。本次已完成独立 Git 生产 READY 部署；站主发布批准与第三方许可分开，第三方嵌入许可仍未确认。",
+    "本轮 Edge 冒烟验收：菜单及驾驶场景已进入，已尝试 W 输入；不等同于完整游玩/手机/性能验收。",
+    "2026-10-25：Vercel Web Analytics已接入并开启，真实Chrome浏览记录请求200且后台已收数；独立域名已统一不带www主站，www301跳转。 当前源码与发布证据见 deployments/2026-10-25-portfolio-analytics.md。"
   ],
   "release": {
-    "deployment": "not_deployed",
-    "gameplayAcceptance": "unknown",
-    "indexingPermission": "hold"
+    "deployment": "recorded_deployed",
+    "gameplayAcceptance": "pending",
+    "indexingPermission": "recorded_allowed"
   },
   "schemaVersion": 1,
   "source": {
@@ -205,16 +873,28 @@
     {
       "note": "旧站主词纳入统一词池；US/en由本轮截图数据库与查询参数明确，旧市场/映射保留在历史",
       "path": "research/2026-10-25-mac-site-keyword-consistency-004351b6cfaf/README.md"
+    },
+    {
+      "note": "本轮实际验证、用户后续范围和仍未验收事项",
+      "path": "research/2026-10-25-acceleration-city-embedding/README.md"
+    },
+    {
+      "note": "用户后续明确发布授权、源码版本、Vercel READY、DNS/HTTPS/浏览器实测与待确认域名订单",
+      "path": "deployments/2026-10-25-two-game-release.md"
+    },
+    {
+      "note": "本轮17站Analytics接入/开启/真实发送/后台收数、独立域名apex与www301验收",
+      "path": "deployments/2026-10-25-portfolio-analytics.md"
     }
   ],
-  "stage": "blocked",
+  "stage": "deployed",
   "urls": {
     "preview": null,
-    "production": null
+    "production": "https://playaccelerationcity.com/"
   },
   "verification": {
-    "recheckedAt": null,
+    "recheckedAt": "2026-10-25T05:27:45.967795+00:00",
     "recordedAt": "2026-10-24T05:17:09.386Z",
-    "scope": "历史记录导入；未进行本次实时核验。"
+    "scope": "2026-10-25：独立仓库main与实际Vercel生产READY/SHA一致；Web Analytics客户端/项目开启/真实Chrome POST view 200/后台hasData均通过。已有独立域名apex主站、www301、TLS/路径查询参数/canonical核验通过；8站index与9站noindex实际输出保持。未将完整游戏、真机、性能、许可或搜索收录记为通过。"
   }
 }

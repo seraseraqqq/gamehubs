@@ -1,0 +1,580 @@
+{
+  "terms": [
+    "mr flip",
+    "rocket fortress",
+    "city brawl",
+    "rob brainrot 2",
+    "gpts"
+  ],
+  "url": "https://trends.google.com/trends/explore?geo=US&q=mr%20flip,rocket%20fortress,city%20brawl,rob%20brainrot%202,gpts&hl=en",
+  "observedAt": "2026-10-25T10:15:20.414Z",
+  "country": "US",
+  "language": "en",
+  "timeframe": "Past 12 months",
+  "queryVerified": true,
+  "status": "observed",
+  "partialPolicy": "Drop last row conservatively; partial flag not in DOM.",
+  "related": [
+    {
+      "href": "/trends/explore?q=slope&date=today+12-m&geo=US",
+      "text": "1\nslope\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=cool+math+games&date=today+12-m&geo=US",
+      "text": "2\ncool math games\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=poki&date=today+12-m&geo=US",
+      "text": "3\npoki\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=fortnite&date=today+12-m&geo=US",
+      "text": "4\nfortnite\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=geometry+dash&date=today+12-m&geo=US",
+      "text": "5\ngeometry dash\n+800%"
+    },
+    {
+      "href": "/trends/explore?q=slope&date=today+12-m&geo=US",
+      "text": "1\nslope\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=tap+road&date=today+12-m&geo=US",
+      "text": "2\ntap road\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=az+games&date=today+12-m&geo=US",
+      "text": "1\naz games\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=subway+surfers&date=today+12-m&geo=US",
+      "text": "2\nsubway surfers\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=brawl+stars+tier+list&date=today+12-m&geo=US",
+      "text": "3\nbrawl stars tier list\n+100%"
+    },
+    {
+      "href": "/trends/explore?q=1+games&date=today+12-m&geo=US",
+      "text": "4\n1 games\n+60%"
+    },
+    {
+      "href": "/trends/explore?q=geometry+dash&date=today+12-m&geo=US",
+      "text": "5\ngeometry dash\n+50%"
+    },
+    {
+      "href": "/trends/explore?q=geometry+dash&date=today+12-m&geo=US",
+      "text": "1\ngeometry dash\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=ai+news+today&date=today+12-m&geo=US",
+      "text": "1\nai news today\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=nvidia+news+today&date=today+12-m&geo=US",
+      "text": "2\nnvidia news today\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=artificial+intelligence+news&date=today+12-m&geo=US",
+      "text": "3\nartificial intelligence news\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=technology+news+today&date=today+12-m&geo=US",
+      "text": "4\ntechnology news today\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=chat+gpts+company+nyt&date=today+12-m&geo=US",
+      "text": "5\nchat gpts company nyt\nBreakout"
+    }
+  ],
+  "tables": [
+    [
+      [
+        "x1",
+        "mr flip",
+        "rocket fortress",
+        "city brawl",
+        "rob brainrot 2",
+        "gpts"
+      ],
+      [
+        "Average",
+        "17",
+        "5",
+        "20",
+        "1",
+        "66"
+      ]
+    ],
+    [
+      [
+        "x",
+        "y1",
+        "y2",
+        "y3",
+        "y4",
+        "y5"
+      ],
+      [
+        "‪Oct 19, 2025‬",
+        "26",
+        "13",
+        "5",
+        "0",
+        "45"
+      ],
+      [
+        "‪Oct 26, 2025‬",
+        "25",
+        "15",
+        "6",
+        "0",
+        "63"
+      ],
+      [
+        "‪Nov 2, 2025‬",
+        "26",
+        "16",
+        "8",
+        "0",
+        "82"
+      ],
+      [
+        "‪Nov 9, 2025‬",
+        "26",
+        "14",
+        "6",
+        "0",
+        "80"
+      ],
+      [
+        "‪Nov 16, 2025‬",
+        "31",
+        "16",
+        "10",
+        "0",
+        "63"
+      ],
+      [
+        "‪Nov 23, 2025‬",
+        "13",
+        "6",
+        "16",
+        "0",
+        "54"
+      ],
+      [
+        "‪Nov 30, 2025‬",
+        "27",
+        "11",
+        "35",
+        "0",
+        "70"
+      ],
+      [
+        "‪Dec 7, 2025‬",
+        "27",
+        "12",
+        "44",
+        "0",
+        "68"
+      ],
+      [
+        "‪Dec 14, 2025‬",
+        "33",
+        "11",
+        "41",
+        "0",
+        "81"
+      ],
+      [
+        "‪Dec 21, 2025‬",
+        "10",
+        "0",
+        "14",
+        "0",
+        "68"
+      ],
+      [
+        "‪Dec 28, 2025‬",
+        "7",
+        "0",
+        "12",
+        "0",
+        "70"
+      ],
+      [
+        "‪Jan 4, 2026‬",
+        "22",
+        "7",
+        "17",
+        "0",
+        "75"
+      ],
+      [
+        "‪Jan 11, 2026‬",
+        "24",
+        "6",
+        "28",
+        "0",
+        "75"
+      ],
+      [
+        "‪Jan 18, 2026‬",
+        "22",
+        "7",
+        "28",
+        "0",
+        "86"
+      ],
+      [
+        "‪Jan 25, 2026‬",
+        "24",
+        "6",
+        "27",
+        "0",
+        "98"
+      ],
+      [
+        "‪Feb 1, 2026‬",
+        "26",
+        "9",
+        "28",
+        "0",
+        "91"
+      ],
+      [
+        "‪Feb 8, 2026‬",
+        "25",
+        "6",
+        "30",
+        "9",
+        "88"
+      ],
+      [
+        "‪Feb 15, 2026‬",
+        "19",
+        "4",
+        "23",
+        "4",
+        "97"
+      ],
+      [
+        "‪Feb 22, 2026‬",
+        "25",
+        "7",
+        "36",
+        "8",
+        "94"
+      ],
+      [
+        "‪Mar 1, 2026‬",
+        "14",
+        "8",
+        "33",
+        "6",
+        "100"
+      ],
+      [
+        "‪Mar 8, 2026‬",
+        "22",
+        "9",
+        "35",
+        "6",
+        "83"
+      ],
+      [
+        "‪Mar 15, 2026‬",
+        "17",
+        "6",
+        "26",
+        "6",
+        "90"
+      ],
+      [
+        "‪Mar 22, 2026‬",
+        "20",
+        "8",
+        "24",
+        "5",
+        "87"
+      ],
+      [
+        "‪Mar 29, 2026‬",
+        "21",
+        "8",
+        "25",
+        "6",
+        "74"
+      ],
+      [
+        "‪Apr 5, 2026‬",
+        "17",
+        "4",
+        "24",
+        "0",
+        "86"
+      ],
+      [
+        "‪Apr 12, 2026‬",
+        "21",
+        "7",
+        "22",
+        "0",
+        "65"
+      ],
+      [
+        "‪Apr 19, 2026‬",
+        "23",
+        "8",
+        "33",
+        "8",
+        "82"
+      ],
+      [
+        "‪Apr 26, 2026‬",
+        "27",
+        "5",
+        "25",
+        "4",
+        "70"
+      ],
+      [
+        "‪May 3, 2026‬",
+        "24",
+        "6",
+        "32",
+        "7",
+        "68"
+      ],
+      [
+        "‪May 10, 2026‬",
+        "24",
+        "6",
+        "25",
+        "5",
+        "62"
+      ],
+      [
+        "‪May 17, 2026‬",
+        "20",
+        "5",
+        "26",
+        "3",
+        "78"
+      ],
+      [
+        "‪May 24, 2026‬",
+        "18",
+        "5",
+        "19",
+        "0",
+        "86"
+      ],
+      [
+        "‪May 31, 2026‬",
+        "16",
+        "4",
+        "25",
+        "0",
+        "99"
+      ],
+      [
+        "‪Jun 7, 2026‬",
+        "15",
+        "4",
+        "21",
+        "0",
+        "97"
+      ],
+      [
+        "‪Jun 14, 2026‬",
+        "15",
+        "0",
+        "20",
+        "0",
+        "100"
+      ],
+      [
+        "‪Jun 21, 2026‬",
+        "14",
+        "0",
+        "25",
+        "0",
+        "76"
+      ],
+      [
+        "‪Jun 28, 2026‬",
+        "7",
+        "0",
+        "18",
+        "0",
+        "76"
+      ],
+      [
+        "‪Jul 5, 2026‬",
+        "5",
+        "0",
+        "21",
+        "0",
+        "66"
+      ],
+      [
+        "‪Jul 12, 2026‬",
+        "5",
+        "0",
+        "14",
+        "0",
+        "53"
+      ],
+      [
+        "‪Jul 19, 2026‬",
+        "5",
+        "0",
+        "13",
+        "0",
+        "42"
+      ],
+      [
+        "‪Jul 26, 2026‬",
+        "7",
+        "0",
+        "9",
+        "0",
+        "34"
+      ],
+      [
+        "‪Aug 2, 2026‬",
+        "7",
+        "0",
+        "14",
+        "0",
+        "31"
+      ],
+      [
+        "‪Aug 9, 2026‬",
+        "7",
+        "0",
+        "13",
+        "0",
+        "35"
+      ],
+      [
+        "‪Aug 16, 2026‬",
+        "11",
+        "0",
+        "15",
+        "0",
+        "30"
+      ],
+      [
+        "‪Aug 23, 2026‬",
+        "10",
+        "0",
+        "7",
+        "0",
+        "26"
+      ],
+      [
+        "‪Aug 30, 2026‬",
+        "12",
+        "0",
+        "12",
+        "3",
+        "30"
+      ],
+      [
+        "‪Sep 6, 2026‬",
+        "13",
+        "0",
+        "13",
+        "0",
+        "41"
+      ],
+      [
+        "‪Sep 13, 2026‬",
+        "12",
+        "0",
+        "14",
+        "0",
+        "52"
+      ],
+      [
+        "‪Sep 20, 2026‬",
+        "16",
+        "0",
+        "15",
+        "0",
+        "42"
+      ],
+      [
+        "‪Sep 27, 2026‬",
+        "15",
+        "3",
+        "15",
+        "0",
+        "30"
+      ],
+      [
+        "‪Oct 4, 2026‬",
+        "13",
+        "6",
+        "16",
+        "0",
+        "32"
+      ],
+      [
+        "‪Oct 11, 2026‬",
+        "12",
+        "3",
+        "8",
+        "1",
+        "28"
+      ],
+      [
+        "‪Oct 18, 2026‬",
+        "12",
+        "3",
+        "8",
+        "0",
+        "31"
+      ],
+      [
+        "‪Oct 25, 2026‬",
+        "6",
+        "0",
+        "6",
+        "0",
+        "36"
+      ]
+    ],
+    [
+      [
+        "Term",
+        "Value"
+      ],
+      [
+        "mr flip",
+        "0"
+      ],
+      [
+        "rocket fortress",
+        "0"
+      ],
+      [
+        "city brawl",
+        "0"
+      ],
+      [
+        "rob brainrot 2",
+        "0"
+      ],
+      [
+        "gpts",
+        "100"
+      ]
+    ]
+  ],
+  "visibleText": "Home\nExplore\nTrending Now\nshare\nfeedback\ninfo\nTry the new experience!\nExplore search trends with Gemini. A quick and easy way to find search terms and discover trends.\nGo to new Explore\nclose_24px\n•\nSearch term\n•\nSearch term\n•\nSearch term\n•\nSearch term\n•\nSearch term\nUnited States\nPast 12 months\nAll categories\nWeb Search\nmr flip\nrocket fortress\ncity brawl\nrob brainrot 2\ngpts\nUnited States, Past 12 months\nInterest over time help_outline\nfile_download\ncode\nshare\nAverage\nx1\tmr flip\trocket fortress\tcity brawl\trob brainrot 2\tgpts\nAverage\t17\t5\t20\t1\t66\n‪Oct 19, 2025‬\n‪Mar 1, 2026‬\n‪Jul 12, 2026‬\n25\n50\n75\n100\nx\ty1\ty2\ty3\ty4\ty5\n‪Oct 19, 2025‬\t26\t13\t5\t0\t45\n‪Oct 26, 2025‬\t25\t15\t6\t0\t63\n‪Nov 2, 2025‬\t26\t16\t8\t0\t82\n‪Nov 9, 2025‬\t26\t14\t6\t0\t80\n‪Nov 16, 2025‬\t31\t16\t10\t0\t63\n‪Nov 23, 2025‬\t13\t6\t16\t0\t54\n‪Nov 30, 2025‬\t27\t11\t35\t0\t70\n‪Dec 7, 2025‬\t27\t12\t44\t0\t68\n‪Dec 14, 2025‬\t33\t11\t41\t0\t81\n‪Dec 21, 2025‬\t10\t0\t14\t0\t68\n‪Dec 28, 2025‬\t7\t0\t12\t0\t70\n‪Jan 4, 2026‬\t22\t7\t17\t0\t75\n‪Jan 11, 2026‬\t24\t6\t28\t0\t75\n‪Jan 18, 2026‬\t22\t7\t28\t0\t86\n‪Jan 25, 2026‬\t24\t6\t27\t0\t98\n‪Feb 1, 2026‬\t26\t9\t28\t0\t91\n‪Feb 8, 2026‬\t25\t6\t30\t9\t88\n‪Feb 15, 2026‬\t19\t4\t23\t4\t97\n‪Feb 22, 2026‬\t25\t7\t36\t8\t94\n‪Mar 1, 2026‬\t14\t8\t33\t6\t100\n‪Mar 8, 2026‬\t22\t9\t35\t6\t83\n‪Mar 15, 2026‬\t17\t6\t26\t6\t90\n‪Mar 22, 2026‬\t20\t8\t24\t5\t87\n‪Mar 29, 2026‬\t21\t8\t25\t6\t74\n‪Apr 5, 2026‬\t17\t4\t24\t0\t86\n‪Apr 12, 2026‬\t21\t7\t22\t0\t65\n‪Apr 19, 2026‬\t23\t8\t33\t8\t82\n‪Apr 26, 2026‬\t27\t5\t25\t4\t70\n‪May 3, 2026‬\t24\t6\t32\t7\t68\n‪May 10, 2026‬\t24\t6\t25\t5\t62\n‪May 17, 2026‬\t20\t5\t26\t3\t78\n‪May 24, 2026‬\t18\t5\t19\t0\t86\n‪May 31, 2026‬\t16\t4\t25\t0\t99\n‪Jun 7, 2026‬\t15\t4\t21\t0\t97\n‪Jun 14, 2026‬\t15\t0\t20\t0\t100\n‪Jun 21, 2026‬\t14\t0\t25\t0\t76\n‪Jun 28, 2026‬\t7\t0\t18\t0\t76\n‪Jul 5, 2026‬\t5\t0\t21\t0\t66\n‪Jul 12, 2026‬\t5\t0\t14\t0\t53\n‪Jul 19, 2026‬\t5\t0\t13\t0\t42\n‪Jul 26, 2026‬\t7\t0\t9\t0\t34\n‪Aug 2, 2026‬\t7\t0\t14\t0\t31\n‪Aug 9, 2026‬\t7\t0\t13\t0\t35\n‪Aug 16, 2026‬\t11\t0\t15\t0\t30\n‪Aug 23, 2026‬\t10\t0\t7\t0\t26\n‪Aug 30, 2026‬\t12\t0\t12\t3\t30\n‪Sep 6, 2026‬\t13\t0\t13\t0\t41\n‪Sep 13, 2026‬\t12\t0\t14\t0\t52\n‪Sep 20, 2026‬\t16\t0\t15\t0\t42\n‪Sep 27, 2026‬\t15\t3\t15\t0\t30\n‪Oct 4, 2026‬\t13\t6\t16\t0\t32\n‪Oct 11, 2026‬\t12\t3\t8\t1\t28\n‪Oct 18, 2026‬\t12\t3\t8\t0\t31\n‪Oct 25, 2026‬\t6\t0\t6\t0\t36\nCompared breakdown by subregion\nSubregion\nfile_download\ncode\nshare\nmr flip\nrocket fortress\ncity brawl\nrob brainrot 2\ngpts\nColor intensity represents percentage of searches \nLEARN MORE\nSort:\nInterest for mr flip\n1\nNorth Dakota\n2\nVermont\n3\nKentucky\n4\nMontana\n5\nArkansas\n Showing 1-5 of 51 subregions \nmr flip\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nslope\nBreakout\nmore_vert\n2\ncool math games\nBreakout\nmore_vert\n3\npoki\nBreakout\nmore_vert\n4\nfortnite\nBreakout\nmore_vert\n5\ngeometry dash\n+800%\nmore_vert\n Showing 1-5 of 6 queries \nrocket fortress\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nslope\nBreakout\nmore_vert\n2\ntap road\nBreakout\nmore_vert\ncity brawl\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\naz games\nBreakout\nmore_vert\n2\nsubway surfers\nBreakout\nmore_vert\n3\nbrawl stars tier list\n+100%\nmore_vert\n4\n1 games\n+60%\nmore_vert\n5\ngeometry dash\n+50%\nmore_vert\nrob brainrot 2\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\ngeometry dash\nBreakout\nmore_vert\ngpts\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nai news today\nBreakout\nmore_vert\n2\nnvidia news today\nBreakout\nmore_vert\n3\nartificial intelligence news\nBreakout\nmore_vert\n4\ntechnology news today\nBreakout\nmore_vert\n5\nchat gpts company nyt\nBreakout\nmore_vert\n Showing 1-5 of 18 queries "
+}

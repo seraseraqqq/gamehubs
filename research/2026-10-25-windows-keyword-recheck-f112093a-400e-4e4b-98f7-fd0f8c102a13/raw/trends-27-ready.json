@@ -1,0 +1,556 @@
+{
+  "terms": [
+    "capybara mart",
+    "hill sprint",
+    "planet merge",
+    "basketball hit",
+    "gpts"
+  ],
+  "url": "https://trends.google.com/trends/explore?geo=US&q=capybara%20mart,hill%20sprint,planet%20merge,basketball%20hit,gpts&hl=en",
+  "observedAt": "2026-10-25T11:15:58.670Z",
+  "country": "US",
+  "language": "en",
+  "timeframe": "Past 12 months",
+  "queryVerified": true,
+  "status": "observed",
+  "partialPolicy": "Drop last row conservatively; partial flag not in DOM.",
+  "related": [
+    {
+      "href": "/trends/explore?q=hill+sprint+workout&date=today+12-m&geo=US",
+      "text": "1\nhill sprint workout\n100"
+    },
+    {
+      "href": "/trends/explore?q=hill+sprints&date=today+12-m&geo=US",
+      "text": "2\nhill sprints\n95"
+    },
+    {
+      "href": "/trends/explore?q=sprint+football&date=today+12-m&geo=US",
+      "text": "3\nsprint football\n61"
+    },
+    {
+      "href": "/trends/explore?q=chestnut+hill+sprint+football&date=today+12-m&geo=US",
+      "text": "4\nchestnut hill sprint football\n21"
+    },
+    {
+      "href": "/trends/explore?q=college+basketball&date=today+12-m&geo=US",
+      "text": "1\ncollege basketball\n100"
+    },
+    {
+      "href": "/trends/explore?q=basketball+games&date=today+12-m&geo=US",
+      "text": "2\nbasketball games\n82"
+    },
+    {
+      "href": "/trends/explore?q=hit+the+floor&date=today+12-m&geo=US",
+      "text": "3\nhit the floor\n25"
+    },
+    {
+      "href": "/trends/explore?q=nvidia+news+today&date=today+12-m&geo=US",
+      "text": "1\nnvidia news today\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=chat+gpts+company+nyt&date=today+12-m&geo=US",
+      "text": "2\nchat gpts company nyt\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=openai+news+today&date=today+12-m&geo=US",
+      "text": "3\nopenai news today\n+2,250%"
+    },
+    {
+      "href": "/trends/explore?q=new+york+times&date=today+12-m&geo=US",
+      "text": "4\nnew york times\n+650%"
+    },
+    {
+      "href": "/trends/explore?q=openai+custom+gpts&date=today+12-m&geo=US",
+      "text": "5\nopenai custom gpts\n+600%"
+    }
+  ],
+  "tables": [
+    [
+      [
+        "x1",
+        "capybara mart",
+        "hill sprint",
+        "planet merge",
+        "basketball hit",
+        "gpts"
+      ],
+      [
+        "Average",
+        "0",
+        "6",
+        "2",
+        "46",
+        "60"
+      ]
+    ],
+    [
+      [
+        "x",
+        "y1",
+        "y2",
+        "y3",
+        "y4",
+        "y5"
+      ],
+      [
+        "‪Oct 19, 2025‬",
+        "0",
+        "5",
+        "0",
+        "37",
+        "40"
+      ],
+      [
+        "‪Oct 26, 2025‬",
+        "0",
+        "3",
+        "0",
+        "32",
+        "57"
+      ],
+      [
+        "‪Nov 2, 2025‬",
+        "0",
+        "4",
+        "0",
+        "45",
+        "74"
+      ],
+      [
+        "‪Nov 9, 2025‬",
+        "0",
+        "5",
+        "0",
+        "39",
+        "73"
+      ],
+      [
+        "‪Nov 16, 2025‬",
+        "0",
+        "5",
+        "0",
+        "43",
+        "57"
+      ],
+      [
+        "‪Nov 23, 2025‬",
+        "0",
+        "4",
+        "5",
+        "40",
+        "50"
+      ],
+      [
+        "‪Nov 30, 2025‬",
+        "0",
+        "3",
+        "3",
+        "55",
+        "62"
+      ],
+      [
+        "‪Dec 7, 2025‬",
+        "0",
+        "4",
+        "3",
+        "55",
+        "64"
+      ],
+      [
+        "‪Dec 14, 2025‬",
+        "0",
+        "3",
+        "0",
+        "53",
+        "74"
+      ],
+      [
+        "‪Dec 21, 2025‬",
+        "0",
+        "3",
+        "0",
+        "42",
+        "63"
+      ],
+      [
+        "‪Dec 28, 2025‬",
+        "0",
+        "3",
+        "0",
+        "38",
+        "64"
+      ],
+      [
+        "‪Jan 4, 2026‬",
+        "0",
+        "4",
+        "4",
+        "56",
+        "68"
+      ],
+      [
+        "‪Jan 11, 2026‬",
+        "0",
+        "5",
+        "0",
+        "63",
+        "69"
+      ],
+      [
+        "‪Jan 18, 2026‬",
+        "0",
+        "5",
+        "0",
+        "62",
+        "78"
+      ],
+      [
+        "‪Jan 25, 2026‬",
+        "0",
+        "6",
+        "3",
+        "51",
+        "89"
+      ],
+      [
+        "‪Feb 1, 2026‬",
+        "0",
+        "7",
+        "4",
+        "61",
+        "84"
+      ],
+      [
+        "‪Feb 8, 2026‬",
+        "0",
+        "9",
+        "0",
+        "54",
+        "79"
+      ],
+      [
+        "‪Feb 15, 2026‬",
+        "0",
+        "7",
+        "4",
+        "68",
+        "89"
+      ],
+      [
+        "‪Feb 22, 2026‬",
+        "0",
+        "7",
+        "4",
+        "58",
+        "86"
+      ],
+      [
+        "‪Mar 1, 2026‬",
+        "0",
+        "5",
+        "3",
+        "82",
+        "89"
+      ],
+      [
+        "‪Mar 8, 2026‬",
+        "0",
+        "8",
+        "5",
+        "83",
+        "77"
+      ],
+      [
+        "‪Mar 15, 2026‬",
+        "0",
+        "7",
+        "5",
+        "100",
+        "83"
+      ],
+      [
+        "‪Mar 22, 2026‬",
+        "3",
+        "7",
+        "4",
+        "83",
+        "79"
+      ],
+      [
+        "‪Mar 29, 2026‬",
+        "0",
+        "8",
+        "0",
+        "67",
+        "67"
+      ],
+      [
+        "‪Apr 5, 2026‬",
+        "0",
+        "10",
+        "0",
+        "66",
+        "78"
+      ],
+      [
+        "‪Apr 12, 2026‬",
+        "0",
+        "10",
+        "3",
+        "55",
+        "59"
+      ],
+      [
+        "‪Apr 19, 2026‬",
+        "0",
+        "8",
+        "3",
+        "54",
+        "76"
+      ],
+      [
+        "‪Apr 26, 2026‬",
+        "0",
+        "8",
+        "3",
+        "44",
+        "63"
+      ],
+      [
+        "‪May 3, 2026‬",
+        "0",
+        "8",
+        "0",
+        "49",
+        "62"
+      ],
+      [
+        "‪May 10, 2026‬",
+        "0",
+        "8",
+        "4",
+        "55",
+        "56"
+      ],
+      [
+        "‪May 17, 2026‬",
+        "0",
+        "8",
+        "5",
+        "38",
+        "70"
+      ],
+      [
+        "‪May 24, 2026‬",
+        "0",
+        "9",
+        "4",
+        "46",
+        "76"
+      ],
+      [
+        "‪May 31, 2026‬",
+        "0",
+        "8",
+        "4",
+        "44",
+        "90"
+      ],
+      [
+        "‪Jun 7, 2026‬",
+        "0",
+        "12",
+        "4",
+        "46",
+        "87"
+      ],
+      [
+        "‪Jun 14, 2026‬",
+        "0",
+        "13",
+        "0",
+        "34",
+        "90"
+      ],
+      [
+        "‪Jun 21, 2026‬",
+        "0",
+        "10",
+        "4",
+        "34",
+        "70"
+      ],
+      [
+        "‪Jun 28, 2026‬",
+        "0",
+        "7",
+        "4",
+        "26",
+        "68"
+      ],
+      [
+        "‪Jul 5, 2026‬",
+        "0",
+        "7",
+        "3",
+        "28",
+        "60"
+      ],
+      [
+        "‪Jul 12, 2026‬",
+        "0",
+        "6",
+        "0",
+        "25",
+        "49"
+      ],
+      [
+        "‪Jul 19, 2026‬",
+        "0",
+        "7",
+        "0",
+        "25",
+        "36"
+      ],
+      [
+        "‪Jul 26, 2026‬",
+        "0",
+        "5",
+        "4",
+        "20",
+        "31"
+      ],
+      [
+        "‪Aug 2, 2026‬",
+        "0",
+        "5",
+        "0",
+        "24",
+        "28"
+      ],
+      [
+        "‪Aug 9, 2026‬",
+        "0",
+        "3",
+        "0",
+        "33",
+        "32"
+      ],
+      [
+        "‪Aug 16, 2026‬",
+        "0",
+        "4",
+        "0",
+        "25",
+        "28"
+      ],
+      [
+        "‪Aug 23, 2026‬",
+        "0",
+        "6",
+        "3",
+        "24",
+        "23"
+      ],
+      [
+        "‪Aug 30, 2026‬",
+        "3",
+        "5",
+        "0",
+        "30",
+        "29"
+      ],
+      [
+        "‪Sep 6, 2026‬",
+        "0",
+        "4",
+        "0",
+        "30",
+        "37"
+      ],
+      [
+        "‪Sep 13, 2026‬",
+        "0",
+        "4",
+        "3",
+        "34",
+        "47"
+      ],
+      [
+        "‪Sep 20, 2026‬",
+        "0",
+        "5",
+        "0",
+        "36",
+        "38"
+      ],
+      [
+        "‪Sep 27, 2026‬",
+        "0",
+        "5",
+        "0",
+        "36",
+        "28"
+      ],
+      [
+        "‪Oct 4, 2026‬",
+        "0",
+        "4",
+        "3",
+        "39",
+        "28"
+      ],
+      [
+        "‪Oct 11, 2026‬",
+        "1",
+        "3",
+        "2",
+        "29",
+        "25"
+      ],
+      [
+        "‪Oct 18, 2026‬",
+        "1",
+        "3",
+        "2",
+        "33",
+        "28"
+      ],
+      [
+        "‪Oct 25, 2026‬",
+        "0",
+        "7",
+        "0",
+        "33",
+        "33"
+      ]
+    ],
+    [
+      [
+        "Term",
+        "Value"
+      ],
+      [
+        "capybara mart",
+        "0"
+      ],
+      [
+        "hill sprint",
+        "4"
+      ],
+      [
+        "planet merge",
+        "2"
+      ],
+      [
+        "basketball hit",
+        "42"
+      ],
+      [
+        "gpts",
+        "52"
+      ]
+    ]
+  ],
+  "visibleText": "Home\nExplore\nTrending Now\nshare\nfeedback\ninfo\nTry the new experience!\nExplore search trends with Gemini. A quick and easy way to find search terms and discover trends.\nGo to new Explore\nclose_24px\n•\nSearch term\n•\nSearch term\n•\nSearch term\n•\nSearch term\n•\nSearch term\nUnited States\nPast 12 months\nAll categories\nWeb Search\ncapybara mart\nhill sprint\nplanet merge\nbasketball hit\ngpts\nUnited States, Past 12 months\nInterest over time help_outline\nfile_download\ncode\nshare\nAverage\nx1\tcapybara mart\thill sprint\tplanet merge\tbasketball hit\tgpts\nAverage\t0\t6\t2\t46\t60\n‪Oct 19, 2025‬\n‪Mar 1, 2026‬\n‪Jul 12, 2026‬\n25\n50\n75\n100\nx\ty1\ty2\ty3\ty4\ty5\n‪Oct 19, 2025‬\t0\t5\t0\t37\t40\n‪Oct 26, 2025‬\t0\t3\t0\t32\t57\n‪Nov 2, 2025‬\t0\t4\t0\t45\t74\n‪Nov 9, 2025‬\t0\t5\t0\t39\t73\n‪Nov 16, 2025‬\t0\t5\t0\t43\t57\n‪Nov 23, 2025‬\t0\t4\t5\t40\t50\n‪Nov 30, 2025‬\t0\t3\t3\t55\t62\n‪Dec 7, 2025‬\t0\t4\t3\t55\t64\n‪Dec 14, 2025‬\t0\t3\t0\t53\t74\n‪Dec 21, 2025‬\t0\t3\t0\t42\t63\n‪Dec 28, 2025‬\t0\t3\t0\t38\t64\n‪Jan 4, 2026‬\t0\t4\t4\t56\t68\n‪Jan 11, 2026‬\t0\t5\t0\t63\t69\n‪Jan 18, 2026‬\t0\t5\t0\t62\t78\n‪Jan 25, 2026‬\t0\t6\t3\t51\t89\n‪Feb 1, 2026‬\t0\t7\t4\t61\t84\n‪Feb 8, 2026‬\t0\t9\t0\t54\t79\n‪Feb 15, 2026‬\t0\t7\t4\t68\t89\n‪Feb 22, 2026‬\t0\t7\t4\t58\t86\n‪Mar 1, 2026‬\t0\t5\t3\t82\t89\n‪Mar 8, 2026‬\t0\t8\t5\t83\t77\n‪Mar 15, 2026‬\t0\t7\t5\t100\t83\n‪Mar 22, 2026‬\t3\t7\t4\t83\t79\n‪Mar 29, 2026‬\t0\t8\t0\t67\t67\n‪Apr 5, 2026‬\t0\t10\t0\t66\t78\n‪Apr 12, 2026‬\t0\t10\t3\t55\t59\n‪Apr 19, 2026‬\t0\t8\t3\t54\t76\n‪Apr 26, 2026‬\t0\t8\t3\t44\t63\n‪May 3, 2026‬\t0\t8\t0\t49\t62\n‪May 10, 2026‬\t0\t8\t4\t55\t56\n‪May 17, 2026‬\t0\t8\t5\t38\t70\n‪May 24, 2026‬\t0\t9\t4\t46\t76\n‪May 31, 2026‬\t0\t8\t4\t44\t90\n‪Jun 7, 2026‬\t0\t12\t4\t46\t87\n‪Jun 14, 2026‬\t0\t13\t0\t34\t90\n‪Jun 21, 2026‬\t0\t10\t4\t34\t70\n‪Jun 28, 2026‬\t0\t7\t4\t26\t68\n‪Jul 5, 2026‬\t0\t7\t3\t28\t60\n‪Jul 12, 2026‬\t0\t6\t0\t25\t49\n‪Jul 19, 2026‬\t0\t7\t0\t25\t36\n‪Jul 26, 2026‬\t0\t5\t4\t20\t31\n‪Aug 2, 2026‬\t0\t5\t0\t24\t28\n‪Aug 9, 2026‬\t0\t3\t0\t33\t32\n‪Aug 16, 2026‬\t0\t4\t0\t25\t28\n‪Aug 23, 2026‬\t0\t6\t3\t24\t23\n‪Aug 30, 2026‬\t3\t5\t0\t30\t29\n‪Sep 6, 2026‬\t0\t4\t0\t30\t37\n‪Sep 13, 2026‬\t0\t4\t3\t34\t47\n‪Sep 20, 2026‬\t0\t5\t0\t36\t38\n‪Sep 27, 2026‬\t0\t5\t0\t36\t28\n‪Oct 4, 2026‬\t0\t4\t3\t39\t28\n‪Oct 11, 2026‬\t1\t3\t2\t29\t25\n‪Oct 18, 2026‬\t1\t3\t2\t33\t28\n‪Oct 25, 2026‬\t0\t7\t0\t33\t33\nCompared breakdown by subregion\nSubregion\nfile_download\ncode\nshare\ncapybara mart\nhill sprint\nplanet merge\nbasketball hit\ngpts\nColor intensity represents percentage of searches \nLEARN MORE\nSort:\nInterest for capybara mart\n1\nCalifornia\n2\nArkansas\n3\nAlaska\n4\nWyoming\n5\nAlabama\n Showing 1-5 of 51 subregions \ncapybara mart\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nfile_download\ncode\nshare\nwarning\n\nHmm, your search doesn't have enough data to show here.\n\nPlease make sure everything is spelled correctly, or try a more general term.\n\nhill sprint\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nTop\nfile_download\ncode\nshare\n1\nhill sprint workout\n100\nmore_vert\n2\nhill sprints\n95\nmore_vert\n3\nsprint football\n61\nmore_vert\n4\nchestnut hill sprint football\n21\nmore_vert\nplanet merge\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nfile_download\ncode\nshare\nwarning\n\nHmm, your search doesn't have enough data to show here.\n\nPlease make sure everything is spelled correctly, or try a more general term.\n\nbasketball hit\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nTop\nfile_download\ncode\nshare\n1\ncollege basketball\n100\nmore_vert\n2\nbasketball games\n82\nmore_vert\n3\nhit the floor\n25\nmore_vert\ngpts\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nnvidia news today\nBreakout\nmore_vert\n2\nchat gpts company nyt\nBreakout\nmore_vert\n3\nopenai news today\n+2,250%\nmore_vert\n4\nnew york times\n+650%\nmore_vert\n5\nopenai custom gpts\n+600%\nmore_vert\n Showing 1-5 of 18 queries "
+}

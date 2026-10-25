@@ -1,0 +1,903 @@
+{
+  "initialMissing": [
+    {
+      "term": "actorle",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "airborne bmx",
+      "volume": 20,
+      "kd": null
+    },
+    {
+      "term": "ant flow",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "anycolor",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "backroom bill",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "basketball hit",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "bat smash 2",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "big fish eat small fish game",
+      "volume": 20,
+      "kd": null
+    },
+    {
+      "term": "blockader",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "blockpost 2.0",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "blombo io",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "bloxd io",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "brainrot miner",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "bugs io",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "capybara mart",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "catdoku",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "cell tower game",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "count control legends",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "countryle",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "crashy rush",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "crazy cars",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "crosshare",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "dino simulator",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "donut clicker",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "dordle",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "duotrigordle",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "endless jump",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "feudle",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "find the needle in haystack",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "fish eat fish 2 player",
+      "volume": 0,
+      "kd": null
+    },
+    {
+      "term": "fish eat fish 3 players",
+      "volume": 20,
+      "kd": null
+    },
+    {
+      "term": "flickle",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "flip or fail",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "flip spot",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "framed game",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "frontwars io",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "ghost rush",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "growden io",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "gulper.io game",
+      "volume": 30,
+      "kd": null
+    },
+    {
+      "term": "halo browser game",
+      "volume": 20,
+      "kd": null
+    },
+    {
+      "term": "hatch your pets",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "hexanaut io",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "hide and paint",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "hill sprint",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "karate fighter",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "kawaii fruits 3d",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "kour io",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "krillion unlimited",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "letroso",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "longcat",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "mathplayground duck life",
+      "volume": 0,
+      "kd": null
+    },
+    {
+      "term": "meeland io",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "miniblox",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "monkey tag io",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "mountain climb stunt",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "movie pyramid",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "murder game",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "my perfect hotel",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "nsr street car racing",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "octordle",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "openfront",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "park empire",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "phoodle",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "pilot life",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "planet merge",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "polygonle",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "prankster 3d",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "pro referee simulator",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "quintessential game",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "racing limits",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "ragdoll bonk",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "ragdoll chaos",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "ragdoll drop",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "ragdoll sandbox",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "reheardle",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "sedecordle",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "semantle",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "shape rush",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "slime keyboard escape",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "soccer real",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "stickman coin flip",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "subwaydle",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "supercar legends",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "supercars city",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "symble",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "tear blocks down",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "the machinegg",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "tiny garden war",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "tnt sandbox",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "tradle",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "unbox the room",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "unlockle",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "unmatched ego 2",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "veck io",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "waffle game",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "war the knights",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "wave race",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "word peaks",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "word waffle",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "term": "word500",
+      "volume": null,
+      "kd": null
+    }
+  ],
+  "recoveredValues": {
+    "retro bowl": {
+      "volume": "823,000",
+      "kd": "81"
+    },
+    "octordle": {
+      "volume": "301,000",
+      "kd": "53"
+    },
+    "slice master": {
+      "volume": "301,000",
+      "kd": "62"
+    },
+    "bloxd io": {
+      "volume": "201,000",
+      "kd": "62"
+    },
+    "spacebar clicker": {
+      "volume": "201,000",
+      "kd": "39"
+    },
+    "waffle game": {
+      "volume": "201,000",
+      "kd": "54"
+    },
+    "monkey mart": {
+      "volume": "135,000",
+      "kd": "49"
+    },
+    "level devil": {
+      "volume": "110,000",
+      "kd": "34"
+    },
+    "dordle": {
+      "volume": "74,000",
+      "kd": "16"
+    },
+    "escape road 2": {
+      "volume": "74,000",
+      "kd": "51"
+    },
+    "phoodle": {
+      "volume": "74,000",
+      "kd": "12"
+    },
+    "sedecordle": {
+      "volume": "74,000",
+      "kd": "23"
+    },
+    "veck io": {
+      "volume": "74,000",
+      "kd": "52"
+    },
+    "duotrigordle": {
+      "volume": "49,500",
+      "kd": "24"
+    },
+    "openfront": {
+      "volume": "49,500",
+      "kd": "46"
+    },
+    "slope 3": {
+      "volume": "49,500",
+      "kd": "38"
+    },
+    "tradle": {
+      "volume": "49,500",
+      "kd": "30"
+    },
+    "escape road city 2": {
+      "volume": "40,500",
+      "kd": "20"
+    },
+    "chill guy clicker": {
+      "volume": "33,100",
+      "kd": "34"
+    },
+    "gladihoppers": {
+      "volume": "27,100",
+      "kd": "58"
+    },
+    "racing limits": {
+      "volume": "27,100",
+      "kd": "44"
+    },
+    "semantle": {
+      "volume": "27,100",
+      "kd": "40"
+    },
+    "super liquid soccer": {
+      "volume": "27,100",
+      "kd": "29"
+    },
+    "iron snout": {
+      "volume": "18,100",
+      "kd": "52"
+    },
+    "minefun io": {
+      "volume": "18,100",
+      "kd": "23"
+    },
+    "framed game": {
+      "volume": "14,800",
+      "kd": "48"
+    },
+    "growden io": {
+      "volume": "14,800",
+      "kd": "44"
+    },
+    "kour io": {
+      "volume": "14,800",
+      "kd": "31"
+    },
+    "rocket soccer derby": {
+      "volume": "14,800",
+      "kd": "25"
+    },
+    "dude theft auto": {
+      "volume": "12,100",
+      "kd": "44"
+    },
+    "miniblox": {
+      "volume": "12,100",
+      "kd": "28"
+    },
+    "undead corridor": {
+      "volume": "12,100",
+      "kd": "32"
+    },
+    "big shot boxing": {
+      "volume": "9,900",
+      "kd": "50"
+    },
+    "hexanaut io": {
+      "volume": "9,900",
+      "kd": "29"
+    },
+    "jetski race": {
+      "volume": "9,900",
+      "kd": "20"
+    },
+    "letroso": {
+      "volume": "9,900",
+      "kd": "31"
+    },
+    "actorle": {
+      "volume": "8,100",
+      "kd": "28"
+    },
+    "blumgi slime": {
+      "volume": "8,100",
+      "kd": "43"
+    },
+    "countryle": {
+      "volume": "8,100",
+      "kd": "11"
+    },
+    "head basketball": {
+      "volume": "8,100",
+      "kd": "33"
+    },
+    "frontwars io": {
+      "volume": "6,600",
+      "kd": "42"
+    },
+    "plonky": {
+      "volume": "6,600",
+      "kd": "25"
+    },
+    "polygonle": {
+      "volume": "6,600",
+      "kd": "14"
+    },
+    "word500": {
+      "volume": "6,600",
+      "kd": "27"
+    },
+    "traffic rally": {
+      "volume": "5,400",
+      "kd": "7"
+    },
+    "war of sticks": {
+      "volume": "5,400",
+      "kd": "27"
+    },
+    "war the knights": {
+      "volume": "5,400",
+      "kd": "11"
+    },
+    "word waffle": {
+      "volume": "5,400",
+      "kd": "61"
+    },
+    "blacktop police chase": {
+      "volume": "4,400",
+      "kd": "7"
+    },
+    "exhibit of sorrows": {
+      "volume": "4,400",
+      "kd": "38"
+    },
+    "quintessential game": {
+      "volume": "4,400",
+      "kd": "7"
+    },
+    "super star car": {
+      "volume": "4,400",
+      "kd": "18"
+    },
+    "watermelon drop": {
+      "volume": "4,400",
+      "kd": "49"
+    },
+    "flickle": {
+      "volume": "3,600",
+      "kd": "23"
+    },
+    "feudle": {
+      "volume": "2,900",
+      "kd": "37"
+    },
+    "ragdoll flip": {
+      "volume": "2,900",
+      "kd": "12"
+    },
+    "animal craft": {
+      "volume": "2,400",
+      "kd": "18"
+    },
+    "tap road 2": {
+      "volume": "2,400",
+      "kd": "18"
+    },
+    "bike xtreme": {
+      "volume": "1,900",
+      "kd": "27"
+    },
+    "cryzen io": {
+      "volume": "1,900",
+      "kd": "28"
+    },
+    "movie pyramid": {
+      "volume": "1,900",
+      "kd": "61"
+    },
+    "soccer skills champions league": {
+      "volume": "1,900",
+      "kd": "8"
+    },
+    "subwaydle": {
+      "volume": "1,900",
+      "kd": "15"
+    },
+    "symble": {
+      "volume": "1,900",
+      "kd": "29"
+    },
+    "vectaria io": {
+      "volume": "1,900",
+      "kd": "17"
+    },
+    "blocky blast puzzle": {
+      "volume": "880",
+      "kd": "79"
+    },
+    "crosshare": {
+      "volume": "880",
+      "kd": "34"
+    },
+    "reheardle": {
+      "volume": "880",
+      "kd": "13"
+    },
+    "under the red sky": {
+      "volume": "880",
+      "kd": "49"
+    },
+    "word peaks": {
+      "volume": "880",
+      "kd": "6"
+    },
+    "meeland io": {
+      "volume": "720",
+      "kd": "9"
+    },
+    "drift rush": {
+      "volume": "590",
+      "kd": "8"
+    },
+    "rowdy city wrestling": {
+      "volume": "590",
+      "kd": "43"
+    },
+    "cell tower game": {
+      "volume": "390",
+      "kd": "2"
+    },
+    "blumgi bounce": {
+      "volume": "260",
+      "kd": "4"
+    },
+    "stick rush": {
+      "volume": "260",
+      "kd": "16"
+    },
+    "soccer skills 2 world cup": {
+      "volume": "140",
+      "kd": "32"
+    },
+    "the machinegg": {
+      "volume": "90",
+      "kd": "n/a"
+    },
+    "blombo io": {
+      "volume": "40",
+      "kd": "n/a"
+    },
+    "airborne bmx": {
+      "volume": "20",
+      "kd": "n/a"
+    },
+    "unlockle": {
+      "volume": "10",
+      "kd": "n/a"
+    },
+    "unmatched ego 2": {
+      "volume": "10",
+      "kd": "n/a"
+    },
+    "ragdoll bonk": {
+      "volume": "",
+      "kd": ""
+    },
+    "slime keyboard escape": {
+      "volume": "",
+      "kd": ""
+    }
+  },
+  "stillNeedsQuery": [
+    "ant flow",
+    "anycolor",
+    "backroom bill",
+    "basketball hit",
+    "bat smash 2",
+    "big fish eat small fish game",
+    "blockader",
+    "blockpost 2.0",
+    "brainrot miner",
+    "bugs io",
+    "capybara mart",
+    "catdoku",
+    "count control legends",
+    "crashy rush",
+    "crazy cars",
+    "dino simulator",
+    "donut clicker",
+    "endless jump",
+    "find the needle in haystack",
+    "fish eat fish 2 player",
+    "fish eat fish 3 players",
+    "flip or fail",
+    "flip spot",
+    "ghost rush",
+    "gulper.io game",
+    "halo browser game",
+    "hatch your pets",
+    "hide and paint",
+    "hill sprint",
+    "karate fighter",
+    "kawaii fruits 3d",
+    "krillion unlimited",
+    "longcat",
+    "mathplayground duck life",
+    "monkey tag io",
+    "mountain climb stunt",
+    "murder game",
+    "my perfect hotel",
+    "nsr street car racing",
+    "park empire",
+    "pilot life",
+    "planet merge",
+    "prankster 3d",
+    "pro referee simulator",
+    "ragdoll bonk",
+    "ragdoll chaos",
+    "ragdoll drop",
+    "ragdoll sandbox",
+    "shape rush",
+    "slime keyboard escape",
+    "soccer real",
+    "stickman coin flip",
+    "supercar legends",
+    "supercars city",
+    "tear blocks down",
+    "tiny garden war",
+    "tnt sandbox",
+    "unbox the room",
+    "wave race"
+  ]
+}

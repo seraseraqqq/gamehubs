@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-25T05:15:26.579Z",
+  "status": "pass",
+  "assertions": 110,
+  "results": [
+    "Preview is noindex, has no canonical or sitemap, and disallows crawling.",
+    "Production: five distinct canonicals, valid schemas, metadata, all local assets/links, eager game, sitemap and noindex 404.",
+    "Vercel preview does not index the production origin.",
+    "Invalid/non-bare/credential-bearing production origins rejected."
+  ],
+  "limits": "Static checks do not prove Unity playability, mobile touch controls, production readiness or rankings."
+}

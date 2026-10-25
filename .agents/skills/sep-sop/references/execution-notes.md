@@ -4,7 +4,7 @@
 
 - A domain, site, game, and indexable page are separate portfolio units. Record which one the target count refers to.
 - Trends detects movement in its own normalized series; it is not a direct monthly search-volume estimate. Confirm a candidate with current-market SERPs and, where available, a second keyword source.
-- Research priority is Google Trends, then current Google SERPs, then supplementary DataForSEO metrics. Do not use OpenSEO. Treat DataForSEO volume/KD as potentially optimistic; keep conflicts visible, and request the user's Ahrefs/Semrush check when absolute size or difficulty changes the decision. Distinguish DataForSEO's live Google SERP capture from its modeled keyword metrics.
+- Research priority is Google Trends, then current Google SERPs, then supplementary metrics with the owner's free Semrush mirror preferred; self-hosted OpenSEO and DataForSEO are also allowed. Follow [GameHubs research rules](../../../../docs/KEYWORD_WORKFLOW.md) for source, market, cost and credential handling. Treat modeled volume/KD as potentially optimistic and keep conflicts visible. Distinguish DataForSEO's live Google SERP capture from its modeled keyword metrics.
 - SERP evidence is time- and location-sensitive. Save the query, country/language, device, date, top result types/domains, and intent. Use difficulty metrics as directional estimates, not deterministic thresholds.
 - Prefer one useful URL for one intent cluster. Make pages distinct because they solve different user needs, not because their keyword strings differ.
 - Use relevant, crawlable internal links within a site. Do not generate random cross-domain footer links, link wheels, or pages whose main purpose is passing ranking signals.

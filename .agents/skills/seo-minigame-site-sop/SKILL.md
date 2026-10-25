@@ -9,6 +9,8 @@ lifecycle: active
 
 Execute this workflow fully autonomously. Do not ask for human input unless a hard blocker occurs (e.g., domain registrar API failure). Output a complete, deployable single-game website optimized for organic search traffic.
 
+For GameHubs, follow [game management defaults](../../../docs/GAME_MANAGEMENT_RULES.md) and the canonical source record. Supplement Trends and real Google SERPs with the free Semrush mirror first; the owner's self-hosted OpenSEO and DataForSEO API are allowed with source/cost provenance. Keep credentials out of plaintext Git. On Vercel, default to apex Production and www → apex **301**, and install/integrate `@vercel/analytics` plus enable project Web Analytics during an authorized release. Verify pageview delivery separately; this does not authorize paid upgrades or mark legacy sites migrated.
+
 ## Core Aesthetic Rules (Mandatory — Gemini Must Follow)
 
 Gemini tends to produce nested boxes, excessive text, and cluttered layouts. **Strictly prohibit these.**
@@ -66,7 +68,7 @@ Always open and analyze at least 3 of these before generating the page layout. I
 - Update colors, simple shapes, or CSS variables for visual freshness (do not overhaul logic).
 - Ensure the game works offline-first and is mobile responsive.
 - Add basic high-score persistence via localStorage if missing.
-- Keep the codebase simple. Avoid introducing new dependencies.
+- Keep the codebase simple. Avoid unnecessary dependencies; the owner's default `@vercel/analytics` integration is intentional, not excluded by this guidance. Use the documented script integration for unbundled static HTML.
 
 ### 5. Asset Update & Shelling (套壳)
 

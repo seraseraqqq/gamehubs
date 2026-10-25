@@ -1,6 +1,6 @@
 # Track A: Established Query and Competitor Research
 
-Use this process for queries with an established history or for competitor-based discovery. Start with Google Trends and current Google SERPs; use DataForSEO volume/KD only for supplementary validation because those estimates can be optimistic. Do not call OpenSEO. The script can collect metrics and SERP evidence; the model can classify evidence and identify uncertainty. Neither replaces product judgment.
+Use this process for queries with an established history or for competitor-based discovery. Start with Google Trends and current Google SERPs; prefer the owner's free Semrush mirror for supplementary volume/KD, with self-hosted OpenSEO and DataForSEO also allowed under [GameHubs research rules](../../../../docs/KEYWORD_WORKFLOW.md). Keep provider estimates and observed SERPs separate; metrics can be optimistic. The script can collect metrics and SERP evidence; the model can classify evidence and identify uncertainty. Neither replaces product judgment.
 
 ## 1. Discover Candidates
 

@@ -1,0 +1,25 @@
+{
+  "term": "bat smash",
+  "query": "allintitle: \"bat smash\"",
+  "mode": "allintitle",
+  "queryMode": "quoted_phrase",
+  "url": "https://www.google.com/search?q=allintitle%3A+%22bat+smash%22&gl=us&hl=en&pws=0",
+  "observedAt": "2026-10-25T10:23:01.086Z",
+  "country": "US",
+  "language": "en",
+  "physicalUSLocationVerified": false,
+  "queryVerified": true,
+  "operatorIgnored": true,
+  "status": "unknown",
+  "allintitle": null,
+  "completeTopTen": false,
+  "blocked": false,
+  "results": [
+    {
+      "title": "110 Prime Baseball Bat Rawlings Big Sellers Stick Ash 5 Sporting ...",
+      "url": "http://forum.lemmings.online/?cbe=29.863941.2.69"
+    }
+  ],
+  "searchText": "Web results\n110 Prime Baseball Bat Rawlings Big Sellers Stick Ash 5 Sporting ...\n\nlemmings.online\nhttp://forum.lemmings.online › ...\n0\nN/A\n·\nN/A\n... Bat Smash. Shopping security. Each payment you make on artestetica is secured with strict SSL encryption and PCI DSS data protection protocols.\nMissing: allintitle:\nAITDK\nMonthly Visits: N/A\nAvg. Visit Duration: N/A\nDomain Created: 2026-10-04",
+  "stats": "About 1 results (0.22s) "
+}

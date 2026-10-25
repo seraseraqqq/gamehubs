@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-25T07:05:18.036Z",
+  "dismissButtons": [
+    "Dismiss seraseraqqq/gameshub-travle/apps/web",
+    "Dismiss seraseraqqq/gameshub-colordle/apps/web",
+    "Dismiss seraseraqqq/gameshub-poople/apps/web",
+    "Dismiss seraseraqqq/gameshub-metazooa/apps/web",
+    "Dismiss seraseraqqq/gameshub-cutle/apps/web"
+  ],
+  "links": [
+    {
+      "label": "apps/web",
+      "url": "https://vercel.com/new/import?framework=vite&import-source=import-candidates&path=apps%2Fweb&project-name=web&provider=github&s=https%3A%2F%2Fgithub.com%2Fseraseraqqq%2Fgameshub-travle&teamSlug=gx03410-8651s-projects"
+    },
+    {
+      "label": "apps/web",
+      "url": "https://vercel.com/new/import?framework=vite&import-source=import-candidates&path=apps%2Fweb&project-name=web&provider=github&s=https%3A%2F%2Fgithub.com%2Fseraseraqqq%2Fgameshub-colordle&teamSlug=gx03410-8651s-projects"
+    },
+    {
+      "label": "apps/web",
+      "url": "https://vercel.com/new/import?framework=vite&import-source=import-candidates&path=apps%2Fweb&project-name=web&provider=github&s=https%3A%2F%2Fgithub.com%2Fseraseraqqq%2Fgameshub-poople&teamSlug=gx03410-8651s-projects"
+    },
+    {
+      "label": "apps/web",
+      "url": "https://vercel.com/new/import?framework=vite&import-source=import-candidates&path=apps%2Fweb&project-name=web&provider=github&s=https%3A%2F%2Fgithub.com%2Fseraseraqqq%2Fgameshub-metazooa&teamSlug=gx03410-8651s-projects"
+    },
+    {
+      "label": "apps/web",
+      "url": "https://vercel.com/new/import?framework=vite&import-source=import-candidates&path=apps%2Fweb&project-name=web&provider=github&s=https%3A%2F%2Fgithub.com%2Fseraseraqqq%2Fgameshub-cutle&teamSlug=gx03410-8651s-projects"
+    }
+  ]
+}

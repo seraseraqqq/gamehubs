@@ -1,0 +1,17 @@
+{
+  "counts": {
+    "batches": 10,
+    "keywords": 290,
+    "observations": 550,
+    "reviews": 0,
+    "sites": 17
+  },
+  "batchRows": 150,
+  "rejected": 49,
+  "pending": 101,
+  "allGatesConfirmed": 0,
+  "gradeApiVerified": true,
+  "csv21ColumnsVerified": true,
+  "managementTestsPassed": 27,
+  "browserVisualQA": "not_completed_safety_interruption"
+}

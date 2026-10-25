@@ -1,0 +1,121 @@
+[
+  {
+    "siteId": "block-blast-unblocked",
+    "passed": true,
+    "robots": "index, follow, max-image-preview:large",
+    "canonical": "https://playblockblastunblocked.com/",
+    "buildLog": "block-blast-unblocked-build.log"
+  },
+  {
+    "siteId": "costcodle",
+    "passed": true,
+    "robots": "index, follow, max-image-preview:large",
+    "canonical": "https://costcodle.cc/",
+    "buildLog": "costcodle-build.log"
+  },
+  {
+    "siteId": "gulper-io",
+    "passed": true,
+    "robots": "index, follow, max-image-preview:large",
+    "canonical": "https://gulperio.com/",
+    "buildLog": "gulper-io-build.log"
+  },
+  {
+    "siteId": "krillion-unlimited",
+    "passed": true,
+    "robots": "index,follow,max-image-preview:large",
+    "canonical": "https://krilliononline.com/",
+    "buildLog": "krillion-unlimited-build.log"
+  },
+  {
+    "siteId": "spacebar-counter",
+    "passed": true,
+    "robots": "index, follow, max-image-preview:large",
+    "canonical": "https://spacebarcounter.xyz/",
+    "buildLog": "spacebar-counter-build.log"
+  },
+  {
+    "siteId": "2048-cupcakes",
+    "passed": true,
+    "robots": "index, follow, max-image-preview:large",
+    "canonical": "https://2048cupcakes.xyz/",
+    "buildLog": "2048-cupcakes-build.log"
+  },
+  {
+    "siteId": "coreball",
+    "passed": true,
+    "robots": "noindex, nofollow",
+    "canonical": null,
+    "buildLog": "coreball-build.log"
+  },
+  {
+    "siteId": "minute-cryptic-unlimited",
+    "passed": true,
+    "robots": "noindex, nofollow",
+    "canonical": null,
+    "buildLog": "minute-cryptic-unlimited-build.log"
+  },
+  {
+    "siteId": "snow-rider-3d-unblocked",
+    "passed": true,
+    "robots": "noindex, nofollow",
+    "canonical": "https://snowrider3d.top/",
+    "buildLog": "snow-rider-3d-unblocked-build.log"
+  },
+  {
+    "siteId": "head-soccer-2026",
+    "passed": true,
+    "robots": "index, follow, max-image-preview:large",
+    "canonical": "https://playheadsoccer.com/",
+    "buildLog": "head-soccer-2026-build.log"
+  },
+  {
+    "siteId": "acceleration-city",
+    "passed": true,
+    "robots": "index, follow, max-image-preview:large",
+    "canonical": "https://playaccelerationcity.com/",
+    "buildLog": "acceleration-city-build.log"
+  },
+  {
+    "siteId": "cluster-rush",
+    "passed": true,
+    "robots": "noindex, nofollow",
+    "canonical": "https://playclusterrush.online/",
+    "buildLog": "cluster-rush-build.log"
+  },
+  {
+    "siteId": "colordle",
+    "passed": true,
+    "robots": "noindex,follow",
+    "canonical": null,
+    "buildLog": "colordle-build.log"
+  },
+  {
+    "siteId": "cutle",
+    "passed": true,
+    "robots": "noindex,follow",
+    "canonical": null,
+    "buildLog": "cutle-build.log"
+  },
+  {
+    "siteId": "metazooa",
+    "passed": true,
+    "robots": "noindex,follow",
+    "canonical": null,
+    "buildLog": "metazooa-build.log"
+  },
+  {
+    "siteId": "poople",
+    "passed": true,
+    "robots": "noindex,follow",
+    "canonical": null,
+    "buildLog": "poople-build.log"
+  },
+  {
+    "siteId": "travle",
+    "passed": true,
+    "robots": "noindex,follow",
+    "canonical": null,
+    "buildLog": "travle-build.log"
+  }
+]

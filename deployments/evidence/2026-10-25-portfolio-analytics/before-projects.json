@@ -1,0 +1,814 @@
+[
+  {
+    "id": "block-blast-unblocked",
+    "projectId": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+    "projectName": "block-blast-unblocked",
+    "buildCommand": null,
+    "installCommand": null,
+    "outputDirectory": null,
+    "webAnalytics": {
+      "id": "FA7OyWTp9TbpmBI6Asoq3iDTt",
+      "enabledAt": 1792678605659,
+      "hasData": true
+    },
+    "analytics": null,
+    "link": {
+      "type": "github",
+      "repo": "gameshub-block-blast-unblocked",
+      "repoId": 1432762961,
+      "org": "seraseraqqq",
+      "repoOwnerId": 198324509,
+      "gitCredentialId": "cred_c364decbb4129fd2f62d0dffd3ac7eb483f1d68f",
+      "productionBranch": "main",
+      "createdAt": 1792895152911,
+      "updatedAt": 1792895152911,
+      "deployHooks": []
+    },
+    "env": [],
+    "nodeVersion": "24.x",
+    "targets": {
+      "production": {
+        "id": "dpl_C7fqqTghDjgMxUFegbzg7pb4WhoE",
+        "url": "block-blast-unblocked-7aq6h3qh0-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "meta": {
+          "githubCommitSha": "07cf140be88943ee8516a6f21c1cfbd902bb3c4d",
+          "githubCommitRef": "07cf140be88943ee8516a6f21c1cfbd902bb3c4d",
+          "githubRepo": "gameshub-block-blast-unblocked",
+          "githubOrg": "seraseraqqq"
+        }
+      }
+    }
+  },
+  {
+    "id": "costcodle",
+    "projectId": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+    "projectName": "costcodle-unlimited",
+    "buildCommand": null,
+    "installCommand": null,
+    "outputDirectory": null,
+    "webAnalytics": {
+      "id": "SN4DLntsWCLVu8Z2WBnoaISOn",
+      "enabledAt": 1792675295560,
+      "hasData": true
+    },
+    "analytics": null,
+    "link": {
+      "type": "github",
+      "repo": "gameshub-costcodle",
+      "repoId": 1432763012,
+      "org": "seraseraqqq",
+      "repoOwnerId": 198324509,
+      "gitCredentialId": "cred_c364decbb4129fd2f62d0dffd3ac7eb483f1d68f",
+      "productionBranch": "main",
+      "createdAt": 1792895448431,
+      "updatedAt": 1792895448431,
+      "deployHooks": []
+    },
+    "env": [],
+    "nodeVersion": "24.x",
+    "targets": {
+      "production": {
+        "id": "dpl_XDeaVpd4JfB9A2KuTiV67jD8ReH4",
+        "url": "costcodle-unlimited-q890kgt4e-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "meta": {
+          "githubCommitSha": "a2af21d0e74622a8a35098ea29b4700dd20f848d",
+          "githubCommitRef": "a2af21d0e74622a8a35098ea29b4700dd20f848d",
+          "githubRepo": "gameshub-costcodle",
+          "githubOrg": "seraseraqqq"
+        }
+      }
+    }
+  },
+  {
+    "id": "gulper-io",
+    "projectId": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+    "projectName": "gulperio-game",
+    "buildCommand": null,
+    "installCommand": null,
+    "outputDirectory": null,
+    "webAnalytics": {
+      "id": "NClfRaxbVaLfaAVEYnyOpRGCL",
+      "enabledAt": 1792754759634,
+      "hasData": true
+    },
+    "analytics": null,
+    "link": {
+      "type": "github",
+      "repo": "gameshub-gulper-io",
+      "repoId": 1432763090,
+      "org": "seraseraqqq",
+      "repoOwnerId": 198324509,
+      "gitCredentialId": "cred_c364decbb4129fd2f62d0dffd3ac7eb483f1d68f",
+      "productionBranch": "main",
+      "createdAt": 1792895549382,
+      "updatedAt": 1792895549382,
+      "deployHooks": []
+    },
+    "env": [],
+    "nodeVersion": "24.x",
+    "targets": {
+      "production": {
+        "id": "dpl_6LJSxinmtsc5Hct8ve3AE96gUNhs",
+        "url": "gulperio-game-5k7ymsvkr-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "meta": {
+          "githubCommitSha": "1d94e2c8d17f6e6c39dbcfa91237371fbb1c907e",
+          "githubCommitRef": "1d94e2c8d17f6e6c39dbcfa91237371fbb1c907e",
+          "githubRepo": "gameshub-gulper-io",
+          "githubOrg": "seraseraqqq"
+        }
+      }
+    }
+  },
+  {
+    "id": "krillion-unlimited",
+    "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+    "projectName": "gamehubs-summit-unlimited",
+    "buildCommand": null,
+    "installCommand": null,
+    "outputDirectory": null,
+    "webAnalytics": {
+      "id": "jB0q0bZZH3u7pGK1OxAyIoihe",
+      "enabledAt": 1792720790879,
+      "hasData": true
+    },
+    "analytics": null,
+    "link": {
+      "type": "github",
+      "repo": "gameshub-krillion-unlimited",
+      "repoId": 1432763180,
+      "org": "seraseraqqq",
+      "repoOwnerId": 198324509,
+      "gitCredentialId": "cred_c364decbb4129fd2f62d0dffd3ac7eb483f1d68f",
+      "productionBranch": "main",
+      "createdAt": 1792895601314,
+      "updatedAt": 1792895601314,
+      "deployHooks": []
+    },
+    "env": [],
+    "nodeVersion": "24.x",
+    "targets": {
+      "production": {
+        "id": "dpl_AJ1aUmkkFnkKhJurkka68HxcHUse",
+        "url": "gamehubs-summit-unlimited-bhtatlmab-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "meta": {
+          "githubCommitSha": "b602921f27aa53df7a8db37b7f13d89031575835",
+          "githubCommitRef": "b602921f27aa53df7a8db37b7f13d89031575835",
+          "githubRepo": "gameshub-krillion-unlimited",
+          "githubOrg": "seraseraqqq"
+        }
+      }
+    }
+  },
+  {
+    "id": "spacebar-counter",
+    "projectId": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+    "projectName": "gamehubs-spacebar-counter",
+    "buildCommand": "node scripts/build.mjs --origin https://www.spacebarcounter.xyz",
+    "installCommand": null,
+    "outputDirectory": "dist",
+    "webAnalytics": {
+      "id": "NvFjL9ms62SB42eqRH3TZQBOQ",
+      "enabledAt": 1792752286478,
+      "hasData": true
+    },
+    "analytics": null,
+    "link": {
+      "type": "github",
+      "repo": "gameshub-spacebar-counter",
+      "repoId": 1432763331,
+      "org": "seraseraqqq",
+      "repoOwnerId": 198324509,
+      "gitCredentialId": "cred_c364decbb4129fd2f62d0dffd3ac7eb483f1d68f",
+      "productionBranch": "main",
+      "createdAt": 1792895651018,
+      "updatedAt": 1792895651018,
+      "deployHooks": []
+    },
+    "env": [],
+    "nodeVersion": "24.x",
+    "targets": {
+      "production": {
+        "id": "dpl_BizhMsF44EjvQMupzC4fqtyeBmPt",
+        "url": "gamehubs-spacebar-counter-nbjwdpqbb-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "meta": {
+          "githubCommitSha": "34f02d435684c22fd53fa8f8102f6d75b242f30c",
+          "githubCommitRef": "34f02d435684c22fd53fa8f8102f6d75b242f30c",
+          "githubRepo": "gameshub-spacebar-counter",
+          "githubOrg": "seraseraqqq"
+        }
+      }
+    }
+  },
+  {
+    "id": "2048-cupcakes",
+    "projectId": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+    "projectName": "gamehubs-2048-cupcakes",
+    "buildCommand": "node scripts/build.mjs --origin https://www.2048cupcakes.xyz",
+    "installCommand": null,
+    "outputDirectory": "dist",
+    "webAnalytics": {
+      "id": "PtgEJDrE5PwfgvLMhQZQnL6XE",
+      "enabledAt": 1792768495123,
+      "hasData": true
+    },
+    "analytics": null,
+    "link": {
+      "type": "github",
+      "repo": "gameshub-2048-cupcakes",
+      "repoId": 1432763397,
+      "org": "seraseraqqq",
+      "repoOwnerId": 198324509,
+      "gitCredentialId": "cred_c364decbb4129fd2f62d0dffd3ac7eb483f1d68f",
+      "productionBranch": "main",
+      "createdAt": 1792895692298,
+      "updatedAt": 1792895692298,
+      "deployHooks": []
+    },
+    "env": [],
+    "nodeVersion": "24.x",
+    "targets": {
+      "production": {
+        "id": "dpl_8pRSPENzV5JHabD2R9Zphkezp7JH",
+        "url": "gamehubs-2048-cupcakes-zt19722jn-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "meta": {
+          "githubCommitSha": "c26b71c763101186775aa3613562a48adc6f0918",
+          "githubCommitRef": "c26b71c763101186775aa3613562a48adc6f0918",
+          "githubRepo": "gameshub-2048-cupcakes",
+          "githubOrg": "seraseraqqq"
+        }
+      }
+    }
+  },
+  {
+    "id": "coreball",
+    "projectId": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
+    "projectName": "gamehubs-coreball",
+    "buildCommand": "node scripts/build.mjs",
+    "installCommand": null,
+    "outputDirectory": "dist",
+    "webAnalytics": {
+      "id": "rfordDTar6U0263EcmdZjT1Gb",
+      "enabledAt": 1792806801701
+    },
+    "analytics": null,
+    "link": {
+      "type": "github",
+      "repo": "gameshub-coreball",
+      "repoId": 1432763484,
+      "org": "seraseraqqq",
+      "repoOwnerId": 198324509,
+      "gitCredentialId": "cred_c364decbb4129fd2f62d0dffd3ac7eb483f1d68f",
+      "productionBranch": "main",
+      "createdAt": 1792895735158,
+      "updatedAt": 1792895735158,
+      "deployHooks": []
+    },
+    "env": [],
+    "nodeVersion": "24.x",
+    "targets": {
+      "production": {
+        "id": "dpl_6wy5XZvwyfXETCVvtMFgzvrcNo2z",
+        "url": "gamehubs-coreball-i4osy34yo-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "meta": {
+          "githubCommitSha": "2793a39f4c3417d16b746e758153a97fa8c07113",
+          "githubCommitRef": "2793a39f4c3417d16b746e758153a97fa8c07113",
+          "githubRepo": "gameshub-coreball",
+          "githubOrg": "seraseraqqq"
+        }
+      }
+    }
+  },
+  {
+    "id": "minute-cryptic-unlimited",
+    "projectId": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
+    "projectName": "gamehubs-minute-cryptic-unlimited",
+    "buildCommand": null,
+    "installCommand": null,
+    "outputDirectory": null,
+    "webAnalytics": {
+      "id": "ZqPbeso0kDuvLpD8rB8shGy7S",
+      "enabledAt": 1792806776714
+    },
+    "analytics": null,
+    "link": {
+      "type": "github",
+      "repo": "gameshub-minute-cryptic-unlimited",
+      "repoId": 1432763581,
+      "org": "seraseraqqq",
+      "repoOwnerId": 198324509,
+      "gitCredentialId": "cred_c364decbb4129fd2f62d0dffd3ac7eb483f1d68f",
+      "productionBranch": "main",
+      "createdAt": 1792895787688,
+      "updatedAt": 1792895787688,
+      "deployHooks": []
+    },
+    "env": [],
+    "nodeVersion": "24.x",
+    "targets": {
+      "production": {
+        "id": "dpl_FfbRYyHpyQsvQvPnPQmtGquuXTMW",
+        "url": "gamehubs-minute-cryptic-unlimited-376wvot9a.vercel.app",
+        "readyState": "READY",
+        "meta": {
+          "githubCommitSha": "b5d18ddb0a0f7bf057037b7860f18b255da6af84",
+          "githubCommitRef": "b5d18ddb0a0f7bf057037b7860f18b255da6af84",
+          "githubRepo": "gameshub-minute-cryptic-unlimited",
+          "githubOrg": "seraseraqqq"
+        }
+      }
+    }
+  },
+  {
+    "id": "snow-rider-3d-unblocked",
+    "projectId": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+    "projectName": "gamehubs-snow-rider-3d",
+    "buildCommand": "node scripts/build.mjs",
+    "installCommand": "",
+    "outputDirectory": "dist",
+    "webAnalytics": {
+      "id": "4jzR8FxQTfdsP2M2pXPoZjGRi",
+      "enabledAt": 1792854954368
+    },
+    "analytics": null,
+    "link": {
+      "type": "github",
+      "repo": "gameshub-snow-rider-3d-unblocked",
+      "repoId": 1432763661,
+      "org": "seraseraqqq",
+      "repoOwnerId": 198324509,
+      "gitCredentialId": "cred_c364decbb4129fd2f62d0dffd3ac7eb483f1d68f",
+      "productionBranch": "main",
+      "createdAt": 1792895834716,
+      "updatedAt": 1792895834716,
+      "deployHooks": []
+    },
+    "env": [
+      {
+        "id": "7b0n5RjSSS83tvku",
+        "key": "SITE_ORIGIN",
+        "target": [
+          "production"
+        ]
+      },
+      {
+        "id": "M7dfNSbNFtBEeZvV",
+        "key": "PUBLISHER_DOMAIN_STATUS",
+        "target": [
+          "production"
+        ]
+      }
+    ],
+    "nodeVersion": "24.x",
+    "targets": {
+      "production": {
+        "id": "dpl_HXF2m9uNwvzTs1ufjymw2hdhuTng",
+        "url": "gamehubs-snow-rider-3d-6rr13e34q-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "meta": {
+          "githubCommitSha": "d86a93bf1fa2f726aae71d0447c73b592a7ed3d3",
+          "githubCommitRef": "d86a93bf1fa2f726aae71d0447c73b592a7ed3d3",
+          "githubRepo": "gameshub-snow-rider-3d-unblocked",
+          "githubOrg": "seraseraqqq"
+        }
+      }
+    }
+  },
+  {
+    "id": "head-soccer-2026",
+    "projectId": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+    "projectName": "gamehubs-head-soccer-2026",
+    "buildCommand": "node scripts/build.mjs",
+    "installCommand": "",
+    "outputDirectory": "dist",
+    "webAnalytics": {
+      "id": "ISCUVsZIrAUZiXEImne39MyQi",
+      "enabledAt": 1792818383328
+    },
+    "analytics": null,
+    "link": {
+      "type": "github",
+      "repo": "gameshub-head-soccer-2026",
+      "repoId": 1432763748,
+      "org": "seraseraqqq",
+      "repoOwnerId": 198324509,
+      "gitCredentialId": "cred_c364decbb4129fd2f62d0dffd3ac7eb483f1d68f",
+      "productionBranch": "main",
+      "createdAt": 1792895878774,
+      "updatedAt": 1792895878774,
+      "deployHooks": []
+    },
+    "env": [
+      {
+        "id": "Mi2HMQlM1AfpGAyo",
+        "key": "SITE_ORIGIN",
+        "target": [
+          "production"
+        ]
+      }
+    ],
+    "nodeVersion": "24.x",
+    "targets": {
+      "production": {
+        "id": "dpl_4YVYnKFHb11kVNYLhyyL5QkWiZBA",
+        "url": "gamehubs-head-soccer-2026-2uj95lgs4-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "meta": {
+          "githubCommitSha": "849cb11b14bef244156853ec1e8be5e3f4c855d1",
+          "githubCommitRef": "849cb11b14bef244156853ec1e8be5e3f4c855d1",
+          "githubRepo": "gameshub-head-soccer-2026",
+          "githubOrg": "seraseraqqq"
+        }
+      }
+    }
+  },
+  {
+    "id": "acceleration-city",
+    "projectId": "prj_9Xu3Dk2dZKyougmAWZyddtI1TsEz",
+    "projectName": "gamehubs-acceleration-city",
+    "buildCommand": "node scripts/build.mjs",
+    "installCommand": null,
+    "outputDirectory": "dist",
+    "webAnalytics": {
+      "id": "RAf0641Kqp8Qx46UP0uUWXFs0"
+    },
+    "analytics": null,
+    "link": {
+      "type": "github",
+      "repo": "gamehubs-acceleration-city",
+      "repoId": 1431918187,
+      "org": "seraseraqqq",
+      "repoOwnerId": 198324509,
+      "gitCredentialId": "cred_c364decbb4129fd2f62d0dffd3ac7eb483f1d68f",
+      "productionBranch": "main",
+      "createdAt": 1792898410428,
+      "updatedAt": 1792898410428,
+      "deployHooks": []
+    },
+    "env": [
+      {
+        "id": "YIBbWYmHpI5AoBOR",
+        "key": "SITE_ORIGIN",
+        "target": [
+          "production"
+        ]
+      },
+      {
+        "id": "E6iLYvvMEskohy3M",
+        "key": "OWNER_DEPLOYMENT_APPROVED",
+        "target": [
+          "production"
+        ]
+      }
+    ],
+    "nodeVersion": "24.x",
+    "targets": {
+      "production": {
+        "id": "dpl_CKb6dzPxG7nx1ih78wkeBmvWtSAG",
+        "url": "gamehubs-acceleration-city-9m3c9t0bt-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "meta": {
+          "githubCommitSha": "3ca08244e464ee03ed3ba5e87e642500fe66b159",
+          "githubCommitRef": "main",
+          "githubRepo": "gamehubs-acceleration-city",
+          "githubOrg": "seraseraqqq"
+        }
+      }
+    }
+  },
+  {
+    "id": "cluster-rush",
+    "projectId": "prj_S11s0HbRdKMAiWjAdOkKE438olI8",
+    "projectName": "gamehubs-cluster-rush",
+    "buildCommand": "node scripts/build.mjs",
+    "installCommand": null,
+    "outputDirectory": "dist",
+    "webAnalytics": {
+      "id": "EaAEXU5CbrL5iFCe5KAsuORy6"
+    },
+    "analytics": null,
+    "link": {
+      "type": "github",
+      "repo": "gamehubs-cluster-rush",
+      "repoId": 1431916018,
+      "org": "seraseraqqq",
+      "repoOwnerId": 198324509,
+      "gitCredentialId": "cred_c364decbb4129fd2f62d0dffd3ac7eb483f1d68f",
+      "productionBranch": "main",
+      "createdAt": 1792898412619,
+      "updatedAt": 1792898412619,
+      "deployHooks": []
+    },
+    "env": [],
+    "nodeVersion": "24.x",
+    "targets": {
+      "production": {
+        "id": "dpl_9XrPiveMryPL1FjjVB4gaw2TWdyt",
+        "url": "gamehubs-cluster-rush-9mv7grmfu-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "meta": {
+          "githubCommitSha": "3ee20ab4330e785b2c3e642d805b4295a5f90757",
+          "githubCommitRef": "main",
+          "githubRepo": "gamehubs-cluster-rush",
+          "githubOrg": "seraseraqqq"
+        }
+      }
+    }
+  },
+  {
+    "id": "colordle",
+    "projectId": "prj_MO2mqYcaGJjLqrYaocxZDwpjEmyr",
+    "projectName": "gameshub-colordle",
+    "buildCommand": "pnpm build",
+    "installCommand": "pnpm install --frozen-lockfile",
+    "outputDirectory": "apps/web/dist/client",
+    "webAnalytics": {
+      "id": "31Zf4LVqsgO29yMTQTopberlw"
+    },
+    "analytics": null,
+    "link": {
+      "type": "github",
+      "repo": "gameshub-colordle",
+      "repoId": 1432163806,
+      "org": "seraseraqqq",
+      "repoOwnerId": 198324509,
+      "gitCredentialId": "cred_c364decbb4129fd2f62d0dffd3ac7eb483f1d68f",
+      "productionBranch": "main",
+      "createdAt": 1792902332572,
+      "updatedAt": 1792902332572,
+      "deployHooks": []
+    },
+    "env": [
+      {
+        "id": "REww5O0sNjMQAkl4",
+        "key": "ENABLE_EXPERIMENTAL_COREPACK",
+        "target": [
+          "production",
+          "preview",
+          "development"
+        ]
+      },
+      {
+        "id": "o1SVtb8oNqOmmwYC",
+        "key": "SITE_INDEXABLE",
+        "target": [
+          "production",
+          "preview",
+          "development"
+        ]
+      }
+    ],
+    "nodeVersion": "24.x",
+    "targets": {
+      "production": {
+        "id": "dpl_GMLTbbRHRV5P7uznKYuneRkHCubj",
+        "url": "gameshub-colordle-1pj8k4o63-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "meta": {
+          "githubCommitSha": "15c6fcc700d91867973e09d099c8b24776cffa24",
+          "githubCommitRef": "main",
+          "githubRepo": "gameshub-colordle",
+          "githubOrg": "seraseraqqq"
+        }
+      }
+    }
+  },
+  {
+    "id": "cutle",
+    "projectId": "prj_GsfEJjROGzjNVTKWZzUIsEMmZl9O",
+    "projectName": "gameshub-cutle",
+    "buildCommand": "pnpm build",
+    "installCommand": "pnpm install --frozen-lockfile",
+    "outputDirectory": "apps/web/dist/client",
+    "webAnalytics": {
+      "id": "XSYWwzhaz4J4BsYMMOxDs6GVY"
+    },
+    "analytics": null,
+    "link": {
+      "type": "github",
+      "repo": "gameshub-cutle",
+      "repoId": 1432163348,
+      "org": "seraseraqqq",
+      "repoOwnerId": 198324509,
+      "gitCredentialId": "cred_c364decbb4129fd2f62d0dffd3ac7eb483f1d68f",
+      "productionBranch": "main",
+      "createdAt": 1792902328542,
+      "updatedAt": 1792902328542,
+      "deployHooks": []
+    },
+    "env": [
+      {
+        "id": "XmAMTbbo1idsefel",
+        "key": "ENABLE_EXPERIMENTAL_COREPACK",
+        "target": [
+          "production",
+          "preview",
+          "development"
+        ]
+      },
+      {
+        "id": "FalyaG3bEJWg6hi3",
+        "key": "SITE_INDEXABLE",
+        "target": [
+          "production",
+          "preview",
+          "development"
+        ]
+      }
+    ],
+    "nodeVersion": "24.x",
+    "targets": {
+      "production": {
+        "id": "dpl_3dsPT9QnsS5jTiFed5scYEzGqDc3",
+        "url": "gameshub-cutle-gjetfoa0v-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "meta": {
+          "githubCommitSha": "ad22343eea1b16d2d864f1485ba6dd4c66735bcf",
+          "githubCommitRef": "main",
+          "githubRepo": "gameshub-cutle",
+          "githubOrg": "seraseraqqq"
+        }
+      }
+    }
+  },
+  {
+    "id": "metazooa",
+    "projectId": "prj_Jf18eJkWESULNxxU1lkcVl39ii9R",
+    "projectName": "gameshub-metazooa",
+    "buildCommand": "pnpm build",
+    "installCommand": "pnpm install --frozen-lockfile",
+    "outputDirectory": "apps/web/dist/client",
+    "webAnalytics": {
+      "id": "NdwaVlHMW30yiFgVAbBR25zjQ"
+    },
+    "analytics": null,
+    "link": {
+      "type": "github",
+      "repo": "gameshub-metazooa",
+      "repoId": 1432163965,
+      "org": "seraseraqqq",
+      "repoOwnerId": 198324509,
+      "gitCredentialId": "cred_c364decbb4129fd2f62d0dffd3ac7eb483f1d68f",
+      "productionBranch": "main",
+      "createdAt": 1792902334591,
+      "updatedAt": 1792902334591,
+      "deployHooks": []
+    },
+    "env": [
+      {
+        "id": "uV3NiOFIs2Q6POx2",
+        "key": "ENABLE_EXPERIMENTAL_COREPACK",
+        "target": [
+          "production",
+          "preview",
+          "development"
+        ]
+      },
+      {
+        "id": "kG69wBAUGfdeBL1d",
+        "key": "SITE_INDEXABLE",
+        "target": [
+          "production",
+          "preview",
+          "development"
+        ]
+      }
+    ],
+    "nodeVersion": "24.x",
+    "targets": {
+      "production": {
+        "id": "dpl_GiKAYXZQAfaVaPHtrRQXKaV8ZUkm",
+        "url": "gameshub-metazooa-gpzgb5hfl-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "meta": {
+          "githubCommitSha": "bf51cf666218691c4f767e30a9a2b20039a99174",
+          "githubCommitRef": "main",
+          "githubRepo": "gameshub-metazooa",
+          "githubOrg": "seraseraqqq"
+        }
+      }
+    }
+  },
+  {
+    "id": "poople",
+    "projectId": "prj_9q0dNtkD2iDZhLYNDV45mdtHR6nz",
+    "projectName": "gameshub-poople",
+    "buildCommand": "pnpm build",
+    "installCommand": "pnpm install --frozen-lockfile",
+    "outputDirectory": "apps/web/dist/client",
+    "webAnalytics": {
+      "id": "BPj3FrwIkbdI7OZUunvSfaNhw"
+    },
+    "analytics": null,
+    "link": {
+      "type": "github",
+      "repo": "gameshub-poople",
+      "repoId": 1432163572,
+      "org": "seraseraqqq",
+      "repoOwnerId": 198324509,
+      "gitCredentialId": "cred_c364decbb4129fd2f62d0dffd3ac7eb483f1d68f",
+      "productionBranch": "main",
+      "createdAt": 1792902330842,
+      "updatedAt": 1792902330842,
+      "deployHooks": []
+    },
+    "env": [
+      {
+        "id": "fOHTIXTh9CneaEvf",
+        "key": "ENABLE_EXPERIMENTAL_COREPACK",
+        "target": [
+          "production",
+          "preview",
+          "development"
+        ]
+      },
+      {
+        "id": "P1VRn9GRlDzgB7TW",
+        "key": "SITE_INDEXABLE",
+        "target": [
+          "production",
+          "preview",
+          "development"
+        ]
+      }
+    ],
+    "nodeVersion": "24.x",
+    "targets": {
+      "production": {
+        "id": "dpl_CGvXmCjx8txsH54Eko9eLwLYRfRd",
+        "url": "gameshub-poople-5udjh0gws-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "meta": {
+          "githubCommitSha": "6ce5a6fa47dc2ad599244c2b1fc072bddf35307a",
+          "githubCommitRef": "main",
+          "githubRepo": "gameshub-poople",
+          "githubOrg": "seraseraqqq"
+        }
+      }
+    }
+  },
+  {
+    "id": "travle",
+    "projectId": "prj_eO2dPfqIs1Wx5KPim0I52tlnWlVP",
+    "projectName": "gameshub-travle",
+    "buildCommand": "pnpm build",
+    "installCommand": "pnpm install --frozen-lockfile",
+    "outputDirectory": "apps/web/dist/client",
+    "webAnalytics": {
+      "id": "z7Vu5KoUFCC3rdvziGm5oimcQ"
+    },
+    "analytics": null,
+    "link": {
+      "type": "github",
+      "repo": "gameshub-travle",
+      "repoId": 1432164130,
+      "org": "seraseraqqq",
+      "repoOwnerId": 198324509,
+      "gitCredentialId": "cred_c364decbb4129fd2f62d0dffd3ac7eb483f1d68f",
+      "productionBranch": "main",
+      "createdAt": 1792902336884,
+      "updatedAt": 1792902336884,
+      "deployHooks": []
+    },
+    "env": [
+      {
+        "id": "WAApAj5DMb0Nfb9q",
+        "key": "ENABLE_EXPERIMENTAL_COREPACK",
+        "target": [
+          "production",
+          "preview",
+          "development"
+        ]
+      },
+      {
+        "id": "dz4U78gBU7LpGvv3",
+        "key": "SITE_INDEXABLE",
+        "target": [
+          "production",
+          "preview",
+          "development"
+        ]
+      }
+    ],
+    "nodeVersion": "24.x",
+    "targets": {
+      "production": {
+        "id": "dpl_4e4ihqXtFFqmj2zgtFm9uzpowk3d",
+        "url": "gameshub-travle-32iczv1e8-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY",
+        "meta": {
+          "githubCommitSha": "c4beed9defbbb241d961f3b0229bbc1973061daf",
+          "githubCommitRef": "main",
+          "githubRepo": "gameshub-travle",
+          "githubOrg": "seraseraqqq"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,588 @@
+{
+  "terms": [
+    "miniblox",
+    "war the knights",
+    "blombo io",
+    "hexanaut io",
+    "gpts"
+  ],
+  "url": "https://trends.google.com/trends/explore?geo=US&q=miniblox,war%20the%20knights,blombo%20io,hexanaut%20io,gpts&hl=en",
+  "observedAt": "2026-10-25T10:24:31.658Z",
+  "country": "US",
+  "language": "en",
+  "timeframe": "Past 12 months",
+  "queryVerified": true,
+  "status": "observed",
+  "partialPolicy": "Drop last row conservatively; partial flag not in DOM.",
+  "related": [
+    {
+      "href": "/trends/explore?q=eaglercraft&date=today+12-m&geo=US",
+      "text": "1\neaglercraft\n+150%"
+    },
+    {
+      "href": "/trends/explore?q=poki&date=today+12-m&geo=US",
+      "text": "2\npoki\n+130%"
+    },
+    {
+      "href": "/trends/explore?q=bloxd&date=today+12-m&geo=US",
+      "text": "3\nbloxd\n+100%"
+    },
+    {
+      "href": "/trends/explore?q=bloxd+io&date=today+12-m&geo=US",
+      "text": "4\nbloxd io\n+80%"
+    },
+    {
+      "href": "/trends/explore?q=minecraft&date=today+12-m&geo=US",
+      "text": "5\nminecraft\n+50%"
+    },
+    {
+      "href": "/trends/explore?q=vegas+golden+knights&date=today+12-m&geo=US",
+      "text": "1\nvegas golden knights\n+250%"
+    },
+    {
+      "href": "/trends/explore?q=golden+knights&date=today+12-m&geo=US",
+      "text": "2\ngolden knights\n+60%"
+    },
+    {
+      "href": "/trends/explore?q=crazy+games&date=today+12-m&geo=US",
+      "text": "1\ncrazy games\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=minefun&date=today+12-m&geo=US",
+      "text": "2\nminefun\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=minefun+io&date=today+12-m&geo=US",
+      "text": "3\nminefun io\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=poki&date=today+12-m&geo=US",
+      "text": "4\npoki\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=roblox&date=today+12-m&geo=US",
+      "text": "5\nroblox\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=google+games&date=today+12-m&geo=US",
+      "text": "1\ngoogle games\n+120%"
+    },
+    {
+      "href": "/trends/explore?q=hexanaut+io+game&date=today+12-m&geo=US",
+      "text": "2\nhexanaut io game\n+50%"
+    },
+    {
+      "href": "/trends/explore?q=poki&date=today+12-m&geo=US",
+      "text": "3\npoki\n+50%"
+    },
+    {
+      "href": "/trends/explore?q=nvidia+news+today&date=today+12-m&geo=US",
+      "text": "1\nnvidia news today\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=chat+gpts+company+nyt&date=today+12-m&geo=US",
+      "text": "2\nchat gpts company nyt\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=how+to+bake+a+cake&date=today+12-m&geo=US",
+      "text": "3\nhow to bake a cake\n+2,800%"
+    },
+    {
+      "href": "/trends/explore?q=openai+custom+gpts&date=today+12-m&geo=US",
+      "text": "4\nopenai custom gpts\n+600%"
+    },
+    {
+      "href": "/trends/explore?q=chatgpt+plugins&date=today+12-m&geo=US",
+      "text": "5\nchatgpt plugins\n+500%"
+    }
+  ],
+  "tables": [
+    [
+      [
+        "x1",
+        "miniblox",
+        "war the knights",
+        "blombo io",
+        "hexanaut io",
+        "gpts"
+      ],
+      [
+        "Average",
+        "6",
+        "20",
+        "0",
+        "7",
+        "66"
+      ]
+    ],
+    [
+      [
+        "x",
+        "y1",
+        "y2",
+        "y3",
+        "y4",
+        "y5"
+      ],
+      [
+        "‪Oct 19, 2025‬",
+        "9",
+        "18",
+        "0",
+        "10",
+        "44"
+      ],
+      [
+        "‪Oct 26, 2025‬",
+        "7",
+        "18",
+        "0",
+        "13",
+        "62"
+      ],
+      [
+        "‪Nov 2, 2025‬",
+        "10",
+        "20",
+        "0",
+        "12",
+        "83"
+      ],
+      [
+        "‪Nov 9, 2025‬",
+        "9",
+        "17",
+        "0",
+        "14",
+        "80"
+      ],
+      [
+        "‪Nov 16, 2025‬",
+        "8",
+        "24",
+        "0",
+        "14",
+        "63"
+      ],
+      [
+        "‪Nov 23, 2025‬",
+        "7",
+        "20",
+        "0",
+        "9",
+        "54"
+      ],
+      [
+        "‪Nov 30, 2025‬",
+        "12",
+        "25",
+        "0",
+        "15",
+        "69"
+      ],
+      [
+        "‪Dec 7, 2025‬",
+        "12",
+        "29",
+        "0",
+        "12",
+        "71"
+      ],
+      [
+        "‪Dec 14, 2025‬",
+        "12",
+        "24",
+        "0",
+        "20",
+        "81"
+      ],
+      [
+        "‪Dec 21, 2025‬",
+        "4",
+        "11",
+        "0",
+        "6",
+        "70"
+      ],
+      [
+        "‪Dec 28, 2025‬",
+        "6",
+        "14",
+        "0",
+        "4",
+        "71"
+      ],
+      [
+        "‪Jan 4, 2026‬",
+        "9",
+        "17",
+        "0",
+        "7",
+        "76"
+      ],
+      [
+        "‪Jan 11, 2026‬",
+        "7",
+        "22",
+        "0",
+        "10",
+        "75"
+      ],
+      [
+        "‪Jan 18, 2026‬",
+        "7",
+        "22",
+        "0",
+        "12",
+        "87"
+      ],
+      [
+        "‪Jan 25, 2026‬",
+        "7",
+        "21",
+        "0",
+        "8",
+        "98"
+      ],
+      [
+        "‪Feb 1, 2026‬",
+        "7",
+        "26",
+        "0",
+        "7",
+        "92"
+      ],
+      [
+        "‪Feb 8, 2026‬",
+        "8",
+        "24",
+        "0",
+        "9",
+        "88"
+      ],
+      [
+        "‪Feb 15, 2026‬",
+        "11",
+        "25",
+        "0",
+        "7",
+        "98"
+      ],
+      [
+        "‪Feb 22, 2026‬",
+        "9",
+        "30",
+        "0",
+        "6",
+        "95"
+      ],
+      [
+        "‪Mar 1, 2026‬",
+        "8",
+        "31",
+        "0",
+        "7",
+        "99"
+      ],
+      [
+        "‪Mar 8, 2026‬",
+        "8",
+        "28",
+        "0",
+        "5",
+        "84"
+      ],
+      [
+        "‪Mar 15, 2026‬",
+        "6",
+        "25",
+        "0",
+        "4",
+        "91"
+      ],
+      [
+        "‪Mar 22, 2026‬",
+        "7",
+        "26",
+        "0",
+        "5",
+        "87"
+      ],
+      [
+        "‪Mar 29, 2026‬",
+        "6",
+        "23",
+        "0",
+        "5",
+        "74"
+      ],
+      [
+        "‪Apr 5, 2026‬",
+        "5",
+        "19",
+        "0",
+        "5",
+        "87"
+      ],
+      [
+        "‪Apr 12, 2026‬",
+        "4",
+        "23",
+        "0",
+        "4",
+        "66"
+      ],
+      [
+        "‪Apr 19, 2026‬",
+        "6",
+        "18",
+        "0",
+        "4",
+        "83"
+      ],
+      [
+        "‪Apr 26, 2026‬",
+        "6",
+        "22",
+        "0",
+        "5",
+        "71"
+      ],
+      [
+        "‪May 3, 2026‬",
+        "4",
+        "26",
+        "0",
+        "6",
+        "69"
+      ],
+      [
+        "‪May 10, 2026‬",
+        "5",
+        "19",
+        "0",
+        "6",
+        "62"
+      ],
+      [
+        "‪May 17, 2026‬",
+        "5",
+        "23",
+        "0",
+        "6",
+        "78"
+      ],
+      [
+        "‪May 24, 2026‬",
+        "5",
+        "22",
+        "0",
+        "9",
+        "86"
+      ],
+      [
+        "‪May 31, 2026‬",
+        "6",
+        "21",
+        "0",
+        "7",
+        "99"
+      ],
+      [
+        "‪Jun 7, 2026‬",
+        "4",
+        "22",
+        "0",
+        "5",
+        "97"
+      ],
+      [
+        "‪Jun 14, 2026‬",
+        "3",
+        "13",
+        "0",
+        "5",
+        "100"
+      ],
+      [
+        "‪Jun 21, 2026‬",
+        "0",
+        "11",
+        "0",
+        "6",
+        "76"
+      ],
+      [
+        "‪Jun 28, 2026‬",
+        "0",
+        "11",
+        "0",
+        "4",
+        "75"
+      ],
+      [
+        "‪Jul 5, 2026‬",
+        "4",
+        "16",
+        "0",
+        "0",
+        "66"
+      ],
+      [
+        "‪Jul 12, 2026‬",
+        "0",
+        "13",
+        "0",
+        "0",
+        "55"
+      ],
+      [
+        "‪Jul 19, 2026‬",
+        "4",
+        "11",
+        "0",
+        "4",
+        "40"
+      ],
+      [
+        "‪Jul 26, 2026‬",
+        "5",
+        "13",
+        "0",
+        "0",
+        "34"
+      ],
+      [
+        "‪Aug 2, 2026‬",
+        "6",
+        "9",
+        "0",
+        "4",
+        "31"
+      ],
+      [
+        "‪Aug 9, 2026‬",
+        "8",
+        "13",
+        "0",
+        "6",
+        "35"
+      ],
+      [
+        "‪Aug 16, 2026‬",
+        "5",
+        "11",
+        "0",
+        "8",
+        "31"
+      ],
+      [
+        "‪Aug 23, 2026‬",
+        "4",
+        "18",
+        "0",
+        "6",
+        "26"
+      ],
+      [
+        "‪Aug 30, 2026‬",
+        "9",
+        "18",
+        "0",
+        "10",
+        "30"
+      ],
+      [
+        "‪Sep 6, 2026‬",
+        "6",
+        "20",
+        "0",
+        "7",
+        "41"
+      ],
+      [
+        "‪Sep 13, 2026‬",
+        "8",
+        "20",
+        "0",
+        "6",
+        "52"
+      ],
+      [
+        "‪Sep 20, 2026‬",
+        "12",
+        "22",
+        "0",
+        "13",
+        "42"
+      ],
+      [
+        "‪Sep 27, 2026‬",
+        "9",
+        "26",
+        "0",
+        "11",
+        "30"
+      ],
+      [
+        "‪Oct 4, 2026‬",
+        "6",
+        "21",
+        "3",
+        "12",
+        "32"
+      ],
+      [
+        "‪Oct 11, 2026‬",
+        "6",
+        "17",
+        "2",
+        "9",
+        "28"
+      ],
+      [
+        "‪Oct 18, 2026‬",
+        "5",
+        "19",
+        "3",
+        "9",
+        "31"
+      ],
+      [
+        "‪Oct 25, 2026‬",
+        "5",
+        "10",
+        "4",
+        "0",
+        "39"
+      ]
+    ],
+    [
+      [
+        "Term",
+        "Value"
+      ],
+      [
+        "miniblox",
+        "0"
+      ],
+      [
+        "war the knights",
+        "0"
+      ],
+      [
+        "blombo io",
+        "0"
+      ],
+      [
+        "hexanaut io",
+        "0"
+      ],
+      [
+        "gpts",
+        "100"
+      ]
+    ]
+  ],
+  "visibleText": "Home\nExplore\nTrending Now\nshare\nfeedback\ninfo\nTry the new experience!\nExplore search trends with Gemini. A quick and easy way to find search terms and discover trends.\nGo to new Explore\nclose_24px\n•\nSearch term\n•\nSearch term\n•\nSearch term\n•\nSearch term\n•\nSearch term\nUnited States\nPast 12 months\nAll categories\nWeb Search\nminiblox\nwar the knights\nblombo io\nhexanaut io\ngpts\nUnited States, Past 12 months\nInterest over time help_outline\nfile_download\ncode\nshare\nAverage\nx1\tminiblox\twar the knights\tblombo io\thexanaut io\tgpts\nAverage\t6\t20\t0\t7\t66\n‪Oct 19, 2025‬\n‪Mar 1, 2026‬\n‪Jul 12, 2026‬\n25\n50\n75\n100\nx\ty1\ty2\ty3\ty4\ty5\n‪Oct 19, 2025‬\t9\t18\t0\t10\t44\n‪Oct 26, 2025‬\t7\t18\t0\t13\t62\n‪Nov 2, 2025‬\t10\t20\t0\t12\t83\n‪Nov 9, 2025‬\t9\t17\t0\t14\t80\n‪Nov 16, 2025‬\t8\t24\t0\t14\t63\n‪Nov 23, 2025‬\t7\t20\t0\t9\t54\n‪Nov 30, 2025‬\t12\t25\t0\t15\t69\n‪Dec 7, 2025‬\t12\t29\t0\t12\t71\n‪Dec 14, 2025‬\t12\t24\t0\t20\t81\n‪Dec 21, 2025‬\t4\t11\t0\t6\t70\n‪Dec 28, 2025‬\t6\t14\t0\t4\t71\n‪Jan 4, 2026‬\t9\t17\t0\t7\t76\n‪Jan 11, 2026‬\t7\t22\t0\t10\t75\n‪Jan 18, 2026‬\t7\t22\t0\t12\t87\n‪Jan 25, 2026‬\t7\t21\t0\t8\t98\n‪Feb 1, 2026‬\t7\t26\t0\t7\t92\n‪Feb 8, 2026‬\t8\t24\t0\t9\t88\n‪Feb 15, 2026‬\t11\t25\t0\t7\t98\n‪Feb 22, 2026‬\t9\t30\t0\t6\t95\n‪Mar 1, 2026‬\t8\t31\t0\t7\t99\n‪Mar 8, 2026‬\t8\t28\t0\t5\t84\n‪Mar 15, 2026‬\t6\t25\t0\t4\t91\n‪Mar 22, 2026‬\t7\t26\t0\t5\t87\n‪Mar 29, 2026‬\t6\t23\t0\t5\t74\n‪Apr 5, 2026‬\t5\t19\t0\t5\t87\n‪Apr 12, 2026‬\t4\t23\t0\t4\t66\n‪Apr 19, 2026‬\t6\t18\t0\t4\t83\n‪Apr 26, 2026‬\t6\t22\t0\t5\t71\n‪May 3, 2026‬\t4\t26\t0\t6\t69\n‪May 10, 2026‬\t5\t19\t0\t6\t62\n‪May 17, 2026‬\t5\t23\t0\t6\t78\n‪May 24, 2026‬\t5\t22\t0\t9\t86\n‪May 31, 2026‬\t6\t21\t0\t7\t99\n‪Jun 7, 2026‬\t4\t22\t0\t5\t97\n‪Jun 14, 2026‬\t3\t13\t0\t5\t100\n‪Jun 21, 2026‬\t0\t11\t0\t6\t76\n‪Jun 28, 2026‬\t0\t11\t0\t4\t75\n‪Jul 5, 2026‬\t4\t16\t0\t0\t66\n‪Jul 12, 2026‬\t0\t13\t0\t0\t55\n‪Jul 19, 2026‬\t4\t11\t0\t4\t40\n‪Jul 26, 2026‬\t5\t13\t0\t0\t34\n‪Aug 2, 2026‬\t6\t9\t0\t4\t31\n‪Aug 9, 2026‬\t8\t13\t0\t6\t35\n‪Aug 16, 2026‬\t5\t11\t0\t8\t31\n‪Aug 23, 2026‬\t4\t18\t0\t6\t26\n‪Aug 30, 2026‬\t9\t18\t0\t10\t30\n‪Sep 6, 2026‬\t6\t20\t0\t7\t41\n‪Sep 13, 2026‬\t8\t20\t0\t6\t52\n‪Sep 20, 2026‬\t12\t22\t0\t13\t42\n‪Sep 27, 2026‬\t9\t26\t0\t11\t30\n‪Oct 4, 2026‬\t6\t21\t3\t12\t32\n‪Oct 11, 2026‬\t6\t17\t2\t9\t28\n‪Oct 18, 2026‬\t5\t19\t3\t9\t31\n‪Oct 25, 2026‬\t5\t10\t4\t0\t39\nCompared breakdown by subregion\nSubregion\nfile_download\ncode\nshare\nminiblox\nwar the knights\nblombo io\nhexanaut io\ngpts\nColor intensity represents percentage of searches \nLEARN MORE\nSort:\nInterest for miniblox\n1\nNorth Dakota\n2\nKentucky\n3\nArkansas\n4\nNorth Carolina\n5\nNevada\n Showing 1-5 of 51 subregions \nminiblox\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\neaglercraft\n+150%\nmore_vert\n2\npoki\n+130%\nmore_vert\n3\nbloxd\n+100%\nmore_vert\n4\nbloxd io\n+80%\nmore_vert\n5\nminecraft\n+50%\nmore_vert\nwar the knights\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nvegas golden knights\n+250%\nmore_vert\n2\ngolden knights\n+60%\nmore_vert\nblombo io\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\ncrazy games\nBreakout\nmore_vert\n2\nminefun\nBreakout\nmore_vert\n3\nminefun io\nBreakout\nmore_vert\n4\npoki\nBreakout\nmore_vert\n5\nroblox\nBreakout\nmore_vert\n Showing 1-5 of 6 queries \nhexanaut io\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\ngoogle games\n+120%\nmore_vert\n2\nhexanaut io game\n+50%\nmore_vert\n3\npoki\n+50%\nmore_vert\ngpts\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nnvidia news today\nBreakout\nmore_vert\n2\nchat gpts company nyt\nBreakout\nmore_vert\n3\nhow to bake a cake\n+2,800%\nmore_vert\n4\nopenai custom gpts\n+600%\nmore_vert\n5\nchatgpt plugins\n+500%\nmore_vert\n Showing 1-5 of 19 queries "
+}

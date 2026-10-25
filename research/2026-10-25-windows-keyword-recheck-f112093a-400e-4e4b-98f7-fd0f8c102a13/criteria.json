@@ -1,0 +1,21 @@
+{
+  "bestTier": {
+    "kdMaxExclusive": 20,
+    "kgrMaxExclusive": 0.2,
+    "volumeMinExclusive": 10000
+  },
+  "country": "US",
+  "kdMaxInclusive": 30,
+  "kgrBasis": "intitle_exact_phrase",
+  "kgrMaxInclusive": 0.25,
+  "language": "en",
+  "otherTiers": {
+    "A": "All gates pass; volume >10000, KD<=25, KGR<=0.25, or volume>=5000/KD<20/KGR<0.2",
+    "B": "All gates pass; remaining numeric pass with clear rising trend and a feasible SERP opening",
+    "C": "All gates pass but seasonal/mixed-intent or strong-competitor caveats require a smaller validation experiment"
+  },
+  "reasonableGoogleSerpRequired": true,
+  "risingTrendsRequired": true,
+  "trendHeuristic": "Exclude final week; recent8/prior8>=1.15, positive last12 slope, recent4/prior4>=1.05; low resolution and pullbacks remain pending. Not an official Google threshold.",
+  "volumeMinExclusive": 3000
+}

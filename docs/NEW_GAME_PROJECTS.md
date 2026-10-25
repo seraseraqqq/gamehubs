@@ -1,22 +1,24 @@
 # 五个新游戏开发工作空间
 
-更新2026-10-25。按Owner要求，前五个候选已分别建立文件夹及**私有GitHub仓库**，统一前缀gameshub-。初始化文档已推送；2026-10-24 Owner随后授权全部PRD开发，本地MVP已完成并验证，完整本地运行时与本轮优化已分别推送并核对远端SHA，未部署；[提交与验收范围](../research/2026-10-24-five-game-development/optimization-delivery.md)。
+更新2026-10-25。按Owner要求，前五个候选已分别建立文件夹及**私有GitHub仓库**，统一前缀gameshub-。初始化文档已推送；2026-10-24 Owner随后授权全部PRD开发，本地MVP已完成并验证，完整本地运行时与本轮优化已分别推送并核对远端SHA；随后用户明确授权Vercel部署，现五站均READY、默认noindex；[提交与验收范围](../research/2026-10-24-five-game-development/optimization-delivery.md)。
 
 | 项目 | 唯一GitHub源码（私有） | 开发资料 | 当前状态 |
 |---|---|---|---|
-| Cutle | [gameshub-cutle](https://github.com/seraseraqqq/gameshub-cutle) | [仓库文档](https://github.com/seraseraqqq/gameshub-cutle/tree/main/docs) | 源码已推送，未部署，实际设备/玩家待验收 |
-| Poople | [gameshub-poople](https://github.com/seraseraqqq/gameshub-poople) | [仓库文档](https://github.com/seraseraqqq/gameshub-poople/tree/main/docs) | 源码已推送，未部署，实际设备/玩家待验收 |
-| Colordle | [gameshub-colordle](https://github.com/seraseraqqq/gameshub-colordle) | [仓库文档](https://github.com/seraseraqqq/gameshub-colordle/tree/main/docs) | 源码已推送，未部署，实际设备/玩家待验收 |
-| Metazooa | [gameshub-metazooa](https://github.com/seraseraqqq/gameshub-metazooa) | [仓库文档](https://github.com/seraseraqqq/gameshub-metazooa/tree/main/docs) | 源码已推送，未部署，实际设备/玩家待验收 |
-| Travle | [gameshub-travle](https://github.com/seraseraqqq/gameshub-travle) | [仓库文档](https://github.com/seraseraqqq/gameshub-travle/tree/main/docs) | 源码已推送，未部署，实际设备/玩家待验收 |
+| Cutle | [gameshub-cutle](https://github.com/seraseraqqq/gameshub-cutle) | [仓库文档](https://github.com/seraseraqqq/gameshub-cutle/tree/main/docs) | 独立Vercel默认域已部署，浏览器冒烟通过，实际设备/玩家/性能待验收 |
+| Poople | [gameshub-poople](https://github.com/seraseraqqq/gameshub-poople) | [仓库文档](https://github.com/seraseraqqq/gameshub-poople/tree/main/docs) | 独立Vercel默认域已部署，浏览器冒烟通过，实际设备/玩家/性能待验收 |
+| Colordle | [gameshub-colordle](https://github.com/seraseraqqq/gameshub-colordle) | [仓库文档](https://github.com/seraseraqqq/gameshub-colordle/tree/main/docs) | 独立Vercel默认域已部署，浏览器冒烟通过，实际设备/玩家/性能待验收 |
+| Metazooa | [gameshub-metazooa](https://github.com/seraseraqqq/gameshub-metazooa) | [仓库文档](https://github.com/seraseraqqq/gameshub-metazooa/tree/main/docs) | 独立Vercel默认域已部署，浏览器冒烟通过，实际设备/玩家/性能待验收 |
+| Travle | [gameshub-travle](https://github.com/seraseraqqq/gameshub-travle) | [仓库文档](https://github.com/seraseraqqq/gameshub-travle/tree/main/docs) | 独立Vercel默认域已部署，浏览器冒烟通过，实际设备/玩家/性能待验收 |
 
 初始化时每项目29个文件，包含PRODUCT、PRD、设计简报/候选tokens、竞品参考、许可登记、独立研究快照和Rankup接力/计划/词表/基线/接入看板。设计简报未冒充已验收的DESIGN.md；参考样例区分实际观察、SERP摘要与待实玩。离开GameHubs也能独立阅读主要资料，未复制游戏包或登录态。
 
 ## 下一步
 
+后续开发与发布执行[游戏管理默认规则](GAME_MANAGEMENT_RULES.md)：补充指标优先免费Semrush镜像，也可用自部署OpenSEO/DataForSEO；新开发默认接入Vercel Web Analytics并在项目开启；自定义域名默认不带www为Production、www以301跳转。现有五站已在后续17站改造中接入并开启Analytics，真实发送和后台收数已验；[实施证据](../deployments/2026-10-25-portfolio-analytics.md)。
+
 五个游戏已有本地可玩首版；各自docs/QA.md和.rankup/INDEX.md记录证据与下一步。接下来补实体手机/软键盘/缩放/跨浏览器和5名目标玩家对照，名称/域名及生产体检按发布前门槛执行。Metazooa已锁定130动物并核对30组LCA。其余条件候选本轮没有建仓，以免把暂缓项误当已启动。
 
-新项目都没有Vercel项目、域名所有权或部署；不写成上线/可索引/变现已通过。现有12游戏映射与发布holds原样保留。生成兼容台账[data/repositories.json](../data/repositories.json)将这5项单列plannedGames；games数组仍登记原有12个游戏，但运行时代码都在独立仓库；原管理仓库导出检查随旧副本清理而退役。现阶段仍单列plannedGames，developmentState已更新为本地优化验证，完整源码已推送，不能晋升为线上已部署。
+五个新项目均已部署到各自Vercel项目，未购买独立域名；不写成可索引/变现/完整验收已通过。现有游戏的后续发布授权分别以正式站点记录为准。生成兼容台账[data/repositories.json](../data/repositories.json)将这5项单列plannedGames；games数组仍登记原有12个游戏，但运行时代码都在独立仓库；原管理仓库导出检查随旧副本清理而退役。来源分组继续单列plannedGames，当前正式状态已更新为deployed，外部验收保留pending；[最新发布及访问地址](../deployments/2026-10-25-five-game-release.md)。
 
 ## 验证与维护
 
@@ -26,10 +28,10 @@
 
 ## 沉淀的脚本
 
-- [.rankup/scripts/init-game-projects.mjs](../.rankup/scripts/init-game-projects.mjs)：prepare仅创建新文件夹；publish-private需显式启用，校验gh账号、拒绝未知已有仓库、显式路径提交；finalize-records补记已验证推送；verify只读核对。需要本机gh/Git身份，无令牌进入文件。
+- [.rankup/scripts/init-game-projects.mjs](../.rankup/scripts/init-game-projects.mjs)：prepare仅创建新文件夹，并携带管理规则快照、Analytics/域名待验清单和凭据元数据约定，不自动安装SDK或启用线上项目；publish-private需显式启用，校验gh账号、拒绝未知已有仓库、显式路径提交；finalize-records补记已验证推送；verify只读核对。需要本机gh/Git身份，无令牌进入文件。
 - [.rankup/scripts/register-game-projects.mjs](../.rankup/scripts/register-game-projects.mjs)：从已验证结果登记plannedGames，断言原12个games条目不变，不推送GameHubs。
 
-管理仓库的其他未提交修改保留。初始化文档曾各自提交推送；后续完整实现及优化已在各自仓库推送；用户已于2026-10-25随后明确授权将GameHubs管理目录整理和游戏副本清理提交推送；这不扩展为新的游戏部署授权。
+管理仓库的其他未提交修改保留。初始化文档曾各自提交推送；后续完整实现及优化已在各自仓库推送；用户已于2026-10-25随后明确授权将GameHubs管理目录整理和游戏副本清理提交推送；其后用户已再次明确授权这五个游戏的Vercel部署；本页据实际READY与HTTP/浏览器结果更新。
 
 
 ## 本地开发交付

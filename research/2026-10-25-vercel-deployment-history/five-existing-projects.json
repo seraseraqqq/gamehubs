@@ -1,0 +1,679 @@
+{
+  "checkedAt": "2026-10-25T07:04:54.499541+00:00",
+  "results": [
+    {
+      "siteId": "colordle",
+      "origin": "https://gameshub-colordle.vercel.app",
+      "projectId": "prj_MO2mqYcaGJjLqrYaocxZDwpjEmyr",
+      "repository": "seraseraqqq/gameshub-colordle",
+      "rootDirectory": null,
+      "buildCommand": "pnpm build",
+      "outputDirectory": "apps/web/dist/client",
+      "production": {
+        "id": "dpl_CWzHm8MWUo7nJHpctJ6yGxQfAJGo",
+        "url": "gameshub-colordle-94zb2bha1-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY"
+      },
+      "liveSha": "1f36ed08ae1206e79bdce7086cf7724c99af831f",
+      "pendingSourceSha": "1f36ed08ae1206e79bdce7086cf7724c99af831f",
+      "pages": [
+        {
+          "route": "/",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": true,
+          "title": [
+            "Colordle Unlimited – Guess the Color by Name"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/how-to-play",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": true,
+          "title": [
+            "How to Play Colordle – Rules and Controls"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/about",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": true,
+          "title": [
+            "About Colordle Practice"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/privacy",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": true,
+          "title": [
+            "Privacy and Local Progress"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/credits",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": true,
+          "title": [
+            "Sources, Data and Credits"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/color-guide",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": true,
+          "title": [
+            "Colordle Color Names – Search 184 Colors and Hex Values"
+          ],
+          "passed": true
+        }
+      ],
+      "latestSourceLive": true,
+      "assets": [
+        {
+          "route": "/assets/engine-CpIdKNd5.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=utf-8"
+        },
+        {
+          "route": "/assets/index-DNNWpa1I.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=utf-8"
+        },
+        {
+          "route": "/assets/routes-hZGT-8LE.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=utf-8"
+        },
+        {
+          "route": "/assets/styles-BGqPnCGH.css",
+          "status": 200,
+          "contentType": "text/css; charset=utf-8"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "cutle",
+      "origin": "https://gameshub-cutle.vercel.app",
+      "projectId": "prj_GsfEJjROGzjNVTKWZzUIsEMmZl9O",
+      "repository": "seraseraqqq/gameshub-cutle",
+      "rootDirectory": null,
+      "buildCommand": "pnpm build",
+      "outputDirectory": "apps/web/dist/client",
+      "production": {
+        "id": "dpl_DDV4HUEf8XtHPPXvHs76WXfAYphf",
+        "url": "gameshub-cutle-n09i9mcqc-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY"
+      },
+      "liveSha": "45ad74cb27e95662798dcdfcbb56d689faeaeafe",
+      "pendingSourceSha": "1068035bc66e424bc674d71991584b11e0d11ae5",
+      "pages": [
+        {
+          "route": "/",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "Cutle Unlimited – Play the Shape Cutting Game"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/how-to-play",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "How to Play Cutle – Rules and Controls"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/about",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "About Cutle Practice"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/privacy",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "Privacy and Local Progress"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/credits",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "Sources, Data and Credits"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/strategy",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "Cutle Strategy: Find the Halfway Line"
+          ],
+          "passed": true
+        }
+      ],
+      "latestSourceLive": false,
+      "assets": [
+        {
+          "route": "/assets/engine-3a-xuu-v.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=utf-8"
+        },
+        {
+          "route": "/assets/index-CaizzJz9.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=utf-8"
+        },
+        {
+          "route": "/assets/routes-CYR5Dk4H.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=utf-8"
+        },
+        {
+          "route": "/assets/styles-ByRZZrdf.css",
+          "status": 200,
+          "contentType": "text/css; charset=utf-8"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "metazooa",
+      "origin": "https://gameshub-metazooa.vercel.app",
+      "projectId": "prj_Jf18eJkWESULNxxU1lkcVl39ii9R",
+      "repository": "seraseraqqq/gameshub-metazooa",
+      "rootDirectory": null,
+      "buildCommand": "pnpm build",
+      "outputDirectory": "apps/web/dist/client",
+      "production": {
+        "id": "dpl_4iYfsgUXtctfB96mPrkNnLHY7A9K",
+        "url": "gameshub-metazooa-e6t5wpzl5-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY"
+      },
+      "liveSha": "32c7737666ff41480535ebfae5c194037b0a5fde",
+      "pendingSourceSha": "7325cc7a2d048600ecfe1a49f7d34c995f007cf5",
+      "pages": [
+        {
+          "route": "/",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "Metazooa Practice – Animal Taxonomy Guessing Game"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/how-to-play",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "How to Play Metazooa – Rules and Controls"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/about",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "About Metazooa Practice"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/privacy",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "Privacy and Local Progress"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/credits",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "Sources, Data and Credits"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/taxonomy-guide",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "Metazooa Taxonomy Guide – Animal Names and Shared Ancestors"
+          ],
+          "passed": true
+        }
+      ],
+      "latestSourceLive": false,
+      "assets": [
+        {
+          "route": "/assets/engine-DK6Juone.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=utf-8"
+        },
+        {
+          "route": "/assets/index-Cdg8idjw.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=utf-8"
+        },
+        {
+          "route": "/assets/routes-gM13YD5V.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=utf-8"
+        },
+        {
+          "route": "/assets/styles-C2-Hw_9W.css",
+          "status": 200,
+          "contentType": "text/css; charset=utf-8"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "poople",
+      "origin": "https://gameshub-poople.vercel.app",
+      "projectId": "prj_9q0dNtkD2iDZhLYNDV45mdtHR6nz",
+      "repository": "seraseraqqq/gameshub-poople",
+      "rootDirectory": null,
+      "buildCommand": "pnpm build",
+      "outputDirectory": "apps/web/dist/client",
+      "production": {
+        "id": "dpl_DnnZfrA2yZM7ndCcoNnkGPWbjADY",
+        "url": "gameshub-poople-kczuwlsak-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY"
+      },
+      "liveSha": "6d60d527c19cc3232505c80c577d1ed1d0e39530",
+      "pendingSourceSha": "9ff92b8d464088ca72d147a7bd25e9a5485c15c9",
+      "pages": [
+        {
+          "route": "/",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "Poople Practice – Unlimited Word Ladder Puzzles"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/how-to-play",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "How to Play Poople – Rules and Controls"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/about",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "About Poople Practice"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/privacy",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "Privacy and Local Progress"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/credits",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "Sources, Data and Credits"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/solver",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "Poople Solver – Find a Shortest Word Ladder"
+          ],
+          "passed": true
+        }
+      ],
+      "latestSourceLive": false,
+      "assets": [
+        {
+          "route": "/assets/engine-BOEf3G9h.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=utf-8"
+        },
+        {
+          "route": "/assets/index-Q3qwUsW7.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=utf-8"
+        },
+        {
+          "route": "/assets/routes-pgF4wACv.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=utf-8"
+        },
+        {
+          "route": "/assets/styles-DU3jLwz5.css",
+          "status": 200,
+          "contentType": "text/css; charset=utf-8"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "siteId": "travle",
+      "origin": "https://gameshub-travle.vercel.app",
+      "projectId": "prj_eO2dPfqIs1Wx5KPim0I52tlnWlVP",
+      "repository": "seraseraqqq/gameshub-travle",
+      "rootDirectory": null,
+      "buildCommand": "pnpm build",
+      "outputDirectory": "apps/web/dist/client",
+      "production": {
+        "id": "dpl_389QaG1AFTWjrSVsvY1Mr2i8EMfW",
+        "url": "gameshub-travle-o22y56fup-gx03410-8651s-projects.vercel.app",
+        "readyState": "READY"
+      },
+      "liveSha": "257b1108b8e6fac5cf22223ac84c8670617f211d",
+      "pendingSourceSha": "366164e7c265fef82d8ec392653cee03d6d314e6",
+      "pages": [
+        {
+          "route": "/",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "Travle Unlimited – Play the Country Path Game",
+            "Kazakhstan",
+            "Uzbekistan",
+            "Russia",
+            "Norway",
+            "France",
+            "Israel",
+            "Lebanon",
+            "Palestine",
+            "Tunisia",
+            "Algeria",
+            "Jordan",
+            "Kuwait",
+            "Iraq",
+            "Myanmar",
+            "North Korea",
+            "South Korea",
+            "Mongolia",
+            "India",
+            "Bhutan",
+            "Nepal",
+            "Pakistan",
+            "Afghanistan",
+            "Tajikistan",
+            "Kyrgyzstan",
+            "Turkmenistan",
+            "Iran",
+            "Syria",
+            "Armenia",
+            "Sweden",
+            "Belarus",
+            "Ukraine",
+            "Poland",
+            "Austria",
+            "Hungary",
+            "Moldova",
+            "Romania",
+            "Lithuania",
+            "Latvia",
+            "Estonia",
+            "Germany",
+            "Bulgaria",
+            "Greece",
+            "Turkey",
+            "Albania",
+            "Croatia",
+            "Switzerland",
+            "Luxembourg",
+            "Belgium",
+            "Netherlands",
+            "Spain",
+            "People&#x27;s Republic of China",
+            "Italy",
+            "Denmark",
+            "Azerbaijan",
+            "Georgia",
+            "Slovenia",
+            "Finland",
+            "Slovakia",
+            "Czech Republic",
+            "Japan",
+            "Saudi Arabia",
+            "Turkish Republic of Northern Cyprus",
+            "Cyprus",
+            "Egypt",
+            "Libya",
+            "Bosnia and Herzegovina",
+            "North Macedonia",
+            "Serbia",
+            "Montenegro",
+            "Kosovo"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/how-to-play",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "How to Play Travle – Rules and Controls"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/about",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "About Travle Practice"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/privacy",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "Privacy and Local Progress"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/credits",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "Sources, Data and Credits"
+          ],
+          "passed": true
+        },
+        {
+          "route": "/strategy",
+          "status": 200,
+          "h1Count": 1,
+          "robots": [
+            "noindex,follow"
+          ],
+          "contactPublished": false,
+          "title": [
+            "Travle Strategy – Country Routes, Borders and Shortest Paths"
+          ],
+          "passed": true
+        }
+      ],
+      "latestSourceLive": false,
+      "assets": [
+        {
+          "route": "/assets/engine-BAQUVgUT.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=utf-8"
+        },
+        {
+          "route": "/assets/index-BkDBpWR6.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=utf-8"
+        },
+        {
+          "route": "/assets/routes-BM4zkM-u.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=utf-8"
+        },
+        {
+          "route": "/assets/styles-CmfIOhWM.css",
+          "status": 200,
+          "contentType": "text/css; charset=utf-8"
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "limits": [
+    "HTTP/assets/configuration verify that sites are built and deployed, not full physical-device gameplay or indexing.",
+    "Latest SEO source commit differs from successful live commit on four sites due to the previously recorded deployment limit."
+  ]
+}

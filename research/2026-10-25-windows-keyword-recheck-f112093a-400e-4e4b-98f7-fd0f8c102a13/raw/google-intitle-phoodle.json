@@ -1,0 +1,62 @@
+{
+  "term": "phoodle",
+  "query": "intitle:\"phoodle\"",
+  "mode": "intitle",
+  "queryMode": "quoted_phrase",
+  "url": "https://www.google.com/search?q=intitle%3A%22phoodle%22&gl=us&hl=en&pws=0",
+  "observedAt": "2026-10-25T11:03:43.742Z",
+  "country": "US",
+  "language": "en",
+  "physicalUSLocationVerified": false,
+  "queryVerified": true,
+  "operatorIgnored": false,
+  "status": "observed",
+  "allintitle": null,
+  "intitle": 4600,
+  "completeTopTen": true,
+  "blocked": false,
+  "results": [
+    {
+      "title": "Phoodle",
+      "url": "https://phoodle.net/"
+    },
+    {
+      "title": "Phoodle - App Store - Apple",
+      "url": "https://apps.apple.com/us/app/phoodle/id6478786656"
+    },
+    {
+      "title": "Phoodle - Apps on Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.phoodle.app&hl=en_US"
+    },
+    {
+      "title": "Phoodle: Play the Daily Word Game",
+      "url": "https://playlin.io/game/phoodle/"
+    },
+    {
+      "title": "Phoodle - Challenge Yourself: Play Now Online!",
+      "url": "https://likewordle.com/games/phoodle"
+    },
+    {
+      "title": "Phoodle (@phoodlegame) • Instagram photos and videos",
+      "url": "https://www.instagram.com/phoodlegame/?hl=en"
+    },
+    {
+      "title": "Play Phoodle, the Food Lovers' Wordle",
+      "url": "https://www.finedininglovers.com/explore/articles/play-phoodle-food-lovers-wordle"
+    },
+    {
+      "title": "Phoodle - Wordle NYT",
+      "url": "https://wordle-nyt.org/phoodle"
+    },
+    {
+      "title": "'Phoodle' is Wordle for foodies -- and Martha Stewart is a fan!",
+      "url": "https://www.today.com/video/-phoodle-is-wordle-for-foodies-and-martha-stewart-is-a-fan-139685445561"
+    },
+    {
+      "title": "'Phoodle' is your next favorite 'Wordle' knock-off. Even ...",
+      "url": "https://mashable.com/article/phoodle-wordle-clone-foodies"
+    }
+  ],
+  "searchText": "Web results\nPhoodle\n\nPhoodle\nhttps://phoodle.net\n95,928\nA daily food centered word puzzle.\nAITDK\nMonthly Visits: 161.9K\nAvg. Visit Duration: 00:00:59\nDomain Created: 2022-03-17\nPhoodle - App Store - Apple\n\nApple\nhttps://apps.apple.com › app › phoodle\n1,535,586,700\nPhoodle is the ultimate word game for food lovers! Enjoy a daily puzzle where you have 6 tries to guess a 5-letter food-related word.Read more\nAITDK\nMonthly Visits: 150.28M\nAvg. Visit Duration: 00:00:47\nDomain Created: 1987-02-19\nPhoodle - Apps on Google Play\n\nGoogle Play\nhttps://play.google.com › store › apps › details › id=com...\n3,337,416,000\nApr 30, 2026 — Phoodle - Apps on Google Play. Games · Apps · Movies & TV · Books · Kids · google_logo Play. Games.Read more\nAITDK\nMonthly Visits: 1.16B\nAvg. Visit Duration: 00:02:01\nDomain Created: 1997-09-15\nPhoodle: Play the Daily Word Game\n\nPlaylin\nhttps://playlin.io › game › phoodle\n0\nPhoodle is a daily word puzzle where your mission is to guess a five-letter food-related word in six tries or less. It's Wordle, but every answer is culinary.\nAITDK\nMonthly Visits: 1.09M\nAvg. Visit Duration: 00:02:52\nDomain Created: 2025-07-26\nPhoodle - Challenge Yourself: Play Now Online!\n\nLikeWordle\nhttps://likewordle.com › iOS › Geography\n109,016\nIn PHOODLE, your challenge is to uncover the secret food-related term within six guesses. Each guess should be a five-letter word\n4.0(3) · Free · ‎iOS\nAITDK\nMonthly Visits: 25.52K\nAvg. Visit Duration: 00:00:15\nDomain Created: 2022-06-30\nPhoodle (@phoodlegame) • Instagram photos and videos\n\nInstagram · phoodlegame\n2.8K+ followers\n5,810,300,000\nA daily word game for food lovers. As seen on @marthastewart, @todayshow, @foodnetwork Ads & partnerships: hello@phoodle.net Play now (link below).Read more\nPlay Phoodle, the Food Lovers' Wordle\n\nFine Dining Lovers\nhttps://www.finedininglovers.com › Explore\n3,901,496\nMay 12, 2022 — Phoodle is a new online word game that works just like Wordle except all the answers are food-related words. Find out more about the game ...\nAITDK\nMonthly Visits: 198.21K\nAvg. Visit Duration: 00:00:32\nDomain Created: 2010-06-23\nPhoodle - Wordle NYT\n\nwordle-nyt.org\nhttps://wordle-nyt.org › phoodle\n3,111,749\nInspired by Wordle, Phoodle is a daily online word game with a culinary twist. Your goal is to guess a five-letter food word in six tries or fewer.\nAITDK\nMonthly Visits: 146.17K\nAvg. Visit Duration: 00:00:57\nDomain Created: 2022-12-31\n'Phoodle' is Wordle for foodies -- and Martha Stewart is a fan!\n\nToday Show · TODAY\nhttps://www.today.com · May 10, 2022\n157,322,690\n0:38\nA new online word puzzle alternative to “Wordle” called “Phoodle” has players guessing a five-letter word related to food in six tries.\n'Phoodle' is your next favorite 'Wordle' knock-off. Even ...\n\nMashable\nhttps://mashable.com › Entertainment › Games\n71,370,740\n\"Wordle\" clones are all the rage and \"Phoodle,\" a word puzzle game about food, gets an extra bump of excitement after Martha Stewart endorsed it.\nAITDK\nMonthly Visits: 13.42M\nAvg. Visit Duration: 00:00:47\nDomain Created: 2005-07-19",
+  "stats": "About 4,600 results (0.47s) "
+}

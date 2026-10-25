@@ -1,0 +1,100 @@
+{
+  "duotrigordle": {
+    "reasonable": true,
+    "certainty": "medium",
+    "reasons": [
+      "真实Google普通查询取得7条自然结果，游戏意图明确；原站之外有duotrigordle.org、wordle.global、wordleplay等可玩入口。",
+      "已在Chrome实际回读原站Daily/Practice/Sequence/Jumble和.org版0/32面板、37次猜词及键盘，确认该词存在可比较的网页游戏入口。",
+      "本轮合理竞争判断限于关键词研究：KD24、存在多域名匹配入口，评为中等可争取；未验证新产品差异或排名成功率。",
+      "原站功能已完善，不能把unlimited当未满足需求；现版代码不可假设开源，建设许可/差异化另行核验。",
+      "只采到首屏7条自然结果，未冒充完整前十，故确定性为中。"
+    ],
+    "evidenceFiles": [
+      "research/2026-10-25-windows-keyword-recheck-f112093a-400e-4e4b-98f7-fd0f8c102a13/raw/primary-duotrigordle.json",
+      "research/2026-10-25-windows-keyword-recheck-f112093a-400e-4e4b-98f7-fd0f8c102a13/raw/primary-duotrigordle-practice.json",
+      "research/2026-10-25-windows-keyword-recheck-f112093a-400e-4e4b-98f7-fd0f8c102a13/raw/competitor-duotrigordle-org.json"
+    ],
+    "independentReview": {
+      "reasonable": null,
+      "path": "research/2026-10-25-windows-keyword-recheck-f112093a-400e-4e4b-98f7-fd0f8c102a13/serp-review-suggestions.json"
+    },
+    "rootDecisionRationale": "独立复核评的是尚未证明的产品差异切口；本轮用户门槛为SERP竞争是否合理。主线用真实Google的同意图多域名游戏入口和已核对界面支持中等可争取，不把研究推荐等同建设通过。"
+  },
+  "tradle": {
+    "reasonable": true,
+    "certainty": "medium",
+    "reasons": [
+      "真实Google取得8条自然结果，其中OEC原站、tradle.net、tradle.world、Playlin、TripMemo等均为国家出口猜谜游戏入口；另有同名金融软件，搜索量不能全部归给游戏。",
+      "Chrome已回读OEC的国家选择/Guess入口及tradle.world的出口品类图、6次猜测、Daily/Practice模式；核心游戏意图和可比较网页入口明确。",
+      "KD30位于用户上限，原站有数据优势、多家已有Practice，判为中等竞争的B档实验候选，不作为最优档或无限模式空白。",
+      "出口数据正确性、年份和许可及具体产品差异仍需建设前验证；本轮仅作关键词竞争判断。",
+      "实际首屏8条，未声称已取得完整前十。"
+    ],
+    "evidenceFiles": [
+      "research/2026-10-25-windows-keyword-recheck-f112093a-400e-4e4b-98f7-fd0f8c102a13/raw/primary-tradle.json",
+      "research/2026-10-25-windows-keyword-recheck-f112093a-400e-4e4b-98f7-fd0f8c102a13/raw/competitor-tradle-world.json"
+    ],
+    "independentReview": {
+      "reasonable": null,
+      "path": "research/2026-10-25-windows-keyword-recheck-f112093a-400e-4e4b-98f7-fd0f8c102a13/serp-review-suggestions.json"
+    },
+    "rootDecisionRationale": "保留独立审查的产品差异未证实意见；按用户关键词筛选口径，以多个已核对匹配入口和KD30边界判断为中等可争取，采用B档并显式保留数据成本与混合意图风险。"
+  },
+  "ragdoll drop": {
+    "reasonable": true,
+    "certainty": "medium",
+    "reasons": [
+      "真实Google取得7条自然结果，前列为ragdolldrop.com、ragdolldrop.io、Poki与应用商店；主要任务为布娃娃物理跌落/伤害得分游戏。",
+      "Poki实际页面确认物理抛掷、伤害计分和15关描述；.io实际页面确认网页物理街机、布置陷阱和伤害计分，存在匹配可比较的游戏入口。",
+      "KD14、月量3600、KGR约0.1453，竞争可作为低量B档实验；不把较低KD当排名保证。",
+      "首位.com返回Cloudflare ASN访问限制，未绕过；据独立Poki发布页和.io页确认大类意图，具体版本、内容许可及完整游玩验收仍未确认。",
+      "页面可能自动中文化，玩法观察与US/en搜索参数分开记录；首屏仅7自然结果，确定性为中。"
+    ],
+    "evidenceFiles": [
+      "research/2026-10-25-windows-keyword-recheck-f112093a-400e-4e4b-98f7-fd0f8c102a13/raw/primary-ragdoll-drop.json",
+      "research/2026-10-25-windows-keyword-recheck-f112093a-400e-4e4b-98f7-fd0f8c102a13/raw/publisher-ragdoll-drop-poki.json",
+      "research/2026-10-25-windows-keyword-recheck-f112093a-400e-4e4b-98f7-fd0f8c102a13/raw/competitor-ragdoll-drop-io.json"
+    ]
+  },
+  "countryle": {
+    "reasonable": null,
+    "certainty": "low",
+    "reasons": [
+      "真实Google可见7个自然结果，多个网页国家猜谜入口；低KD/KGR与独立趋势均过线。",
+      "但GeoWorldle、MapGuesser等同名页面的提示指标/规则不同，原站主文档为iframe，尚未核实目标版本的一致性。",
+      "独立审查也保留SERP切口未知；不把版本混淆或抓取不到文字当成低竞争优势，保持待验证。"
+    ],
+    "evidenceFiles": [
+      "research/2026-10-25-windows-keyword-recheck-f112093a-400e-4e4b-98f7-fd0f8c102a13/raw/primary-countryle.json",
+      "research/2026-10-25-windows-keyword-recheck-f112093a-400e-4e4b-98f7-fd0f8c102a13/raw/competitor-countryle-geoworldle.json"
+    ],
+    "independentReview": {
+      "reasonable": null,
+      "path": "research/2026-10-25-windows-keyword-recheck-f112093a-400e-4e4b-98f7-fd0f8c102a13/serp-review-suggestions.json"
+    }
+  },
+  "actorle": {
+    "reasonable": null,
+    "certainty": "low",
+    "reasons": [
+      "Google首屏7条包含Actorle原站、同运营Actorle TV、原作App、发布帖和目录；尚未确认可争取的独立同版本入口。",
+      "Chrome原站明确影视作品猜演员、多个产品模式和Plus/账户体系；不能仅因论坛或目录存在而认定SERP轻松。",
+      "量/KD、KGR和独立趋势过线，但SERP合理切口仍待证明，不凑推荐档。"
+    ],
+    "evidenceFiles": [
+      "research/2026-10-25-windows-keyword-recheck-f112093a-400e-4e4b-98f7-fd0f8c102a13/raw/primary-actorle.json"
+    ]
+  },
+  "orbit kick": {
+    "reasonable": null,
+    "certainty": "low",
+    "reasons": [
+      "Google已取得10条可见自然结果，几乎全为专门Orbit Kick游戏页面；存在较密集的直接竞争。",
+      "原站已提供距离踢球、金币和升级玩法，部分同名站有不同玩法描述；当前没有证据证明可实施的具体差异切口。",
+      "KD30在用户上限，虽量/KGR和隔离后的趋势已过线，仍保留SERP竞争判断未知。"
+    ],
+    "evidenceFiles": [
+      "research/2026-10-25-windows-keyword-recheck-f112093a-400e-4e4b-98f7-fd0f8c102a13/raw/primary-orbit-kick.json"
+    ]
+  }
+}

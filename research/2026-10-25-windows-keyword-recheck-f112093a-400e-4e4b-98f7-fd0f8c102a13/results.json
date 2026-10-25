@@ -1,0 +1,3105 @@
+[
+  {
+    "certainty": "low",
+    "intitle": 771,
+    "kd": 20,
+    "kgr": 0.0637190082644628,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "escape road 3",
+    "tier": "PENDING",
+    "trend": "rising_with_recent_pullback",
+    "volume": 12100,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "low",
+    "intitle": 550,
+    "kd": 30,
+    "kgr": 0.05555555555555555,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "Trends近期8周和4周上升，12周斜率为正",
+      "Google已取得10条可见自然结果，几乎全为专门Orbit Kick游戏页面；存在较密集的直接竞争。",
+      "原站已提供距离踢球、金币和升级玩法，部分同名站有不同玩法描述；当前没有证据证明可实施的具体差异切口。",
+      "KD30在用户上限，虽量/KGR和隔离后的趋势已过线，仍保留SERP竞争判断未知。",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "orbit kick",
+    "tier": "PENDING",
+    "trend": "rising",
+    "volume": 9900,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 70,
+    "kgr": null,
+    "reasons": [
+      "Trends近期8周和4周上升，12周斜率为正",
+      "KD 70，超过30",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "cowboy safari",
+    "tier": "REJECT",
+    "trend": "rising",
+    "volume": 18100,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 38,
+    "kgr": null,
+    "reasons": [
+      "KD 38，超过30",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "ragdoll playground",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 22200,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": 31900,
+    "kd": 24,
+    "kgr": 2.6363636363636362,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "KGR 2.63636，超过0.25（intitle精确短语口径）",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "slide down",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 12100,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "low",
+    "intitle": 215,
+    "kd": 8,
+    "kgr": 0.059722222222222225,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "bucket smash",
+    "tier": "PENDING",
+    "trend": "low_resolution",
+    "volume": 3600,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": 2830,
+    "kd": 18,
+    "kgr": 0.28585858585858587,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "KGR 0.285859，超过0.25（intitle精确短语口径）",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "mr flip",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 9900,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "low",
+    "intitle": 262,
+    "kd": 7,
+    "kgr": 0.048518518518518516,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "rocket fortress",
+    "tier": "PENDING",
+    "trend": "mixed_or_flat",
+    "volume": 5400,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": 11200,
+    "kd": 20,
+    "kgr": 1.382716049382716,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "Trends当前为flat_or_declining，未达到本轮上升要求",
+      "KGR 1.38272，超过0.25（intitle精确短语口径）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "city brawl",
+    "tier": "REJECT",
+    "trend": "flat_or_declining",
+    "volume": 8100,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 8,
+    "kgr": null,
+    "reasons": [
+      "Volume 1600，未超过3000",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "rob brainrot 2",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 1600,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 16,
+    "kgr": null,
+    "reasons": [
+      "Volume 2900，未超过3000",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "italian brainrot clicker 2",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 2900,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": 1340,
+    "kd": 12,
+    "kgr": 0.30454545454545456,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "KGR 0.304545，超过0.25（intitle精确短语口径）",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "bat smash",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 4400,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 37,
+    "kgr": null,
+    "reasons": [
+      "KD 37，超过30",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "deer adventure",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 18100,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 10,
+    "kgr": null,
+    "reasons": [
+      "Volume 1000，未超过3000",
+      "Trends当前为flat_or_declining，未达到本轮上升要求",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "glide in",
+    "tier": "REJECT",
+    "trend": "flat_or_declining",
+    "volume": 1000,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 12,
+    "kgr": null,
+    "reasons": [
+      "Trends近期8周和4周上升，12周斜率为正",
+      "Volume 2900，未超过3000",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "ragdoll flip",
+    "tier": "REJECT",
+    "trend": "rising",
+    "volume": 2900,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 32,
+    "kgr": null,
+    "reasons": [
+      "KD 32，超过30",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "undead corridor",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 12100,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": 411,
+    "kd": 20,
+    "kgr": 0.010148148148148147,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "escape road city 2",
+    "tier": "PENDING",
+    "trend": "rising_with_recent_pullback",
+    "volume": 40500,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "low",
+    "intitle": 1170,
+    "kd": 20,
+    "kgr": 0.11818181818181818,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "jetski race",
+    "tier": "PENDING",
+    "trend": "rising_with_recent_pullback",
+    "volume": 9900,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 44,
+    "kgr": null,
+    "reasons": [
+      "KD 44，超过30",
+      "Trends当前为declining，未达到本轮上升要求",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "golf hit",
+    "tier": "REJECT",
+    "trend": "declining",
+    "volume": 33100,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 33,
+    "kgr": null,
+    "reasons": [
+      "KD 33，超过30",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "head basketball",
+    "tier": "REJECT",
+    "trend": "mixed_or_flat",
+    "volume": 8100,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 51,
+    "kgr": null,
+    "reasons": [
+      "KD 51，超过30",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "escape road 2",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 74000,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 34,
+    "kgr": null,
+    "reasons": [
+      "KD 34，超过30",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "chill guy clicker",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 33100,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 38,
+    "kgr": null,
+    "reasons": [
+      "KD 38，超过30",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "slope 3",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 49500,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": 246,
+    "kd": 7,
+    "kgr": 0.04555555555555556,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "traffic rally",
+    "tier": "PENDING",
+    "trend": "mixed_or_flat",
+    "volume": 5400,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 8,
+    "kgr": null,
+    "reasons": [
+      "Volume 590，未超过3000",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "drift rush",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 590,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "Trends近期8周和4周上升，12周斜率为正",
+      "Volume 20，未超过3000",
+      "待补：KD",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "airborne bmx",
+    "tier": "REJECT",
+    "trend": "rising",
+    "volume": 20,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 18,
+    "kgr": null,
+    "reasons": [
+      "Volume 2400，未超过3000",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "animal craft",
+    "tier": "REJECT",
+    "trend": "mixed_or_flat",
+    "volume": 2400,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 44,
+    "kgr": null,
+    "reasons": [
+      "Trends近期8周和4周上升，12周斜率为正",
+      "KD 44，超过30",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "dude theft auto",
+    "tier": "REJECT",
+    "trend": "rising",
+    "volume": 12100,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 27,
+    "kgr": null,
+    "reasons": [
+      "Volume 1900，未超过3000",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "bike xtreme",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 1900,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 18,
+    "kgr": null,
+    "reasons": [
+      "Volume 2400，未超过3000",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "tap road 2",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 2400,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 31,
+    "kgr": null,
+    "reasons": [
+      "Trends近期8周和4周上升，12周斜率为正",
+      "KD 31，超过30",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "speed stars",
+    "tier": "REJECT",
+    "trend": "rising",
+    "volume": 165000,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 34,
+    "kgr": null,
+    "reasons": [
+      "KD 34，超过30",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "level devil",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 110000,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 49,
+    "kgr": null,
+    "reasons": [
+      "KD 49，超过30",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "monkey mart",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 135000,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 62,
+    "kgr": null,
+    "reasons": [
+      "KD 62，超过30",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "slice master",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 301000,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 81,
+    "kgr": null,
+    "reasons": [
+      "Trends近期8周和4周上升，12周斜率为正",
+      "KD 81，超过30",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "retro bowl",
+    "tier": "REJECT",
+    "trend": "rising",
+    "volume": 823000,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 79,
+    "kgr": null,
+    "reasons": [
+      "Volume 880，未超过3000",
+      "KD 79，超过30",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "blocky blast puzzle",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 880,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 28,
+    "kgr": null,
+    "reasons": [
+      "Volume 1900，未超过3000",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "cryzen io",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 1900,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": 5450,
+    "kd": 29,
+    "kgr": 0.2011070110701107,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "super liquid soccer",
+    "tier": "PENDING",
+    "trend": "rising_with_recent_pullback",
+    "volume": 27100,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 43,
+    "kgr": null,
+    "reasons": [
+      "KD 43，超过30",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "blumgi slime",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 8100,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 4,
+    "kgr": null,
+    "reasons": [
+      "Volume 260，未超过3000",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "blumgi bounce",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 260,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": 15100,
+    "kd": 25,
+    "kgr": 2.287878787878788,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "Trends近期8周和4周上升，12周斜率为正",
+      "KGR 2.28788，超过0.25（intitle精确短语口径）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "plonky",
+    "tier": "REJECT",
+    "trend": "rising",
+    "volume": 6600,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 49,
+    "kgr": null,
+    "reasons": [
+      "Volume 880，未超过3000",
+      "KD 49，超过30",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "under the red sky",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 880,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": 11900,
+    "kd": 25,
+    "kgr": 0.8040540540540541,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "Trends近期8周和4周上升，12周斜率为正",
+      "KGR 0.804054，超过0.25（intitle精确短语口径）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "rocket soccer derby",
+    "tier": "REJECT",
+    "trend": "rising",
+    "volume": 14800,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": 3040,
+    "kd": 7,
+    "kgr": 0.6909090909090909,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "KGR 0.690909，超过0.25（intitle精确短语口径）",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "blacktop police chase",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 4400,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 17,
+    "kgr": null,
+    "reasons": [
+      "Volume 1900，未超过3000",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "vectaria io",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 1900,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": 11200,
+    "kd": 23,
+    "kgr": 0.6187845303867403,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "Trends当前为flat_or_declining，未达到本轮上升要求",
+      "KGR 0.618785，超过0.25（intitle精确短语口径）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "minefun io",
+    "tier": "REJECT",
+    "trend": "flat_or_declining",
+    "volume": 18100,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "low",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "待补：Volume",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "ragdoll bonk",
+    "tier": "PENDING",
+    "trend": "low_resolution",
+    "volume": null,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "待补：Volume",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "slime keyboard escape",
+    "tier": "PENDING",
+    "trend": "low_resolution",
+    "volume": null,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 32,
+    "kgr": null,
+    "reasons": [
+      "Volume 140，未超过3000",
+      "KD 32，超过30",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "soccer skills 2 world cup",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 140,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 8,
+    "kgr": null,
+    "reasons": [
+      "Volume 1900，未超过3000",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "soccer skills champions league",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 1900,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 49,
+    "kgr": null,
+    "reasons": [
+      "KD 49，超过30",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "watermelon drop",
+    "tier": "REJECT",
+    "trend": "mixed_or_flat",
+    "volume": 4400,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 38,
+    "kgr": null,
+    "reasons": [
+      "KD 38，超过30",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "exhibit of sorrows",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 4400,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 16,
+    "kgr": null,
+    "reasons": [
+      "Volume 260，未超过3000",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "stick rush",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 260,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 39,
+    "kgr": null,
+    "reasons": [
+      "KD 39，超过30",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "spacebar clicker",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 201000,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 52,
+    "kgr": null,
+    "reasons": [
+      "KD 52，超过30",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "iron snout",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 18100,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 58,
+    "kgr": null,
+    "reasons": [
+      "KD 58，超过30",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "gladihoppers",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 27100,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 43,
+    "kgr": null,
+    "reasons": [
+      "Volume 590，未超过3000",
+      "KD 43，超过30",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "rowdy city wrestling",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 590,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": 4040,
+    "kd": 27,
+    "kgr": 0.7481481481481481,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "KGR 0.748148，超过0.25（intitle精确短语口径）",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "war of sticks",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 5400,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 50,
+    "kgr": null,
+    "reasons": [
+      "Trends近期8周和4周上升，12周斜率为正",
+      "KD 50，超过30",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "big shot boxing",
+    "tier": "REJECT",
+    "trend": "rising",
+    "volume": 9900,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": 13900,
+    "kd": 18,
+    "kgr": 3.159090909090909,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "Trends当前为declining，未达到本轮上升要求",
+      "KGR 3.15909，超过0.25（intitle精确短语口径）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/"
+    ],
+    "term": "super star car",
+    "tier": "REJECT",
+    "trend": "declining",
+    "volume": 4400,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 46,
+    "kgr": null,
+    "reasons": [
+      "KD 46，超过30",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.crazygames.com/game/openfront-gsw"
+    ],
+    "term": "openfront",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 49500,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 52,
+    "kgr": null,
+    "reasons": [
+      "KD 52，超过30",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.crazygames.com/game/veck-io"
+    ],
+    "term": "veck io",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 74000,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 42,
+    "kgr": null,
+    "reasons": [
+      "KD 42，超过30",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.crazygames.com/game/frontwars-io"
+    ],
+    "term": "frontwars io",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 6600,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 44,
+    "kgr": null,
+    "reasons": [
+      "KD 44，超过30",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.crazygames.com/game/racing-limits"
+    ],
+    "term": "racing limits",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 27100,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": 3430,
+    "kd": 28,
+    "kgr": 0.2834710743801653,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "KGR 0.283471，超过0.25（intitle精确短语口径）",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.crazygames.com/game/miniblox"
+    ],
+    "term": "miniblox",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 12100,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "low",
+    "intitle": 1200,
+    "kd": 11,
+    "kgr": 0.2222222222222222,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.crazygames.com/game/war-the-knights"
+    ],
+    "term": "war the knights",
+    "tier": "PENDING",
+    "trend": "rising_with_recent_pullback",
+    "volume": 5400,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "Volume 40，未超过3000",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.crazygames.com/game/blombo-io"
+    ],
+    "term": "blombo io",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 40,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": 2960,
+    "kd": 29,
+    "kgr": 0.298989898989899,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "Trends近期8周和4周上升，12周斜率为正",
+      "KGR 0.29899，超过0.25（intitle精确短语口径）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.crazygames.com/game/hexanaut-io"
+    ],
+    "term": "hexanaut io",
+    "tier": "REJECT",
+    "trend": "rising",
+    "volume": 9900,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 9,
+    "kgr": null,
+    "reasons": [
+      "Volume 720，未超过3000",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.crazygames.com/game/meeland-io"
+    ],
+    "term": "meeland io",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 720,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "Volume 10，未超过3000",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.crazygames.com/game/unmatched-ego-2"
+    ],
+    "term": "unmatched ego 2",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 10,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "Volume 90，未超过3000",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.crazygames.com/game/the-machinegg"
+    ],
+    "term": "the machinegg",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 90,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 62,
+    "kgr": null,
+    "reasons": [
+      "KD 62，超过30",
+      "Trends当前为flat_or_declining，未达到本轮上升要求",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.crazygames.com/game/bloxdhop-io"
+    ],
+    "term": "bloxd io",
+    "tier": "REJECT",
+    "trend": "flat_or_declining",
+    "volume": 201000,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 31,
+    "kgr": null,
+    "reasons": [
+      "KD 31，超过30",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.crazygames.com/game/kour-io"
+    ],
+    "term": "kour io",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 14800,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 44,
+    "kgr": null,
+    "reasons": [
+      "KD 44，超过30",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.crazygames.com/game/grow-a-garden---growden-io"
+    ],
+    "term": "growden io",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 14800,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 54,
+    "kgr": null,
+    "reasons": [
+      "KD 54，超过30",
+      "Trends当前为flat_or_declining，未达到本轮上升要求",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://wafflegame.net/"
+    ],
+    "term": "waffle game",
+    "tier": "REJECT",
+    "trend": "flat_or_declining",
+    "volume": 201000,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 40,
+    "kgr": null,
+    "reasons": [
+      "Trends近期8周和4周上升，12周斜率为正",
+      "KD 40，超过30",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://semantle.com/"
+    ],
+    "term": "semantle",
+    "tier": "REJECT",
+    "trend": "rising",
+    "volume": 27100,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": 4600,
+    "kd": 12,
+    "kgr": 0.062162162162162166,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "Trends当前为flat_or_declining，未达到本轮上升要求",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://www.phoodle.net/"
+    ],
+    "term": "phoodle",
+    "tier": "REJECT",
+    "trend": "flat_or_declining",
+    "volume": 74000,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": 4150,
+    "kd": 24,
+    "kgr": 0.08383838383838384,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "Trends近期8周和4周上升，12周斜率为正",
+      "真实Google普通查询取得7条自然结果，游戏意图明确；原站之外有duotrigordle.org、wordle.global、wordleplay等可玩入口。",
+      "已在Chrome实际回读原站Daily/Practice/Sequence/Jumble和.org版0/32面板、37次猜词及键盘，确认该词存在可比较的网页游戏入口。",
+      "本轮合理竞争判断限于关键词研究：KD24、存在多域名匹配入口，评为中等可争取；未验证新产品差异或排名成功率。",
+      "原站功能已完善，不能把unlimited当未满足需求；现版代码不可假设开源，建设许可/差异化另行核验。",
+      "只采到首屏7条自然结果，未冒充完整前十，故确定性为中。"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://duotrigordle.com/"
+    ],
+    "term": "duotrigordle",
+    "tier": "A",
+    "trend": "rising",
+    "volume": 49500,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 48,
+    "kgr": null,
+    "reasons": [
+      "KD 48，超过30",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://framed.wtf/"
+    ],
+    "term": "framed game",
+    "tier": "REJECT",
+    "trend": "mixed_or_flat",
+    "volume": 14800,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 31,
+    "kgr": null,
+    "reasons": [
+      "KD 31，超过30",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://letroso.com/en/"
+    ],
+    "term": "letroso",
+    "tier": "REJECT",
+    "trend": "mixed_or_flat",
+    "volume": 9900,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": 1950,
+    "kd": 23,
+    "kgr": 0.026351351351351353,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://sedecordle.com/"
+    ],
+    "term": "sedecordle",
+    "tier": "PENDING",
+    "trend": "mixed_or_flat",
+    "volume": 74000,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "low",
+    "intitle": 7560,
+    "kd": 16,
+    "kgr": 0.10216216216216216,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://zaratustra.itch.io/dordle"
+    ],
+    "term": "dordle",
+    "tier": "PENDING",
+    "trend": "mixed_or_flat",
+    "volume": 74000,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": 1060,
+    "kd": 30,
+    "kgr": 0.021414141414141413,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "Trends近期8周和4周上升，12周斜率为正",
+      "真实Google取得8条自然结果，其中OEC原站、tradle.net、tradle.world、Playlin、TripMemo等均为国家出口猜谜游戏入口；另有同名金融软件，搜索量不能全部归给游戏。",
+      "Chrome已回读OEC的国家选择/Guess入口及tradle.world的出口品类图、6次猜测、Daily/Practice模式；核心游戏意图和可比较网页入口明确。",
+      "KD30位于用户上限，原站有数据优势、多家已有Practice，判为中等竞争的B档实验候选，不作为最优档或无限模式空白。",
+      "出口数据正确性、年份和许可及具体产品差异仍需建设前验证；本轮仅作关键词竞争判断。",
+      "实际首屏8条，未声称已取得完整前十。"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://games.oec.world/en/tradle"
+    ],
+    "term": "tradle",
+    "tier": "B",
+    "trend": "rising",
+    "volume": 49500,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 37,
+    "kgr": null,
+    "reasons": [
+      "Volume 2900，未超过3000",
+      "KD 37，超过30",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://feudlegame.com/"
+    ],
+    "term": "feudle",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 2900,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "Volume 10，未超过3000",
+      "待补：KD",
+      "待补：Trends可用曲线",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://unlockle.app/"
+    ],
+    "term": "unlockle",
+    "tier": "REJECT",
+    "trend": "unknown",
+    "volume": 10,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": 2680,
+    "kd": 14,
+    "kgr": 0.40606060606060607,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "KGR 0.406061，超过0.25（intitle精确短语口径）",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://www.polygonle.com/"
+    ],
+    "term": "polygonle",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 6600,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "low",
+    "intitle": 320,
+    "kd": 7,
+    "kgr": 0.07272727272727272,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://quintessential.fun/"
+    ],
+    "term": "quintessential game",
+    "tier": "PENDING",
+    "trend": "mixed_or_flat",
+    "volume": 4400,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "low",
+    "intitle": 711,
+    "kd": 28,
+    "kgr": 0.08777777777777777,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "Trends近期8周和4周上升，12周斜率为正",
+      "Google首屏7条包含Actorle原站、同运营Actorle TV、原作App、发布帖和目录；尚未确认可争取的独立同版本入口。",
+      "Chrome原站明确影视作品猜演员、多个产品模式和Plus/账户体系；不能仅因论坛或目录存在而认定SERP轻松。",
+      "量/KD、KGR和独立趋势过线，但SERP合理切口仍待证明，不凑推荐档。",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://actorle.com/"
+    ],
+    "term": "actorle",
+    "tier": "PENDING",
+    "trend": "rising",
+    "volume": 8100,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 53,
+    "kgr": null,
+    "reasons": [
+      "KD 53，超过30",
+      "Trends当前为flat_or_declining，未达到本轮上升要求",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://octordle.com/"
+    ],
+    "term": "octordle",
+    "tier": "REJECT",
+    "trend": "flat_or_declining",
+    "volume": 301000,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": 622,
+    "kd": 11,
+    "kgr": 0.07679012345679012,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "Trends近期8周和4周上升，12周斜率为正",
+      "真实Google可见7个自然结果，多个网页国家猜谜入口；低KD/KGR与独立趋势均过线。",
+      "但GeoWorldle、MapGuesser等同名页面的提示指标/规则不同，原站主文档为iframe，尚未核实目标版本的一致性。",
+      "独立审查也保留SERP切口未知；不把版本混淆或抓取不到文字当成低竞争优势，保持待验证。",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://www.countryle.com/"
+    ],
+    "term": "countryle",
+    "tier": "PENDING",
+    "trend": "rising",
+    "volume": 8100,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 15,
+    "kgr": null,
+    "reasons": [
+      "Volume 1900，未超过3000",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://www.subwaydle.com/"
+    ],
+    "term": "subwaydle",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 1900,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 6,
+    "kgr": null,
+    "reasons": [
+      "Volume 880，未超过3000",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://vegeta897.github.io/word-peaks/"
+    ],
+    "term": "word peaks",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 880,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 29,
+    "kgr": null,
+    "reasons": [
+      "Volume 1900，未超过3000",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://www.symble.app/"
+    ],
+    "term": "symble",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 1900,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 34,
+    "kgr": null,
+    "reasons": [
+      "Volume 880，未超过3000",
+      "KD 34，超过30",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://crosshare.org/"
+    ],
+    "term": "crosshare",
+    "tier": "REJECT",
+    "trend": "mixed_or_flat",
+    "volume": 880,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 2,
+    "kgr": null,
+    "reasons": [
+      "Volume 390，未超过3000",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://www.andrewt.net/puzzles/cell-tower/"
+    ],
+    "term": "cell tower game",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 390,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": 3650,
+    "kd": 27,
+    "kgr": 0.553030303030303,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "Trends当前为flat_or_declining，未达到本轮上升要求",
+      "KGR 0.55303，超过0.25（intitle精确短语口径）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://word500.com/game?mode=daily"
+    ],
+    "term": "word500",
+    "tier": "REJECT",
+    "trend": "flat_or_declining",
+    "volume": 6600,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 61,
+    "kgr": null,
+    "reasons": [
+      "KD 61，超过30",
+      "Trends当前为flat_or_declining，未达到本轮上升要求",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://wordwaffle.org/"
+    ],
+    "term": "word waffle",
+    "tier": "REJECT",
+    "trend": "flat_or_declining",
+    "volume": 5400,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 13,
+    "kgr": null,
+    "reasons": [
+      "Volume 880，未超过3000",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://reheardle.com/"
+    ],
+    "term": "reheardle",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 880,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": 730,
+    "kd": 23,
+    "kgr": 0.20277777777777778,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://www.flickle.co/"
+    ],
+    "term": "flickle",
+    "tier": "PENDING",
+    "trend": "rising_with_recent_pullback",
+    "volume": 3600,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 61,
+    "kgr": null,
+    "reasons": [
+      "Volume 1900，未超过3000",
+      "KD 61，超过30",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://www.wordle.today/games",
+      "https://moviepyramid.io/"
+    ],
+    "term": "movie pyramid",
+    "tier": "REJECT",
+    "trend": "mixed_or_flat",
+    "volume": 1900,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 31,
+    "kgr": null,
+    "reasons": [
+      "Volume 70，未超过3000",
+      "KD 31，超过30",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "catdoku",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 70,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 37,
+    "kgr": null,
+    "reasons": [
+      "Volume 140，未超过3000",
+      "KD 37，超过30",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "unbox the room",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 140,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "Volume 20，未超过3000",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "ant flow",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 20,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 19,
+    "kgr": null,
+    "reasons": [
+      "Volume 480，未超过3000",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "donut clicker",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 480,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "待补：Volume",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "capybara mart",
+    "tier": "PENDING",
+    "trend": "low_resolution",
+    "volume": null,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 18,
+    "kgr": null,
+    "reasons": [
+      "Volume 140，未超过3000",
+      "Trends当前为declining，未达到本轮上升要求",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "hill sprint",
+    "tier": "REJECT",
+    "trend": "declining",
+    "volume": 140,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 21,
+    "kgr": null,
+    "reasons": [
+      "Volume 260，未超过3000",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "planet merge",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 260,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 24,
+    "kgr": null,
+    "reasons": [
+      "Trends近期8周和4周上升，12周斜率为正",
+      "Volume 90，未超过3000",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "basketball hit",
+    "tier": "REJECT",
+    "trend": "rising",
+    "volume": 90,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "待补：Volume",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "tiny garden war",
+    "tier": "PENDING",
+    "trend": "low_resolution",
+    "volume": null,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "Volume 20，未超过3000",
+      "Trends当前为declining，未达到本轮上升要求",
+      "待补：KD",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "park empire",
+    "tier": "REJECT",
+    "trend": "declining",
+    "volume": 20,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 9,
+    "kgr": null,
+    "reasons": [
+      "Volume 110，未超过3000",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "blockader",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 110,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 39,
+    "kgr": null,
+    "reasons": [
+      "Volume 720，未超过3000",
+      "KD 39，超过30",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "wave race",
+    "tier": "REJECT",
+    "trend": "mixed_or_flat",
+    "volume": 720,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "待补：Volume",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "crashy rush",
+    "tier": "PENDING",
+    "trend": "low_resolution",
+    "volume": null,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 19,
+    "kgr": null,
+    "reasons": [
+      "Volume 210，未超过3000",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "flip spot",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 210,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "Trends近期8周和4周上升，12周斜率为正",
+      "Volume 0，未超过3000",
+      "待补：KD",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "flip or fail",
+    "tier": "REJECT",
+    "trend": "rising",
+    "volume": 0,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "待补：Volume",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "stickman coin flip",
+    "tier": "PENDING",
+    "trend": "low_resolution",
+    "volume": null,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "Volume 10，未超过3000",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "endless jump",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 10,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "待补：Volume",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "bat smash 2",
+    "tier": "PENDING",
+    "trend": "low_resolution",
+    "volume": null,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 39,
+    "kgr": null,
+    "reasons": [
+      "Trends近期8周和4周上升，12周斜率为正",
+      "Volume 880，未超过3000",
+      "KD 39，超过30",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "ragdoll sandbox",
+    "tier": "REJECT",
+    "trend": "rising",
+    "volume": 880,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "Volume 20，未超过3000",
+      "待补：KD",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://azgames.io/"
+    ],
+    "term": "shape rush",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 20,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "Volume 20，未超过3000",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "tnt sandbox",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 20,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 47,
+    "kgr": null,
+    "reasons": [
+      "KD 47，超过30",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "my perfect hotel",
+    "tier": "REJECT",
+    "trend": "mixed_or_flat",
+    "volume": 18100,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 44,
+    "kgr": null,
+    "reasons": [
+      "KD 44，超过30",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "longcat",
+    "tier": "REJECT",
+    "trend": "mixed_or_flat",
+    "volume": 6600,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 69,
+    "kgr": null,
+    "reasons": [
+      "KD 69，超过30",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "murder game",
+    "tier": "REJECT",
+    "trend": "mixed_or_flat",
+    "volume": 8100,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 39,
+    "kgr": null,
+    "reasons": [
+      "KD 39，超过30",
+      "待补：明确上升趋势（rising_with_recent_pullback）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "crazy cars",
+    "tier": "REJECT",
+    "trend": "rising_with_recent_pullback",
+    "volume": 8100,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 45,
+    "kgr": null,
+    "reasons": [
+      "Volume 720，未超过3000",
+      "KD 45，超过30",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "anycolor",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 720,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 40,
+    "kgr": null,
+    "reasons": [
+      "Volume 1000，未超过3000",
+      "KD 40，超过30",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "dino simulator",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 1000,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": 523,
+    "kd": 14,
+    "kgr": 0.14527777777777778,
+    "reasons": [
+      "已满足搜索量和KD门槛；仍须通过其余条件",
+      "Trends近期8周和4周上升，12周斜率为正",
+      "真实Google取得7条自然结果，前列为ragdolldrop.com、ragdolldrop.io、Poki与应用商店；主要任务为布娃娃物理跌落/伤害得分游戏。",
+      "Poki实际页面确认物理抛掷、伤害计分和15关描述；.io实际页面确认网页物理街机、布置陷阱和伤害计分，存在匹配可比较的游戏入口。",
+      "KD14、月量3600、KGR约0.1453，竞争可作为低量B档实验；不把较低KD当排名保证。",
+      "首位.com返回Cloudflare ASN访问限制，未绕过；据独立Poki发布页和.io页确认大类意图，具体版本、内容许可及完整游玩验收仍未确认。",
+      "页面可能自动中文化，玩法观察与US/en搜索参数分开记录；首屏仅7自然结果，确定性为中。"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "ragdoll drop",
+    "tier": "B",
+    "trend": "rising",
+    "volume": 3600,
+    "volumeKdPass": true
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "Volume 140，未超过3000",
+      "待补：KD",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "soccer real",
+    "tier": "REJECT",
+    "trend": "mixed_or_flat",
+    "volume": 140,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "Volume 10，未超过3000",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "bugs io",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 10,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "待补：Volume",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "backroom bill",
+    "tier": "PENDING",
+    "trend": "low_resolution",
+    "volume": null,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 29,
+    "kgr": null,
+    "reasons": [
+      "Volume 260，未超过3000",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "pilot life",
+    "tier": "REJECT",
+    "trend": "mixed_or_flat",
+    "volume": 260,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "待补：Volume",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "supercars city",
+    "tier": "PENDING",
+    "trend": "low_resolution",
+    "volume": null,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "待补：Volume",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "brainrot miner",
+    "tier": "PENDING",
+    "trend": "low_resolution",
+    "volume": null,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 31,
+    "kgr": null,
+    "reasons": [
+      "Volume 210，未超过3000",
+      "KD 31，超过30",
+      "Trends当前为declining，未达到本轮上升要求",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "hide and paint",
+    "tier": "REJECT",
+    "trend": "declining",
+    "volume": 210,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 18,
+    "kgr": null,
+    "reasons": [
+      "Volume 210，未超过3000",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "monkey tag io",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 210,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 12,
+    "kgr": null,
+    "reasons": [
+      "Volume 50，未超过3000",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "tear blocks down",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 50,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 32,
+    "kgr": null,
+    "reasons": [
+      "Volume 590，未超过3000",
+      "KD 32，超过30",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "karate fighter",
+    "tier": "REJECT",
+    "trend": "mixed_or_flat",
+    "volume": 590,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 14,
+    "kgr": null,
+    "reasons": [
+      "Volume 170，未超过3000",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "kawaii fruits 3d",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 170,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 15,
+    "kgr": null,
+    "reasons": [
+      "Volume 480，未超过3000",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "count control legends",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 480,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "Volume 40，未超过3000",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "supercar legends",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 40,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 43,
+    "kgr": null,
+    "reasons": [
+      "Volume 1000，未超过3000",
+      "KD 43，超过30",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "prankster 3d",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 1000,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 23,
+    "kgr": null,
+    "reasons": [
+      "Volume 50，未超过3000",
+      "待补：明确上升趋势（mixed_or_flat）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "ghost rush",
+    "tier": "REJECT",
+    "trend": "mixed_or_flat",
+    "volume": 50,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "Volume 20，未超过3000",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "mountain climb stunt",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 20,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "Trends近期8周和4周上升，12周斜率为正",
+      "待补：Volume",
+      "待补：KD",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "find the needle in haystack",
+    "tier": "PENDING",
+    "trend": "rising",
+    "volume": null,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "待补：Volume",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "pro referee simulator",
+    "tier": "PENDING",
+    "trend": "low_resolution",
+    "volume": null,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "待补：Volume",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "hatch your pets",
+    "tier": "PENDING",
+    "trend": "low_resolution",
+    "volume": null,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "待补：Volume",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "ragdoll chaos",
+    "tier": "PENDING",
+    "trend": "low_resolution",
+    "volume": null,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "low",
+    "intitle": null,
+    "kd": null,
+    "kgr": null,
+    "reasons": [
+      "待补：Volume",
+      "待补：KD",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "blockpost 2.0",
+    "tier": "PENDING",
+    "trend": "low_resolution",
+    "volume": null,
+    "volumeKdPass": false
+  },
+  {
+    "certainty": "medium",
+    "intitle": null,
+    "kd": 13,
+    "kgr": null,
+    "reasons": [
+      "Volume 90，未超过3000",
+      "待补：明确上升趋势（low_resolution）",
+      "待补：intitle/KGR",
+      "待补：普通Google SERP竞争与实际玩法入口验证"
+    ],
+    "sourceURLs": [
+      "https://poki.com/",
+      "https://poki.com/en/new"
+    ],
+    "term": "nsr street car racing",
+    "tier": "REJECT",
+    "trend": "low_resolution",
+    "volume": 90,
+    "volumeKdPass": false
+  }
+]

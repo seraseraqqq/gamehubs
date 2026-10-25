@@ -1,0 +1,337 @@
+{
+  "batchId": "2026-10-25-windows-domain-matching-4f7b8e21",
+  "checkedAt": "2026-10-25T04:26:16.896Z",
+  "scope": "Five pending game projects and Minute Cryptic Unlimited; registration lookup only, no purchases.",
+  "availabilityProvider": "Vercel Registrar API",
+  "priceProviderNotice": "Quoted prices in these lookup results are Vercel prices, not Spaceship checkout prices. Spaceship standard TLD prices are documented separately in README.md.",
+  "results": [
+    {
+      "domain": "cutleunlimited.com",
+      "available": true,
+      "years": 1,
+      "price": 11.25,
+      "renewalPrice": 11.25,
+      "premium": false
+    },
+    {
+      "domain": "playcutle.com",
+      "available": true,
+      "years": 1,
+      "price": 11.25,
+      "renewalPrice": 11.25,
+      "premium": false
+    },
+    {
+      "domain": "cutlegame.com",
+      "available": true,
+      "years": 1,
+      "price": 11.25,
+      "renewalPrice": 11.25,
+      "premium": false
+    },
+    {
+      "domain": "poopleunlimited.com",
+      "available": false
+    },
+    {
+      "domain": "playpoople.com",
+      "available": false
+    },
+    {
+      "domain": "pooplepractice.com",
+      "available": true,
+      "years": 1,
+      "price": 11.25,
+      "renewalPrice": 11.25,
+      "premium": false
+    },
+    {
+      "domain": "colordleunlimited.com",
+      "available": true,
+      "years": 1,
+      "price": 11.25,
+      "renewalPrice": 11.25,
+      "premium": false
+    },
+    {
+      "domain": "playcolordle.com",
+      "available": true,
+      "years": 1,
+      "price": 11.25,
+      "renewalPrice": 11.25,
+      "premium": false
+    },
+    {
+      "domain": "colordlepractice.com",
+      "available": true,
+      "years": 1,
+      "price": 11.25,
+      "renewalPrice": 11.25,
+      "premium": false
+    },
+    {
+      "domain": "metazooaunlimited.com",
+      "available": true,
+      "years": 1,
+      "price": 11.25,
+      "renewalPrice": 11.25,
+      "premium": false
+    },
+    {
+      "domain": "playmetazooa.com",
+      "available": true,
+      "years": 1,
+      "price": 11.25,
+      "renewalPrice": 11.25,
+      "premium": false
+    },
+    {
+      "domain": "metazooapractice.com",
+      "available": true,
+      "years": 1,
+      "price": 11.25,
+      "renewalPrice": 11.25,
+      "premium": false
+    },
+    {
+      "domain": "travleunlimited.com",
+      "available": true,
+      "years": 1,
+      "price": 11.25,
+      "renewalPrice": 11.25,
+      "premium": false
+    },
+    {
+      "domain": "playtravle.com",
+      "available": true,
+      "years": 1,
+      "price": 11.25,
+      "renewalPrice": 11.25,
+      "premium": false
+    },
+    {
+      "domain": "travlepractice.com",
+      "available": true,
+      "years": 1,
+      "price": 11.25,
+      "renewalPrice": 11.25,
+      "premium": false
+    },
+    {
+      "domain": "minutecrypticunlimited.com",
+      "available": true,
+      "years": 1,
+      "price": 11.25,
+      "renewalPrice": 11.25,
+      "premium": false
+    },
+    {
+      "domain": "minutecrypticpractice.com",
+      "available": true,
+      "years": 1,
+      "price": 11.25,
+      "renewalPrice": 11.25,
+      "premium": false
+    },
+    {
+      "domain": "playminutecryptic.com",
+      "available": true,
+      "years": 1,
+      "price": 11.25,
+      "renewalPrice": 11.25,
+      "premium": false
+    },
+    {
+      "domain": "cutle.xyz",
+      "available": true,
+      "years": 1,
+      "price": 1.99,
+      "renewalPrice": 13,
+      "premium": false
+    },
+    {
+      "domain": "cutle.top",
+      "available": true,
+      "years": 1,
+      "price": 9,
+      "renewalPrice": 9,
+      "premium": false
+    },
+    {
+      "domain": "cutle.online",
+      "available": true,
+      "years": 1,
+      "price": 1.99,
+      "renewalPrice": 27,
+      "premium": false
+    },
+    {
+      "domain": "poople.xyz",
+      "available": false
+    },
+    {
+      "domain": "poople.top",
+      "available": false
+    },
+    {
+      "domain": "poople.online",
+      "available": false
+    },
+    {
+      "domain": "colordle.xyz",
+      "available": true,
+      "years": 1,
+      "price": 1.99,
+      "renewalPrice": 13,
+      "premium": false
+    },
+    {
+      "domain": "colordle.top",
+      "available": true,
+      "years": 1,
+      "price": 9,
+      "renewalPrice": 9,
+      "premium": false
+    },
+    {
+      "domain": "colordle.online",
+      "available": true,
+      "years": 1,
+      "price": 1.99,
+      "renewalPrice": 27,
+      "premium": false
+    },
+    {
+      "domain": "metazooa.xyz",
+      "available": true,
+      "years": 1,
+      "price": 1.99,
+      "renewalPrice": 13,
+      "premium": false
+    },
+    {
+      "domain": "metazooa.top",
+      "available": true,
+      "years": 1,
+      "price": 9,
+      "renewalPrice": 9,
+      "premium": false
+    },
+    {
+      "domain": "metazooa.online",
+      "available": true,
+      "years": 1,
+      "price": 1.99,
+      "renewalPrice": 27,
+      "premium": false
+    },
+    {
+      "domain": "travle.xyz",
+      "available": false
+    },
+    {
+      "domain": "travle.top",
+      "available": true,
+      "years": 1,
+      "price": 9,
+      "renewalPrice": 9,
+      "premium": false
+    },
+    {
+      "domain": "travle.online",
+      "available": true,
+      "years": 1,
+      "price": 1.99,
+      "renewalPrice": 27,
+      "premium": false
+    },
+    {
+      "domain": "minutecrypticunlimited.xyz",
+      "available": true,
+      "years": 1,
+      "price": 1.99,
+      "renewalPrice": 13,
+      "premium": false
+    },
+    {
+      "domain": "minutecrypticunlimited.top",
+      "available": true,
+      "years": 1,
+      "price": 9,
+      "renewalPrice": 9,
+      "premium": false
+    },
+    {
+      "domain": "minutecrypticunlimited.online",
+      "available": true,
+      "years": 1,
+      "price": 1.99,
+      "renewalPrice": 27,
+      "premium": false
+    },
+    {
+      "domain": "poopleunlimited.xyz",
+      "available": true,
+      "years": 1,
+      "price": 1.99,
+      "renewalPrice": 13,
+      "premium": false
+    },
+    {
+      "domain": "poopleunlimited.top",
+      "available": true,
+      "years": 1,
+      "price": 9,
+      "renewalPrice": 9,
+      "premium": false
+    },
+    {
+      "domain": "poopleunlimited.online",
+      "available": true,
+      "years": 1,
+      "price": 1.99,
+      "renewalPrice": 27,
+      "premium": false
+    },
+    {
+      "domain": "playpoople.xyz",
+      "available": true,
+      "years": 1,
+      "price": 1.99,
+      "renewalPrice": 13,
+      "premium": false
+    },
+    {
+      "domain": "poopleplay.com",
+      "available": false
+    },
+    {
+      "domain": "poopleonline.com",
+      "available": false
+    },
+    {
+      "domain": "travleunlimited.xyz",
+      "available": true,
+      "years": 1,
+      "price": 1.99,
+      "renewalPrice": 13,
+      "premium": false
+    },
+    {
+      "domain": "travleunlimited.top",
+      "available": true,
+      "years": 1,
+      "price": 9,
+      "renewalPrice": 9,
+      "premium": false
+    },
+    {
+      "domain": "travleunlimited.online",
+      "available": true,
+      "years": 1,
+      "price": 1.99,
+      "renewalPrice": 27,
+      "premium": false
+    }
+  ]
+}

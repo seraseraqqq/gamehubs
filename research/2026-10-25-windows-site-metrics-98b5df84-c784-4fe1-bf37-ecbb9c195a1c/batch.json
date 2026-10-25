@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-25",
+  "device": "windows-sera",
+  "id": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+  "kind": "research",
+  "label": "17站主词指标复核与Gulper主词纠正",
+  "market": {
+    "country": "US",
+    "language": "en"
+  },
+  "notes": [
+    "原批次全部保留；免费镜像US批量取得16词Volume/KD，Krillion仍未知。",
+    "Gulper已取得3180标题页数；其余Google重测因验证码未完成，历史数值不当成本轮数值。",
+    "OpenSEO仅查看选项；其默认150结果涉及credits，未提交查询；没有直接DataForSEO付费调用。"
+  ],
+  "schemaVersion": 1,
+  "seeds": [
+    "2048 cupcakes",
+    "acceleration city",
+    "block blast unblocked",
+    "cluster rush",
+    "colordle",
+    "coreball",
+    "costcodle",
+    "cutle",
+    "gulper io",
+    "head soccer 2026",
+    "krillion unlimited",
+    "metazooa",
+    "minute cryptic unlimited",
+    "poople",
+    "snow rider 3d unblocked",
+    "spacebar counter",
+    "travle"
+  ],
+  "sources": [
+    {
+      "note": "全17站结果、来源、错误与重测缺口",
+      "path": "research/2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c/README.md"
+    }
+  ],
+  "status": "partial"
+}

@@ -1,0 +1,572 @@
+{
+  "terms": [
+    "tnt sandbox",
+    "my perfect hotel",
+    "longcat",
+    "murder game",
+    "gpts"
+  ],
+  "url": "https://trends.google.com/trends/explore?geo=US&q=tnt%20sandbox,my%20perfect%20hotel,longcat,murder%20game,gpts&hl=en",
+  "observedAt": "2026-10-25T11:23:57.103Z",
+  "country": "US",
+  "language": "en",
+  "timeframe": "Past 12 months",
+  "queryVerified": true,
+  "status": "observed",
+  "partialPolicy": "Drop last row conservatively; partial flag not in DOM.",
+  "related": [
+    {
+      "href": "/trends/explore?q=my+perfect+hotel+game&date=today+12-m&geo=US",
+      "text": "1\nmy perfect hotel game\n100"
+    },
+    {
+      "href": "/trends/explore?q=my+perfect+hotel+online&date=today+12-m&geo=US",
+      "text": "2\nmy perfect hotel online\n25"
+    },
+    {
+      "href": "/trends/explore?q=my+perfect+hotel+online+game&date=today+12-m&geo=US",
+      "text": "3\nmy perfect hotel online game\n8"
+    },
+    {
+      "href": "/trends/explore?q=monkey+mart&date=today+12-m&geo=US",
+      "text": "4\nmonkey mart\n6"
+    },
+    {
+      "href": "/trends/explore?q=stickman+hook&date=today+12-m&geo=US",
+      "text": "5\nstickman hook\n6"
+    },
+    {
+      "href": "/trends/explore?q=longcat+2.0&date=today+12-m&geo=US",
+      "text": "1\nlongcat 2.0\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=longcat+video+ai&date=today+12-m&geo=US",
+      "text": "2\nlongcat video ai\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=longcat+2.5&date=today+12-m&geo=US",
+      "text": "3\nlongcat 2.5\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=opencode&date=today+12-m&geo=US",
+      "text": "4\nopencode\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=longcat+is+long&date=today+12-m&geo=US",
+      "text": "5\nlongcat is long\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=murder+game+2026&date=today+12-m&geo=US",
+      "text": "1\nmurder game 2026\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=nvidia+news+today&date=today+12-m&geo=US",
+      "text": "1\nnvidia news today\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=artificial+intelligence+news&date=today+12-m&geo=US",
+      "text": "2\nartificial intelligence news\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=technology+news+today&date=today+12-m&geo=US",
+      "text": "3\ntechnology news today\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=chat+gpts+company+nyt&date=today+12-m&geo=US",
+      "text": "4\nchat gpts company nyt\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=openai+news+today&date=today+12-m&geo=US",
+      "text": "5\nopenai news today\n+2,250%"
+    }
+  ],
+  "tables": [
+    [
+      [
+        "x1",
+        "tnt sandbox",
+        "my perfect hotel",
+        "longcat",
+        "murder game",
+        "gpts"
+      ],
+      [
+        "Average",
+        "0",
+        "5",
+        "4",
+        "70",
+        "33"
+      ]
+    ],
+    [
+      [
+        "x",
+        "y1",
+        "y2",
+        "y3",
+        "y4",
+        "y5"
+      ],
+      [
+        "‪Oct 19, 2025‬",
+        "0",
+        "7",
+        "3",
+        "57",
+        "22"
+      ],
+      [
+        "‪Oct 26, 2025‬",
+        "0",
+        "8",
+        "4",
+        "65",
+        "31"
+      ],
+      [
+        "‪Nov 2, 2025‬",
+        "0",
+        "7",
+        "7",
+        "67",
+        "41"
+      ],
+      [
+        "‪Nov 9, 2025‬",
+        "0",
+        "5",
+        "4",
+        "58",
+        "40"
+      ],
+      [
+        "‪Nov 16, 2025‬",
+        "0",
+        "6",
+        "3",
+        "61",
+        "31"
+      ],
+      [
+        "‪Nov 23, 2025‬",
+        "0",
+        "7",
+        "3",
+        "75",
+        "27"
+      ],
+      [
+        "‪Nov 30, 2025‬",
+        "0",
+        "5",
+        "3",
+        "69",
+        "34"
+      ],
+      [
+        "‪Dec 7, 2025‬",
+        "0",
+        "8",
+        "4",
+        "82",
+        "35"
+      ],
+      [
+        "‪Dec 14, 2025‬",
+        "0",
+        "7",
+        "3",
+        "95",
+        "41"
+      ],
+      [
+        "‪Dec 21, 2025‬",
+        "0",
+        "7",
+        "3",
+        "99",
+        "34"
+      ],
+      [
+        "‪Dec 28, 2025‬",
+        "0",
+        "6",
+        "3",
+        "99",
+        "35"
+      ],
+      [
+        "‪Jan 4, 2026‬",
+        "0",
+        "6",
+        "3",
+        "88",
+        "37"
+      ],
+      [
+        "‪Jan 11, 2026‬",
+        "0",
+        "6",
+        "4",
+        "73",
+        "37"
+      ],
+      [
+        "‪Jan 18, 2026‬",
+        "0",
+        "5",
+        "2",
+        "80",
+        "43"
+      ],
+      [
+        "‪Jan 25, 2026‬",
+        "0",
+        "7",
+        "3",
+        "89",
+        "48"
+      ],
+      [
+        "‪Feb 1, 2026‬",
+        "0",
+        "6",
+        "4",
+        "85",
+        "46"
+      ],
+      [
+        "‪Feb 8, 2026‬",
+        "0",
+        "5",
+        "3",
+        "73",
+        "43"
+      ],
+      [
+        "‪Feb 15, 2026‬",
+        "0",
+        "5",
+        "3",
+        "84",
+        "48"
+      ],
+      [
+        "‪Feb 22, 2026‬",
+        "0",
+        "5",
+        "5",
+        "78",
+        "47"
+      ],
+      [
+        "‪Mar 1, 2026‬",
+        "0",
+        "4",
+        "5",
+        "67",
+        "48"
+      ],
+      [
+        "‪Mar 8, 2026‬",
+        "0",
+        "5",
+        "3",
+        "61",
+        "42"
+      ],
+      [
+        "‪Mar 15, 2026‬",
+        "0",
+        "5",
+        "2",
+        "65",
+        "45"
+      ],
+      [
+        "‪Mar 22, 2026‬",
+        "0",
+        "5",
+        "3",
+        "62",
+        "43"
+      ],
+      [
+        "‪Mar 29, 2026‬",
+        "0",
+        "7",
+        "4",
+        "59",
+        "37"
+      ],
+      [
+        "‪Apr 5, 2026‬",
+        "0",
+        "4",
+        "4",
+        "58",
+        "43"
+      ],
+      [
+        "‪Apr 12, 2026‬",
+        "0",
+        "5",
+        "3",
+        "66",
+        "32"
+      ],
+      [
+        "‪Apr 19, 2026‬",
+        "0",
+        "5",
+        "3",
+        "63",
+        "41"
+      ],
+      [
+        "‪Apr 26, 2026‬",
+        "0",
+        "5",
+        "4",
+        "58",
+        "34"
+      ],
+      [
+        "‪May 3, 2026‬",
+        "0",
+        "6",
+        "4",
+        "65",
+        "34"
+      ],
+      [
+        "‪May 10, 2026‬",
+        "0",
+        "5",
+        "4",
+        "62",
+        "30"
+      ],
+      [
+        "‪May 17, 2026‬",
+        "0",
+        "5",
+        "4",
+        "65",
+        "38"
+      ],
+      [
+        "‪May 24, 2026‬",
+        "0",
+        "6",
+        "5",
+        "78",
+        "42"
+      ],
+      [
+        "‪May 31, 2026‬",
+        "0",
+        "5",
+        "4",
+        "79",
+        "49"
+      ],
+      [
+        "‪Jun 7, 2026‬",
+        "0",
+        "6",
+        "4",
+        "100",
+        "47"
+      ],
+      [
+        "‪Jun 14, 2026‬",
+        "0",
+        "5",
+        "3",
+        "67",
+        "49"
+      ],
+      [
+        "‪Jun 21, 2026‬",
+        "0",
+        "7",
+        "3",
+        "65",
+        "38"
+      ],
+      [
+        "‪Jun 28, 2026‬",
+        "0",
+        "5",
+        "25",
+        "72",
+        "37"
+      ],
+      [
+        "‪Jul 5, 2026‬",
+        "0",
+        "4",
+        "16",
+        "82",
+        "33"
+      ],
+      [
+        "‪Jul 12, 2026‬",
+        "0",
+        "4",
+        "6",
+        "69",
+        "27"
+      ],
+      [
+        "‪Jul 19, 2026‬",
+        "0",
+        "6",
+        "5",
+        "64",
+        "20"
+      ],
+      [
+        "‪Jul 26, 2026‬",
+        "0",
+        "4",
+        "4",
+        "61",
+        "17"
+      ],
+      [
+        "‪Aug 2, 2026‬",
+        "0",
+        "5",
+        "4",
+        "58",
+        "15"
+      ],
+      [
+        "‪Aug 9, 2026‬",
+        "0",
+        "5",
+        "6",
+        "64",
+        "17"
+      ],
+      [
+        "‪Aug 16, 2026‬",
+        "0",
+        "4",
+        "4",
+        "62",
+        "15"
+      ],
+      [
+        "‪Aug 23, 2026‬",
+        "0",
+        "3",
+        "4",
+        "55",
+        "13"
+      ],
+      [
+        "‪Aug 30, 2026‬",
+        "0",
+        "3",
+        "3",
+        "59",
+        "16"
+      ],
+      [
+        "‪Sep 6, 2026‬",
+        "0",
+        "4",
+        "2",
+        "59",
+        "20"
+      ],
+      [
+        "‪Sep 13, 2026‬",
+        "0",
+        "3",
+        "2",
+        "56",
+        "25"
+      ],
+      [
+        "‪Sep 20, 2026‬",
+        "0",
+        "4",
+        "3",
+        "57",
+        "21"
+      ],
+      [
+        "‪Sep 27, 2026‬",
+        "0",
+        "4",
+        "4",
+        "62",
+        "15"
+      ],
+      [
+        "‪Oct 4, 2026‬",
+        "0",
+        "3",
+        "3",
+        "58",
+        "16"
+      ],
+      [
+        "‪Oct 11, 2026‬",
+        "1",
+        "4",
+        "3",
+        "67",
+        "14"
+      ],
+      [
+        "‪Oct 18, 2026‬",
+        "1",
+        "4",
+        "3",
+        "60",
+        "15"
+      ],
+      [
+        "‪Oct 25, 2026‬",
+        "0",
+        "4",
+        "2",
+        "87",
+        "19"
+      ]
+    ],
+    [
+      [
+        "Term",
+        "Value"
+      ],
+      [
+        "tnt sandbox",
+        "0"
+      ],
+      [
+        "my perfect hotel",
+        "5"
+      ],
+      [
+        "longcat",
+        "2"
+      ],
+      [
+        "murder game",
+        "62"
+      ],
+      [
+        "gpts",
+        "31"
+      ]
+    ]
+  ],
+  "visibleText": "Home\nExplore\nTrending Now\nshare\nfeedback\ninfo\nTry the new experience!\nExplore search trends with Gemini. A quick and easy way to find search terms and discover trends.\nGo to new Explore\nclose_24px\n•\nSearch term\n•\nSearch term\n•\nSearch term\n•\nSearch term\n•\nSearch term\nUnited States\nPast 12 months\nAll categories\nWeb Search\ntnt sandbox\nmy perfect hotel\nlongcat\nmurder game\ngpts\nUnited States, Past 12 months\nInterest over time help_outline\nfile_download\ncode\nshare\nAverage\nx1\ttnt sandbox\tmy perfect hotel\tlongcat\tmurder game\tgpts\nAverage\t0\t5\t4\t70\t33\n‪Oct 19, 2025‬\n‪Mar 1, 2026‬\n‪Jul 12, 2026‬\n25\n50\n75\n100\nx\ty1\ty2\ty3\ty4\ty5\n‪Oct 19, 2025‬\t0\t7\t3\t57\t22\n‪Oct 26, 2025‬\t0\t8\t4\t65\t31\n‪Nov 2, 2025‬\t0\t7\t7\t67\t41\n‪Nov 9, 2025‬\t0\t5\t4\t58\t40\n‪Nov 16, 2025‬\t0\t6\t3\t61\t31\n‪Nov 23, 2025‬\t0\t7\t3\t75\t27\n‪Nov 30, 2025‬\t0\t5\t3\t69\t34\n‪Dec 7, 2025‬\t0\t8\t4\t82\t35\n‪Dec 14, 2025‬\t0\t7\t3\t95\t41\n‪Dec 21, 2025‬\t0\t7\t3\t99\t34\n‪Dec 28, 2025‬\t0\t6\t3\t99\t35\n‪Jan 4, 2026‬\t0\t6\t3\t88\t37\n‪Jan 11, 2026‬\t0\t6\t4\t73\t37\n‪Jan 18, 2026‬\t0\t5\t2\t80\t43\n‪Jan 25, 2026‬\t0\t7\t3\t89\t48\n‪Feb 1, 2026‬\t0\t6\t4\t85\t46\n‪Feb 8, 2026‬\t0\t5\t3\t73\t43\n‪Feb 15, 2026‬\t0\t5\t3\t84\t48\n‪Feb 22, 2026‬\t0\t5\t5\t78\t47\n‪Mar 1, 2026‬\t0\t4\t5\t67\t48\n‪Mar 8, 2026‬\t0\t5\t3\t61\t42\n‪Mar 15, 2026‬\t0\t5\t2\t65\t45\n‪Mar 22, 2026‬\t0\t5\t3\t62\t43\n‪Mar 29, 2026‬\t0\t7\t4\t59\t37\n‪Apr 5, 2026‬\t0\t4\t4\t58\t43\n‪Apr 12, 2026‬\t0\t5\t3\t66\t32\n‪Apr 19, 2026‬\t0\t5\t3\t63\t41\n‪Apr 26, 2026‬\t0\t5\t4\t58\t34\n‪May 3, 2026‬\t0\t6\t4\t65\t34\n‪May 10, 2026‬\t0\t5\t4\t62\t30\n‪May 17, 2026‬\t0\t5\t4\t65\t38\n‪May 24, 2026‬\t0\t6\t5\t78\t42\n‪May 31, 2026‬\t0\t5\t4\t79\t49\n‪Jun 7, 2026‬\t0\t6\t4\t100\t47\n‪Jun 14, 2026‬\t0\t5\t3\t67\t49\n‪Jun 21, 2026‬\t0\t7\t3\t65\t38\n‪Jun 28, 2026‬\t0\t5\t25\t72\t37\n‪Jul 5, 2026‬\t0\t4\t16\t82\t33\n‪Jul 12, 2026‬\t0\t4\t6\t69\t27\n‪Jul 19, 2026‬\t0\t6\t5\t64\t20\n‪Jul 26, 2026‬\t0\t4\t4\t61\t17\n‪Aug 2, 2026‬\t0\t5\t4\t58\t15\n‪Aug 9, 2026‬\t0\t5\t6\t64\t17\n‪Aug 16, 2026‬\t0\t4\t4\t62\t15\n‪Aug 23, 2026‬\t0\t3\t4\t55\t13\n‪Aug 30, 2026‬\t0\t3\t3\t59\t16\n‪Sep 6, 2026‬\t0\t4\t2\t59\t20\n‪Sep 13, 2026‬\t0\t3\t2\t56\t25\n‪Sep 20, 2026‬\t0\t4\t3\t57\t21\n‪Sep 27, 2026‬\t0\t4\t4\t62\t15\n‪Oct 4, 2026‬\t0\t3\t3\t58\t16\n‪Oct 11, 2026‬\t1\t4\t3\t67\t14\n‪Oct 18, 2026‬\t1\t4\t3\t60\t15\n‪Oct 25, 2026‬\t0\t4\t2\t87\t19\nCompared breakdown by subregion\nSubregion\nfile_download\ncode\nshare\ntnt sandbox\nmy perfect hotel\nlongcat\nmurder game\ngpts\nColor intensity represents percentage of searches \nLEARN MORE\nSort:\nInterest for tnt sandbox\n1\nOhio\n2\nCalifornia\n3\nFlorida\n4\nTexas\n5\nAlaska\n Showing 1-5 of 51 subregions \ntnt sandbox\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nfile_download\ncode\nshare\nwarning\n\nHmm, your search doesn't have enough data to show here.\n\nPlease make sure everything is spelled correctly, or try a more general term.\n\nmy perfect hotel\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nTop\nfile_download\ncode\nshare\n1\nmy perfect hotel game\n100\nmore_vert\n2\nmy perfect hotel online\n25\nmore_vert\n3\nmy perfect hotel online game\n8\nmore_vert\n4\nmonkey mart\n6\nmore_vert\n5\nstickman hook\n6\nmore_vert\n Showing 1-5 of 6 queries \nlongcat\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nlongcat 2.0\nBreakout\nmore_vert\n2\nlongcat video ai\nBreakout\nmore_vert\n3\nlongcat 2.5\nBreakout\nmore_vert\n4\nopencode\nBreakout\nmore_vert\n5\nlongcat is long\nBreakout\nmore_vert\n Showing 1-5 of 17 queries \nmurder game\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nmurder game 2026\nBreakout\nmore_vert\ngpts\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nnvidia news today\nBreakout\nmore_vert\n2\nartificial intelligence news\nBreakout\nmore_vert\n3\ntechnology news today\nBreakout\nmore_vert\n4\nchat gpts company nyt\nBreakout\nmore_vert\n5\nopenai news today\n+2,250%\nmore_vert\n Showing 1-5 of 20 queries "
+}

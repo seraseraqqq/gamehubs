@@ -1,0 +1,18 @@
+[
+  {
+    "id": "2048-cupcakes",
+    "term": "2048 cupcakes",
+    "oldKeywordId": "kw-00a8af79182809da7d78",
+    "url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dintitle%253A%25222048%2Bcupcakes%2522%26gl%3Dus%26hl%3Den%26pws%3D0&hl=en&q=EgQrgvikGMCi99YGIjBt6oyZpRq2QGsKVzSFW6x12ROP-rJ0N08OWNjhXQ27NJUQpfnKsRx1KSngvDIqPfoyAnJSWgFDYLfI0p_L_8PPzAE",
+    "query": "intitle:\"2048 cupcakes\"",
+    "observedAt": "2026-10-25T09:52:03.974Z",
+    "country": "US",
+    "language": "en",
+    "physicalUSLocationVerified": false,
+    "queryVerified": false,
+    "intitle": null,
+    "status": "blocked",
+    "blocked": true,
+    "stats": null
+  }
+]

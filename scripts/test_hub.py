@@ -110,7 +110,7 @@ class HubTest(unittest.TestCase):
         self.assertTrue(result.startswith(b'\xef\xbb\xbf'))
         parsed=list(csv.reader(io.StringIO(result.decode('utf-8-sig'))))
         self.assertEqual(len(parsed),3);self.assertTrue(any(r[0].startswith("'=") for r in parsed[1:]))
-        self.assertTrue(all(len(r)==15 for r in parsed))
+        self.assertTrue(all(len(r)==21 for r in parsed))
     def edit(self,**options):
         payload={'keywordId':self.kid,'expectedHeads':self.row_state()['heads'],'basedOnBatches':[self.batch['id']],
             'actor':'owner','actorType':'human','reason':'纠正手动核对值','metrics':{'volume':100,'kd':20,'intitle':5}}
@@ -147,6 +147,40 @@ class HubTest(unittest.TestCase):
         self.edit(metrics={'volume':0,'intitle':5});self.assertIsNone(self.row_state()['metrics']['ratio'])
         import_batch(self.root,dict(self.batch,id='registry-snapshot',date='2026-10-25',kind='project_registry'),[self.row])
         self.assertEqual(self.row_state()['batchDate'],'2026-10-24')
+    def test_standard_kgr_stays_separate_from_legacy_intitle(self):
+        import_batch(self.root,dict(self.batch,id='standard-kgr'),[dict(self.row,metrics={'google':{'volume':1000,'intitle':10,'allintitle_count':99,'query':'allintitle: "coreball"','queryMode':'quoted_phrase'}})])
+        metrics=self.row_state()['metrics']
+        self.assertEqual((metrics['intitle'],metrics['allintitle'],metrics['ratio'],metrics['kgr']),(10,99,.01,.099))
+        self.assertEqual(metrics['kgrBasis'],'allintitle')
+        self.assertEqual(metrics['sources']['allintitle']['provider'],'google')
+        self.assertEqual(metrics['sources']['allintitle']['queryMode'],'quoted_phrase')
+        parsed=list(csv.DictReader(io.StringIO(csv_export([self.row_state()]).decode('utf-8-sig'))))[0]
+        self.assertEqual(parsed['KGR'],'0.01');self.assertEqual(parsed['allintitle KGR（对照）'],'0.099')
+        self.assertEqual(parsed['KGR口径'],'intitle_exact_phrase')
+        self.edit(metrics={'volume':0});self.assertIsNone(self.row_state()['metrics']['kgr'])
+        self.edit(metrics={'volume':None});self.assertIsNone(self.row_state()['metrics']['kgr'])
+    def test_missing_allintitle_is_unknown_and_explicit_zero_is_valid(self):
+        self.edit()
+        metrics=self.row_state()['metrics'];self.assertEqual(metrics['ratio'],.05)
+        self.assertIsNone(metrics['allintitle']);self.assertIsNone(metrics['kgr']);self.assertIsNone(metrics['kgrBasis'])
+        import_batch(self.root,dict(self.batch,id='zero-kgr'),[dict(self.row,metrics={'google':{'allintitle':0}})])
+        self.assertEqual(self.row_state()['metrics']['kgr'],0)
+        parsed=list(csv.DictReader(io.StringIO(csv_export([self.row_state()]).decode('utf-8-sig'))))
+        self.assertEqual(parsed[0]['KGR'],'0.05');self.assertEqual(parsed[0]['allintitle KGR（对照）'],'0.0')
+    def test_latest_research_assessment_does_not_replace_human_decision(self):
+        self.review()
+        first=dict(self.row,observedAt='2026-10-25T10:00:00Z',raw={'assessment':{'tier':'S','certainty':'high','reasons':['old']}})
+        latest=dict(self.row,observedAt='2026-10-25T11:00:00Z',raw={'assessment':{'tier':'PENDING','certainty':'unknown','reasons':['missing KGR']}})
+        import_batch(self.root,dict(self.batch,id='z-first',date='2026-10-25'),[first])
+        import_batch(self.root,dict(self.batch,id='a-latest',date='2026-10-25'),[latest])
+        import_batch(self.root,dict(self.batch,id='newer-registry',date='2026-10-26',kind='project_registry'),[first])
+        import_batch(self.root,dict(self.batch,id='later-without-grade',date='2026-10-27'),[self.row])
+        row=self.row_state();assessment=row['researchAssessment']
+        self.assertEqual((assessment['tier'],assessment['certainty'],assessment['batchId']),('PENDING','unknown','a-latest'))
+        self.assertEqual((row['reviewState'],row['decision']),('approved','build'))
+        parsed=list(csv.DictReader(io.StringIO(csv_export([row]).decode('utf-8-sig'))))
+        self.assertEqual(parsed[0]['研究分级'],'PENDING');self.assertEqual(parsed[0]['分级批次'],'a-latest')
+        self.assertEqual(parsed[0]['KGR'],'')
     def test_site_creation_date_and_standalone_metrics_round_trip(self):
         site=json.loads((ROOT/'data/sites/coreball.json').read_text(encoding='utf-8'))
         site['id']='standalone';site['createdAt']='2026-10-20';site['history']=[]

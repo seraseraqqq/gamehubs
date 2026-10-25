@@ -1,0 +1,564 @@
+{
+  "terms": [
+    "crashy rush",
+    "flip spot",
+    "flip or fail",
+    "stickman coin flip",
+    "gpts"
+  ],
+  "url": "https://trends.google.com/trends/explore?geo=US&q=crashy%20rush,flip%20spot,flip%20or%20fail,stickman%20coin%20flip,gpts&hl=en",
+  "observedAt": "2026-10-25T11:16:14.226Z",
+  "country": "US",
+  "language": "en",
+  "timeframe": "Past 12 months",
+  "queryVerified": true,
+  "status": "observed",
+  "partialPolicy": "Drop last row conservatively; partial flag not in DOM.",
+  "related": [
+    {
+      "href": "/trends/explore?q=arch+support+flip+flops&date=today+12-m&geo=US",
+      "text": "1\narch support flip flops\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=jbl+flip+7+portable+waterproof+speaker&date=today+12-m&geo=US",
+      "text": "2\njbl flip 7 portable waterproof speaker\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=clinique+even+better+clinical+dark+spot+clearing+serum&date=today+12-m&geo=US",
+      "text": "3\nclinique even better clinical dark spot clearing serum\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=black+diamond+spot+400+headlamp&date=today+12-m&geo=US",
+      "text": "4\nblack diamond spot 400 headlamp\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=jbl+flip+7&date=today+12-m&geo=US",
+      "text": "5\njbl flip 7\n+160%"
+    },
+    {
+      "href": "/trends/explore?q=flip+or+flop&date=today+12-m&geo=US",
+      "text": "1\nflip or flop\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=geometry+dash&date=today+12-m&geo=US",
+      "text": "2\ngeometry dash\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=wave+rider&date=today+12-m&geo=US",
+      "text": "3\nwave rider\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=az+games&date=today+12-m&geo=US",
+      "text": "4\naz games\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=nvidia+news+today&date=today+12-m&geo=US",
+      "text": "1\nnvidia news today\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=chat+gpts+company+nyt&date=today+12-m&geo=US",
+      "text": "2\nchat gpts company nyt\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=openai+news+today&date=today+12-m&geo=US",
+      "text": "3\nopenai news today\n+2,250%"
+    },
+    {
+      "href": "/trends/explore?q=new+york+times&date=today+12-m&geo=US",
+      "text": "4\nnew york times\n+650%"
+    },
+    {
+      "href": "/trends/explore?q=openai+custom+gpts&date=today+12-m&geo=US",
+      "text": "5\nopenai custom gpts\n+600%"
+    }
+  ],
+  "tables": [
+    [
+      [
+        "x1",
+        "crashy rush",
+        "flip spot",
+        "flip or fail",
+        "stickman coin flip",
+        "gpts"
+      ],
+      [
+        "Average",
+        "0",
+        "13",
+        "1",
+        "0",
+        "67"
+      ]
+    ],
+    [
+      [
+        "x",
+        "y1",
+        "y2",
+        "y3",
+        "y4",
+        "y5"
+      ],
+      [
+        "‪Oct 19, 2025‬",
+        "0",
+        "4",
+        "0",
+        "0",
+        "45"
+      ],
+      [
+        "‪Oct 26, 2025‬",
+        "0",
+        "5",
+        "0",
+        "0",
+        "63"
+      ],
+      [
+        "‪Nov 2, 2025‬",
+        "0",
+        "7",
+        "0",
+        "0",
+        "83"
+      ],
+      [
+        "‪Nov 9, 2025‬",
+        "0",
+        "5",
+        "0",
+        "0",
+        "80"
+      ],
+      [
+        "‪Nov 16, 2025‬",
+        "0",
+        "8",
+        "0",
+        "0",
+        "63"
+      ],
+      [
+        "‪Nov 23, 2025‬",
+        "0",
+        "9",
+        "0",
+        "0",
+        "55"
+      ],
+      [
+        "‪Nov 30, 2025‬",
+        "0",
+        "6",
+        "0",
+        "0",
+        "69"
+      ],
+      [
+        "‪Dec 7, 2025‬",
+        "0",
+        "9",
+        "0",
+        "0",
+        "71"
+      ],
+      [
+        "‪Dec 14, 2025‬",
+        "0",
+        "9",
+        "0",
+        "0",
+        "83"
+      ],
+      [
+        "‪Dec 21, 2025‬",
+        "0",
+        "9",
+        "0",
+        "0",
+        "70"
+      ],
+      [
+        "‪Dec 28, 2025‬",
+        "0",
+        "7",
+        "0",
+        "0",
+        "71"
+      ],
+      [
+        "‪Jan 4, 2026‬",
+        "0",
+        "5",
+        "0",
+        "0",
+        "76"
+      ],
+      [
+        "‪Jan 11, 2026‬",
+        "0",
+        "6",
+        "0",
+        "0",
+        "76"
+      ],
+      [
+        "‪Jan 18, 2026‬",
+        "0",
+        "8",
+        "0",
+        "0",
+        "87"
+      ],
+      [
+        "‪Jan 25, 2026‬",
+        "0",
+        "6",
+        "0",
+        "0",
+        "98"
+      ],
+      [
+        "‪Feb 1, 2026‬",
+        "0",
+        "8",
+        "0",
+        "0",
+        "93"
+      ],
+      [
+        "‪Feb 8, 2026‬",
+        "0",
+        "7",
+        "0",
+        "0",
+        "88"
+      ],
+      [
+        "‪Feb 15, 2026‬",
+        "0",
+        "10",
+        "0",
+        "0",
+        "99"
+      ],
+      [
+        "‪Feb 22, 2026‬",
+        "0",
+        "6",
+        "0",
+        "0",
+        "96"
+      ],
+      [
+        "‪Mar 1, 2026‬",
+        "0",
+        "5",
+        "0",
+        "0",
+        "99"
+      ],
+      [
+        "‪Mar 8, 2026‬",
+        "0",
+        "9",
+        "0",
+        "0",
+        "85"
+      ],
+      [
+        "‪Mar 15, 2026‬",
+        "0",
+        "10",
+        "0",
+        "0",
+        "92"
+      ],
+      [
+        "‪Mar 22, 2026‬",
+        "0",
+        "12",
+        "0",
+        "0",
+        "87"
+      ],
+      [
+        "‪Mar 29, 2026‬",
+        "0",
+        "35",
+        "0",
+        "0",
+        "75"
+      ],
+      [
+        "‪Apr 5, 2026‬",
+        "0",
+        "33",
+        "0",
+        "0",
+        "87"
+      ],
+      [
+        "‪Apr 12, 2026‬",
+        "0",
+        "43",
+        "0",
+        "0",
+        "66"
+      ],
+      [
+        "‪Apr 19, 2026‬",
+        "0",
+        "25",
+        "0",
+        "0",
+        "84"
+      ],
+      [
+        "‪Apr 26, 2026‬",
+        "0",
+        "17",
+        "0",
+        "0",
+        "70"
+      ],
+      [
+        "‪May 3, 2026‬",
+        "0",
+        "21",
+        "0",
+        "0",
+        "69"
+      ],
+      [
+        "‪May 10, 2026‬",
+        "0",
+        "33",
+        "0",
+        "0",
+        "62"
+      ],
+      [
+        "‪May 17, 2026‬",
+        "0",
+        "32",
+        "0",
+        "0",
+        "78"
+      ],
+      [
+        "‪May 24, 2026‬",
+        "0",
+        "23",
+        "0",
+        "0",
+        "85"
+      ],
+      [
+        "‪May 31, 2026‬",
+        "0",
+        "26",
+        "0",
+        "0",
+        "100"
+      ],
+      [
+        "‪Jun 7, 2026‬",
+        "0",
+        "31",
+        "0",
+        "0",
+        "96"
+      ],
+      [
+        "‪Jun 14, 2026‬",
+        "0",
+        "28",
+        "0",
+        "0",
+        "100"
+      ],
+      [
+        "‪Jun 21, 2026‬",
+        "0",
+        "24",
+        "0",
+        "0",
+        "77"
+      ],
+      [
+        "‪Jun 28, 2026‬",
+        "0",
+        "13",
+        "0",
+        "0",
+        "76"
+      ],
+      [
+        "‪Jul 5, 2026‬",
+        "0",
+        "10",
+        "0",
+        "0",
+        "67"
+      ],
+      [
+        "‪Jul 12, 2026‬",
+        "0",
+        "8",
+        "0",
+        "0",
+        "55"
+      ],
+      [
+        "‪Jul 19, 2026‬",
+        "0",
+        "5",
+        "0",
+        "0",
+        "40"
+      ],
+      [
+        "‪Jul 26, 2026‬",
+        "0",
+        "6",
+        "0",
+        "0",
+        "34"
+      ],
+      [
+        "‪Aug 2, 2026‬",
+        "0",
+        "7",
+        "0",
+        "0",
+        "31"
+      ],
+      [
+        "‪Aug 9, 2026‬",
+        "0",
+        "9",
+        "0",
+        "0",
+        "35"
+      ],
+      [
+        "‪Aug 16, 2026‬",
+        "0",
+        "6",
+        "0",
+        "0",
+        "31"
+      ],
+      [
+        "‪Aug 23, 2026‬",
+        "0",
+        "4",
+        "0",
+        "0",
+        "26"
+      ],
+      [
+        "‪Aug 30, 2026‬",
+        "0",
+        "9",
+        "3",
+        "0",
+        "32"
+      ],
+      [
+        "‪Sep 6, 2026‬",
+        "0",
+        "10",
+        "7",
+        "0",
+        "41"
+      ],
+      [
+        "‪Sep 13, 2026‬",
+        "0",
+        "4",
+        "11",
+        "0",
+        "52"
+      ],
+      [
+        "‪Sep 20, 2026‬",
+        "7",
+        "13",
+        "10",
+        "0",
+        "42"
+      ],
+      [
+        "‪Sep 27, 2026‬",
+        "0",
+        "10",
+        "11",
+        "0",
+        "31"
+      ],
+      [
+        "‪Oct 4, 2026‬",
+        "0",
+        "11",
+        "10",
+        "0",
+        "32"
+      ],
+      [
+        "‪Oct 11, 2026‬",
+        "2",
+        "6",
+        "7",
+        "0",
+        "28"
+      ],
+      [
+        "‪Oct 18, 2026‬",
+        "2",
+        "6",
+        "7",
+        "0",
+        "31"
+      ],
+      [
+        "‪Oct 25, 2026‬",
+        "0",
+        "5",
+        "0",
+        "0",
+        "37"
+      ]
+    ],
+    [
+      [
+        "Term",
+        "Value"
+      ],
+      [
+        "crashy rush",
+        "0"
+      ],
+      [
+        "flip spot",
+        "12"
+      ],
+      [
+        "flip or fail",
+        "7"
+      ],
+      [
+        "stickman coin flip",
+        "0"
+      ],
+      [
+        "gpts",
+        "81"
+      ]
+    ]
+  ],
+  "visibleText": "Home\nExplore\nTrending Now\nshare\nfeedback\ninfo\nTry the new experience!\nExplore search trends with Gemini. A quick and easy way to find search terms and discover trends.\nGo to new Explore\nclose_24px\n•\nSearch term\n•\nSearch term\n•\nSearch term\n•\nSearch term\n•\nSearch term\nUnited States\nPast 12 months\nAll categories\nWeb Search\ncrashy rush\nflip spot\nflip or fail\nstickman coin flip\ngpts\nUnited States, Past 12 months\nInterest over time help_outline\nfile_download\ncode\nshare\nAverage\nx1\tcrashy rush\tflip spot\tflip or fail\tstickman coin flip\tgpts\nAverage\t0\t13\t1\t0\t67\n‪Oct 19, 2025‬\n‪Mar 1, 2026‬\n‪Jul 12, 2026‬\n25\n50\n75\n100\nx\ty1\ty2\ty3\ty4\ty5\n‪Oct 19, 2025‬\t0\t4\t0\t0\t45\n‪Oct 26, 2025‬\t0\t5\t0\t0\t63\n‪Nov 2, 2025‬\t0\t7\t0\t0\t83\n‪Nov 9, 2025‬\t0\t5\t0\t0\t80\n‪Nov 16, 2025‬\t0\t8\t0\t0\t63\n‪Nov 23, 2025‬\t0\t9\t0\t0\t55\n‪Nov 30, 2025‬\t0\t6\t0\t0\t69\n‪Dec 7, 2025‬\t0\t9\t0\t0\t71\n‪Dec 14, 2025‬\t0\t9\t0\t0\t83\n‪Dec 21, 2025‬\t0\t9\t0\t0\t70\n‪Dec 28, 2025‬\t0\t7\t0\t0\t71\n‪Jan 4, 2026‬\t0\t5\t0\t0\t76\n‪Jan 11, 2026‬\t0\t6\t0\t0\t76\n‪Jan 18, 2026‬\t0\t8\t0\t0\t87\n‪Jan 25, 2026‬\t0\t6\t0\t0\t98\n‪Feb 1, 2026‬\t0\t8\t0\t0\t93\n‪Feb 8, 2026‬\t0\t7\t0\t0\t88\n‪Feb 15, 2026‬\t0\t10\t0\t0\t99\n‪Feb 22, 2026‬\t0\t6\t0\t0\t96\n‪Mar 1, 2026‬\t0\t5\t0\t0\t99\n‪Mar 8, 2026‬\t0\t9\t0\t0\t85\n‪Mar 15, 2026‬\t0\t10\t0\t0\t92\n‪Mar 22, 2026‬\t0\t12\t0\t0\t87\n‪Mar 29, 2026‬\t0\t35\t0\t0\t75\n‪Apr 5, 2026‬\t0\t33\t0\t0\t87\n‪Apr 12, 2026‬\t0\t43\t0\t0\t66\n‪Apr 19, 2026‬\t0\t25\t0\t0\t84\n‪Apr 26, 2026‬\t0\t17\t0\t0\t70\n‪May 3, 2026‬\t0\t21\t0\t0\t69\n‪May 10, 2026‬\t0\t33\t0\t0\t62\n‪May 17, 2026‬\t0\t32\t0\t0\t78\n‪May 24, 2026‬\t0\t23\t0\t0\t85\n‪May 31, 2026‬\t0\t26\t0\t0\t100\n‪Jun 7, 2026‬\t0\t31\t0\t0\t96\n‪Jun 14, 2026‬\t0\t28\t0\t0\t100\n‪Jun 21, 2026‬\t0\t24\t0\t0\t77\n‪Jun 28, 2026‬\t0\t13\t0\t0\t76\n‪Jul 5, 2026‬\t0\t10\t0\t0\t67\n‪Jul 12, 2026‬\t0\t8\t0\t0\t55\n‪Jul 19, 2026‬\t0\t5\t0\t0\t40\n‪Jul 26, 2026‬\t0\t6\t0\t0\t34\n‪Aug 2, 2026‬\t0\t7\t0\t0\t31\n‪Aug 9, 2026‬\t0\t9\t0\t0\t35\n‪Aug 16, 2026‬\t0\t6\t0\t0\t31\n‪Aug 23, 2026‬\t0\t4\t0\t0\t26\n‪Aug 30, 2026‬\t0\t9\t3\t0\t32\n‪Sep 6, 2026‬\t0\t10\t7\t0\t41\n‪Sep 13, 2026‬\t0\t4\t11\t0\t52\n‪Sep 20, 2026‬\t7\t13\t10\t0\t42\n‪Sep 27, 2026‬\t0\t10\t11\t0\t31\n‪Oct 4, 2026‬\t0\t11\t10\t0\t32\n‪Oct 11, 2026‬\t2\t6\t7\t0\t28\n‪Oct 18, 2026‬\t2\t6\t7\t0\t31\n‪Oct 25, 2026‬\t0\t5\t0\t0\t37\nCompared breakdown by subregion\nSubregion\nfile_download\ncode\nshare\ncrashy rush\nflip spot\nflip or fail\nstickman coin flip\ngpts\nColor intensity represents percentage of searches \nLEARN MORE\nSort:\nInterest for crashy rush\n1\nMichigan\n2\nColorado\n3\nNew Jersey\n4\nNew York\n5\nCalifornia\n Showing 1-5 of 50 subregions \ncrashy rush\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nfile_download\ncode\nshare\nwarning\n\nHmm, your search doesn't have enough data to show here.\n\nPlease make sure everything is spelled correctly, or try a more general term.\n\nflip spot\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\narch support flip flops\nBreakout\nmore_vert\n2\njbl flip 7 portable waterproof speaker\nBreakout\nmore_vert\n3\nclinique even better clinical dark spot clearing serum\nBreakout\nmore_vert\n4\nblack diamond spot 400 headlamp\nBreakout\nmore_vert\n5\njbl flip 7\n+160%\nmore_vert\n Showing 1-5 of 7 queries \nflip or fail\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nflip or flop\nBreakout\nmore_vert\n2\ngeometry dash\nBreakout\nmore_vert\n3\nwave rider\nBreakout\nmore_vert\n4\naz games\nBreakout\nmore_vert\nstickman coin flip\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nwarning\n\nHmm, your search doesn't have enough data to show here.\n\nPlease make sure everything is spelled correctly, or try a more general term.\n\nRelated queries\nhelp_outline\nfile_download\ncode\nshare\nwarning\n\nHmm, your search doesn't have enough data to show here.\n\nPlease make sure everything is spelled correctly, or try a more general term.\n\ngpts\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nnvidia news today\nBreakout\nmore_vert\n2\nchat gpts company nyt\nBreakout\nmore_vert\n3\nopenai news today\n+2,250%\nmore_vert\n4\nnew york times\n+650%\nmore_vert\n5\nopenai custom gpts\n+600%\nmore_vert\n Showing 1-5 of 18 queries "
+}

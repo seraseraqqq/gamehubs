@@ -1,0 +1,540 @@
+{
+  "terms": [
+    "word waffle",
+    "reheardle",
+    "flickle",
+    "movie pyramid",
+    "gpts"
+  ],
+  "url": "https://trends.google.com/trends/explore?geo=US&q=word%20waffle,reheardle,flickle,movie%20pyramid,gpts&hl=en",
+  "observedAt": "2026-10-25T10:28:30.129Z",
+  "country": "US",
+  "language": "en",
+  "timeframe": "Past 12 months",
+  "queryVerified": true,
+  "status": "observed",
+  "partialPolicy": "Drop last row conservatively; partial flag not in DOM.",
+  "related": [
+    {
+      "href": "/trends/explore?q=stackdown&date=today+12-m&geo=US",
+      "text": "1\nstackdown\n+1,700%"
+    },
+    {
+      "href": "/trends/explore?q=flickle+game&date=today+12-m&geo=US",
+      "text": "1\nflickle game\n100"
+    },
+    {
+      "href": "/trends/explore?q=moviedle&date=today+12-m&geo=US",
+      "text": "2\nmoviedle\n29"
+    },
+    {
+      "href": "/trends/explore?q=chat+gpts+company+nyt&date=today+12-m&geo=US",
+      "text": "1\nchat gpts company nyt\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=cheapest+flights+to+tokyo&date=today+12-m&geo=US",
+      "text": "2\ncheapest flights to tokyo\nBreakout"
+    },
+    {
+      "href": "/trends/explore?q=how+to+bake+a+cake&date=today+12-m&geo=US",
+      "text": "3\nhow to bake a cake\n+2,800%"
+    },
+    {
+      "href": "/trends/explore?q=ai+news&date=today+12-m&geo=US",
+      "text": "4\nai news\n+750%"
+    },
+    {
+      "href": "/trends/explore?q=new+york+times&date=today+12-m&geo=US",
+      "text": "5\nnew york times\n+650%"
+    }
+  ],
+  "tables": [
+    [
+      [
+        "x1",
+        "word waffle",
+        "reheardle",
+        "flickle",
+        "movie pyramid",
+        "gpts"
+      ],
+      [
+        "Average",
+        "53",
+        "0",
+        "1",
+        "24",
+        "67"
+      ]
+    ],
+    [
+      [
+        "x",
+        "y1",
+        "y2",
+        "y3",
+        "y4",
+        "y5"
+      ],
+      [
+        "‪Oct 19, 2025‬",
+        "55",
+        "0",
+        "0",
+        "22",
+        "45"
+      ],
+      [
+        "‪Oct 26, 2025‬",
+        "59",
+        "0",
+        "3",
+        "26",
+        "63"
+      ],
+      [
+        "‪Nov 2, 2025‬",
+        "63",
+        "0",
+        "0",
+        "22",
+        "83"
+      ],
+      [
+        "‪Nov 9, 2025‬",
+        "64",
+        "0",
+        "0",
+        "19",
+        "80"
+      ],
+      [
+        "‪Nov 16, 2025‬",
+        "62",
+        "0",
+        "0",
+        "20",
+        "63"
+      ],
+      [
+        "‪Nov 23, 2025‬",
+        "65",
+        "0",
+        "0",
+        "20",
+        "53"
+      ],
+      [
+        "‪Nov 30, 2025‬",
+        "65",
+        "0",
+        "0",
+        "21",
+        "69"
+      ],
+      [
+        "‪Dec 7, 2025‬",
+        "52",
+        "0",
+        "0",
+        "20",
+        "71"
+      ],
+      [
+        "‪Dec 14, 2025‬",
+        "54",
+        "0",
+        "0",
+        "19",
+        "82"
+      ],
+      [
+        "‪Dec 21, 2025‬",
+        "59",
+        "0",
+        "0",
+        "19",
+        "70"
+      ],
+      [
+        "‪Dec 28, 2025‬",
+        "61",
+        "0",
+        "0",
+        "18",
+        "71"
+      ],
+      [
+        "‪Jan 4, 2026‬",
+        "60",
+        "0",
+        "0",
+        "35",
+        "76"
+      ],
+      [
+        "‪Jan 11, 2026‬",
+        "53",
+        "0",
+        "0",
+        "27",
+        "76"
+      ],
+      [
+        "‪Jan 18, 2026‬",
+        "62",
+        "0",
+        "0",
+        "29",
+        "87"
+      ],
+      [
+        "‪Jan 25, 2026‬",
+        "59",
+        "0",
+        "0",
+        "34",
+        "98"
+      ],
+      [
+        "‪Feb 1, 2026‬",
+        "55",
+        "0",
+        "0",
+        "34",
+        "93"
+      ],
+      [
+        "‪Feb 8, 2026‬",
+        "57",
+        "0",
+        "0",
+        "22",
+        "87"
+      ],
+      [
+        "‪Feb 15, 2026‬",
+        "56",
+        "0",
+        "3",
+        "27",
+        "99"
+      ],
+      [
+        "‪Feb 22, 2026‬",
+        "47",
+        "0",
+        "0",
+        "29",
+        "96"
+      ],
+      [
+        "‪Mar 1, 2026‬",
+        "55",
+        "0",
+        "0",
+        "23",
+        "99"
+      ],
+      [
+        "‪Mar 8, 2026‬",
+        "56",
+        "0",
+        "0",
+        "25",
+        "85"
+      ],
+      [
+        "‪Mar 15, 2026‬",
+        "60",
+        "0",
+        "0",
+        "22",
+        "93"
+      ],
+      [
+        "‪Mar 22, 2026‬",
+        "56",
+        "0",
+        "0",
+        "23",
+        "87"
+      ],
+      [
+        "‪Mar 29, 2026‬",
+        "54",
+        "0",
+        "0",
+        "21",
+        "75"
+      ],
+      [
+        "‪Apr 5, 2026‬",
+        "58",
+        "0",
+        "0",
+        "29",
+        "87"
+      ],
+      [
+        "‪Apr 12, 2026‬",
+        "66",
+        "0",
+        "0",
+        "28",
+        "66"
+      ],
+      [
+        "‪Apr 19, 2026‬",
+        "52",
+        "0",
+        "0",
+        "28",
+        "84"
+      ],
+      [
+        "‪Apr 26, 2026‬",
+        "56",
+        "0",
+        "0",
+        "23",
+        "70"
+      ],
+      [
+        "‪May 3, 2026‬",
+        "56",
+        "0",
+        "0",
+        "24",
+        "69"
+      ],
+      [
+        "‪May 10, 2026‬",
+        "58",
+        "0",
+        "4",
+        "93",
+        "62"
+      ],
+      [
+        "‪May 17, 2026‬",
+        "53",
+        "0",
+        "0",
+        "29",
+        "78"
+      ],
+      [
+        "‪May 24, 2026‬",
+        "59",
+        "0",
+        "4",
+        "19",
+        "85"
+      ],
+      [
+        "‪May 31, 2026‬",
+        "50",
+        "0",
+        "3",
+        "28",
+        "99"
+      ],
+      [
+        "‪Jun 7, 2026‬",
+        "47",
+        "0",
+        "0",
+        "25",
+        "96"
+      ],
+      [
+        "‪Jun 14, 2026‬",
+        "54",
+        "0",
+        "0",
+        "26",
+        "100"
+      ],
+      [
+        "‪Jun 21, 2026‬",
+        "59",
+        "0",
+        "0",
+        "26",
+        "77"
+      ],
+      [
+        "‪Jun 28, 2026‬",
+        "52",
+        "0",
+        "0",
+        "22",
+        "75"
+      ],
+      [
+        "‪Jul 5, 2026‬",
+        "53",
+        "0",
+        "3",
+        "20",
+        "67"
+      ],
+      [
+        "‪Jul 12, 2026‬",
+        "44",
+        "0",
+        "0",
+        "18",
+        "55"
+      ],
+      [
+        "‪Jul 19, 2026‬",
+        "38",
+        "0",
+        "0",
+        "22",
+        "40"
+      ],
+      [
+        "‪Jul 26, 2026‬",
+        "48",
+        "0",
+        "4",
+        "19",
+        "34"
+      ],
+      [
+        "‪Aug 2, 2026‬",
+        "48",
+        "0",
+        "0",
+        "18",
+        "31"
+      ],
+      [
+        "‪Aug 9, 2026‬",
+        "42",
+        "0",
+        "0",
+        "17",
+        "35"
+      ],
+      [
+        "‪Aug 16, 2026‬",
+        "47",
+        "0",
+        "0",
+        "14",
+        "31"
+      ],
+      [
+        "‪Aug 23, 2026‬",
+        "42",
+        "0",
+        "3",
+        "16",
+        "26"
+      ],
+      [
+        "‪Aug 30, 2026‬",
+        "45",
+        "0",
+        "0",
+        "17",
+        "32"
+      ],
+      [
+        "‪Sep 6, 2026‬",
+        "53",
+        "0",
+        "5",
+        "17",
+        "41"
+      ],
+      [
+        "‪Sep 13, 2026‬",
+        "45",
+        "0",
+        "9",
+        "15",
+        "52"
+      ],
+      [
+        "‪Sep 20, 2026‬",
+        "46",
+        "0",
+        "4",
+        "14",
+        "42"
+      ],
+      [
+        "‪Sep 27, 2026‬",
+        "44",
+        "0",
+        "0",
+        "15",
+        "31"
+      ],
+      [
+        "‪Oct 4, 2026‬",
+        "38",
+        "0",
+        "0",
+        "23",
+        "32"
+      ],
+      [
+        "‪Oct 11, 2026‬",
+        "40",
+        "0",
+        "3",
+        "23",
+        "28"
+      ],
+      [
+        "‪Oct 18, 2026‬",
+        "45",
+        "0",
+        "3",
+        "21",
+        "31"
+      ],
+      [
+        "‪Oct 25, 2026‬",
+        "44",
+        "0",
+        "0",
+        "34",
+        "40"
+      ]
+    ],
+    [
+      [
+        "Term",
+        "Value"
+      ],
+      [
+        "word waffle",
+        "20"
+      ],
+      [
+        "reheardle",
+        "0"
+      ],
+      [
+        "flickle",
+        "0"
+      ],
+      [
+        "movie pyramid",
+        "26"
+      ],
+      [
+        "gpts",
+        "54"
+      ]
+    ]
+  ],
+  "visibleText": "Home\nExplore\nTrending Now\nshare\nfeedback\ninfo\nTry the new experience!\nExplore search trends with Gemini. A quick and easy way to find search terms and discover trends.\nGo to new Explore\nclose_24px\n•\nSearch term\n•\nSearch term\n•\nSearch term\n•\nSearch term\n•\nSearch term\nUnited States\nPast 12 months\nAll categories\nWeb Search\nword waffle\nreheardle\nflickle\nmovie pyramid\ngpts\nUnited States, Past 12 months\nInterest over time help_outline\nfile_download\ncode\nshare\nAverage\nx1\tword waffle\treheardle\tflickle\tmovie pyramid\tgpts\nAverage\t53\t0\t1\t24\t67\n‪Oct 19, 2025‬\n‪Mar 1, 2026‬\n‪Jul 12, 2026‬\n25\n50\n75\n100\nx\ty1\ty2\ty3\ty4\ty5\n‪Oct 19, 2025‬\t55\t0\t0\t22\t45\n‪Oct 26, 2025‬\t59\t0\t3\t26\t63\n‪Nov 2, 2025‬\t63\t0\t0\t22\t83\n‪Nov 9, 2025‬\t64\t0\t0\t19\t80\n‪Nov 16, 2025‬\t62\t0\t0\t20\t63\n‪Nov 23, 2025‬\t65\t0\t0\t20\t53\n‪Nov 30, 2025‬\t65\t0\t0\t21\t69\n‪Dec 7, 2025‬\t52\t0\t0\t20\t71\n‪Dec 14, 2025‬\t54\t0\t0\t19\t82\n‪Dec 21, 2025‬\t59\t0\t0\t19\t70\n‪Dec 28, 2025‬\t61\t0\t0\t18\t71\n‪Jan 4, 2026‬\t60\t0\t0\t35\t76\n‪Jan 11, 2026‬\t53\t0\t0\t27\t76\n‪Jan 18, 2026‬\t62\t0\t0\t29\t87\n‪Jan 25, 2026‬\t59\t0\t0\t34\t98\n‪Feb 1, 2026‬\t55\t0\t0\t34\t93\n‪Feb 8, 2026‬\t57\t0\t0\t22\t87\n‪Feb 15, 2026‬\t56\t0\t3\t27\t99\n‪Feb 22, 2026‬\t47\t0\t0\t29\t96\n‪Mar 1, 2026‬\t55\t0\t0\t23\t99\n‪Mar 8, 2026‬\t56\t0\t0\t25\t85\n‪Mar 15, 2026‬\t60\t0\t0\t22\t93\n‪Mar 22, 2026‬\t56\t0\t0\t23\t87\n‪Mar 29, 2026‬\t54\t0\t0\t21\t75\n‪Apr 5, 2026‬\t58\t0\t0\t29\t87\n‪Apr 12, 2026‬\t66\t0\t0\t28\t66\n‪Apr 19, 2026‬\t52\t0\t0\t28\t84\n‪Apr 26, 2026‬\t56\t0\t0\t23\t70\n‪May 3, 2026‬\t56\t0\t0\t24\t69\n‪May 10, 2026‬\t58\t0\t4\t93\t62\n‪May 17, 2026‬\t53\t0\t0\t29\t78\n‪May 24, 2026‬\t59\t0\t4\t19\t85\n‪May 31, 2026‬\t50\t0\t3\t28\t99\n‪Jun 7, 2026‬\t47\t0\t0\t25\t96\n‪Jun 14, 2026‬\t54\t0\t0\t26\t100\n‪Jun 21, 2026‬\t59\t0\t0\t26\t77\n‪Jun 28, 2026‬\t52\t0\t0\t22\t75\n‪Jul 5, 2026‬\t53\t0\t3\t20\t67\n‪Jul 12, 2026‬\t44\t0\t0\t18\t55\n‪Jul 19, 2026‬\t38\t0\t0\t22\t40\n‪Jul 26, 2026‬\t48\t0\t4\t19\t34\n‪Aug 2, 2026‬\t48\t0\t0\t18\t31\n‪Aug 9, 2026‬\t42\t0\t0\t17\t35\n‪Aug 16, 2026‬\t47\t0\t0\t14\t31\n‪Aug 23, 2026‬\t42\t0\t3\t16\t26\n‪Aug 30, 2026‬\t45\t0\t0\t17\t32\n‪Sep 6, 2026‬\t53\t0\t5\t17\t41\n‪Sep 13, 2026‬\t45\t0\t9\t15\t52\n‪Sep 20, 2026‬\t46\t0\t4\t14\t42\n‪Sep 27, 2026‬\t44\t0\t0\t15\t31\n‪Oct 4, 2026‬\t38\t0\t0\t23\t32\n‪Oct 11, 2026‬\t40\t0\t3\t23\t28\n‪Oct 18, 2026‬\t45\t0\t3\t21\t31\n‪Oct 25, 2026‬\t44\t0\t0\t34\t40\nCompared breakdown by subregion\nSubregion\nfile_download\ncode\nshare\nword waffle\nreheardle\nflickle\nmovie pyramid\ngpts\nColor intensity represents percentage of searches \nLEARN MORE\nSort:\nInterest for word waffle\n1\nNorth Dakota\n2\nVermont\n3\nMontana\n4\nRhode Island\n5\nMaine\n Showing 1-5 of 51 subregions \nword waffle\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nstackdown\n+1,700%\nmore_vert\nreheardle\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nfile_download\ncode\nshare\nwarning\n\nHmm, your search doesn't have enough data to show here.\n\nPlease make sure everything is spelled correctly, or try a more general term.\n\nflickle\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nTop\nfile_download\ncode\nshare\n1\nflickle game\n100\nmore_vert\n2\nmoviedle\n29\nmore_vert\nmovie pyramid\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\n\nOops! Something went wrong.\n\nPlease try again in a bit.\n\ngpts\nInterest by subregion\nhelp_outline\nSubregion\nfile_download\ncode\nshare\nRelated queries\nhelp_outline\nRising\nfile_download\ncode\nshare\n1\nchat gpts company nyt\nBreakout\nmore_vert\n2\ncheapest flights to tokyo\nBreakout\nmore_vert\n3\nhow to bake a cake\n+2,800%\nmore_vert\n4\nai news\n+750%\nmore_vert\n5\nnew york times\n+650%\nmore_vert\n Showing 1-5 of 18 queries "
+}

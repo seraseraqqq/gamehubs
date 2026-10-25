@@ -1,0 +1,207 @@
+{
+  "checkedAt": "2026-10-25T06:58:40.859Z",
+  "timezone": "Asia/Shanghai",
+  "todayVisible": 81,
+  "states": {
+    "READY": 60,
+    "ERROR": 4,
+    "CANCELED": 17
+  },
+  "targets": {
+    "production": 70,
+    "preview": 11
+  },
+  "last24HoursVisible": 98,
+  "last24HoursPriorCalendarDay": 17,
+  "categories": {
+    "SEO 本轮已发布修复": 5,
+    "5 站 Analytics 后续修复": 5,
+    "重复 web 项目失败": 4,
+    "17 站 Analytics 首轮": 17,
+    "新站首次发布与发布记录": 9,
+    "10 站迁移：预览与正式": 20,
+    "旧主仓库来源部署": 21
+  },
+  "currentProjectCount": 29,
+  "currentGameHubsLinks": [],
+  "formal17RepositoryMapping": [
+    {
+      "siteId": "block-blast-unblocked",
+      "projectId": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+      "projectName": "block-blast-unblocked",
+      "expectedRepository": "gameshub-block-blast-unblocked",
+      "actualRepository": "gameshub-block-blast-unblocked",
+      "matches": true
+    },
+    {
+      "siteId": "costcodle",
+      "projectId": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+      "projectName": "costcodle-unlimited",
+      "expectedRepository": "gameshub-costcodle",
+      "actualRepository": "gameshub-costcodle",
+      "matches": true
+    },
+    {
+      "siteId": "gulper-io",
+      "projectId": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+      "projectName": "gulperio-game",
+      "expectedRepository": "gameshub-gulper-io",
+      "actualRepository": "gameshub-gulper-io",
+      "matches": true
+    },
+    {
+      "siteId": "krillion-unlimited",
+      "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+      "projectName": "gamehubs-summit-unlimited",
+      "expectedRepository": "gameshub-krillion-unlimited",
+      "actualRepository": "gameshub-krillion-unlimited",
+      "matches": true
+    },
+    {
+      "siteId": "spacebar-counter",
+      "projectId": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+      "projectName": "gamehubs-spacebar-counter",
+      "expectedRepository": "gameshub-spacebar-counter",
+      "actualRepository": "gameshub-spacebar-counter",
+      "matches": true
+    },
+    {
+      "siteId": "2048-cupcakes",
+      "projectId": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+      "projectName": "gamehubs-2048-cupcakes",
+      "expectedRepository": "gameshub-2048-cupcakes",
+      "actualRepository": "gameshub-2048-cupcakes",
+      "matches": true
+    },
+    {
+      "siteId": "coreball",
+      "projectId": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
+      "projectName": "gamehubs-coreball",
+      "expectedRepository": "gameshub-coreball",
+      "actualRepository": "gameshub-coreball",
+      "matches": true
+    },
+    {
+      "siteId": "minute-cryptic-unlimited",
+      "projectId": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
+      "projectName": "gamehubs-minute-cryptic-unlimited",
+      "expectedRepository": "gameshub-minute-cryptic-unlimited",
+      "actualRepository": "gameshub-minute-cryptic-unlimited",
+      "matches": true
+    },
+    {
+      "siteId": "snow-rider-3d-unblocked",
+      "projectId": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+      "projectName": "gamehubs-snow-rider-3d",
+      "expectedRepository": "gameshub-snow-rider-3d-unblocked",
+      "actualRepository": "gameshub-snow-rider-3d-unblocked",
+      "matches": true
+    },
+    {
+      "siteId": "head-soccer-2026",
+      "projectId": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+      "projectName": "gamehubs-head-soccer-2026",
+      "expectedRepository": "gameshub-head-soccer-2026",
+      "actualRepository": "gameshub-head-soccer-2026",
+      "matches": true
+    },
+    {
+      "siteId": "acceleration-city",
+      "projectId": "prj_9Xu3Dk2dZKyougmAWZyddtI1TsEz",
+      "projectName": "gamehubs-acceleration-city",
+      "expectedRepository": "gamehubs-acceleration-city",
+      "actualRepository": "gamehubs-acceleration-city",
+      "matches": true
+    },
+    {
+      "siteId": "cluster-rush",
+      "projectId": "prj_S11s0HbRdKMAiWjAdOkKE438olI8",
+      "projectName": "gamehubs-cluster-rush",
+      "expectedRepository": "gamehubs-cluster-rush",
+      "actualRepository": "gamehubs-cluster-rush",
+      "matches": true
+    },
+    {
+      "siteId": "colordle",
+      "projectId": "prj_MO2mqYcaGJjLqrYaocxZDwpjEmyr",
+      "projectName": "gameshub-colordle",
+      "expectedRepository": "gameshub-colordle",
+      "actualRepository": "gameshub-colordle",
+      "matches": true
+    },
+    {
+      "siteId": "cutle",
+      "projectId": "prj_GsfEJjROGzjNVTKWZzUIsEMmZl9O",
+      "projectName": "gameshub-cutle",
+      "expectedRepository": "gameshub-cutle",
+      "actualRepository": "gameshub-cutle",
+      "matches": true
+    },
+    {
+      "siteId": "metazooa",
+      "projectId": "prj_Jf18eJkWESULNxxU1lkcVl39ii9R",
+      "projectName": "gameshub-metazooa",
+      "expectedRepository": "gameshub-metazooa",
+      "actualRepository": "gameshub-metazooa",
+      "matches": true
+    },
+    {
+      "siteId": "poople",
+      "projectId": "prj_9q0dNtkD2iDZhLYNDV45mdtHR6nz",
+      "projectName": "gameshub-poople",
+      "expectedRepository": "gameshub-poople",
+      "actualRepository": "gameshub-poople",
+      "matches": true
+    },
+    {
+      "siteId": "travle",
+      "projectId": "prj_eO2dPfqIs1Wx5KPim0I52tlnWlVP",
+      "projectName": "gameshub-travle",
+      "expectedRepository": "gameshub-travle",
+      "actualRepository": "gameshub-travle",
+      "matches": true
+    }
+  ],
+  "duplicateTravleProjects": [
+    {
+      "id": "prj_udzq0gqczTg3PIf9vw8S5Mz30Lsc",
+      "name": "web",
+      "createdAt": 1792902117508,
+      "updatedAt": 1792908670914,
+      "git": {
+        "type": "github",
+        "owner": "seraseraqqq",
+        "repository": "gameshub-travle",
+        "repoId": 1432164130,
+        "productionBranch": "main",
+        "createdAt": 1792902117233,
+        "updatedAt": 1792902117233
+      },
+      "rootDirectory": "apps/web",
+      "ignoredBuildStep": null,
+      "gitDeploymentEnabled": "disabled"
+    },
+    {
+      "id": "prj_eO2dPfqIs1Wx5KPim0I52tlnWlVP",
+      "name": "gameshub-travle",
+      "createdAt": 1792902337034,
+      "updatedAt": 1792905923693,
+      "git": {
+        "type": "github",
+        "owner": "seraseraqqq",
+        "repository": "gameshub-travle",
+        "repoId": 1432164130,
+        "productionBranch": "main",
+        "createdAt": 1792902336884,
+        "updatedAt": 1792902336884
+      },
+      "rootDirectory": null,
+      "ignoredBuildStep": null,
+      "gitDeploymentEnabled": "disabled"
+    }
+  ],
+  "limitations": [
+    "Visible deployment records do not expose the internal quota counter. 98 visible records over the last24h do not fully reconcile the reported100 request limit; two counts remain unproven.",
+    "Read-only audit: no project disconnected, deleted, deployed or upgraded."
+  ]
+}

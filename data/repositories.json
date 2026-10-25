@@ -17,24 +17,43 @@
       ],
       "createdAt": "2026-10-22",
       "developmentState": "independent-repository-deployed",
+      "domainConfiguration": {
+        "canonicalVerified": true,
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "customDomain": "playblockblastunblocked.com",
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "httpsVerified": true,
+        "pathAndQueryPreserved": true,
+        "primaryOrigin": "https://playblockblastunblocked.com",
+        "projectBindingVerified": true,
+        "redirectStatusCode": 301,
+        "wwwRedirectTo": "https://playblockblastunblocked.com/"
+      },
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-f0a36fbc2ce7fd08ce78",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 10,
         "kd": 21,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.00045045045045045046,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"block blast unblocked\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 22200
@@ -47,7 +66,7 @@
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/block-blast-unblocked-final.json",
       "migrationState": "independent-repository-verified",
       "primaryKeyword": "block blast unblocked",
-      "releaseState": "deployed",
+      "releaseState": "recorded_deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-block-blast-unblocked",
       "rootDirectory": ".",
       "siteId": "block-blast-unblocked",
@@ -56,19 +75,42 @@
         "ignoreCommand": null,
         "productionBranch": "main",
         "productionDeployment": {
-          "id": "dpl_C7fqqTghDjgMxUFegbzg7pb4WhoE",
+          "id": "dpl_7bRPcdPF3o2kjC5heVVFRaCqUTTo",
           "readyState": "READY",
-          "url": "block-blast-unblocked-7aq6h3qh0-gx03410-8651s-projects.vercel.app"
+          "url": "block-blast-unblocked-dxfz8881b-gx03410-8651s-projects.vercel.app"
         },
+        "productionUrl": "https://playblockblastunblocked.com/",
         "projectId": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
         "projectName": "block-blast-unblocked",
         "repository": "https://github.com/seraseraqqq/gameshub-block-blast-unblocked",
         "repositoryId": 1432762961,
         "rootDirectory": null,
+        "sourceCommit": "12fc14528da097f23af513cbb3c6affe925a3f2f",
         "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
       },
-      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
-      "verifiedHead": "07cf140be88943ee8516a6f21c1cfbd902bb3c4d"
+      "verifiedAt": "2026-10-25T05:27:45.967795+00:00",
+      "verifiedHead": "12fc14528da097f23af513cbb3c6affe925a3f2f",
+      "webAnalytics": {
+        "analyticsId": "FA7OyWTp9TbpmBI6Asoq3iDTt",
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "clientIntegrated": true,
+        "dashboardReceived": true,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "integrationMethod": "official-static-html-script",
+        "pageviewStatus": 200,
+        "pageviewVerified": true,
+        "projectEnabled": true,
+        "provider": "Vercel Web Analytics",
+        "queryAndHashFiltered": true,
+        "receiptSource": "Vercel project.webAnalytics.hasData=true",
+        "sdkInstalled": false,
+        "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+        "sdkVersion": null
+      }
     },
     {
       "archivedSnapshots": [
@@ -82,24 +124,43 @@
       ],
       "createdAt": "2026-10-22",
       "developmentState": "independent-repository-deployed",
+      "domainConfiguration": {
+        "canonicalVerified": true,
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "customDomain": "costcodle.cc",
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "httpsVerified": true,
+        "pathAndQueryPreserved": true,
+        "primaryOrigin": "https://costcodle.cc",
+        "projectBindingVerified": true,
+        "redirectStatusCode": 301,
+        "wwwRedirectTo": "https://costcodle.cc/"
+      },
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-009cbf1dce9b43adf82c",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 536,
         "kd": 23,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.029613259668508286,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"costcodle\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 18100
@@ -112,7 +173,7 @@
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/costcodle-final.json",
       "migrationState": "independent-repository-verified",
       "primaryKeyword": "costcodle",
-      "releaseState": "deployed",
+      "releaseState": "recorded_deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-costcodle",
       "rootDirectory": ".",
       "siteId": "costcodle",
@@ -121,19 +182,42 @@
         "ignoreCommand": null,
         "productionBranch": "main",
         "productionDeployment": {
-          "id": "dpl_XDeaVpd4JfB9A2KuTiV67jD8ReH4",
+          "id": "dpl_HhgdMneaUfT7uEY1SRVHc8Qzs2vB",
           "readyState": "READY",
-          "url": "costcodle-unlimited-q890kgt4e-gx03410-8651s-projects.vercel.app"
+          "url": "costcodle-unlimited-jrdie3aig-gx03410-8651s-projects.vercel.app"
         },
+        "productionUrl": "https://costcodle.cc/",
         "projectId": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
         "projectName": "costcodle-unlimited",
         "repository": "https://github.com/seraseraqqq/gameshub-costcodle",
         "repositoryId": 1432763012,
         "rootDirectory": null,
+        "sourceCommit": "0fe0d68c1989a40aa370c74a5c276264012af061",
         "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
       },
-      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
-      "verifiedHead": "a2af21d0e74622a8a35098ea29b4700dd20f848d"
+      "verifiedAt": "2026-10-25T05:27:45.967795+00:00",
+      "verifiedHead": "0fe0d68c1989a40aa370c74a5c276264012af061",
+      "webAnalytics": {
+        "analyticsId": "SN4DLntsWCLVu8Z2WBnoaISOn",
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "clientIntegrated": true,
+        "dashboardReceived": true,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "integrationMethod": "official-static-html-script",
+        "pageviewStatus": 200,
+        "pageviewVerified": true,
+        "projectEnabled": true,
+        "provider": "Vercel Web Analytics",
+        "queryAndHashFiltered": true,
+        "receiptSource": "Vercel project.webAnalytics.hasData=true",
+        "sdkInstalled": false,
+        "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+        "sdkVersion": null
+      }
     },
     {
       "archivedSnapshots": [
@@ -147,23 +231,46 @@
       ],
       "createdAt": "2026-10-22",
       "developmentState": "independent-repository-deployed",
+      "domainConfiguration": {
+        "canonicalVerified": true,
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "customDomain": "gulperio.com",
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "httpsVerified": true,
+        "pathAndQueryPreserved": true,
+        "primaryOrigin": "https://gulperio.com",
+        "projectBindingVerified": true,
+        "redirectStatusCode": 301,
+        "wwwRedirectTo": "https://gulperio.com/"
+      },
       "keywordBatchDate": "2026-10-25",
-      "keywordId": "kw-50ff48f16b02f7554321",
+      "keywordId": "kw-dcb5ec69e8fb735147d8",
       "keywordMetrics": {
-        "intitle": 10,
-        "kd": null,
-        "ratio": 0.3333333333333333,
+        "allintitle": null,
+        "intitle": 3180,
+        "kd": 28,
+        "kgr": null,
+        "kgrBasis": null,
+        "ratio": 0.3212121212121212,
         "sources": {
           "intitle": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "google_intitle",
+            "query": "intitle:\"gulper io\""
+          },
+          "kd": {
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
-        "volume": 30
+        "volume": 9900
       },
       "keywordMetricsSource": "keyword_pool",
       "legacyState": "removed-from-management-checkout; available-in-git-history",
@@ -172,8 +279,8 @@
       "managementStage": "deployed",
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/gulper-io-final.json",
       "migrationState": "independent-repository-verified",
-      "primaryKeyword": "gulper.io game",
-      "releaseState": "deployed",
+      "primaryKeyword": "gulper io",
+      "releaseState": "recorded_deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-gulper-io",
       "rootDirectory": ".",
       "siteId": "gulper-io",
@@ -182,19 +289,42 @@
         "ignoreCommand": null,
         "productionBranch": "main",
         "productionDeployment": {
-          "id": "dpl_6LJSxinmtsc5Hct8ve3AE96gUNhs",
+          "id": "dpl_GcsL6LiomU42tfCsUYkCSx6Xzya9",
           "readyState": "READY",
-          "url": "gulperio-game-5k7ymsvkr-gx03410-8651s-projects.vercel.app"
+          "url": "gulperio-game-78idgct4u-gx03410-8651s-projects.vercel.app"
         },
+        "productionUrl": "https://gulperio.com/",
         "projectId": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
         "projectName": "gulperio-game",
         "repository": "https://github.com/seraseraqqq/gameshub-gulper-io",
         "repositoryId": 1432763090,
         "rootDirectory": null,
+        "sourceCommit": "b2261def42070882274e12093de85cb4aa2172c9",
         "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
       },
-      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
-      "verifiedHead": "1d94e2c8d17f6e6c39dbcfa91237371fbb1c907e"
+      "verifiedAt": "2026-10-25T05:27:45.967795+00:00",
+      "verifiedHead": "b2261def42070882274e12093de85cb4aa2172c9",
+      "webAnalytics": {
+        "analyticsId": "NClfRaxbVaLfaAVEYnyOpRGCL",
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "clientIntegrated": true,
+        "dashboardReceived": true,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "integrationMethod": "official-static-html-script",
+        "pageviewStatus": 200,
+        "pageviewVerified": true,
+        "projectEnabled": true,
+        "provider": "Vercel Web Analytics",
+        "queryAndHashFiltered": true,
+        "receiptSource": "Vercel project.webAnalytics.hasData=true",
+        "sdkInstalled": false,
+        "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+        "sdkVersion": null
+      }
     },
     {
       "archivedSnapshots": [
@@ -208,16 +338,35 @@
       ],
       "createdAt": "2026-10-23",
       "developmentState": "independent-repository-deployed",
+      "domainConfiguration": {
+        "canonicalVerified": true,
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "customDomain": "krilliononline.com",
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "httpsVerified": true,
+        "pathAndQueryPreserved": true,
+        "primaryOrigin": "https://krilliononline.com",
+        "projectBindingVerified": true,
+        "redirectStatusCode": 301,
+        "wwwRedirectTo": "https://krilliononline.com/"
+      },
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-12078588080da360358a",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 520,
         "kd": null,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": null,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"krillion unlimited\""
           }
         },
         "volume": null
@@ -230,7 +379,7 @@
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/krillion-unlimited-final.json",
       "migrationState": "independent-repository-verified",
       "primaryKeyword": "krillion unlimited",
-      "releaseState": "deployed",
+      "releaseState": "recorded_deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-krillion-unlimited",
       "rootDirectory": ".",
       "siteId": "krillion-unlimited",
@@ -239,19 +388,42 @@
         "ignoreCommand": null,
         "productionBranch": "main",
         "productionDeployment": {
-          "id": "dpl_AJ1aUmkkFnkKhJurkka68HxcHUse",
+          "id": "dpl_9APpmKnwjqu8s83zPFJfgjq8CxTd",
           "readyState": "READY",
-          "url": "gamehubs-summit-unlimited-bhtatlmab-gx03410-8651s-projects.vercel.app"
+          "url": "gamehubs-summit-unlimited-52jo4ibcs-gx03410-8651s-projects.vercel.app"
         },
+        "productionUrl": "https://krilliononline.com/",
         "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
         "projectName": "gamehubs-summit-unlimited",
         "repository": "https://github.com/seraseraqqq/gameshub-krillion-unlimited",
         "repositoryId": 1432763180,
         "rootDirectory": null,
+        "sourceCommit": "91fc881885a24cd0ec3122322347ba1dc5386da8",
         "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
       },
-      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
-      "verifiedHead": "b602921f27aa53df7a8db37b7f13d89031575835"
+      "verifiedAt": "2026-10-25T05:27:45.967795+00:00",
+      "verifiedHead": "91fc881885a24cd0ec3122322347ba1dc5386da8",
+      "webAnalytics": {
+        "analyticsId": "jB0q0bZZH3u7pGK1OxAyIoihe",
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "clientIntegrated": true,
+        "dashboardReceived": true,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "integrationMethod": "official-static-html-script",
+        "pageviewStatus": 200,
+        "pageviewVerified": true,
+        "projectEnabled": true,
+        "provider": "Vercel Web Analytics",
+        "queryAndHashFiltered": true,
+        "receiptSource": "Vercel project.webAnalytics.hasData=true",
+        "sdkInstalled": false,
+        "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+        "sdkVersion": null
+      }
     },
     {
       "archivedSnapshots": [
@@ -265,24 +437,43 @@
       ],
       "createdAt": "2026-10-23",
       "developmentState": "independent-repository-deployed",
+      "domainConfiguration": {
+        "canonicalVerified": true,
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "customDomain": "spacebarcounter.xyz",
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "httpsVerified": true,
+        "pathAndQueryPreserved": true,
+        "primaryOrigin": "https://spacebarcounter.xyz",
+        "projectBindingVerified": true,
+        "redirectStatusCode": 301,
+        "wwwRedirectTo": "https://spacebarcounter.xyz/"
+      },
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-1c049d3efce6f91cba37",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 799,
         "kd": 28,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.14796296296296296,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"spacebar counter\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 5400
@@ -295,7 +486,7 @@
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/spacebar-counter-final.json",
       "migrationState": "independent-repository-verified",
       "primaryKeyword": "spacebar counter",
-      "releaseState": "deployed",
+      "releaseState": "recorded_deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-spacebar-counter",
       "rootDirectory": ".",
       "siteId": "spacebar-counter",
@@ -304,19 +495,42 @@
         "ignoreCommand": null,
         "productionBranch": "main",
         "productionDeployment": {
-          "id": "dpl_BizhMsF44EjvQMupzC4fqtyeBmPt",
+          "id": "dpl_EFS9LcTjxBqiegBZfZs2fxtY127S",
           "readyState": "READY",
-          "url": "gamehubs-spacebar-counter-nbjwdpqbb-gx03410-8651s-projects.vercel.app"
+          "url": "gamehubs-spacebar-counter-2x1v87fw7-gx03410-8651s-projects.vercel.app"
         },
+        "productionUrl": "https://spacebarcounter.xyz/",
         "projectId": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
         "projectName": "gamehubs-spacebar-counter",
         "repository": "https://github.com/seraseraqqq/gameshub-spacebar-counter",
         "repositoryId": 1432763331,
         "rootDirectory": null,
+        "sourceCommit": "883bd507b5475959f6d92f03e4ff3cdc37732d95",
         "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
       },
-      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
-      "verifiedHead": "34f02d435684c22fd53fa8f8102f6d75b242f30c"
+      "verifiedAt": "2026-10-25T05:27:45.967795+00:00",
+      "verifiedHead": "883bd507b5475959f6d92f03e4ff3cdc37732d95",
+      "webAnalytics": {
+        "analyticsId": "NvFjL9ms62SB42eqRH3TZQBOQ",
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "clientIntegrated": true,
+        "dashboardReceived": true,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "integrationMethod": "official-static-html-script",
+        "pageviewStatus": 200,
+        "pageviewVerified": true,
+        "projectEnabled": true,
+        "provider": "Vercel Web Analytics",
+        "queryAndHashFiltered": true,
+        "receiptSource": "Vercel project.webAnalytics.hasData=true",
+        "sdkInstalled": false,
+        "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+        "sdkVersion": null
+      }
     },
     {
       "archivedSnapshots": [
@@ -330,24 +544,43 @@
       ],
       "createdAt": "2026-10-23",
       "developmentState": "independent-repository-deployed",
+      "domainConfiguration": {
+        "canonicalVerified": true,
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "customDomain": "2048cupcakes.xyz",
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "httpsVerified": true,
+        "pathAndQueryPreserved": true,
+        "primaryOrigin": "https://2048cupcakes.xyz",
+        "projectBindingVerified": true,
+        "redirectStatusCode": 301,
+        "wwwRedirectTo": "https://2048cupcakes.xyz/"
+      },
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-00a8af79182809da7d78",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 3780,
         "kd": 28,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.03436363636363637,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"2048 cupcakes\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 110000
@@ -360,7 +593,7 @@
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/2048-cupcakes-final.json",
       "migrationState": "independent-repository-verified",
       "primaryKeyword": "2048 cupcakes",
-      "releaseState": "deployed",
+      "releaseState": "recorded_deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-2048-cupcakes",
       "rootDirectory": ".",
       "siteId": "2048-cupcakes",
@@ -369,19 +602,42 @@
         "ignoreCommand": null,
         "productionBranch": "main",
         "productionDeployment": {
-          "id": "dpl_8pRSPENzV5JHabD2R9Zphkezp7JH",
+          "id": "dpl_E1dHRWAYNmznkrScBj9SHukZmMn4",
           "readyState": "READY",
-          "url": "gamehubs-2048-cupcakes-zt19722jn-gx03410-8651s-projects.vercel.app"
+          "url": "gamehubs-2048-cupcakes-gqnriz3m3-gx03410-8651s-projects.vercel.app"
         },
+        "productionUrl": "https://2048cupcakes.xyz/",
         "projectId": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
         "projectName": "gamehubs-2048-cupcakes",
         "repository": "https://github.com/seraseraqqq/gameshub-2048-cupcakes",
         "repositoryId": 1432763397,
         "rootDirectory": null,
+        "sourceCommit": "d872928507b6b5f8ccfd062c65c7a3f935ce492a",
         "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
       },
-      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
-      "verifiedHead": "c26b71c763101186775aa3613562a48adc6f0918"
+      "verifiedAt": "2026-10-25T05:27:45.967795+00:00",
+      "verifiedHead": "d872928507b6b5f8ccfd062c65c7a3f935ce492a",
+      "webAnalytics": {
+        "analyticsId": "PtgEJDrE5PwfgvLMhQZQnL6XE",
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "clientIntegrated": true,
+        "dashboardReceived": true,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "integrationMethod": "official-static-html-script",
+        "pageviewStatus": 200,
+        "pageviewVerified": true,
+        "projectEnabled": true,
+        "provider": "Vercel Web Analytics",
+        "queryAndHashFiltered": true,
+        "receiptSource": "Vercel project.webAnalytics.hasData=true",
+        "sdkInstalled": false,
+        "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+        "sdkVersion": null
+      }
     },
     {
       "archivedSnapshots": [
@@ -395,24 +651,43 @@
       ],
       "createdAt": "2026-10-23",
       "developmentState": "independent-repository-deployed",
+      "domainConfiguration": {
+        "canonicalVerified": null,
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "customDomain": null,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "httpsVerified": true,
+        "pathAndQueryPreserved": null,
+        "primaryOrigin": "https://gamehubs-coreball.vercel.app",
+        "projectBindingVerified": true,
+        "redirectStatusCode": null,
+        "wwwRedirectTo": null
+      },
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-f8b1e50d9e8d50940f7d",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 1510,
         "kd": 29,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.030505050505050504,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"coreball\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 49500
@@ -425,7 +700,7 @@
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/coreball-final.json",
       "migrationState": "independent-repository-verified",
       "primaryKeyword": "coreball",
-      "releaseState": "deployed-noindex-awaiting-domain",
+      "releaseState": "recorded_deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-coreball",
       "rootDirectory": ".",
       "siteId": "coreball",
@@ -434,19 +709,42 @@
         "ignoreCommand": null,
         "productionBranch": "main",
         "productionDeployment": {
-          "id": "dpl_6wy5XZvwyfXETCVvtMFgzvrcNo2z",
+          "id": "dpl_5UztbBETRGG5aVC4x3BQ3tXRj5sF",
           "readyState": "READY",
-          "url": "gamehubs-coreball-i4osy34yo-gx03410-8651s-projects.vercel.app"
+          "url": "gamehubs-coreball-194xs83oh-gx03410-8651s-projects.vercel.app"
         },
+        "productionUrl": "https://gamehubs-coreball.vercel.app/",
         "projectId": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
         "projectName": "gamehubs-coreball",
         "repository": "https://github.com/seraseraqqq/gameshub-coreball",
         "repositoryId": 1432763484,
         "rootDirectory": null,
+        "sourceCommit": "f0db273c7ccd24e2a4a445aa89f2693dfaa1f920",
         "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
       },
-      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
-      "verifiedHead": "2793a39f4c3417d16b746e758153a97fa8c07113"
+      "verifiedAt": "2026-10-25T05:27:45.967795+00:00",
+      "verifiedHead": "f0db273c7ccd24e2a4a445aa89f2693dfaa1f920",
+      "webAnalytics": {
+        "analyticsId": "rfordDTar6U0263EcmdZjT1Gb",
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "clientIntegrated": true,
+        "dashboardReceived": true,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "integrationMethod": "official-static-html-script",
+        "pageviewStatus": 200,
+        "pageviewVerified": true,
+        "projectEnabled": true,
+        "provider": "Vercel Web Analytics",
+        "queryAndHashFiltered": true,
+        "receiptSource": "Vercel project.webAnalytics.hasData=true",
+        "sdkInstalled": false,
+        "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+        "sdkVersion": null
+      }
     },
     {
       "archivedSnapshots": [
@@ -460,24 +758,43 @@
       ],
       "createdAt": "2026-10-23",
       "developmentState": "independent-repository-deployed",
+      "domainConfiguration": {
+        "canonicalVerified": null,
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "customDomain": null,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "httpsVerified": true,
+        "pathAndQueryPreserved": null,
+        "primaryOrigin": "https://gamehubs-minute-cryptic-unlimited.vercel.app",
+        "projectBindingVerified": true,
+        "redirectStatusCode": null,
+        "wwwRedirectTo": null
+      },
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-750b4869a66dd671b0ff",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 8,
         "kd": 25,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.002758620689655172,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"minute cryptic unlimited\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 2900
@@ -490,7 +807,7 @@
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/minute-cryptic-unlimited-final.json",
       "migrationState": "independent-repository-verified",
       "primaryKeyword": "minute cryptic unlimited",
-      "releaseState": "deployed-noindex-awaiting-domain",
+      "releaseState": "recorded_deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-minute-cryptic-unlimited",
       "rootDirectory": ".",
       "siteId": "minute-cryptic-unlimited",
@@ -499,19 +816,42 @@
         "ignoreCommand": null,
         "productionBranch": "main",
         "productionDeployment": {
-          "id": "dpl_FfbRYyHpyQsvQvPnPQmtGquuXTMW",
+          "id": "dpl_21uCKsjMv85LR2puYcDADAopcDzG",
           "readyState": "READY",
-          "url": "gamehubs-minute-cryptic-unlimited-376wvot9a.vercel.app"
+          "url": "gamehubs-minute-cryptic-unlimited-1es2mmare.vercel.app"
         },
+        "productionUrl": "https://gamehubs-minute-cryptic-unlimited.vercel.app/",
         "projectId": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
         "projectName": "gamehubs-minute-cryptic-unlimited",
         "repository": "https://github.com/seraseraqqq/gameshub-minute-cryptic-unlimited",
         "repositoryId": 1432763581,
         "rootDirectory": null,
+        "sourceCommit": "591ba8347bfeec55279dda52f5e2d64b59415bac",
         "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
       },
-      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
-      "verifiedHead": "b5d18ddb0a0f7bf057037b7860f18b255da6af84"
+      "verifiedAt": "2026-10-25T05:27:45.967795+00:00",
+      "verifiedHead": "591ba8347bfeec55279dda52f5e2d64b59415bac",
+      "webAnalytics": {
+        "analyticsId": "ZqPbeso0kDuvLpD8rB8shGy7S",
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "clientIntegrated": true,
+        "dashboardReceived": true,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "integrationMethod": "official-static-html-script",
+        "pageviewStatus": 200,
+        "pageviewVerified": true,
+        "projectEnabled": true,
+        "provider": "Vercel Web Analytics",
+        "queryAndHashFiltered": true,
+        "receiptSource": "Vercel project.webAnalytics.hasData=true",
+        "sdkInstalled": false,
+        "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+        "sdkVersion": null
+      }
     },
     {
       "archivedSnapshots": [
@@ -525,24 +865,43 @@
       ],
       "createdAt": "2026-10-24",
       "developmentState": "independent-repository-deployed",
+      "domainConfiguration": {
+        "canonicalVerified": true,
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "customDomain": "snowrider3d.top",
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "httpsVerified": true,
+        "pathAndQueryPreserved": true,
+        "primaryOrigin": "https://snowrider3d.top",
+        "projectBindingVerified": true,
+        "redirectStatusCode": 301,
+        "wwwRedirectTo": "https://snowrider3d.top/"
+      },
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-1ba7b5cb5f3b8f8c5e13",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 2010,
         "kd": 16,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.040606060606060604,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"snow rider 3d unblocked\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 49500
@@ -555,7 +914,7 @@
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/snow-rider-3d-unblocked-final.json",
       "migrationState": "independent-repository-verified",
       "primaryKeyword": "snow rider 3d unblocked",
-      "releaseState": "deployed-awaiting-gameplay-verification",
+      "releaseState": "recorded_deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-snow-rider-3d-unblocked",
       "rootDirectory": ".",
       "siteId": "snow-rider-3d-unblocked",
@@ -564,19 +923,42 @@
         "ignoreCommand": null,
         "productionBranch": "main",
         "productionDeployment": {
-          "id": "dpl_HXF2m9uNwvzTs1ufjymw2hdhuTng",
+          "id": "dpl_754NvYryYwYik7yoyScLBnp4oJfb",
           "readyState": "READY",
-          "url": "gamehubs-snow-rider-3d-6rr13e34q-gx03410-8651s-projects.vercel.app"
+          "url": "gamehubs-snow-rider-3d-3c9yxpxwa-gx03410-8651s-projects.vercel.app"
         },
+        "productionUrl": "https://snowrider3d.top/",
         "projectId": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
         "projectName": "gamehubs-snow-rider-3d",
         "repository": "https://github.com/seraseraqqq/gameshub-snow-rider-3d-unblocked",
         "repositoryId": 1432763661,
         "rootDirectory": null,
+        "sourceCommit": "642f2728442e81b4ee1f919e1c4d19a43eb0a9cd",
         "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
       },
-      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
-      "verifiedHead": "d86a93bf1fa2f726aae71d0447c73b592a7ed3d3"
+      "verifiedAt": "2026-10-25T05:27:45.967795+00:00",
+      "verifiedHead": "642f2728442e81b4ee1f919e1c4d19a43eb0a9cd",
+      "webAnalytics": {
+        "analyticsId": "4jzR8FxQTfdsP2M2pXPoZjGRi",
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "clientIntegrated": true,
+        "dashboardReceived": true,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "integrationMethod": "official-static-html-script",
+        "pageviewStatus": 200,
+        "pageviewVerified": true,
+        "projectEnabled": true,
+        "provider": "Vercel Web Analytics",
+        "queryAndHashFiltered": true,
+        "receiptSource": "Vercel project.webAnalytics.hasData=true",
+        "sdkInstalled": false,
+        "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+        "sdkVersion": null
+      }
     },
     {
       "archivedSnapshots": [
@@ -590,24 +972,43 @@
       ],
       "createdAt": "2026-10-24",
       "developmentState": "independent-repository-deployed",
+      "domainConfiguration": {
+        "canonicalVerified": true,
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "customDomain": "playheadsoccer.com",
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "httpsVerified": true,
+        "pathAndQueryPreserved": true,
+        "primaryOrigin": "https://playheadsoccer.com",
+        "projectBindingVerified": true,
+        "redirectStatusCode": 301,
+        "wwwRedirectTo": "https://playheadsoccer.com/"
+      },
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-d41c59ef6dce1ba78684",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 1310,
         "kd": 20,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.07237569060773481,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"head soccer 2026\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 18100
@@ -620,7 +1021,7 @@
       "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/head-soccer-2026-final.json",
       "migrationState": "independent-repository-verified",
       "primaryKeyword": "head soccer 2026",
-      "releaseState": "deployed",
+      "releaseState": "recorded_deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-head-soccer-2026",
       "rootDirectory": ".",
       "siteId": "head-soccer-2026",
@@ -629,19 +1030,42 @@
         "ignoreCommand": null,
         "productionBranch": "main",
         "productionDeployment": {
-          "id": "dpl_4YVYnKFHb11kVNYLhyyL5QkWiZBA",
+          "id": "dpl_7YZufjDogQ9Y1VXaFYipLhv8shd8",
           "readyState": "READY",
-          "url": "gamehubs-head-soccer-2026-2uj95lgs4-gx03410-8651s-projects.vercel.app"
+          "url": "gamehubs-head-soccer-2026-pcyuda06d-gx03410-8651s-projects.vercel.app"
         },
+        "productionUrl": "https://playheadsoccer.com/",
         "projectId": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
         "projectName": "gamehubs-head-soccer-2026",
         "repository": "https://github.com/seraseraqqq/gameshub-head-soccer-2026",
         "repositoryId": 1432763748,
         "rootDirectory": null,
+        "sourceCommit": "238582e12406e2880011b8dc99a033e34ac9c2b8",
         "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
       },
-      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
-      "verifiedHead": "849cb11b14bef244156853ec1e8be5e3f4c855d1"
+      "verifiedAt": "2026-10-25T05:27:45.967795+00:00",
+      "verifiedHead": "238582e12406e2880011b8dc99a033e34ac9c2b8",
+      "webAnalytics": {
+        "analyticsId": "ISCUVsZIrAUZiXEImne39MyQi",
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "clientIntegrated": true,
+        "dashboardReceived": true,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "integrationMethod": "official-static-html-script",
+        "pageviewStatus": 200,
+        "pageviewVerified": true,
+        "projectEnabled": true,
+        "provider": "Vercel Web Analytics",
+        "queryAndHashFiltered": true,
+        "receiptSource": "Vercel project.webAnalytics.hasData=true",
+        "sdkInstalled": false,
+        "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+        "sdkVersion": null
+      }
     },
     {
       "archivedSnapshots": [
@@ -654,25 +1078,45 @@
         }
       ],
       "createdAt": null,
+      "developmentState": "deployed",
+      "domainConfiguration": {
+        "canonicalVerified": true,
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "customDomain": "playaccelerationcity.com",
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "httpsVerified": true,
+        "pathAndQueryPreserved": true,
+        "primaryOrigin": "https://playaccelerationcity.com",
+        "projectBindingVerified": true,
+        "redirectStatusCode": 301,
+        "wwwRedirectTo": "https://playaccelerationcity.com/"
+      },
       "historicalLocalPath": "E:/Projects/game-sites/acceleration-city",
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-c35b41413e1a0dce7da9",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 312,
         "kd": 12,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.003447513812154696,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"acceleration city\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 90500
@@ -681,20 +1125,55 @@
       "legacyState": "removed-from-management-checkout; available-in-git-history",
       "localPath": "E:/Projects/game-sites/acceleration-city",
       "localPathScope": "recorded-source-device-only; not a portable source identity",
+      "localWorktreeState": "clean-pushed",
       "managementRecord": "data/sites/acceleration-city.json",
-      "managementStage": "blocked",
+      "managementStage": "deployed",
       "migrationCommit": "04ee594d9c9a8c1b41c6be1603269951e0d8ef22",
       "migrationState": "independent-repository",
       "primaryKeyword": "acceleration city",
       "private": true,
-      "releaseState": "publication-deferred-by-owner",
+      "releaseState": "recorded_deployed",
       "repo": "https://github.com/seraseraqqq/gamehubs-acceleration-city",
       "rootDirectory": ".",
       "siteId": "acceleration-city",
       "sourceBranch": "main",
       "sourceCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
       "splitHistoryCommit": "b9735e264ca0a9768d12b86509ad29c56e48eaa5",
-      "verifiedHead": "ba82e939249b775f5637248af986843c5d31ce4b"
+      "vercel": {
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_Mk9s2PHTmJ1j4ShRs4xbKe9NzWvJ",
+          "readyState": "READY",
+          "url": "gamehubs-acceleration-city-9hcdv3giq-gx03410-8651s-projects.vercel.app"
+        },
+        "productionUrl": "https://playaccelerationcity.com/",
+        "projectId": "prj_9Xu3Dk2dZKyougmAWZyddtI1TsEz",
+        "projectName": "gamehubs-acceleration-city",
+        "sourceCommit": "dd77286748c3ea3ba71fb766a6e2c1f4e6abbc99"
+      },
+      "verifiedAt": "2026-10-25T05:27:45.967795+00:00",
+      "verifiedHead": "dd77286748c3ea3ba71fb766a6e2c1f4e6abbc99",
+      "webAnalytics": {
+        "analyticsId": "RAf0641Kqp8Qx46UP0uUWXFs0",
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "clientIntegrated": true,
+        "dashboardReceived": true,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "integrationMethod": "official-static-html-script",
+        "pageviewStatus": 200,
+        "pageviewVerified": true,
+        "projectEnabled": true,
+        "provider": "Vercel Web Analytics",
+        "queryAndHashFiltered": true,
+        "receiptSource": "Vercel project.webAnalytics.hasData=true",
+        "sdkInstalled": false,
+        "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+        "sdkVersion": null
+      }
     },
     {
       "archivedSnapshots": [
@@ -707,25 +1186,45 @@
         }
       ],
       "createdAt": "2026-10-24",
+      "developmentState": "deployed",
+      "domainConfiguration": {
+        "canonicalVerified": true,
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "customDomain": "playclusterrush.online",
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "httpsVerified": true,
+        "pathAndQueryPreserved": true,
+        "primaryOrigin": "https://playclusterrush.online",
+        "projectBindingVerified": true,
+        "redirectStatusCode": 301,
+        "wwwRedirectTo": "https://playclusterrush.online/"
+      },
       "historicalLocalPath": "E:/Projects/game-sites/cluster-rush",
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-7165b3fd3f5acf81bd14",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 976,
         "kd": 8,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.043963963963963966,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"cluster rush\""
           },
           "kd": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-25-mac-site-keyword-consistency-004351b6cfaf",
-            "provider": "semrush_mirror_screenshot"
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
+            "provider": "semrush_mirror"
           }
         },
         "volume": 22200
@@ -734,20 +1233,55 @@
       "legacyState": "removed-from-management-checkout; available-in-git-history",
       "localPath": "E:/Projects/game-sites/cluster-rush",
       "localPathScope": "recorded-source-device-only; not a portable source identity",
+      "localWorktreeState": "clean-pushed",
       "managementRecord": "data/sites/cluster-rush.json",
-      "managementStage": "blocked",
+      "managementStage": "deployed",
       "migrationCommit": "69e0068c166e28f3ecf21992ae3ce59c0c445e76",
       "migrationState": "independent-repository",
       "primaryKeyword": "cluster rush",
       "private": true,
-      "releaseState": "github-pushed-awaiting-deployment",
+      "releaseState": "recorded_deployed",
       "repo": "https://github.com/seraseraqqq/gamehubs-cluster-rush",
       "rootDirectory": ".",
       "siteId": "cluster-rush",
       "sourceBranch": "main",
       "sourceCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
       "splitHistoryCommit": "f7205783b2a370fb70f14d9140446fedbcf3b9c1",
-      "verifiedHead": "73a414801ab1e6a184737f27c9069ca7448692d3"
+      "vercel": {
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_qeRRxNUgPPCpAnTdHMBUCe2681kA",
+          "readyState": "READY",
+          "url": "gamehubs-cluster-rush-8bntp6zfb-gx03410-8651s-projects.vercel.app"
+        },
+        "productionUrl": "https://playclusterrush.online/",
+        "projectId": "prj_S11s0HbRdKMAiWjAdOkKE438olI8",
+        "projectName": "gamehubs-cluster-rush",
+        "sourceCommit": "d13c6efb129d218726234884775abd07fa510d31"
+      },
+      "verifiedAt": "2026-10-25T05:27:45.967795+00:00",
+      "verifiedHead": "d13c6efb129d218726234884775abd07fa510d31",
+      "webAnalytics": {
+        "analyticsId": "EaAEXU5CbrL5iFCe5KAsuORy6",
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "clientIntegrated": true,
+        "dashboardReceived": true,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "integrationMethod": "official-static-html-script",
+        "pageviewStatus": 200,
+        "pageviewVerified": true,
+        "projectEnabled": true,
+        "provider": "Vercel Web Analytics",
+        "queryAndHashFiltered": true,
+        "receiptSource": "Vercel project.webAnalytics.hasData=true",
+        "sdkInstalled": false,
+        "sdkNotApplicableReason": "Unbundled static HTML uses the documented same-origin script integration without an npm dependency.",
+        "sdkVersion": null
+      }
     }
   ],
   "managementRepository": "https://github.com/seraseraqqq/gamehubs",
@@ -757,7 +1291,7 @@
       "cohort": "P0 · 首批",
       "createdAt": null,
       "defaultBranch": "main",
-      "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
+      "developmentState": "deployed-pending-external-acceptance",
       "displayName": "Cutle",
       "documentation": {
         "competitors": "docs/COMPETITORS.md",
@@ -766,26 +1300,45 @@
         "optimization": "docs/OPTIMIZATION.md",
         "requirements": "docs/PRD.md"
       },
+      "domainConfiguration": {
+        "canonicalVerified": null,
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "customDomain": null,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "httpsVerified": true,
+        "pathAndQueryPreserved": null,
+        "primaryOrigin": "https://gameshub-cutle.vercel.app",
+        "projectBindingVerified": true,
+        "redirectStatusCode": null,
+        "wwwRedirectTo": null
+      },
       "domainOwned": false,
       "githubRepositoryId": 1432163348,
       "historicalLocalPath": "E:/Projects/game-sites/cutle",
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-a547207062167aae1ebb",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 3980,
         "kd": 8,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.32892561983471075,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-intitle-e22912c8df39",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"cutle\""
           },
           "kd": {
-            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
             "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
             "provider": "semrush_mirror"
           }
         },
@@ -805,7 +1358,7 @@
       },
       "localWorktreeState": "clean-pushed",
       "managementRecord": "data/sites/cutle.json",
-      "managementStage": "awaiting_release",
+      "managementStage": "deployed",
       "migrationState": "new-independent-repository",
       "optimizationValidation": {
         "chromeFlowsPassed": true,
@@ -820,20 +1373,51 @@
       "primaryKeyword": "cutle",
       "priority": 1,
       "private": true,
-      "releaseState": "not-deployed",
+      "releaseState": "recorded_deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-cutle",
       "rootDirectory": ".",
       "siteId": "cutle",
       "sourceBranch": "main",
-      "vercel": null,
-      "verifiedAt": "2026-10-24T16:40:34.552Z",
-      "verifiedHead": "cd3d12b88e94743ac47539656114088b72f3c473"
+      "vercel": {
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_DDV4HUEf8XtHPPXvHs76WXfAYphf",
+          "readyState": "READY",
+          "url": "gameshub-cutle-n09i9mcqc-gx03410-8651s-projects.vercel.app"
+        },
+        "productionUrl": "https://gameshub-cutle.vercel.app/",
+        "projectId": "prj_GsfEJjROGzjNVTKWZzUIsEMmZl9O",
+        "projectName": "gameshub-cutle",
+        "sourceCommit": "45ad74cb27e95662798dcdfcbb56d689faeaeafe"
+      },
+      "verifiedAt": "2026-10-25T05:27:45.967795+00:00",
+      "verifiedHead": "45ad74cb27e95662798dcdfcbb56d689faeaeafe",
+      "webAnalytics": {
+        "analyticsId": "XSYWwzhaz4J4BsYMMOxDs6GVY",
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "clientIntegrated": true,
+        "dashboardReceived": true,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "integrationMethod": "@vercel/analytics/react",
+        "pageviewStatus": 200,
+        "pageviewVerified": true,
+        "projectEnabled": true,
+        "provider": "Vercel Web Analytics",
+        "queryAndHashFiltered": true,
+        "receiptSource": "Vercel project.webAnalytics.hasData=true",
+        "sdkInstalled": true,
+        "sdkVersion": "2.0.1"
+      }
     },
     {
       "cohort": "P0 · 首批",
       "createdAt": null,
       "defaultBranch": "main",
-      "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
+      "developmentState": "deployed-pending-external-acceptance",
       "displayName": "Poople",
       "documentation": {
         "competitors": "docs/COMPETITORS.md",
@@ -842,26 +1426,45 @@
         "optimization": "docs/OPTIMIZATION.md",
         "requirements": "docs/PRD.md"
       },
+      "domainConfiguration": {
+        "canonicalVerified": null,
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "customDomain": null,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "httpsVerified": true,
+        "pathAndQueryPreserved": null,
+        "primaryOrigin": "https://gameshub-poople.vercel.app",
+        "projectBindingVerified": true,
+        "redirectStatusCode": null,
+        "wwwRedirectTo": null
+      },
       "domainOwned": false,
       "githubRepositoryId": 1432163572,
       "historicalLocalPath": "E:/Projects/game-sites/poople",
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-34020416e5ed9a7ad2f2",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 6460,
         "kd": 26,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.19516616314199395,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-intitle-e22912c8df39",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"poople\""
           },
           "kd": {
-            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
             "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
             "provider": "semrush_mirror"
           }
         },
@@ -881,7 +1484,7 @@
       },
       "localWorktreeState": "clean-pushed",
       "managementRecord": "data/sites/poople.json",
-      "managementStage": "awaiting_release",
+      "managementStage": "deployed",
       "migrationState": "new-independent-repository",
       "optimizationValidation": {
         "chromeFlowsPassed": true,
@@ -896,20 +1499,51 @@
       "primaryKeyword": "poople",
       "priority": 2,
       "private": true,
-      "releaseState": "not-deployed",
+      "releaseState": "recorded_deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-poople",
       "rootDirectory": ".",
       "siteId": "poople",
       "sourceBranch": "main",
-      "vercel": null,
-      "verifiedAt": "2026-10-24T16:40:35.796Z",
-      "verifiedHead": "09a623df1cccd3afc7597eef27b18e3d3b6ca813"
+      "vercel": {
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_DnnZfrA2yZM7ndCcoNnkGPWbjADY",
+          "readyState": "READY",
+          "url": "gameshub-poople-kczuwlsak-gx03410-8651s-projects.vercel.app"
+        },
+        "productionUrl": "https://gameshub-poople.vercel.app/",
+        "projectId": "prj_9q0dNtkD2iDZhLYNDV45mdtHR6nz",
+        "projectName": "gameshub-poople",
+        "sourceCommit": "6d60d527c19cc3232505c80c577d1ed1d0e39530"
+      },
+      "verifiedAt": "2026-10-25T05:27:45.967795+00:00",
+      "verifiedHead": "6d60d527c19cc3232505c80c577d1ed1d0e39530",
+      "webAnalytics": {
+        "analyticsId": "BPj3FrwIkbdI7OZUunvSfaNhw",
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "clientIntegrated": true,
+        "dashboardReceived": true,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "integrationMethod": "@vercel/analytics/react",
+        "pageviewStatus": 200,
+        "pageviewVerified": true,
+        "projectEnabled": true,
+        "provider": "Vercel Web Analytics",
+        "queryAndHashFiltered": true,
+        "receiptSource": "Vercel project.webAnalytics.hasData=true",
+        "sdkInstalled": true,
+        "sdkVersion": "2.0.1"
+      }
     },
     {
       "cohort": "P0 · 首批",
       "createdAt": null,
       "defaultBranch": "main",
-      "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
+      "developmentState": "deployed-pending-external-acceptance",
       "displayName": "Colordle",
       "documentation": {
         "competitors": "docs/COMPETITORS.md",
@@ -918,26 +1552,45 @@
         "optimization": "docs/OPTIMIZATION.md",
         "requirements": "docs/PRD.md"
       },
+      "domainConfiguration": {
+        "canonicalVerified": null,
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "customDomain": null,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "httpsVerified": true,
+        "pathAndQueryPreserved": null,
+        "primaryOrigin": "https://gameshub-colordle.vercel.app",
+        "projectBindingVerified": true,
+        "redirectStatusCode": null,
+        "wwwRedirectTo": null
+      },
       "domainOwned": false,
       "githubRepositoryId": 1432163806,
       "historicalLocalPath": "E:/Projects/game-sites/colordle",
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-534084c658d60e7ff0d0",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 1500,
         "kd": 25,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.02027027027027027,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-intitle-e22912c8df39",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"colordle\""
           },
           "kd": {
-            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
             "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
             "provider": "semrush_mirror"
           }
         },
@@ -957,7 +1610,7 @@
       },
       "localWorktreeState": "clean-pushed",
       "managementRecord": "data/sites/colordle.json",
-      "managementStage": "awaiting_release",
+      "managementStage": "deployed",
       "migrationState": "new-independent-repository",
       "optimizationValidation": {
         "chromeFlowsPassed": true,
@@ -972,20 +1625,51 @@
       "primaryKeyword": "colordle",
       "priority": 3,
       "private": true,
-      "releaseState": "not-deployed",
+      "releaseState": "recorded_deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-colordle",
       "rootDirectory": ".",
       "siteId": "colordle",
       "sourceBranch": "main",
-      "vercel": null,
-      "verifiedAt": "2026-10-24T16:40:37.125Z",
-      "verifiedHead": "0092d9d796a00048f65855dfbf072fa2dec5760b"
+      "vercel": {
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_HVrNpxxPz26KmJCNdcEqm4Swvy46",
+          "readyState": "READY",
+          "url": "gameshub-colordle-3pxv7l1cp-gx03410-8651s-projects.vercel.app"
+        },
+        "productionUrl": "https://gameshub-colordle.vercel.app/",
+        "projectId": "prj_MO2mqYcaGJjLqrYaocxZDwpjEmyr",
+        "projectName": "gameshub-colordle",
+        "sourceCommit": "00d3cb92c9ec6fa61cf7b940e8d6fb0af4ade129"
+      },
+      "verifiedAt": "2026-10-25T05:27:45.967795+00:00",
+      "verifiedHead": "00d3cb92c9ec6fa61cf7b940e8d6fb0af4ade129",
+      "webAnalytics": {
+        "analyticsId": "31Zf4LVqsgO29yMTQTopberlw",
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "clientIntegrated": true,
+        "dashboardReceived": true,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "integrationMethod": "@vercel/analytics/react",
+        "pageviewStatus": 200,
+        "pageviewVerified": true,
+        "projectEnabled": true,
+        "provider": "Vercel Web Analytics",
+        "queryAndHashFiltered": true,
+        "receiptSource": "Vercel project.webAnalytics.hasData=true",
+        "sdkInstalled": true,
+        "sdkVersion": "2.0.1"
+      }
     },
     {
       "cohort": "P1 · 第二批",
       "createdAt": null,
       "defaultBranch": "main",
-      "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
+      "developmentState": "deployed-pending-external-acceptance",
       "displayName": "Metazooa",
       "documentation": {
         "competitors": "docs/COMPETITORS.md",
@@ -994,26 +1678,45 @@
         "optimization": "docs/OPTIMIZATION.md",
         "requirements": "docs/PRD.md"
       },
+      "domainConfiguration": {
+        "canonicalVerified": null,
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "customDomain": null,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "httpsVerified": true,
+        "pathAndQueryPreserved": null,
+        "primaryOrigin": "https://gameshub-metazooa.vercel.app",
+        "projectBindingVerified": true,
+        "redirectStatusCode": null,
+        "wwwRedirectTo": null
+      },
       "domainOwned": false,
       "githubRepositoryId": 1432163965,
       "historicalLocalPath": "E:/Projects/game-sites/metazooa",
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-87edb316733c6d0f33a6",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 1490,
         "kd": 23,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.1231404958677686,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-intitle-e22912c8df39",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"metazooa\""
           },
           "kd": {
-            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
             "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
             "provider": "semrush_mirror"
           }
         },
@@ -1033,7 +1736,7 @@
       },
       "localWorktreeState": "clean-pushed",
       "managementRecord": "data/sites/metazooa.json",
-      "managementStage": "awaiting_release",
+      "managementStage": "deployed",
       "migrationState": "new-independent-repository",
       "optimizationValidation": {
         "chromeFlowsPassed": true,
@@ -1048,20 +1751,51 @@
       "primaryKeyword": "metazooa",
       "priority": 4,
       "private": true,
-      "releaseState": "not-deployed",
+      "releaseState": "recorded_deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-metazooa",
       "rootDirectory": ".",
       "siteId": "metazooa",
       "sourceBranch": "main",
-      "vercel": null,
-      "verifiedAt": "2026-10-24T16:40:38.347Z",
-      "verifiedHead": "2e504e89c85b7f24a963881f39d69632b44fd29e"
+      "vercel": {
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_4iYfsgUXtctfB96mPrkNnLHY7A9K",
+          "readyState": "READY",
+          "url": "gameshub-metazooa-e6t5wpzl5-gx03410-8651s-projects.vercel.app"
+        },
+        "productionUrl": "https://gameshub-metazooa.vercel.app/",
+        "projectId": "prj_Jf18eJkWESULNxxU1lkcVl39ii9R",
+        "projectName": "gameshub-metazooa",
+        "sourceCommit": "32c7737666ff41480535ebfae5c194037b0a5fde"
+      },
+      "verifiedAt": "2026-10-25T05:27:45.967795+00:00",
+      "verifiedHead": "32c7737666ff41480535ebfae5c194037b0a5fde",
+      "webAnalytics": {
+        "analyticsId": "NdwaVlHMW30yiFgVAbBR25zjQ",
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "clientIntegrated": true,
+        "dashboardReceived": true,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "integrationMethod": "@vercel/analytics/react",
+        "pageviewStatus": 200,
+        "pageviewVerified": true,
+        "projectEnabled": true,
+        "provider": "Vercel Web Analytics",
+        "queryAndHashFiltered": true,
+        "receiptSource": "Vercel project.webAnalytics.hasData=true",
+        "sdkInstalled": true,
+        "sdkVersion": "2.0.1"
+      }
     },
     {
       "cohort": "P1 · 第二批",
       "createdAt": null,
       "defaultBranch": "main",
-      "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
+      "developmentState": "deployed-pending-external-acceptance",
       "displayName": "Travle",
       "documentation": {
         "competitors": "docs/COMPETITORS.md",
@@ -1070,26 +1804,45 @@
         "optimization": "docs/OPTIMIZATION.md",
         "requirements": "docs/PRD.md"
       },
+      "domainConfiguration": {
+        "canonicalVerified": null,
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "customDomain": null,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/domains-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "httpsVerified": true,
+        "pathAndQueryPreserved": null,
+        "primaryOrigin": "https://gameshub-travle.vercel.app",
+        "projectBindingVerified": true,
+        "redirectStatusCode": null,
+        "wwwRedirectTo": null
+      },
       "domainOwned": false,
       "githubRepositoryId": 1432164130,
       "historicalLocalPath": "E:/Projects/game-sites/travle",
       "keywordBatchDate": "2026-10-25",
       "keywordId": "kw-eb68753f1183a20c1f18",
       "keywordMetrics": {
+        "allintitle": null,
         "intitle": 33300,
         "kd": 31,
+        "kgr": null,
+        "kgrBasis": null,
         "ratio": 0.8222222222222222,
         "sources": {
           "intitle": {
             "batchId": "2026-10-25-mac-intitle-e22912c8df39",
-            "provider": "google_intitle"
+            "provider": "google_intitle",
+            "query": "intitle:\"travle\""
           },
           "kd": {
-            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
             "provider": "semrush_mirror"
           },
           "volume": {
-            "batchId": "2026-10-24-keyword-research-e0d44f9c7d6f",
+            "batchId": "2026-10-25-windows-site-metrics-98b5df84-c784-4fe1-bf37-ecbb9c195a1c",
             "provider": "semrush_mirror"
           }
         },
@@ -1109,7 +1862,7 @@
       },
       "localWorktreeState": "clean-pushed",
       "managementRecord": "data/sites/travle.json",
-      "managementStage": "awaiting_release",
+      "managementStage": "deployed",
       "migrationState": "new-independent-repository",
       "optimizationValidation": {
         "chromeFlowsPassed": true,
@@ -1124,15 +1877,46 @@
       "primaryKeyword": "travle",
       "priority": 5,
       "private": true,
-      "releaseState": "not-deployed",
+      "releaseState": "recorded_deployed",
       "repo": "https://github.com/seraseraqqq/gameshub-travle",
       "rootDirectory": ".",
       "siteId": "travle",
       "sourceBranch": "main",
-      "vercel": null,
-      "verifiedAt": "2026-10-24T16:40:39.599Z",
-      "verifiedHead": "0dde58e7eb69bc6cab48b8fa283bf35b29113916"
+      "vercel": {
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_389QaG1AFTWjrSVsvY1Mr2i8EMfW",
+          "readyState": "READY",
+          "url": "gameshub-travle-o22y56fup-gx03410-8651s-projects.vercel.app"
+        },
+        "productionUrl": "https://gameshub-travle.vercel.app/",
+        "projectId": "prj_eO2dPfqIs1Wx5KPim0I52tlnWlVP",
+        "projectName": "gameshub-travle",
+        "sourceCommit": "257b1108b8e6fac5cf22223ac84c8670617f211d"
+      },
+      "verifiedAt": "2026-10-25T05:27:45.967795+00:00",
+      "verifiedHead": "257b1108b8e6fac5cf22223ac84c8670617f211d",
+      "webAnalytics": {
+        "analyticsId": "z7Vu5KoUFCC3rdvziGm5oimcQ",
+        "checkedAt": "2026-10-25T05:27:45.967795+00:00",
+        "clientIntegrated": true,
+        "dashboardReceived": true,
+        "evidence": [
+          "deployments/evidence/2026-10-25-portfolio-analytics/browser-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/projects-final.json",
+          "deployments/evidence/2026-10-25-portfolio-analytics/http-verified.json"
+        ],
+        "integrationMethod": "@vercel/analytics/react",
+        "pageviewStatus": 200,
+        "pageviewVerified": true,
+        "projectEnabled": true,
+        "provider": "Vercel Web Analytics",
+        "queryAndHashFiltered": true,
+        "receiptSource": "Vercel project.webAnalytics.hasData=true",
+        "sdkInstalled": true,
+        "sdkVersion": "2.0.1"
+      }
     }
   ],
-  "updatedAt": "2026-10-25T02:39:45.912618+00:00"
+  "updatedAt": "2026-10-25T05:27:45.967795+00:00"
 }

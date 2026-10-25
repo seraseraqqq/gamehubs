@@ -1,0 +1,126 @@
+{
+  "checkedAt": "2026-10-25T03:31:12.630Z",
+  "origin": "https://playaccelerationcity.com",
+  "checks": [
+    {
+      "url": "https://playaccelerationcity.com/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Acceleration City — Play the CoBot Driving Game",
+      "canonical": "https://playaccelerationcity.com/",
+      "robots": "index, follow, max-image-preview:large",
+      "images": [
+        "https://playaccelerationcity.com/assets/og-game.jpg",
+        "https://playaccelerationcity.com/assets/og-game.jpg"
+      ],
+      "iframes": [],
+      "jsonLd": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "url": "https://playaccelerationcity.com/guide.html",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Acceleration City Guide — CoBot, Controls & Loading Help",
+      "canonical": "https://playaccelerationcity.com/guide.html",
+      "robots": "index, follow, max-image-preview:large",
+      "images": [
+        "https://playaccelerationcity.com/assets/og-game.jpg",
+        "https://playaccelerationcity.com/assets/og-game.jpg"
+      ],
+      "iframes": [],
+      "jsonLd": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "url": "https://playaccelerationcity.com/about.html",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "title": "About This Acceleration City Player Guide",
+      "canonical": "https://playaccelerationcity.com/about.html",
+      "robots": "index, follow, max-image-preview:large",
+      "images": [
+        "https://playaccelerationcity.com/assets/og-game.jpg",
+        "https://playaccelerationcity.com/assets/og-game.jpg"
+      ],
+      "iframes": [],
+      "jsonLd": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "url": "https://playaccelerationcity.com/app.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://playaccelerationcity.com/style.css",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/css; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://playaccelerationcity.com/favicon.svg",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "image/svg+xml",
+      "passed": true
+    },
+    {
+      "url": "https://playaccelerationcity.com/robots.txt",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/plain; charset=utf-8",
+      "body": "User-agent: *\nAllow: /\nSitemap: https://playaccelerationcity.com/sitemap.xml\n",
+      "passed": true
+    },
+    {
+      "url": "https://playaccelerationcity.com/sitemap.xml",
+      "status": 200,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "application/xml",
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"><url><loc>https://playaccelerationcity.com/</loc></url><url><loc>https://playaccelerationcity.com/guide.html</loc></url><url><loc>https://playaccelerationcity.com/about.html</loc></url></urlset>",
+      "passed": true
+    },
+    {
+      "url": "https://playaccelerationcity.com/__gamehubs_missing_release_check__",
+      "status": 404,
+      "location": null,
+      "robotsHeader": null,
+      "contentType": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "url": "https://www.playaccelerationcity.com/guide.html?source=release-check",
+      "status": 308,
+      "location": "https://playaccelerationcity.com/guide.html?source=release-check",
+      "robotsHeader": null,
+      "contentType": "text/plain",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limits": [
+    "HTTP and metadata checks do not prove complete game loading or gameplay.",
+    "No search-engine indexing, physical-device or performance acceptance is inferred."
+  ]
+}
