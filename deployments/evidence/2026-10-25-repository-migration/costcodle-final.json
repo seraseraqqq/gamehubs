@@ -1,0 +1,68 @@
+{
+  "id": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+  "name": "costcodle-unlimited",
+  "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+  "rootDirectory": null,
+  "buildCommand": null,
+  "installCommand": null,
+  "outputDirectory": null,
+  "framework": null,
+  "commandForIgnoringBuildStep": null,
+  "nodeVersion": "24.x",
+  "autoAssignCustomDomains": true,
+  "sourceFilesOutsideRootDirectory": true,
+  "link": {
+    "type": "github",
+    "org": "seraseraqqq",
+    "repo": "gameshub-costcodle",
+    "repoId": 1432763012,
+    "productionBranch": "main",
+    "createdAt": 1792895448431
+  },
+  "protectionFingerprint": "05659a7e129ab14619b7fbf50d3356582b340f46178781aa87c81de91916df24",
+  "environmentMetadata": [],
+  "productionDeployment": {
+    "id": "dpl_XDeaVpd4JfB9A2KuTiV67jD8ReH4",
+    "url": "costcodle-unlimited-q890kgt4e-gx03410-8651s-projects.vercel.app",
+    "readyState": "READY",
+    "meta": {
+      "migrationCheck": "independent-repo-production-2026-10-25",
+      "githubCommitAuthorName": "seraseraqqq",
+      "githubCommitAuthorEmail": "xu250618@gmail.com",
+      "githubCommitMessage": "chore: establish independent game source and preserve release configuration",
+      "githubCommitOrg": "seraseraqqq",
+      "githubCommitRef": "a2af21d0e74622a8a35098ea29b4700dd20f848d",
+      "githubCommitRepo": "gameshub-costcodle",
+      "githubCommitSha": "a2af21d0e74622a8a35098ea29b4700dd20f848d",
+      "githubDeployment": "1",
+      "githubOrg": "seraseraqqq",
+      "githubRepo": "gameshub-costcodle",
+      "githubRepoOwnerType": "User",
+      "githubCommitRepoId": "1432763012",
+      "githubRepoId": "1432763012",
+      "githubRepoVisibility": "private",
+      "githubHost": "github.com",
+      "githubCommitAuthorLogin": "seraseraqqq",
+      "githubCommitVerification": "unverified",
+      "branchAlias": "costcodle-unlimited-git-a2af21d0e-6ee322-gx03410-8651s-projects.vercel.app"
+    }
+  },
+  "domains": [
+    {
+      "name": "costcodle.cc",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "name": "www.costcodle.cc",
+      "verified": true,
+      "redirect": "costcodle.cc",
+      "redirectStatusCode": 301,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ]
+}

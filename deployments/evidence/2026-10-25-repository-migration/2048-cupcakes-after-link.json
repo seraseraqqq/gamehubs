@@ -1,0 +1,68 @@
+{
+  "id": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+  "name": "gamehubs-2048-cupcakes",
+  "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+  "rootDirectory": null,
+  "buildCommand": "node scripts/build.mjs --origin https://www.2048cupcakes.xyz",
+  "installCommand": null,
+  "outputDirectory": "dist",
+  "framework": null,
+  "commandForIgnoringBuildStep": null,
+  "nodeVersion": "24.x",
+  "autoAssignCustomDomains": true,
+  "sourceFilesOutsideRootDirectory": true,
+  "link": {
+    "type": "github",
+    "org": "seraseraqqq",
+    "repo": "gameshub-2048-cupcakes",
+    "repoId": 1432763397,
+    "productionBranch": "main",
+    "createdAt": 1792895692298
+  },
+  "protectionFingerprint": "05659a7e129ab14619b7fbf50d3356582b340f46178781aa87c81de91916df24",
+  "environmentMetadata": [],
+  "productionDeployment": {
+    "id": "dpl_7zLRa7ZKMRz2HgHaRmYeR9qpEd55",
+    "url": "gamehubs-2048-cupcakes-qjpwei7tj-gx03410-8651s-projects.vercel.app",
+    "readyState": "CANCELED",
+    "meta": {
+      "githubCommitAuthorName": "seraseraqqq",
+      "githubCommitAuthorEmail": "seraseraqqq@users.noreply.github.com",
+      "githubCommitMessage": "docs: record five-game optimization and verified source pushes",
+      "githubCommitOrg": "seraseraqqq",
+      "githubCommitRef": "main",
+      "githubCommitRepo": "gamehubs",
+      "githubCommitSha": "dc5994e61228e028c068137a5d69bce08b172fd0",
+      "githubDeployment": "1",
+      "githubOrg": "seraseraqqq",
+      "githubRepo": "gamehubs",
+      "githubRepoOwnerType": "User",
+      "githubCommitRepoId": "1429727092",
+      "githubRepoId": "1429727092",
+      "githubRepoVisibility": "public",
+      "githubHost": "github.com",
+      "githubCommitAuthorLogin": "seraseraqqq",
+      "githubCommitVerification": "unverified",
+      "repoPushedAt": "1792860082000",
+      "branchAlias": "gamehubs-2048-cupcakes-git-main-gx03410-8651s-projects.vercel.app"
+    }
+  },
+  "domains": [
+    {
+      "name": "www.2048cupcakes.xyz",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "name": "2048cupcakes.xyz",
+      "verified": true,
+      "redirect": "www.2048cupcakes.xyz",
+      "redirectStatusCode": 301,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ]
+}

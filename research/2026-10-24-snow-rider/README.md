@@ -2,7 +2,7 @@
 
 > Superseded later on 2026-10-24: the owner requested the existing game instead of the original demo. Current implementation uses GameDistribution's public player; see [package sourcing and replacement](PACKAGE-SOURCING.md). Original-engine tests and screenshots below are historical evidence, not current player validation.
 
-2026-10-24, Asia/Shanghai. Scope: an original independent browser game; no deployment or domain purchase. [Research/design plan](PLAN.md) · [Game source](../../games/snow-rider-3d-unblocked/README.md) · preview http://127.0.0.1:4197/ (server must remain running).
+2026-10-24, Asia/Shanghai. Scope: an original independent browser game; no deployment or domain purchase. [Research/design plan](PLAN.md) · [Game source](https://github.com/seraseraqqq/gamehubs/blob/dc5994e61228e028c068137a5d69bce08b172fd0/games/snow-rider-3d-unblocked/README.md) · preview http://127.0.0.1:4197/ (server must remain running).
 
 ## Decision and search evidence
 
@@ -40,7 +40,7 @@ Spaceship finalist query encountered Cloudflare security verification; no verifi
 ## Validation and limits
 
 - **10/10 engine tests passed:** reproducible/fair courses, no permanent safe gaps across 30 seeded long courses, pause/resume, bounds/stall cap, collisions, log clearance, tall-tree danger, single gift collection, jump lifecycle and invalid saves.
-- **59 static/export checks passed:** metadata, H1, local links/assets, JSON-LD, source noindex, production canonical/social URLs/sitemap/robots, preview override and invalid-origin rejection. [Machine report](../../games/snow-rider-3d-unblocked/scripts/verification.json).
+- **59 static/export checks passed:** metadata, H1, local links/assets, JSON-LD, source noindex, production canonical/social URLs/sitemap/robots, preview override and invalid-origin rejection. [Machine report](https://github.com/seraseraqqq/gamehubs/blob/dc5994e61228e028c068137a5d69bce08b172fd0/games/snow-rider-3d-unblocked/scripts/verification.json).
 - **12 local HTTP checks returned 200** for the three pages, renderer/game modules, representative images and robots. [HTTP evidence](http-checks.json).
 - Real user Chrome verified initial WebGL render, keyboard steering, pause, insufficient-gift feedback and mobile pointer steering. [Browser evidence and precise limitations](browser-checks.json).
 - A fresh finish reviewer found a fixed safe corridor and fullscreen touch-control omissions; code is corrected. Final contrast, sound-state icon and fullscreen interactions **still need browser recapture**, because CUA stopped Computer Use after connection failures and inability to determine the current browser URL safely. Captures shown below predate that final small batch. No complete final visual approval is claimed.

@@ -1,0 +1,469 @@
+{
+  "blockers": [],
+  "development": {
+    "deploymentMigration": {
+      "evidencePath": "deployments/evidence/2026-10-25-repository-migration/gulper-io-final.json",
+      "gameplayAcceptance": "not_retested",
+      "previewDeployment": {
+        "id": "dpl_Gzp4L87ZZ3LntYujoRTYnXLD8K9b",
+        "readyState": "READY",
+        "url": "gulperio-game-k2c4rj5tw-gx03410-8651s-projects.vercel.app"
+      },
+      "report": "deployments/2026-10-25-independent-repositories.md",
+      "settingsPreserved": [
+        "domains",
+        "environmentMetadata",
+        "deploymentProtection",
+        "buildSettings"
+      ],
+      "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+      "sourceDirectory": "games/gulperio",
+      "vercel": {
+        "ignoreCommand": null,
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_6LJSxinmtsc5Hct8ve3AE96gUNhs",
+          "readyState": "READY",
+          "url": "gulperio-game-5k7ymsvkr-gx03410-8651s-projects.vercel.app"
+        },
+        "projectId": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+        "projectName": "gulperio-game",
+        "repository": "https://github.com/seraseraqqq/gameshub-gulper-io",
+        "repositoryId": 1432763090,
+        "rootDirectory": null,
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+      },
+      "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+    },
+    "implementationPushed": true,
+    "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+    "recordedHead": "1d94e2c8d17f6e6c39dbcfa91237371fbb1c907e",
+    "state": "independent-repository-deployed"
+  },
+  "history": [
+    {
+      "actor": "codex-ai:user-authorized-repository-migration",
+      "at": "2026-10-25T02:39:46.127065+00:00",
+      "previous": {
+        "blockers": [],
+        "id": "gulper-io",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-58cafee7c88120a29efe",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "gulper.io game"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-d15f5d6d183b02e20781",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "gulper io"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-493eafcd2f1bc81a8f7d",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "gulper io unblocked"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-1129512fe51c74756e2c",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "gulperio"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-49c0e92771180e793824",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "slither io unblocked"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-853912f584e80274d309",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "gulper.io online"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-20cef721224abb6979ce",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "gulper io chromebook"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-abfbf20141be750eb5fe",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "neon snake game"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Gulper.Io Game",
+        "nextAction": "依据当前发布记录复核下一步，保留既有门禁。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "branch": "main",
+          "directory": "games/gulperio",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gamehubs"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#gulper-io"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://gulperio.com/"
+        },
+        "verification": {
+          "recheckedAt": null,
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "历史记录导入；未进行本次实时核验。"
+        }
+      },
+      "previousRevision": "d079397d7f9d3a35ace706ccc44f697059c544f37a14d965cb0019ea92cfbc53"
+    },
+    {
+      "actor": "codex-ai:user-authorized-games-removal",
+      "at": "2026-10-25T02:55:09.393781+00:00",
+      "previous": {
+        "blockers": [],
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/gulper-io-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_Gzp4L87ZZ3LntYujoRTYnXLD8K9b",
+              "readyState": "READY",
+              "url": "gulperio-game-k2c4rj5tw-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/gulperio",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_6LJSxinmtsc5Hct8ve3AE96gUNhs",
+                "readyState": "READY",
+                "url": "gulperio-game-5k7ymsvkr-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+              "projectName": "gulperio-game",
+              "repository": "https://github.com/seraseraqqq/gameshub-gulper-io",
+              "repositoryId": 1432763090,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedHead": "1d94e2c8d17f6e6c39dbcfa91237371fbb1c907e",
+          "state": "independent-repository-deployed"
+        },
+        "id": "gulper-io",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-58cafee7c88120a29efe",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "gulper.io game"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-d15f5d6d183b02e20781",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "gulper io"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-493eafcd2f1bc81a8f7d",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "gulper io unblocked"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-1129512fe51c74756e2c",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "gulperio"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-49c0e92771180e793824",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "slither io unblocked"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-853912f584e80274d309",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "gulper.io online"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-20cef721224abb6979ce",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "gulper io chromebook"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-abfbf20141be750eb5fe",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "neon snake game"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Gulper.Io Game",
+        "nextAction": "依据当前发布记录复核下一步，保留既有门禁。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/gulperio现为冻结快照，后续只修改独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [
+            "games/gulperio"
+          ],
+          "repository": "https://github.com/seraseraqqq/gameshub-gulper-io"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#gulper-io"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/gulper-io-final.json"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://gulperio.com/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+        }
+      },
+      "previousRevision": "7cb48c00b2d280ffb5834fd6de276e07e4df29a0b9bf8b3b5715465f938856ab"
+    }
+  ],
+  "id": "gulper-io",
+  "keywordMappings": [
+    {
+      "country": "unknown",
+      "keywordId": "kw-58cafee7c88120a29efe",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "primary",
+      "term": "gulper.io game"
+    },
+    {
+      "country": "unknown",
+      "keywordId": "kw-d15f5d6d183b02e20781",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "gulper io"
+    },
+    {
+      "country": "unknown",
+      "keywordId": "kw-493eafcd2f1bc81a8f7d",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "gulper io unblocked"
+    },
+    {
+      "country": "unknown",
+      "keywordId": "kw-1129512fe51c74756e2c",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "gulperio"
+    },
+    {
+      "country": "unknown",
+      "keywordId": "kw-49c0e92771180e793824",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "slither io unblocked"
+    },
+    {
+      "country": "unknown",
+      "keywordId": "kw-853912f584e80274d309",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "gulper.io online"
+    },
+    {
+      "country": "unknown",
+      "keywordId": "kw-20cef721224abb6979ce",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "gulper io chromebook"
+    },
+    {
+      "country": "unknown",
+      "keywordId": "kw-abfbf20141be750eb5fe",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "neon snake game"
+    }
+  ],
+  "legacyGroup": "games",
+  "name": "Gulper.Io Game",
+  "nextAction": "依据当前发布记录复核下一步，保留既有门禁。",
+  "notes": [
+    "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+    "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/gulperio曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+    "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+    "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+    "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+  ],
+  "release": {
+    "deployment": "recorded_deployed",
+    "gameplayAcceptance": "unknown",
+    "indexingPermission": "unknown"
+  },
+  "schemaVersion": 1,
+  "source": {
+    "archivedSnapshots": [
+      {
+        "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+        "directory": "games/gulperio",
+        "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+        "removedAt": "2026-10-25T02:55:08.814269+00:00",
+        "repository": "https://github.com/seraseraqqq/gamehubs"
+      }
+    ],
+    "branch": "main",
+    "directory": ".",
+    "frozenSnapshots": [],
+    "repository": "https://github.com/seraseraqqq/gameshub-gulper-io"
+  },
+  "sources": [
+    {
+      "note": "最新远端原始仓库登记快照",
+      "path": "management/data/migration/source-repositories.json#gulper-io"
+    },
+    {
+      "note": "最新远端项目/发布记录",
+      "path": "management/DEPLOYMENT_STATUS.md"
+    },
+    {
+      "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+      "path": "deployments/evidence/2026-10-25-repository-migration/gulper-io-final.json"
+    },
+    {
+      "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+      "path": "docs/history/2026-10-25-management-only-cleanup.json"
+    }
+  ],
+  "stage": "deployed",
+  "urls": {
+    "preview": null,
+    "production": "https://gulperio.com/"
+  },
+  "verification": {
+    "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+    "recordedAt": "2026-10-24T05:17:09.386Z",
+    "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+  }
+}

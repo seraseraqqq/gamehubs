@@ -1,0 +1,95 @@
+{
+  "id": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+  "name": "gamehubs-snow-rider-3d",
+  "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+  "rootDirectory": null,
+  "buildCommand": "node scripts/build.mjs",
+  "installCommand": "",
+  "outputDirectory": "dist",
+  "framework": null,
+  "commandForIgnoringBuildStep": null,
+  "nodeVersion": "24.x",
+  "autoAssignCustomDomains": true,
+  "sourceFilesOutsideRootDirectory": true,
+  "link": {
+    "type": "github",
+    "org": "seraseraqqq",
+    "repo": "gameshub-snow-rider-3d-unblocked",
+    "repoId": 1432763661,
+    "productionBranch": "main",
+    "createdAt": 1792895834716
+  },
+  "protectionFingerprint": "05659a7e129ab14619b7fbf50d3356582b340f46178781aa87c81de91916df24",
+  "environmentMetadata": [
+    {
+      "key": "SITE_ORIGIN",
+      "type": "plain",
+      "target": [
+        "production"
+      ],
+      "gitBranch": null,
+      "id": "7b0n5RjSSS83tvku"
+    },
+    {
+      "key": "PUBLISHER_DOMAIN_STATUS",
+      "type": "plain",
+      "target": [
+        "production"
+      ],
+      "gitBranch": null,
+      "id": "M7dfNSbNFtBEeZvV"
+    }
+  ],
+  "productionDeployment": {
+    "id": "dpl_CiiLEq3Hs85oSs2kVymheEjK7uzg",
+    "url": "gamehubs-snow-rider-3d-7ofrynle3-gx03410-8651s-projects.vercel.app",
+    "readyState": "CANCELED",
+    "meta": {
+      "githubCommitAuthorName": "seraseraqqq",
+      "githubCommitAuthorEmail": "seraseraqqq@users.noreply.github.com",
+      "githubCommitMessage": "docs: record five-game optimization and verified source pushes",
+      "githubCommitOrg": "seraseraqqq",
+      "githubCommitRef": "main",
+      "githubCommitRepo": "gamehubs",
+      "githubCommitSha": "dc5994e61228e028c068137a5d69bce08b172fd0",
+      "githubDeployment": "1",
+      "githubOrg": "seraseraqqq",
+      "githubRepo": "gamehubs",
+      "githubRepoOwnerType": "User",
+      "githubCommitRepoId": "1429727092",
+      "githubRepoId": "1429727092",
+      "githubRepoVisibility": "public",
+      "githubHost": "github.com",
+      "githubCommitAuthorLogin": "seraseraqqq",
+      "githubCommitVerification": "unverified",
+      "repoPushedAt": "1792860082000",
+      "branchAlias": "gamehubs-snow-rider-3d-git-main-gx03410-8651s-projects.vercel.app"
+    }
+  },
+  "domains": [
+    {
+      "name": "www.snowrider3d.top",
+      "verified": true,
+      "redirect": "snowrider3d.top",
+      "redirectStatusCode": 301,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "name": "snowrider3d.top",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "name": "gamehubs-snow-rider-3d.vercel.app",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ]
+}

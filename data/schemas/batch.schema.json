@@ -1,0 +1,118 @@
+{
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "date",
+    "device",
+    "market",
+    "status",
+    "seeds",
+    "sources"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "enum": [
+        1
+      ]
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-zA-Z0-9_-]+$"
+    },
+    "date": {
+      "type": "string",
+      "minLength": 1
+    },
+    "device": {
+      "type": "string",
+      "minLength": 1
+    },
+    "market": {
+      "type": "object",
+      "required": [
+        "country",
+        "language"
+      ],
+      "properties": {
+        "country": {
+          "type": "string",
+          "minLength": 1
+        },
+        "language": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "complete",
+        "partial",
+        "failed",
+        "historical"
+      ]
+    },
+    "seeds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "competitors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "note"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "acceptedRowCount": {
+      "type": "integer"
+    },
+    "rejectedRowCount": {
+      "type": "integer"
+    },
+    "label": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "research",
+        "build_plan",
+        "dispositions",
+        "project_registry"
+      ]
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GameHubs batch",
+  "additionalProperties": false
+}

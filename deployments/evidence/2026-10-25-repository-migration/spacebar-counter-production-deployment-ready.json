@@ -1,0 +1,38 @@
+{
+  "id": "dpl_BizhMsF44EjvQMupzC4fqtyeBmPt",
+  "name": "gamehubs-spacebar-counter",
+  "url": "gamehubs-spacebar-counter-nbjwdpqbb-gx03410-8651s-projects.vercel.app",
+  "type": "LAMBDAS",
+  "state": "READY",
+  "createdAt": 1792895672096,
+  "creator": {
+    "uid": "hnBoZslKPVHPN4tsXyPY67fY",
+    "username": "gx03410-8651"
+  },
+  "project": {
+    "id": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+    "name": "gamehubs-spacebar-counter",
+    "framework": null
+  },
+  "meta": {
+    "githubCommitRef": "34f02d435684c22fd53fa8f8102f6d75b242f30c",
+    "githubCommitSha": "34f02d435684c22fd53fa8f8102f6d75b242f30c",
+    "githubCommitMessage": "chore: establish independent game source and preserve release configuration",
+    "githubRepo": "gameshub-spacebar-counter",
+    "githubOrg": "seraseraqqq"
+  },
+  "alias": [
+    "www.spacebarcounter.xyz",
+    "spacebarcounter.xyz",
+    "gamehubs-spacebar-counter-gx03410-8651s-projects.vercel.app",
+    "gamehubs-spacebar-counter-git-34f-8c8568-gx03410-8651s-projects.vercel.app"
+  ],
+  "target": "production",
+  "regions": [
+    "iad1"
+  ],
+  "buildingAt": 1792895672929,
+  "ready": 1792895675291,
+  "readyState": "READY",
+  "aliasError": null
+}

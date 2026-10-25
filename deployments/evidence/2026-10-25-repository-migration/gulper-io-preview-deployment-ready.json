@@ -1,0 +1,35 @@
+{
+  "id": "dpl_Gzp4L87ZZ3LntYujoRTYnXLD8K9b",
+  "name": "gulperio-game",
+  "url": "gulperio-game-k2c4rj5tw-gx03410-8651s-projects.vercel.app",
+  "type": "LAMBDAS",
+  "state": "READY",
+  "createdAt": 1792895554988,
+  "creator": {
+    "uid": "hnBoZslKPVHPN4tsXyPY67fY",
+    "username": "gx03410-8651"
+  },
+  "project": {
+    "id": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+    "name": "gulperio-game",
+    "framework": null
+  },
+  "meta": {
+    "githubCommitRef": "1d94e2c8d17f6e6c39dbcfa91237371fbb1c907e",
+    "githubCommitSha": "1d94e2c8d17f6e6c39dbcfa91237371fbb1c907e",
+    "githubCommitMessage": "chore: establish independent game source and preserve release configuration",
+    "githubRepo": "gameshub-gulper-io",
+    "githubOrg": "seraseraqqq"
+  },
+  "alias": [
+    "gulperio-game-git-1d94e2c8d17f6e6-763192-gx03410-8651s-projects.vercel.app"
+  ],
+  "target": null,
+  "regions": [
+    "iad1"
+  ],
+  "buildingAt": 1792895556150,
+  "ready": 1792895558454,
+  "readyState": "READY",
+  "aliasError": null
+}

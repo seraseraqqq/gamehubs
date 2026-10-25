@@ -1,0 +1,192 @@
+{
+  "blockers": [
+    "等待嵌入许可与域名决定"
+  ],
+  "history": [
+    {
+      "actor": "codex-ai:user-authorized-games-removal",
+      "at": "2026-10-25T02:55:09.122766+00:00",
+      "previous": {
+        "blockers": [
+          "等待嵌入许可与域名决定"
+        ],
+        "id": "cluster-rush",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-7a90cffd5dc57e8ea03b",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "cluster rush"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8561f02f94737b73c1f3",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush online"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-8b1cbf6f8286e0c25898",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush controls"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-613126c4fc9967040108",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cluster rush not loading"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Cluster Rush",
+        "nextAction": "Confirm embedding rights, choose and own a domain, then verify production loading, real devices and performance before publication.",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "历史差异 sourceDirectory: matrix=games/cluster-rush; registry=.；源码入口采用最新仓库登记。"
+        ],
+        "release": {
+          "deployment": "not_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [
+            "games/cluster-rush"
+          ],
+          "repository": "https://github.com/seraseraqqq/gamehubs-cluster-rush"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#cluster-rush"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          }
+        ],
+        "stage": "blocked",
+        "urls": {
+          "preview": null,
+          "production": null
+        },
+        "verification": {
+          "recheckedAt": null,
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "历史记录导入；未进行本次实时核验。"
+        }
+      },
+      "previousRevision": "e96bae29a2d566d6ef1a8dc53971a7602f92ad8051142741df2d91126aa56003"
+    }
+  ],
+  "id": "cluster-rush",
+  "keywordMappings": [
+    {
+      "country": "unknown",
+      "keywordId": "kw-7a90cffd5dc57e8ea03b",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "primary",
+      "term": "cluster rush"
+    },
+    {
+      "country": "unknown",
+      "keywordId": "kw-8561f02f94737b73c1f3",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "cluster rush online"
+    },
+    {
+      "country": "unknown",
+      "keywordId": "kw-8b1cbf6f8286e0c25898",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "cluster rush controls"
+    },
+    {
+      "country": "unknown",
+      "keywordId": "kw-613126c4fc9967040108",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "cluster rush not loading"
+    }
+  ],
+  "legacyGroup": "games",
+  "name": "Cluster Rush",
+  "nextAction": "Confirm embedding rights, choose and own a domain, then verify production loading, real devices and performance before publication.",
+  "notes": [
+    "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+    "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+    "历史差异 sourceDirectory: matrix=games/cluster-rush; registry=.；源码入口采用最新仓库登记。",
+    "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+    "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+  ],
+  "release": {
+    "deployment": "not_deployed",
+    "gameplayAcceptance": "unknown",
+    "indexingPermission": "hold"
+  },
+  "schemaVersion": 1,
+  "source": {
+    "archivedSnapshots": [
+      {
+        "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+        "directory": "games/cluster-rush",
+        "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+        "removedAt": "2026-10-25T02:55:08.814269+00:00",
+        "repository": "https://github.com/seraseraqqq/gamehubs"
+      }
+    ],
+    "branch": "main",
+    "directory": ".",
+    "frozenSnapshots": [],
+    "repository": "https://github.com/seraseraqqq/gamehubs-cluster-rush"
+  },
+  "sources": [
+    {
+      "note": "最新远端原始仓库登记快照",
+      "path": "management/data/migration/source-repositories.json#cluster-rush"
+    },
+    {
+      "note": "最新远端项目/发布记录",
+      "path": "management/DEPLOYMENT_STATUS.md"
+    },
+    {
+      "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+      "path": "docs/history/2026-10-25-management-only-cleanup.json"
+    }
+  ],
+  "stage": "blocked",
+  "urls": {
+    "preview": null,
+    "production": null
+  },
+  "verification": {
+    "recheckedAt": null,
+    "recordedAt": "2026-10-24T05:17:09.386Z",
+    "scope": "历史记录导入；未进行本次实时核验。"
+  }
+}

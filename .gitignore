@@ -10,8 +10,8 @@ __pycache__/
 *.pyc
 .vercel
 
-# Local Impeccable screenshots; final review evidence lives in research.
-games/coreball/.impeccable/review/
+# Game code lives in independent repositories; do not reintroduce local game copies.
+/games/
 
 # Local downloaded research snapshots; curated reports remain versioned.
 research/2026-10-24-snow-rider/competitor-source/
@@ -26,3 +26,7 @@ research/2026-10-24-cluster-rush/raw/
 .rankup/skill-state.json
 .rankup/agentic/
 .rankup/evidence/
+
+# Local management service and private QA artifacts
+.hub-write.lock
+generated/previews/

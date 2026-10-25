@@ -1,0 +1,14 @@
+{
+  "requestedURL": "https://gamehubs-summit-unlimited-lxo2pe5mx-gx03410-8651s-projects.vercel.app",
+  "finalURL": "https://gamehubs-summit-unlimited-lxo2pe5mx-gx03410-8651s-projects.vercel.app/",
+  "httpStatus": 200,
+  "robots": "noindex,nofollow",
+  "noindex": true,
+  "canonical": null,
+  "title": "STARLING — Free Space Word Game &amp; Rare Answer Challenge",
+  "scriptsVerified": [
+    "./answer-bank.js",
+    "./scene.js",
+    "./game.js"
+  ]
+}

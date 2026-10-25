@@ -1,0 +1,60 @@
+{
+  "id": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
+  "name": "gamehubs-coreball",
+  "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+  "rootDirectory": null,
+  "buildCommand": "node scripts/build.mjs",
+  "installCommand": null,
+  "outputDirectory": "dist",
+  "framework": null,
+  "commandForIgnoringBuildStep": null,
+  "nodeVersion": "24.x",
+  "autoAssignCustomDomains": true,
+  "sourceFilesOutsideRootDirectory": true,
+  "link": {
+    "type": "github",
+    "org": "seraseraqqq",
+    "repo": "gameshub-coreball",
+    "repoId": 1432763484,
+    "productionBranch": "main",
+    "createdAt": 1792895735158
+  },
+  "protectionFingerprint": "05659a7e129ab14619b7fbf50d3356582b340f46178781aa87c81de91916df24",
+  "environmentMetadata": [],
+  "productionDeployment": {
+    "id": "dpl_6wy5XZvwyfXETCVvtMFgzvrcNo2z",
+    "url": "gamehubs-coreball-i4osy34yo-gx03410-8651s-projects.vercel.app",
+    "readyState": "READY",
+    "meta": {
+      "migrationCheck": "independent-repo-production-2026-10-25",
+      "githubCommitAuthorName": "seraseraqqq",
+      "githubCommitAuthorEmail": "xu250618@gmail.com",
+      "githubCommitMessage": "chore: establish independent game source and preserve release configuration",
+      "githubCommitOrg": "seraseraqqq",
+      "githubCommitRef": "2793a39f4c3417d16b746e758153a97fa8c07113",
+      "githubCommitRepo": "gameshub-coreball",
+      "githubCommitSha": "2793a39f4c3417d16b746e758153a97fa8c07113",
+      "githubDeployment": "1",
+      "githubOrg": "seraseraqqq",
+      "githubRepo": "gameshub-coreball",
+      "githubRepoOwnerType": "User",
+      "githubCommitRepoId": "1432763484",
+      "githubRepoId": "1432763484",
+      "githubRepoVisibility": "private",
+      "githubHost": "github.com",
+      "githubCommitAuthorLogin": "seraseraqqq",
+      "githubCommitVerification": "unverified",
+      "branchAlias": "gamehubs-coreball-git-2793a39f4c3-37fc05-gx03410-8651s-projects.vercel.app"
+    }
+  },
+  "domains": [
+    {
+      "name": "gamehubs-coreball.vercel.app",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ]
+}

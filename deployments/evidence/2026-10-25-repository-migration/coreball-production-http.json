@@ -1,0 +1,15 @@
+{
+  "requestedURL": "https://gamehubs-coreball.vercel.app/",
+  "finalURL": "https://gamehubs-coreball.vercel.app/",
+  "httpStatus": 200,
+  "robots": "noindex, nofollow",
+  "noindex": true,
+  "canonical": null,
+  "title": "Coreball – Play Free Online | 30 Levels",
+  "scriptsVerified": [
+    "./engine.js",
+    "./fur.js",
+    "./paws.js",
+    "./game.js"
+  ]
+}

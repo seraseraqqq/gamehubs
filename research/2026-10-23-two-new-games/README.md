@@ -1,6 +1,6 @@
 > Current naming/SEO supersedes this build record: [keyword SEO update](../2026-10-23-keyword-seo/README.md). Public brands removed by owner decision; original QA snapshots remain historical evidence.
 
-> 2026-10-24整理注：本报告保留当时结果；相关一次性测试/旧同步脚本已移出管理仓库，不再按文内旧命令复跑。当前质量复查使用仓库根执行 `node management/tools/check-portfolio-seo.mjs --public`，游戏专属测试见各游戏README。
+> 2026-10-24整理注：本报告保留当时结果；相关一次性测试/旧同步脚本已移出管理仓库，不再按文内旧命令复跑。当前质量复查使用仓库根执行 `node scripts/check-portfolio-seo.mjs --public`，游戏专属测试见各游戏README。
 
 # Pinlark + Clue Garden — 2026-10-23 build
 

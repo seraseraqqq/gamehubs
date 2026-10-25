@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-25",
+  "completedAt": "2026-10-25T02:55:08.814269+00:00",
+  "factSurfaces": {
+    "code": "changed-and-verified",
+    "runtime": "changed-and-verified: local HTTP read paths; game deployment links unchanged",
+    "docs": "changed-and-verified",
+    "rules": "changed-and-verified",
+    "memory": "not-applicable; untouched",
+    "workspace": "changed-and-verified: backups retained and original untracked research excluded from staging"
+  },
+  "removedDirectory": "games/",
+  "registeredGameSources": 12,
+  "removedWorkingTreeFiles": 489,
+  "backup": "/Users/xg/Projects/SEO-Projects/.gamehubs-backups/games-removal-20261025-105333",
+  "backupHashVerification": "all original files matched before and after move",
+  "retiredTools": [
+    "scripts/check-portfolio-seo.mjs",
+    "scripts/prepare-standalone.mjs",
+    "scripts/vercel-ignore.mjs"
+  ],
+  "canonicalSourcesVerified": [
+    {
+      "siteId": "cluster-rush",
+      "repository": "https://github.com/seraseraqqq/gamehubs-cluster-rush",
+      "branch": "main",
+      "head": "73a414801ab1e6a184737f27c9069ca7448692d3",
+      "private": true
+    },
+    {
+      "siteId": "gulper-io",
+      "repository": "https://github.com/seraseraqqq/gameshub-gulper-io",
+      "branch": "main",
+      "head": "1d94e2c8d17f6e6c39dbcfa91237371fbb1c907e",
+      "private": true
+    },
+    {
+      "siteId": "2048-cupcakes",
+      "repository": "https://github.com/seraseraqqq/gameshub-2048-cupcakes",
+      "branch": "main",
+      "head": "c26b71c763101186775aa3613562a48adc6f0918",
+      "private": true
+    },
+    {
+      "siteId": "costcodle",
+      "repository": "https://github.com/seraseraqqq/gameshub-costcodle",
+      "branch": "main",
+      "head": "a2af21d0e74622a8a35098ea29b4700dd20f848d",
+      "private": true
+    },
+    {
+      "siteId": "head-soccer-2026",
+      "repository": "https://github.com/seraseraqqq/gameshub-head-soccer-2026",
+      "branch": "main",
+      "head": "849cb11b14bef244156853ec1e8be5e3f4c855d1",
+      "private": true
+    },
+    {
+      "siteId": "minute-cryptic-unlimited",
+      "repository": "https://github.com/seraseraqqq/gameshub-minute-cryptic-unlimited",
+      "branch": "main",
+      "head": "b5d18ddb0a0f7bf057037b7860f18b255da6af84",
+      "private": true
+    },
+    {
+      "siteId": "spacebar-counter",
+      "repository": "https://github.com/seraseraqqq/gameshub-spacebar-counter",
+      "branch": "main",
+      "head": "34f02d435684c22fd53fa8f8102f6d75b242f30c",
+      "private": true
+    },
+    {
+      "siteId": "block-blast-unblocked",
+      "repository": "https://github.com/seraseraqqq/gameshub-block-blast-unblocked",
+      "branch": "main",
+      "head": "07cf140be88943ee8516a6f21c1cfbd902bb3c4d",
+      "private": true
+    },
+    {
+      "siteId": "krillion-unlimited",
+      "repository": "https://github.com/seraseraqqq/gameshub-krillion-unlimited",
+      "branch": "main",
+      "head": "b602921f27aa53df7a8db37b7f13d89031575835",
+      "private": true
+    },
+    {
+      "siteId": "acceleration-city",
+      "repository": "https://github.com/seraseraqqq/gamehubs-acceleration-city",
+      "branch": "main",
+      "head": "ba82e939249b775f5637248af986843c5d31ce4b",
+      "private": true
+    },
+    {
+      "siteId": "coreball",
+      "repository": "https://github.com/seraseraqqq/gameshub-coreball",
+      "branch": "main",
+      "head": "2793a39f4c3417d16b746e758153a97fa8c07113",
+      "private": true
+    },
+    {
+      "siteId": "snow-rider-3d-unblocked",
+      "repository": "https://github.com/seraseraqqq/gameshub-snow-rider-3d-unblocked",
+      "branch": "main",
+      "head": "d86a93bf1fa2f726aae71d0447c73b592a7ed3d3",
+      "private": true
+    }
+  ],
+  "historicalSourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+  "preserved": {
+    "untrackedResearch": [
+      "research/2026-10-23-domains",
+      "research/2026-10-23-game-keywords",
+      "research/2026-10-24-game-keywords"
+    ],
+    "researchAndDeploymentEvidence": true,
+    "releaseHolds": true,
+    "privateLocalConfiguration": "preserved in external backup; never staged"
+  },
+  "outOfScope": [
+    "game gameplay or rendering changes",
+    "Vercel deployments or domain/permission/indexing changes",
+    "new keyword research or paid services",
+    "global skills or agent memory changes"
+  ],
+  "pending": [],
+  "warnings": [
+    "14 historical ignored Acceleration City raw references remain absent on this machine; pre-existing and documented."
+  ],
+  "validation": {
+    "checkedAt": "2026-10-25T02:58:32.579272+00:00",
+    "counts": {
+      "keywords": 117,
+      "observations": 244,
+      "batches": 5,
+      "reviews": 0,
+      "sites": 17
+    },
+    "errors": [],
+    "managementTestsPassed": 17,
+    "managementTestsFailed": 0,
+    "activeMarkdownFiles": 11,
+    "activeLocalLinksChecked": 64,
+    "activeBrokenLinks": [],
+    "primaryStudyEvidenceFilesVerified": 74,
+    "localHTTPRoutesVerified": 5,
+    "gameOrManagementDirectoryPresent": false,
+    "archivedGameRecords": 12,
+    "independentCanonicalSources": 17,
+    "compatibilityViewsConsistent": true,
+    "holdsRetained": true,
+    "newGameDeploymentStatusUnchanged": true,
+    "globalMemory": "not-applicable; untouched",
+    "cleanStagedExport": "validate and 17 tests passed; generated views reproduced byte-for-byte; no ignored local dependencies required",
+    "explicitPathStaging": 549,
+    "credentialScan": "no credential paths, high-confidence token patterns or structured secret values in staged files"
+  },
+  "publication": {
+    "authorized": true,
+    "remote": "https://github.com/seraseraqqq/gamehubs",
+    "branch": "main",
+    "completionEvidence": "The final delivery identifies the commit after comparing local HEAD with GitHub main."
+  },
+  "userAuthorization": "After the migration report and removal assessment, the owner explicitly requested cleaning GameHubs and pushing this management repository to GitHub."
+}

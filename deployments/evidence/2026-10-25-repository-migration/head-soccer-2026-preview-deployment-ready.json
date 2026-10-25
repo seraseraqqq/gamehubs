@@ -1,0 +1,35 @@
+{
+  "id": "dpl_EZxJaTvFZjRhmHgQEuDSBWeKRKJr",
+  "name": "gamehubs-head-soccer-2026",
+  "url": "gamehubs-head-soccer-2026-djadwypff-gx03410-8651s-projects.vercel.app",
+  "type": "LAMBDAS",
+  "state": "READY",
+  "createdAt": 1792895884147,
+  "creator": {
+    "uid": "hnBoZslKPVHPN4tsXyPY67fY",
+    "username": "gx03410-8651"
+  },
+  "project": {
+    "id": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+    "name": "gamehubs-head-soccer-2026",
+    "framework": null
+  },
+  "meta": {
+    "githubCommitRef": "849cb11b14bef244156853ec1e8be5e3f4c855d1",
+    "githubCommitSha": "849cb11b14bef244156853ec1e8be5e3f4c855d1",
+    "githubCommitMessage": "chore: establish independent game source and preserve release configuration",
+    "githubRepo": "gameshub-head-soccer-2026",
+    "githubOrg": "seraseraqqq"
+  },
+  "alias": [
+    "gamehubs-head-soccer-2026-git-849-4285a9-gx03410-8651s-projects.vercel.app"
+  ],
+  "target": null,
+  "regions": [
+    "iad1"
+  ],
+  "buildingAt": 1792895885720,
+  "ready": 1792895889742,
+  "readyState": "READY",
+  "aliasError": null
+}

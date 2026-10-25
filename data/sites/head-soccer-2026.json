@@ -1,0 +1,280 @@
+{
+  "blockers": [],
+  "development": {
+    "deploymentMigration": {
+      "evidencePath": "deployments/evidence/2026-10-25-repository-migration/head-soccer-2026-final.json",
+      "gameplayAcceptance": "not_retested",
+      "previewDeployment": {
+        "id": "dpl_EZxJaTvFZjRhmHgQEuDSBWeKRKJr",
+        "readyState": "READY",
+        "url": "gamehubs-head-soccer-2026-djadwypff-gx03410-8651s-projects.vercel.app"
+      },
+      "report": "deployments/2026-10-25-independent-repositories.md",
+      "settingsPreserved": [
+        "domains",
+        "environmentMetadata",
+        "deploymentProtection",
+        "buildSettings"
+      ],
+      "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+      "sourceDirectory": "games/head-soccer-2026",
+      "vercel": {
+        "ignoreCommand": null,
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_4YVYnKFHb11kVNYLhyyL5QkWiZBA",
+          "readyState": "READY",
+          "url": "gamehubs-head-soccer-2026-2uj95lgs4-gx03410-8651s-projects.vercel.app"
+        },
+        "projectId": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+        "projectName": "gamehubs-head-soccer-2026",
+        "repository": "https://github.com/seraseraqqq/gameshub-head-soccer-2026",
+        "repositoryId": 1432763748,
+        "rootDirectory": null,
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+      },
+      "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+    },
+    "implementationPushed": true,
+    "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+    "recordedHead": "849cb11b14bef244156853ec1e8be5e3f4c855d1",
+    "state": "independent-repository-deployed"
+  },
+  "history": [
+    {
+      "actor": "codex-ai:user-authorized-repository-migration",
+      "at": "2026-10-25T02:39:46.743898+00:00",
+      "previous": {
+        "blockers": [],
+        "id": "head-soccer-2026",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-db15679b6deebf6c3820",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "head soccer 2026"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Head Soccer 2026",
+        "nextAction": "Complete physical-device/full-round checks; publisher monetization onboarding and Search Console remain separate follow-up work.",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "branch": "main",
+          "directory": "games/head-soccer-2026",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gamehubs"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#head-soccer-2026"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://www.playheadsoccer.com/"
+        },
+        "verification": {
+          "recheckedAt": null,
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "历史记录导入；未进行本次实时核验。"
+        }
+      },
+      "previousRevision": "099c9c4ff2f1a6d59c1bd6e69da19b57d435ce39816a6977118632616835e85f"
+    },
+    {
+      "actor": "codex-ai:user-authorized-games-removal",
+      "at": "2026-10-25T02:55:09.486005+00:00",
+      "previous": {
+        "blockers": [],
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/head-soccer-2026-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_EZxJaTvFZjRhmHgQEuDSBWeKRKJr",
+              "readyState": "READY",
+              "url": "gamehubs-head-soccer-2026-djadwypff-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/head-soccer-2026",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_4YVYnKFHb11kVNYLhyyL5QkWiZBA",
+                "readyState": "READY",
+                "url": "gamehubs-head-soccer-2026-2uj95lgs4-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+              "projectName": "gamehubs-head-soccer-2026",
+              "repository": "https://github.com/seraseraqqq/gameshub-head-soccer-2026",
+              "repositoryId": 1432763748,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedHead": "849cb11b14bef244156853ec1e8be5e3f4c855d1",
+          "state": "independent-repository-deployed"
+        },
+        "id": "head-soccer-2026",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-db15679b6deebf6c3820",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "head soccer 2026"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Head Soccer 2026",
+        "nextAction": "Complete physical-device/full-round checks; publisher monetization onboarding and Search Console remain separate follow-up work.",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/head-soccer-2026现为冻结快照，后续只修改独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [
+            "games/head-soccer-2026"
+          ],
+          "repository": "https://github.com/seraseraqqq/gameshub-head-soccer-2026"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#head-soccer-2026"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/head-soccer-2026-final.json"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://www.playheadsoccer.com/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+        }
+      },
+      "previousRevision": "6ac82001570d3bd4333ba0dfede78a026e5c37425e8c3432c55e4ada386a2d3e"
+    }
+  ],
+  "id": "head-soccer-2026",
+  "keywordMappings": [
+    {
+      "country": "unknown",
+      "keywordId": "kw-db15679b6deebf6c3820",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "primary",
+      "term": "head soccer 2026"
+    }
+  ],
+  "legacyGroup": "games",
+  "name": "Head Soccer 2026",
+  "nextAction": "Complete physical-device/full-round checks; publisher monetization onboarding and Search Console remain separate follow-up work.",
+  "notes": [
+    "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+    "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/head-soccer-2026曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+    "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+    "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+    "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+  ],
+  "release": {
+    "deployment": "recorded_deployed",
+    "gameplayAcceptance": "unknown",
+    "indexingPermission": "unknown"
+  },
+  "schemaVersion": 1,
+  "source": {
+    "archivedSnapshots": [
+      {
+        "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+        "directory": "games/head-soccer-2026",
+        "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+        "removedAt": "2026-10-25T02:55:08.814269+00:00",
+        "repository": "https://github.com/seraseraqqq/gamehubs"
+      }
+    ],
+    "branch": "main",
+    "directory": ".",
+    "frozenSnapshots": [],
+    "repository": "https://github.com/seraseraqqq/gameshub-head-soccer-2026"
+  },
+  "sources": [
+    {
+      "note": "最新远端原始仓库登记快照",
+      "path": "management/data/migration/source-repositories.json#head-soccer-2026"
+    },
+    {
+      "note": "最新远端项目/发布记录",
+      "path": "management/DEPLOYMENT_STATUS.md"
+    },
+    {
+      "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+      "path": "deployments/evidence/2026-10-25-repository-migration/head-soccer-2026-final.json"
+    },
+    {
+      "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+      "path": "docs/history/2026-10-25-management-only-cleanup.json"
+    }
+  ],
+  "stage": "deployed",
+  "urls": {
+    "preview": null,
+    "production": "https://www.playheadsoccer.com/"
+  },
+  "verification": {
+    "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+    "recordedAt": "2026-10-24T05:17:09.386Z",
+    "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+  }
+}

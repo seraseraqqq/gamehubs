@@ -1,0 +1,33 @@
+{
+  "id": "dpl_J1EWyqDV8HE2f9hqWRu4gtG5Vs4b",
+  "name": "gamehubs-snow-rider-3d",
+  "url": "gamehubs-snow-rider-3d-mlteytdpx-gx03410-8651s-projects.vercel.app",
+  "type": "LAMBDAS",
+  "state": "INITIALIZING",
+  "createdAt": 1792895840100,
+  "creator": {
+    "uid": "hnBoZslKPVHPN4tsXyPY67fY",
+    "username": "gx03410-8651"
+  },
+  "project": {
+    "id": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+    "name": "gamehubs-snow-rider-3d",
+    "framework": null
+  },
+  "meta": {
+    "githubCommitRef": "d86a93bf1fa2f726aae71d0447c73b592a7ed3d3",
+    "githubCommitSha": "d86a93bf1fa2f726aae71d0447c73b592a7ed3d3",
+    "githubCommitMessage": "chore: establish independent game source and preserve release configuration",
+    "githubRepo": "gameshub-snow-rider-3d-unblocked",
+    "githubOrg": "seraseraqqq"
+  },
+  "alias": [
+    "gamehubs-snow-rider-3d-git-d86a93-be70b1-gx03410-8651s-projects.vercel.app"
+  ],
+  "target": null,
+  "regions": [
+    "iad1"
+  ],
+  "buildingAt": 1792895840100,
+  "readyState": "INITIALIZING"
+}

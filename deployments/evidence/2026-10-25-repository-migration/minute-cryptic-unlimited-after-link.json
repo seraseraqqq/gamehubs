@@ -1,0 +1,60 @@
+{
+  "id": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
+  "name": "gamehubs-minute-cryptic-unlimited",
+  "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+  "rootDirectory": null,
+  "buildCommand": null,
+  "installCommand": null,
+  "outputDirectory": null,
+  "framework": null,
+  "commandForIgnoringBuildStep": null,
+  "nodeVersion": "24.x",
+  "autoAssignCustomDomains": true,
+  "sourceFilesOutsideRootDirectory": true,
+  "link": {
+    "type": "github",
+    "org": "seraseraqqq",
+    "repo": "gameshub-minute-cryptic-unlimited",
+    "repoId": 1432763581,
+    "productionBranch": "main",
+    "createdAt": 1792895787688
+  },
+  "protectionFingerprint": "05659a7e129ab14619b7fbf50d3356582b340f46178781aa87c81de91916df24",
+  "environmentMetadata": [],
+  "productionDeployment": {
+    "id": "dpl_AVfadmpEesa9Dv2kioK7Voq2F1et",
+    "url": "gamehubs-minute-cryptic-unlimited-5jx8qdu3r.vercel.app",
+    "readyState": "CANCELED",
+    "meta": {
+      "githubCommitAuthorName": "seraseraqqq",
+      "githubCommitAuthorEmail": "seraseraqqq@users.noreply.github.com",
+      "githubCommitMessage": "docs: record five-game optimization and verified source pushes",
+      "githubCommitOrg": "seraseraqqq",
+      "githubCommitRef": "main",
+      "githubCommitRepo": "gamehubs",
+      "githubCommitSha": "dc5994e61228e028c068137a5d69bce08b172fd0",
+      "githubDeployment": "1",
+      "githubOrg": "seraseraqqq",
+      "githubRepo": "gamehubs",
+      "githubRepoOwnerType": "User",
+      "githubCommitRepoId": "1429727092",
+      "githubRepoId": "1429727092",
+      "githubRepoVisibility": "public",
+      "githubHost": "github.com",
+      "githubCommitAuthorLogin": "seraseraqqq",
+      "githubCommitVerification": "unverified",
+      "repoPushedAt": "1792860082000",
+      "branchAlias": "gamehubs-minute-cryptic-unlim-git-2d7172-gx03410-8651s-projects.vercel.app"
+    }
+  },
+  "domains": [
+    {
+      "name": "gamehubs-minute-cryptic-unlimited.vercel.app",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ]
+}

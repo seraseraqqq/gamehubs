@@ -1,0 +1,68 @@
+{
+  "id": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+  "name": "gulperio-game",
+  "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+  "rootDirectory": null,
+  "buildCommand": null,
+  "installCommand": null,
+  "outputDirectory": null,
+  "framework": null,
+  "commandForIgnoringBuildStep": null,
+  "nodeVersion": "24.x",
+  "autoAssignCustomDomains": true,
+  "sourceFilesOutsideRootDirectory": true,
+  "link": {
+    "type": "github",
+    "org": "seraseraqqq",
+    "repo": "gameshub-gulper-io",
+    "repoId": 1432763090,
+    "productionBranch": "main",
+    "createdAt": 1792895549382
+  },
+  "protectionFingerprint": "9582faf9dceefc5322ded4495a95750df07e7badbb22f107b3f3a7dd2a2e4637",
+  "environmentMetadata": [],
+  "productionDeployment": {
+    "id": "dpl_6eqV1fDaC2x5QiUCcfoXacmiVXZ6",
+    "url": "gulperio-game-cwjmqbuu2-gx03410-8651s-projects.vercel.app",
+    "readyState": "CANCELED",
+    "meta": {
+      "githubCommitAuthorName": "seraseraqqq",
+      "githubCommitAuthorEmail": "seraseraqqq@users.noreply.github.com",
+      "githubCommitMessage": "docs: record five-game optimization and verified source pushes",
+      "githubCommitOrg": "seraseraqqq",
+      "githubCommitRef": "main",
+      "githubCommitRepo": "gamehubs",
+      "githubCommitSha": "dc5994e61228e028c068137a5d69bce08b172fd0",
+      "githubDeployment": "1",
+      "githubOrg": "seraseraqqq",
+      "githubRepo": "gamehubs",
+      "githubRepoOwnerType": "User",
+      "githubCommitRepoId": "1429727092",
+      "githubRepoId": "1429727092",
+      "githubRepoVisibility": "public",
+      "githubHost": "github.com",
+      "githubCommitAuthorLogin": "seraseraqqq",
+      "githubCommitVerification": "unverified",
+      "repoPushedAt": "1792860082000",
+      "branchAlias": "gulperio-game-git-main-gx03410-8651s-projects.vercel.app"
+    }
+  },
+  "domains": [
+    {
+      "name": "gulperio.com",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "name": "www.gulperio.com",
+      "verified": true,
+      "redirect": "gulperio.com",
+      "redirectStatusCode": 301,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ]
+}

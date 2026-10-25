@@ -1,0 +1,13 @@
+{
+  "requestedURL": "https://costcodle.cc/",
+  "finalURL": "https://costcodle.cc/",
+  "httpStatus": 200,
+  "robots": "index, follow, max-image-preview:large",
+  "noindex": false,
+  "canonical": "https://costcodle.cc/",
+  "title": "Costcodle Unlimited — Daily Price Guessing Game",
+  "scriptsVerified": [
+    "/items.js",
+    "/game.js"
+  ]
+}

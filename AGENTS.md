@@ -1,18 +1,24 @@
 # GameHubs repository rules
 
-GameHubs is the portfolio registry and the temporary source repository for ten deployed games. Read `management/REPOSITORIES.md` and `management/data/repositories.json` before changing a game.
+GameHubs manages keyword research, human decisions, project stages, website URLs and canonical GitHub source locations. Read README.md, HANDOFF.md and INDEX.md before work.
 
-- Cluster Rush and Acceleration City have independent private repositories. Their `games/` directories here are frozen migration snapshots; make subsequent game changes in the canonical repository, not both copies.
-- Existing deployed games still build from their own `games/<slug>` directory. Keep changes scoped to the requested game. Other chats may be editing this workspace; preserve their edits and stage explicit paths.
-- Vercel's per-project Ignored Build Step runs `scripts/vercel-ignore.mjs`. If introducing a shared runtime dependency, add its path to the affected projects' ignore command. Root management documents and research are not runtime dependencies.
-- New games should start in separate sibling repositories, one Vercel project per game; register their source, release state and domains here. Do not put nested Git repositories inside GameHubs.
-- Preserve current release holds: Acceleration City awaits embedding permission; Cluster Rush awaits permission/domain decisions; Snow Rider remains noindex until actual-domain gameplay acceptance. Follow subsequent explicit owner authorization when these conditions change.
-- Do not commit credentials, `.env` files, `.vercel` credentials or ignored downloaded game packages. Record verified outcomes separately from pending acceptance.
-- Public game copy should lead with the game name, gameplay and controls. The owner does not want repeated "inspired", "clone" or imitation disclaimers in titles and sales copy. Keep required credits/licenses and accurate feature descriptions; do not invent official affiliation, multiplayer or other unsupported features.
+## Current layout and maintenance
 
-## Management repository layout
+- The owner explicitly selected root dashboard/, data/, generated/, scripts/, docs/, research/ and deployments/. This supersedes the earlier management/ layout and root-only-three-files rule. The owner subsequently approved removing games/ after independent source migration. Keep INDEX.md generated at root; do not recreate management/, games/ or retired duplicate registries.
+- Formal records live only in data/batches/, data/reviews/ and data/sites/. data/repositories.json, data/matrix-sites.json, generated/ and INDEX.md are generated compatibility/query views; never maintain them independently.
+- Query `python3 scripts/hub.py query "term"` or `query "site" --kind site`. Use docs/USAGE.md for import/review/version rules and docs/KEYWORD_WORKFLOW.md for future manual research execution and full result writeback.
+- The primary assets are the remote 117-term US/en study, 11 build plans, 106 remaining dispositions and 17 project records. Do not auto-merge the older local122-identity pool. Strict metrics, research recommendations, human decisions and release acceptance are separate.
+- Every research round gets a date/device/UUID batch ID, all results and evidence, including rejected/failed/unknown rows. Term+country+language form identity; keep original terms and cluster synonyms without dropping them. Unknown is never zero or passed.
+- Human reviews append independent events. AI uses actorType=ai, current expectedHeads and relevant basedOnBatches; never replace human decisions silently. Resolve concurrent branches with a new reasoned event. Site writes require current revision and retain history. frozenSnapshots lists only existing local copies; archivedSnapshots retains removed-directory provenance and must not be used as a live path.
+- Future research uses Google Trends -> real Google SERP -> browser-based user free Semrush mirror -> feasibility assessment -> full batch/evidence save. Use the recorded US/en and mirror configuration; no paid OpenSEO substitution or automation without authorization.
+- Run `python3 scripts/hub.py validate` and `generate` after data changes. Persistence/path changes use the relevant scripts/test_hub.py checks; do not rerun unrelated broad game tests for document edits.
 
-- Root is a management entry point: keep README.md, HANDOFF.md and AGENTS.md plus required hidden configuration only. Do not add root JSON, spreadsheets, temporary tests or single-game product/design files.
-- Current management documents and plans belong in management/; authoritative JSON registries live in management/data/. Preserve keyword/competitor research and evidence in research/, release records in deployments/.
-- Temporary task scripts belong outside the repository; retain reusable portfolio tools in management/tools/ or .rankup/scripts/. Never re-create retired root paths in generators.
-- Existing games/ and scripts/vercel-ignore.mjs remain deployment dependencies until the remaining canonical repositories are migrated. Do not delete them as repository cleanup.
+## Source and release safeguards
+
+- Before game development, read data/sites/<id>.json; source.repository+directory+branch is the sole active source identity. Clone/resolve it on this machine; historical Windows paths or another device's localhost are not usable local locations.
+- All 17 recorded projects have independent repositories. Cluster Rush and Acceleration City retain their existing gamehubs-* names; ten existing live games migrated to gameshub-* on 2026-10-25. All twelve former games/ snapshots were removed with user approval; source.archivedSnapshots records their historical commit, while source.frozenSnapshots is empty. Five newer games remain undeployed. Edit only each canonical repository from its site record.
+- Ten existing live games now use their original Vercel project IDs with independent Git repositories, rootDirectory=null and no shared ignored-build command. Preserve domains, environment and protection settings. The old shared ignore, portfolio-export checker and split-preparation tools are retired; retrieve historical implementations from Git only when needed. Do not restore their old Vercel references. New game checkouts remain sibling repositories, never nested Git repositories.
+- Preserve Acceleration City permission hold, Cluster Rush permission/domain hold, and Snow Rider noindex until actual-domain gameplay acceptance. Separate recorded source push, deployment, actual play, indexing permission and search-engine indexing; record real evidence dates.
+- Preserve other chats' changes and untracked research; stage explicit paths only when authorized. No credentials, .env, .vercel credentials or downloaded ignored packages in commits.
+- Public copy leads with game name, gameplay and accurate controls. Keep required credits/licenses; do not invent official affiliation, multiplayer or unsupported features.
+- The owner subsequently authorized and completed the ten-game repository/Vercel migration on 2026-10-25; see deployments/2026-10-25-independent-repositories.md. The owner subsequently approved the management cleanup, games/ removal and GitHub push; this approval does not authorize unrelated game releases. Further releases, purchases, new game builds and automations need their own scope. Keep the existing dashboard; add no features or income projections in this closeout.

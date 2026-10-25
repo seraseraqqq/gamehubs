@@ -1,0 +1,38 @@
+{
+  "acceptedRowCount": 11,
+  "competitors": [],
+  "date": "2026-10-24",
+  "device": "unknown-other-device",
+  "id": "2026-10-24-build-plan-96e00d03240b",
+  "kind": "build_plan",
+  "label": "11项 · 建站方案队列",
+  "market": {
+    "country": "US",
+    "language": "en"
+  },
+  "notes": [
+    "原计划为历史方案；当前建设进度以站点登记为准。"
+  ],
+  "rejectedRowCount": 0,
+  "schemaVersion": 1,
+  "seeds": [
+    "cutle",
+    "poople",
+    "colordle",
+    "metazooa",
+    "travle",
+    "spotle",
+    "traffic road",
+    "maptap",
+    "scrandle",
+    "songless",
+    "x trench run"
+  ],
+  "sources": [
+    {
+      "note": "从已拉取的远端资料导入，原文与完整证据保留原位",
+      "path": "research/2026-10-24-game-build-plan/plan.json"
+    }
+  ],
+  "status": "historical"
+}

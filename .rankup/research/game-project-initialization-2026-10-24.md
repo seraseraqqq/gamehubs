@@ -6,7 +6,7 @@
 
 完成证据：[5仓远端核验](../../research/2026-10-24-game-project-init/verification.json)、[本地文档验证](../../research/2026-10-24-game-project-init/local-validation.json)、[台账完整性](../../research/2026-10-24-game-project-init/registry-validation.json)。每仓29文件，52个本地Markdown链接，五套Rankup文档断链/超限为0；各仓main推送且工作树干净。游戏/设备/SEO实际页面检查均未执行。
 
-统一入口：[management/NEW_GAME_PROJECTS.md](../../management/NEW_GAME_PROJECTS.md)。management/data/repositories.json在plannedGames新增5条，games原12条保持逐项相同，避免现有运行时导出检查把文档项目当成已实现游戏。README/REPOSITORIES/HANDOFF同步；GameHubs本轮管理变更仅在本地，未混入他人修改提交/推送。
+统一入口：[management/NEW_GAME_PROJECTS.md](../../docs/NEW_GAME_PROJECTS.md)。data/repositories.json在plannedGames新增5条，games原12条保持逐项相同，避免现有运行时导出检查把文档项目当成已实现游戏。README/REPOSITORIES/HANDOFF同步；GameHubs本轮管理变更仅在本地，未混入他人修改提交/推送。
 
 下一条要执行的动作：后续开发从`E:/Projects/game-sites/cutle/.rankup/INDEX.md`和CUT-00开始；先关键变体/名称/差异检查，再完成几何切割核心。Metazooa保持分类数据门槛。不要重复建仓或把初始化视为可上线验收。
 

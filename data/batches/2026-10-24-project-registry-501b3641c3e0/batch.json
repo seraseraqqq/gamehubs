@@ -1,0 +1,36 @@
+{
+  "acceptedRowCount": 5,
+  "competitors": [],
+  "date": "2026-10-24",
+  "device": "unknown-other-device",
+  "id": "2026-10-24-project-registry-501b3641c3e0",
+  "kind": "project_registry",
+  "label": "5项目 · 本地MVP登记",
+  "market": {
+    "country": "US",
+    "language": "en"
+  },
+  "notes": [
+    "五个独立仓库登记不等于MVP实现已推送；另一设备未提交源码与实际部署分别记录。"
+  ],
+  "rejectedRowCount": 0,
+  "schemaVersion": 1,
+  "seeds": [
+    "cutle",
+    "poople",
+    "colordle",
+    "metazooa",
+    "travle"
+  ],
+  "sources": [
+    {
+      "note": "从已拉取的远端资料导入，原文与完整证据保留原位",
+      "path": "management/data/migration/source-repositories.json"
+    },
+    {
+      "note": "从已拉取的远端资料导入，原文与完整证据保留原位",
+      "path": "management/NEW_GAME_PROJECTS.md"
+    }
+  ],
+  "status": "historical"
+}

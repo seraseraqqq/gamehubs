@@ -1,0 +1,12 @@
+{
+  "requestedURL": "https://www.playheadsoccer.com/",
+  "finalURL": "https://www.playheadsoccer.com/",
+  "httpStatus": 200,
+  "robots": "index, follow, max-image-preview:large",
+  "noindex": false,
+  "canonical": "https://www.playheadsoccer.com/",
+  "title": "Head Soccer 2026 — Play Free Online, Solo & 2 Player",
+  "scriptsVerified": [
+    "./app.js"
+  ]
+}

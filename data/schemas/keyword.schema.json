@@ -1,0 +1,98 @@
+{
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "batchId",
+    "keywordId",
+    "term",
+    "country",
+    "language",
+    "qualification",
+    "metrics",
+    "evidence"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "enum": [
+        1
+      ]
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-zA-Z0-9_-]+$"
+    },
+    "batchId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "keywordId": {
+      "type": "string",
+      "pattern": "^kw-[a-f0-9]{20}$"
+    },
+    "term": {
+      "type": "string",
+      "minLength": 1
+    },
+    "country": {
+      "type": "string",
+      "minLength": 1
+    },
+    "language": {
+      "type": "string",
+      "minLength": 1
+    },
+    "qualification": {
+      "type": "string",
+      "enum": [
+        "qualified",
+        "rejected",
+        "needs_review",
+        "unknown"
+      ]
+    },
+    "clusterId": {
+      "type": "string"
+    },
+    "metrics": {
+      "type": "object"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "note"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "raw": {},
+    "observedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GameHubs keyword",
+  "additionalProperties": false
+}

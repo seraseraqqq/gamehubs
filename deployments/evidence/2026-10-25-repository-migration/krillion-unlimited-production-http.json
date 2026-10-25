@@ -1,0 +1,14 @@
+{
+  "requestedURL": "https://krilliononline.com/",
+  "finalURL": "https://krilliononline.com/",
+  "httpStatus": 200,
+  "robots": "index,follow,max-image-preview:large",
+  "noindex": false,
+  "canonical": "https://krilliononline.com/",
+  "title": "STARLING — Free Space Word Game &amp; Rare Answer Challenge",
+  "scriptsVerified": [
+    "./answer-bank.js",
+    "./scene.js",
+    "./game.js"
+  ]
+}

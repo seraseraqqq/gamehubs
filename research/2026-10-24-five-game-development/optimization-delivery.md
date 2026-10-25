@@ -35,8 +35,8 @@ Travle首页原始HTML由241,209字节降至80,360字节（约减少67%）；当
 
 ## 沉淀的脚本
 
-- [qa-five-game-optimizations.mjs](../../management/tools/qa-five-game-optimizations.mjs)：参数--profile和--game，支持--capture-only及三种机制的--keyboard-only。已用Owner指定连接实跑。结构化OpenCLI命令操作，eval只读；绑定自有page，每次finally释放会话。
-- 复用[check-five-games-http.mjs](../../management/tools/check-five-games-http.mjs)，验证30个HTML页面、静态资源和404。
+- [qa-five-game-optimizations.mjs](../../scripts/qa-five-game-optimizations.mjs)：参数--profile和--game，支持--capture-only及三种机制的--keyboard-only。已用Owner指定连接实跑。结构化OpenCLI命令操作，eval只读；绑定自有page，每次finally释放会话。
+- 复用[check-five-games-http.mjs](../../scripts/check-five-games-http.mjs)，验证30个HTML页面、静态资源和404。
 
 ## 维护
 

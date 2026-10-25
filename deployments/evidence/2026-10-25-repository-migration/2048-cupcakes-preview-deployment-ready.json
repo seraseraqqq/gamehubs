@@ -1,0 +1,35 @@
+{
+  "id": "dpl_FPE4DPVRWVVve5WgQMv19a2b83tQ",
+  "name": "gamehubs-2048-cupcakes",
+  "url": "gamehubs-2048-cupcakes-5bgv2hpoj-gx03410-8651s-projects.vercel.app",
+  "type": "LAMBDAS",
+  "state": "READY",
+  "createdAt": 1792895697406,
+  "creator": {
+    "uid": "hnBoZslKPVHPN4tsXyPY67fY",
+    "username": "gx03410-8651"
+  },
+  "project": {
+    "id": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+    "name": "gamehubs-2048-cupcakes",
+    "framework": null
+  },
+  "meta": {
+    "githubCommitRef": "c26b71c763101186775aa3613562a48adc6f0918",
+    "githubCommitSha": "c26b71c763101186775aa3613562a48adc6f0918",
+    "githubCommitMessage": "chore: establish independent game source and preserve release configuration",
+    "githubRepo": "gameshub-2048-cupcakes",
+    "githubOrg": "seraseraqqq"
+  },
+  "alias": [
+    "gamehubs-2048-cupcakes-git-c26b71-b42dac-gx03410-8651s-projects.vercel.app"
+  ],
+  "target": null,
+  "regions": [
+    "iad1"
+  ],
+  "buildingAt": 1792895698223,
+  "ready": 1792895700483,
+  "readyState": "READY",
+  "aliasError": null
+}

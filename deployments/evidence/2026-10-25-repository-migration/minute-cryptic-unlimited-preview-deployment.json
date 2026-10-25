@@ -1,0 +1,33 @@
+{
+  "id": "dpl_2NQyRtjmmHTwfJBQ77RNS2SMTUUo",
+  "name": "gamehubs-minute-cryptic-unlimited",
+  "url": "gamehubs-minute-cryptic-unlimited-9m7svbuga.vercel.app",
+  "type": "LAMBDAS",
+  "state": "INITIALIZING",
+  "createdAt": 1792895792840,
+  "creator": {
+    "uid": "hnBoZslKPVHPN4tsXyPY67fY",
+    "username": "gx03410-8651"
+  },
+  "project": {
+    "id": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
+    "name": "gamehubs-minute-cryptic-unlimited",
+    "framework": null
+  },
+  "meta": {
+    "githubCommitRef": "b5d18ddb0a0f7bf057037b7860f18b255da6af84",
+    "githubCommitSha": "b5d18ddb0a0f7bf057037b7860f18b255da6af84",
+    "githubCommitMessage": "chore: establish independent game source and preserve release configuration",
+    "githubRepo": "gameshub-minute-cryptic-unlimited",
+    "githubOrg": "seraseraqqq"
+  },
+  "alias": [
+    "gamehubs-minute-cryptic-unlim-git-bbebd5-gx03410-8651s-projects.vercel.app"
+  ],
+  "target": null,
+  "regions": [
+    "iad1"
+  ],
+  "buildingAt": 1792895792840,
+  "readyState": "INITIALIZING"
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedRowCount": 5,
+  "competitors": [],
+  "date": "2026-10-25",
+  "device": "unknown-other-device",
+  "id": "2026-10-25-project-registry-e19e121517eb",
+  "kind": "project_registry",
+  "label": "5项目 · 源码版本与验收登记",
+  "market": {
+    "country": "US",
+    "language": "en"
+  },
+  "notes": [
+    "源码推送、实体设备/玩家验收和实际部署分别记录；历史状态不覆盖人工决定。"
+  ],
+  "rejectedRowCount": 0,
+  "schemaVersion": 1,
+  "seeds": [
+    "cutle",
+    "poople",
+    "colordle",
+    "metazooa",
+    "travle"
+  ],
+  "sources": [
+    {
+      "note": "从已拉取的远端资料导入，原文与完整证据保留原位",
+      "path": "data/migration/source-repositories-dc5994e.json"
+    },
+    {
+      "note": "从已拉取的远端资料导入，原文与完整证据保留原位",
+      "path": "docs/NEW_GAME_PROJECTS.md"
+    }
+  ],
+  "status": "historical"
+}

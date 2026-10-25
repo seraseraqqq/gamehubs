@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-25T02:58:32.579272+00:00",
+  "counts": {
+    "keywords": 117,
+    "observations": 244,
+    "batches": 5,
+    "reviews": 0,
+    "sites": 17
+  },
+  "errors": [],
+  "managementTestsPassed": 17,
+  "managementTestsFailed": 0,
+  "activeMarkdownFiles": 11,
+  "activeLocalLinksChecked": 64,
+  "activeBrokenLinks": [],
+  "primaryStudyEvidenceFilesVerified": 74,
+  "localHTTPRoutesVerified": 5,
+  "gameOrManagementDirectoryPresent": false,
+  "archivedGameRecords": 12,
+  "independentCanonicalSources": 17,
+  "compatibilityViewsConsistent": true,
+  "holdsRetained": true,
+  "newGameDeploymentStatusUnchanged": true,
+  "globalMemory": "not-applicable; untouched"
+}

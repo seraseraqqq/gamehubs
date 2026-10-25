@@ -25,17 +25,17 @@
 
 实体手机触屏/软键盘、200%缩放、跨浏览器专项、至少5名目标玩家竞品对照、逐词市场与名称/域名历史复核、生产PageSpeed/CWV、正式域名游玩和索引/分析/广告接入仍未验收。未安排外部人员联系，未建立自动化。关键词Volume/KD沿用已有研究估值，不将本地实现解释为流量、排名或收入成果。
 
-2026-10-25续更：完整运行时和优化已推送五仓，提交与当前验收见[优化交付](optimization-delivery.md)；其余内容保留2026-10-24首版验收范围。原有游戏的发布holds、Vercel项目、忽略构建逻辑和迁移快照保持不变。管理仓库整理后的台账路径为`management/data/repositories.json`，五项仍在plannedGames，developmentState已单独反映本地MVP状态。
+2026-10-25续更：完整运行时和优化已推送五仓，提交与当前验收见[优化交付](optimization-delivery.md)；其余内容保留2026-10-24首版验收范围。原有游戏的发布holds、Vercel项目、忽略构建逻辑和迁移快照保持不变。管理仓库整理后的台账路径为`data/repositories.json`，五项仍在plannedGames，developmentState已单独反映本地MVP状态。
 
 ## 沉淀的脚本
 
 从GameHubs根目录执行，要求五个生产预览端口4311–4315可用，并传入已连接的OpenCLI profile；脚本释放自己创建的浏览器会话。
 
-- `node management/tools/qa-five-games.mjs --profile <profile>`：真实页面10局/站、非法输入、模式/进度及截图。`--game <slug>`限定一站，`--skip-capture`只做玩法，`--capture-only`仅更新截图。
-- `node management/tools/qa-game-state.mjs --profile <profile>`：键盘、损坏与不可用存储、刷新及UTC旧存档重建；`--game`可限定。
-- `node management/tools/qa-review-states.mjs --profile <profile> --game colordle|travle`：结果比较与揭晓路线的语义和截图回归。
-- `node management/tools/qa-game-hover.mjs --profile <profile>`：实际悬停状态的选中模式/主按钮对比度；本轮最小6.25:1。
-- `node management/tools/check-five-games-http.mjs`：六个静态页面、标题/H1/描述/Schema、预览noindex、资产、许可证和真实404。
+- `node scripts/qa-five-games.mjs --profile <profile>`：真实页面10局/站、非法输入、模式/进度及截图。`--game <slug>`限定一站，`--skip-capture`只做玩法，`--capture-only`仅更新截图。
+- `node scripts/qa-game-state.mjs --profile <profile>`：键盘、损坏与不可用存储、刷新及UTC旧存档重建；`--game`可限定。
+- `node scripts/qa-review-states.mjs --profile <profile> --game colordle|travle`：结果比较与揭晓路线的语义和截图回归。
+- `node scripts/qa-game-hover.mjs --profile <profile>`：实际悬停状态的选中模式/主按钮对比度；本轮最小6.25:1。
+- `node scripts/check-five-games-http.mjs`：六个静态页面、标题/H1/描述/Schema、预览noindex、资产、许可证和真实404。
 - Cutle仓库：`node scripts/browser-drag.mjs --profile <profile>`，真实鼠标拖动校验被留白的SVG坐标，不把它当真实触屏测试。
 
 截图显式传递open返回的标签页ID，兼容本轮旧版扩展的会话行为。没有恢复已退休的根目录管理台账路径。

@@ -1,0 +1,34 @@
+{
+  "id": "dpl_AJ1aUmkkFnkKhJurkka68HxcHUse",
+  "name": "gamehubs-summit-unlimited",
+  "url": "gamehubs-summit-unlimited-bhtatlmab-gx03410-8651s-projects.vercel.app",
+  "type": "LAMBDAS",
+  "state": "INITIALIZING",
+  "createdAt": 1792895627678,
+  "creator": {
+    "uid": "hnBoZslKPVHPN4tsXyPY67fY",
+    "username": "gx03410-8651"
+  },
+  "project": {
+    "id": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+    "name": "gamehubs-summit-unlimited",
+    "framework": null
+  },
+  "meta": {
+    "githubCommitRef": "b602921f27aa53df7a8db37b7f13d89031575835",
+    "githubCommitSha": "b602921f27aa53df7a8db37b7f13d89031575835",
+    "githubCommitMessage": "chore: establish independent game source and preserve release configuration",
+    "githubRepo": "gameshub-krillion-unlimited",
+    "githubOrg": "seraseraqqq"
+  },
+  "alias": [
+    "gamehubs-summit-unlimited-gx03410-8651s-projects.vercel.app",
+    "gamehubs-summit-unlimited-git-b60-38e268-gx03410-8651s-projects.vercel.app"
+  ],
+  "target": "production",
+  "regions": [
+    "iad1"
+  ],
+  "buildingAt": 1792895627678,
+  "readyState": "INITIALIZING"
+}

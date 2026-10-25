@@ -1,7 +1,0 @@
-{
-  "cleanUrls": true,
-  "framework": null,
-  "buildCommand": "node scripts/build.mjs --origin https://gulperio.com",
-  "installCommand": "",
-  "outputDirectory": "dist"
-}

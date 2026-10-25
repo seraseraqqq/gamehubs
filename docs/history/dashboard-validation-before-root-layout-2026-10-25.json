@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-10-25T00:31:31.369217+08:00",
+  "baseCommit": "62defcb9cd1f179dfdc0d830cd5c12f7112ec388",
+  "formalData": {
+    "keywords": 117,
+    "clusters": 99,
+    "strictMetricMatches": 17,
+    "observations": 239,
+    "sourceBatches": 4,
+    "buildPlans": 11,
+    "remainingDispositions": 106,
+    "sites": 17,
+    "existingSites": 12,
+    "newUndeployedProjects": 5,
+    "humanReviewEvents": 0
+  },
+  "automatedTests": {
+    "command": "python3 -m unittest discover -s management/tools -p test_hub.py -v",
+    "passed": 16,
+    "failed": 0
+  },
+  "realBrowserChecks": {
+    "browser": "agent-browser Chrome",
+    "dataRoot": "isolated temporary copy; formal records never used for mutations",
+    "passed": [
+      "two-keyword bulk review writes independent JSON files",
+      "page reload retains human decisions",
+      "filter approved reviews returns two rows",
+      "actual filtered CSV download contains two records and UTF-8 BOM",
+      "two browser sessions retain stale concurrent review as conflict",
+      "follow-up human review merges all current branches",
+      "site edit persists stage/next action and retains history",
+      "keyword maps to an additional site/page; site has multiple keywords",
+      "site stage filter reflects saved change",
+      "11 construction plans and 17 site records render",
+      "batch detail opens its 11 keywords",
+      "original JSON evidence loads as plain text",
+      "formal site market filter includes unknown markets",
+      "formal awaiting-release filter shows five projects"
+    ]
+  },
+  "httpAndImportChecks": {
+    "passed": [
+      "invalid write token rejected 403",
+      "foreign Origin rejected 403",
+      "evidence traversal denied 404",
+      "non-object request rejected 400",
+      "stale site revision rejected 409 without overwrite",
+      "CLI import preserves two good rows and one bad raw row",
+      "repeat batch import unchanged",
+      "US/en and GB/en remain separate",
+      "new automated rejected result does not overwrite human defer decision"
+    ]
+  },
+  "preservation": {
+    "verifiedBackup": "/Users/xg/Projects/SEO-Projects/.gamehubs-backups/management-20261025-000950",
+    "backupFiles": 115,
+    "gameAndIgnoreScriptFilesHashChecked": 382,
+    "runtimeChanged": false,
+    "priorUntrackedResearchPreserved": true,
+    "retiredRootPathsRestored": false
+  },
+  "previews": [
+    "management/.local/keywords-desktop.png",
+    "management/.local/build-plans-desktop.png",
+    "management/.local/sites-desktop.png",
+    "management/.local/keywords-mobile.png"
+  ],
+  "limits": [
+    "390px mobile layout is browser emulation, not physical-device verification",
+    "legacy runtime QA requiring another device checkout was not rerun",
+    "online deployment/gameplay/indexing were not reverified",
+    "cross-device transport uses manual Git; no automatic sync"
+  ],
+  "delivery": {
+    "localURL": "http://127.0.0.1:4310/",
+    "commitCreated": false,
+    "pushed": false,
+    "deployed": false
+  }
+}

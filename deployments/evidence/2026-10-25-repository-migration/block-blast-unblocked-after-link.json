@@ -1,0 +1,42 @@
+{
+  "id": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+  "name": "block-blast-unblocked",
+  "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+  "rootDirectory": null,
+  "buildCommand": null,
+  "installCommand": null,
+  "outputDirectory": null,
+  "framework": null,
+  "commandForIgnoringBuildStep": null,
+  "nodeVersion": "24.x",
+  "autoAssignCustomDomains": true,
+  "sourceFilesOutsideRootDirectory": true,
+  "link": {
+    "type": "github",
+    "org": "seraseraqqq",
+    "repo": "gameshub-block-blast-unblocked",
+    "repoId": 1432762961,
+    "productionBranch": "main",
+    "createdAt": 1792895152911
+  },
+  "protectionFingerprint": "9582faf9dceefc5322ded4495a95750df07e7badbb22f107b3f3a7dd2a2e4637",
+  "environmentMetadata": [],
+  "domains": [
+    {
+      "name": "playblockblastunblocked.com",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "name": "www.playblockblastunblocked.com",
+      "verified": true,
+      "redirect": "playblockblastunblocked.com",
+      "redirectStatusCode": 301,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ]
+}

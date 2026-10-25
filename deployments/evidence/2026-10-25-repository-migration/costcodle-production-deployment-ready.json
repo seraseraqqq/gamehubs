@@ -1,0 +1,38 @@
+{
+  "id": "dpl_XDeaVpd4JfB9A2KuTiV67jD8ReH4",
+  "name": "costcodle-unlimited",
+  "url": "costcodle-unlimited-q890kgt4e-gx03410-8651s-projects.vercel.app",
+  "type": "LAMBDAS",
+  "state": "READY",
+  "createdAt": 1792895527218,
+  "creator": {
+    "uid": "hnBoZslKPVHPN4tsXyPY67fY",
+    "username": "gx03410-8651"
+  },
+  "project": {
+    "id": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+    "name": "costcodle-unlimited",
+    "framework": null
+  },
+  "meta": {
+    "githubCommitRef": "a2af21d0e74622a8a35098ea29b4700dd20f848d",
+    "githubCommitSha": "a2af21d0e74622a8a35098ea29b4700dd20f848d",
+    "githubCommitMessage": "chore: establish independent game source and preserve release configuration",
+    "githubRepo": "gameshub-costcodle",
+    "githubOrg": "seraseraqqq"
+  },
+  "alias": [
+    "costcodle.cc",
+    "www.costcodle.cc",
+    "costcodle-unlimited-gx03410-8651s-projects.vercel.app",
+    "costcodle-unlimited-git-a2af21d0e-6ee322-gx03410-8651s-projects.vercel.app"
+  ],
+  "target": "production",
+  "regions": [
+    "iad1"
+  ],
+  "buildingAt": 1792895529207,
+  "ready": 1792895531876,
+  "readyState": "READY",
+  "aliasError": null
+}

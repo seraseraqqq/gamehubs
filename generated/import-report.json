@@ -1,0 +1,47 @@
+{
+  "constructionPlans": 11,
+  "counts": {
+    "batches": 5,
+    "keywords": 117,
+    "observations": 244,
+    "reviews": 0,
+    "sites": 17
+  },
+  "dispositions": 106,
+  "errors": [],
+  "existingSites": 12,
+  "imports": [
+    {
+      "accepted": 117,
+      "id": "2026-10-24-keyword-research-e0d44f9c7d6f",
+      "rejected": 0,
+      "status": "unchanged"
+    },
+    {
+      "accepted": 11,
+      "id": "2026-10-24-build-plan-96e00d03240b",
+      "rejected": 0,
+      "status": "unchanged"
+    },
+    {
+      "accepted": 106,
+      "id": "2026-10-24-dispositions-7861f07f756d",
+      "rejected": 0,
+      "status": "unchanged"
+    },
+    {
+      "accepted": 5,
+      "id": "2026-10-25-project-registry-e19e121517eb",
+      "rejected": 0,
+      "status": "imported"
+    }
+  ],
+  "newProjects": 5,
+  "oldLocalData": "原本17批/191观察/122身份未混入主池，完整保存在工作区外的可恢复备份。",
+  "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+  "sourceResearch": {
+    "clusters": 99,
+    "keywords": 117,
+    "strictMetricMatches": 17
+  }
+}

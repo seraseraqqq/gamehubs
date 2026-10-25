@@ -1,0 +1,13 @@
+{
+  "requestedURL": "https://gamehubs-minute-cryptic-unlimited.vercel.app/",
+  "finalURL": "https://gamehubs-minute-cryptic-unlimited.vercel.app/",
+  "httpStatus": 200,
+  "robots": "noindex, nofollow",
+  "noindex": true,
+  "canonical": null,
+  "title": "Minute Cryptic Unlimited – Free Cryptic Practice",
+  "scriptsVerified": [
+    "./clues.js",
+    "./practice.js"
+  ]
+}

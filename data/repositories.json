@@ -1,0 +1,725 @@
+{
+  "_management": {
+    "command": "python3 scripts/hub.py generate",
+    "generatedFrom": "data/sites/*.json",
+    "note": "兼容视图，勿手填。保留原工具字段；源码、映射与进度由正式站点记录生成。"
+  },
+  "games": [
+    {
+      "archivedSnapshots": [
+        {
+          "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+          "directory": "games/block-blast-unblocked",
+          "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+          "removedAt": "2026-10-25T02:55:08.814269+00:00",
+          "repository": "https://github.com/seraseraqqq/gamehubs"
+        }
+      ],
+      "developmentState": "independent-repository-deployed",
+      "legacyState": "removed-from-management-checkout; available-in-git-history",
+      "localWorktreeState": "clean-pushed",
+      "managementRecord": "data/sites/block-blast-unblocked.json",
+      "managementStage": "deployed",
+      "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/block-blast-unblocked-final.json",
+      "migrationState": "independent-repository-verified",
+      "releaseState": "deployed",
+      "repo": "https://github.com/seraseraqqq/gameshub-block-blast-unblocked",
+      "rootDirectory": ".",
+      "siteId": "block-blast-unblocked",
+      "sourceBranch": "main",
+      "vercel": {
+        "ignoreCommand": null,
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_C7fqqTghDjgMxUFegbzg7pb4WhoE",
+          "readyState": "READY",
+          "url": "block-blast-unblocked-7aq6h3qh0-gx03410-8651s-projects.vercel.app"
+        },
+        "projectId": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+        "projectName": "block-blast-unblocked",
+        "repository": "https://github.com/seraseraqqq/gameshub-block-blast-unblocked",
+        "repositoryId": 1432762961,
+        "rootDirectory": null,
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+      },
+      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
+      "verifiedHead": "07cf140be88943ee8516a6f21c1cfbd902bb3c4d"
+    },
+    {
+      "archivedSnapshots": [
+        {
+          "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+          "directory": "games/costcodle",
+          "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+          "removedAt": "2026-10-25T02:55:08.814269+00:00",
+          "repository": "https://github.com/seraseraqqq/gamehubs"
+        }
+      ],
+      "developmentState": "independent-repository-deployed",
+      "legacyState": "removed-from-management-checkout; available-in-git-history",
+      "localWorktreeState": "clean-pushed",
+      "managementRecord": "data/sites/costcodle.json",
+      "managementStage": "deployed",
+      "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/costcodle-final.json",
+      "migrationState": "independent-repository-verified",
+      "releaseState": "deployed",
+      "repo": "https://github.com/seraseraqqq/gameshub-costcodle",
+      "rootDirectory": ".",
+      "siteId": "costcodle",
+      "sourceBranch": "main",
+      "vercel": {
+        "ignoreCommand": null,
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_XDeaVpd4JfB9A2KuTiV67jD8ReH4",
+          "readyState": "READY",
+          "url": "costcodle-unlimited-q890kgt4e-gx03410-8651s-projects.vercel.app"
+        },
+        "projectId": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+        "projectName": "costcodle-unlimited",
+        "repository": "https://github.com/seraseraqqq/gameshub-costcodle",
+        "repositoryId": 1432763012,
+        "rootDirectory": null,
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+      },
+      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
+      "verifiedHead": "a2af21d0e74622a8a35098ea29b4700dd20f848d"
+    },
+    {
+      "archivedSnapshots": [
+        {
+          "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+          "directory": "games/gulperio",
+          "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+          "removedAt": "2026-10-25T02:55:08.814269+00:00",
+          "repository": "https://github.com/seraseraqqq/gamehubs"
+        }
+      ],
+      "developmentState": "independent-repository-deployed",
+      "legacyState": "removed-from-management-checkout; available-in-git-history",
+      "localWorktreeState": "clean-pushed",
+      "managementRecord": "data/sites/gulper-io.json",
+      "managementStage": "deployed",
+      "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/gulper-io-final.json",
+      "migrationState": "independent-repository-verified",
+      "releaseState": "deployed",
+      "repo": "https://github.com/seraseraqqq/gameshub-gulper-io",
+      "rootDirectory": ".",
+      "siteId": "gulper-io",
+      "sourceBranch": "main",
+      "vercel": {
+        "ignoreCommand": null,
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_6LJSxinmtsc5Hct8ve3AE96gUNhs",
+          "readyState": "READY",
+          "url": "gulperio-game-5k7ymsvkr-gx03410-8651s-projects.vercel.app"
+        },
+        "projectId": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+        "projectName": "gulperio-game",
+        "repository": "https://github.com/seraseraqqq/gameshub-gulper-io",
+        "repositoryId": 1432763090,
+        "rootDirectory": null,
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+      },
+      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
+      "verifiedHead": "1d94e2c8d17f6e6c39dbcfa91237371fbb1c907e"
+    },
+    {
+      "archivedSnapshots": [
+        {
+          "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+          "directory": "games/summit-unlimited",
+          "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+          "removedAt": "2026-10-25T02:55:08.814269+00:00",
+          "repository": "https://github.com/seraseraqqq/gamehubs"
+        }
+      ],
+      "developmentState": "independent-repository-deployed",
+      "legacyState": "removed-from-management-checkout; available-in-git-history",
+      "localWorktreeState": "clean-pushed",
+      "managementRecord": "data/sites/krillion-unlimited.json",
+      "managementStage": "deployed",
+      "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/krillion-unlimited-final.json",
+      "migrationState": "independent-repository-verified",
+      "releaseState": "deployed",
+      "repo": "https://github.com/seraseraqqq/gameshub-krillion-unlimited",
+      "rootDirectory": ".",
+      "siteId": "krillion-unlimited",
+      "sourceBranch": "main",
+      "vercel": {
+        "ignoreCommand": null,
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_AJ1aUmkkFnkKhJurkka68HxcHUse",
+          "readyState": "READY",
+          "url": "gamehubs-summit-unlimited-bhtatlmab-gx03410-8651s-projects.vercel.app"
+        },
+        "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+        "projectName": "gamehubs-summit-unlimited",
+        "repository": "https://github.com/seraseraqqq/gameshub-krillion-unlimited",
+        "repositoryId": 1432763180,
+        "rootDirectory": null,
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+      },
+      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
+      "verifiedHead": "b602921f27aa53df7a8db37b7f13d89031575835"
+    },
+    {
+      "archivedSnapshots": [
+        {
+          "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+          "directory": "games/spacebar-counter",
+          "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+          "removedAt": "2026-10-25T02:55:08.814269+00:00",
+          "repository": "https://github.com/seraseraqqq/gamehubs"
+        }
+      ],
+      "developmentState": "independent-repository-deployed",
+      "legacyState": "removed-from-management-checkout; available-in-git-history",
+      "localWorktreeState": "clean-pushed",
+      "managementRecord": "data/sites/spacebar-counter.json",
+      "managementStage": "deployed",
+      "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/spacebar-counter-final.json",
+      "migrationState": "independent-repository-verified",
+      "releaseState": "deployed",
+      "repo": "https://github.com/seraseraqqq/gameshub-spacebar-counter",
+      "rootDirectory": ".",
+      "siteId": "spacebar-counter",
+      "sourceBranch": "main",
+      "vercel": {
+        "ignoreCommand": null,
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_BizhMsF44EjvQMupzC4fqtyeBmPt",
+          "readyState": "READY",
+          "url": "gamehubs-spacebar-counter-nbjwdpqbb-gx03410-8651s-projects.vercel.app"
+        },
+        "projectId": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+        "projectName": "gamehubs-spacebar-counter",
+        "repository": "https://github.com/seraseraqqq/gameshub-spacebar-counter",
+        "repositoryId": 1432763331,
+        "rootDirectory": null,
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+      },
+      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
+      "verifiedHead": "34f02d435684c22fd53fa8f8102f6d75b242f30c"
+    },
+    {
+      "archivedSnapshots": [
+        {
+          "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+          "directory": "games/2048-cupcakes",
+          "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+          "removedAt": "2026-10-25T02:55:08.814269+00:00",
+          "repository": "https://github.com/seraseraqqq/gamehubs"
+        }
+      ],
+      "developmentState": "independent-repository-deployed",
+      "legacyState": "removed-from-management-checkout; available-in-git-history",
+      "localWorktreeState": "clean-pushed",
+      "managementRecord": "data/sites/2048-cupcakes.json",
+      "managementStage": "deployed",
+      "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/2048-cupcakes-final.json",
+      "migrationState": "independent-repository-verified",
+      "releaseState": "deployed",
+      "repo": "https://github.com/seraseraqqq/gameshub-2048-cupcakes",
+      "rootDirectory": ".",
+      "siteId": "2048-cupcakes",
+      "sourceBranch": "main",
+      "vercel": {
+        "ignoreCommand": null,
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_8pRSPENzV5JHabD2R9Zphkezp7JH",
+          "readyState": "READY",
+          "url": "gamehubs-2048-cupcakes-zt19722jn-gx03410-8651s-projects.vercel.app"
+        },
+        "projectId": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+        "projectName": "gamehubs-2048-cupcakes",
+        "repository": "https://github.com/seraseraqqq/gameshub-2048-cupcakes",
+        "repositoryId": 1432763397,
+        "rootDirectory": null,
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+      },
+      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
+      "verifiedHead": "c26b71c763101186775aa3613562a48adc6f0918"
+    },
+    {
+      "archivedSnapshots": [
+        {
+          "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+          "directory": "games/coreball",
+          "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+          "removedAt": "2026-10-25T02:55:08.814269+00:00",
+          "repository": "https://github.com/seraseraqqq/gamehubs"
+        }
+      ],
+      "developmentState": "independent-repository-deployed",
+      "legacyState": "removed-from-management-checkout; available-in-git-history",
+      "localWorktreeState": "clean-pushed",
+      "managementRecord": "data/sites/coreball.json",
+      "managementStage": "deployed",
+      "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/coreball-final.json",
+      "migrationState": "independent-repository-verified",
+      "releaseState": "deployed-noindex-awaiting-domain",
+      "repo": "https://github.com/seraseraqqq/gameshub-coreball",
+      "rootDirectory": ".",
+      "siteId": "coreball",
+      "sourceBranch": "main",
+      "vercel": {
+        "ignoreCommand": null,
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_6wy5XZvwyfXETCVvtMFgzvrcNo2z",
+          "readyState": "READY",
+          "url": "gamehubs-coreball-i4osy34yo-gx03410-8651s-projects.vercel.app"
+        },
+        "projectId": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
+        "projectName": "gamehubs-coreball",
+        "repository": "https://github.com/seraseraqqq/gameshub-coreball",
+        "repositoryId": 1432763484,
+        "rootDirectory": null,
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+      },
+      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
+      "verifiedHead": "2793a39f4c3417d16b746e758153a97fa8c07113"
+    },
+    {
+      "archivedSnapshots": [
+        {
+          "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+          "directory": "games/minute-cryptic-unlimited",
+          "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+          "removedAt": "2026-10-25T02:55:08.814269+00:00",
+          "repository": "https://github.com/seraseraqqq/gamehubs"
+        }
+      ],
+      "developmentState": "independent-repository-deployed",
+      "legacyState": "removed-from-management-checkout; available-in-git-history",
+      "localWorktreeState": "clean-pushed",
+      "managementRecord": "data/sites/minute-cryptic-unlimited.json",
+      "managementStage": "deployed",
+      "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/minute-cryptic-unlimited-final.json",
+      "migrationState": "independent-repository-verified",
+      "releaseState": "deployed-noindex-awaiting-domain",
+      "repo": "https://github.com/seraseraqqq/gameshub-minute-cryptic-unlimited",
+      "rootDirectory": ".",
+      "siteId": "minute-cryptic-unlimited",
+      "sourceBranch": "main",
+      "vercel": {
+        "ignoreCommand": null,
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_FfbRYyHpyQsvQvPnPQmtGquuXTMW",
+          "readyState": "READY",
+          "url": "gamehubs-minute-cryptic-unlimited-376wvot9a.vercel.app"
+        },
+        "projectId": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
+        "projectName": "gamehubs-minute-cryptic-unlimited",
+        "repository": "https://github.com/seraseraqqq/gameshub-minute-cryptic-unlimited",
+        "repositoryId": 1432763581,
+        "rootDirectory": null,
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+      },
+      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
+      "verifiedHead": "b5d18ddb0a0f7bf057037b7860f18b255da6af84"
+    },
+    {
+      "archivedSnapshots": [
+        {
+          "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+          "directory": "games/snow-rider-3d-unblocked",
+          "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+          "removedAt": "2026-10-25T02:55:08.814269+00:00",
+          "repository": "https://github.com/seraseraqqq/gamehubs"
+        }
+      ],
+      "developmentState": "independent-repository-deployed",
+      "legacyState": "removed-from-management-checkout; available-in-git-history",
+      "localWorktreeState": "clean-pushed",
+      "managementRecord": "data/sites/snow-rider-3d-unblocked.json",
+      "managementStage": "deployed",
+      "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/snow-rider-3d-unblocked-final.json",
+      "migrationState": "independent-repository-verified",
+      "releaseState": "deployed-awaiting-gameplay-verification",
+      "repo": "https://github.com/seraseraqqq/gameshub-snow-rider-3d-unblocked",
+      "rootDirectory": ".",
+      "siteId": "snow-rider-3d-unblocked",
+      "sourceBranch": "main",
+      "vercel": {
+        "ignoreCommand": null,
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_HXF2m9uNwvzTs1ufjymw2hdhuTng",
+          "readyState": "READY",
+          "url": "gamehubs-snow-rider-3d-6rr13e34q-gx03410-8651s-projects.vercel.app"
+        },
+        "projectId": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+        "projectName": "gamehubs-snow-rider-3d",
+        "repository": "https://github.com/seraseraqqq/gameshub-snow-rider-3d-unblocked",
+        "repositoryId": 1432763661,
+        "rootDirectory": null,
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+      },
+      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
+      "verifiedHead": "d86a93bf1fa2f726aae71d0447c73b592a7ed3d3"
+    },
+    {
+      "archivedSnapshots": [
+        {
+          "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+          "directory": "games/head-soccer-2026",
+          "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+          "removedAt": "2026-10-25T02:55:08.814269+00:00",
+          "repository": "https://github.com/seraseraqqq/gamehubs"
+        }
+      ],
+      "developmentState": "independent-repository-deployed",
+      "legacyState": "removed-from-management-checkout; available-in-git-history",
+      "localWorktreeState": "clean-pushed",
+      "managementRecord": "data/sites/head-soccer-2026.json",
+      "managementStage": "deployed",
+      "migrationEvidence": "deployments/evidence/2026-10-25-repository-migration/head-soccer-2026-final.json",
+      "migrationState": "independent-repository-verified",
+      "releaseState": "deployed",
+      "repo": "https://github.com/seraseraqqq/gameshub-head-soccer-2026",
+      "rootDirectory": ".",
+      "siteId": "head-soccer-2026",
+      "sourceBranch": "main",
+      "vercel": {
+        "ignoreCommand": null,
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_4YVYnKFHb11kVNYLhyyL5QkWiZBA",
+          "readyState": "READY",
+          "url": "gamehubs-head-soccer-2026-2uj95lgs4-gx03410-8651s-projects.vercel.app"
+        },
+        "projectId": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+        "projectName": "gamehubs-head-soccer-2026",
+        "repository": "https://github.com/seraseraqqq/gameshub-head-soccer-2026",
+        "repositoryId": 1432763748,
+        "rootDirectory": null,
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+      },
+      "verifiedAt": "2026-10-25T02:39:45.912618+00:00",
+      "verifiedHead": "849cb11b14bef244156853ec1e8be5e3f4c855d1"
+    },
+    {
+      "archivedSnapshots": [
+        {
+          "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+          "directory": "games/acceleration-city",
+          "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+          "removedAt": "2026-10-25T02:55:08.814269+00:00",
+          "repository": "https://github.com/seraseraqqq/gamehubs"
+        }
+      ],
+      "historicalLocalPath": "E:/Projects/game-sites/acceleration-city",
+      "legacyState": "removed-from-management-checkout; available-in-git-history",
+      "localPath": "E:/Projects/game-sites/acceleration-city",
+      "localPathScope": "recorded-source-device-only; not a portable source identity",
+      "managementRecord": "data/sites/acceleration-city.json",
+      "managementStage": "blocked",
+      "migrationCommit": "04ee594d9c9a8c1b41c6be1603269951e0d8ef22",
+      "migrationState": "independent-repository",
+      "private": true,
+      "releaseState": "publication-deferred-by-owner",
+      "repo": "https://github.com/seraseraqqq/gamehubs-acceleration-city",
+      "rootDirectory": ".",
+      "siteId": "acceleration-city",
+      "sourceBranch": "main",
+      "sourceCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+      "splitHistoryCommit": "b9735e264ca0a9768d12b86509ad29c56e48eaa5",
+      "verifiedHead": "ba82e939249b775f5637248af986843c5d31ce4b"
+    },
+    {
+      "archivedSnapshots": [
+        {
+          "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+          "directory": "games/cluster-rush",
+          "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+          "removedAt": "2026-10-25T02:55:08.814269+00:00",
+          "repository": "https://github.com/seraseraqqq/gamehubs"
+        }
+      ],
+      "historicalLocalPath": "E:/Projects/game-sites/cluster-rush",
+      "legacyState": "removed-from-management-checkout; available-in-git-history",
+      "localPath": "E:/Projects/game-sites/cluster-rush",
+      "localPathScope": "recorded-source-device-only; not a portable source identity",
+      "managementRecord": "data/sites/cluster-rush.json",
+      "managementStage": "blocked",
+      "migrationCommit": "69e0068c166e28f3ecf21992ae3ce59c0c445e76",
+      "migrationState": "independent-repository",
+      "private": true,
+      "releaseState": "github-pushed-awaiting-deployment",
+      "repo": "https://github.com/seraseraqqq/gamehubs-cluster-rush",
+      "rootDirectory": ".",
+      "siteId": "cluster-rush",
+      "sourceBranch": "main",
+      "sourceCommit": "144f269628a5f564fa1f9418e0e6747c8e91ed01",
+      "splitHistoryCommit": "f7205783b2a370fb70f14d9140446fedbcf3b9c1",
+      "verifiedHead": "73a414801ab1e6a184737f27c9069ca7448692d3"
+    }
+  ],
+  "managementRepository": "https://github.com/seraseraqqq/gamehubs",
+  "phase": "all-game-sources-independent",
+  "plannedGames": [
+    {
+      "cohort": "P0 · 首批",
+      "defaultBranch": "main",
+      "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
+      "displayName": "Cutle",
+      "documentation": {
+        "competitors": "docs/COMPETITORS.md",
+        "design": "docs/DESIGN_BRIEF.md",
+        "handoff": ".rankup/INDEX.md",
+        "optimization": "docs/OPTIMIZATION.md",
+        "requirements": "docs/PRD.md"
+      },
+      "domainOwned": false,
+      "githubRepositoryId": 1432163348,
+      "historicalLocalPath": "E:/Projects/game-sites/cutle",
+      "localPath": "E:/Projects/game-sites/cutle",
+      "localPathScope": "recorded-source-device-only; not a portable source identity",
+      "localPreview": "http://127.0.0.1:4311",
+      "localValidation": {
+        "chromeCompletedRounds": 10,
+        "date": "2026-10-24",
+        "engineTests": 5,
+        "physicalDeviceAcceptance": false,
+        "playerComparisonAcceptance": false,
+        "review": "ship-at-local-prototype-scope"
+      },
+      "localWorktreeState": "clean-pushed",
+      "managementRecord": "data/sites/cutle.json",
+      "managementStage": "awaiting_release",
+      "migrationState": "new-independent-repository",
+      "optimizationValidation": {
+        "chromeFlowsPassed": true,
+        "date": "2026-10-25",
+        "engineTests": 6,
+        "physicalDeviceAcceptance": false,
+        "playerComparisonAcceptance": false,
+        "productionPerformanceAcceptance": false,
+        "review": "ship-local-prototype"
+      },
+      "plannedDomain": "cutleunlimited.com",
+      "priority": 1,
+      "private": true,
+      "releaseState": "not-deployed",
+      "repo": "https://github.com/seraseraqqq/gameshub-cutle",
+      "rootDirectory": ".",
+      "siteId": "cutle",
+      "sourceBranch": "main",
+      "vercel": null,
+      "verifiedAt": "2026-10-24T16:40:34.552Z",
+      "verifiedHead": "cd3d12b88e94743ac47539656114088b72f3c473"
+    },
+    {
+      "cohort": "P0 · 首批",
+      "defaultBranch": "main",
+      "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
+      "displayName": "Poople",
+      "documentation": {
+        "competitors": "docs/COMPETITORS.md",
+        "design": "docs/DESIGN_BRIEF.md",
+        "handoff": ".rankup/INDEX.md",
+        "optimization": "docs/OPTIMIZATION.md",
+        "requirements": "docs/PRD.md"
+      },
+      "domainOwned": false,
+      "githubRepositoryId": 1432163572,
+      "historicalLocalPath": "E:/Projects/game-sites/poople",
+      "localPath": "E:/Projects/game-sites/poople",
+      "localPathScope": "recorded-source-device-only; not a portable source identity",
+      "localPreview": "http://127.0.0.1:4312",
+      "localValidation": {
+        "chromeCompletedRounds": 10,
+        "date": "2026-10-24",
+        "engineTests": 4,
+        "physicalDeviceAcceptance": false,
+        "playerComparisonAcceptance": false,
+        "review": "ship-at-local-prototype-scope"
+      },
+      "localWorktreeState": "clean-pushed",
+      "managementRecord": "data/sites/poople.json",
+      "managementStage": "awaiting_release",
+      "migrationState": "new-independent-repository",
+      "optimizationValidation": {
+        "chromeFlowsPassed": true,
+        "date": "2026-10-25",
+        "engineTests": 5,
+        "physicalDeviceAcceptance": false,
+        "playerComparisonAcceptance": false,
+        "productionPerformanceAcceptance": false,
+        "review": "ship-local-prototype"
+      },
+      "plannedDomain": "pooplepractice.com",
+      "priority": 2,
+      "private": true,
+      "releaseState": "not-deployed",
+      "repo": "https://github.com/seraseraqqq/gameshub-poople",
+      "rootDirectory": ".",
+      "siteId": "poople",
+      "sourceBranch": "main",
+      "vercel": null,
+      "verifiedAt": "2026-10-24T16:40:35.796Z",
+      "verifiedHead": "09a623df1cccd3afc7597eef27b18e3d3b6ca813"
+    },
+    {
+      "cohort": "P0 · 首批",
+      "defaultBranch": "main",
+      "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
+      "displayName": "Colordle",
+      "documentation": {
+        "competitors": "docs/COMPETITORS.md",
+        "design": "docs/DESIGN_BRIEF.md",
+        "handoff": ".rankup/INDEX.md",
+        "optimization": "docs/OPTIMIZATION.md",
+        "requirements": "docs/PRD.md"
+      },
+      "domainOwned": false,
+      "githubRepositoryId": 1432163806,
+      "historicalLocalPath": "E:/Projects/game-sites/colordle",
+      "localPath": "E:/Projects/game-sites/colordle",
+      "localPathScope": "recorded-source-device-only; not a portable source identity",
+      "localPreview": "http://127.0.0.1:4313",
+      "localValidation": {
+        "chromeCompletedRounds": 10,
+        "date": "2026-10-24",
+        "engineTests": 3,
+        "physicalDeviceAcceptance": false,
+        "playerComparisonAcceptance": false,
+        "review": "ship-at-local-prototype-scope"
+      },
+      "localWorktreeState": "clean-pushed",
+      "managementRecord": "data/sites/colordle.json",
+      "managementStage": "awaiting_release",
+      "migrationState": "new-independent-repository",
+      "optimizationValidation": {
+        "chromeFlowsPassed": true,
+        "date": "2026-10-25",
+        "engineTests": 4,
+        "physicalDeviceAcceptance": false,
+        "playerComparisonAcceptance": false,
+        "productionPerformanceAcceptance": false,
+        "review": "ship-local-prototype"
+      },
+      "plannedDomain": "colordleunlimited.com",
+      "priority": 3,
+      "private": true,
+      "releaseState": "not-deployed",
+      "repo": "https://github.com/seraseraqqq/gameshub-colordle",
+      "rootDirectory": ".",
+      "siteId": "colordle",
+      "sourceBranch": "main",
+      "vercel": null,
+      "verifiedAt": "2026-10-24T16:40:37.125Z",
+      "verifiedHead": "0092d9d796a00048f65855dfbf072fa2dec5760b"
+    },
+    {
+      "cohort": "P1 · 第二批",
+      "defaultBranch": "main",
+      "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
+      "displayName": "Metazooa",
+      "documentation": {
+        "competitors": "docs/COMPETITORS.md",
+        "design": "docs/DESIGN_BRIEF.md",
+        "handoff": ".rankup/INDEX.md",
+        "optimization": "docs/OPTIMIZATION.md",
+        "requirements": "docs/PRD.md"
+      },
+      "domainOwned": false,
+      "githubRepositoryId": 1432163965,
+      "historicalLocalPath": "E:/Projects/game-sites/metazooa",
+      "localPath": "E:/Projects/game-sites/metazooa",
+      "localPathScope": "recorded-source-device-only; not a portable source identity",
+      "localPreview": "http://127.0.0.1:4314",
+      "localValidation": {
+        "chromeCompletedRounds": 10,
+        "date": "2026-10-24",
+        "engineTests": 4,
+        "physicalDeviceAcceptance": false,
+        "playerComparisonAcceptance": false,
+        "review": "ship-at-local-prototype-scope"
+      },
+      "localWorktreeState": "clean-pushed",
+      "managementRecord": "data/sites/metazooa.json",
+      "managementStage": "awaiting_release",
+      "migrationState": "new-independent-repository",
+      "optimizationValidation": {
+        "chromeFlowsPassed": true,
+        "date": "2026-10-25",
+        "engineTests": 4,
+        "physicalDeviceAcceptance": false,
+        "playerComparisonAcceptance": false,
+        "productionPerformanceAcceptance": false,
+        "review": "ship-local-prototype"
+      },
+      "plannedDomain": "metazooapractice.com",
+      "priority": 4,
+      "private": true,
+      "releaseState": "not-deployed",
+      "repo": "https://github.com/seraseraqqq/gameshub-metazooa",
+      "rootDirectory": ".",
+      "siteId": "metazooa",
+      "sourceBranch": "main",
+      "vercel": null,
+      "verifiedAt": "2026-10-24T16:40:38.347Z",
+      "verifiedHead": "2e504e89c85b7f24a963881f39d69632b44fd29e"
+    },
+    {
+      "cohort": "P1 · 第二批",
+      "defaultBranch": "main",
+      "developmentState": "local-optimized-verified-pending-device-and-player-acceptance",
+      "displayName": "Travle",
+      "documentation": {
+        "competitors": "docs/COMPETITORS.md",
+        "design": "docs/DESIGN_BRIEF.md",
+        "handoff": ".rankup/INDEX.md",
+        "optimization": "docs/OPTIMIZATION.md",
+        "requirements": "docs/PRD.md"
+      },
+      "domainOwned": false,
+      "githubRepositoryId": 1432164130,
+      "historicalLocalPath": "E:/Projects/game-sites/travle",
+      "localPath": "E:/Projects/game-sites/travle",
+      "localPathScope": "recorded-source-device-only; not a portable source identity",
+      "localPreview": "http://127.0.0.1:4315",
+      "localValidation": {
+        "chromeCompletedRounds": 10,
+        "date": "2026-10-24",
+        "engineTests": 5,
+        "physicalDeviceAcceptance": false,
+        "playerComparisonAcceptance": false,
+        "review": "ship-at-local-prototype-scope"
+      },
+      "localWorktreeState": "clean-pushed",
+      "managementRecord": "data/sites/travle.json",
+      "managementStage": "awaiting_release",
+      "migrationState": "new-independent-repository",
+      "optimizationValidation": {
+        "chromeFlowsPassed": true,
+        "date": "2026-10-25",
+        "engineTests": 6,
+        "physicalDeviceAcceptance": false,
+        "playerComparisonAcceptance": false,
+        "productionPerformanceAcceptance": false,
+        "review": "ship-local-prototype"
+      },
+      "plannedDomain": "travleunlimited.com",
+      "priority": 5,
+      "private": true,
+      "releaseState": "not-deployed",
+      "repo": "https://github.com/seraseraqqq/gameshub-travle",
+      "rootDirectory": ".",
+      "siteId": "travle",
+      "sourceBranch": "main",
+      "vercel": null,
+      "verifiedAt": "2026-10-24T16:40:39.599Z",
+      "verifiedHead": "0dde58e7eb69bc6cab48b8fa283bf35b29113916"
+    }
+  ],
+  "updatedAt": "2026-10-25T02:39:45.912618+00:00"
+}

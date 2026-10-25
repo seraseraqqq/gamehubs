@@ -1,0 +1,251 @@
+{
+  "blockers": [
+    "实体设备/玩家/生产性能仍待验收；源码主分支SHA已在本机只读核实",
+    "域名未购买，未建立Vercel项目、未部署"
+  ],
+  "development": {
+    "evidence": "research/2026-10-24-five-game-development/STATUS.md",
+    "implementationPushed": true,
+    "localValidation": {
+      "chromeCompletedRounds": 10,
+      "date": "2026-10-24",
+      "engineTests": 5,
+      "physicalDeviceAcceptance": false,
+      "playerComparisonAcceptance": false,
+      "review": "ship-at-local-prototype-scope"
+    },
+    "optimizationValidation": {
+      "chromeFlowsPassed": true,
+      "date": "2026-10-25",
+      "engineTests": 6,
+      "physicalDeviceAcceptance": false,
+      "playerComparisonAcceptance": false,
+      "productionPerformanceAcceptance": false,
+      "review": "ship-local-prototype"
+    },
+    "pushRecordedAt": "2026-10-24T16:40:34.552Z",
+    "recordedHead": "cd3d12b88e94743ac47539656114088b72f3c473",
+    "state": "local-optimized-verified-pending-device-and-player-acceptance"
+  },
+  "history": [
+    {
+      "actor": "remote-registry-dc5994e",
+      "at": "2026-10-24T16:50:52.235559+00:00",
+      "previous": {
+        "blockers": [
+          "本地MVP仍待实体设备/玩家验收；实现尚未提交到独立仓库",
+          "域名未购买，未建立Vercel项目、未部署"
+        ],
+        "development": {
+          "evidence": "research/2026-10-24-five-game-development/STATUS.md",
+          "implementationPushed": false,
+          "localValidation": {
+            "chromeCompletedRounds": 10,
+            "date": "2026-10-24",
+            "engineTests": 5,
+            "physicalDeviceAcceptance": false,
+            "playerComparisonAcceptance": false,
+            "review": "ship-at-local-prototype-scope"
+          },
+          "recordedHead": "bc4fc8e53a5d67e8377d54d46d69037558297105",
+          "state": "local-mvp-verified-pending-device-and-player-acceptance"
+        },
+        "id": "cutle",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-a547207062167aae1ebb",
+            "language": "en",
+            "page": "/",
+            "poolLinked": true,
+            "role": "primary",
+            "term": "cutle"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-590c9c1e11984620f225",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cutle game"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-70103cc31c65c1edeb33",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cutle unlimited"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-a26102ffef6597004b2d",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cutle practice"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-e468925ce2f19edda48e",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "play cutle"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-2c36b92ee236feea11b0",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "cutle online"
+          }
+        ],
+        "legacyGroup": "plannedGames",
+        "name": "Cutle",
+        "nextAction": "补实体设备、跨浏览器与玩家验收；之后按用户授权处理源码审查和发布门槛。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "原设备预览地址 http://127.0.0.1:4311 不代表本机已有该服务。"
+        ],
+        "release": {
+          "deployment": "not_deployed",
+          "gameplayAcceptance": "pending",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-cutle"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#cutle"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/NEW_GAME_PROJECTS.md"
+          }
+        ],
+        "stage": "awaiting_release",
+        "urls": {
+          "preview": null,
+          "production": null
+        },
+        "verification": {
+          "recheckedAt": null,
+          "recordedAt": "2026-10-24T12:34:45.077Z",
+          "scope": "历史记录导入；未进行本次实时核验。"
+        }
+      },
+      "previousRevision": "0f4bb1a46049b8b0e121e32d9fb796cbe9be70ed4f4ed63cde9718173f65711c"
+    }
+  ],
+  "id": "cutle",
+  "keywordMappings": [
+    {
+      "country": "US",
+      "keywordId": "kw-a547207062167aae1ebb",
+      "language": "en",
+      "page": "/",
+      "poolLinked": true,
+      "role": "primary",
+      "term": "cutle"
+    },
+    {
+      "country": "US",
+      "keywordId": "kw-590c9c1e11984620f225",
+      "language": "en",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "cutle game"
+    },
+    {
+      "country": "US",
+      "keywordId": "kw-70103cc31c65c1edeb33",
+      "language": "en",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "cutle unlimited"
+    },
+    {
+      "country": "US",
+      "keywordId": "kw-a26102ffef6597004b2d",
+      "language": "en",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "cutle practice"
+    },
+    {
+      "country": "US",
+      "keywordId": "kw-e468925ce2f19edda48e",
+      "language": "en",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "play cutle"
+    },
+    {
+      "country": "US",
+      "keywordId": "kw-2c36b92ee236feea11b0",
+      "language": "en",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "cutle online"
+    }
+  ],
+  "legacyGroup": "plannedGames",
+  "name": "Cutle",
+  "nextAction": "补实体设备、跨浏览器、玩家及生产发布条件验收；进入正式仓库继续，不重复建仓或推送已完成版本。",
+  "notes": [
+    "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+    "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+    "原设备预览地址 http://127.0.0.1:4311 不代表本机已有该服务。"
+  ],
+  "release": {
+    "deployment": "not_deployed",
+    "gameplayAcceptance": "pending",
+    "indexingPermission": "hold"
+  },
+  "schemaVersion": 1,
+  "source": {
+    "branch": "main",
+    "directory": ".",
+    "frozenSnapshots": [],
+    "repository": "https://github.com/seraseraqqq/gameshub-cutle"
+  },
+  "sources": [
+    {
+      "note": "最新远端登记与本机只读主分支SHA核对",
+      "path": "data/migration/source-repositories-dc5994e.json#cutle"
+    },
+    {
+      "note": "其他设备交付的优化、推送和验收范围记录",
+      "path": "research/2026-10-24-five-game-development/optimization-delivery.md"
+    }
+  ],
+  "stage": "awaiting_release",
+  "urls": {
+    "preview": null,
+    "production": null
+  },
+  "verification": {
+    "recheckedAt": "2026-10-25",
+    "recordedAt": "2026-10-24T16:40:34.552Z",
+    "scope": "本机只读git ls-remote核对独立仓库main与登记SHA一致；未验收线上部署或实际游玩。"
+  }
+}

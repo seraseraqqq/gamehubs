@@ -1,0 +1,101 @@
+{
+  "checkedAt": "2026-10-25T02:42:13.416469+00:00",
+  "repositories": [
+    {
+      "siteId": "block-blast-unblocked",
+      "repository": "https://github.com/seraseraqqq/gameshub-block-blast-unblocked",
+      "private": true,
+      "branch": "main",
+      "remoteHead": "07cf140be88943ee8516a6f21c1cfbd902bb3c4d",
+      "worktree": "clean"
+    },
+    {
+      "siteId": "costcodle",
+      "repository": "https://github.com/seraseraqqq/gameshub-costcodle",
+      "private": true,
+      "branch": "main",
+      "remoteHead": "a2af21d0e74622a8a35098ea29b4700dd20f848d",
+      "worktree": "clean"
+    },
+    {
+      "siteId": "gulper-io",
+      "repository": "https://github.com/seraseraqqq/gameshub-gulper-io",
+      "private": true,
+      "branch": "main",
+      "remoteHead": "1d94e2c8d17f6e6c39dbcfa91237371fbb1c907e",
+      "worktree": "clean"
+    },
+    {
+      "siteId": "krillion-unlimited",
+      "repository": "https://github.com/seraseraqqq/gameshub-krillion-unlimited",
+      "private": true,
+      "branch": "main",
+      "remoteHead": "b602921f27aa53df7a8db37b7f13d89031575835",
+      "worktree": "clean"
+    },
+    {
+      "siteId": "spacebar-counter",
+      "repository": "https://github.com/seraseraqqq/gameshub-spacebar-counter",
+      "private": true,
+      "branch": "main",
+      "remoteHead": "34f02d435684c22fd53fa8f8102f6d75b242f30c",
+      "worktree": "clean"
+    },
+    {
+      "siteId": "2048-cupcakes",
+      "repository": "https://github.com/seraseraqqq/gameshub-2048-cupcakes",
+      "private": true,
+      "branch": "main",
+      "remoteHead": "c26b71c763101186775aa3613562a48adc6f0918",
+      "worktree": "clean"
+    },
+    {
+      "siteId": "coreball",
+      "repository": "https://github.com/seraseraqqq/gameshub-coreball",
+      "private": true,
+      "branch": "main",
+      "remoteHead": "2793a39f4c3417d16b746e758153a97fa8c07113",
+      "worktree": "clean"
+    },
+    {
+      "siteId": "minute-cryptic-unlimited",
+      "repository": "https://github.com/seraseraqqq/gameshub-minute-cryptic-unlimited",
+      "private": true,
+      "branch": "main",
+      "remoteHead": "b5d18ddb0a0f7bf057037b7860f18b255da6af84",
+      "worktree": "clean"
+    },
+    {
+      "siteId": "snow-rider-3d-unblocked",
+      "repository": "https://github.com/seraseraqqq/gameshub-snow-rider-3d-unblocked",
+      "private": true,
+      "branch": "main",
+      "remoteHead": "d86a93bf1fa2f726aae71d0447c73b592a7ed3d3",
+      "worktree": "clean"
+    },
+    {
+      "siteId": "head-soccer-2026",
+      "repository": "https://github.com/seraseraqqq/gameshub-head-soccer-2026",
+      "private": true,
+      "branch": "main",
+      "remoteHead": "849cb11b14bef244156853ec1e8be5e3f4c855d1",
+      "worktree": "clean"
+    }
+  ],
+  "originalFilesHashed": 372,
+  "originalFilesChanged": [],
+  "excludedFinderMetadata": [
+    "games/.DS_Store",
+    "games/block-blast-unblocked/.DS_Store",
+    "games/2048-cupcakes/.DS_Store",
+    "games/cryptic-practice/.DS_Store",
+    "games/gulperio/.DS_Store",
+    "games/summit-unlimited/.DS_Store",
+    "games/orbit-pins/.DS_Store",
+    "games/spacebar-counter/.DS_Store",
+    "games/costcodle/.DS_Store",
+    "games/orbit-pins/assets/.DS_Store"
+  ],
+  "parentHeadUnchanged": true,
+  "parentCommittedOrPushed": false
+}

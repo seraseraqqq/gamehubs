@@ -1,0 +1,34 @@
+{
+  "id": "dpl_6wy5XZvwyfXETCVvtMFgzvrcNo2z",
+  "name": "gamehubs-coreball",
+  "url": "gamehubs-coreball-i4osy34yo-gx03410-8651s-projects.vercel.app",
+  "type": "LAMBDAS",
+  "state": "INITIALIZING",
+  "createdAt": 1792895763709,
+  "creator": {
+    "uid": "hnBoZslKPVHPN4tsXyPY67fY",
+    "username": "gx03410-8651"
+  },
+  "project": {
+    "id": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
+    "name": "gamehubs-coreball",
+    "framework": null
+  },
+  "meta": {
+    "githubCommitRef": "2793a39f4c3417d16b746e758153a97fa8c07113",
+    "githubCommitSha": "2793a39f4c3417d16b746e758153a97fa8c07113",
+    "githubCommitMessage": "chore: establish independent game source and preserve release configuration",
+    "githubRepo": "gameshub-coreball",
+    "githubOrg": "seraseraqqq"
+  },
+  "alias": [
+    "gamehubs-coreball-gx03410-8651s-projects.vercel.app",
+    "gamehubs-coreball-git-2793a39f4c3-37fc05-gx03410-8651s-projects.vercel.app"
+  ],
+  "target": "production",
+  "regions": [
+    "iad1"
+  ],
+  "buildingAt": 1792895763709,
+  "readyState": "INITIALIZING"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "dpl_GHcNjE4XQDrqzMuqdm87iZqgTxEc",
+  "name": "block-blast-unblocked",
+  "url": "block-blast-unblocked-m3ovz32r6-gx03410-8651s-projects.vercel.app",
+  "type": "LAMBDAS",
+  "state": "READY",
+  "createdAt": 1792895168616,
+  "creator": {
+    "uid": "hnBoZslKPVHPN4tsXyPY67fY",
+    "username": "gx03410-8651"
+  },
+  "project": {
+    "id": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+    "name": "block-blast-unblocked",
+    "framework": null
+  },
+  "meta": {
+    "githubCommitRef": "07cf140b",
+    "githubCommitSha": "07cf140be88943ee8516a6f21c1cfbd902bb3c4d",
+    "githubCommitMessage": "chore: establish independent game source and preserve release configuration",
+    "githubRepo": "gameshub-block-blast-unblocked",
+    "githubOrg": "seraseraqqq"
+  },
+  "alias": [
+    "block-blast-unblocked-git-07cf140b-gx03410-8651s-projects.vercel.app"
+  ],
+  "target": null,
+  "regions": [
+    "iad1"
+  ],
+  "buildingAt": 1792895169691,
+  "ready": 1792895172191,
+  "readyState": "READY",
+  "aliasError": null
+}

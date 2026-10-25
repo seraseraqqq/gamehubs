@@ -1,0 +1,12 @@
+{
+  "requestedURL": "https://gamehubs-spacebar-counter-cqnj2t7xr-gx03410-8651s-projects.vercel.app",
+  "finalURL": "https://gamehubs-spacebar-counter-cqnj2t7xr-gx03410-8651s-projects.vercel.app/",
+  "httpStatus": 200,
+  "robots": "noindex, nofollow",
+  "noindex": true,
+  "canonical": null,
+  "title": "Spacebar Counter — A Simple Spacebar Speed Test",
+  "scriptsVerified": [
+    "game.js"
+  ]
+}

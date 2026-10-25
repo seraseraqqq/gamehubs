@@ -1,0 +1,12 @@
+{
+  "requestedURL": "https://www.spacebarcounter.xyz/",
+  "finalURL": "https://www.spacebarcounter.xyz/",
+  "httpStatus": 200,
+  "robots": "index, follow, max-image-preview:large",
+  "noindex": false,
+  "canonical": "https://www.spacebarcounter.xyz/",
+  "title": "Spacebar Counter — A Simple Spacebar Speed Test",
+  "scriptsVerified": [
+    "game.js"
+  ]
+}

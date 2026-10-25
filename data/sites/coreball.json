@@ -1,0 +1,367 @@
+{
+  "blockers": [
+    "等待独立域名，保留noindex"
+  ],
+  "development": {
+    "deploymentMigration": {
+      "evidencePath": "deployments/evidence/2026-10-25-repository-migration/coreball-final.json",
+      "gameplayAcceptance": "not_retested",
+      "previewDeployment": {
+        "id": "dpl_9gEkmQXdj99NbZCVHepScRsovryU",
+        "readyState": "READY",
+        "url": "gamehubs-coreball-lt2hphax0-gx03410-8651s-projects.vercel.app"
+      },
+      "report": "deployments/2026-10-25-independent-repositories.md",
+      "settingsPreserved": [
+        "domains",
+        "environmentMetadata",
+        "deploymentProtection",
+        "buildSettings"
+      ],
+      "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+      "sourceDirectory": "games/coreball",
+      "vercel": {
+        "ignoreCommand": null,
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_6wy5XZvwyfXETCVvtMFgzvrcNo2z",
+          "readyState": "READY",
+          "url": "gamehubs-coreball-i4osy34yo-gx03410-8651s-projects.vercel.app"
+        },
+        "projectId": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
+        "projectName": "gamehubs-coreball",
+        "repository": "https://github.com/seraseraqqq/gameshub-coreball",
+        "repositoryId": 1432763484,
+        "rootDirectory": null,
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+      },
+      "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+    },
+    "implementationPushed": true,
+    "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+    "recordedHead": "2793a39f4c3417d16b746e758153a97fa8c07113",
+    "state": "independent-repository-deployed"
+  },
+  "history": [
+    {
+      "actor": "codex-ai:user-authorized-repository-migration",
+      "at": "2026-10-25T02:39:46.475508+00:00",
+      "previous": {
+        "blockers": [
+          "等待独立域名，保留noindex"
+        ],
+        "id": "coreball",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-f8b1e50d9e8d50940f7d",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "coreball"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-f0859918e455a89c571f",
+            "language": "en",
+            "page": "/coreball-tips.html",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "coreball tips"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-775cb43a37b54ba8464c",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "coreball game"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-6b5806d447d9c6158688",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "coreball online"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Coreball",
+        "nextAction": "Owner chooses and purchases a domain; configure approved SITE_ORIGIN and verify production before indexing. Trends evidence remains incomplete.",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "branch": "main",
+          "directory": "games/coreball",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gamehubs"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#coreball"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": "https://gamehubs-coreball.vercel.app/",
+          "production": null
+        },
+        "verification": {
+          "recheckedAt": null,
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "历史记录导入；未进行本次实时核验。"
+        }
+      },
+      "previousRevision": "c8831380e1ef6a8dce7f5f69a17492e91f0994e7673aeae5d1250f49198fd976"
+    },
+    {
+      "actor": "codex-ai:user-authorized-games-removal",
+      "at": "2026-10-25T02:55:09.213082+00:00",
+      "previous": {
+        "blockers": [
+          "等待独立域名，保留noindex"
+        ],
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/coreball-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_9gEkmQXdj99NbZCVHepScRsovryU",
+              "readyState": "READY",
+              "url": "gamehubs-coreball-lt2hphax0-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/coreball",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_6wy5XZvwyfXETCVvtMFgzvrcNo2z",
+                "readyState": "READY",
+                "url": "gamehubs-coreball-i4osy34yo-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
+              "projectName": "gamehubs-coreball",
+              "repository": "https://github.com/seraseraqqq/gameshub-coreball",
+              "repositoryId": 1432763484,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedHead": "2793a39f4c3417d16b746e758153a97fa8c07113",
+          "state": "independent-repository-deployed"
+        },
+        "id": "coreball",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-f8b1e50d9e8d50940f7d",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "coreball"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-f0859918e455a89c571f",
+            "language": "en",
+            "page": "/coreball-tips.html",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "coreball tips"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-775cb43a37b54ba8464c",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "coreball game"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-6b5806d447d9c6158688",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "coreball online"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Coreball",
+        "nextAction": "Owner chooses and purchases a domain; configure approved SITE_ORIGIN and verify production before indexing. Trends evidence remains incomplete.",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/coreball现为冻结快照，后续只修改独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [
+            "games/coreball"
+          ],
+          "repository": "https://github.com/seraseraqqq/gameshub-coreball"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#coreball"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/coreball-final.json"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": "https://gamehubs-coreball.vercel.app/",
+          "production": null
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+        }
+      },
+      "previousRevision": "601febad420903f3baa6c05ccb3bd49fde41a141d66bec4f48b57e89c0fe0d12"
+    }
+  ],
+  "id": "coreball",
+  "keywordMappings": [
+    {
+      "country": "US",
+      "keywordId": "kw-f8b1e50d9e8d50940f7d",
+      "language": "en",
+      "page": "/",
+      "poolLinked": false,
+      "role": "primary",
+      "term": "coreball"
+    },
+    {
+      "country": "US",
+      "keywordId": "kw-f0859918e455a89c571f",
+      "language": "en",
+      "page": "/coreball-tips.html",
+      "poolLinked": false,
+      "role": "primary",
+      "term": "coreball tips"
+    },
+    {
+      "country": "US",
+      "keywordId": "kw-775cb43a37b54ba8464c",
+      "language": "en",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "coreball game"
+    },
+    {
+      "country": "US",
+      "keywordId": "kw-6b5806d447d9c6158688",
+      "language": "en",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "coreball online"
+    }
+  ],
+  "legacyGroup": "games",
+  "name": "Coreball",
+  "nextAction": "Owner chooses and purchases a domain; configure approved SITE_ORIGIN and verify production before indexing. Trends evidence remains incomplete.",
+  "notes": [
+    "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+    "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/coreball曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+    "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+    "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+    "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+  ],
+  "release": {
+    "deployment": "recorded_deployed",
+    "gameplayAcceptance": "unknown",
+    "indexingPermission": "hold"
+  },
+  "schemaVersion": 1,
+  "source": {
+    "archivedSnapshots": [
+      {
+        "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+        "directory": "games/coreball",
+        "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+        "removedAt": "2026-10-25T02:55:08.814269+00:00",
+        "repository": "https://github.com/seraseraqqq/gamehubs"
+      }
+    ],
+    "branch": "main",
+    "directory": ".",
+    "frozenSnapshots": [],
+    "repository": "https://github.com/seraseraqqq/gameshub-coreball"
+  },
+  "sources": [
+    {
+      "note": "最新远端原始仓库登记快照",
+      "path": "management/data/migration/source-repositories.json#coreball"
+    },
+    {
+      "note": "最新远端项目/发布记录",
+      "path": "management/DEPLOYMENT_STATUS.md"
+    },
+    {
+      "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+      "path": "deployments/evidence/2026-10-25-repository-migration/coreball-final.json"
+    },
+    {
+      "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+      "path": "docs/history/2026-10-25-management-only-cleanup.json"
+    }
+  ],
+  "stage": "deployed",
+  "urls": {
+    "preview": "https://gamehubs-coreball.vercel.app/",
+    "production": null
+  },
+  "verification": {
+    "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+    "recordedAt": "2026-10-24T05:17:09.386Z",
+    "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+  }
+}

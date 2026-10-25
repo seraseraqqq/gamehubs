@@ -1,10 +1,12 @@
 # Acceleration City：竞品取证、难度评估与本地实现
 
+> 资料可用性：本文部分raw/引用是原设备的忽略采集载荷，当前检出未包含；保留原引用供追溯，不能将缺失文件视为已复核。它们不属于本次117词主研究证据。
+
 2026-10-24，Asia/Shanghai。范围：英文单游戏站，主词 **acceleration city**。本轮已完成竞品截图、嵌入链路取证、关键词背景、可注册域名查询，以及同方案的本地原型。没有购买域名、部署、接入广告或宣称获得游戏商业授权。
 
 **结论：采用“自建轻量站点 + 直接 iframe 加载 CS2N 原版”的路线。** 原版内核是 Unity WebGL，外层有 React 与 Scratch/Blockly 编程界面。无需把整个 3D 赛车重写一遍。已有门户用 iframe、原版自研这两件事同时成立，不能把 iframe 当作一种游戏引擎。
 
-本地源码：[games/acceleration-city](../../games/acceleration-city/README.md)。预览：[http://127.0.0.1:4198/](http://127.0.0.1:4198/)，需保持预览进程运行。
+本地源码：[games/acceleration-city](https://github.com/seraseraqqq/gamehubs/blob/dc5994e61228e028c068137a5d69bce08b172fd0/games/acceleration-city/README.md)。预览：[http://127.0.0.1:4198/](http://127.0.0.1:4198/)，需保持预览进程运行。
 
 ## 搜索需求与竞争位置
 
@@ -82,7 +84,7 @@
 
 ## 验证结果与上线边界
 
-- 源码与导出配置检查通过，最新数量及列表以 [verification.json](../../games/acceleration-city/scripts/verification.json) 为准。测试使用保留的 `.invalid` 域验证生产配置，从未部署。
+- 源码与导出配置检查通过，最新数量及列表以 [verification.json](https://github.com/seraseraqqq/gamehubs/blob/dc5994e61228e028c068137a5d69bce08b172fd0/games/acceleration-city/scripts/verification.json) 为准。测试使用保留的 `.invalid` 域验证生产配置，从未部署。
 - [本地HTTP核验](raw/local-http-checks.json)：9个真实页面/资源返回200，缺失路径返回404，预览响应全部带noindex。
 - 真实Chrome：竞品游戏菜单/驾驶/Blocks、本地原版加载/Continue/驾驶、专注视图进入和退出均观察成功。[截图目录](screenshots)
 - Fullscreen API被当前浏览器自动化环境拒绝，回退专注视图成功；**原生全屏未获实测通过**。

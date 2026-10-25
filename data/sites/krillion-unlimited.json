@@ -1,0 +1,496 @@
+{
+  "blockers": [],
+  "development": {
+    "deploymentMigration": {
+      "evidencePath": "deployments/evidence/2026-10-25-repository-migration/krillion-unlimited-final.json",
+      "gameplayAcceptance": "not_retested",
+      "previewDeployment": {
+        "id": "dpl_DZYuY4BEhrcP9382VqG9eNaMZNqd",
+        "readyState": "READY",
+        "url": "gamehubs-summit-unlimited-lxo2pe5mx-gx03410-8651s-projects.vercel.app"
+      },
+      "report": "deployments/2026-10-25-independent-repositories.md",
+      "settingsPreserved": [
+        "domains",
+        "environmentMetadata",
+        "deploymentProtection",
+        "buildSettings"
+      ],
+      "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+      "sourceDirectory": "games/summit-unlimited",
+      "vercel": {
+        "ignoreCommand": null,
+        "productionBranch": "main",
+        "productionDeployment": {
+          "id": "dpl_AJ1aUmkkFnkKhJurkka68HxcHUse",
+          "readyState": "READY",
+          "url": "gamehubs-summit-unlimited-bhtatlmab-gx03410-8651s-projects.vercel.app"
+        },
+        "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+        "projectName": "gamehubs-summit-unlimited",
+        "repository": "https://github.com/seraseraqqq/gameshub-krillion-unlimited",
+        "repositoryId": 1432763180,
+        "rootDirectory": null,
+        "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+      },
+      "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+    },
+    "implementationPushed": true,
+    "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+    "recordedHead": "b602921f27aa53df7a8db37b7f13d89031575835",
+    "state": "independent-repository-deployed"
+  },
+  "history": [
+    {
+      "actor": "codex-ai:user-authorized-repository-migration",
+      "at": "2026-10-25T02:39:46.214184+00:00",
+      "previous": {
+        "blockers": [],
+        "id": "krillion-unlimited",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-029d5c6f2a97479788cb",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "krillion unlimited"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-7fbbc9a60aea71dc2c94",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-056a1541d07651ffd516",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion game"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-e1b8de2bc23e6c3276e7",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion io"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-4e0727ed71ca856bf95a",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "one in a krillion"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-e9676dd18c32e85eb64e",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion online free"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-66f6e0eb0d1d40220a55",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "play krillion unlimited"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-4fab68433d9def1ec2ea",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "deep sea rarity trivia"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-4ccc9ffa9c530c62588e",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "reverse trivia game"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Krillion Unlimited",
+        "nextAction": "依据当前发布记录复核下一步，保留既有门禁。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "branch": "main",
+          "directory": "games/summit-unlimited",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gamehubs"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#krillion-unlimited"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://krilliononline.com/"
+        },
+        "verification": {
+          "recheckedAt": null,
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "历史记录导入；未进行本次实时核验。"
+        }
+      },
+      "previousRevision": "ded2903c913da0a0ab2e1137bb820a956c40f0ad5bc5ad0ce404a74e27d13fe2"
+    },
+    {
+      "actor": "codex-ai:user-authorized-games-removal",
+      "at": "2026-10-25T02:55:09.575918+00:00",
+      "previous": {
+        "blockers": [],
+        "development": {
+          "deploymentMigration": {
+            "evidencePath": "deployments/evidence/2026-10-25-repository-migration/krillion-unlimited-final.json",
+            "gameplayAcceptance": "not_retested",
+            "previewDeployment": {
+              "id": "dpl_DZYuY4BEhrcP9382VqG9eNaMZNqd",
+              "readyState": "READY",
+              "url": "gamehubs-summit-unlimited-lxo2pe5mx-gx03410-8651s-projects.vercel.app"
+            },
+            "report": "deployments/2026-10-25-independent-repositories.md",
+            "settingsPreserved": [
+              "domains",
+              "environmentMetadata",
+              "deploymentProtection",
+              "buildSettings"
+            ],
+            "sourceCommit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+            "sourceDirectory": "games/summit-unlimited",
+            "vercel": {
+              "ignoreCommand": null,
+              "productionBranch": "main",
+              "productionDeployment": {
+                "id": "dpl_AJ1aUmkkFnkKhJurkka68HxcHUse",
+                "readyState": "READY",
+                "url": "gamehubs-summit-unlimited-bhtatlmab-gx03410-8651s-projects.vercel.app"
+              },
+              "projectId": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+              "projectName": "gamehubs-summit-unlimited",
+              "repository": "https://github.com/seraseraqqq/gameshub-krillion-unlimited",
+              "repositoryId": 1432763180,
+              "rootDirectory": null,
+              "teamId": "team_yFBRBoOUaKz5Kjg6nxC3skZF"
+            },
+            "verifiedAt": "2026-10-25T02:39:45.912618+00:00"
+          },
+          "implementationPushed": true,
+          "pushRecordedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedHead": "b602921f27aa53df7a8db37b7f13d89031575835",
+          "state": "independent-repository-deployed"
+        },
+        "id": "krillion-unlimited",
+        "keywordMappings": [
+          {
+            "country": "unknown",
+            "keywordId": "kw-029d5c6f2a97479788cb",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "primary",
+            "term": "krillion unlimited"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-7fbbc9a60aea71dc2c94",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-056a1541d07651ffd516",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion game"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-e1b8de2bc23e6c3276e7",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion io"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-4e0727ed71ca856bf95a",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "one in a krillion"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-e9676dd18c32e85eb64e",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "krillion online free"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-66f6e0eb0d1d40220a55",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "play krillion unlimited"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-4fab68433d9def1ec2ea",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "deep sea rarity trivia"
+          },
+          {
+            "country": "unknown",
+            "keywordId": "kw-4ccc9ffa9c530c62588e",
+            "language": "unknown",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "reverse trivia game"
+          }
+        ],
+        "legacyGroup": "games",
+        "name": "Krillion Unlimited",
+        "nextAction": "依据当前发布记录复核下一步，保留既有门禁。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/summit-unlimited现为冻结快照，后续只修改独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+          "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+        ],
+        "release": {
+          "deployment": "recorded_deployed",
+          "gameplayAcceptance": "unknown",
+          "indexingPermission": "unknown"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [
+            "games/summit-unlimited"
+          ],
+          "repository": "https://github.com/seraseraqqq/gameshub-krillion-unlimited"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#krillion-unlimited"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/DEPLOYMENT_STATUS.md"
+          },
+          {
+            "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+            "path": "deployments/evidence/2026-10-25-repository-migration/krillion-unlimited-final.json"
+          }
+        ],
+        "stage": "deployed",
+        "urls": {
+          "preview": null,
+          "production": "https://krilliononline.com/"
+        },
+        "verification": {
+          "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+          "recordedAt": "2026-10-24T05:17:09.386Z",
+          "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+        }
+      },
+      "previousRevision": "9fab4f662ceada49423aeae5cc7b8af2efd1c004d89ebdd0d0833a709ffa193b"
+    }
+  ],
+  "id": "krillion-unlimited",
+  "keywordMappings": [
+    {
+      "country": "unknown",
+      "keywordId": "kw-029d5c6f2a97479788cb",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "primary",
+      "term": "krillion unlimited"
+    },
+    {
+      "country": "unknown",
+      "keywordId": "kw-7fbbc9a60aea71dc2c94",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "krillion"
+    },
+    {
+      "country": "unknown",
+      "keywordId": "kw-056a1541d07651ffd516",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "krillion game"
+    },
+    {
+      "country": "unknown",
+      "keywordId": "kw-e1b8de2bc23e6c3276e7",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "krillion io"
+    },
+    {
+      "country": "unknown",
+      "keywordId": "kw-4e0727ed71ca856bf95a",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "one in a krillion"
+    },
+    {
+      "country": "unknown",
+      "keywordId": "kw-e9676dd18c32e85eb64e",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "krillion online free"
+    },
+    {
+      "country": "unknown",
+      "keywordId": "kw-66f6e0eb0d1d40220a55",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "play krillion unlimited"
+    },
+    {
+      "country": "unknown",
+      "keywordId": "kw-4fab68433d9def1ec2ea",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "deep sea rarity trivia"
+    },
+    {
+      "country": "unknown",
+      "keywordId": "kw-4ccc9ffa9c530c62588e",
+      "language": "unknown",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "reverse trivia game"
+    }
+  ],
+  "legacyGroup": "games",
+  "name": "Krillion Unlimited",
+  "nextAction": "依据当前发布记录复核下一步，保留既有门禁。",
+  "notes": [
+    "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+    "2026-10-25按用户授权迁移独立私有仓库并部署；GameHubs中的games/summit-unlimited曾为冻结快照；后续清理已移出管理仓库，开发只进入独立仓库。此前历史导入备注不代表本次迁移核实范围。",
+    "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。",
+    "2026-10-25按用户后续授权移除管理仓库游戏副本；来源保存在source.archivedSnapshots及历史，许可/索引/实际游玩门禁保持。",
+    "源码入口发生变更；旧入口保留在修订历史，核实范围以 verification 和来源证据为准。"
+  ],
+  "release": {
+    "deployment": "recorded_deployed",
+    "gameplayAcceptance": "unknown",
+    "indexingPermission": "unknown"
+  },
+  "schemaVersion": 1,
+  "source": {
+    "archivedSnapshots": [
+      {
+        "commit": "dc5994e61228e028c068137a5d69bce08b172fd0",
+        "directory": "games/summit-unlimited",
+        "evidence": "docs/history/2026-10-25-management-only-cleanup.json",
+        "removedAt": "2026-10-25T02:55:08.814269+00:00",
+        "repository": "https://github.com/seraseraqqq/gamehubs"
+      }
+    ],
+    "branch": "main",
+    "directory": ".",
+    "frozenSnapshots": [],
+    "repository": "https://github.com/seraseraqqq/gameshub-krillion-unlimited"
+  },
+  "sources": [
+    {
+      "note": "最新远端原始仓库登记快照",
+      "path": "management/data/migration/source-repositories.json#krillion-unlimited"
+    },
+    {
+      "note": "最新远端项目/发布记录",
+      "path": "management/DEPLOYMENT_STATUS.md"
+    },
+    {
+      "note": "独立仓库及原Vercel项目生产部署实时核实；旧源码身份保留修订历史",
+      "path": "deployments/evidence/2026-10-25-repository-migration/krillion-unlimited-final.json"
+    },
+    {
+      "note": "管理仓库已移除旧游戏副本；独立仓库与线上关联不变",
+      "path": "docs/history/2026-10-25-management-only-cleanup.json"
+    }
+  ],
+  "stage": "deployed",
+  "urls": {
+    "preview": null,
+    "production": "https://krilliononline.com/"
+  },
+  "verification": {
+    "recheckedAt": "2026-10-25T02:39:45.912618+00:00",
+    "recordedAt": "2026-10-24T05:17:09.386Z",
+    "scope": "2026-10-25实时分仓验收：私有仓库main远端SHA、同一Vercel项目Git关联、预览/正式READY、首页200、页面脚本哈希、标题/canonical/robots及域名/环境配置/保护一致；未重测完整游戏流程、真机或搜索引擎收录。"
+  }
+}

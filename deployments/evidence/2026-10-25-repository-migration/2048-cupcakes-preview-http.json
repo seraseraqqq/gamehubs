@@ -1,0 +1,12 @@
+{
+  "requestedURL": "https://gamehubs-2048-cupcakes-5bgv2hpoj-gx03410-8651s-projects.vercel.app",
+  "finalURL": "https://gamehubs-2048-cupcakes-5bgv2hpoj-gx03410-8651s-projects.vercel.app/",
+  "httpStatus": 200,
+  "robots": "noindex, nofollow",
+  "noindex": true,
+  "canonical": null,
+  "title": "2048 Cupcakes — A Cozy Cupcake Merge Game | Crumb",
+  "scriptsVerified": [
+    "game.mjs"
+  ]
+}

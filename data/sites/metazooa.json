@@ -1,0 +1,251 @@
+{
+  "blockers": [
+    "实体设备/玩家/生产性能仍待验收；源码主分支SHA已在本机只读核实",
+    "域名未购买，未建立Vercel项目、未部署"
+  ],
+  "development": {
+    "evidence": "research/2026-10-24-five-game-development/STATUS.md",
+    "implementationPushed": true,
+    "localValidation": {
+      "chromeCompletedRounds": 10,
+      "date": "2026-10-24",
+      "engineTests": 4,
+      "physicalDeviceAcceptance": false,
+      "playerComparisonAcceptance": false,
+      "review": "ship-at-local-prototype-scope"
+    },
+    "optimizationValidation": {
+      "chromeFlowsPassed": true,
+      "date": "2026-10-25",
+      "engineTests": 4,
+      "physicalDeviceAcceptance": false,
+      "playerComparisonAcceptance": false,
+      "productionPerformanceAcceptance": false,
+      "review": "ship-local-prototype"
+    },
+    "pushRecordedAt": "2026-10-24T16:40:38.347Z",
+    "recordedHead": "2e504e89c85b7f24a963881f39d69632b44fd29e",
+    "state": "local-optimized-verified-pending-device-and-player-acceptance"
+  },
+  "history": [
+    {
+      "actor": "remote-registry-dc5994e",
+      "at": "2026-10-24T16:50:52.491701+00:00",
+      "previous": {
+        "blockers": [
+          "本地MVP仍待实体设备/玩家验收；实现尚未提交到独立仓库",
+          "域名未购买，未建立Vercel项目、未部署"
+        ],
+        "development": {
+          "evidence": "research/2026-10-24-five-game-development/STATUS.md",
+          "implementationPushed": false,
+          "localValidation": {
+            "chromeCompletedRounds": 10,
+            "date": "2026-10-24",
+            "engineTests": 4,
+            "physicalDeviceAcceptance": false,
+            "playerComparisonAcceptance": false,
+            "review": "ship-at-local-prototype-scope"
+          },
+          "recordedHead": "48ae9bf93afeb90f5201d1517f1f07cf5d587a84",
+          "state": "local-mvp-verified-pending-device-and-player-acceptance"
+        },
+        "id": "metazooa",
+        "keywordMappings": [
+          {
+            "country": "US",
+            "keywordId": "kw-87edb316733c6d0f33a6",
+            "language": "en",
+            "page": "/",
+            "poolLinked": true,
+            "role": "primary",
+            "term": "metazooa"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-ccf9a7068d8907eb29cf",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "metazooa game"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-1d2df971dc7b0540a05f",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "metazooa unlimited"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-6674ed896746614abc08",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "metazooa practice"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-00dcae365574d10077e9",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "metazooa hints"
+          },
+          {
+            "country": "US",
+            "keywordId": "kw-4c3931050bab6d8790af",
+            "language": "en",
+            "page": "/",
+            "poolLinked": false,
+            "role": "secondary",
+            "term": "animal taxonomy game"
+          }
+        ],
+        "legacyGroup": "plannedGames",
+        "name": "Metazooa",
+        "nextAction": "补实体设备、跨浏览器与玩家验收；之后按用户授权处理源码审查和发布门槛。",
+        "notes": [
+          "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+          "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+          "原设备预览地址 http://127.0.0.1:4314 不代表本机已有该服务。"
+        ],
+        "release": {
+          "deployment": "not_deployed",
+          "gameplayAcceptance": "pending",
+          "indexingPermission": "hold"
+        },
+        "schemaVersion": 1,
+        "source": {
+          "branch": "main",
+          "directory": ".",
+          "frozenSnapshots": [],
+          "repository": "https://github.com/seraseraqqq/gameshub-metazooa"
+        },
+        "sources": [
+          {
+            "note": "最新远端原始仓库登记快照",
+            "path": "management/data/migration/source-repositories.json#metazooa"
+          },
+          {
+            "note": "最新远端项目/发布记录",
+            "path": "management/NEW_GAME_PROJECTS.md"
+          }
+        ],
+        "stage": "awaiting_release",
+        "urls": {
+          "preview": null,
+          "production": null
+        },
+        "verification": {
+          "recheckedAt": null,
+          "recordedAt": "2026-10-24T12:35:03.034Z",
+          "scope": "历史记录导入；未进行本次实时核验。"
+        }
+      },
+      "previousRevision": "1fff23a4d5bc5109660f68145ba6132402a93592103c3486b0dc35f3bac2a7fe"
+    }
+  ],
+  "id": "metazooa",
+  "keywordMappings": [
+    {
+      "country": "US",
+      "keywordId": "kw-87edb316733c6d0f33a6",
+      "language": "en",
+      "page": "/",
+      "poolLinked": true,
+      "role": "primary",
+      "term": "metazooa"
+    },
+    {
+      "country": "US",
+      "keywordId": "kw-ccf9a7068d8907eb29cf",
+      "language": "en",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "metazooa game"
+    },
+    {
+      "country": "US",
+      "keywordId": "kw-1d2df971dc7b0540a05f",
+      "language": "en",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "metazooa unlimited"
+    },
+    {
+      "country": "US",
+      "keywordId": "kw-6674ed896746614abc08",
+      "language": "en",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "metazooa practice"
+    },
+    {
+      "country": "US",
+      "keywordId": "kw-00dcae365574d10077e9",
+      "language": "en",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "metazooa hints"
+    },
+    {
+      "country": "US",
+      "keywordId": "kw-4c3931050bab6d8790af",
+      "language": "en",
+      "page": "/",
+      "poolLinked": false,
+      "role": "secondary",
+      "term": "animal taxonomy game"
+    }
+  ],
+  "legacyGroup": "plannedGames",
+  "name": "Metazooa",
+  "nextAction": "补实体设备、跨浏览器、玩家及生产发布条件验收；进入正式仓库继续，不重复建仓或推送已完成版本。",
+  "notes": [
+    "以最新远端登记为来源，本次没有重新验收远程代码或线上可玩性。",
+    "原设备工作路径保留在来源快照，不能当作本机可用路径。",
+    "原设备预览地址 http://127.0.0.1:4314 不代表本机已有该服务。"
+  ],
+  "release": {
+    "deployment": "not_deployed",
+    "gameplayAcceptance": "pending",
+    "indexingPermission": "hold"
+  },
+  "schemaVersion": 1,
+  "source": {
+    "branch": "main",
+    "directory": ".",
+    "frozenSnapshots": [],
+    "repository": "https://github.com/seraseraqqq/gameshub-metazooa"
+  },
+  "sources": [
+    {
+      "note": "最新远端登记与本机只读主分支SHA核对",
+      "path": "data/migration/source-repositories-dc5994e.json#metazooa"
+    },
+    {
+      "note": "其他设备交付的优化、推送和验收范围记录",
+      "path": "research/2026-10-24-five-game-development/optimization-delivery.md"
+    }
+  ],
+  "stage": "awaiting_release",
+  "urls": {
+    "preview": null,
+    "production": null
+  },
+  "verification": {
+    "recheckedAt": "2026-10-25",
+    "recordedAt": "2026-10-24T16:40:38.347Z",
+    "scope": "本机只读git ls-remote核对独立仓库main与登记SHA一致；未验收线上部署或实际游玩。"
+  }
+}

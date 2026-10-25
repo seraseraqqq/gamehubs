@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-10-25T02:42:53.077126+00:00",
+  "counts": {
+    "keywords": 117,
+    "observations": 244,
+    "batches": 5,
+    "reviews": 0,
+    "sites": 17
+  },
+  "validationErrors": [],
+  "generate": "completed",
+  "managementTests": {
+    "command": "python3 -m unittest discover -s scripts -p test_hub.py -v",
+    "passed": 17,
+    "failed": 0
+  },
+  "newRepositoriesTrackedCredentialOrPackagePaths": [],
+  "newRepositories": 10,
+  "verifiedProductionDeployments": 10,
+  "gameHubsVercelLinksRemaining": 0,
+  "originalGamesRuntimeModified": false,
+  "parentRepositoryCommittedOrPushed": false,
+  "scopeNote": "games/cryptic-practice and games/orbit-pins contain ignored legacy build/assets residue, not additional registered game sources; retained untouched."
+}

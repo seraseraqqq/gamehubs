@@ -1,0 +1,273 @@
+{
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "name",
+    "source",
+    "stage",
+    "blockers",
+    "nextAction",
+    "urls",
+    "keywordMappings",
+    "release",
+    "sources",
+    "verification",
+    "notes",
+    "history"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "enum": [
+        1
+      ]
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-zA-Z0-9_-]+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stage": {
+      "type": "string",
+      "enum": [
+        "idea",
+        "planned",
+        "building",
+        "awaiting_release",
+        "blocked",
+        "deployed",
+        "abandoned"
+      ]
+    },
+    "blockers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "nextAction": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "repository",
+        "directory",
+        "branch",
+        "frozenSnapshots"
+      ],
+      "properties": {
+        "repository": {
+          "type": "string",
+          "pattern": "^https://github.com/[^/]+/[^/]+$"
+        },
+        "directory": {
+          "type": "string",
+          "minLength": 1
+        },
+        "branch": {
+          "type": "string",
+          "minLength": 1
+        },
+        "archivedSnapshots": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["repository", "directory", "commit", "removedAt", "evidence"],
+            "properties": {
+              "repository": {"type": "string", "pattern": "^https://github.com/[^/]+/[^/]+$"},
+              "directory": {"type": "string", "minLength": 1},
+              "commit": {"type": "string", "pattern": "^[a-f0-9]{40}$"},
+              "removedAt": {"type": "string", "minLength": 1},
+              "evidence": {"type": "string", "minLength": 1}
+            },
+            "additionalProperties": false
+          }
+        },
+        "frozenSnapshots": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "urls": {
+      "type": "object",
+      "required": [
+        "production",
+        "preview"
+      ],
+      "properties": {
+        "production": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "preview": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "keywordMappings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "keywordId",
+          "term",
+          "country",
+          "language",
+          "page",
+          "role"
+        ],
+        "properties": {
+          "keywordId": {
+            "type": "string",
+            "pattern": "^kw-[a-f0-9]{20}$"
+          },
+          "term": {
+            "type": "string",
+            "minLength": 1
+          },
+          "country": {
+            "type": "string",
+            "minLength": 1
+          },
+          "language": {
+            "type": "string",
+            "minLength": 1
+          },
+          "page": {
+            "type": "string",
+            "pattern": "^/"
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "primary",
+              "secondary"
+            ]
+          },
+          "poolLinked": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "release": {
+      "type": "object",
+      "required": [
+        "deployment",
+        "gameplayAcceptance",
+        "indexingPermission"
+      ],
+      "properties": {
+        "deployment": {
+          "type": "string",
+          "enum": [
+            "recorded_deployed",
+            "not_deployed",
+            "unknown"
+          ]
+        },
+        "gameplayAcceptance": {
+          "type": "string",
+          "enum": [
+            "recorded_pass",
+            "pending",
+            "unknown"
+          ]
+        },
+        "indexingPermission": {
+          "type": "string",
+          "enum": [
+            "recorded_allowed",
+            "hold",
+            "unknown"
+          ]
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "note"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "required": [
+        "recordedAt",
+        "recheckedAt",
+        "scope"
+      ],
+      "properties": {
+        "recordedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "recheckedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "development": {
+      "type": "object"
+    },
+    "legacyGroup": {
+      "type": "string",
+      "enum": [
+        "games",
+        "plannedGames"
+      ]
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GameHubs site",
+  "additionalProperties": false
+}

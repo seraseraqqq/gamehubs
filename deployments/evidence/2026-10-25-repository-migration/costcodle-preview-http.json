@@ -1,0 +1,13 @@
+{
+  "requestedURL": "https://costcodle-unlimited-eaxuys2uw-gx03410-8651s-projects.vercel.app",
+  "finalURL": "https://costcodle-unlimited-eaxuys2uw-gx03410-8651s-projects.vercel.app/",
+  "httpStatus": 200,
+  "robots": "noindex, nofollow",
+  "noindex": true,
+  "canonical": null,
+  "title": "Costcodle Unlimited — Daily Price Guessing Game",
+  "scriptsVerified": [
+    "/items.js",
+    "/game.js"
+  ]
+}

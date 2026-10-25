@@ -1,0 +1,68 @@
+{
+  "id": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+  "name": "block-blast-unblocked",
+  "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+  "rootDirectory": null,
+  "buildCommand": null,
+  "installCommand": null,
+  "outputDirectory": null,
+  "framework": null,
+  "commandForIgnoringBuildStep": null,
+  "nodeVersion": "24.x",
+  "autoAssignCustomDomains": true,
+  "sourceFilesOutsideRootDirectory": true,
+  "link": {
+    "type": "github",
+    "org": "seraseraqqq",
+    "repo": "gameshub-block-blast-unblocked",
+    "repoId": 1432762961,
+    "productionBranch": "main",
+    "createdAt": 1792895152911
+  },
+  "protectionFingerprint": "9582faf9dceefc5322ded4495a95750df07e7badbb22f107b3f3a7dd2a2e4637",
+  "environmentMetadata": [],
+  "productionDeployment": {
+    "id": "dpl_C7fqqTghDjgMxUFegbzg7pb4WhoE",
+    "url": "block-blast-unblocked-7aq6h3qh0-gx03410-8651s-projects.vercel.app",
+    "readyState": "READY",
+    "meta": {
+      "migrationCheck": "independent-repo-production-2026-10-25",
+      "githubCommitAuthorName": "seraseraqqq",
+      "githubCommitAuthorEmail": "xu250618@gmail.com",
+      "githubCommitMessage": "chore: establish independent game source and preserve release configuration",
+      "githubCommitOrg": "seraseraqqq",
+      "githubCommitRef": "07cf140be88943ee8516a6f21c1cfbd902bb3c4d",
+      "githubCommitRepo": "gameshub-block-blast-unblocked",
+      "githubCommitSha": "07cf140be88943ee8516a6f21c1cfbd902bb3c4d",
+      "githubDeployment": "1",
+      "githubOrg": "seraseraqqq",
+      "githubRepo": "gameshub-block-blast-unblocked",
+      "githubRepoOwnerType": "User",
+      "githubCommitRepoId": "1432762961",
+      "githubRepoId": "1432762961",
+      "githubRepoVisibility": "private",
+      "githubHost": "github.com",
+      "githubCommitAuthorLogin": "seraseraqqq",
+      "githubCommitVerification": "unverified",
+      "branchAlias": "block-blast-unblocked-git-07cf140-963a21-gx03410-8651s-projects.vercel.app"
+    }
+  },
+  "domains": [
+    {
+      "name": "playblockblastunblocked.com",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "name": "www.playblockblastunblocked.com",
+      "verified": true,
+      "redirect": "playblockblastunblocked.com",
+      "redirectStatusCode": 301,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ]
+}

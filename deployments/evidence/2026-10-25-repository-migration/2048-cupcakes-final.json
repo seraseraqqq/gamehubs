@@ -1,0 +1,68 @@
+{
+  "id": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+  "name": "gamehubs-2048-cupcakes",
+  "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+  "rootDirectory": null,
+  "buildCommand": "node scripts/build.mjs --origin https://www.2048cupcakes.xyz",
+  "installCommand": null,
+  "outputDirectory": "dist",
+  "framework": null,
+  "commandForIgnoringBuildStep": null,
+  "nodeVersion": "24.x",
+  "autoAssignCustomDomains": true,
+  "sourceFilesOutsideRootDirectory": true,
+  "link": {
+    "type": "github",
+    "org": "seraseraqqq",
+    "repo": "gameshub-2048-cupcakes",
+    "repoId": 1432763397,
+    "productionBranch": "main",
+    "createdAt": 1792895692298
+  },
+  "protectionFingerprint": "05659a7e129ab14619b7fbf50d3356582b340f46178781aa87c81de91916df24",
+  "environmentMetadata": [],
+  "productionDeployment": {
+    "id": "dpl_8pRSPENzV5JHabD2R9Zphkezp7JH",
+    "url": "gamehubs-2048-cupcakes-zt19722jn-gx03410-8651s-projects.vercel.app",
+    "readyState": "READY",
+    "meta": {
+      "migrationCheck": "independent-repo-production-2026-10-25",
+      "githubCommitAuthorName": "seraseraqqq",
+      "githubCommitAuthorEmail": "xu250618@gmail.com",
+      "githubCommitMessage": "chore: establish independent game source and preserve release configuration",
+      "githubCommitOrg": "seraseraqqq",
+      "githubCommitRef": "c26b71c763101186775aa3613562a48adc6f0918",
+      "githubCommitRepo": "gameshub-2048-cupcakes",
+      "githubCommitSha": "c26b71c763101186775aa3613562a48adc6f0918",
+      "githubDeployment": "1",
+      "githubOrg": "seraseraqqq",
+      "githubRepo": "gameshub-2048-cupcakes",
+      "githubRepoOwnerType": "User",
+      "githubCommitRepoId": "1432763397",
+      "githubRepoId": "1432763397",
+      "githubRepoVisibility": "private",
+      "githubHost": "github.com",
+      "githubCommitAuthorLogin": "seraseraqqq",
+      "githubCommitVerification": "unverified",
+      "branchAlias": "gamehubs-2048-cupcakes-git-c26b71-b42dac-gx03410-8651s-projects.vercel.app"
+    }
+  },
+  "domains": [
+    {
+      "name": "www.2048cupcakes.xyz",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "name": "2048cupcakes.xyz",
+      "verified": true,
+      "redirect": "www.2048cupcakes.xyz",
+      "redirectStatusCode": 301,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ]
+}

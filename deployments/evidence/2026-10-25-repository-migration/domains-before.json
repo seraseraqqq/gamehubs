@@ -1,0 +1,174 @@
+{
+  "block-blast-unblocked": [
+    {
+      "name": "playblockblastunblocked.com",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "name": "www.playblockblastunblocked.com",
+      "verified": true,
+      "redirect": "playblockblastunblocked.com",
+      "redirectStatusCode": 301,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ],
+  "costcodle": [
+    {
+      "name": "costcodle.cc",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "name": "www.costcodle.cc",
+      "verified": true,
+      "redirect": "costcodle.cc",
+      "redirectStatusCode": 301,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ],
+  "gulper-io": [
+    {
+      "name": "gulperio.com",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "name": "www.gulperio.com",
+      "verified": true,
+      "redirect": "gulperio.com",
+      "redirectStatusCode": 301,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ],
+  "krillion-unlimited": [
+    {
+      "name": "krilliononline.com",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "name": "www.krilliononline.com",
+      "verified": true,
+      "redirect": "krilliononline.com",
+      "redirectStatusCode": 301,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ],
+  "spacebar-counter": [
+    {
+      "name": "www.spacebarcounter.xyz",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "name": "spacebarcounter.xyz",
+      "verified": true,
+      "redirect": "www.spacebarcounter.xyz",
+      "redirectStatusCode": 301,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ],
+  "2048-cupcakes": [
+    {
+      "name": "www.2048cupcakes.xyz",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "name": "2048cupcakes.xyz",
+      "verified": true,
+      "redirect": "www.2048cupcakes.xyz",
+      "redirectStatusCode": 301,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ],
+  "coreball": [
+    {
+      "name": "gamehubs-coreball.vercel.app",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ],
+  "minute-cryptic-unlimited": [
+    {
+      "name": "gamehubs-minute-cryptic-unlimited.vercel.app",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ],
+  "snow-rider-3d-unblocked": [
+    {
+      "name": "www.snowrider3d.top",
+      "verified": true,
+      "redirect": "snowrider3d.top",
+      "redirectStatusCode": 301,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "name": "snowrider3d.top",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "name": "gamehubs-snow-rider-3d.vercel.app",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ],
+  "head-soccer-2026": [
+    {
+      "name": "www.playheadsoccer.com",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "name": "playheadsoccer.com",
+      "verified": true,
+      "redirect": "www.playheadsoccer.com",
+      "redirectStatusCode": 301,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ]
+}

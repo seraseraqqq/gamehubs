@@ -1,0 +1,78 @@
+{
+  "id": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+  "name": "gamehubs-head-soccer-2026",
+  "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+  "rootDirectory": null,
+  "buildCommand": "node scripts/build.mjs",
+  "installCommand": "",
+  "outputDirectory": "dist",
+  "framework": null,
+  "commandForIgnoringBuildStep": null,
+  "nodeVersion": "24.x",
+  "autoAssignCustomDomains": true,
+  "sourceFilesOutsideRootDirectory": true,
+  "link": {
+    "type": "github",
+    "org": "seraseraqqq",
+    "repo": "gameshub-head-soccer-2026",
+    "repoId": 1432763748,
+    "productionBranch": "main",
+    "createdAt": 1792895878774
+  },
+  "protectionFingerprint": "05659a7e129ab14619b7fbf50d3356582b340f46178781aa87c81de91916df24",
+  "environmentMetadata": [
+    {
+      "key": "SITE_ORIGIN",
+      "type": "plain",
+      "target": [
+        "production"
+      ],
+      "gitBranch": null,
+      "id": "Mi2HMQlM1AfpGAyo"
+    }
+  ],
+  "productionDeployment": {
+    "id": "dpl_4YVYnKFHb11kVNYLhyyL5QkWiZBA",
+    "url": "gamehubs-head-soccer-2026-2uj95lgs4-gx03410-8651s-projects.vercel.app",
+    "readyState": "READY",
+    "meta": {
+      "migrationCheck": "independent-repo-production-2026-10-25",
+      "githubCommitAuthorName": "seraseraqqq",
+      "githubCommitAuthorEmail": "xu250618@gmail.com",
+      "githubCommitMessage": "chore: establish independent game source and preserve release configuration",
+      "githubCommitOrg": "seraseraqqq",
+      "githubCommitRef": "849cb11b14bef244156853ec1e8be5e3f4c855d1",
+      "githubCommitRepo": "gameshub-head-soccer-2026",
+      "githubCommitSha": "849cb11b14bef244156853ec1e8be5e3f4c855d1",
+      "githubDeployment": "1",
+      "githubOrg": "seraseraqqq",
+      "githubRepo": "gameshub-head-soccer-2026",
+      "githubRepoOwnerType": "User",
+      "githubCommitRepoId": "1432763748",
+      "githubRepoId": "1432763748",
+      "githubRepoVisibility": "private",
+      "githubHost": "github.com",
+      "githubCommitAuthorLogin": "seraseraqqq",
+      "githubCommitVerification": "unverified",
+      "branchAlias": "gamehubs-head-soccer-2026-git-849-4285a9-gx03410-8651s-projects.vercel.app"
+    }
+  },
+  "domains": [
+    {
+      "name": "www.playheadsoccer.com",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "name": "playheadsoccer.com",
+      "verified": true,
+      "redirect": "www.playheadsoccer.com",
+      "redirectStatusCode": 301,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ]
+}

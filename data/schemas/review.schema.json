@@ -1,0 +1,90 @@
+{
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "keywordId",
+    "actorType",
+    "actor",
+    "state",
+    "decision",
+    "reason",
+    "createdAt",
+    "parents",
+    "basedOnBatches",
+    "conflict"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "enum": [
+        1
+      ]
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-zA-Z0-9_-]+$"
+    },
+    "keywordId": {
+      "type": "string",
+      "pattern": "^kw-[a-f0-9]{20}$"
+    },
+    "actorType": {
+      "type": "string",
+      "enum": [
+        "human",
+        "ai"
+      ]
+    },
+    "actor": {
+      "type": "string",
+      "minLength": 1
+    },
+    "state": {
+      "type": "string",
+      "enum": [
+        "approved",
+        "rejected",
+        "hold"
+      ]
+    },
+    "decision": {
+      "type": "string",
+      "enum": [
+        "build",
+        "defer",
+        "abandon",
+        "unset"
+      ]
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "createdAt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "parents": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "basedOnBatches": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "conflict": {
+      "type": "boolean"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GameHubs review",
+  "additionalProperties": false
+}

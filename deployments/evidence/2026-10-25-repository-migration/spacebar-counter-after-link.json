@@ -1,0 +1,68 @@
+{
+  "id": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+  "name": "gamehubs-spacebar-counter",
+  "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+  "rootDirectory": null,
+  "buildCommand": "node scripts/build.mjs --origin https://www.spacebarcounter.xyz",
+  "installCommand": null,
+  "outputDirectory": "dist",
+  "framework": null,
+  "commandForIgnoringBuildStep": null,
+  "nodeVersion": "24.x",
+  "autoAssignCustomDomains": true,
+  "sourceFilesOutsideRootDirectory": true,
+  "link": {
+    "type": "github",
+    "org": "seraseraqqq",
+    "repo": "gameshub-spacebar-counter",
+    "repoId": 1432763331,
+    "productionBranch": "main",
+    "createdAt": 1792895651018
+  },
+  "protectionFingerprint": "05659a7e129ab14619b7fbf50d3356582b340f46178781aa87c81de91916df24",
+  "environmentMetadata": [],
+  "productionDeployment": {
+    "id": "dpl_GMrAYEZWrUnTzWQSVdNtdJ9mynBg",
+    "url": "gamehubs-spacebar-counter-1r9610s9d-gx03410-8651s-projects.vercel.app",
+    "readyState": "CANCELED",
+    "meta": {
+      "githubCommitAuthorName": "seraseraqqq",
+      "githubCommitAuthorEmail": "seraseraqqq@users.noreply.github.com",
+      "githubCommitMessage": "docs: record five-game optimization and verified source pushes",
+      "githubCommitOrg": "seraseraqqq",
+      "githubCommitRef": "main",
+      "githubCommitRepo": "gamehubs",
+      "githubCommitSha": "dc5994e61228e028c068137a5d69bce08b172fd0",
+      "githubDeployment": "1",
+      "githubOrg": "seraseraqqq",
+      "githubRepo": "gamehubs",
+      "githubRepoOwnerType": "User",
+      "githubCommitRepoId": "1429727092",
+      "githubRepoId": "1429727092",
+      "githubRepoVisibility": "public",
+      "githubHost": "github.com",
+      "githubCommitAuthorLogin": "seraseraqqq",
+      "githubCommitVerification": "unverified",
+      "repoPushedAt": "1792860082000",
+      "branchAlias": "gamehubs-spacebar-counter-git-main-gx03410-8651s-projects.vercel.app"
+    }
+  },
+  "domains": [
+    {
+      "name": "www.spacebarcounter.xyz",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "name": "spacebarcounter.xyz",
+      "verified": true,
+      "redirect": "www.spacebarcounter.xyz",
+      "redirectStatusCode": 301,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ]
+}

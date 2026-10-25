@@ -1,0 +1,681 @@
+{
+  "block-blast-unblocked": {
+    "id": "prj_o0zVSST2Gn2yV3PhPfI4xlSfX46C",
+    "name": "block-blast-unblocked",
+    "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+    "rootDirectory": "games/block-blast-unblocked",
+    "buildCommand": null,
+    "installCommand": null,
+    "outputDirectory": null,
+    "framework": null,
+    "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/block-blast-unblocked",
+    "nodeVersion": "24.x",
+    "link": {
+      "type": "github",
+      "org": "seraseraqqq",
+      "repo": "gamehubs",
+      "repoId": 1429727092,
+      "productionBranch": "main",
+      "createdAt": 1792672744521
+    },
+    "autoAssignCustomDomains": true,
+    "sourceFilesOutsideRootDirectory": true,
+    "environmentMetadata": [],
+    "productionDeployment": {
+      "id": "dpl_H1L4A5N4R4Y3t5A47Rn1Bzw7jSc4",
+      "url": "block-blast-unblocked-15flafo1s-gx03410-8651s-projects.vercel.app",
+      "readyState": "CANCELED",
+      "target": "production",
+      "meta": {
+        "githubCommitAuthorName": "seraseraqqq",
+        "githubCommitAuthorEmail": "seraseraqqq@users.noreply.github.com",
+        "githubCommitMessage": "docs: record five-game optimization and verified source pushes",
+        "githubCommitOrg": "seraseraqqq",
+        "githubCommitRef": "main",
+        "githubCommitRepo": "gamehubs",
+        "githubCommitSha": "dc5994e61228e028c068137a5d69bce08b172fd0",
+        "githubDeployment": "1",
+        "githubOrg": "seraseraqqq",
+        "githubRepo": "gamehubs",
+        "githubRepoOwnerType": "User",
+        "githubCommitRepoId": "1429727092",
+        "githubRepoId": "1429727092",
+        "githubRepoVisibility": "public",
+        "githubHost": "github.com",
+        "githubCommitAuthorLogin": "seraseraqqq",
+        "githubCommitVerification": "unverified",
+        "repoPushedAt": "1792860082000",
+        "branchAlias": "block-blast-unblocked-git-main-gx03410-8651s-projects.vercel.app"
+      }
+    },
+    "protectionFingerprint": "9582faf9dceefc5322ded4495a95750df07e7badbb22f107b3f3a7dd2a2e4637",
+    "protectionSummary": {
+      "passwordProtection": {
+        "deploymentType": null,
+        "protectionMode": null
+      },
+      "ssoProtection": {
+        "deploymentType": null,
+        "protectionMode": null
+      },
+      "trustedIps": {
+        "deploymentType": null,
+        "protectionMode": null
+      }
+    }
+  },
+  "costcodle": {
+    "id": "prj_YSqFgvdSOdZaaYdkPukWqmOmYpCm",
+    "name": "costcodle-unlimited",
+    "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+    "rootDirectory": "games/costcodle",
+    "buildCommand": null,
+    "installCommand": null,
+    "outputDirectory": null,
+    "framework": null,
+    "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/costcodle",
+    "nodeVersion": "24.x",
+    "link": {
+      "type": "github",
+      "org": "seraseraqqq",
+      "repo": "gamehubs",
+      "repoId": 1429727092,
+      "productionBranch": "main",
+      "createdAt": 1792675186657
+    },
+    "autoAssignCustomDomains": true,
+    "sourceFilesOutsideRootDirectory": true,
+    "environmentMetadata": [],
+    "productionDeployment": {
+      "id": "dpl_7xPwBt33o3e6iyZX1p6AJ5EQrNFQ",
+      "url": "costcodle-unlimited-7mpzeyizi-gx03410-8651s-projects.vercel.app",
+      "readyState": "CANCELED",
+      "target": "production",
+      "meta": {
+        "githubCommitAuthorName": "seraseraqqq",
+        "githubCommitAuthorEmail": "seraseraqqq@users.noreply.github.com",
+        "githubCommitMessage": "docs: record five-game optimization and verified source pushes",
+        "githubCommitOrg": "seraseraqqq",
+        "githubCommitRef": "main",
+        "githubCommitRepo": "gamehubs",
+        "githubCommitSha": "dc5994e61228e028c068137a5d69bce08b172fd0",
+        "githubDeployment": "1",
+        "githubOrg": "seraseraqqq",
+        "githubRepo": "gamehubs",
+        "githubRepoOwnerType": "User",
+        "githubCommitRepoId": "1429727092",
+        "githubRepoId": "1429727092",
+        "githubRepoVisibility": "public",
+        "githubHost": "github.com",
+        "githubCommitAuthorLogin": "seraseraqqq",
+        "githubCommitVerification": "unverified",
+        "repoPushedAt": "1792860082000",
+        "branchAlias": "costcodle-unlimited-git-main-gx03410-8651s-projects.vercel.app"
+      }
+    },
+    "protectionFingerprint": "05659a7e129ab14619b7fbf50d3356582b340f46178781aa87c81de91916df24",
+    "protectionSummary": {
+      "passwordProtection": {
+        "deploymentType": null,
+        "protectionMode": null
+      },
+      "ssoProtection": {
+        "deploymentType": "all_except_custom_domains",
+        "protectionMode": null
+      },
+      "trustedIps": {
+        "deploymentType": null,
+        "protectionMode": null
+      }
+    }
+  },
+  "gulper-io": {
+    "id": "prj_wVEVdXppNfidfGfeDXKSpDCEo1os",
+    "name": "gulperio-game",
+    "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+    "rootDirectory": "games/gulperio",
+    "buildCommand": null,
+    "installCommand": null,
+    "outputDirectory": null,
+    "framework": null,
+    "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/gulperio",
+    "nodeVersion": "24.x",
+    "link": {
+      "type": "github",
+      "org": "seraseraqqq",
+      "repo": "gamehubs",
+      "repoId": 1429727092,
+      "productionBranch": "main",
+      "createdAt": 1792684576856
+    },
+    "autoAssignCustomDomains": true,
+    "sourceFilesOutsideRootDirectory": true,
+    "environmentMetadata": [],
+    "productionDeployment": {
+      "id": "dpl_6eqV1fDaC2x5QiUCcfoXacmiVXZ6",
+      "url": "gulperio-game-cwjmqbuu2-gx03410-8651s-projects.vercel.app",
+      "readyState": "CANCELED",
+      "target": "production",
+      "meta": {
+        "githubCommitAuthorName": "seraseraqqq",
+        "githubCommitAuthorEmail": "seraseraqqq@users.noreply.github.com",
+        "githubCommitMessage": "docs: record five-game optimization and verified source pushes",
+        "githubCommitOrg": "seraseraqqq",
+        "githubCommitRef": "main",
+        "githubCommitRepo": "gamehubs",
+        "githubCommitSha": "dc5994e61228e028c068137a5d69bce08b172fd0",
+        "githubDeployment": "1",
+        "githubOrg": "seraseraqqq",
+        "githubRepo": "gamehubs",
+        "githubRepoOwnerType": "User",
+        "githubCommitRepoId": "1429727092",
+        "githubRepoId": "1429727092",
+        "githubRepoVisibility": "public",
+        "githubHost": "github.com",
+        "githubCommitAuthorLogin": "seraseraqqq",
+        "githubCommitVerification": "unverified",
+        "repoPushedAt": "1792860082000",
+        "branchAlias": "gulperio-game-git-main-gx03410-8651s-projects.vercel.app"
+      }
+    },
+    "protectionFingerprint": "9582faf9dceefc5322ded4495a95750df07e7badbb22f107b3f3a7dd2a2e4637",
+    "protectionSummary": {
+      "passwordProtection": {
+        "deploymentType": null,
+        "protectionMode": null
+      },
+      "ssoProtection": {
+        "deploymentType": null,
+        "protectionMode": null
+      },
+      "trustedIps": {
+        "deploymentType": null,
+        "protectionMode": null
+      }
+    }
+  },
+  "krillion-unlimited": {
+    "id": "prj_xhHw2V6WudYdeur8YHj70352uV8t",
+    "name": "gamehubs-summit-unlimited",
+    "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+    "rootDirectory": "games/summit-unlimited",
+    "buildCommand": null,
+    "installCommand": null,
+    "outputDirectory": null,
+    "framework": null,
+    "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/summit-unlimited",
+    "nodeVersion": "24.x",
+    "link": {
+      "type": "github",
+      "org": "seraseraqqq",
+      "repo": "gamehubs",
+      "repoId": 1429727092,
+      "productionBranch": "main",
+      "createdAt": 1792720757780
+    },
+    "autoAssignCustomDomains": true,
+    "sourceFilesOutsideRootDirectory": true,
+    "environmentMetadata": [],
+    "productionDeployment": {
+      "id": "dpl_HsdHmBkG79J271EHE7nuSMoJaZ9y",
+      "url": "gamehubs-summit-unlimited-1fj5582dr-gx03410-8651s-projects.vercel.app",
+      "readyState": "CANCELED",
+      "target": "production",
+      "meta": {
+        "githubCommitAuthorName": "seraseraqqq",
+        "githubCommitAuthorEmail": "seraseraqqq@users.noreply.github.com",
+        "githubCommitMessage": "docs: record five-game optimization and verified source pushes",
+        "githubCommitOrg": "seraseraqqq",
+        "githubCommitRef": "main",
+        "githubCommitRepo": "gamehubs",
+        "githubCommitSha": "dc5994e61228e028c068137a5d69bce08b172fd0",
+        "githubDeployment": "1",
+        "githubOrg": "seraseraqqq",
+        "githubRepo": "gamehubs",
+        "githubRepoOwnerType": "User",
+        "githubCommitRepoId": "1429727092",
+        "githubRepoId": "1429727092",
+        "githubRepoVisibility": "public",
+        "githubHost": "github.com",
+        "githubCommitAuthorLogin": "seraseraqqq",
+        "githubCommitVerification": "unverified",
+        "repoPushedAt": "1792860082000",
+        "branchAlias": "gamehubs-summit-unlimited-git-main-gx03410-8651s-projects.vercel.app"
+      }
+    },
+    "protectionFingerprint": "05659a7e129ab14619b7fbf50d3356582b340f46178781aa87c81de91916df24",
+    "protectionSummary": {
+      "passwordProtection": {
+        "deploymentType": null,
+        "protectionMode": null
+      },
+      "ssoProtection": {
+        "deploymentType": "all_except_custom_domains",
+        "protectionMode": null
+      },
+      "trustedIps": {
+        "deploymentType": null,
+        "protectionMode": null
+      }
+    }
+  },
+  "spacebar-counter": {
+    "id": "prj_ZA5GkbBwJWrcVGbH3cOum7eshiH5",
+    "name": "gamehubs-spacebar-counter",
+    "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+    "rootDirectory": "games/spacebar-counter",
+    "buildCommand": "node scripts/build.mjs --origin https://www.spacebarcounter.xyz",
+    "installCommand": null,
+    "outputDirectory": "dist",
+    "framework": null,
+    "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/spacebar-counter",
+    "nodeVersion": "24.x",
+    "link": {
+      "type": "github",
+      "org": "seraseraqqq",
+      "repo": "gamehubs",
+      "repoId": 1429727092,
+      "productionBranch": "main",
+      "createdAt": 1792751058904
+    },
+    "autoAssignCustomDomains": true,
+    "sourceFilesOutsideRootDirectory": true,
+    "environmentMetadata": [],
+    "productionDeployment": {
+      "id": "dpl_GMrAYEZWrUnTzWQSVdNtdJ9mynBg",
+      "url": "gamehubs-spacebar-counter-1r9610s9d-gx03410-8651s-projects.vercel.app",
+      "readyState": "CANCELED",
+      "target": "production",
+      "meta": {
+        "githubCommitAuthorName": "seraseraqqq",
+        "githubCommitAuthorEmail": "seraseraqqq@users.noreply.github.com",
+        "githubCommitMessage": "docs: record five-game optimization and verified source pushes",
+        "githubCommitOrg": "seraseraqqq",
+        "githubCommitRef": "main",
+        "githubCommitRepo": "gamehubs",
+        "githubCommitSha": "dc5994e61228e028c068137a5d69bce08b172fd0",
+        "githubDeployment": "1",
+        "githubOrg": "seraseraqqq",
+        "githubRepo": "gamehubs",
+        "githubRepoOwnerType": "User",
+        "githubCommitRepoId": "1429727092",
+        "githubRepoId": "1429727092",
+        "githubRepoVisibility": "public",
+        "githubHost": "github.com",
+        "githubCommitAuthorLogin": "seraseraqqq",
+        "githubCommitVerification": "unverified",
+        "repoPushedAt": "1792860082000",
+        "branchAlias": "gamehubs-spacebar-counter-git-main-gx03410-8651s-projects.vercel.app"
+      }
+    },
+    "protectionFingerprint": "05659a7e129ab14619b7fbf50d3356582b340f46178781aa87c81de91916df24",
+    "protectionSummary": {
+      "passwordProtection": {
+        "deploymentType": null,
+        "protectionMode": null
+      },
+      "ssoProtection": {
+        "deploymentType": "all_except_custom_domains",
+        "protectionMode": null
+      },
+      "trustedIps": {
+        "deploymentType": null,
+        "protectionMode": null
+      }
+    }
+  },
+  "2048-cupcakes": {
+    "id": "prj_UBsTArCEOkIUbAknbc9hk9V3Of49",
+    "name": "gamehubs-2048-cupcakes",
+    "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+    "rootDirectory": "games/2048-cupcakes",
+    "buildCommand": "node scripts/build.mjs --origin https://www.2048cupcakes.xyz",
+    "installCommand": null,
+    "outputDirectory": "dist",
+    "framework": null,
+    "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/2048-cupcakes",
+    "nodeVersion": "24.x",
+    "link": {
+      "type": "github",
+      "org": "seraseraqqq",
+      "repo": "gamehubs",
+      "repoId": 1429727092,
+      "productionBranch": "main",
+      "createdAt": 1792751050111
+    },
+    "autoAssignCustomDomains": true,
+    "sourceFilesOutsideRootDirectory": true,
+    "environmentMetadata": [],
+    "productionDeployment": {
+      "id": "dpl_7zLRa7ZKMRz2HgHaRmYeR9qpEd55",
+      "url": "gamehubs-2048-cupcakes-qjpwei7tj-gx03410-8651s-projects.vercel.app",
+      "readyState": "CANCELED",
+      "target": "production",
+      "meta": {
+        "githubCommitAuthorName": "seraseraqqq",
+        "githubCommitAuthorEmail": "seraseraqqq@users.noreply.github.com",
+        "githubCommitMessage": "docs: record five-game optimization and verified source pushes",
+        "githubCommitOrg": "seraseraqqq",
+        "githubCommitRef": "main",
+        "githubCommitRepo": "gamehubs",
+        "githubCommitSha": "dc5994e61228e028c068137a5d69bce08b172fd0",
+        "githubDeployment": "1",
+        "githubOrg": "seraseraqqq",
+        "githubRepo": "gamehubs",
+        "githubRepoOwnerType": "User",
+        "githubCommitRepoId": "1429727092",
+        "githubRepoId": "1429727092",
+        "githubRepoVisibility": "public",
+        "githubHost": "github.com",
+        "githubCommitAuthorLogin": "seraseraqqq",
+        "githubCommitVerification": "unverified",
+        "repoPushedAt": "1792860082000",
+        "branchAlias": "gamehubs-2048-cupcakes-git-main-gx03410-8651s-projects.vercel.app"
+      }
+    },
+    "protectionFingerprint": "05659a7e129ab14619b7fbf50d3356582b340f46178781aa87c81de91916df24",
+    "protectionSummary": {
+      "passwordProtection": {
+        "deploymentType": null,
+        "protectionMode": null
+      },
+      "ssoProtection": {
+        "deploymentType": "all_except_custom_domains",
+        "protectionMode": null
+      },
+      "trustedIps": {
+        "deploymentType": null,
+        "protectionMode": null
+      }
+    }
+  },
+  "coreball": {
+    "id": "prj_xAnOBpM5NUmWKngYfcmOllxYqjoI",
+    "name": "gamehubs-coreball",
+    "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+    "rootDirectory": "games/coreball",
+    "buildCommand": "node scripts/build.mjs",
+    "installCommand": null,
+    "outputDirectory": "dist",
+    "framework": null,
+    "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/coreball",
+    "nodeVersion": "24.x",
+    "link": {
+      "type": "github",
+      "org": "seraseraqqq",
+      "repo": "gamehubs",
+      "repoId": 1429727092,
+      "productionBranch": "main",
+      "createdAt": 1792806728975
+    },
+    "autoAssignCustomDomains": true,
+    "sourceFilesOutsideRootDirectory": true,
+    "environmentMetadata": [],
+    "productionDeployment": {
+      "id": "dpl_HA755Gs3FQM8DQF574nAwksLuRHN",
+      "url": "gamehubs-coreball-o7aotzftl-gx03410-8651s-projects.vercel.app",
+      "readyState": "CANCELED",
+      "target": "production",
+      "meta": {
+        "githubCommitAuthorName": "seraseraqqq",
+        "githubCommitAuthorEmail": "seraseraqqq@users.noreply.github.com",
+        "githubCommitMessage": "docs: record five-game optimization and verified source pushes",
+        "githubCommitOrg": "seraseraqqq",
+        "githubCommitRef": "main",
+        "githubCommitRepo": "gamehubs",
+        "githubCommitSha": "dc5994e61228e028c068137a5d69bce08b172fd0",
+        "githubDeployment": "1",
+        "githubOrg": "seraseraqqq",
+        "githubRepo": "gamehubs",
+        "githubRepoOwnerType": "User",
+        "githubCommitRepoId": "1429727092",
+        "githubRepoId": "1429727092",
+        "githubRepoVisibility": "public",
+        "githubHost": "github.com",
+        "githubCommitAuthorLogin": "seraseraqqq",
+        "githubCommitVerification": "unverified",
+        "repoPushedAt": "1792860082000",
+        "branchAlias": "gamehubs-coreball-git-main-gx03410-8651s-projects.vercel.app"
+      }
+    },
+    "protectionFingerprint": "05659a7e129ab14619b7fbf50d3356582b340f46178781aa87c81de91916df24",
+    "protectionSummary": {
+      "passwordProtection": {
+        "deploymentType": null,
+        "protectionMode": null
+      },
+      "ssoProtection": {
+        "deploymentType": "all_except_custom_domains",
+        "protectionMode": null
+      },
+      "trustedIps": {
+        "deploymentType": null,
+        "protectionMode": null
+      }
+    }
+  },
+  "minute-cryptic-unlimited": {
+    "id": "prj_hKCyWqOUmFci5SPktSFbYFU7asd5",
+    "name": "gamehubs-minute-cryptic-unlimited",
+    "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+    "rootDirectory": "games/minute-cryptic-unlimited",
+    "buildCommand": null,
+    "installCommand": null,
+    "outputDirectory": null,
+    "framework": null,
+    "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/minute-cryptic-unlimited",
+    "nodeVersion": "24.x",
+    "link": {
+      "type": "github",
+      "org": "seraseraqqq",
+      "repo": "gamehubs",
+      "repoId": 1429727092,
+      "productionBranch": "main",
+      "createdAt": 1792806760718
+    },
+    "autoAssignCustomDomains": true,
+    "sourceFilesOutsideRootDirectory": true,
+    "environmentMetadata": [],
+    "productionDeployment": {
+      "id": "dpl_AVfadmpEesa9Dv2kioK7Voq2F1et",
+      "url": "gamehubs-minute-cryptic-unlimited-5jx8qdu3r.vercel.app",
+      "readyState": "CANCELED",
+      "target": "production",
+      "meta": {
+        "githubCommitAuthorName": "seraseraqqq",
+        "githubCommitAuthorEmail": "seraseraqqq@users.noreply.github.com",
+        "githubCommitMessage": "docs: record five-game optimization and verified source pushes",
+        "githubCommitOrg": "seraseraqqq",
+        "githubCommitRef": "main",
+        "githubCommitRepo": "gamehubs",
+        "githubCommitSha": "dc5994e61228e028c068137a5d69bce08b172fd0",
+        "githubDeployment": "1",
+        "githubOrg": "seraseraqqq",
+        "githubRepo": "gamehubs",
+        "githubRepoOwnerType": "User",
+        "githubCommitRepoId": "1429727092",
+        "githubRepoId": "1429727092",
+        "githubRepoVisibility": "public",
+        "githubHost": "github.com",
+        "githubCommitAuthorLogin": "seraseraqqq",
+        "githubCommitVerification": "unverified",
+        "repoPushedAt": "1792860082000",
+        "branchAlias": "gamehubs-minute-cryptic-unlim-git-2d7172-gx03410-8651s-projects.vercel.app"
+      }
+    },
+    "protectionFingerprint": "05659a7e129ab14619b7fbf50d3356582b340f46178781aa87c81de91916df24",
+    "protectionSummary": {
+      "passwordProtection": {
+        "deploymentType": null,
+        "protectionMode": null
+      },
+      "ssoProtection": {
+        "deploymentType": "all_except_custom_domains",
+        "protectionMode": null
+      },
+      "trustedIps": {
+        "deploymentType": null,
+        "protectionMode": null
+      }
+    }
+  },
+  "snow-rider-3d-unblocked": {
+    "id": "prj_3y4ZqX4XVMJ1pKdopPhEzC92CpbY",
+    "name": "gamehubs-snow-rider-3d",
+    "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+    "rootDirectory": "games/snow-rider-3d-unblocked",
+    "buildCommand": "node scripts/build.mjs",
+    "installCommand": "",
+    "outputDirectory": "dist",
+    "framework": null,
+    "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/snow-rider-3d-unblocked",
+    "nodeVersion": "24.x",
+    "link": {
+      "type": "github",
+      "org": "seraseraqqq",
+      "repo": "gamehubs",
+      "repoId": 1429727092,
+      "productionBranch": "main",
+      "createdAt": 1792814807091
+    },
+    "autoAssignCustomDomains": true,
+    "sourceFilesOutsideRootDirectory": true,
+    "environmentMetadata": [
+      {
+        "key": "SITE_ORIGIN",
+        "type": "plain",
+        "target": [
+          "production"
+        ],
+        "gitBranch": null,
+        "id": "7b0n5RjSSS83tvku"
+      },
+      {
+        "key": "PUBLISHER_DOMAIN_STATUS",
+        "type": "plain",
+        "target": [
+          "production"
+        ],
+        "gitBranch": null,
+        "id": "M7dfNSbNFtBEeZvV"
+      }
+    ],
+    "productionDeployment": {
+      "id": "dpl_CiiLEq3Hs85oSs2kVymheEjK7uzg",
+      "url": "gamehubs-snow-rider-3d-7ofrynle3-gx03410-8651s-projects.vercel.app",
+      "readyState": "CANCELED",
+      "target": "production",
+      "meta": {
+        "githubCommitAuthorName": "seraseraqqq",
+        "githubCommitAuthorEmail": "seraseraqqq@users.noreply.github.com",
+        "githubCommitMessage": "docs: record five-game optimization and verified source pushes",
+        "githubCommitOrg": "seraseraqqq",
+        "githubCommitRef": "main",
+        "githubCommitRepo": "gamehubs",
+        "githubCommitSha": "dc5994e61228e028c068137a5d69bce08b172fd0",
+        "githubDeployment": "1",
+        "githubOrg": "seraseraqqq",
+        "githubRepo": "gamehubs",
+        "githubRepoOwnerType": "User",
+        "githubCommitRepoId": "1429727092",
+        "githubRepoId": "1429727092",
+        "githubRepoVisibility": "public",
+        "githubHost": "github.com",
+        "githubCommitAuthorLogin": "seraseraqqq",
+        "githubCommitVerification": "unverified",
+        "repoPushedAt": "1792860082000",
+        "branchAlias": "gamehubs-snow-rider-3d-git-main-gx03410-8651s-projects.vercel.app"
+      }
+    },
+    "protectionFingerprint": "05659a7e129ab14619b7fbf50d3356582b340f46178781aa87c81de91916df24",
+    "protectionSummary": {
+      "passwordProtection": {
+        "deploymentType": null,
+        "protectionMode": null
+      },
+      "ssoProtection": {
+        "deploymentType": "all_except_custom_domains",
+        "protectionMode": null
+      },
+      "trustedIps": {
+        "deploymentType": null,
+        "protectionMode": null
+      }
+    }
+  },
+  "head-soccer-2026": {
+    "id": "prj_iYamXrporUtpovAR6rwvL6QZuUPp",
+    "name": "gamehubs-head-soccer-2026",
+    "accountId": "team_yFBRBoOUaKz5Kjg6nxC3skZF",
+    "rootDirectory": "games/head-soccer-2026",
+    "buildCommand": "node scripts/build.mjs",
+    "installCommand": "",
+    "outputDirectory": "dist",
+    "framework": null,
+    "commandForIgnoringBuildStep": "node ../../scripts/vercel-ignore.mjs games/head-soccer-2026",
+    "nodeVersion": "24.x",
+    "link": {
+      "type": "github",
+      "org": "seraseraqqq",
+      "repo": "gamehubs",
+      "repoId": 1429727092,
+      "productionBranch": "main",
+      "createdAt": 1792814799901
+    },
+    "autoAssignCustomDomains": true,
+    "sourceFilesOutsideRootDirectory": true,
+    "environmentMetadata": [
+      {
+        "key": "SITE_ORIGIN",
+        "type": "plain",
+        "target": [
+          "production"
+        ],
+        "gitBranch": null,
+        "id": "Mi2HMQlM1AfpGAyo"
+      }
+    ],
+    "productionDeployment": {
+      "id": "dpl_3LkSjryMebtvomtBLr1EQ36vNPJU",
+      "url": "gamehubs-head-soccer-2026-20mrjiebf-gx03410-8651s-projects.vercel.app",
+      "readyState": "CANCELED",
+      "target": "production",
+      "meta": {
+        "githubCommitAuthorName": "seraseraqqq",
+        "githubCommitAuthorEmail": "seraseraqqq@users.noreply.github.com",
+        "githubCommitMessage": "docs: record five-game optimization and verified source pushes",
+        "githubCommitOrg": "seraseraqqq",
+        "githubCommitRef": "main",
+        "githubCommitRepo": "gamehubs",
+        "githubCommitSha": "dc5994e61228e028c068137a5d69bce08b172fd0",
+        "githubDeployment": "1",
+        "githubOrg": "seraseraqqq",
+        "githubRepo": "gamehubs",
+        "githubRepoOwnerType": "User",
+        "githubCommitRepoId": "1429727092",
+        "githubRepoId": "1429727092",
+        "githubRepoVisibility": "public",
+        "githubHost": "github.com",
+        "githubCommitAuthorLogin": "seraseraqqq",
+        "githubCommitVerification": "unverified",
+        "repoPushedAt": "1792860082000",
+        "branchAlias": "gamehubs-head-soccer-2026-git-main-gx03410-8651s-projects.vercel.app"
+      }
+    },
+    "protectionFingerprint": "05659a7e129ab14619b7fbf50d3356582b340f46178781aa87c81de91916df24",
+    "protectionSummary": {
+      "passwordProtection": {
+        "deploymentType": null,
+        "protectionMode": null
+      },
+      "ssoProtection": {
+        "deploymentType": "all_except_custom_domains",
+        "protectionMode": null
+      },
+      "trustedIps": {
+        "deploymentType": null,
+        "protectionMode": null
+      }
+    }
+  }
+}

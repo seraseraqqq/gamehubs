@@ -1,0 +1,82 @@
+{
+  "block-blast-unblocked": {
+    "requestedURL": "https://playblockblastunblocked.com/",
+    "finalURL": "https://playblockblastunblocked.com/",
+    "status": 200,
+    "title": "Block Blast Unblocked — Free 8×8 Block Puzzle",
+    "canonical": "https://playblockblastunblocked.com/",
+    "robots": "index, follow, max-image-preview:large"
+  },
+  "costcodle": {
+    "requestedURL": "https://costcodle.cc/",
+    "finalURL": "https://costcodle.cc/",
+    "status": 200,
+    "title": "Costcodle Unlimited — Daily Price Guessing Game",
+    "canonical": "https://costcodle.cc/",
+    "robots": "index, follow, max-image-preview:large"
+  },
+  "gulper-io": {
+    "requestedURL": "https://gulperio.com/",
+    "finalURL": "https://gulperio.com/",
+    "status": 200,
+    "title": "Gulper.io Snake Game — Play Online Free",
+    "canonical": "https://gulperio.com/",
+    "robots": "index, follow, max-image-preview:large"
+  },
+  "krillion-unlimited": {
+    "requestedURL": "https://krilliononline.com/",
+    "finalURL": "https://krilliononline.com/",
+    "status": 200,
+    "title": "STARLING — Free Space Word Game &amp; Rare Answer Challenge",
+    "canonical": "https://krilliononline.com/",
+    "robots": "index,follow,max-image-preview:large"
+  },
+  "spacebar-counter": {
+    "requestedURL": "https://www.spacebarcounter.xyz/",
+    "finalURL": "https://www.spacebarcounter.xyz/",
+    "status": 200,
+    "title": "Spacebar Counter — A Simple Spacebar Speed Test",
+    "canonical": "https://www.spacebarcounter.xyz/",
+    "robots": "index, follow, max-image-preview:large"
+  },
+  "2048-cupcakes": {
+    "requestedURL": "https://www.2048cupcakes.xyz/",
+    "finalURL": "https://www.2048cupcakes.xyz/",
+    "status": 200,
+    "title": "2048 Cupcakes — A Cozy Cupcake Merge Game | Crumb",
+    "canonical": "https://www.2048cupcakes.xyz/",
+    "robots": "index, follow, max-image-preview:large"
+  },
+  "coreball": {
+    "requestedURL": "https://gamehubs-coreball.vercel.app/",
+    "finalURL": "https://gamehubs-coreball.vercel.app/",
+    "status": 200,
+    "title": "Coreball – Play Free Online | 30 Levels",
+    "canonical": null,
+    "robots": "noindex, nofollow"
+  },
+  "minute-cryptic-unlimited": {
+    "requestedURL": "https://gamehubs-minute-cryptic-unlimited.vercel.app/",
+    "finalURL": "https://gamehubs-minute-cryptic-unlimited.vercel.app/",
+    "status": 200,
+    "title": "Minute Cryptic Unlimited – Free Cryptic Practice",
+    "canonical": null,
+    "robots": "noindex, nofollow"
+  },
+  "snow-rider-3d-unblocked": {
+    "requestedURL": "https://snowrider3d.top/",
+    "finalURL": "https://snowrider3d.top/",
+    "status": 200,
+    "title": "Snow Rider 3D Unblocked — Play Free Online",
+    "canonical": null,
+    "robots": "noindex, nofollow"
+  },
+  "head-soccer-2026": {
+    "requestedURL": "https://www.playheadsoccer.com/",
+    "finalURL": "https://www.playheadsoccer.com/",
+    "status": 200,
+    "title": "Head Soccer 2026 — Play Free Online, Solo & 2 Player",
+    "canonical": "https://www.playheadsoccer.com/",
+    "robots": "index, follow, max-image-preview:large"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "requestedURL": "https://gulperio-game-k2c4rj5tw-gx03410-8651s-projects.vercel.app",
+  "finalURL": "https://gulperio-game-k2c4rj5tw-gx03410-8651s-projects.vercel.app/",
+  "httpStatus": 200,
+  "robots": "noindex, nofollow",
+  "noindex": true,
+  "canonical": "https://gulperio.com/",
+  "title": "Gulper.io Snake Game — Play Online Free",
+  "scriptsVerified": [
+    "/audio.js",
+    "/bot-brain.js",
+    "/game.js?v=20261023-rivals"
+  ]
+}
