@@ -1,5 +1,7 @@
 # GameHubs · SEO 游戏站群管理
 
+**现行选词方向（2026-10-29）：** 以站主[附件SOP](docs/KEYWORD_SELECTION_SOP_SOURCE.md)为主，老词／竞品排名词为主、新游戏灵感为辅；先指标初筛，再真实SERP／版本核查，最后确认Trends持续性和建站条件。初筛Volume≥15,000、KD≤25；主候选Volume≥15,000、KD≤20，优先Volume≥20,000、KD≤18。KD21–22条件候选、23–25观察，KGR仅辅助，稳定需求不要求上涨；合法低成本实施与真实可超越性优先。详见[执行与回填约定](docs/KEYWORD_WORKFLOW.md)。下方历史分级和11项计划尚未按新标准复评，不作为默认新建队列；当前项目、发布与索引状态保持原记录。
+
 这里集中保存关键词研究、人工建站决定、项目进度、网站地址和唯一 GitHub 源码入口，供本人审查及 AI 接手。当前主资产为117词研究、11项建站方案与106词处置；词池另补录12个既有站点主词，并保留本机10词截图鱼类研究。Gulper主词已纠正为 `gulper io`，旧词保留历史独立身份。加上最新150个发现词，当前合计290词；最新150词已补采，120词有完整Volume/KD、33个数值过线词均有KGR、149词有趋势曲线，研究分级为A1/B2/未达标117/待验证30，未确认S档。[完整结果与来源缺项](research/2026-10-25-windows-keyword-recheck-f112093a-400e-4e4b-98f7-fd0f8c102a13/README.md)。已登记12个既有游戏和5个独立新项目，17个主词均与词池关联。
 
 ## 打开本地管理页
@@ -19,7 +21,8 @@ python3 scripts/hub.py serve --port 4310
 | 当前进度与本轮审查边界 | [HANDOFF.md](HANDOFF.md) |
 | 自动站群摘要 | [INDEX.md](INDEX.md) |
 | 使用、导入、审核、同步与恢复 | [使用说明](docs/USAGE.md) |
-| 后续挖词与全量回填约定 | [研究工作流与手动预设指令](docs/KEYWORD_WORKFLOW.md) |
+| 现行选词标准与全量回填 | [附件SOP原文](docs/KEYWORD_SELECTION_SOP_SOURCE.md) · [执行口径与手动预设](docs/KEYWORD_WORKFLOW.md) |
+| 可调用的挖词与建站方案skill | [`$gamehubs-keyword-site-plan`](docs/skills/gamehubs-keyword-site-plan/SKILL.md) · [跨设备安装](docs/skills/gamehubs-keyword-site-plan/references/portability.md) |
 | 研究来源、凭据、域名与默认统计接入 | [游戏开发与发布默认规则](docs/GAME_MANAGEMENT_RULES.md) |
 | 117词研究与完整证据 | [优先榜](research/2026-10-24-keyword-opportunities/SHORTLIST.md) · [全量台账](research/2026-10-24-keyword-opportunities/keyword-ledger.json) |
 | 建站优先级、任务与其余词处置 | [11项方案](research/2026-10-24-game-build-plan/README.md) · [106词处置](research/2026-10-24-game-build-plan/dispositions.json) |
